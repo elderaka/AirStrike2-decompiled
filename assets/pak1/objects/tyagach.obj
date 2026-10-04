@@ -1,0 +1,93 @@
+
+////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////// tyagach ////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////
+
+tyagach {
+        health  200
+        flag    FL_ONGROUND_NORMAL
+        enemy
+	score	200
+
+	skid_mark  28 45 20 "gfx/marks/jeepmark1.tga"
+	skid_mark -28 45 20 "gfx/marks/jeepmark1.tga"
+
+        model   "models\tyagach\tyagach_base.mdl"
+        skin    "models\tyagach\tyagach.tga"
+        shadow  SHADOW_PLANAR_LOW
+
+	attach  "helic_redflare" "tag_flare01"
+        attach  id "PRICEP" "tyagach_pricep" "tag_pricep"
+
+        attach abs night "svet_far" "tag_fara01"
+        attach abs "svet_far" "tag_fara03"
+        attach abs "tyagach_wh_1" "tag_wh1_01"
+        attach abs "tyagach_wh_1" "tag_wh1_02"
+        attach abs "tyagach_wh_1" "tag_wh1_03"
+        attach abs "tyagach_wh_1" "tag_wh1_04"
+        attach abs night "svet_far_wol" "tag_fara02"
+        attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+        script  "scripts\transport\tyagach\tyagach.scr"
+}
+
+tyagach_wh_1 {
+	model   "models\tyagach\tyagach_wh_1.mdl"
+        skin    "models\tyagach\tyagach.tga"
+        script  "scripts\transport\tyagach\tyagach_wheel.scr"
+}
+       
+tyagach_wh_2 {
+	model   "models\tyagach\tyagach_wh_2.mdl"
+        skin    "models\tyagach\tyagach.tga"
+        script  "scripts\transport\tyagach\tyagach_wheel.scr"
+}
+       
+tyagach_pricep {
+	model   "models\tyagach\tyagach_pricep.mdl"
+        skin    "models\tyagach\tyagach.tga"
+
+	skid_mark  28 -150 20 "gfx/marks/jeepmark1.tga"
+	skid_mark -28 -150 20 "gfx/marks/jeepmark1.tga"
+
+        attach abs "tyagach_wh_2" "tag_wh2_01"
+        attach abs "tyagach_wh_2" "tag_wh2_02"
+        attach abs "tyagach_pricep_pod" "tag_pod"
+
+        script  "scripts\transport\tyagach\pricep.scr"
+}
+       
+tyagach_pricep_pod {
+	model   "models\tyagach\tyagach_pricep_pod.mdl"
+        skin    "models\tyagach\tyagach.tga"
+}
+
+tyagach_dead {
+	model   "models\tyagach\tyagach_dead.mdl"
+        skin    "models\tyagach\tyagach_dead.tga"
+//        script  "scripts\dead2.scr"
+}
+
+
+
+
+
+tank_tyagach {
+	health	1200
+//	flag    FL_ONGROUND_NORMAL
+	flag    FL_TEMPORARY
+	enemy
+	
+	score	1200
+
+	model	"models/tanks/tank_medium_x/tank_medium_x.mdl"
+	skin	"models/tanks/tank_medium_x/tank_medium_x.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	attach abs "tank_medium_x_turret" "tag_turret"	
+	attach abs night "svet_far" "tag_fara01"
+	attach abs night "svet_far_wol" "tag_fara02"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\transport\tyagach\tank.scr"
+}

@@ -1,0 +1,301 @@
+entry=234 slots=25 functions=['AttachDeactivate', 'random', 'AttachActivate', 'move', 'sin', 'abs', 'TerrainHeight', 'rotatez', 'vec_sub', 'Shoot', 'create', 'remove']
+0000 INDEX_ADDRESS      a=-1 b=14 c=0 flags=0x00
+0001 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0002 MOVE               a=0 b=1127481344 c=0 flags=0x92 b_float=180
+0003 INDEX_ADDRESS      a=-1 b=5 c=0 flags=0x00
+0004 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0005 MOVE               a=0 b=1120403456 c=0 flags=0x92 b_float=100
+0006 MOVE               a=0 b=0 c=0 flags=0x10 b_float=0
+0007 CALL               a=-1 b=0 c=0 flags=0x00 external=AttachDeactivate
+0008 PUSH               a=0 b=0 c=0 flags=0x00
+0009 CALL               a=-2 b=1 c=0 flags=0x00 external=random
+0010 POP                a=0 b=0 c=0 flags=0x00
+0011 MUL                a=1 b=1135869952 c=1 flags=0x10 b_float=360
+0012 MOVE               a=16 b=1 c=0 flags=0x00
+0013 YIELD              a=0 b=0 c=0 flags=0x00
+0014 INDEX_ADDRESS      a=-1 b=34 c=0 flags=0x00
+0015 LT                 a=0 b=1112014848 c=0 flags=0x12 b_float=50
+0016 JUMP_IF_NONZERO    a=0 b=3 c=0 flags=0x00
+0017 MOVE               a=0 b=20 c=0 flags=0x10 b_float=2.8026e-44
+0018 CALL               a=-3 b=0 c=0 flags=0x00 external=AttachActivate
+0019 YIELD              a=0 b=0 c=0 flags=0x00
+0020 MUL                a=1112014848 b=-2 c=1 flags=0x01 a_float=50
+0021 MOVE               a=17 b=1 c=0 flags=0x00
+0022 INDEX_ADDRESS      a=-1 b=17 c=0 flags=0x00
+0023 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+0024 GT                 a=0 b=0 c=0 flags=0x12 b_float=0
+0025 JUMP_IF_NONZERO    a=0 b=12 c=0 flags=0x00
+0026 INDEX_ADDRESS      a=-1 b=17 c=0 flags=0x00
+0027 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+0028 SUB                a=0 b=17 c=0 flags=0x82
+0029 INDEX_ADDRESS      a=-1 b=17 c=0 flags=0x00
+0030 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+0031 LT                 a=0 b=0 c=0 flags=0x12 b_float=0
+0032 JUMP_IF_NONZERO    a=0 b=4 c=0 flags=0x00
+0033 INDEX_ADDRESS      a=-1 b=17 c=0 flags=0x00
+0034 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+0035 MOVE               a=0 b=0 c=0 flags=0x92 b_float=0
+0036 JUMP               a=15 b=0 c=0 flags=0x00
+0037 INDEX_ADDRESS      a=-1 b=17 c=0 flags=0x00
+0038 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+0039 LT                 a=0 b=0 c=0 flags=0x12 b_float=0
+0040 JUMP_IF_NONZERO    a=0 b=11 c=0 flags=0x00
+0041 INDEX_ADDRESS      a=-1 b=17 c=0 flags=0x00
+0042 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+0043 ADD                a=0 b=17 c=0 flags=0x82
+0044 INDEX_ADDRESS      a=-1 b=17 c=0 flags=0x00
+0045 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+0046 GT                 a=0 b=0 c=0 flags=0x12 b_float=0
+0047 JUMP_IF_NONZERO    a=0 b=4 c=0 flags=0x00
+0048 INDEX_ADDRESS      a=-1 b=17 c=0 flags=0x00
+0049 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+0050 MOVE               a=0 b=0 c=0 flags=0x92 b_float=0
+0051 INDEX_ADDRESS      a=-1 b=17 c=0 flags=0x00
+0052 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+0053 GT                 a=0 b=1121714176 c=0 flags=0x12 b_float=110
+0054 JUMP_IF_NONZERO    a=0 b=4 c=0 flags=0x00
+0055 INDEX_ADDRESS      a=-1 b=17 c=0 flags=0x00
+0056 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+0057 MOVE               a=0 b=1121714176 c=0 flags=0x92 b_float=110
+0058 INDEX_ADDRESS      a=-1 b=17 c=0 flags=0x00
+0059 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+0060 NEG                a=1121714176 b=0 c=1 flags=0x01 a_float=110
+0061 LT                 a=0 b=1 c=0 flags=0x02
+0062 JUMP_IF_NONZERO    a=0 b=5 c=0 flags=0x00
+0063 INDEX_ADDRESS      a=-1 b=17 c=0 flags=0x00
+0064 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+0065 NEG                a=1121714176 b=0 c=1 flags=0x01 a_float=110
+0066 MOVE               a=0 b=1 c=0 flags=0x82
+0067 INDEX_ADDRESS      a=-1 b=14 c=0 flags=0x00
+0068 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+0069 INDEX_ADDRESS      a=-1 b=17 c=1 flags=0x00
+0070 INDEX_ADDRESS      a=1 b=0 c=1 flags=0x00
+0071 DIV                a=1 b=1121714176 c=1 flags=0x12 b_float=110
+0072 MUL                a=1 b=1106247680 c=1 flags=0x10 b_float=30
+0073 MOVE               a=0 b=1 c=0 flags=0x82
+0074 INDEX_ADDRESS      a=-1 b=14 c=0 flags=0x00
+0075 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+0076 INDEX_ADDRESS      a=-1 b=17 c=1 flags=0x00
+0077 INDEX_ADDRESS      a=1 b=1 c=1 flags=0x00
+0078 DIV                a=1 b=1121714176 c=1 flags=0x12 b_float=110
+0079 NEG                a=1101004800 b=0 c=2 flags=0x01 a_float=20
+0080 MUL                a=1 b=2 c=1 flags=0x00
+0081 MOVE               a=0 b=1 c=0 flags=0x82
+0082 INDEX_ADDRESS      a=-1 b=17 c=0 flags=0x00
+0083 CALL               a=-4 b=0 c=0 flags=0x00 external=move
+0084 YIELD              a=0 b=0 c=0 flags=0x00
+0085 INDEX_ADDRESS      a=-1 b=5 c=0 flags=0x00
+0086 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+0087 SUB                a=0 b=-3 c=0 flags=0x02
+0088 LT                 a=0 b=1132593152 c=0 flags=0x10 b_float=260
+0089 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+0090 RETURN             a=0 b=0 c=0 flags=0x00
+0091 INDEX_ADDRESS      a=-1 b=4 c=0 flags=0x00
+0092 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x02
+0093 RETURN             a=0 b=0 c=0 flags=0x00
+0094 INDEX_ADDRESS      a=-1 b=17 c=0 flags=0x00
+0095 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+0096 NEG                a=1113325568 b=0 c=1 flags=0x01 a_float=55
+0097 MOVE               a=0 b=1 c=0 flags=0x82
+0098 CALL               a=20 b=0 c=0 flags=0x00
+0099 YIELD              a=0 b=0 c=0 flags=0x00
+0100 INDEX_ADDRESS      a=-1 b=4 c=0 flags=0x00
+0101 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x02
+0102 RETURN             a=0 b=0 c=0 flags=0x00
+0103 INDEX_ADDRESS      a=-1 b=17 c=0 flags=0x00
+0104 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+0105 INDEX_ADDRESS      a=-4 b=6 c=1 flags=0x00
+0106 INDEX_ADDRESS      a=1 b=1 c=1 flags=0x00
+0107 GE                 a=0 b=1 c=0 flags=0x22
+0108 JUMP_IF_NONZERO    a=0 b=7 c=0 flags=0x00
+0109 INDEX_ADDRESS      a=-1 b=17 c=0 flags=0x00
+0110 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+0111 INDEX_ADDRESS      a=-4 b=6 c=1 flags=0x00
+0112 INDEX_ADDRESS      a=1 b=1 c=1 flags=0x00
+0113 MOVE               a=0 b=1 c=0 flags=0xa2
+0114 RETURN             a=0 b=0 c=0 flags=0x00
+0115 INDEX_ADDRESS      a=-1 b=17 c=0 flags=0x00
+0116 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+0117 MUL                a=1116471296 b=-2 c=1 flags=0x01 a_float=70
+0118 ADD                a=0 b=1 c=0 flags=0x82
+0119 CALL               a=20 b=0 c=0 flags=0x00
+0120 YIELD              a=0 b=0 c=0 flags=0x00
+0121 INDEX_ADDRESS      a=-1 b=4 c=0 flags=0x00
+0122 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x02
+0123 RETURN             a=0 b=0 c=0 flags=0x00
+0124 INDEX_ADDRESS      a=-1 b=17 c=0 flags=0x00
+0125 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+0126 INDEX_ADDRESS      a=-4 b=6 c=1 flags=0x00
+0127 INDEX_ADDRESS      a=1 b=1 c=1 flags=0x00
+0128 PUSH               a=0 b=0 c=0 flags=0x80
+0129 PUSH               a=1 b=0 c=0 flags=0x00
+0130 PUSH               a=2 b=0 c=0 flags=0x00
+0131 INDEX_ADDRESS      a=-1 b=1 c=4 flags=0x00
+0132 MUL                a=1119092736 b=4 c=3 flags=0x21 a_float=90
+0133 MOVE               a=0 b=3 c=0 flags=0x00
+0134 CALL               a=-5 b=3 c=0 flags=0x00 external=sin
+0135 POP                a=2 b=0 c=2 flags=0x00
+0136 POP                a=1 b=0 c=1 flags=0x80
+0137 POP                a=0 b=0 c=0 flags=0x80
+0138 MUL                a=1111490560 b=3 c=2 flags=0x01 a_float=48
+0139 ADD                a=1 b=2 c=1 flags=0x02
+0140 MOVE               a=0 b=1 c=0 flags=0x82
+0141 INDEX_ADDRESS      a=-1 b=5 c=0 flags=0x00
+0142 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+0143 INDEX_ADDRESS      a=-5 b=5 c=1 flags=0x00
+0144 INDEX_ADDRESS      a=1 b=0 c=1 flags=0x00
+0145 SUB                a=0 b=1 c=0 flags=0x22
+0146 GT                 a=0 b=1115684864 c=0 flags=0x10 b_float=64
+0147 JUMP_IF_NONZERO    a=0 b=4 c=0 flags=0x00
+0148 NEG                a=1128792064 b=0 c=1 flags=0x01 a_float=200
+0149 MOVE               a=18 b=1 c=0 flags=0x00
+0150 JUMP               a=22 b=0 c=0 flags=0x00
+0151 INDEX_ADDRESS      a=-1 b=5 c=0 flags=0x00
+0152 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+0153 INDEX_ADDRESS      a=-5 b=5 c=1 flags=0x00
+0154 INDEX_ADDRESS      a=1 b=0 c=1 flags=0x00
+0155 SUB                a=0 b=1 c=0 flags=0x22
+0156 NEG                a=1115684864 b=0 c=1 flags=0x01 a_float=64
+0157 LT                 a=0 b=1 c=0 flags=0x00
+0158 JUMP_IF_NONZERO    a=0 b=3 c=0 flags=0x00
+0159 MOVE               a=18 b=1128792064 c=0 flags=0x10 b_float=200
+0160 JUMP               a=12 b=0 c=0 flags=0x00
+0161 PUSH               a=0 b=0 c=0 flags=0x00
+0162 PUSH               a=1 b=0 c=0 flags=0x00
+0163 INDEX_ADDRESS      a=-1 b=1 c=2 flags=0x00
+0164 MUL                a=2 b=1114636288 c=2 flags=0x12 b_float=60
+0165 ADD                a=2 b=16 c=2 flags=0x00
+0166 MOVE               a=0 b=2 c=0 flags=0x00
+0167 CALL               a=-5 b=2 c=0 flags=0x00 external=sin
+0168 POP                a=1 b=0 c=1 flags=0x00
+0169 POP                a=0 b=0 c=0 flags=0x00
+0170 MUL                a=1123024896 b=2 c=1 flags=0x01 a_float=120
+0171 MOVE               a=18 b=1 c=0 flags=0x00
+0172 INDEX_ADDRESS      a=-1 b=17 c=0 flags=0x00
+0173 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+0174 MUL                a=18 b=-2 c=1 flags=0x00
+0175 ADD                a=0 b=1 c=0 flags=0x82
+0176 CALL               a=20 b=0 c=0 flags=0x00
+0177 YIELD              a=0 b=0 c=0 flags=0x00
+0178 INDEX_ADDRESS      a=-1 b=4 c=0 flags=0x00
+0179 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x02
+0180 RETURN             a=0 b=0 c=0 flags=0x00
+0181 INDEX_ADDRESS      a=-1 b=17 c=0 flags=0x00
+0182 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+0183 MOVE               a=0 b=0 c=0 flags=0x20
+0184 CALL               a=-6 b=0 c=0 flags=0x00 external=abs
+0185 LT                 a=0 b=1121714176 c=0 flags=0x10 b_float=110
+0186 JUMP_IF_NONZERO    a=0 b=5 c=0 flags=0x00
+0187 INDEX_ADDRESS      a=-1 b=17 c=0 flags=0x00
+0188 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+0189 MUL                a=1116471296 b=-2 c=1 flags=0x01 a_float=70
+0190 SUB                a=0 b=1 c=0 flags=0x82
+0191 CALL               a=20 b=0 c=0 flags=0x00
+0192 YIELD              a=0 b=0 c=0 flags=0x00
+0193 INDEX_ADDRESS      a=-1 b=5 c=0 flags=0x00
+0194 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0195 SUB                a=0 b=1084227584 c=0 flags=0x12 b_float=5
+0196 PUSH               a=0 b=0 c=0 flags=0x00
+0197 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0198 INDEX_ADDRESS      a=1 b=0 c=1 flags=0x00
+0199 MOVE               a=0 b=1 c=0 flags=0x20
+0200 INDEX_ADDRESS      a=-1 b=5 c=2 flags=0x00
+0201 INDEX_ADDRESS      a=2 b=1 c=2 flags=0x00
+0202 MOVE               a=1 b=2 c=0 flags=0x20
+0203 CALL               a=-7 b=1 c=0 flags=0x00 external=TerrainHeight
+0204 POP                a=0 b=0 c=0 flags=0x00
+0205 LE                 a=0 b=1 c=0 flags=0x00
+0206 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+0207 RETURN             a=0 b=0 c=0 flags=0x00
+0208 INDEX_ADDRESS      a=-1 b=17 c=0 flags=0x00
+0209 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0210 MUL                a=1109393408 b=-2 c=1 flags=0x01 a_float=40
+0211 SUB                a=0 b=1 c=0 flags=0x82
+0212 INDEX_ADDRESS      a=-1 b=14 c=1 flags=0x00
+0213 INDEX_ADDRESS      a=1 b=1 c=1 flags=0x00
+0214 MUL                a=1119092736 b=1 c=0 flags=0x21 a_float=90
+0215 DIV                a=0 b=1106247680 c=0 flags=0x10 b_float=30
+0216 CALL               a=-8 b=0 c=0 flags=0x00 external=rotatez
+0217 INDEX_ADDRESS      a=-1 b=17 c=0 flags=0x00
+0218 CALL               a=-4 b=0 c=0 flags=0x00 external=move
+0219 YIELD              a=0 b=0 c=0 flags=0x00
+0220 MOVE               a=19 b=0 c=0 flags=0x00
+0221 INDEX_ADDRESS      a=-5 b=5 c=0 flags=0x00
+0222 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0223 MOVE               a=2 b=20 c=0 flags=0x00
+0224 CALL               a=-9 b=0 c=0 flags=0x00 external=vec_sub
+0225 INDEX_ADDRESS      a=20 b=1 c=0 flags=0x00
+0226 ADD                a=0 b=1107296256 c=0 flags=0x92 b_float=32
+0227 INDEX_ADDRESS      a=20 b=2 c=0 flags=0x00
+0228 ADD                a=0 b=1107296256 c=0 flags=0x92 b_float=32
+0229 MOVE               a=0 b=40 c=0 flags=0x10 b_float=5.60519e-44
+0230 MOVE               a=1 b=19 c=0 flags=0x00
+0231 MOVE               a=2 b=20 c=0 flags=0x00
+0232 CALL               a=-10 b=0 c=0 flags=0x00 external=Shoot
+0233 YIELD              a=0 b=0 c=0 flags=0x00
+0234 CALL_WAIT          a=100 b=0 c=0 flags=0x00
+0235 CALL_WAIT          a=85 b=0 c=0 flags=0x00
+0236 INDEX_ADDRESS      a=-1 b=1 c=0 flags=0x00
+0237 MOVE               a=0 b=0 c=0 flags=0x92 b_float=0
+0238 MOVE               a=24 b=1092616192 c=0 flags=0x10 b_float=10
+0239 GT                 a=24 b=0 c=0 flags=0x10 b_float=0
+0240 JUMP_IF_NONZERO    a=0 b=26 c=0 flags=0x00
+0241 INDEX_ADDRESS      a=-1 b=4 c=0 flags=0x00
+0242 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x02
+0243 JUMP               a=23 b=0 c=0 flags=0x00
+0244 SET_WAIT           a=1065353216 b=0 c=0 flags=0x01 a_float=1
+0245 CALL_WAIT          a=121 b=0 c=0 flags=0x00
+0246 MOVE               a=0 b=57 c=0 flags=0x10 b_float=7.9874e-44
+0247 CALL               a=220 b=0 c=0 flags=0x00
+0248 MOVE               a=0 b=66 c=0 flags=0x10 b_float=9.24857e-44
+0249 CALL               a=220 b=0 c=0 flags=0x00
+0250 SET_WAIT           a=1056964608 b=0 c=0 flags=0x01 a_float=0.5
+0251 CALL_WAIT          a=121 b=0 c=0 flags=0x00
+0252 INDEX_ADDRESS      a=-1 b=4 c=0 flags=0x00
+0253 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x02
+0254 JUMP               a=12 b=0 c=0 flags=0x00
+0255 MOVE               a=0 b=75 c=0 flags=0x10 b_float=1.05097e-43
+0256 CALL               a=220 b=0 c=0 flags=0x00
+0257 MOVE               a=0 b=84 c=0 flags=0x10 b_float=1.17709e-43
+0258 CALL               a=220 b=0 c=0 flags=0x00
+0259 SET_WAIT           a=1036831949 b=0 c=0 flags=0x01 a_float=0.1
+0260 CALL_WAIT          a=121 b=0 c=0 flags=0x00
+0261 INDEX_ADDRESS      a=-1 b=4 c=0 flags=0x00
+0262 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x02
+0263 JUMP               a=3 b=0 c=0 flags=0x00
+0264 SUB                a=24 b=1065353216 c=24 flags=0x10 b_float=1
+0265 JUMP               a=-26 b=0 c=0 flags=0x00
+0266 INDEX_ADDRESS      a=-1 b=4 c=0 flags=0x00
+0267 NOT_INT            a=0 b=0 c=0 flags=0x02
+0268 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+0269 CALL_WAIT          a=178 b=0 c=0 flags=0x00
+0270 CALL               a=-2 b=0 c=0 flags=0x00 external=random
+0271 LT                 a=0 b=1056964608 c=0 flags=0x10 b_float=0.5
+0272 JUMP_IF_NONZERO    a=0 b=9 c=0 flags=0x00
+0273 MOVE               a=0 b=93 c=0 flags=0x10 b_float=1.30321e-43
+0274 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0275 CALL               a=-11 b=0 c=0 flags=0x00 external=create
+0276 MOVE               a=0 b=105 c=0 flags=0x10 b_float=1.47136e-43
+0277 CALL               a=-1 b=0 c=0 flags=0x00 external=AttachDeactivate
+0278 MOVE               a=0 b=-1 c=0 flags=0x00
+0279 CALL               a=-12 b=0 c=0 flags=0x00 external=remove
+0280 JUMP               a=19 b=0 c=0 flags=0x00
+0281 CALL_WAIT          a=193 b=0 c=0 flags=0x00
+0282 MOVE               a=0 b=125 c=0 flags=0x10 b_float=1.75162e-43
+0283 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0284 CALL               a=-11 b=0 c=0 flags=0x00 external=create
+0285 MOVE               a=0 b=131 c=0 flags=0x10 b_float=1.8357e-43
+0286 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0287 CALL               a=-11 b=0 c=0 flags=0x00 external=create
+0288 INDEX_ADDRESS      a=-1 b=5 c=0 flags=0x00
+0289 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0290 GT                 a=0 b=-6 c=0 flags=0x02
+0291 JUMP_IF_NONZERO    a=0 b=4 c=0 flags=0x00
+0292 MOVE               a=0 b=142 c=0 flags=0x10 b_float=1.98984e-43
+0293 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0294 CALL               a=-11 b=0 c=0 flags=0x00 external=create
+0295 MOVE               a=0 b=157 c=0 flags=0x10 b_float=2.20004e-43
+0296 CALL               a=-1 b=0 c=0 flags=0x00 external=AttachDeactivate
+0297 MOVE               a=0 b=-1 c=0 flags=0x00
+0298 CALL               a=-12 b=0 c=0 flags=0x00 external=remove
+0299 YIELD              a=0 b=0 c=0 flags=0x00

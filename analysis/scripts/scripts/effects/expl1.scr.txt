@@ -1,0 +1,49 @@
+entry=0 slots=16 functions=['random', 'StartSound', 'create', 'CameraQuake', 'sleep', 'remove']
+0000 CALL               a=-1 b=0 c=0 flags=0x00 external=random
+0001 LT                 a=0 b=1056964608 c=0 flags=0x10 b_float=0.5
+0002 JUMP_IF_NONZERO    a=0 b=4 c=0 flags=0x00
+0003 MOVE               a=0 b=0 c=0 flags=0x10 b_float=0
+0004 CALL               a=-2 b=0 c=0 flags=0x00 external=StartSound
+0005 JUMP               a=3 b=0 c=0 flags=0x00
+0006 MOVE               a=0 b=17 c=0 flags=0x10 b_float=2.38221e-44
+0007 CALL               a=-2 b=0 c=0 flags=0x00 external=StartSound
+0008 MOVE               a=0 b=34 c=0 flags=0x10 b_float=4.76441e-44
+0009 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0010 CALL               a=-3 b=0 c=0 flags=0x00 external=create
+0011 MOVE               a=0 b=39 c=0 flags=0x10 b_float=5.46506e-44
+0012 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0013 CALL               a=-3 b=0 c=0 flags=0x00 external=create
+0014 MOVE               a=0 b=48 c=0 flags=0x10 b_float=6.72623e-44
+0015 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0016 CALL               a=-3 b=0 c=0 flags=0x00 external=create
+0017 MOVE               a=0 b=60 c=0 flags=0x10 b_float=8.40779e-44
+0018 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0019 CALL               a=-3 b=0 c=0 flags=0x00 external=create
+0020 MOVE               a=0 b=72 c=0 flags=0x10 b_float=1.00893e-43
+0021 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0022 CALL               a=-3 b=0 c=0 flags=0x00 external=create
+0023 MOVE               a=0 b=84 c=0 flags=0x10 b_float=1.17709e-43
+0024 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0025 CALL               a=-3 b=0 c=0 flags=0x00 external=create
+0026 MOVE               a=0 b=95 c=0 flags=0x10 b_float=1.33123e-43
+0027 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0028 CALL               a=-3 b=0 c=0 flags=0x00 external=create
+0029 MOVE               a=0 b=1056964608 c=0 flags=0x10 b_float=0.5
+0030 CALL               a=-4 b=0 c=0 flags=0x00 external=CameraQuake
+0031 MOVE               a=0 b=106 c=0 flags=0x10 b_float=1.48538e-43
+0032 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0033 CALL               a=-3 b=0 c=0 flags=0x00 external=create
+0034 MOVE               a=0 b=116 c=0 flags=0x10 b_float=1.62551e-43
+0035 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0036 CALL               a=-3 b=0 c=0 flags=0x00 external=create
+0037 MOVE               a=0 b=128 c=0 flags=0x10 b_float=1.79366e-43
+0038 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0039 CALL               a=-3 b=0 c=0 flags=0x00 external=create
+0040 SET_WAIT           a=1045220557 b=0 c=0 flags=0x01 a_float=0.2
+0041 CALL_WAIT          a=-5 b=0 c=0 flags=0x00 external=sleep
+0042 MOVE               a=0 b=144 c=0 flags=0x10 b_float=2.01787e-43
+0043 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0044 CALL               a=-3 b=0 c=0 flags=0x00 external=create
+0045 MOVE               a=0 b=-1 c=0 flags=0x00
+0046 CALL               a=-6 b=0 c=0 flags=0x00 external=remove
+0047 YIELD              a=0 b=0 c=0 flags=0x00

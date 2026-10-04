@@ -1,0 +1,42 @@
+////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////// buggy02 ///////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+
+buggy02 {
+	health	400
+	flag    FL_ONGROUND_NORMAL
+	enemy
+	score 400	
+	model	"models\buggy\buggy02\buggy02_base.mdl"
+	skin	"models\buggy\buggy02\buggy02.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	skid_mark  20 23 15 "gfx/marks/jeepmark1.tga"
+	skid_mark -20 23 15 "gfx/marks/jeepmark1.tga"
+
+	attach abs night "svet_far" "tag_fara01"
+	attach abs night "svet_far_wol" "tag_fara02"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+	attach abs "buggy02_wh_01" "tag_wh_01"
+	attach abs "buggy02_wh_02" "tag_wh_02"
+	attach abs "buggy02_turret" "tag_turret"
+	script	"scripts\buggys\buggy02\buggy02.scr"
+}
+
+buggy02_wh_01 {
+	model	"models\buggy\buggy02\buggy02_wh_01.mdl"
+	skin	"models\buggy\buggy02\buggy02.tga"
+	script	"scripts\buggys\buggy02\buggy02_wheel.scr"
+}
+
+buggy02_wh_02 {
+	model	"models\buggy\buggy02\buggy02_wh_02.mdl"
+	skin	"models\buggy\buggy02\buggy02.tga"
+	script	"scripts\buggys\buggy02\buggy02_wheel.scr"
+}
+
+buggy02_turret {
+	model	"models\buggy\buggy02\buggy02_turret.mdl"
+	skin	"models\buggy\buggy02\buggy02.tga"
+	script	"scripts\buggys\buggy02\buggy02_turret.scr"
+}

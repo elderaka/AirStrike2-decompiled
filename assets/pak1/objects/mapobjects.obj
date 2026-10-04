@@ -1,0 +1,2176 @@
+// =============================================================================
+//
+// MISCELANEOUS
+//
+// =============================================================================
+
+barrel {
+	model	"models\mapobjects\barrel\barrel1.mdl"
+	skin	"models\mapobjects\misc\misc.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+}
+
+barrel_with_fire {
+	model	"models\mapobjects\barrel\barrel_with_fire.mdl"
+	skin	"models\mapobjects\misc\misc.tga"
+	shadow	SHADOW_PROJECTED
+	rflag   RF_NOCULLING
+	attach  PS_BARREL_FIRE  "tag_fire"
+	flag    FL_ONGROUND
+	attach	campfire_light_small "origin"
+}
+
+
+barrel_benzin {
+	enemy
+	flag FL_NONTARGET
+        health  40
+	model	"models\mapobjects\barrel\barrel_benzin.mdl"
+	skin	"models\mapobjects\misc\misc.tga"
+        script  "scripts\barrel\barrel_benzin.scr"
+	flag    FL_ONGROUND
+}
+
+barrel_benzin_dead {
+	model	"models\mapobjects\barrel\barrel_benzin.mdl"
+	skin	"models\mapobjects\misc\misc.tga"
+        attach  PS_BARRELTRAIL "tag_fire"
+        script  "scripts\barrel\barrel_benzin_dead.scr"
+}
+
+barrel_benzin_naboku {
+	enemy
+	flag FL_NONTARGET
+        health  40
+	model	"models\mapobjects\barrel\barrel_benzin_naboku.mdl"
+	skin	"models\mapobjects\misc\misc.tga"
+        script  "scripts\barrel\barrel_benzin.scr"
+	flag    FL_ONGROUND
+}
+
+
+barrel_big {
+	enemy
+	flag FL_NONTARGET
+        health  250
+	model	"models\mapobjects\barrel\barrel_big.mdl"
+	skin	"models\mapobjects\barrel\barrel_big.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+	script  "scripts\effects\static_obj_expl_big.scr"
+}
+
+barrel_big_green {
+	enemy
+	flag FL_NONTARGET
+        health  250
+	model	"models\mapobjects\barrel\barrel_big_green.mdl"
+	skin	"models\mapobjects\barrel\barrel_big_green.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+	script  "scripts\effects\static_obj_expl_big.scr"
+}
+
+bochka01_dead {
+	model	"models\mapobjects\barrel\bochka01.mdl"
+	skin	"models\mapobjects\barrel\bochka.tga"
+        attach  PS_BARRELTRAIL "tag_fire"
+        script  "scripts\barrel\barrel_benzin_dead.scr"
+}
+
+bochka02_dead {
+	model	"models\mapobjects\barrel\bochka02.mdl"
+	skin	"models\mapobjects\barrel\bochka.tga"
+        attach  PS_BARRELTRAIL "tag_fire"
+        script  "scripts\barrel\barrel_benzin_dead.scr"
+}
+
+bochka01 {
+	enemy
+	flag FL_NONTARGET
+	shadow	SHADOW_PROJECTED
+	health  40
+	model	"models\mapobjects\barrel\bochka01.mdl"
+	skin	"models\mapobjects\barrel\bochka.tga"
+	script  "scripts\barrel\bochka.scr"
+	flag    FL_ONGROUND
+}
+
+bochka02 {
+	enemy
+	flag FL_NONTARGET
+	shadow	SHADOW_PROJECTED
+	health  40
+	model	"models\mapobjects\barrel\bochka02.mdl"
+	skin	"models\mapobjects\barrel\bochka.tga"
+	script  "scripts\barrel\bochka02.scr"
+	flag    FL_ONGROUND
+}
+
+///////////=======Balon=======///////////////////////////
+
+balon_gaz {
+        health  100
+	enemy
+	flag FL_NONTARGET
+
+	model	"models\mapobjects\barrel\balon_gaz.mdl"
+	skin	"models\mapobjects\misc\misc.tga"
+
+	shadow	SHADOW_PROJECTED
+
+        envmap  "gfx\envmap3.tga"
+        envmode ENV_GLITTER
+
+        attach  id "GAZ" PS_BALON_GAZ "tag_fire"
+
+        script  "scripts\barrel\balon_gaz.scr"
+	flag    FL_ONGROUND
+}
+
+balon_gaz_dead {
+        health  400
+	enemy
+	flag FL_NONTARGET
+
+	model	"models\mapobjects\barrel\balon_gaz.mdl"
+	skin	"models\mapobjects\misc\misc.tga"
+	flag    FL_ONGROUND
+
+	shadow	SHADOW_PROJECTED
+
+        envmap  "gfx\envmap3.tga"
+        envmode ENV_GLITTER
+
+        attach  PS_FLAMEFROWER "tag_fire"
+        attach  PS_FLAMEFROWER_BLUE "tag_fire"
+
+        script  "scripts\barrel\balon_gaz_dead.scr"
+}
+
+/////////////////////////////////////////////////////////////
+
+koster {
+        model   "models\mapobjects\misc\koster.mdl"
+        skin    "models\mapobjects\zabors\zabor_wood.tga"
+        shadow  SHADOW_PROJECTED
+	attach  PS_KOSTER_FIRE  "tag_fire"
+        flag    FL_ONGROUND
+	attach	campfire_light_small "origin"
+}
+
+
+box1 {
+	model	"models\mapobjects\misc\box1.mdl"
+	skin	"models\mapobjects\misc\misc.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+}
+
+box2 {
+	model	"models\mapobjects\misc\box2.mdl"
+	skin	"models\mapobjects\misc\misc.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+}
+
+box3 {
+	model	"models\mapobjects\misc\box3.mdl"
+	skin	"models\mapobjects\misc\misc.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+}
+
+
+box4_small {
+	model	"models\mapobjects\misc\box4_small.mdl"
+	skin	"models\mapobjects\misc\misc.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+}
+
+
+box5_small {
+	model	"models\mapobjects\misc\box5_small.mdl"
+	skin	"models\mapobjects\misc\misc.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+}
+
+box_crushed {
+	model	"models\mapobjects\misc\box_crushed.mdl"
+	skin	"models\mapobjects\misc\misc.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+}
+
+box_fromground {
+	model	"models\mapobjects\misc\box_fromground.mdl"
+	skin	"models\mapobjects\misc\misc.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+}
+
+
+box_brezent {
+	model	"models\mapobjects\misc\box_brezent.mdl"
+	skin	"models\mapobjects\misc\box_bresent.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+}
+
+
+boxes_green {
+	model	"models\mapobjects\misc\boxes_green.mdl"
+	skin	"models\mapobjects\misc\boxes_green.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+}
+
+boxes {
+	model	"models\mapobjects\misc\boxes1.mdl"
+	skin	"models\mapobjects\misc\box_bresent.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+}
+
+boxes2 {
+	model	"models\mapobjects\misc\boxes2.mdl"
+	skin	"models\mapobjects\misc\boxes2.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+}
+
+
+/////////////////////////////////////////////////
+////////////////////fonars///////////////////////
+/////////////////////////////////////////////////
+
+
+fonar2 {
+	model	"models\mapobjects\misc\fonar2.mdl"
+	skin	"models\mapobjects\misc\misc.tga"
+	shadow	SHADOW_PROJECTED
+	attach abs night "svet_fonar" "tag_light"
+	flag    FL_ONGROUND
+}
+
+fonar_big {
+	model	"models\mapobjects\misc\fonar_big.mdl"
+	skin	"models\mapobjects\misc\fonar_big.tga"
+	shadow	SHADOW_PROJECTED
+	blend	BLEND_ALPHA
+	rflag   RF_NOCULLING	
+	sort    SORT_TRANS
+	attach abs night "svet_fonar_big" "tag_light1"
+	attach abs night "svet_fonar_big" "tag_light2"
+	attach abs night "svet_fonar_big" "tag_light3"
+	attach abs night "svet_fonar_big" "tag_light4"
+	attach night "svet_big" "tag_light"
+	flag    FL_ONGROUND
+}
+
+fonar_stadion {
+	model	"models\mapobjects\misc\fonar_stadion.mdl"
+	skin	"models\mapobjects\misc\misc.tga"
+	shadow	SHADOW_PROJECTED
+	blend	BLEND_ALPHA
+	attach abs night "svet_fonar_stad_wol" "tag_light1"
+	attach abs night "svet_fonar_stad" "tag_light2"
+	attach abs night "svet_fonar_stad_wol" "tag_light3"
+	flag    FL_ONGROUND
+}
+
+
+fonar_old1 {
+	model	"models\mapobjects\misc\fonar_old1.mdl"
+	skin	"models\mapobjects\ruins\ruins.tga"
+	shadow	SHADOW_PROJECTED
+	attach abs night "svet_fonar" "tag_light"
+	flag    FL_ONGROUND
+}
+
+fonar_old2 {
+	model	"models\mapobjects\misc\fonar_old2.mdl"
+	skin	"models\mapobjects\ruins\ruins.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+}
+
+
+fonar_twice {
+	model	"models\mapobjects\misc\fonar2_twice.mdl"
+	skin	"models\mapobjects\misc\misc.tga"
+	shadow	SHADOW_PROJECTED
+	attach abs night "svet_fonar" "tag_light"
+	attach abs night "svet_fonar" "tag_light2"
+	flag    FL_ONGROUND
+}
+
+doroga_stop {
+	model	"models\mapobjects\misc\doroga_stop.mdl"
+	skin	"models\mapobjects\misc\misc.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+}
+
+///////////zhelroad/////////////////////
+
+
+zhelroad_stop {
+	model	"models\mapobjects\misc\zhelroad_stop.mdl"
+	skin	"models\mapobjects\misc\zhelroad_new.tga"
+	flag    FL_ONGROUND
+}
+
+zhelroad {
+	model	"models\mapobjects\misc\zhelroad_new.mdl"
+	skin	"models\mapobjects\misc\zhelroad_new.tga"
+	flag    FL_ONGROUND
+}
+
+zhelroad_diagonal {
+	model	"models\mapobjects\misc\zhelroad_new_diagonal.mdl"
+	skin	"models\mapobjects\misc\zhelroad_new.tga"
+	flag    FL_ONGROUND
+}
+
+zhelroad_rotate {
+	model	"models\mapobjects\misc\zhelroad_new_rotate.mdl"
+	skin	"models\mapobjects\misc\zhelroad_new.tga"
+	flag    FL_ONGROUND
+}
+
+zhelroad_old {
+	model	"models\mapobjects\misc\zhelroad.mdl"
+	skin	"models\mapobjects\ruins\ruins.tga"
+	flag    FL_ONGROUND_NORMAL
+}
+
+zhelroad_old2 {
+	model	"models\mapobjects\misc\zhelroad_old.mdl"
+	skin	"models\mapobjects\ruins\ruins.tga"
+	flag    FL_ONGROUND_NORMAL
+}
+
+zhelroad_train {
+
+	model	"models\mapobjects\misc\zhelroad_train.mdl"
+	skin	"models\mapobjects\misc\zhelroad_new_boss.tga"
+	flag    FL_ONGROUND
+}
+
+/////////////////////stones//////////////////////////
+
+
+kusok_betona {
+	model	"models\mapobjects\stones\kusok_betona.mdl"
+	skin	"models\mapobjects\ruins\ruins.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+}
+
+
+stone1_gray {
+	model	"models\mapobjects\stones\stone1_gray.mdl"
+	skin	"models\mapobjects\stones\stones.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+}
+
+stone2_yellow {
+	model	"models\mapobjects\stones\stone2_yellow.mdl"
+	skin	"models\mapobjects\stones\stones.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+}
+
+stone3_gray_big {
+	model	"models\mapobjects\stones\stone3_gray_big.mdl"
+	skin	"models\mapobjects\stones\stones.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+}
+
+
+stone4_gray_small {
+	model	"models\mapobjects\stones\stone4_gray_small.mdl"
+	skin	"models\mapobjects\stones\stones.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+}
+
+stone5_white {
+	model	"models\mapobjects\stones\stone5_white.mdl"
+	skin	"models\mapobjects\stones\stones.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+}
+
+stone6_gray {
+	model	"models\mapobjects\stones\stone6_gray.mdl"
+	skin	"models\mapobjects\stones\stones.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+}
+
+stone7_white {
+	model	"models\mapobjects\stones\stone7_white.mdl"
+	skin	"models\mapobjects\stones\stones.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+}
+
+stone8_white {
+	model	"models\mapobjects\stones\stone8_white.mdl"
+	skin	"models\mapobjects\stones\stones.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+}
+
+stone9_yellow {
+	model	"models\mapobjects\stones\stone9_yellow.mdl"
+	skin	"models\mapobjects\stones\stones.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+}
+
+stone_comb1 {
+	model	"models\mapobjects\stones\stone_comb1.mdl"
+	skin	"models\mapobjects\stones\stones.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+}
+
+stone_comb2 {
+	model	"models\mapobjects\stones\stone_comb2.mdl"
+	skin	"models\mapobjects\stones\stones.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+}
+
+/////////////////////trubes/////////////////////////
+
+
+truba_big {
+	model	"models\mapobjects\trubes\truba_big.mdl"
+	skin	"models\mapobjects\trubes\truba_big.tga"
+//	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+}
+
+truba_small_twice {
+	model	"models\mapobjects\trubes\truba_small_twice.mdl"
+	skin	"models\mapobjects\trubes\truba_oil.tga"
+	shadow	SHADOW_PROJECTED
+	health 10
+	civilian
+	flag FL_NONTARGET
+	flag    FL_ONGROUND
+	script  "scripts\effects\static_obj_expl_small.scr"
+
+}
+
+truba_small_twice_rotate {
+	model	"models\mapobjects\trubes\truba_small_twice_rotate.mdl"
+	skin	"models\mapobjects\trubes\truba_oil.tga"
+	shadow	SHADOW_PROJECTED
+	health 10
+	civilian
+	flag FL_NONTARGET
+	flag    FL_ONGROUND
+	script  "scripts\effects\static_obj_expl_small.scr"
+}
+
+truba {
+
+	model	"models\mapobjects\trubes\truba.mdl"
+	skin	"models\mapobjects\trubes\truba.tga"
+	shadow	SHADOW_PROJECTED
+	health 30
+//	enemy
+	flag FL_NONTARGET
+	flag    FL_ONGROUND
+	script  "scripts\effects\static_obj_expl_small.scr"
+}
+
+truba_prosto {
+                       
+	model	"models\mapobjects\trubes\truba_prosto.mdl"
+	skin	"models\mapobjects\trubes\truba.tga"
+	shadow	SHADOW_PROJECTED
+	health 10
+	civilian
+	flag FL_NONTARGET
+	flag    FL_ONGROUND
+	script  "scripts\effects\static_obj_expl_small.scr"
+}
+
+truba_rotate {
+                       
+	model	"models\mapobjects\trubes\truba_rotate.mdl"
+	skin	"models\mapobjects\trubes\truba.tga"
+	shadow	SHADOW_PROJECTED
+	health 10
+	civilian
+	flag FL_NONTARGET
+	flag    FL_ONGROUND
+	script  "scripts\effects\static_obj_expl_small.scr"
+}
+
+barricade {
+	model	"models\mapobjects\misc\barricade.mdl"
+	skin	"models\mapobjects\misc\barricade.tga"
+	shadow	SHADOW_PROJECTED
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PROJECTED
+	sort	SORT_TRANS
+	rflag 	RF_NOCULLING
+	flag    FL_ONGROUND
+}
+
+/////////////////////radars/////////////////////////
+
+whiteflare_small {
+        type    TYPE_SPRITE
+        skin    "gfx\flare_white_red_small.tga"
+        blend   BLEND_ADD
+        sort    SORT_EFFECT
+        rflag   RF_NODEPTHWRITE
+        min     -2 -2 0.0 0.0
+        max     2 2 0.5 1
+}
+
+redflare_small {
+        type    TYPE_SPRITE
+        skin    "gfx\flare_white_red_small.tga"
+        blend   BLEND_ADD
+        sort    SORT_EFFECT
+        rflag   RF_NODEPTHWRITE
+        min     -3 -3  0.5 0.0
+        max      3  3  1   1
+}
+
+radar_small_tarelka {
+	model	"models\mapobjects\radar\radar_small.mdl"
+	skin	"models\mapobjects\radar\radar_small.tga"
+	shadow	SHADOW_PROJECTED
+
+	attach "helic_redflare" "tag_flare1"
+	attach "whiteflare_small" "tag_flare2"
+	attach "whiteflare_small" "tag_flare3"
+	attach "whiteflare_small" "tag_flare4"
+	attach "whiteflare_small" "tag_flare5"
+
+	script	"scripts\radar.scr"
+	flag    FL_ONGROUND
+}
+
+radar_small {
+	health 	100
+	model	"models\mapobjects\radar\radar_small_base.mdl"
+	skin	"models\mapobjects\radar\radar_small.tga"
+	shadow	SHADOW_PROJECTED
+	blend	BLEND_ALPHA
+//	rflag   RF_NOCULLING	
+	sort    SORT_TRANS
+	attach abs "radar_small_tarelka" "tag_tarelka"
+	flag    FL_ONGROUND
+	script  "scripts\effects\static_obj_expl_medium.scr"
+}
+
+
+radar_small_black_tarelka {
+	model	"models\mapobjects\radar\radar_small.mdl"
+	skin	"models\mapobjects\radar\radar_small_black.tga"
+	shadow	SHADOW_PROJECTED
+
+	attach "helic_redflare" "tag_flare1"
+	attach "whiteflare_small" "tag_flare2"
+	attach "whiteflare_small" "tag_flare3"
+	attach "whiteflare_small" "tag_flare4"
+	attach "whiteflare_small" "tag_flare5"
+
+	script	"scripts\radar.scr"
+	flag    FL_ONGROUND
+}
+
+radar_small_black {
+	health 	100
+	model	"models\mapobjects\radar\radar_small_base.mdl"
+	skin	"models\mapobjects\radar\radar_small_black.tga"
+	shadow	SHADOW_PROJECTED
+	blend	BLEND_ALPHA
+//	rflag   RF_NOCULLING	
+	sort    SORT_TRANS
+	attach abs "radar_small_black_tarelka" "tag_tarelka"
+	flag    FL_ONGROUND
+	script  "scripts\effects\static_obj_expl_medium.scr"
+}
+
+radar {
+
+	model	"models\mapobjects\radar\radar.mdl"
+	skin	"models\mapobjects\radar\radar.tga"
+	shadow	SHADOW_PROJECTED
+
+	shadow	SHADOW_PROJECTED
+	blend	BLEND_ALPHA
+	rflag   RF_NOCULLING	
+	sort    SORT_TRANS
+
+	script	"scripts\radar.scr"
+}
+
+radar_big {
+
+	model	"models\mapobjects\radar\radar_pod.mdl"
+	skin	"models\mapobjects\radar\radar_pod.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+
+	attach abs "radar" "tag_radar"
+}
+
+/////////////////////shlagbaum/////////////////////////
+
+shlagbaum {
+	model	"models\mapobjects\misc\shlagbaum_base.mdl"
+	skin	"models\mapobjects\misc\shlagbaum.tga"
+	shadow	SHADOW_PROJECTED
+	attach abs "shlagbaum_strela" "tag_shlagbaum"
+	flag    FL_ONGROUND
+}
+
+shlagbaum_strela {
+	model	"models\mapobjects\misc\shlagbaum.mdl"
+	skin	"models\mapobjects\misc\shlagbaum.tga"
+	shadow  SHADOW_PLANAR_LOW
+	attach "helic_redflare" "tag_flare"
+	flag    FL_ONGROUND
+	script  "scripts\misc\shlagbaum.scr"
+}
+
+/////////////////////windmill/////////////////////////
+
+windmill {
+	model	"models\mapobjects\misc\windmill.mdl"
+	skin	"models\mapobjects\misc\windmill.tga"
+	shadow	SHADOW_PROJECTED
+	attach abs "windmill_lopasti" "tag_lopasti"
+	attach "vishka_flare" "tag_flare"
+	flag    FL_ONGROUND
+}
+
+windmill_lopasti {
+	model	"models\mapobjects\misc\windmill_lopasti.mdl"
+	skin	"models\mapobjects\misc\windmill.tga"
+	shadow  SHADOW_PLANAR_LOW
+	blend	BLEND_ALPHA
+	rflag   RF_NOCULLING	
+	sort    SORT_TRANS
+	flag    FL_ONGROUND
+	script  "scripts\misc\windmill_lopasti.scr"
+}
+
+windmill2 {
+	model	"models\mapobjects\misc\windmill.mdl"
+	skin	"models\mapobjects\misc\windmill2.tga"
+	shadow	SHADOW_PROJECTED
+	attach abs "windmill_lopasti" "tag_lopasti"
+	attach "vishka_flare" "tag_flare"
+	flag    FL_ONGROUND
+}
+
+windmill_lopasti2 {
+	model	"models\mapobjects\misc\windmill_lopasti.mdl"
+	skin	"models\mapobjects\misc\windmill2.tga"
+	shadow  SHADOW_PLANAR_LOW
+	blend	BLEND_ALPHA
+	rflag   RF_NOCULLING	
+	sort    SORT_TRANS
+	flag    FL_ONGROUND
+	script  "scripts\misc\windmill_lopasti.scr"
+}
+
+/////////////////////bridges/////////////////////////
+
+japanese_bridge_zabor {
+	model	"models\mapobjects\bridges\japbridge_zabor.mdl"
+	skin	"models\mapobjects\bridges\japbridge.tga"
+	shadow	SHADOW_PROJECTED
+        rflag   RF_NOCULLING
+        rflag   RF_NODEPTHWRITE
+        sort    SORT_TRANS
+	blend	BLEND_ALPHA
+	flag    FL_ONGROUND
+}
+
+japanese_bridge {
+	model	"models\mapobjects\bridges\japbridge.mdl"
+	skin	"models\mapobjects\bridges\japbridge.tga"
+	shadow	SHADOW_PROJECTED
+	attach abs "japanese_bridge_zabor" "tag_zabor"
+	flag    FL_ONGROUND
+}
+
+
+japanese_bridge_wo_zabor {
+	model	"models\mapobjects\bridges\japbridge_wo_zabor.mdl"
+	skin	"models\mapobjects\bridges\bridge1.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+}
+
+bridge1 {
+	model	"models\mapobjects\bridges\bridge1.mdl"
+	skin	"models\mapobjects\bridges\bridge1.tga"
+//	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+}
+
+bridge1_single {
+	model	"models\mapobjects\bridges\bridge1_single.mdl"
+	skin	"models\mapobjects\bridges\bridge_big_single.tga"
+//	shadow  SHADOW_PLANAR_HIGH
+	flag    FL_ONGROUND
+}
+
+bridge_big {
+	model	"models\mapobjects\bridges\bridge_big.mdl"
+	skin	"models\mapobjects\bridges\bridge1.tga"
+//	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+}
+
+bridge_big_single {
+	model	"models\mapobjects\bridges\bridge_big_single.mdl"
+	skin	"models\mapobjects\bridges\bridge_big_single.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+}
+
+bridge_big_zhelroad {
+	model	"models\mapobjects\bridges\bridge_big_zhelroad.mdl"
+	skin	"models\mapobjects\bridges\bridge_big_zhelroad.tga"
+	flag    FL_ONGROUND
+}
+
+most_new_wood {
+
+	flag    FL_ONGROUND
+
+	model	"models\mapobjects\bridges\most_new_wood.mdl"
+	skin	"models\mapobjects\bridges\most_new_wood.tga"
+}
+
+bridge_new {
+	flag    FL_ONGROUND
+	model	"models\mapobjects\bridges\bridge_new.mdl"
+	skin	"models\mapobjects\bridges\bridge_new.tga"
+}
+
+bridge_new02 {
+	flag    FL_ONGROUND
+	model	"models\mapobjects\bridges\bridge_new02.mdl"
+	skin	"models\mapobjects\bridges\bridge_new02.tga"
+	attach	abs "bridge_new02_a" "tag_a"
+}
+
+bridge_new02_a {
+        rflag   RF_NOCULLING
+        rflag   RF_NODEPTHWRITE
+        sort    SORT_TRANS
+	blend	BLEND_ALPHA
+	flag    FL_ONGROUND
+	model	"models\mapobjects\bridges\bridge_new02_a.mdl"
+	skin	"models\mapobjects\bridges\bridge_new02.tga"
+}
+
+vulkan {
+	model	"models\mapobjects\vulcan\vulkan.mdl"
+	skin	"models\mapobjects\vulcan\vulkan.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+	attach  PS_VULKAN_SMOKE  "tag_fire"
+}
+
+geyser {
+	model	"models\mapobjects\vulcan\geyser.mdl"
+	skin	"models\mapobjects\vulcan\geyser.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+	attach  PS_GEYSER  "tag_geyser"
+}
+
+blueflare_small {
+        type    TYPE_SPRITE
+        skin    "gfx\flare_blue_small.tga"
+        blend   BLEND_ADD
+        sort    SORT_EFFECT
+        rflag   RF_NODEPTHWRITE
+        min     -3 -3   0 0
+        max      3  3   1 1
+}
+
+
+helic_area {
+	model	"models\mapobjects\misc\helic_a.mdl"
+	skin	"models\mapobjects\misc\helic_a.tga"
+	blend	BLEND_ALPHA
+	sort    SORT_TRANS
+
+	attach "redflare_small" "tag_flare1"
+	attach "blueflare_small" "tag_flare2"
+	attach "redflare_small" "tag_flare3"
+	attach "blueflare_small" "tag_flare4"
+
+	flag    FL_ONGROUND
+}
+
+helic_area_eol {
+	model	"models\mapobjects\misc\helic_a_eol.mdl"
+	skin	"models\mapobjects\misc\helic_a.tga"
+	shadow	SHADOW_PROJECTED
+
+	attach "redflare_small" "tag_flare1"
+	attach "blueflare_small" "tag_flare2"
+	attach "redflare_small" "tag_flare3"
+	attach "blueflare_small" "tag_flare4"
+
+	flag    FL_ONGROUND
+}
+
+
+/////////////////////LASER BARRICADE/////////////////////////
+
+blueflare_small2 {
+        type    TYPE_SPRITE
+        skin    "gfx\flare_blue_small.tga"
+        blend   BLEND_ADD
+        sort    SORT_EFFECT
+        rflag   RF_NODEPTHTEST
+        min     -4 -4   0 0
+        max      4  4   1 1
+}
+
+
+laser_bar_lasers {
+	model	"models\mapobjects\misc\laser_bar_lasers.mdl"
+	skin	"models\mapobjects\misc\laser_bar.tga"
+        blend   BLEND_ADD
+	shadow	SHADOW_PROJECTED
+        rflag   RF_NOCULLING
+//        rflag   RF_NODEPTHTEST
+        rflag   RF_NOLIGHTING
+        sort    SORT_EFFECT
+	script "scripts\misc\laser_bar_lasers.scr"
+}
+
+
+laser_bar {
+	health  10000
+	enemy
+	flag FL_NONTARGET
+
+	model	"models\mapobjects\misc\laser_bar.mdl"
+	skin	"models\mapobjects\misc\laser_bar.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+
+	attach "redflare_small" "tag_flare1"
+	attach "redflare_small" "tag_flare2"
+	attach "blueflare_small2" "tag_flare3"
+	attach "blueflare_small2" "tag_flare4"
+	attach "blueflare_small2" "tag_flare5"
+	attach "blueflare_small2" "tag_flare6"
+	attach "blueflare_small2" "tag_flare7"
+	attach "blueflare_small2" "tag_flare8"
+	attach "blueflare_small2" "tag_flare9"
+	attach "blueflare_small2" "tag_flare10"
+	attach "blueflare_small2" "tag_flare11"
+	attach "blueflare_small2" "tag_flare12"
+	attach "blueflare_small2" "tag_flare13"
+	attach "blueflare_small2" "tag_flare14"
+
+	attach id "LASERS"  "laser_bar_lasers" "origin"
+
+	attach id "TOGGLE"  "laser_bar_toggle" "origin"
+
+	script "scripts\misc\laser_bar.scr"
+}
+
+
+redflare2 {
+        type    TYPE_SPRITE
+        skin    "gfx\flare_white_red_small.tga"
+        blend   BLEND_ADD
+        sort    SORT_EFFECT
+        rflag   RF_NODEPTHTEST
+        rflag   RF_NOCULLING
+        rflag   RF_NOLIGHTING
+        min     -8 -8  0.5 0.0
+        max      8  8  1   1
+}
+
+
+laser_bar_toggle_glass {
+	model	"models\mapobjects\misc\laser_bar_toggle_glass.mdl"
+	skin	"models\mapobjects\misc\laser_bar_toggle.tga"
+        blend   BLEND_ADD
+	shadow	SHADOW_PROJECTED
+//        rflag   RF_NOCULLING
+        rflag   RF_NOLIGHTING
+        sort    SORT_EFFECT
+
+        envmap  "gfx\envmap2.tga"
+        envmode ENV_GLITTER
+
+}
+
+
+laser_bar_toggle {
+	health  600
+	enemy
+	flag FL_NONTARGET
+
+	model	"models\mapobjects\misc\laser_bar_toggle.mdl"
+	skin	"models\mapobjects\misc\laser_bar_toggle.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+
+	attach "laser_bar_toggle_glass" "tag_flare"
+	attach "redflare2" "tag_flare"
+
+	script "scripts\misc\laser_bar_toggle.scr"
+}
+
+
+
+
+
+
+abomb_ground_glass {
+	model	"models\mapobjects\misc\abomb_ground_glass.mdl"
+	skin	"models\mapobjects\misc\abomb_ground.tga"
+        blend   BLEND_ADD
+//	shadow	SHADOW_PROJECTED
+//        rflag   RF_NOCULLING
+//        rflag   RF_NOLIGHTING
+        sort    SORT_EFFECT
+
+//        envmap  "gfx\envmap2.tga"
+//        envmode ENV_GLITTER
+}
+
+abomb_ground_bomb {
+	model	"models\mapobjects\misc\abomb_ground_bomb.mdl"
+	skin	"models\mapobjects\misc\abomb_ground.tga"
+	shadow	SHADOW_PROJECTED
+
+        envmap  "gfx\envmap3.tga"
+        envmode ENV_GLITTER
+}
+
+abomb_ground {
+	health  600
+	enemy
+	flag FL_NONTARGET
+
+	model	"models\mapobjects\misc\abomb_ground.mdl"
+	skin	"models\mapobjects\misc\abomb_ground.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+
+	attach "abomb_ground_glass" "tag_glass"
+	attach "abomb_ground_bomb" "tag_bomb"
+
+	script "scripts\misc\abomb_ground.scr"
+}
+
+
+/////////////////////ammo_box/////////////////////////
+
+ammo_box {
+	health  300
+	enemy
+	flag FL_NONTARGET
+
+	model	"models\mapobjects\misc\ammo_box.mdl"
+	skin	"models\mapobjects\misc\ammo_box.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+
+	script "scripts\misc\ammo_box.scr"
+}
+
+ammo_box_cargo {
+	health  300
+	enemy
+	flag FL_NONTARGET
+
+	model	"models\mapobjects\misc\ammo_box_cargo.mdl"
+	skin	"models\mapobjects\misc\ammo_box_cargo.tga"
+	shadow	SHADOW_PROJECTED
+//	flag    FL_ONGROUND_NORMAL
+
+	script "scripts\misc\ammo_box_cargo.scr"
+}
+
+
+tent_01 {
+
+	model	"models\mapobjects\tents\tent_01.mdl"
+	skin	"models\mapobjects\tents\tent_01.tga"
+
+	rflag   RF_NOCULLING
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+}
+
+tent_02 {
+
+	model	"models\mapobjects\tents\tent_02.mdl"
+	skin	"models\mapobjects\tents\tent_02.tga"
+
+	rflag   RF_NOCULLING
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+}
+
+
+tent_03 {
+
+	model	"models\mapobjects\tents\tent_03.mdl"
+	skin	"models\mapobjects\tents\tent_03.tga"
+
+	rflag   RF_NOCULLING
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+}
+
+tent_04 {
+
+	model	"models\mapobjects\tents\tent_04.mdl"
+	skin	"models\mapobjects\tents\tent_04.tga"
+
+	rflag   RF_NOCULLING
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+}
+
+boxs01 {
+
+	model	"models\mapobjects\tents\boxs01.mdl"
+	skin	"models\mapobjects\tents\boxs.tga"
+
+	rflag   RF_NOCULLING
+//	blend	BLEND_ALPHA
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+}
+
+boxs02 {
+
+	model	"models\mapobjects\tents\boxs02.mdl"
+	skin	"models\mapobjects\tents\boxs.tga"
+
+	rflag   RF_NOCULLING
+//	blend	BLEND_ALPHA
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+}
+
+water_boxs01 {
+
+	model	"models\mapobjects\tents\water_boxs01.mdl"
+	skin	"models\mapobjects\tents\water_boxs.tga"
+
+	rflag   RF_NOCULLING
+	shadow	SHADOW_PROJECTED
+	flag	FL_ONWATER
+}
+
+water_boxs02 {
+
+	model	"models\mapobjects\tents\water_boxs02.mdl"
+	skin	"models\mapobjects\tents\water_boxs.tga"
+
+	rflag   RF_NOCULLING
+	shadow	SHADOW_PROJECTED
+	flag	FL_ONWATER
+}
+
+water_boxs03 {
+
+	model	"models\mapobjects\tents\water_boxs03.mdl"
+	skin	"models\mapobjects\tents\water_boxs.tga"
+
+	rflag   RF_NOCULLING
+	shadow	SHADOW_PROJECTED
+	flag	FL_ONWATER
+}
+
+water_boxs04 {
+
+	model	"models\mapobjects\tents\water_boxs04.mdl"
+	skin	"models\mapobjects\tents\water_boxs.tga"
+
+	rflag   RF_NOCULLING
+	shadow	SHADOW_PROJECTED
+	flag	FL_ONWATER
+}
+
+
+lep {
+
+	model	"models\mapobjects\elektro\lep.mdl"
+	skin	"models\mapobjects\elektro\electro.tga"
+
+	rflag   RF_NOCULLING
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+}
+
+lep_x {
+
+	model	"models\mapobjects\elektro\lep_x.mdl"
+	skin	"models\mapobjects\elektro\electro.tga"
+
+	rflag   RF_NOCULLING
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+}
+
+lep_provoda {
+
+	civilian
+	health	2
+
+	model	"models\mapobjects\elektro\lep_provoda.mdl"
+	skin	"models\mapobjects\elektro\electro.tga"
+	rflag   RF_NOCULLING
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PROJECTED
+
+//	flag    FL_ONGROUND_NORMAL
+
+	script	"scripts\buildings\lep_provoda.scr"
+
+}
+
+shit_01 {
+
+	model	"models\mapobjects\elektro\shit_01.mdl"
+	skin	"models\mapobjects\elektro\electro_1.tga"
+
+	flag    FL_ONGROUND_NORMAL
+}
+
+shit_02 {
+
+	model	"models\mapobjects\elektro\shit_02.mdl"
+	skin	"models\mapobjects\elektro\electro_1.tga"
+
+	flag    FL_ONGROUND_NORMAL
+}
+
+molniya_01_ball {
+	model	"models\weapons\bfg\bfgball.mdl"
+	blend	BLEND_ADD
+	damage	100
+	light	150 0.3 0.3 3
+
+        rflag   RF_NODEPTHTEST
+        rflag   RF_NOLIGHTING
+        sort    SORT_EFFECT
+
+//	script	"scripts\bonuses\lightingbomb\lightingbomb_proj.scr"
+	attach	"lball_flare" "origin"
+
+	attach	abs "lball_plane" "origin"
+	attach	abs "lball_plane" "origin"
+	attach	abs "lball_plane" "origin"
+	attach	abs "lball_plane" "origin"
+	attach	abs "lball_plane" "origin"
+	attach	abs "lball_plane" "origin"
+	attach	abs "lball_plane" "origin"
+	attach	abs "lball_plane" "origin"
+	attach	abs "lball_plane" "origin"
+	attach	abs "lball_plane" "origin"
+	attach	abs "lball_plane" "origin"
+	attach	abs "lball_plane" "origin"
+	attach	abs "lball_plane" "origin"
+	attach	abs "lball_plane" "origin"
+	attach	abs "lball_plane" "origin"
+	attach	abs "lball_plane" "origin"
+	attach	abs "lball_plane" "origin"
+	attach	abs "lball_plane" "origin"
+}
+
+molniya_01 {
+	model	"models\mapobjects\elektro\molniya_03.mdl"
+	skin	"models\mapobjects\elektro\electro_1.tga"
+	attach abs "molniya_01_ball" "tag_ball"
+	flag    FL_ONGROUND_NORMAL
+}
+
+molniya_02_ball {
+	model	"models\weapons\bfg\bfgball.mdl"
+	blend	BLEND_ADD
+	damage	100
+	light	150 0.3 0.3 3
+
+        rflag   RF_NODEPTHTEST
+        rflag   RF_NOLIGHTING
+        sort    SORT_EFFECT
+
+//	script	"scripts\bonuses\lightingbomb\lightingbomb_proj.scr"
+	attach	"lball_flare" "origin"
+
+	attach	abs "lball_plane" "origin"
+	attach	abs "lball_plane" "origin"
+	attach	abs "lball_plane" "origin"
+	attach	abs "lball_plane" "origin"
+	attach	abs "lball_plane" "origin"
+	attach	abs "lball_plane" "origin"
+	attach	abs "lball_plane" "origin"
+	attach	abs "lball_plane" "origin"
+	attach	abs "lball_plane" "origin"
+	attach	abs "lball_plane" "origin"
+	attach	abs "lball_plane" "origin"
+	attach	abs "lball_plane" "origin"
+	attach	abs "lball_plane" "origin"
+	attach	abs "lball_plane" "origin"
+	attach	abs "lball_plane" "origin"
+	attach	abs "lball_plane" "origin"
+	attach	abs "lball_plane" "origin"
+	attach	abs "lball_plane" "origin"
+}
+
+molniya_02 {
+
+	model	"models\mapobjects\elektro\molniya_02.mdl"
+	skin	"models\mapobjects\elektro\electro_1.tga"
+	attach abs "molniya_02_ball" "tag_ball"
+
+	flag    FL_ONGROUND_NORMAL
+}
+
+
+
+power_plant {
+
+	model	"models\mapobjects\elektro\power_plant.mdl"
+	skin	"models\mapobjects\elektro\power_plant.tga"
+
+	flag    FL_ONGROUND
+
+	attach abs "zabor" "tag_zabor"
+}
+
+zabor {
+
+	model	"models\mapobjects\elektro\zabor.mdl"
+	skin	"models\mapobjects\zabors\zabor.tga"
+
+	rflag   RF_NOCULLING
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+}
+
+///////////////////////////////////////////// brevna ///////////////////////////////////
+
+brevna_01 {
+
+	model	"models\mapobjects\brevna\brevna_01.mdl"
+	skin	"models\mapobjects\brevna\brevna.tga"
+
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+}
+
+brevna_02 {
+
+	model	"models\mapobjects\brevna\brevna_02.mdl"
+	skin	"models\mapobjects\brevna\brevna.tga"
+
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+}
+brevna_03 {
+
+	model	"models\mapobjects\brevna\brevna_03.mdl"
+	skin	"models\mapobjects\brevna\brevna.tga"
+
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+}
+brevna_04 {
+
+	model	"models\mapobjects\brevna\brevna_04.mdl"
+	skin	"models\mapobjects\brevna\brevna.tga"
+
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+}
+
+////////////////////////////////////////// kolodec ///////////////////////////////////////
+
+kolodec {
+
+	model	"models\mapobjects\misc\kolodec.mdl"
+	skin	"models\mapobjects\misc\kolodec.tga"
+
+	rflag   RF_NOCULLING
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+}
+
+koper {
+
+	model	"models\mapobjects\koper\koper.mdl"
+	skin	"models\mapobjects\koper\koper.tga"
+
+	attach abs "koper_baba" "tag_baba"
+
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+}
+
+koper_baba {
+
+	model	"models\mapobjects\koper\koper_baba.mdl"
+	skin	"models\mapobjects\koper\koper.tga"
+
+	script  "scripts\mapobjects\koper_baba.scr"	
+}
+
+katushka {
+
+	model	"models\mapobjects\misc\katushka.mdl"
+	skin	"models\mapobjects\misc\katushka.tga"
+
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+}
+
+katushka_stoya {
+
+	model	"models\mapobjects\misc\katushka_stoya.mdl"
+	skin	"models\mapobjects\misc\katushka.tga"
+
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+}
+
+stolb {
+
+	model	"models\mapobjects\misc\stolb.mdl"
+	skin	"models\mapobjects\misc\stolb.tga"
+
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+}
+
+stolb_x {
+
+	model	"models\mapobjects\misc\stolb_x.mdl"
+	skin	"models\mapobjects\misc\stolb.tga"
+
+	rflag   RF_NOCULLING
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+}
+
+stolb_provod {
+
+	civilian
+	health	2
+
+	model	"models\mapobjects\misc\stolb_provod.mdl"
+	skin	"models\mapobjects\misc\stolb.tga"
+
+	rflag   RF_NOCULLING
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PROJECTED
+
+	script	"scripts\buildings\stolb_provoda.scr"
+}
+
+sand_bags {
+
+	model	"models\mapobjects\misc\sand_bags.mdl"
+	skin	"models\mapobjects\misc\sand_bags.tga"
+
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+}
+
+///////////////////////////////////////////////////////////////////////////
+//////////////////////////////// cisterns /////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+cisterna01_zabor {
+
+	model	"models\mapobjects\cisterns\cisterna01_zabor.mdl"
+	skin	"models\mapobjects\cisterns\lestnica.tga"
+
+	sort    SORT_TRANS
+	rflag   RF_NOCULLING
+	blend	BLEND_ALPHA
+//	shadow	SHADOW_PROJECTED
+
+}
+
+cisterna01 {
+
+	model	"models\mapobjects\cisterns\cisterna01.mdl"
+	skin	"models\mapobjects\cisterns\cisterna01.tga"
+
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+
+	health 500
+	enemy
+	flag FL_NONTARGET
+	score   500
+
+	attach abs "cisterna01_zabor" "tag_zabor"
+
+	script  "scripts\effects\static_obj_expl_big.scr"
+}
+
+/////////////////////////////////
+
+cisterna02 {
+
+	model	"models\mapobjects\cisterns\cisterna02.mdl"
+	skin	"models\mapobjects\cisterns\cisterna02.tga"
+
+	sort    SORT_TRANS
+	rflag   RF_NOCULLING
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+
+	health 500
+	enemy
+	flag FL_NONTARGET
+	score   500
+
+	attach "redflare_small" "tag_flare01"
+	attach "redflare_small" "tag_flare02"
+	attach "redflare_small" "tag_flare03"
+	attach "redflare_small" "tag_flare04"
+
+	script  "scripts\effects\static_obj_expl_big.scr"
+}
+
+/////////////////////////////////
+
+cisterna03_zabor {
+
+	model	"models\mapobjects\cisterns\cisterna03_zabor.mdl"
+	skin	"models\mapobjects\cisterns\lestnica.tga"
+
+	sort    SORT_TRANS
+	rflag   RF_NOCULLING
+	blend	BLEND_ALPHA
+}
+
+cisterna03_lestnica {
+
+	model	"models\mapobjects\cisterns\cisterna03_lestnica.mdl"
+	skin	"models\mapobjects\cisterns\lestnica.tga"
+
+	sort    SORT_TRANS
+	rflag   RF_NOCULLING
+	blend	BLEND_ALPHA
+}
+
+cisterna03 {
+
+	model	"models\mapobjects\cisterns\cisterna03.mdl"
+	skin	"models\mapobjects\cisterns\cisterna03.tga"
+
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+
+	health 500
+	enemy
+	flag FL_NONTARGET
+	score   500
+
+	attach abs "cisterna03_zabor" "tag_zabor"
+	attach abs "cisterna03_lestnica" "tag_lestnica"
+
+	script  "scripts\effects\static_obj_expl_big.scr"
+}
+
+/////////////////////////////////
+
+cisterna04_zabor {
+
+	model	"models\mapobjects\cisterns\cisterna04_zabor.mdl"
+	skin	"models\mapobjects\cisterns\lestnica.tga"
+
+	sort    SORT_TRANS
+	rflag   RF_NOCULLING
+	blend	BLEND_ALPHA
+
+	attach "redflare_small" "tag_flare01"
+	attach "redflare_small" "tag_flare02"
+	attach "redflare_small" "tag_flare03"
+	attach "redflare_small" "tag_flare04"
+
+}
+
+cisterna04 {
+
+	model	"models\mapobjects\cisterns\cisterna04.mdl"
+	skin	"models\mapobjects\cisterns\cisterna04.tga"
+
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+
+	health 500
+	enemy
+	flag FL_NONTARGET
+	score   500
+
+	attach abs "cisterna04_zabor" "tag_zabor"
+
+	script  "scripts\effects\static_obj_expl_big.scr"
+}
+
+//////////////////////////////
+
+cisterna05_zabor {
+	model	"models\mapobjects\cisterns\cisterna05_zabor.mdl"
+	skin	"models\mapobjects\cisterns\lestnica.tga"
+	sort    SORT_TRANS
+	rflag   RF_NOCULLING
+	blend	BLEND_ALPHA
+}
+
+cisterna05 {
+
+	model	"models\mapobjects\cisterns\cisterna05.mdl"
+	skin	"models\mapobjects\cisterns\cisterna05.tga"
+
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+
+	health 500
+	enemy
+	flag FL_NONTARGET
+	score   500
+
+	attach abs "cisterna05_zabor" "tag_zabor"
+
+	attach "redflare_small" "tag_flare01"
+	attach "redflare_small" "tag_flare02"
+	attach "redflare_small" "tag_flare03"
+	attach "redflare_small" "tag_flare04"
+
+
+	script  "scripts\effects\static_obj_expl_big.scr"
+}
+
+pomoika01 {
+
+	model	"models\mapobjects\misc\pomoika.mdl"
+	skin	"models\mapobjects\misc\pomoika01.tga"
+
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+	rflag   RF_NOCULLING
+}
+
+pomoika02 {
+
+	model	"models\mapobjects\misc\pomoika.mdl"
+	skin	"models\mapobjects\misc\pomoika02.tga"
+
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+	rflag   RF_NOCULLING
+}
+
+mentovka {
+
+	civilian
+	health	100
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+
+	model	"models\mapobjects\misc\mentovka.mdl"
+	skin	"models\mapobjects\misc\mentovka.tga"
+}
+
+vagon01 {
+
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+	model	"models\mapobjects\misc\vagon.mdl"
+	skin	"models\mapobjects\misc\vag_1.tga"
+}
+
+vagon02 {
+
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+
+	model	"models\mapobjects\misc\vagon.mdl"
+	skin	"models\mapobjects\misc\vag_2.tga"
+}
+
+vagon03 {
+
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+
+	model	"models\mapobjects\misc\vagon.mdl"
+	skin	"models\mapobjects\misc\vag_3.tga"
+}
+
+vagon04 {
+
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+
+	model	"models\mapobjects\misc\vagon.mdl"
+	skin	"models\mapobjects\misc\vag_4.tga"
+}
+
+///////////////////////////////////////////////////////////////////////////////
+///////////////////////////////// musor ///////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////
+
+doska01_big {
+
+	model	"models\mapobjects\musor\doska_big.mdl"
+	skin	"models\mapobjects\musor\musor.tga"
+
+	script  "scripts\effects\gib_doska.scr"
+}
+
+doska02_big {
+
+	model	"models\mapobjects\musor\doska2_big.mdl"
+	skin	"models\mapobjects\musor\musor.tga"
+
+	script  "scripts\effects\gib_doska.scr"
+}
+
+kirpich01_big {
+
+	model	"models\mapobjects\musor\kirpich_big.mdl"
+	skin	"models\mapobjects\musor\musor.tga"
+
+	script  "scripts\effects\gib_doska.scr"
+}
+
+kirpich02_big {
+
+	model	"models\mapobjects\musor\kirpich2_big.mdl"
+	skin	"models\mapobjects\musor\musor.tga"
+
+	script  "scripts\effects\gib_doska.scr"
+}
+
+palka01_big {
+
+	model	"models\mapobjects\musor\palka_big.mdl"
+	skin	"models\mapobjects\musor\musor.tga"
+
+	script  "scripts\effects\gib_doska.scr"
+}
+
+
+doska01_medium {
+
+	model	"models\mapobjects\musor\doska_medium.mdl"
+	skin	"models\mapobjects\musor\musor.tga"
+
+	script  "scripts\effects\gib_doska.scr"
+}
+
+doska02_medium {
+
+	model	"models\mapobjects\musor\doska2_medium.mdl"
+	skin	"models\mapobjects\musor\musor.tga"
+
+	script  "scripts\effects\gib_doska.scr"
+}
+
+kirpich01_medium {
+
+	model	"models\mapobjects\musor\kirpich_medium.mdl"
+	skin	"models\mapobjects\musor\musor.tga"
+
+	script  "scripts\effects\gib_doska.scr"
+}
+
+kirpich02_medium {
+
+	model	"models\mapobjects\musor\kirpich2_medium.mdl"
+	skin	"models\mapobjects\musor\musor.tga"
+
+	script  "scripts\effects\gib_doska.scr"
+}
+
+palka01_medium {
+
+	model	"models\mapobjects\musor\palka_medium.mdl"
+	skin	"models\mapobjects\musor\musor.tga"
+
+	script  "scripts\effects\gib_doska.scr"
+}
+
+doska01_small {
+
+	model	"models\mapobjects\musor\doska_small.mdl"
+	skin	"models\mapobjects\musor\musor.tga"
+
+	script  "scripts\effects\gib_doska.scr"
+}
+
+doska02_small {
+
+	model	"models\mapobjects\musor\doska2_small.mdl"
+	skin	"models\mapobjects\musor\musor.tga"
+
+	script  "scripts\effects\gib_doska.scr"
+}
+
+kirpich01_small {
+
+	model	"models\mapobjects\musor\kirpich_small.mdl"
+	skin	"models\mapobjects\musor\musor.tga"
+
+	script  "scripts\effects\gib_doska.scr"
+}
+
+kirpich02_small {
+
+	model	"models\mapobjects\musor\kirpich2_small.mdl"
+	skin	"models\mapobjects\musor\musor.tga"
+
+	script  "scripts\effects\gib_doska.scr"
+}
+
+palka01_small {
+
+	model	"models\mapobjects\musor\palka_small.mdl"
+	skin	"models\mapobjects\musor\musor.tga"
+
+	script  "scripts\effects\gib_doska.scr"
+}
+
+/////////////////////////////////////////////////////////////////////////////////
+
+koluchka_kol {
+
+
+	sort    SORT_TRANS
+	rflag   RF_NOCULLING
+	blend	BLEND_ALPHA
+
+	model	"models\mapobjects\misc\koluchka_kol.mdl"
+	skin	"models\mapobjects\misc\koluchka.tga"
+}
+
+koluchka {
+
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+
+	model	"models\mapobjects\misc\koluchka.mdl"
+	skin	"models\mapobjects\misc\koluchka.tga"
+
+	attach abs "koluchka_kol" "tag_kol"
+}
+
+shahta {
+
+	flag    FL_ONGROUND
+
+	model	"models\mapobjects\misc\shahta.mdl"
+	skin	"models\mapobjects\misc\shahta.tga"
+
+	attach	"dom_flare" "tag_flare01"
+	attach	"dom_flare" "tag_flare02"
+}
+
+vagonetka01 {
+
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+
+	model	"models\mapobjects\misc\vagonetka01.mdl"
+	skin	"models\mapobjects\misc\vagonetka.tga"
+}
+
+vagonetka02 {
+
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+
+	model	"models\mapobjects\misc\vagonetka02.mdl"
+	skin	"models\mapobjects\misc\vagonetka.tga"
+}
+
+train_station_zabor {
+
+	sort    SORT_TRANS
+	rflag   RF_NOCULLING
+	blend	BLEND_ALPHA
+
+	model	"models\mapobjects\misc\train_station_zabor.mdl"
+	skin	"models\mapobjects\cisterns\lestnica.tga"
+}
+
+train_station {
+
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+
+	model	"models\mapobjects\misc\train_station.mdl"
+	skin	"models\mapobjects\misc\train_station.tga"
+	attach abs "train_station_zabor" "tag_zabor"
+
+	attach	"dom_flare" "tag_flare05"
+	attach	"dom_flare" "tag_flare06"
+	attach "redflare_small" "tag_flare01"
+	attach "redflare_small" "tag_flare02"
+	attach "redflare_small" "tag_flare03"
+	attach "redflare_small" "tag_flare04"
+}
+
+shina01 {
+
+	flag    FL_ONGROUND
+	shadow	SHADOW_PROJECTED
+	sort    SORT_TRANS
+	rflag   RF_NOCULLING
+	blend	BLEND_ALPHA
+
+	model	"models\mapobjects\misc\shina01.mdl"
+	skin	"models\mapobjects\misc\shina.tga"
+}
+
+shina02 {
+
+	flag    FL_ONGROUND
+	sort    SORT_TRANS
+	shadow	SHADOW_PROJECTED
+	rflag   RF_NOCULLING
+	blend	BLEND_ALPHA
+
+	model	"models\mapobjects\misc\shina02.mdl"
+	skin	"models\mapobjects\misc\shina.tga"
+}
+
+shina03 {
+
+	flag    FL_ONGROUND
+	shadow	SHADOW_PROJECTED
+	sort    SORT_TRANS
+	rflag   RF_NOCULLING
+	blend	BLEND_ALPHA
+
+	model	"models\mapobjects\misc\shina03.mdl"
+	skin	"models\mapobjects\misc\shina.tga"
+}
+
+baken {
+
+	sort    SORT_TRANS
+	rflag   RF_NOCULLING
+	blend	BLEND_ALPHA
+
+	flag	FL_ONWATER
+
+	attach	"dom_flare" "tag_flare"
+	attach	"whiteflare_small" "tag_flare01"
+	attach	"whiteflare_small" "tag_flare02"
+	attach	"whiteflare_small" "tag_flare03"
+	attach	"whiteflare_small" "tag_flare04"
+	attach	"whiteflare_small" "tag_flare05"
+
+	model	"models\mapobjects\misc\baken.mdl"
+	skin	"models\mapobjects\misc\baken.tga"
+
+	script  "scripts\mapobjects\baken.scr"
+}
+
+///////////////////////////////////////////////////////////////////////////////
+///////////////////////////////// kamni ///////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////
+
+kamni01 {
+
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+
+	model	"models\mapobjects\kamni\kamni01.mdl"
+	skin	"models\mapobjects\kamni\kamni.tga"
+}
+
+kamni01_1 {
+
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+
+	model	"models\mapobjects\kamni\kamni01.mdl"
+	skin	"models\mapobjects\kamni\kamni_1.tga"
+}
+
+kamni02 {
+
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+
+	model	"models\mapobjects\kamni\kamni02.mdl"
+	skin	"models\mapobjects\kamni\kamni.tga"
+}
+
+kamni02_1 {
+
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+
+	model	"models\mapobjects\kamni\kamni02.mdl"
+	skin	"models\mapobjects\kamni\kamni_1.tga"
+}
+
+kamni03 {
+
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+
+	model	"models\mapobjects\kamni\kamni03.mdl"
+	skin	"models\mapobjects\kamni\kamni.tga"
+}
+
+kamni03_1 {
+
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+
+	model	"models\mapobjects\kamni\kamni03.mdl"
+	skin	"models\mapobjects\kamni\kamni_1.tga"
+}
+
+kamni04 {
+
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+
+	model	"models\mapobjects\kamni\kamni04.mdl"
+	skin	"models\mapobjects\kamni\kamni.tga"
+}
+
+kamni04_1 {
+
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+
+	model	"models\mapobjects\kamni\kamni04.mdl"
+	skin	"models\mapobjects\kamni\kamni_1.tga"
+}
+
+kamni05 {
+
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+
+	model	"models\mapobjects\kamni\kamni05.mdl"
+	skin	"models\mapobjects\kamni\kamni.tga"
+}
+
+kamni05_1 {
+
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+
+	model	"models\mapobjects\kamni\kamni05.mdl"
+	skin	"models\mapobjects\kamni\kamni_1.tga"
+}
+
+/////////////////////////////////////////////////////////////////////
+//////////////////////////////// krest //////////////////////////////
+/////////////////////////////////////////////////////////////////////
+
+krest01 {
+
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+
+	model	"models\mapobjects\misc\krest\krest01.mdl"
+	skin	"models\mapobjects\misc\krest\krest01.tga"
+}
+
+krest01_1 {
+
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+
+	model	"models\mapobjects\misc\krest\krest01.mdl"
+	skin	"models\mapobjects\misc\krest\krest01_1.tga"
+}
+
+krest02 {
+
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+
+	model	"models\mapobjects\misc\krest\krest02.mdl"
+	skin	"models\mapobjects\misc\krest\krest02.tga"
+}
+
+krest02_1 {
+
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+
+	model	"models\mapobjects\misc\krest\krest02.mdl"
+	skin	"models\mapobjects\misc\krest\krest02_1.tga"
+}
+
+krest03 {
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+	model	"models\mapobjects\misc\krest\krest03.mdl"
+	skin	"models\mapobjects\misc\krest\krest03.tga"
+}
+
+krest03_1 {
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+	model	"models\mapobjects\misc\krest\krest03.mdl"
+	skin	"models\mapobjects\misc\krest\krest03_1.tga"
+}
+
+stog {
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+	model	"models\mapobjects\misc\stog.mdl"
+	skin	"models\mapobjects\misc\stog.tga"
+}
+
+stonehahds {
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+	model	"models\mapobjects\misc\stonehahds.mdl"
+	skin	"models\mapobjects\misc\stonehahds.tga"
+}
+
+minoret {
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+	model	"models\mapobjects\aziat\minoret.mdl"
+	skin	"models\mapobjects\aziat\minoret.tga"
+}
+
+kotelnya {
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+	attach	"dom_flare" "tag_flare01"
+	attach	"dom_flare" "tag_flare02"
+	attach	"dom_flare" "tag_flare03"
+	attach	"dom_flare" "tag_flare04"
+	attach	"whiteflare_small" "tag_flare05"
+	attach	"whiteflare_small" "tag_flare06"
+	attach	"whiteflare_small" "tag_flare07"
+	attach	"whiteflare_small" "tag_flare08"
+	model	"models\mapobjects\misc\kotelnya.mdl"
+	skin	"models\mapobjects\misc\kotelnya.tga"
+}
+
+//////////////////////////////////////////////////////////////////////////
+//////////////////////////////// znaki ///////////////////////////////////
+//////////////////////////////////////////////////////////////////////////
+
+znak01 {
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+	rflag   RF_NOCULLING
+	model	"models\mapobjects\znaki\znak01.mdl"
+	skin	"models\mapobjects\znaki\znak01.tga"
+}
+
+znak02 {
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+	rflag   RF_NOCULLING
+	model	"models\mapobjects\znaki\znak01.mdl"
+	skin	"models\mapobjects\znaki\znak02.tga"
+}
+
+znak03 {
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+	rflag   RF_NOCULLING
+	model	"models\mapobjects\znaki\znak02.mdl"
+	skin	"models\mapobjects\znaki\znak03.tga"
+}
+
+znak04 {
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+	rflag   RF_NOCULLING
+	model	"models\mapobjects\znaki\znak02.mdl"
+	skin	"models\mapobjects\znaki\znak04.tga"
+}
+
+znak05 {
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+	rflag   RF_NOCULLING
+	model	"models\mapobjects\znaki\znak02.mdl"
+	skin	"models\mapobjects\znaki\znak05.tga"
+}
+
+znak06 {
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+	rflag   RF_NOCULLING
+	model	"models\mapobjects\znaki\znak03.mdl"
+	skin	"models\mapobjects\znaki\znak06.tga"
+}
+
+znak07 {
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+	rflag   RF_NOCULLING
+	model	"models\mapobjects\znaki\znak03.mdl"
+	skin	"models\mapobjects\znaki\znak07.tga"
+}
+
+konteiner01 {
+
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+	model	"models\mapobjects\misc\konteiner01.mdl"
+	skin	"models\mapobjects\misc\konteiner.tga"
+}
+
+konteiner02 {
+
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+	model	"models\mapobjects\misc\konteiner02.mdl"
+	skin	"models\mapobjects\misc\konteiner.tga"
+}

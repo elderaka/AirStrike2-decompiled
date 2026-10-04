@@ -1,0 +1,1306 @@
+//////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////// tank_zsu /////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////
+
+tank_zsu_green_guns {
+	model	"models/tanks/tank_zsu/tank_zsu_gun.mdl"
+	skin	"models/tanks/tank_zsu/tank_zsu_green.tga"
+
+	envmode	ENV_GLITTER
+	envmap  "gfx\chrome3.tga"
+
+       script	"scripts\tanks\tank_zsu\tank_zsu_guns.scr"
+}
+
+tank_zsu_green_cannon {
+	model	"models/tanks/tank_zsu/tank_zsu_turret.mdl"
+	skin	"models/tanks/tank_zsu/tank_zsu_green.tga"
+
+	attach abs id "GUNS"  "tank_zsu_green_guns"  "tag_gun"
+
+       script	"scripts\tanks\tank_zsu\tank_zsu_turret.scr"
+}
+
+tank_zsu_green {
+	health	700
+	flag    FL_ONGROUND_NORMAL
+	enemy
+
+	score	700
+
+	skid_mark  20 0 9 "gfx/marks/tankmark1.tga"
+	skid_mark -20 0 9 "gfx/marks/tankmark1.tga"
+
+	model	"models/tanks/tank_zsu/tank_zsu.mdl"
+	skin	"models/tanks/tank_zsu/tank_zsu_green.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	attach abs "tank_zsu_green_cannon" "tag_turet"	
+	attach abs night "svet_far" "tag_Light01"
+	attach abs night "svet_far_wol" "tag_Light02"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+       script	"scripts\tanks\tank_zsu\tank_zsu.scr"
+}
+
+
+tank_zsu_blue_guns {
+	model	"models/tanks/tank_zsu/tank_zsu_gun.mdl"
+	skin	"models/tanks/tank_zsu/tank_zsu_blue.tga"
+
+	envmode	ENV_GLITTER
+	envmap  "gfx\chrome3.tga"
+
+       script	"scripts\tanks\tank_zsu\tank_zsu_guns.scr"
+}
+
+tank_zsu_blue_cannon {
+	model	"models/tanks/tank_zsu/tank_zsu_turret.mdl"
+	skin	"models/tanks/tank_zsu/tank_zsu_blue.tga"
+
+	attach abs id "GUNS"  "tank_zsu_blue_guns"  "tag_gun"
+
+       script	"scripts\tanks\tank_zsu\tank_zsu_turret.scr"
+}
+
+tank_zsu_blue {
+	health	900
+	flag    FL_ONGROUND_NORMAL
+	enemy
+
+	score	900
+
+	skid_mark  20 0 9 "gfx/marks/tankmark1.tga"
+	skid_mark -20 0 9 "gfx/marks/tankmark1.tga"
+
+	model	"models/tanks/tank_zsu/tank_zsu.mdl"
+	skin	"models/tanks/tank_zsu/tank_zsu_blue.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	attach abs "tank_zsu_blue_cannon" "tag_turet"	
+	attach abs night "svet_far" "tag_Light01"
+	attach abs night "svet_far_wol" "tag_Light02"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+       script	"scripts\tanks\tank_zsu\tank_zsu.scr"
+}
+
+
+
+tank_zsu_dark_bl_guns {
+	model	"models/tanks/tank_zsu/tank_zsu_gun.mdl"
+	skin	"models/tanks/tank_zsu/tank_zsu_dark_bl.tga"
+
+	envmode	ENV_GLITTER
+	envmap  "gfx\chrome3.tga"
+
+       script	"scripts\tanks\tank_zsu\tank_zsu_guns.scr"
+}
+
+tank_zsu_dark_bl_cannon {
+	model	"models/tanks/tank_zsu/tank_zsu_turret.mdl"
+	skin	"models/tanks/tank_zsu/tank_zsu_dark_bl.tga"
+
+	attach abs id "GUNS"  "tank_zsu_dark_bl_guns"  "tag_gun"
+
+       script	"scripts\tanks\tank_zsu\tank_zsu_turret.scr"
+}
+
+tank_zsu_dark_bl {
+	health	1000
+	flag    FL_ONGROUND_NORMAL
+	enemy
+
+	score	1000
+
+	skid_mark  20 0 9 "gfx/marks/tankmark1.tga"
+	skid_mark -20 0 9 "gfx/marks/tankmark1.tga"
+
+	model	"models/tanks/tank_zsu/tank_zsu.mdl"
+	skin	"models/tanks/tank_zsu/tank_zsu_dark_bl.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	attach abs "tank_zsu_dark_bl_cannon" "tag_turet"	
+	attach abs night "svet_far" "tag_Light01"
+	attach abs night "svet_far_wol" "tag_Light02"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+       script	"scripts\tanks\tank_zsu\tank_zsu.scr"
+}
+
+
+
+tank_zsu_dark_gr_guns {
+	model	"models/tanks/tank_zsu/tank_zsu_gun.mdl"
+	skin	"models/tanks/tank_zsu/tank_zsu_dark_gr.tga"
+
+	envmode	ENV_GLITTER
+	envmap  "gfx\chrome3.tga"
+
+       script	"scripts\tanks\tank_zsu\tank_zsu_guns.scr"
+}
+
+tank_zsu_dark_gr_cannon {
+	model	"models/tanks/tank_zsu/tank_zsu_turret.mdl"
+	skin	"models/tanks/tank_zsu/tank_zsu_dark_gr.tga"
+
+	attach abs id "GUNS"  "tank_zsu_dark_gr_guns"  "tag_gun"
+
+       script	"scripts\tanks\tank_zsu\tank_zsu_turret.scr"
+}
+
+tank_zsu_dark_gr {
+	health	800
+	flag    FL_ONGROUND_NORMAL
+	enemy
+
+	score	800
+
+	skid_mark  20 0 9 "gfx/marks/tankmark1.tga"
+	skid_mark -20 0 9 "gfx/marks/tankmark1.tga"
+
+	model	"models/tanks/tank_zsu/tank_zsu.mdl"
+	skin	"models/tanks/tank_zsu/tank_zsu_dark_gr.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	attach abs "tank_zsu_dark_gr_cannon" "tag_turet"	
+	attach abs night "svet_far" "tag_Light01"
+	attach abs night "svet_far_wol" "tag_Light02"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+       script	"scripts\tanks\tank_zsu\tank_zsu.scr"
+}
+
+tank_dead {
+	model   "models/tanks/tank_dead.mdl"
+	skin    "models/tanks/tank_dead.tga"	
+	shadow	SHADOW_PLANAR_LOW
+
+	attach id "CAMPFIRE" "campfire" "origin"
+	attach id "CAMPFIRE_SMALL" "campfire_small" "origin"
+	script	"scripts\dead2.scr"
+}
+
+tank_dead2 {
+	model   "models/tanks/tank_dead2.mdl"
+	skin    "models/tanks/tank_dead.tga"	
+	shadow	SHADOW_PLANAR_LOW
+
+	attach id "CAMPFIRE" "campfire" "origin"
+	attach id "CAMPFIRE_SMALL" "campfire_small" "origin"
+	script	"scripts\dead2.scr"
+
+}
+
+///////////////////tank_medium/////////////////
+
+tank_medium2_guns {
+	model	"models/tanks/tank_medium/tank5_guns.mdl"
+	skin	"models/tanks/tank_medium/tank5_desert.tga"
+
+	envmode	ENV_GLITTER
+	envmap  "gfx\chrome3.tga"
+
+	script	"scripts\tanks\tank_medium2\t_gun.scr"
+}
+
+tank_medium2_cannon {
+	model	"models/tanks/tank_medium/tank5_b.mdl"
+	skin	"models/tanks/tank_medium/tank5_desert.tga"
+
+	attach  "helic_redflare"        "tag_flare"
+	attach abs id "GUNS"  "tank_medium2_guns"  "tag_gun"
+
+	script	"scripts\tanks\tank_medium2\t_turret.scr"
+}
+
+tank_medium2 {
+	health	500
+	flag    FL_ONGROUND_NORMAL
+	enemy
+
+	score	500
+
+	skid_mark  19 0 5 "gfx/marks/tankmark1.tga"
+	skid_mark -19 0 5 "gfx/marks/tankmark1.tga"
+
+	model	"models/tanks/tank_medium/tank5.mdl"
+	skin	"models/tanks/tank_medium/tank5_desert.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	attach abs "tank_medium2_cannon" "tag_turret"	
+	attach abs night "svet_far" "tag_fara1"
+	attach abs night "svet_far_wol" "tag_fara2"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\tanks\tank_medium2\tank.scr"
+}
+
+tank_medium2_blue_guns {
+	model	"models/tanks/tank_medium/tank5_guns.mdl"
+	skin	"models/tanks/tank_medium/tank5_blue.tga"
+
+	envmode	ENV_GLITTER
+	envmap  "gfx\chrome3.tga"
+
+	script	"scripts\tanks\tank_medium2\t_gun.scr"
+}
+
+tank_medium2_blue_cannon {
+	model	"models/tanks/tank_medium/tank5_b.mdl"
+	skin	"models/tanks/tank_medium/tank5_blue.tga"
+
+	attach  "helic_redflare"        "tag_flare"
+	attach abs id "GUNS"  "tank_medium2_blue_guns"  "tag_gun"
+
+	script	"scripts\tanks\tank_medium2\t_turret.scr"
+}
+
+tank_medium2_blue {
+	health	800
+	flag    FL_ONGROUND_NORMAL
+	enemy
+
+	score	800
+
+	skid_mark  19 0 5 "gfx/marks/tankmark1.tga"
+	skid_mark -19 0 5 "gfx/marks/tankmark1.tga"
+
+	model	"models/tanks/tank_medium/tank5.mdl"
+	skin	"models/tanks/tank_medium/tank5_blue.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	attach abs "tank_medium2_blue_cannon" "tag_turret"	
+	attach abs night "svet_far" "tag_fara1"
+	attach abs night "svet_far_wol" "tag_fara2"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\tanks\tank_medium2\tank.scr"
+}
+
+tank_medium2_dead {
+
+	flag    FL_ONGROUND_NORMAL
+
+	model	"models/tanks/tank_medium/tank5_dead.mdl"
+	skin	"models/tanks/tank_medium/tank5_dead.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	attach	PS_CAMPFIRE "tag_smoke01"
+	attach	PS_CAMPFIRE "tag_smoke02"
+
+}
+ 
+///////////////////tank flame///////////////////
+//////////////////(с огнемётом)/////////////////
+
+
+tank_flame_cannon {
+	model	"models\tanks\tank_flame\tank_flame_b.mdl"
+	skin	"models\tanks\tank_flame\tank_flame.tga"
+
+	attach  "helic_redflare"        "tag_flare"
+//	attach abs night "svet_far_wol" "tag_fara"
+
+	attach abs id "FLAMETHROWER" PS_FLAMEFROWER_DIAG "tag_gun" 
+	attach abs id "FLAMETHROWER1" PS_FLAMEFROWER_BLUE_DIAG "tag_gun" 
+
+	script	"scripts\tanks\t_flame_turret.scr"
+}
+
+
+tank_flame {
+	health	900
+	flag    FL_ONGROUND_NORMAL
+	enemy
+
+	score 1500
+
+	model	"models\tanks\tank_flame\tank_flame.mdl"
+	skin	"models\tanks\tank_flame\tank_flame.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	attach abs "tank_flame_cannon" "tag_turret"	
+
+	attach abs night "svet_far" "tag_fara1"
+	attach abs night "svet_far_wol" "tag_fara2"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\tanks\tank_flame.scr"
+}
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////// tank_big ////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+
+tank_big_almostdead {
+	health	500
+	flag    FL_ONGROUND_NORMAL
+	enemy
+
+	score	500
+
+	model	"models/tanks/tank_big/tank_big.mdl"
+	skin	"models/tanks/tank_big/tank_big.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+//	attach abs "tank_big_cannon" "tag_turret"	
+	attach abs night "svet_far" "tag_fara1"
+	attach abs night "svet_far_wol" "tag_fara2"
+	attach "PS_CAMPFIRE_HELIC_ALMOSTDEAD_LARGE" origin
+
+	script	"scripts\tanks\tank_big_almostdead.scr"
+}
+
+///////////////////////////////////////////////////////////////////////////////////
+/////////////////////////// tank_big_rockets //////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////
+
+tank_big_rockets_gun_green {
+
+	model	"models/tanks/tank_big_rockets/tank_big_rockets_gun.mdl"
+	skin	"models/tanks/tank_big_rockets/tank_big_rockets_green.tga"
+
+	script	"scripts\tanks\big_rockets\big_rockets_gun.scr"
+}
+
+
+tank_big_rockets_turret_green {
+
+	model	"models/tanks/tank_big_rockets/tank_big_rockets_turret.mdl"
+	skin	"models/tanks/tank_big_rockets/tank_big_rockets_green.tga"
+        
+        attach abs id "GUNS" "tank_big_rockets_gun_green" "tag_gun"
+
+	script	"scripts\tanks\big_rockets\big_rockets_turret.scr"
+}
+
+tank_big_rockets_pod_green {
+
+	model	"models/tanks/tank_big_rockets/tank_big_rockets_pod.mdl"
+	skin	"models/tanks/tank_big_rockets/tank_big_rockets.tga"
+        
+        attach abs id "GUNS" "tank_big_rockets_rocket_green" "tag_rocket"
+        
+
+	script	"scripts\tanks\big_rockets\big_rockets_turret.scr"
+}
+
+tank_big_rockets_rocket_green {
+
+	model	"models/tanks/tank_big_rockets/tank_big_rockets_rocket.mdl"
+	skin	"models/tanks/tank_big_rockets/tank_big_rockets_green.tga"
+        
+
+	script	"scripts\tanks\big_rockets\big_rockets_guns.scr"
+}
+
+tank_big_rockets_green {
+
+	health	1500
+	flag    FL_ONGROUND_NORMAL
+	enemy
+
+	score	1500
+
+	skid_mark  21 0 10 "gfx/marks/tankmark1.tga"
+	skid_mark -21 0 10 "gfx/marks/tankmark1.tga"
+
+	model	"models/tanks/tank_big_rockets/tank_big_rockets.mdl"
+	skin	"models/tanks/tank_big_rockets/tank_big_rockets_green.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	attach abs "tank_big_rockets_turret_green" "tag_turret"
+        attach abs "tank_big_rockets_pod_green" "tag_pod"
+
+	script	"scripts\tanks\big_rockets\big_rockets.scr"
+}
+
+tank_big_rockets_dead {
+
+	model	"models\tanks\tank_big_rockets\tank_big_rockets_dead.mdl"
+	skin	"models\mapobjects\ruins\ruin_dom.tga"
+
+}
+
+///////////////////tank_big_rockets_snow/////////////////
+
+tank_big_rockets_gun_snow {
+
+	model	"models/tanks/tank_big_rockets/tank_big_rockets_gun.mdl"
+	skin	"models/tanks/tank_big_rockets/tank_big_rockets_snow.tga"
+
+
+	script	"scripts\tanks\big_rockets\big_rockets_gun.scr"
+}
+
+
+tank_big_rockets_turret_snow {
+
+	model	"models/tanks/tank_big_rockets/tank_big_rockets_turret.mdl"
+	skin	"models/tanks/tank_big_rockets/tank_big_rockets_snow.tga"
+        
+        attach abs id "GUNS" "tank_big_rockets_gun_snow" "tag_gun"
+        
+	script	"scripts\tanks\big_rockets\big_rockets_turret.scr"
+}
+
+tank_big_rockets_pod_snow {
+
+	model	"models/tanks/tank_big_rockets/tank_big_rockets_pod.mdl"
+	skin	"models/tanks/tank_big_rockets/tank_big_rockets_snow.tga"
+        
+        attach abs id "GUNS" "tank_big_rockets_rocket_snow" "tag_rocket"
+        
+	script	"scripts\tanks\big_rockets\big_rockets_turret.scr"
+}
+
+tank_big_rockets_rocket_snow {
+
+	model	"models/tanks/tank_big_rockets/tank_big_rockets_rocket.mdl"
+	skin	"models/tanks/tank_big_rockets/tank_big_rockets_snow.tga"
+
+	script	"scripts\tanks\big_rockets\big_rockets_guns.scr"
+}
+
+tank_big_rockets_snow {
+
+	health	2000
+	flag    FL_ONGROUND_NORMAL
+	enemy
+
+	score	2000
+
+	skid_mark  21 0 10 "gfx/marks/tankmark1.tga"
+	skid_mark -21 0 10 "gfx/marks/tankmark1.tga"
+
+	model	"models/tanks/tank_big_rockets/tank_big_rockets.mdl"
+	skin	"models/tanks/tank_big_rockets/tank_big_rockets_snow.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	attach abs "tank_big_rockets_turret_snow" "tag_turret"
+        attach abs "tank_big_rockets_pod_snow" "tag_pod"
+
+	script	"scripts\tanks\big_rockets\big_rockets.scr"
+}
+
+///////////////////tank_big_rockets_desert/////////////////
+
+tank_big_rockets_gun_desert {
+
+	model	"models/tanks/tank_big_rockets/tank_big_rockets_gun.mdl"
+	skin	"models/tanks/tank_big_rockets/tank_big_rockets_desert.tga"
+
+	script	"scripts\tanks\big_rockets\big_rockets_gun.scr"
+}
+
+
+tank_big_rockets_turret_desert {
+
+	model	"models/tanks/tank_big_rockets/tank_big_rockets_turret.mdl"
+	skin	"models/tanks/tank_big_rockets/tank_big_rockets_desert.tga"
+        
+        attach abs id "GUNS" "tank_big_rockets_gun_desert" "tag_gun"
+        
+	script	"scripts\tanks\big_rockets\big_rockets_turret.scr"
+}
+
+tank_big_rockets_pod_desert {
+
+	model	"models/tanks/tank_big_rockets/tank_big_rockets_pod.mdl"
+	skin	"models/tanks/tank_big_rockets/tank_big_rockets_desert.tga"
+        
+        attach abs id "GUNS" "tank_big_rockets_rocket_desert" "tag_rocket"
+        
+	script	"scripts\tanks\big_rockets\big_rockets_turret.scr"
+}
+
+tank_big_rockets_rocket_desert {
+
+	model	"models/tanks/tank_big_rockets/tank_big_rockets_rocket.mdl"
+	skin	"models/tanks/tank_big_rockets/tank_big_rockets_desert.tga"
+        
+	script	"scripts\tanks\big_rockets\big_rockets_guns.scr"
+}
+
+tank_big_rockets_desert {
+
+	health	1700
+	flag    FL_ONGROUND_NORMAL
+	enemy
+
+	score	1700
+
+	skid_mark  21 0 10 "gfx/marks/tankmark1.tga"
+	skid_mark -21 0 10 "gfx/marks/tankmark1.tga"
+
+	model	"models/tanks/tank_big_rockets/tank_big_rockets.mdl"
+	skin	"models/tanks/tank_big_rockets/tank_big_rockets_desert.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	attach abs "tank_big_rockets_turret_desert" "tag_turret"
+        attach abs "tank_big_rockets_pod_desert" "tag_pod"
+
+	script	"scripts\tanks\big_rockets\big_rockets.scr"
+}
+
+////////////////////////////////////////////////////////////////////////////////
+/////////////////////////// tank_small_shilka //////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+
+tank_small_shilka_green_1_gun {
+	model	"models/tanks/tank_small_shilka/tank_small_shilka_gun.mdl"
+	skin	"models/tanks/tank_small_shilka/tank_small_shilka_green_1.tga"
+
+	script	"scripts\tanks\tank_small_shilka\tank_small_shilka_guns.scr"
+}
+
+tank_small_shilka_green_1_radar {
+	model	"models/tanks/tank_small_shilka/tank_small_shilka_radar.mdl"
+	skin	"models/tanks/tank_small_shilka/tank_small_shilka_green_1.tga"
+
+	script	"scripts\tanks\tank_small_shilka\tank_small_shilka_guns.scr"
+}
+
+tank_small_shilka_green_1_turret {
+	model	"models/tanks/tank_small_shilka/tank_small_shilka_turret.mdl"
+	skin	"models/tanks/tank_small_shilka/tank_small_shilka_green_1.tga"
+
+	attach abs id "GUNS"  "tank_small_shilka_green_1_gun"  "tag_gun"
+        attach abs id "GUNS"  "tank_small_shilka_green_1_radar"  "tag_radar"
+
+        attach  "helic_redflare"        "tag_flare01"
+        attach  "helic_redflare"        "tag_flare02"
+        attach  "helic_redflare"        "tag_flare03"
+        attach  "helic_redflare"        "tag_flare04"
+
+	script	"scripts\tanks\tank_small_shilka\tank_small_shilka_turret.scr"
+}
+
+tank_small_shilka_green_1 {
+	health	450
+	flag    FL_ONGROUND_NORMAL
+	enemy
+	
+	score	450
+
+	skid_mark  16 0 6 "gfx/marks/tankmark1.tga"
+	skid_mark -16 0 6 "gfx/marks/tankmark1.tga"
+
+	model	"models/tanks/tank_small_shilka/tank_small_shilka.mdl"
+	skin	"models/tanks/tank_small_shilka/tank_small_shilka_green_1.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	attach abs "tank_small_shilka_green_1_turret" "tag_turret"	
+	attach abs night "svet_far" "tag_fara01"
+	attach abs night "svet_far_wol" "tag_fara02"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\tanks\tank_small_shilka\tank_small_shilka.scr"
+}
+////////////////
+
+tank_small_shilka_green_gun {
+	model	"models/tanks/tank_small_shilka/tank_small_shilka_gun.mdl"
+	skin	"models/tanks/tank_small_shilka/tank_small_shilka_green.tga"
+
+	script	"scripts\tanks\tank_small_shilka\tank_small_shilka_guns.scr"
+}
+
+tank_small_shilka_green_radar {
+	model	"models/tanks/tank_small_shilka/tank_small_shilka_radar.mdl"
+	skin	"models/tanks/tank_small_shilka/tank_small_shilka_green.tga"
+
+	script	"scripts\tanks\tank_small_shilka\tank_small_shilka_guns.scr"
+}
+
+tank_small_shilka_green_turret {
+	model	"models/tanks/tank_small_shilka/tank_small_shilka_turret.mdl"
+	skin	"models/tanks/tank_small_shilka/tank_small_shilka_green.tga"
+
+	attach abs id "GUNS"  "tank_small_shilka_green_gun"  "tag_gun"
+        attach abs id "GUNS"  "tank_small_shilka_green_radar"  "tag_radar"
+        
+        attach  "helic_redflare"        "tag_flare01"
+        attach  "helic_redflare"        "tag_flare02"
+        attach  "helic_redflare"        "tag_flare03"
+        attach  "helic_redflare"        "tag_flare04"
+
+	script	"scripts\tanks\tank_small_shilka\tank_small_shilka_turret.scr"
+}
+
+tank_small_shilka_green {
+	health	700
+	flag    FL_ONGROUND_NORMAL
+	enemy
+	
+	score	700
+
+	skid_mark  16 0 6 "gfx/marks/tankmark1.tga"
+	skid_mark -16 0 6 "gfx/marks/tankmark1.tga"
+
+	model	"models/tanks/tank_small_shilka/tank_small_shilka.mdl"
+	skin	"models/tanks/tank_small_shilka/tank_small_shilka_green.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	attach abs "tank_small_shilka_green_turret" "tag_turret"	
+	attach abs night "svet_far" "tag_fara01"
+	attach abs night "svet_far_wol" "tag_fara02"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\tanks\tank_small_shilka\tank_small_shilka.scr"
+}
+
+/////////////////
+
+tank_small_shilka_brown_gun {
+	model	"models/tanks/tank_small_shilka/tank_small_shilka_gun.mdl"
+	skin	"models/tanks/tank_small_shilka/tank_small_shilka_brown.tga"
+
+	script	"scripts\tanks\tank_small_shilka\tank_small_shilka_guns.scr"
+}
+
+tank_small_shilka_brown_radar {
+	model	"models/tanks/tank_small_shilka/tank_small_shilka_radar.mdl"
+	skin	"models/tanks/tank_small_shilka/tank_small_shilka_brown.tga"
+
+	script	"scripts\tanks\tank_small_shilka\tank_small_shilka_guns.scr"
+}
+
+tank_small_shilka_brown_turret {
+	model	"models/tanks/tank_small_shilka/tank_small_shilka_turret.mdl"
+	skin	"models/tanks/tank_small_shilka/tank_small_shilka_brown.tga"
+	
+	attach abs id "GUNS"  "tank_small_shilka_brown_gun"  "tag_gun"
+        attach abs id "GUNS"  "tank_small_shilka_brown_radar"  "tag_radar"
+        
+        attach  "helic_redflare"        "tag_flare01"
+        attach  "helic_redflare"        "tag_flare02"
+        attach  "helic_redflare"        "tag_flare03"
+        attach  "helic_redflare"        "tag_flare04"
+
+	script	"scripts\tanks\tank_small_shilka\tank_small_shilka_turret.scr"
+}
+
+tank_small_shilka_brown {
+	health	500
+	flag    FL_ONGROUND_NORMAL
+	enemy
+	
+	score	500
+
+	skid_mark  16 0 6 "gfx/marks/tankmark1.tga"
+	skid_mark -16 0 6 "gfx/marks/tankmark1.tga"
+
+	model	"models/tanks/tank_small_shilka/tank_small_shilka.mdl"
+	skin	"models/tanks/tank_small_shilka/tank_small_shilka_brown.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	attach abs "tank_small_shilka_brown_turret" "tag_turret"	
+	attach abs night "svet_far" "tag_fara01"
+	attach abs night "svet_far_wol" "tag_fara02"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\tanks\tank_small_shilka\tank_small_shilka.scr"
+}
+
+
+/////////////////////
+
+tank_small_shilka_gray_gun {
+	model	"models/tanks/tank_small_shilka/tank_small_shilka_gun.mdl"
+	skin	"models/tanks/tank_small_shilka/tank_small_shilka_gray.tga"
+
+	script	"scripts\tanks\tank_small_shilka\tank_small_shilka_guns.scr"
+}
+
+tank_small_shilka_gray_radar {
+	model	"models/tanks/tank_small_shilka/tank_small_shilka_radar.mdl"
+	skin	"models/tanks/tank_small_shilka/tank_small_shilka_gray.tga"
+
+	script	"scripts\tanks\tank_small_shilka\tank_small_shilka_guns.scr"
+}
+
+tank_small_shilka_gray_turret {
+	model	"models/tanks/tank_small_shilka/tank_small_shilka_turret.mdl"
+	skin	"models/tanks/tank_small_shilka/tank_small_shilka_gray.tga"
+
+	attach abs id "GUNS"  "tank_small_shilka_gray_gun"  "tag_gun"
+        attach abs id "GUNS"  "tank_small_shilka_gray_radar"  "tag_radar"
+        
+        attach  "helic_redflare"        "tag_flare01"
+        attach  "helic_redflare"        "tag_flare02"
+        attach  "helic_redflare"        "tag_flare03"
+        attach  "helic_redflare"        "tag_flare04"
+
+	script	"scripts\tanks\tank_small_shilka\tank_small_shilka_turret.scr"
+}
+
+tank_small_shilka_gray {
+	health	600
+	flag    FL_ONGROUND_NORMAL
+	enemy
+	
+	score	600
+
+	skid_mark  16 0 6 "gfx/marks/tankmark1.tga"
+	skid_mark -16 0 6 "gfx/marks/tankmark1.tga"
+
+	model	"models/tanks/tank_small_shilka/tank_small_shilka.mdl"
+	skin	"models/tanks/tank_small_shilka/tank_small_shilka_gray.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	attach abs "tank_small_shilka_gray_turret" "tag_turret"	
+	attach abs night "svet_far" "tag_fara01"
+	attach abs night "svet_far_wol" "tag_fara02"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\tanks\tank_small_shilka\tank_small_shilka.scr"
+}
+
+tank_small_shilka_dead {
+	flag    FL_ONGROUND_NORMAL
+
+	model	"models/tanks/tank_small_shilka/tank_small_shilka_dead.mdl"
+	skin	"models/tanks/tank_dead.tga"
+
+	attach id "CAMPFIRE" "campfire" "origin"
+	attach id "CAMPFIRE_SMALL" "campfire_small" "origin"
+	script	"scripts\dead2.scr"
+
+}
+
+//////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////// tank_medium_x ////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
+
+tank_medium_x_gun {
+	model	"models/tanks/tank_medium_x/tank_medium_x_gun.mdl"
+	skin	"models/tanks/tank_medium_x/tank_medium_x.tga"
+
+	script	"scripts\tanks\tank_medium_x\tank_medium_x_guns.scr"
+}
+
+
+
+tank_medium_x_turret {
+	model	"models/tanks/tank_medium_x/tank_medium_x_turret.mdl"
+	skin	"models/tanks/tank_medium_x/tank_medium_x.tga"
+	
+	attach abs id "GUNS"  "tank_medium_x_gun"  "tag_gun"
+        
+        attach  "helic_redflare"        "tag_flare01"
+        attach  "helic_redflare"        "tag_flare02"
+        attach  "helic_redflare"        "tag_flare03"
+        attach  "helic_redflare"        "tag_flare04"
+
+	script	"scripts\tanks\tank_medium_x\tank_medium_x_turret.scr"
+}
+
+tank_medium_x {
+	health	1200
+	flag    FL_ONGROUND_NORMAL
+	enemy
+	
+	score	1200
+
+	skid_mark  21 0 10 "gfx/marks/tankmark1.tga"
+	skid_mark -21 0 10 "gfx/marks/tankmark1.tga"
+
+	model	"models/tanks/tank_medium_x/tank_medium_x.mdl"
+	skin	"models/tanks/tank_medium_x/tank_medium_x.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	attach abs "tank_medium_x_turret" "tag_turret"	
+	attach abs night "svet_far" "tag_fara01"
+	attach abs night "svet_far_wol" "tag_fara02"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\tanks\tank_medium_x\tank_medium_x.scr"
+}
+
+
+tank_medium_x_brown_gun {
+	model	"models/tanks/tank_medium_x/tank_medium_x_gun.mdl"
+	skin	"models/tanks/tank_medium_x/tank_medium_x_brown.tga"
+
+	script	"scripts\tanks\tank_medium_x\tank_medium_x_guns.scr"
+}
+
+
+
+tank_medium_x_brown_turret {
+	model	"models/tanks/tank_medium_x/tank_medium_x_turret.mdl"
+	skin	"models/tanks/tank_medium_x/tank_medium_x_brown.tga"
+
+	attach abs id "GUNS"  "tank_medium_x_brown_gun"  "tag_gun"
+        
+        attach  "helic_redflare"        "tag_flare01"
+        attach  "helic_redflare"        "tag_flare02"
+        attach  "helic_redflare"        "tag_flare03"
+        attach  "helic_redflare"        "tag_flare04"
+
+	script	"scripts\tanks\tank_medium_x\tank_medium_x_turret.scr"
+}
+
+tank_medium_x_brown {
+	health	1500
+	flag    FL_ONGROUND_NORMAL
+	enemy
+	
+	score	1500
+
+	skid_mark  21 0 10 "gfx/marks/tankmark1.tga"
+	skid_mark -21 0 10 "gfx/marks/tankmark1.tga"
+
+	model	"models/tanks/tank_medium_x/tank_medium_x.mdl"
+	skin	"models/tanks/tank_medium_x/tank_medium_x_brown.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	attach abs "tank_medium_x_brown_turret" "tag_turret"	
+	attach abs night "svet_far" "tag_fara01"
+	attach abs night "svet_far_wol" "tag_fara02"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\tanks\tank_medium_x\tank_medium_x.scr"
+}
+
+tank_medium_x_dead {
+
+	flag    FL_ONGROUND_NORMAL
+
+	model	"models/tanks/tank_medium_x/tank_medium_x_dead.mdl"
+	skin	"models/tanks/tank_dead.tga"
+
+	attach id "CAMPFIRE" "campfire" "origin"
+	attach id "CAMPFIRE_SMALL" "campfire_small" "origin"
+	script	"scripts\dead2.scr"
+
+
+}
+
+//////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////// sherman ////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
+
+sherman_green_gun {
+
+	model   "models/tanks/sherman/sherman_gun.mdl"
+	skin    "models/tanks/sherman/sherman_green.tga"
+
+	script	"scripts\tanks\sherman\sherman_gun.scr"
+}
+
+sherman_green_turret {
+
+	model   "models/tanks/sherman/sherman_turret.mdl"
+	skin    "models/tanks/sherman/sherman_green.tga"
+
+	attach abs id "GUNS" "sherman_green_gun" "tag_gun"
+
+	script	"scripts\tanks\sherman\sherman_turret.scr"
+}
+
+sherman_green {
+       
+	health  500
+	flag    FL_ONGROUND_NORMAL
+	enemy
+	score   500
+
+	skid_mark  12 0 6 "gfx/marks/tankmark1.tga"
+	skid_mark -12 0 6 "gfx/marks/tankmark1.tga"
+
+	model   "models/tanks/sherman/sherman_base.mdl"
+	skin    "models/tanks/sherman/sherman_green.tga"
+	shadow  SHADOW_PLANAR_LOW
+
+	attach abs "sherman_green_turret" "tag_turret"
+        
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\tanks\sherman\sherman.scr"
+}
+
+sherman_desert_gun {
+
+	model   "models/tanks/sherman/sherman_gun.mdl"
+	skin    "models/tanks/sherman/sherman_desert.tga"
+
+	script	"scripts\tanks\sherman\sherman_gun.scr"
+}
+
+sherman_desert_turret {
+
+	model   "models/tanks/sherman/sherman_turret.mdl"
+	skin    "models/tanks/sherman/sherman_desert.tga"
+
+	attach abs id "GUNS" "sherman_desert_gun" "tag_gun"
+
+	script	"scripts\tanks\sherman\sherman_turret.scr"
+}
+
+sherman_desert {
+       
+	health  600
+	flag    FL_ONGROUND_NORMAL
+	enemy
+	score   600
+
+	skid_mark  12 0 6 "gfx/marks/tankmark1.tga"
+	skid_mark -12 0 6 "gfx/marks/tankmark1.tga"
+
+	model   "models/tanks/sherman/sherman_base.mdl"
+	skin    "models/tanks/sherman/sherman_desert.tga"
+	shadow  SHADOW_PLANAR_LOW
+
+	attach abs "sherman_desert_turret" "tag_turret"
+        
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\tanks\sherman\sherman.scr"
+}
+sherman_snow_gun {
+
+	model   "models/tanks/sherman/sherman_gun.mdl"
+	skin    "models/tanks/sherman/sherman_snow.tga"
+
+	script	"scripts\tanks\sherman\sherman_gun.scr"
+}
+
+sherman_snow_turret {
+
+	model   "models/tanks/sherman/sherman_turret.mdl"
+	skin    "models/tanks/sherman/sherman_snow.tga"
+
+	attach abs id "GUNS" "sherman_snow_gun" "tag_gun"
+
+	script	"scripts\tanks\sherman\sherman_turret.scr"
+}
+
+sherman_snow {
+       
+	health  700
+	flag    FL_ONGROUND_NORMAL
+	enemy
+	score   700
+
+	skid_mark  12 0 6 "gfx/marks/tankmark1.tga"
+	skid_mark -12 0 6 "gfx/marks/tankmark1.tga"
+
+	model   "models/tanks/sherman/sherman_base.mdl"
+	skin    "models/tanks/sherman/sherman_snow.tga"
+	shadow  SHADOW_PLANAR_LOW
+
+	attach abs "sherman_snow_turret" "tag_turret"
+        
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\tanks\sherman\sherman.scr"
+}
+
+//////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////// sau /////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
+
+sau_desert_gun {
+
+	model   "models/tanks/sau/sau_gun.mdl"
+	skin    "models/tanks/sau/sau_desert.tga"
+
+	script	"scripts\tanks\sau\sau_gun.scr"
+}
+
+sau_desert_turret {
+
+	model   "models/tanks/sau/sau_turret.mdl"
+	skin    "models/tanks/sau/sau_desert.tga"
+
+	attach abs id "GUNS" "sau_desert_gun" "tag_gun"
+
+	attach  "helic_redflare" "tag_flare"
+
+	script	"scripts\tanks\sau\sau_turret.scr"
+}
+
+sau_desert_wh {
+
+	model   "models/tanks/sau/sau_wh.mdl"
+	skin    "models/tanks/sau/sau_desert.tga"
+
+	script	"scripts\tanks\sau\sau_wheel.scr"
+}
+
+sau_desert_opora_01 {
+
+	model   "models/tanks/sau/sau_opora_01.mdl"
+	skin    "models/tanks/sau/sau_desert.tga"
+
+//	script	"scripts\tanks\sau\sau_opora_01.scr"
+}
+
+sau_desert_opora_02 {
+
+	model   "models/tanks/sau/sau_opora_02.mdl"
+	skin    "models/tanks/sau/sau_desert.tga"
+
+//	script	"scripts\tanks\sau\sau_opora_02.scr"
+}
+
+sau_desert {
+       
+	health  1000
+	flag    FL_ONGROUND_NORMAL
+	enemy
+	score   1000
+
+	skid_mark  21 0 10 "gfx/marks/tankmark1.tga"
+	skid_mark -21 0 10 "gfx/marks/tankmark1.tga"
+
+	model   "models/tanks/sau/sau_base.mdl"
+	skin    "models/tanks/sau/sau_desert.tga"
+	shadow  SHADOW_PLANAR_LOW
+
+	attach abs "sau_desert_wh" "tag_wh_01"
+	attach abs "sau_desert_wh" "tag_wh_02"
+	attach abs "sau_desert_wh" "tag_wh_03"
+	attach abs "sau_desert_wh" "tag_wh_04"
+	attach abs "sau_desert_turret" "tag_turret"
+	attach abs "sau_desert_opora_01" "tag_opora_01"
+	attach abs "sau_desert_opora_02" "tag_opora_02"
+	attach abs night "svet_far" "tag_fara_01"
+	attach abs night "svet_far_wol" "tag_fara_02"
+        
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\tanks\sherman\sherman.scr"
+}
+
+
+
+sau_metal_gun {
+
+	model   "models/tanks/sau/sau_gun.mdl"
+	skin    "models/tanks/sau/sau_metal.tga"
+
+	script	"scripts\tanks\sau\sau_gun.scr"
+}
+
+sau_metal_turret {
+
+	model   "models/tanks/sau/sau_turret.mdl"
+	skin    "models/tanks/sau/sau_metal.tga"
+
+	attach abs id "GUNS" "sau_metal_gun" "tag_gun"
+
+	attach  "helic_redflare" "tag_flare"
+
+	script	"scripts\tanks\sau\sau_turret.scr"
+}
+
+sau_metal_wh {
+
+	model   "models/tanks/sau/sau_wh.mdl"
+	skin    "models/tanks/sau/sau_metal.tga"
+
+	script	"scripts\tanks\sau\sau_wheel.scr"
+}
+
+sau_metal_opora_01 {
+
+	model   "models/tanks/sau/sau_opora_01.mdl"
+	skin    "models/tanks/sau/sau_metal.tga"
+
+//	script	"scripts\tanks\sau\sau_opora_01.scr"
+}
+
+sau_metal_opora_02 {
+
+	model   "models/tanks/sau/sau_opora_02.mdl"
+	skin    "models/tanks/sau/sau_metal.tga"
+
+//	script	"scripts\tanks\sau\sau_opora_02.scr"
+}
+
+sau_metal {
+       
+	health  1400
+	flag    FL_ONGROUND_NORMAL
+	enemy
+	score   1400
+
+	skid_mark  21 0 10 "gfx/marks/tankmark1.tga"
+	skid_mark -21 0 10 "gfx/marks/tankmark1.tga"
+
+	model   "models/tanks/sau/sau_base.mdl"
+	skin    "models/tanks/sau/sau_metal.tga"
+	shadow  SHADOW_PLANAR_LOW
+
+	attach abs "sau_metal_wh" "tag_wh_01"
+	attach abs "sau_metal_wh" "tag_wh_02"
+	attach abs "sau_metal_wh" "tag_wh_03"
+	attach abs "sau_metal_wh" "tag_wh_04"
+	attach abs "sau_metal_turret" "tag_turret"
+	attach abs "sau_metal_opora_01" "tag_opora_01"
+	attach abs "sau_metal_opora_02" "tag_opora_02"
+	attach abs night "svet_far" "tag_fara_01"
+	attach abs night "svet_far_wol" "tag_fara_02"
+        
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\tanks\sherman\sherman.scr"
+}
+
+//////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////// bt_2 ////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
+
+bt_2_green_gun {
+
+	model   "models/tanks/bt_2/bt_2_gun.mdl"
+	skin    "models/tanks/bt_2/bt_2_green.tga"
+
+	shadow  SHADOW_PLANAR_LOW
+	rflag   RF_NOCULLING
+
+	script	"scripts\tanks\bt_2\bt_2_gun.scr"
+}
+
+bt_2_green_turret {
+
+	model   "models/tanks/bt_2/bt_2_turret.mdl"
+	skin    "models/tanks/bt_2/bt_2_green.tga"
+
+	shadow  SHADOW_PLANAR_LOW
+	rflag   RF_NOCULLING
+
+	attach abs id "GUNS" "bt_2_green_gun" "tag_gun"
+
+	script	"scripts\tanks\bt_2\bt_2_turret.scr"
+}
+
+bt_2_green {
+
+	health  600
+	flag    FL_ONGROUND_NORMAL
+	shadow  SHADOW_PLANAR_LOW
+	rflag   RF_NOCULLING
+	enemy
+	score   600
+
+	skid_mark  14 0 9 "gfx/marks/tankmark1.tga"
+	skid_mark -14 0 9 "gfx/marks/tankmark1.tga"
+
+	model   "models/tanks/bt_2/bt_2.mdl"
+	skin    "models/tanks/bt_2/bt_2_green.tga"
+
+	attach abs "bt_2_green_turret" "tag_turret"
+	attach abs night "svet_far" "tag_fara01"
+	attach abs night "svet_far_wol" "tag_fara02"
+	attach  "helic_redflare"        "tag_flare"
+        
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\tanks\bt_2\bt_2.scr"
+}
+
+bt_2_blue_gun {
+
+	model   "models/tanks/bt_2/bt_2_gun.mdl"
+	skin    "models/tanks/bt_2/bt_2_snow.tga"
+
+	shadow  SHADOW_PLANAR_LOW
+	rflag   RF_NOCULLING
+
+	script	"scripts\tanks\bt_2\bt_2_gun.scr"
+}
+
+bt_2_blue_turret {
+
+	model   "models/tanks/bt_2/bt_2_turret.mdl"
+	skin    "models/tanks/bt_2/bt_2_snow.tga"
+
+	shadow  SHADOW_PLANAR_LOW
+	rflag   RF_NOCULLING
+
+	attach abs id "GUNS" "bt_2_blue_gun" "tag_gun"
+
+	script	"scripts\tanks\bt_2\bt_2_turret.scr"
+}
+
+bt_2_blue {
+
+	health  1000
+	flag    FL_ONGROUND_NORMAL
+	shadow  SHADOW_PLANAR_LOW
+	rflag   RF_NOCULLING
+	enemy
+	score   1000
+
+	skid_mark  14 0 9 "gfx/marks/tankmark1.tga"
+	skid_mark -14 0 9 "gfx/marks/tankmark1.tga"
+
+	model   "models/tanks/bt_2/bt_2.mdl"
+	skin    "models/tanks/bt_2/bt_2_snow.tga"
+
+	attach abs "bt_2_blue_turret" "tag_turret"
+	attach abs night "svet_far" "tag_fara01"
+	attach abs night "svet_far_wol" "tag_fara02"
+	attach  "helic_redflare"        "tag_flare"
+        
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\tanks\bt_2\bt_2.scr"
+}
+
+bt_2_desert_gun {
+
+	model   "models/tanks/bt_2/bt_2_gun.mdl"
+	skin    "models/tanks/bt_2/bt_2_desert.tga"
+
+	shadow  SHADOW_PLANAR_LOW
+	rflag   RF_NOCULLING
+
+	script	"scripts\tanks\bt_2\bt_2_gun.scr"
+}
+
+bt_2_desert_turret {
+
+	model   "models/tanks/bt_2/bt_2_turret.mdl"
+	skin    "models/tanks/bt_2/bt_2_desert.tga"
+
+	shadow  SHADOW_PLANAR_LOW
+	rflag   RF_NOCULLING
+
+	attach abs id "GUNS" "bt_2_desert_gun" "tag_gun"
+
+	script	"scripts\tanks\bt_2\bt_2_turret.scr"
+}
+
+bt_2_desert {
+
+	health  800
+	flag    FL_ONGROUND_NORMAL
+	shadow  SHADOW_PLANAR_LOW
+	rflag   RF_NOCULLING
+	enemy
+	score   800
+
+	skid_mark  14 0 9 "gfx/marks/tankmark1.tga"
+	skid_mark -14 0 9 "gfx/marks/tankmark1.tga"
+
+	model   "models/tanks/bt_2/bt_2.mdl"
+	skin    "models/tanks/bt_2/bt_2_desert.tga"
+
+	attach abs "bt_2_desert_turret" "tag_turret"
+	attach abs night "svet_far" "tag_fara01"
+	attach abs night "svet_far_wol" "tag_fara02"
+	attach  "helic_redflare"        "tag_flare"
+        
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\tanks\bt_2\bt_2.scr"
+}

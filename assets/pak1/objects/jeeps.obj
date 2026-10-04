@@ -1,0 +1,1649 @@
+
+jeep_dead_small {
+
+	rflag   RF_NOCULLING
+
+	model	"models\jeeps\jeep_dead_small.mdl"
+	skin	"models\dead.tga"
+
+	script	"scripts\dead.scr"
+}
+
+///////////////////////////////////////////////////////////////////
+/////////=========     jeep   ===========//////////////////////////
+///////////////////////////////////////////////////////////////////
+
+jeep_sand_cannon {
+	model	"models/jeeps/jeep/jeep_b.mdl"
+	skin	"models/jeeps/jeep/jeep_sand.tga"
+
+	script	"scripts\jeeps\jeep\j_cannon.scr"
+}
+
+jeep_sand {
+	health	60
+	flag    FL_ONGROUND_NORMAL
+	enemy
+
+	score 60	
+
+	model	"models/jeeps/jeep/jeep.mdl"
+	skin	"models/jeeps/jeep/jeep_sand.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	attach	abs "jeep_sand_cannon" "tag_cannon"	
+	attach abs night "svet_far" "tag_fara1"
+	attach abs night "svet_far_wol" "tag_fara2"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\jeeps\jeep\jeep.scr"
+}
+
+jeep_dead {
+
+	model	"models/jeeps/jeep_dead.mdl"
+	skin	"models/jeeps/jeep_dead.tga"
+
+	attach id "CAMPFIRE" "campfire" "origin"
+	attach id "CAMPFIRE_SMALL" "campfire_small" "origin"
+	script	"scripts\dead.scr"
+}
+
+jeep_dead2 {
+
+	model	"models/jeeps/jeep_dead2.mdl"
+	skin	"models/jeeps/jeep_dead.tga"
+
+	attach id "CAMPFIRE" "campfire" "origin"
+	attach id "CAMPFIRE_SMALL" "campfire_small" "origin"
+	script	"scripts\dead.scr"
+}
+
+///////////////////////////////////////////////////////////////////
+
+jeep_haki_green_cannon {
+	model	"models/jeeps/jeep/jeep_b.mdl"
+	skin	"models/jeeps/jeep/jeep_haki2.tga"
+
+	script	"scripts\jeeps\jeep\j_cannon2.scr"
+}
+
+jeep_haki_green {
+	health	100
+	flag    FL_ONGROUND_NORMAL
+	enemy
+
+	score 150	
+
+	model	"models/jeeps/jeep/jeep.mdl"
+	skin	"models/jeeps/jeep/jeep_haki2.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	attach	abs "jeep_haki_green_cannon" "tag_cannon"	
+	attach abs night "svet_far" "tag_fara1"
+	attach abs night "svet_far_wol" "tag_fara2"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\jeeps\jeep\jeep.scr"
+}
+
+///////////////////////////////////////////////////////////////////
+
+jeep_haki_lgreen_cannon {
+	model	"models/jeeps/jeep/jeep_b.mdl"
+	skin	"models/jeeps/jeep/jeep_haki3.tga"
+
+	script	"scripts\jeeps\jeep\j_cannon2.scr"
+}
+
+jeep_haki_lgreen {
+	health	140
+	flag    FL_ONGROUND_NORMAL
+	enemy
+
+	score 200	
+
+	model	"models/jeeps/jeep/jeep.mdl"
+	skin	"models/jeeps/jeep/jeep_haki3.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	attach	abs "jeep_haki_lgreen_cannon" "tag_cannon"	
+	attach abs night "svet_far" "tag_fara1"
+	attach abs night "svet_far_wol" "tag_fara2"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\jeeps\jeep\jeep.scr"
+}
+
+
+///////////////////////////////////////////////////////////////////
+/////////=========     jeep_army   ===========/////////////////////
+///////////////////////////////////////////////////////////////////
+
+jeep_army_haki_lgreen_cannon {
+	model	"models/jeeps/jeep_army/jeep_army_b.mdl"
+	skin	"models/jeeps/jeep/jeep_haki3.tga"
+
+	script	"scripts\jeeps\jeep_army\j_cannon.scr"
+}
+
+jeep_army_haki_lgreen {
+	health	110
+	flag    FL_ONGROUND_NORMAL
+	enemy
+
+	score 200	
+
+	model	"models/jeeps/jeep_army/jeep_army.mdl"
+	skin	"models/jeeps/jeep/jeep_haki3.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	attach	abs "jeep_army_haki_lgreen_cannon" "tag_cannon"	
+	attach abs night "svet_far" "tag_fara1"
+	attach abs night "svet_far_wol" "tag_fara2"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\jeeps\jeep_army\jeep.scr"
+}
+
+/////////////////////////////////////////////////////////////////
+////////////////JEEP_ARMY2///////////////////////////////////////
+/////////////////////////////////////////////////////////////////
+
+jeep_army2_green_gun {
+	model	"models/jeeps/jeep_army2/jeep_army2_gun.mdl"
+	skin	"models/jeeps/jeep_army2/jeep_army2.tga"
+
+	script	"scripts\jeeps\jeep_army2\j_gun.scr"
+}
+
+jeep_army2_green_cannon {
+	model	"models/jeeps/jeep_army2/jeep_army2_b.mdl"
+	skin	"models/jeeps/jeep_army2/jeep_army2.tga"
+
+	attach	abs id "GUNS" "jeep_army2_green_gun" "tag_guns"	
+
+	script	"scripts\jeeps\jeep_army2\j_cannon.scr"
+}
+
+jeep_army2_green {
+	health	230
+	flag    FL_ONGROUND_NORMAL
+	enemy
+
+	score 300	
+
+	model	"models/jeeps/jeep_army2/jeep_army2.mdl"
+	skin	"models/jeeps/jeep_army2/jeep_army2.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	attach	abs "jeep_army2_green_cannon" "tag_cannon"	
+	attach abs night "svet_far" "tag_fara1"
+	attach abs night "svet_far_wol" "tag_fara2"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\jeeps\jeep_army2\jeep.scr"
+}
+
+/////////////////////////////////////////////////////////////////
+
+jeep_army2_brown_gun {
+	model	"models/jeeps/jeep_army2/jeep_army2_gun.mdl"
+	skin	"models/jeeps/jeep_army2/jeep_army2_brown.tga"
+
+	script	"scripts\jeeps\jeep_army2\j_gun.scr"
+}
+
+
+jeep_army2_brown_cannon {
+	model	"models/jeeps/jeep_army2/jeep_army2_b.mdl"
+	skin	"models/jeeps/jeep_army2/jeep_army2_brown.tga"
+
+	attach	abs id "GUNS" "jeep_army2_brown_gun" "tag_guns"	
+
+	script	"scripts\jeeps\jeep_army2\j_cannon.scr"
+}
+
+jeep_army2_brown {
+	health	350
+	flag    FL_ONGROUND_NORMAL
+	enemy
+
+	score 400	
+
+	model	"models/jeeps/jeep_army2/jeep_army2.mdl"
+	skin	"models/jeeps/jeep_army2/jeep_army2_brown.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	attach	abs "jeep_army2_brown_cannon" "tag_cannon"	
+	attach abs night "svet_far" "tag_fara1"
+	attach abs night "svet_far_wol" "tag_fara2"
+
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\jeeps\jeep_army2\jeep.scr"
+}
+
+/////////////////////////////////////////////////////////////////
+////////////////JEEP_ARMY3///////////////////////////////////////
+/////////////////////////////////////////////////////////////////
+
+jeep_army3_brown_gun {
+	model	"models/jeeps/jeep_army2/jeep_army2_1_gun.mdl"
+	skin	"models/jeeps/jeep_army2/jeep_army2_brown.tga"
+
+	script	"scripts\jeeps\jeep_army2\j_gun2.scr"
+}
+
+jeep_army3_brown_cannon {
+	model	"models/jeeps/jeep_army2/jeep_army2_1_b.mdl"
+	skin	"models/jeeps/jeep_army2/jeep_army2_brown.tga"
+
+	attach	abs id "GUNS" "jeep_army3_brown_gun" "tag_guns"	
+
+	script	"scripts\jeeps\jeep_army2\j_cannon2.scr"
+}
+
+jeep_army3_brown {
+	health	300
+	flag    FL_ONGROUND_NORMAL
+	enemy
+
+	score 400	
+
+	model	"models/jeeps/jeep_army2/jeep_army2_1.mdl"
+	skin	"models/jeeps/jeep_army2/jeep_army2_brown.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	attach	abs "jeep_army3_brown_cannon" "tag_cannon1"	
+	attach	abs "jeep_army3_brown_cannon" "tag_cannon2"	
+	attach abs night "svet_far" "tag_fara1"
+	attach abs night "svet_far_wol" "tag_fara2"
+
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\jeeps\jeep_army2\jeep.scr"
+}
+
+/////////////////////////////////////////////////////////////////
+
+jeep_bug_big_guns {
+	model	"models\jeeps\jeep_bug_big\jeep_bug_big_guns.mdl"
+	skin	"models\jeeps\jeep_bug_big\jeep_buggy_big.tga"
+
+	script	"scripts\jeeps\jeep_bug_big\j_guns.scr"
+}
+
+
+jeep_bug_big_cannon {
+	model	"models\jeeps\jeep_bug_big\jeep_bug_big_b.mdl"
+	skin	"models\jeeps\jeep_bug_big\jeep_buggy_big.tga"
+
+	attach	abs id "GUNS" "jeep_bug_big_guns" "tag_guns"	
+
+	script	"scripts\jeeps\jeep_bug_big\j_cannon.scr"
+}
+
+
+jeep_bug_big_wheel {
+	model	"models\jeeps\jeep_bug_big\jeep_bug_big_wheel.mdl"
+	skin	"models\jeeps\jeep_bug_big\jeep_buggy_big.tga"
+
+	script	"scripts\jeeps\jeep_bug_big\j_wheel.scr"
+}
+
+
+jeep_bug_big_wheel2 {
+	model	"models\jeeps\jeep_bug_big\jeep_bug_big_wheel2.mdl"
+	skin	"models\jeeps\jeep_bug_big\jeep_buggy_big.tga"
+
+	script	"scripts\jeeps\jeep_bug_big\j_wheel.scr"
+}
+
+jeep_bug_big {
+	health	600
+	flag    FL_ONGROUND_NORMAL
+	enemy
+
+	score 700	
+
+	skid_mark  17 21 16 "gfx/marks/jeepMark1.tga"
+	skid_mark -17 21 16 "gfx/marks/jeepMark1.tga"
+
+	model	"models\jeeps\jeep_bug_big\jeep_bug_big.mdl"
+	skin	"models\jeeps\jeep_bug_big\jeep_buggy_big.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	attach abs "jeep_bug_big_cannon" "tag_cannon"	
+
+	attach abs "jeep_bug_big_wheel" "tag_wheel1"	
+	attach abs "jeep_bug_big_wheel2" "tag_wheel2"	
+	attach abs "jeep_bug_big_wheel" "tag_wheel3"	
+	attach abs "jeep_bug_big_wheel2" "tag_wheel4"	
+
+	attach abs night "svet_far" "tag_fara1"
+	attach abs night "svet_far_wol" "tag_fara2"
+
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\jeeps\jeep_bug_big\jeep.scr"
+}
+
+/////////////////////////////////////////////////////////////////
+
+jeep_bug_big_red_guns {
+	model	"models\jeeps\jeep_bug_big\jeep_bug_big_guns.mdl"
+	skin	"models\jeeps\jeep_bug_big\jeep_buggy_big_red.tga"
+
+	script	"scripts\jeeps\jeep_bug_big\j_guns.scr"
+}
+
+
+jeep_bug_big_red_cannon {
+	model	"models\jeeps\jeep_bug_big\jeep_bug_big_b.mdl"
+	skin	"models\jeeps\jeep_bug_big\jeep_buggy_big_red.tga"
+
+	attach	abs id "GUNS" "jeep_bug_big_red_guns" "tag_guns"	
+
+	script	"scripts\jeeps\jeep_bug_big\j_cannon.scr"
+}
+
+
+jeep_bug_big_red_wheel {
+	model	"models\jeeps\jeep_bug_big\jeep_bug_big_wheel.mdl"
+	skin	"models\jeeps\jeep_bug_big\jeep_buggy_big_red.tga"
+
+	script	"scripts\jeeps\jeep_bug_big\j_wheel.scr"
+}
+
+
+jeep_bug_big_red_wheel2 {
+	model	"models\jeeps\jeep_bug_big\jeep_bug_big_wheel2.mdl"
+	skin	"models\jeeps\jeep_bug_big\jeep_buggy_big_red.tga"
+
+	script	"scripts\jeeps\jeep_bug_big\j_wheel.scr"
+}
+
+jeep_bug_big_red {
+	health	800
+	flag    FL_ONGROUND_NORMAL
+	enemy
+
+	score 900	
+
+	skid_mark  17 21 16 "gfx/marks/jeepMark1.tga"
+	skid_mark -17 21 16 "gfx/marks/jeepMark1.tga"
+
+	model	"models\jeeps\jeep_bug_big\jeep_bug_big.mdl"
+	skin	"models\jeeps\jeep_bug_big\jeep_buggy_big_red.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	attach abs "jeep_bug_big_red_cannon" "tag_cannon"	
+
+	attach abs "jeep_bug_big_red_wheel" "tag_wheel1"	
+	attach abs "jeep_bug_big_red_wheel2" "tag_wheel2"	
+	attach abs "jeep_bug_big_red_wheel" "tag_wheel3"	
+	attach abs "jeep_bug_big_red_wheel2" "tag_wheel4"	
+
+	attach abs night "svet_far" "tag_fara1"
+	attach abs night "svet_far_wol" "tag_fara2"
+
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\jeeps\jeep_bug_big\jeep.scr"
+}
+
+/////////////////////////////////////////////////////////////////////////////
+/////////////////////////// jeep_big6 ///////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////
+
+jeep_big6_guns_desert {
+	model	"models/jeeps/jeep_big_6/jeep_big6_gun.mdl"
+	skin	"models/jeeps/jeep_big_6/jeep_big6_desert.tga"
+
+	script	"scripts\jeeps\jeep_big6\jeep_big6_guns.scr"
+}
+
+jeep_big6_wheel_r_desert {
+	model	"models/jeeps/jeep_big_6/jeep_big6_whr.mdl"
+	skin	"models/jeeps/jeep_big_6/jeep_big6_desert.tga"
+
+	script	"scripts\jeeps\jeep_big6\jeep_big6_wheel.scr"
+}
+
+jeep_big6_wheel_l_desert {
+	model	"models/jeeps/jeep_big_6/jeep_big6_whl.mdl"
+	skin	"models/jeeps/jeep_big_6/jeep_big6_desert.tga"
+
+	script	"scripts\jeeps\jeep_big6\jeep_big6_wheel.scr"
+}
+
+
+jeep_big6_turret_desert {
+	model	"models/jeeps/jeep_big_6/jeep_big6_turret.mdl"
+	skin	"models/jeeps/jeep_big_6/jeep_big6_desert.tga"
+
+	attach abs id "GUNS"  "jeep_big6_guns_desert"  "tag_guns"
+
+	script	"scripts\jeeps\jeep_big6\jeep_big6_turret.scr" 
+}
+
+jeep_big6_desert {
+	health	700
+	flag    FL_ONGROUND_NORMAL
+	enemy
+
+	score 700	
+
+	skid_mark  19 26 10 "gfx/marks/jeepMark1.tga"
+	skid_mark -19 26 10 "gfx/marks/jeepMark1.tga"
+
+	model	"models/jeeps/jeep_big_6/jeep_big6.mdl"
+	skin	"models/jeeps/jeep_big_6/jeep_big6_desert.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	attach	abs "jeep_big6_turret_desert" "tag_turret"	
+	attach abs night "svet_far" "tag_svetfar01"
+	attach abs night "svet_far_wol" "tag_svetfar02"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	attach abs "jeep_big6_wheel_l_desert" "tag_wheel04"
+        attach abs "jeep_big6_wheel_l_desert" "tag_wheel03"
+        attach abs "jeep_big6_wheel_l_desert" "tag_wheel02"
+        
+        attach abs "jeep_big6_wheel_r_desert" "tag_wheel01"
+        attach abs "jeep_big6_wheel_r_desert" "tag_wheel05"
+        attach abs "jeep_big6_wheel_r_desert" "tag_wheel06"     
+
+        attach  "helic_redflare"        "tag_flare01"
+        attach  "helic_redflare"        "tag_flare02"
+        attach  "helic_redflare"        "tag_flare03"
+
+	script	"scripts\jeeps\jeep_big6\jeep_big6.scr"
+}
+
+jeep_big_6_dead {
+	model	"models/jeeps/jeep_big_6/jeep_big6_dead.mdl"
+	skin	"models/jeeps/jeep_dead.tga"
+
+	attach id "CAMPFIRE" "campfire" "origin"
+	attach id "CAMPFIRE_SMALL" "campfire_small" "origin"
+	script	"scripts\jeeps\jeep_big6\jeep_big6_dead.scr"
+
+}
+
+/////////////////////////////////////////////////////////////////
+
+jeep_big6_guns_green {
+	model	"models/jeeps/jeep_big_6/jeep_big6_gun.mdl"
+	skin	"models/jeeps/jeep_big_6/jeep_big6_green.tga"
+
+	script	"scripts\jeeps\jeep_big6\jeep_big6_guns.scr"
+}
+
+jeep_big6_wheel_r_green {
+	model	"models/jeeps/jeep_big_6/jeep_big6_whr.mdl"
+	skin	"models/jeeps/jeep_big_6/jeep_big6_green.tga"
+
+	script	"scripts\jeeps\jeep_big6\jeep_big6_wheel.scr"
+}
+
+jeep_big6_wheel_l_green {
+	model	"models/jeeps/jeep_big_6/jeep_big6_whl.mdl"
+	skin	"models/jeeps/jeep_big_6/jeep_big6_green.tga"
+
+	script	"scripts\jeeps\jeep_big6\jeep_big6_wheel.scr"
+}
+
+jeep_big6_turret_green {
+	model	"models/jeeps/jeep_big_6/jeep_big6_turret.mdl"
+	skin	"models/jeeps/jeep_big_6/jeep_big6_green.tga"
+
+	attach abs id "GUNS"  "jeep_big6_guns_green"  "tag_guns"
+
+	script	"scripts\jeeps\jeep_big6\jeep_big6_turret.scr" 
+}
+
+jeep_big6_green {
+	health	650
+	flag    FL_ONGROUND_NORMAL
+	enemy
+
+	score 650	
+
+	skid_mark  19 26 10 "gfx/marks/jeepMark1.tga"
+	skid_mark -19 26 10 "gfx/marks/jeepMark1.tga"
+
+	model	"models/jeeps/jeep_big_6/jeep_big6.mdl"
+	skin	"models/jeeps/jeep_big_6/jeep_big6_green.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	attach	abs "jeep_big6_turret_green" "tag_turret"	
+	attach abs night "svet_far" "tag_svetfar01"
+	attach abs night "svet_far_wol" "tag_svetfar02"
+	attach abs "jeep_big6_wheel_l_green" "tag_wheel04"
+        attach abs "jeep_big6_wheel_l_green" "tag_wheel03"
+        attach abs "jeep_big6_wheel_l_green" "tag_wheel02"
+        
+        attach abs "jeep_big6_wheel_r_green" "tag_wheel01"
+        attach abs "jeep_big6_wheel_r_green" "tag_wheel05"
+        attach abs "jeep_big6_wheel_r_green" "tag_wheel06"     
+
+        attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+        attach  "helic_redflare"        "tag_flare01"
+        attach  "helic_redflare"        "tag_flare02"
+        attach  "helic_redflare"        "tag_flare03"
+
+	script	"scripts\jeeps\jeep_big6\jeep_big6.scr"
+}
+
+////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////// jeep_helic ///////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////
+
+jeep_helic_wh_desert {
+
+	model	"models/jeeps\sj3\sj3_wh.mdl"
+	skin	"models/jeeps/sj3/sj3_desert.tga"
+
+	script	"scripts\jeeps\jeep_helic\jeep_helic_wheel.scr"
+}
+
+jeep_helic_gun_desert {
+
+	model	"models/jeeps/sj3/sj3_gun.mdl"
+	skin	"models/jeeps/sj3/sj3_desert.tga"
+
+	script	"scripts\jeeps\jeep_helic\jeep_helic_guns.scr"
+}
+
+jeep_helic_turret_desert {
+
+	model	"models/jeeps/sj3/sj3_cannon.mdl"
+	skin	"models/jeeps/sj3/sj3_desert.tga"
+
+	attach abs id "GUNS"   "jeep_helic_gun_desert" "tag_gun"	
+
+	script	"scripts\jeeps\jeep_helic\jeep_helic_turret.scr"
+}
+
+jeep_helic_desert {
+	health	100
+	flag    FL_ONGROUND_NORMAL
+	enemy
+
+	score 100	
+
+	model	"models/jeeps/sj3/sj3.mdl"
+	skin	"models/jeeps/sj3/sj3_desert.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	skid_mark  10 16 4 "gfx/marks/jeepmark1.tga"
+	skid_mark -10 16 4 "gfx/marks/jeepmark1.tga"
+
+	attach abs "jeep_helic_turret_desert" "tag_turret"	
+	attach abs "jeep_helic_wh_desert" "tag_wh01"	
+	attach abs "jeep_helic_wh_desert" "tag_wh02"	
+	attach abs night "svet_far" "tag_fara01"
+	attach abs night "svet_far_wol" "tag_fara02"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\jeeps\jeep_helic\jeep_helic.scr"
+}
+
+/////////////////////////////////////////////////////////////////
+
+jeep_helic_wh_green {
+
+	model	"models/jeeps\sj3\sj3_wh.mdl"
+	skin	"models/jeeps/sj3/sj3_green.tga"
+
+	script	"scripts\jeeps\jeep_helic\jeep_helic_wheel.scr"
+}
+
+jeep_helic_gun_green {
+
+	model	"models/jeeps/sj3/sj3_gun.mdl"
+	skin	"models/jeeps/sj3/sj3_green.tga"
+
+	script	"scripts\jeeps\jeep_helic\jeep_helic_guns.scr"
+}
+
+jeep_helic_turret_green {
+
+	model	"models/jeeps/sj3/sj3_cannon.mdl"
+	skin	"models/jeeps/sj3/sj3_green.tga"
+
+	attach abs id "GUNS"   "jeep_helic_gun_desert" "tag_gun"	
+
+	script	"scripts\jeeps\jeep_helic\jeep_helic_turret.scr"
+}
+
+jeep_helic_green {
+
+	health	90
+	flag    FL_ONGROUND_NORMAL
+	enemy
+
+	score 90	
+
+	model	"models/jeeps/sj3/sj3.mdl"
+	skin	"models/jeeps/sj3/sj3_green.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	skid_mark  10 16 4 "gfx/marks/jeepmark1.tga"
+	skid_mark -10 16 4 "gfx/marks/jeepmark1.tga"
+
+	attach abs "jeep_helic_turret_green" "tag_turret"	
+	attach abs "jeep_helic_wh_green" "tag_wh01"	
+	attach abs "jeep_helic_wh_green" "tag_wh02"	
+	attach abs night "svet_far" "tag_fara01"
+	attach abs night "svet_far_wol" "tag_fara02"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\jeeps\jeep_helic\jeep_helic.scr"
+}
+
+/////////////////////////////////////////////////////////////////
+
+jeep_helic_wh_snow {
+
+	model	"models/jeeps\sj3\sj3_wh.mdl"
+	skin	"models/jeeps/sj3/sj3_snow.tga"
+
+	script	"scripts\jeeps\jeep_helic\jeep_helic_wheel.scr"
+}
+
+jeep_helic_gun_snow {
+
+	model	"models/jeeps/sj3/sj3_gun.mdl"
+	skin	"models/jeeps/sj3/sj3_snow.tga"
+
+	script	"scripts\jeeps\jeep_helic\jeep_helic_guns.scr"
+}
+
+jeep_helic_turret_snow {
+
+	model	"models/jeeps/sj3/sj3_cannon.mdl"
+	skin	"models/jeeps/sj3/sj3_snow.tga"
+
+	attach abs id "GUNS"   "jeep_helic_gun_snow" "tag_gun"	
+
+	script	"scripts\jeeps\jeep_helic\jeep_helic_turret.scr"
+}
+
+jeep_helic_snow {
+
+	health	160
+	flag    FL_ONGROUND_NORMAL
+	enemy
+
+	score 160	
+
+	model	"models/jeeps/sj3/sj3.mdl"
+	skin	"models/jeeps/sj3/sj3_snow.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	skid_mark  10 16 4 "gfx/marks/jeepmark1.tga"
+	skid_mark -10 16 4 "gfx/marks/jeepmark1.tga"
+
+	attach abs "jeep_helic_turret_snow" "tag_turret"	
+	attach abs "jeep_helic_wh_snow" "tag_wh01"	
+	attach abs "jeep_helic_wh_snow" "tag_wh02"	
+	attach abs night "svet_far" "tag_fara01"
+	attach abs night "svet_far_wol" "tag_fara02"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\jeeps\jeep_helic\jeep_helic.scr"
+}
+
+///////////////////////////////////////////////////////////////////////////////////
+////////////////////////////// jeep_medium ////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////
+
+jeep_medium_gun_green {
+
+	model	"models/jeeps/jeep_medium/jeep_medium_guns.mdl"
+	skin	"models/jeeps/jeep_medium/jeep_medium_green.tga"
+
+	script	"scripts\jeeps\jeep_medium\jeep_medium_guns.scr"
+}
+
+jeep_medium_cannon_green {
+
+	model	"models/jeeps/jeep_medium/jeep_medium_turret.mdl"
+	skin	"models/jeeps/jeep_medium/jeep_medium_green.tga"
+
+	attach abs id "GUNS" "jeep_medium_gun_green" "tag_guns"	
+
+	script	"scripts\jeeps\jeep_medium\jeep_medium_cannon.scr"
+}
+
+jeep_medium_green {
+
+	health	230
+	flag    FL_ONGROUND_NORMAL
+	enemy
+
+	score 250	
+
+	skid_mark  12 21 5 "gfx/marks/jeepMark1.tga"
+	skid_mark -12 21 5 "gfx/marks/jeepMark1.tga"
+
+	model	"models/jeeps/jeep_medium/jeep_medium.mdl"
+	skin	"models/jeeps/jeep_medium/jeep_medium_green.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	attach	abs "jeep_medium_cannon_green" "tag_cannon"	
+	attach abs night "svet_far" "tag_fara01"
+	attach abs night "svet_far_wol" "tag_fara02"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\jeeps\jeep_medium\jeep_medium.scr"
+}
+
+/////////////////////////////////////////////////////////////////
+
+jeep_medium_gun_snow {
+
+	model	"models/jeeps/jeep_medium/jeep_medium_guns.mdl"
+	skin	"models/jeeps/jeep_medium/jeep_medium_snow.tga"
+
+	script	"scripts\jeeps\jeep_medium\jeep_medium_guns.scr"
+}
+
+
+jeep_medium_cannon_snow {
+
+	model	"models/jeeps/jeep_medium/jeep_medium_turret.mdl"
+	skin	"models/jeeps/jeep_medium/jeep_medium_snow.tga"
+
+	attach abs id "GUNS" "jeep_medium_gun_snow" "tag_guns"	
+
+	script	"scripts\jeeps\jeep_medium\jeep_medium_cannon.scr"
+}
+
+jeep_medium_snow {
+
+	health	370
+	flag    FL_ONGROUND_NORMAL
+	enemy
+
+	score 370	
+
+	skid_mark  12 21 5 "gfx/marks/jeepMark1.tga"
+	skid_mark -12 21 5 "gfx/marks/jeepMark1.tga"
+
+	model	"models/jeeps/jeep_medium/jeep_medium.mdl"
+	skin	"models/jeeps/jeep_medium/jeep_medium_snow.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	attach	abs "jeep_medium_cannon_snow" "tag_cannon"	
+	attach abs night "svet_far" "tag_fara01"
+	attach abs night "svet_far_wol" "tag_fara02"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\jeeps\jeep_medium\jeep_medium.scr"
+}
+
+/////////////////////////////////////////////////////////////////
+
+jeep_medium_gun_desert {
+
+	model	"models/jeeps/jeep_medium/jeep_medium_guns.mdl"
+	skin	"models/jeeps/jeep_medium/jeep_medium_desert.tga"
+
+	script	"scripts\jeeps\jeep_medium\jeep_medium_guns.scr"
+}
+
+
+jeep_medium_cannon_desert {
+
+	model	"models/jeeps/jeep_medium/jeep_medium_turret.mdl"
+	skin	"models/jeeps/jeep_medium/jeep_medium_desert.tga"
+
+	attach abs id "GUNS" "jeep_medium_gun_desert" "tag_guns"	
+
+	script	"scripts\jeeps\jeep_medium\jeep_medium_cannon.scr"
+}
+
+jeep_medium_desert {
+
+	health	190
+	flag    FL_ONGROUND_NORMAL
+	enemy
+
+	score 200	
+
+	skid_mark  12 21 5 "gfx/marks/jeepMark1.tga"
+	skid_mark -12 21 5 "gfx/marks/jeepMark1.tga"
+
+	model	"models/jeeps/jeep_medium/jeep_medium.mdl"
+	skin	"models/jeeps/jeep_medium/jeep_medium_desert.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	attach	abs "jeep_medium_cannon_desert" "tag_cannon"	
+	attach abs night "svet_far" "tag_fara01"
+	attach abs night "svet_far_wol" "tag_fara02"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\jeeps\jeep_medium\jeep_medium.scr"
+}
+
+/////////////////////////////////////////////////////////////////////////////////
+//////////////////////////// jeep_small_rocket //////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////
+
+jeep_small_rocket_wh_green {
+	model	"models/jeeps/jeep_small_rocket/jeep_small_rocket_wh.mdl"
+	skin	"models/jeeps/jeep_small_rocket/jeep_small_rocket_green.tga"
+
+	script	"scripts\jeeps\jeep_small_rocket\jeep_small_rocket_wheel.scr"
+}
+
+jeep_small_rocket_launcher_green {
+	model	"models/jeeps/jeep_small_rocket/jeep_small_rocket_launcher.mdl"
+	skin	"models/jeeps/jeep_small_rocket/jeep_small_rocket_green.tga"
+
+	script	"scripts\jeeps\jeep_small_rocket\jeep_small_rocket_guns.scr"
+}
+
+jeep_small_rocket_turret_green {
+	model	"models/jeeps/jeep_small_rocket/jeep_small_rocket_turret.mdl"
+	skin	"models/jeeps/jeep_small_rocket/jeep_small_rocket_green.tga"
+
+        attach	abs id "GUNS"   "jeep_small_rocket_launcher_green" "tag_launcher"
+
+	script	"scripts\jeeps\jeep_small_rocket\jeep_small_rocket_turret.scr"
+}
+
+jeep_small_rocket_green {
+	health	280
+	flag    FL_ONGROUND_NORMAL
+	enemy
+
+	score 280	
+
+	skid_mark  14 23 6 "gfx/marks/jeepmark1.tga"
+	skid_mark -14 23 6 "gfx/marks/jeepmark1.tga"
+
+	model	"models/jeeps/jeep_small_rocket/jeep_small_rocket.mdl"
+	skin	"models/jeeps/jeep_small_rocket/jeep_small_rocket_green.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	attach	abs "jeep_small_rocket_wh_green" "tag_wheels01"	
+        attach	abs "jeep_small_rocket_wh_green" "tag_wheels02"
+        attach	abs "jeep_small_rocket_turret_green" "tag_turret"
+
+	attach abs night "svet_far" "tag_fara01"
+	attach abs night "svet_far_wol" "tag_fara02"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+        
+        
+        attach  "helic_redflare"        "tag_flare01"
+        attach  "helic_redflare"        "tag_flare02"
+        
+	
+	script	"scripts\jeeps\jeep_small_rocket\jeep_small_rocket.scr"
+        
+}
+
+/////////////////////////////////////////////////////////////////
+
+jeep_small_rocket_wh_snow {
+	model	"models/jeeps/jeep_small_rocket/jeep_small_rocket_wh.mdl"
+	skin	"models/jeeps/jeep_small_rocket/jeep_small_rocket_snow.tga"
+
+	script	"scripts\jeeps\jeep_small_rocket\jeep_small_rocket_wheel.scr"
+}
+
+jeep_small_rocket_launcher_snow {
+	model	"models/jeeps/jeep_small_rocket/jeep_small_rocket_launcher.mdl"
+	skin	"models/jeeps/jeep_small_rocket/jeep_small_rocket_snow.tga"
+
+	script	"scripts\jeeps\jeep_small_rocket\jeep_small_rocket_guns.scr"
+}
+
+jeep_small_rocket_turret_snow {
+	model	"models/jeeps/jeep_small_rocket/jeep_small_rocket_turret.mdl"
+	skin	"models/jeeps/jeep_small_rocket/jeep_small_rocket_snow.tga"
+
+        attach	abs id "GUNS"   "jeep_small_rocket_launcher_snow" "tag_launcher"
+
+	script	"scripts\jeeps\jeep_small_rocket\jeep_small_rocket_turret.scr"
+}
+
+jeep_small_rocket_snow {
+	health	400
+	flag    FL_ONGROUND_NORMAL
+	enemy
+
+	score 400	
+
+	skid_mark  14 23 6 "gfx/marks/jeepmark1.tga"
+	skid_mark -14 23 6 "gfx/marks/jeepmark1.tga"
+
+	model	"models/jeeps/jeep_small_rocket/jeep_small_rocket.mdl"
+	skin	"models/jeeps/jeep_small_rocket/jeep_small_rocket_snow.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	attach	abs "jeep_small_rocket_wh_snow" "tag_wheels01"	
+        attach	abs "jeep_small_rocket_wh_snow" "tag_wheels02"
+        attach	abs "jeep_small_rocket_turret_snow" "tag_turret"
+
+	attach abs night "svet_far" "tag_fara01"
+	attach abs night "svet_far_wol" "tag_fara02"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+        
+        
+        attach  "helic_redflare"        "tag_flare01"
+        attach  "helic_redflare"        "tag_flare02"
+        
+	
+	script	"scripts\jeeps\jeep_small_rocket\jeep_small_rocket.scr"
+        
+}
+
+/////////////////////////////////////////////////////////////////
+
+
+jeep_small_rocket_wh_desert {
+	model	"models/jeeps/jeep_small_rocket/jeep_small_rocket_wh.mdl"
+	skin	"models/jeeps/jeep_small_rocket/jeep_small_rocket_desert.tga"
+
+	script	"scripts\jeeps\jeep_small_rocket\jeep_small_rocket_wheel.scr"
+}
+
+jeep_small_rocket_launcher_desert {
+	model	"models/jeeps/jeep_small_rocket/jeep_small_rocket_launcher.mdl"
+	skin	"models/jeeps/jeep_small_rocket/jeep_small_rocket_desert.tga"
+
+	script	"scripts\jeeps\jeep_small_rocket\jeep_small_rocket_guns.scr"
+}
+
+jeep_small_rocket_turret_desert {
+	model	"models/jeeps/jeep_small_rocket/jeep_small_rocket_turret.mdl"
+	skin	"models/jeeps/jeep_small_rocket/jeep_small_rocket_desert.tga"
+
+        attach	abs id "GUNS"   "jeep_small_rocket_launcher_desert" "tag_launcher"
+
+	script	"scripts\jeeps\jeep_small_rocket\jeep_small_rocket_turret.scr"
+}
+
+jeep_small_rocket_desert {
+	health	330
+	flag    FL_ONGROUND_NORMAL
+	enemy
+
+	score 350	
+
+	skid_mark  14 23 6 "gfx/marks/jeepmark1.tga"
+	skid_mark -14 23 6 "gfx/marks/jeepmark1.tga"
+
+	model	"models/jeeps/jeep_small_rocket/jeep_small_rocket.mdl"
+	skin	"models/jeeps/jeep_small_rocket/jeep_small_rocket_desert.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	attach	abs "jeep_small_rocket_wh_desert" "tag_wheels01"	
+        attach	abs "jeep_small_rocket_wh_desert" "tag_wheels02"
+        attach	abs "jeep_small_rocket_turret_desert" "tag_turret"
+
+	attach abs night "svet_far" "tag_fara01"
+	attach abs night "svet_far_wol" "tag_fara02"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+        
+        
+        attach  "helic_redflare"        "tag_flare01"
+        attach  "helic_redflare"        "tag_flare02"
+        
+	
+	script	"scripts\jeeps\jeep_small_rocket\jeep_small_rocket.scr"
+        
+}
+
+///////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////// jeep_medium_bug //////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////
+
+jeep_medium_bug_wh {
+	model	"models/jeeps/jeep_medium_bug/jeep_medium_bug_wh.mdl"
+	skin	"models/jeeps/jeep_medium_bug/jeep_medium_bug.tga"
+
+	script	"scripts\jeeps\jeep_medium_bug\jeep_medium_bug_wheel.scr"
+}
+
+
+jeep_medium_bug_guns {
+	model	"models/jeeps/jeep_medium_bug/jeep_medium_bug_rl.mdl"
+	skin	"models/jeeps/jeep_medium_bug/jeep_medium_bug.tga"
+
+	script	"scripts\jeeps\jeep_medium_bug\jeep_medium_bug_guns.scr"
+}
+
+
+jeep_medium_bug_turret {
+	model	"models/jeeps/jeep_medium_bug/jeep_medium_bug_turret.mdl"
+	skin	"models/jeeps/jeep_medium_bug/jeep_medium_bug.tga"
+
+	attach abs id "GUNS"  "jeep_medium_bug_guns"  "tag_rl"
+
+	script	"scripts\jeeps\jeep_medium_bug\jeep_medium_bug_turret.scr"
+}
+
+
+jeep_medium_bug {
+	health	460
+	flag    FL_ONGROUND_NORMAL
+	enemy
+
+	score 460	
+
+	skid_mark  16 23 8 "gfx/marks/jeepMark1.tga"
+	skid_mark -16 23 8 "gfx/marks/jeepMark1.tga"
+
+	model	"models/jeeps/jeep_medium_bug/jeep_medium_bug.mdl"
+	skin	"models/jeeps/jeep_medium_bug/jeep_medium_bug.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	attach	abs "jeep_medium_bug_wh" "tag_wheels01"	
+        attach	abs "jeep_medium_bug_wh" "tag_wheels02"
+	
+        attach	abs "jeep_medium_bug_turret" "tagf_turret"
+
+	script	"scripts\jeeps\jeep_medium_bug\jeep_medium_bug.scr"
+}    
+
+//////////////////////////////////////////////////////////////////////////////
+
+jeep_medium_bug1_wh {
+	model	"models/jeeps/jeep_medium_bug/jeep_medium_bug_wh.mdl"
+	skin	"models/jeeps/jeep_medium_bug/jeep_medium_bug1.tga"
+
+	script	"scripts\jeeps\jeep_medium_bug\jeep_medium_bug_wheel.scr"
+}
+
+
+jeep_medium_bug1_guns {
+	model	"models/jeeps/jeep_medium_bug/jeep_medium_bug_rl.mdl"
+	skin	"models/jeeps/jeep_medium_bug/jeep_medium_bug1.tga"
+
+	script	"scripts\jeeps\jeep_medium_bug\jeep_medium_bug_guns.scr"
+}
+
+
+jeep_medium_bug1_turret {
+	model	"models/jeeps/jeep_medium_bug/jeep_medium_bug_turret.mdl"
+	skin	"models/jeeps/jeep_medium_bug/jeep_medium_bug1.tga"
+
+	attach abs id "GUNS"  "jeep_medium_bug1_guns"  "tag_rl"
+
+	script	"scripts\jeeps\jeep_medium_bug\jeep_medium_bug_turret.scr"
+}
+
+
+jeep_medium_bug1 {
+	health	420
+	flag    FL_ONGROUND_NORMAL
+	enemy
+
+	score 450	
+
+	skid_mark  16 23 8 "gfx/marks/jeepMark1.tga"
+	skid_mark -16 23 8 "gfx/marks/jeepMark1.tga"
+
+	model	"models/jeeps/jeep_medium_bug/jeep_medium_bug.mdl"
+	skin	"models/jeeps/jeep_medium_bug/jeep_medium_bug1.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	attach	abs "jeep_medium_bug1_wh" "tag_wheels01"	
+        attach	abs "jeep_medium_bug1_wh" "tag_wheels02"
+	
+        attach	abs "jeep_medium_bug_turret" "tagf_turret"
+	
+	script	"scripts\jeeps\jeep_medium_bug\jeep_medium_bug.scr"
+}    
+
+
+/////////////////////////////////////////////////////////////////
+
+
+jeep_medium_bug_snow_wh {
+	model	"models/jeeps/jeep_medium_bug/jeep_medium_bug_wh.mdl"
+	skin	"models/jeeps/jeep_medium_bug/jeep_medium_bug_white.tga"
+
+	script	"scripts\jeeps\jeep_medium_bug\jeep_medium_bug_wheel.scr"
+}
+
+
+jeep_medium_bug_snow_guns {
+	model	"models/jeeps/jeep_medium_bug/jeep_medium_bug_rl.mdl"
+	skin	"models/jeeps/jeep_medium_bug/jeep_medium_bug_white.tga"
+
+	script	"scripts\jeeps\jeep_medium_bug\jeep_medium_bug_guns.scr"
+}
+
+
+jeep_medium_bug_snow_turret {
+	model	"models/jeeps/jeep_medium_bug/jeep_medium_bug_turret.mdl"
+	skin	"models/jeeps/jeep_medium_bug/jeep_medium_bug_white.tga"
+
+	attach abs id "GUNS"  "jeep_medium_bug_snow_guns"  "tag_rl"
+
+	script	"scripts\jeeps\jeep_medium_bug\jeep_medium_bug_turret.scr"
+}
+
+
+jeep_medium_bug_snow {
+	health	550
+	flag    FL_ONGROUND_NORMAL
+	enemy
+
+	score 550	
+
+	skid_mark  16 23 8 "gfx/marks/jeepMark1.tga"
+	skid_mark -16 23 8 "gfx/marks/jeepMark1.tga"
+
+	model	"models/jeeps/jeep_medium_bug/jeep_medium_bug.mdl"
+	skin	"models/jeeps/jeep_medium_bug/jeep_medium_bug_white.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	attach	abs "jeep_medium_bug_snow_wh" "tag_wheels01"	
+        attach	abs "jeep_medium_bug_snow_wh" "tag_wheels02"
+	
+        attach	abs "jeep_medium_bug_snow_turret" "tagf_turret"
+	
+	script	"scripts\jeeps\jeep_medium_bug\jeep_medium_bug.scr"
+}    
+
+
+/////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////// jeep_vsmall ////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////
+
+jeep_vsmall_wl {
+	model	"models/jeeps/jeep_vsmall/jeep_vsmall_wl.mdl"
+	skin	"models/jeeps/jeep_vsmall/jeep_vsmall.tga"
+
+	script	"scripts\jeeps\jeep_vsmall\jeep_vsmall_wheel.scr"
+}
+
+jeep_vsmall_wr {
+	model	"models/jeeps/jeep_vsmall/jeep_vsmall_wr.mdl"
+	skin	"models/jeeps/jeep_vsmall/jeep_vsmall.tga"
+
+	script	"scripts\jeeps\jeep_vsmall\jeep_vsmall_wheel.scr"
+}
+
+
+jeep_vsmall_guns {
+	model	"models/jeeps/jeep_vsmall/jeep_vsmall_guns.mdl"
+	skin	"models/jeeps/jeep_vsmall/jeep_vsmall.tga"
+
+	script	"scripts\jeeps\jeep_vsmall\jeep_vsmall_guns.scr"
+}
+
+
+jeep_vsmall_turret {
+	model	"models/jeeps/jeep_vsmall/jeep_vsmall_turret.mdl"
+	skin	"models/jeeps/jeep_vsmall/jeep_vsmall.tga"
+
+	attach abs id "GUNS"  "jeep_vsmall_guns"  "tag_gun"
+
+	script	"scripts\jeeps\jeep_vsmall\jeep_vsmall_turret.scr"
+}
+
+
+jeep_vsmall {
+	health	60
+	flag    FL_ONGROUND_NORMAL
+	enemy
+
+	score 60	
+
+	skid_mark  13 16 13 "gfx/marks/jeepmark1.tga"
+	skid_mark -13 16 13 "gfx/marks/jeepmark1.tga"
+
+	model	"models/jeeps/jeep_vsmall/jeep_vsmall.mdl"
+	skin	"models/jeeps/jeep_vsmall/jeep_vsmall.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	attach	abs "jeep_vsmall_wr" "tag_wheel01"	
+        attach	abs "jeep_vsmall_wr" "tag_wheel02"
+	attach	abs "jeep_vsmall_wl" "tag_wheel03"	
+        attach	abs "jeep_vsmall_wl" "tag_wheel04"
+	
+        attach	abs "jeep_vsmall_turret" "tag_turret"
+
+	attach abs night "svet_far" "tag_fara01"
+	attach abs night "svet_far_wol" "tag_fara02"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+        
+	script	"scripts\jeeps\jeep_vsmall\jeep_vsmall.scr"
+}    
+
+
+/////////////////////////////////////////////////////////////////
+
+jeep_vsmall_brown_wl {
+	model	"models/jeeps/jeep_vsmall/jeep_vsmall_wl.mdl"
+	skin	"models/jeeps/jeep_vsmall/jeep_vsmall_brown.tga"
+
+	script	"scripts\jeeps\jeep_vsmall\jeep_vsmall_wheel.scr"
+}
+
+jeep_vsmall_brown_wr {
+	model	"models/jeeps/jeep_vsmall/jeep_vsmall_wr.mdl"
+	skin	"models/jeeps/jeep_vsmall/jeep_vsmall_brown.tga"
+
+	script	"scripts\jeeps\jeep_vsmall\jeep_vsmall_wheel.scr"
+}
+
+
+jeep_vsmall_brown_guns {
+	model	"models/jeeps/jeep_vsmall/jeep_vsmall_guns.mdl"
+	skin	"models/jeeps/jeep_vsmall/jeep_vsmall_brown.tga"
+
+	script	"scripts\jeeps\jeep_vsmall\jeep_vsmall_guns.scr"
+}
+
+
+jeep_vsmall_brown_turret {
+	model	"models/jeeps/jeep_vsmall/jeep_vsmall_turret.mdl"
+	skin	"models/jeeps/jeep_vsmall/jeep_vsmall_brown.tga"
+
+	attach abs id "GUNS"  "jeep_vsmall_brown_guns"  "tag_gun"
+
+	script	"scripts\jeeps\jeep_vsmall\jeep_vsmall_turret.scr"
+}
+
+
+jeep_vsmall_brown {
+	health	90
+	flag    FL_ONGROUND_NORMAL
+	enemy
+
+	score 90	
+
+	skid_mark  13 16 13 "gfx/marks/jeepmark1.tga"
+	skid_mark -13 16 13 "gfx/marks/jeepmark1.tga"
+
+	model	"models/jeeps/jeep_vsmall/jeep_vsmall.mdl"
+	skin	"models/jeeps/jeep_vsmall/jeep_vsmall_brown.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	attach	abs "jeep_vsmall_brown_wr" "tag_wheel01"	
+        attach	abs "jeep_vsmall_brown_wr" "tag_wheel02"
+	attach	abs "jeep_vsmall_brown_wl" "tag_wheel03"	
+        attach	abs "jeep_vsmall_brown_wl" "tag_wheel04"
+	
+        attach	abs "jeep_vsmall_brown_turret" "tag_turret"
+
+	attach abs night "svet_far" "tag_fara01"
+	attach abs night "svet_far_wol" "tag_fara02"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+        
+	script	"scripts\jeeps\jeep_vsmall\jeep_vsmall.scr"
+}
+
+
+///////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////// luas //////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////
+
+luas_green_wh {
+
+	rflag   RF_NOCULLING
+	shadow	SHADOW_PLANAR_LOW
+
+	model	"models\jeeps\luas\luas_wh.mdl"
+	skin	"models\jeeps\luas\luas_green.tga"
+
+	script	"scripts\jeeps\luas\luas_wheel.scr"
+}
+
+luas_green_gun {
+
+	rflag   RF_NOCULLING
+	shadow	SHADOW_PLANAR_LOW
+
+	model	"models\jeeps\luas\luas_gun.mdl"
+	skin	"models\jeeps\luas\luas_green.tga"
+
+	script	"scripts\jeeps\luas\luas_gun.scr"
+}
+                        
+luas_green_turret {
+
+	rflag   RF_NOCULLING
+	shadow	SHADOW_PLANAR_LOW
+
+	model	"models\jeeps\luas\luas_turret.mdl"
+	skin	"models\jeeps\luas\luas_green.tga"
+
+	attach	abs id "GUNS"   "luas_green_gun" "tag_gun"	
+
+	script	"scripts\jeeps\luas\luas_turret.scr"
+}
+
+luas_green {
+
+	health	90
+	flag    FL_ONGROUND_NORMAL
+	rflag   RF_NOCULLING
+	shadow	SHADOW_PLANAR_LOW
+	enemy
+	score 90	
+
+	skid_mark  12 20 5 "gfx/marks/jeepmark1.tga"
+	skid_mark -12 20 5 "gfx/marks/jeepmark1.tga"
+
+	model	"models\jeeps\luas\luas.mdl"
+	skin	"models\jeeps\luas\luas_green.tga"
+
+	skid_mark  13 500 5 "gfx/marks/jeepMark1.tga"
+	skid_mark -13 500 5 "gfx/marks/jeepMark1.tga"
+
+	attach	abs "luas_green_turret" "tag_turret"	
+	attach	abs "luas_green_wh" "tag_wh01"	
+	attach	abs "luas_green_wh" "tag_wh02"	
+
+	attach abs night "svet_far" "tag_fara01"
+	attach abs night "svet_far_wol" "tag_fara02"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\jeeps\luas\luas.scr"
+}
+
+///////////////////////////////////////////////////////////////////////////////////
+
+luas_desert_wh {
+
+	rflag   RF_NOCULLING
+	shadow	SHADOW_PLANAR_LOW
+
+	model	"models\jeeps\luas\luas_wh.mdl"
+	skin	"models\jeeps\luas\luas_desert.tga"
+
+	script	"scripts\jeeps\luas\luas_wheel.scr"
+}
+
+luas_desert_gun {
+
+	rflag   RF_NOCULLING
+	shadow	SHADOW_PLANAR_LOW
+
+	model	"models\jeeps\luas\luas_gun.mdl"
+	skin	"models\jeeps\luas\luas_desert.tga"
+
+	script	"scripts\jeeps\luas\luas_gun.scr"
+}
+                        
+luas_desert_turret {
+
+	rflag   RF_NOCULLING
+	shadow	SHADOW_PLANAR_LOW
+
+	model	"models\jeeps\luas\luas_turret.mdl"
+	skin	"models\jeeps\luas\luas_desert.tga"
+
+	attach	abs id "GUNS"   "luas_desert_gun" "tag_gun"	
+
+	script	"scripts\jeeps\luas\luas_turret.scr"
+}
+
+luas_desert {
+
+	health	100
+	flag    FL_ONGROUND_NORMAL
+	rflag   RF_NOCULLING
+	shadow	SHADOW_PLANAR_LOW
+	enemy
+	score 100	
+
+	skid_mark  12 20 5 "gfx/marks/jeepmark1.tga"
+	skid_mark -12 20 5 "gfx/marks/jeepmark1.tga"
+
+	model	"models\jeeps\luas\luas.mdl"
+	skin	"models\jeeps\luas\luas_desert.tga"
+
+	attach	abs "luas_desert_turret" "tag_turret"	
+	attach	abs "luas_desert_wh" "tag_wh01"
+	attach	abs "luas_desert_wh" "tag_wh02"	
+	attach abs night "svet_far_wol" "tag_fara02"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\jeeps\luas\luas.scr"
+}
+
+///////////////////////////////////////////////////////////////////////////////////
+
+luas_blue_wh {
+
+	rflag   RF_NOCULLING
+	shadow	SHADOW_PLANAR_LOW
+
+	model	"models\jeeps\luas\luas_wh.mdl"
+	skin	"models\jeeps\luas\luas_blue.tga"
+
+	script	"scripts\jeeps\luas\luas_wheel.scr"
+}
+
+luas_blue_gun {
+
+	rflag   RF_NOCULLING
+	shadow	SHADOW_PLANAR_LOW
+
+	model	"models\jeeps\luas\luas_gun.mdl"
+	skin	"models\jeeps\luas\luas_blue.tga"
+
+	script	"scripts\jeeps\luas\luas_gun.scr"
+}
+                        
+luas_blue_turret {
+
+	rflag   RF_NOCULLING
+	shadow	SHADOW_PLANAR_LOW
+
+	model	"models\jeeps\luas\luas_turret.mdl"
+	skin	"models\jeeps\luas\luas_blue.tga"
+
+	attach	abs id "GUNS"   "luas_blue_gun" "tag_gun"	
+
+	script	"scripts\jeeps\luas\luas_turret.scr"
+}
+
+luas_blue {
+
+	health	240
+	flag    FL_ONGROUND_NORMAL
+	rflag   RF_NOCULLING
+	shadow	SHADOW_PLANAR_LOW
+	enemy
+	score 240	
+
+	skid_mark  12 20 5 "gfx/marks/jeepmark1.tga"
+	skid_mark -12 20 5 "gfx/marks/jeepmark1.tga"
+
+	model	"models\jeeps\luas\luas.mdl"
+	skin	"models\jeeps\luas\luas_blue.tga"
+
+	attach	abs "luas_blue_turret" "tag_turret"	
+	attach	abs "luas_blue_wh" "tag_wh01"	
+	attach	abs "luas_blue_wh" "tag_wh02"	
+
+	attach abs night "svet_far" "tag_fara01"
+	attach abs night "svet_far_wol" "tag_fara02"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\jeeps\luas\luas.scr"
+}
+
+///////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////// uaz ///////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////
+
+uaz_green_wh {
+
+	rflag   RF_NOCULLING
+
+	model	"models\jeeps\uaz\uaz_wh.mdl"
+	skin	"models\jeeps\uaz\uaz_green.tga"
+
+	script	"scripts\jeeps\uaz\uaz_wheel.scr"
+}
+
+uaz_green_gun {
+
+	model	"models\jeeps\uaz\uaz_gun.mdl"
+	skin	"models\jeeps\uaz\uaz_green.tga"
+
+	script	"scripts\jeeps\uaz\uaz_gun.scr"
+}
+
+uaz_green_turret {
+
+	model	"models\jeeps\uaz\uaz_turret.mdl"
+	skin	"models\jeeps\uaz\uaz_green.tga"
+
+	attach	abs id "GUNS"   "uaz_green_gun" "tag_gun"	
+
+	script	"scripts\jeeps\uaz\uaz_turret.scr"
+}
+
+uaz_green {
+
+	health	60
+	flag    FL_ONGROUND_NORMAL
+	shadow	SHADOW_PLANAR_LOW
+	enemy
+	score 60	
+
+	model	"models\jeeps\uaz\uaz.mdl"
+	skin	"models\jeeps\uaz\uaz_green.tga"
+
+	skid_mark  11 16 6 "gfx/marks/jeepmark1.tga"
+	skid_mark -11 16 6 "gfx/marks/jeepmark1.tga"
+
+	attach	abs "uaz_green_turret" "tag_turret"	
+	attach	abs "uaz_green_wh" "tag_wh01"	
+	attach	abs "uaz_green_wh" "tag_wh02"	
+
+	attach abs night "svet_far" "tag_fara01"
+	attach abs night "svet_far_wol" "tag_fara02"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\jeeps\uaz\uaz.scr"
+}
+
+///////////////////////////////////////////////////////////////////////
+
+
+uaz_desert_wh {
+
+	rflag   RF_NOCULLING
+
+	model	"models\jeeps\uaz\uaz_wh.mdl"
+	skin	"models\jeeps\uaz\uaz_desert.tga"
+
+	script	"scripts\jeeps\uaz\uaz_wheel.scr"
+}
+
+uaz_desert_gun {
+
+	model	"models\jeeps\uaz\uaz_gun.mdl"
+	skin	"models\jeeps\uaz\uaz_desert.tga"
+
+	script	"scripts\jeeps\uaz\uaz_gun.scr"
+}
+
+uaz_desert_turret {
+
+	model	"models\jeeps\uaz\uaz_turret.mdl"
+	skin	"models\jeeps\uaz\uaz_desert.tga"
+
+	attach	abs id "GUNS"   "uaz_desert_gun" "tag_gun"	
+
+	script	"scripts\jeeps\uaz\uaz_turret.scr"
+}
+
+uaz_desert {
+
+	health	60
+	flag    FL_ONGROUND_NORMAL
+	shadow	SHADOW_PLANAR_LOW
+	enemy
+	score 60	
+
+	model	"models\jeeps\uaz\uaz.mdl"
+	skin	"models\jeeps\uaz\uaz_desert.tga"
+
+	skid_mark  11 16 6 "gfx/marks/jeepmark1.tga"
+	skid_mark -11 16 6 "gfx/marks/jeepmark1.tga"
+
+	attach	abs "uaz_desert_turret" "tag_turret"	
+	attach	abs "uaz_desert_wh" "tag_wh01"	
+	attach	abs "uaz_desert_wh" "tag_wh02"	
+
+	attach abs night "svet_far" "tag_fara01"
+	attach abs night "svet_far_wol" "tag_fara02"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\jeeps\uaz\uaz.scr"
+}
+
+///////////////////////////////////////////////////////////////////////
+
+
+uaz_snow_wh {
+
+	rflag   RF_NOCULLING
+
+	model	"models\jeeps\uaz\uaz_wh.mdl"
+	skin	"models\jeeps\uaz\uaz_snow.tga"
+
+	script	"scripts\jeeps\uaz\uaz_wheel.scr"
+}
+
+uaz_snow_gun {
+
+	model	"models\jeeps\uaz\uaz_gun.mdl"
+	skin	"models\jeeps\uaz\uaz_snow.tga"
+
+	script	"scripts\jeeps\uaz\uaz_gun.scr"
+}
+
+uaz_snow_turret {
+
+	model	"models\jeeps\uaz\uaz_turret.mdl"
+	skin	"models\jeeps\uaz\uaz_snow.tga"
+
+	attach	abs id "GUNS"   "uaz_snow_gun" "tag_gun"	
+
+	script	"scripts\jeeps\uaz\uaz_turret.scr"
+}
+
+uaz_snow {
+
+	health	60
+	flag    FL_ONGROUND_NORMAL
+	shadow	SHADOW_PLANAR_LOW
+	enemy
+	score 60	
+
+	model	"models\jeeps\uaz\uaz.mdl"
+	skin	"models\jeeps\uaz\uaz_snow.tga"
+
+	skid_mark  11 16 6 "gfx/marks/jeepmark1.tga"
+	skid_mark -11 16 6 "gfx/marks/jeepmark1.tga"
+
+	attach	abs "uaz_snow_turret" "tag_turret"	
+	attach	abs "uaz_snow_wh" "tag_wh01"	
+	attach	abs "uaz_snow_wh" "tag_wh02"	
+
+	attach abs night "svet_far" "tag_fara01"
+	attach abs night "svet_far_wol" "tag_fara02"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\jeeps\uaz\uaz.scr"
+}
+

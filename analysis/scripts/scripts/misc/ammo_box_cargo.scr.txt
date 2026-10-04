@@ -1,0 +1,65 @@
+entry=31 slots=16 functions=['create', 'random', 'remove', 'TerrainHeight']
+0000 INDEX_ADDRESS      a=-1 b=17 c=0 flags=0x00
+0001 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+0002 MOVE               a=0 b=1120403456 c=0 flags=0x92 b_float=100
+0003 YIELD              a=0 b=0 c=0 flags=0x00
+0004 INDEX_ADDRESS      a=-1 b=34 c=0 flags=0x00
+0005 GT                 a=0 b=0 c=0 flags=0x12 b_float=0
+0006 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+0007 RETURN             a=0 b=0 c=0 flags=0x00
+0008 MOVE               a=0 b=0 c=0 flags=0x10 b_float=0
+0009 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0010 CALL               a=-1 b=0 c=0 flags=0x00 external=create
+0011 CALL               a=-2 b=0 c=0 flags=0x00 external=random
+0012 GE                 a=0 b=1058642330 c=0 flags=0x10 b_float=0.6
+0013 JUMP_IF_NONZERO    a=0 b=5 c=0 flags=0x00
+0014 MOVE               a=0 b=6 c=0 flags=0x10 b_float=8.40779e-45
+0015 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0016 CALL               a=-1 b=0 c=0 flags=0x00 external=create
+0017 JUMP               a=11 b=0 c=0 flags=0x00
+0018 CALL               a=-2 b=0 c=0 flags=0x00 external=random
+0019 GE                 a=0 b=1056964608 c=0 flags=0x10 b_float=0.5
+0020 JUMP_IF_NONZERO    a=0 b=5 c=0 flags=0x00
+0021 MOVE               a=0 b=23 c=0 flags=0x10 b_float=3.22299e-44
+0022 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0023 CALL               a=-1 b=0 c=0 flags=0x00 external=create
+0024 JUMP               a=4 b=0 c=0 flags=0x00
+0025 MOVE               a=0 b=34 c=0 flags=0x10 b_float=4.76441e-44
+0026 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0027 CALL               a=-1 b=0 c=0 flags=0x00 external=create
+0028 MOVE               a=0 b=-1 c=0 flags=0x00
+0029 CALL               a=-3 b=0 c=0 flags=0x00 external=remove
+0030 YIELD              a=0 b=0 c=0 flags=0x00
+0031 INDEX_ADDRESS      a=-1 b=5 c=0 flags=0x00
+0032 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0033 SUB                a=0 b=1101004800 c=0 flags=0x12 b_float=20
+0034 PUSH               a=0 b=0 c=0 flags=0x00
+0035 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0036 INDEX_ADDRESS      a=1 b=0 c=1 flags=0x00
+0037 MOVE               a=0 b=1 c=0 flags=0x20
+0038 INDEX_ADDRESS      a=-1 b=5 c=2 flags=0x00
+0039 INDEX_ADDRESS      a=2 b=1 c=2 flags=0x00
+0040 MOVE               a=1 b=2 c=0 flags=0x20
+0041 CALL               a=-4 b=1 c=0 flags=0x00 external=TerrainHeight
+0042 POP                a=0 b=0 c=0 flags=0x00
+0043 GT                 a=0 b=1 c=0 flags=0x00
+0044 JUMP_IF_NONZERO    a=0 b=19 c=0 flags=0x00
+0045 INDEX_ADDRESS      a=-1 b=17 c=0 flags=0x00
+0046 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0047 MUL                a=-1018691584 b=-2 c=1 flags=0x01 a_float=-200
+0048 ADD                a=0 b=1 c=0 flags=0x82
+0049 INDEX_ADDRESS      a=-1 b=5 c=0 flags=0x00
+0050 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0051 INDEX_ADDRESS      a=-1 b=17 c=1 flags=0x00
+0052 INDEX_ADDRESS      a=1 b=2 c=1 flags=0x00
+0053 MUL                a=1 b=-2 c=1 flags=0x02
+0054 ADD                a=0 b=1 c=0 flags=0x82
+0055 INDEX_ADDRESS      a=-1 b=14 c=0 flags=0x00
+0056 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+0057 MUL                a=-2 b=1116471296 c=1 flags=0x10 b_float=70
+0058 ADD                a=0 b=1 c=0 flags=0x82
+0059 INDEX_ADDRESS      a=-1 b=14 c=0 flags=0x00
+0060 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+0061 MUL                a=-2 b=1101004800 c=1 flags=0x10 b_float=20
+0062 SUB                a=0 b=1 c=0 flags=0x82
+0063 YIELD              a=0 b=0 c=0 flags=0x00

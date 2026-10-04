@@ -1,0 +1,146 @@
+
+//////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////// m113 ////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
+
+m113_green_door {
+
+	model   "models/tanks/m113/m113_door.mdl"
+	skin    "models/tanks/m113/m113_green.tga"
+	shadow  SHADOW_PLANAR_LOW
+
+	script	"scripts\tanks\m113\doors.scr"
+}
+
+m113_green_gun {
+
+	model   "models/tanks/m113/m113_gun.mdl"
+	skin    "models/tanks/m113/m113_green.tga"
+
+	script	"scripts\tanks\m113\m113_gun.scr"
+}
+
+m113_green_turret {
+
+	model   "models/tanks/m113/m113_turret.mdl"
+	skin    "models/tanks/m113/m113_green.tga"
+
+	attach abs id "GUNS" "m113_green_gun" "tag_gun"
+
+	script	"scripts\tanks\m113\m113_turret.scr"
+}
+
+m113_green {
+       
+	health  2000
+	flag    FL_ONGROUND_NORMAL
+	rflag   RF_NOCULLING
+	enemy
+	score   2000
+
+	skid_mark  19 0 11 "gfx/marks/tankmark1.tga"
+	skid_mark -19 0 11 "gfx/marks/tankmark1.tga"
+
+	model   "models/tanks/m113/m113_base.mdl"
+	skin    "models/tanks/m113/m113_green.tga"
+	shadow  SHADOW_PLANAR_LOW
+
+	attach id "DOOR" abs "m113_green_door" "tag_door"
+	attach abs "m113_green_turret" "tag_turret"
+//	attach abs night "svet_far" "tag_fara_01"
+//	attach abs night "svet_far_wol" "tag_fara_02"
+        
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\tanks\m113\m113.scr"
+}
+
+
+
+m113_blue_door {
+
+	model   "models/tanks/m113/m113_door.mdl"
+	skin    "models/tanks/m113/m113_blue.tga"
+	shadow  SHADOW_PLANAR_LOW
+
+	script	"scripts\tanks\m113\doors.scr"
+}
+
+m113_blue_gun {
+
+	model   "models/tanks/m113/m113_gun.mdl"
+	skin    "models/tanks/m113/m113_blue.tga"
+
+	script	"scripts\tanks\m113\m113_gun.scr"
+}
+
+m113_blue_turret {
+
+	model   "models/tanks/m113/m113_turret.mdl"
+	skin    "models/tanks/m113/m113_blue.tga"
+
+	attach abs id "GUNS" "m113_blue_gun" "tag_gun"
+
+	script	"scripts\tanks\m113\m113_turret.scr"
+}
+
+m113_blue {
+       
+	health  2500
+	flag    FL_ONGROUND_NORMAL
+	rflag   RF_NOCULLING
+	enemy
+	score   2500
+
+	skid_mark  19 0 11 "gfx/marks/tankmark1.tga"
+	skid_mark -19 0 11 "gfx/marks/tankmark1.tga"
+
+	model   "models/tanks/m113/m113_base.mdl"
+	skin    "models/tanks/m113/m113_blue.tga"
+	shadow  SHADOW_PLANAR_LOW
+
+	attach id "DOOR" abs "m113_blue_door" "tag_door"
+	attach abs "m113_blue_turret" "tag_turret"
+//	attach abs night "svet_far" "tag_fara_01"
+//	attach abs night "svet_far_wol" "tag_fara_02"
+        
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\tanks\m113\m113.scr"
+}
+
+m113_dead {
+
+	model   "models/tanks/m113/m113_dead.mdl"
+	skin    "models/tanks/m113/m113_dead.tga"
+	shadow  SHADOW_PLANAR_LOW
+	rflag   RF_NOCULLING
+
+	script	"scripts\dead2.scr"
+}
+
+jeep_m113 {
+
+	enemy
+	health	120
+
+//	flag    FL_ONGROUND_NORMAL
+
+	score 150	
+
+	model	"models/jeeps/sj3/sj3.mdl"
+	skin	"models/jeeps/sj3/sj3_green.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	skid_mark  10 16 4 "gfx/marks/jeepmark1.tga"
+	skid_mark -10 16 4 "gfx/marks/jeepmark1.tga"
+
+	attach abs "jeep_helic_turret_green" "tag_turret"	
+	attach abs "jeep_helic_wh_green" "tag_wh01"	
+	attach abs "jeep_helic_wh_green" "tag_wh02"	
+//	attach abs night "svet_far" "tag_fara01"
+//	attach abs night "svet_far_wol" "tag_fara02"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\tanks\m113\jeep.scr"
+}

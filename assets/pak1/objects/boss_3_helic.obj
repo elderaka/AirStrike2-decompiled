@@ -1,0 +1,94 @@
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////// helic ////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+helic_vint_r {
+
+	model	"models\bosses\boss_3_helic\helic_vint.mdl"
+	skin	"models\helics\vints\vint_3_red.tga"
+	blend	BLEND_ALPHA
+	rflag	RF_NOCULLING
+	rflag	RF_NODEPTHWRITE
+	sort	SORT_TRANS
+
+	script	"scripts\bosses\boss_3_helic\vint.scr"
+}
+
+helic_vint_l {
+
+	model	"models\bosses\boss_3_helic\helic_vint.mdl"
+	skin	"models\helics\vints\vint_3_red.tga"
+	
+	blend	BLEND_ALPHA
+	rflag	RF_NOCULLING
+	rflag	RF_NODEPTHWRITE
+	sort	SORT_TRANS
+
+	script	"scripts\bosses\boss_3_helic\vint.scr"
+}
+
+helic_hrom {
+
+	model   "models\bosses\boss_3_helic\helic_hrom.mdl"
+	skin    "models\bosses\boss_3_helic\boss_3_helic.tga"
+
+	envmap	"gfx\chrome3.tga"
+	envmode	ENV_GLITTER
+}
+
+helic_roga {
+
+	model   "models\bosses\boss_3_helic\helic_roga.mdl"
+	skin    "models\bosses\boss_3_helic\boss_3_helic.tga"
+
+	envmap	"gfx\chrome3.tga"
+	envmode	ENV_GLITTER
+
+//	script	"scripts\bosses\boss_3_train\train_turret.scr"
+}
+
+boss_3_helic {
+
+	enemy
+	health  30000
+
+	score	60000
+
+	flag	FL_TEMPORARY
+	touch	TOUCH_PLAYER
+
+	model   "models\bosses\boss_3_helic\helic_base.mdl"
+	skin    "models\bosses\boss_3_helic\boss_3_helic.tga"
+	shadow	SHADOW_PLANAR_HIGH
+
+	attach abs "svet_far_helic" "tag_fara"
+
+	attach abs "helic_hrom" "tag_hrom"
+	attach abs "helic_roga" "tag_roga"
+	attach abs "helic_vint_l" "tag_vint_l"
+	attach abs "helic_vint_r" "tag_vint_r"
+
+	script	"scripts\bosses\boss_3_helic\boss_3_helic.scr"
+}
+
+
+boss_3_luk {
+        flag	FL_ONGROUND
+	model   "models\bosses\boss_3_helic\luk_base.mdl"
+	skin    "models\bosses\boss_3_helic\luk.tga"
+	shadow	SHADOW_PROJECTED
+
+	attach id "COVER" abs "boss_3_luk_cover" "tag_luk"
+
+	script	"scripts\bosses\boss_3_base\boss3_luk.scr"
+}
+
+boss_3_luk_cover {
+
+	model   "models\bosses\boss_3_helic\luk_kover.mdl"
+	skin    "models\bosses\boss_3_helic\luk.tga"
+	shadow	SHADOW_PROJECTED
+
+	script	"scripts\bosses\boss_3_base\boss3_luk_cover.scr"
+}

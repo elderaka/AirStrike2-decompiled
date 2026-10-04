@@ -1,0 +1,30 @@
+entry=13 slots=18 functions=['MoveToNextWP', 'GetWaypointDelay', 'sleep', 'lMoveToNextWP']
+0000 INDEX_ADDRESS      a=-1 b=23 c=0 flags=0x00
+0001 MOVE               a=0 b=1112014848 c=0 flags=0x92 b_float=50
+0002 YIELD              a=0 b=0 c=0 flags=0x00
+0003 INDEX_ADDRESS      a=-1 b=23 c=0 flags=0x00
+0004 GE                 a=0 b=1116471296 c=0 flags=0x12 b_float=70
+0005 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+0006 RETURN             a=0 b=0 c=0 flags=0x00
+0007 INDEX_ADDRESS      a=-1 b=23 c=0 flags=0x00
+0008 MUL                a=1112014848 b=-2 c=1 flags=0x01 a_float=50
+0009 ADD                a=0 b=1 c=0 flags=0x82
+0010 MOVE               a=0 b=1065353216 c=0 flags=0x10 b_float=1
+0011 CALL               a=-1 b=0 c=0 flags=0x00 external=MoveToNextWP
+0012 YIELD              a=0 b=0 c=0 flags=0x00
+0013 PUSH               a=0 b=0 c=0 flags=0x00
+0014 MOVE               a=0 b=17 c=0 flags=0x00
+0015 CALL               a=-2 b=1 c=0 flags=0x00 external=GetWaypointDelay
+0016 POP                a=0 b=0 c=0 flags=0x00
+0017 MOVE               a=16 b=1 c=0 flags=0x00
+0018 GT                 a=16 b=0 c=0 flags=0x10 b_float=0
+0019 JUMP_IF_NONZERO    a=0 b=6 c=0 flags=0x00
+0020 INDEX_ADDRESS      a=-1 b=23 c=0 flags=0x00
+0021 MOVE               a=0 b=0 c=0 flags=0x92 b_float=0
+0022 SET_WAIT           a=16 b=0 c=0 flags=0x00
+0023 CALL_WAIT          a=-3 b=0 c=0 flags=0x00 external=sleep
+0024 CALL_WAIT          a=3 b=0 c=0 flags=0x00
+0025 MOVE               a=0 b=1065353216 c=0 flags=0x10 b_float=1
+0026 CALL_WAIT          a=-4 b=0 c=0 flags=0x00 external=lMoveToNextWP
+0027 ADD                a=17 b=1065353216 c=17 flags=0x10 b_float=1
+0028 YIELD              a=0 b=0 c=0 flags=0x00

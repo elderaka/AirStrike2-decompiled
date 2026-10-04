@@ -1,0 +1,44 @@
+entry=5 slots=21 functions=['PlaceLight', 'random']
+0000 INDEX_ADDRESS      a=-1 b=5 c=0 flags=0x00
+0001 MOVE               a=1 b=16 c=0 flags=0x00
+0002 MOVE               a=2 b=1124204544 c=0 flags=0x10 b_float=130
+0003 CALL               a=-1 b=0 c=0 flags=0x00 external=PlaceLight
+0004 YIELD              a=0 b=0 c=0 flags=0x00
+0005 INDEX_ADDRESS      a=16 b=0 c=0 flags=0x00
+0006 MOVE               a=0 b=1080033280 c=0 flags=0x92 b_float=3.5
+0007 INDEX_ADDRESS      a=16 b=1 c=0 flags=0x00
+0008 MOVE               a=0 b=1077936128 c=0 flags=0x92 b_float=3
+0009 INDEX_ADDRESS      a=16 b=2 c=0 flags=0x00
+0010 MOVE               a=0 b=0 c=0 flags=0x92 b_float=0
+0011 PUSH               a=0 b=0 c=0 flags=0x00
+0012 PUSH               a=1 b=0 c=0 flags=0x00
+0013 PUSH               a=2 b=0 c=0 flags=0x00
+0014 CALL               a=-2 b=3 c=0 flags=0x00 external=random
+0015 POP                a=2 b=0 c=2 flags=0x00
+0016 POP                a=1 b=0 c=1 flags=0x00
+0017 POP                a=0 b=0 c=0 flags=0x00
+0018 MUL                a=1053609165 b=3 c=2 flags=0x01 a_float=0.4
+0019 ADD                a=1045220557 b=2 c=1 flags=0x01 a_float=0.2
+0020 MOVE               a=20 b=1 c=0 flags=0x00
+0021 INDEX_ADDRESS      a=16 b=0 c=0 flags=0x00
+0022 INDEX_ADDRESS      a=16 b=0 c=1 flags=0x00
+0023 MUL                a=1 b=20 c=1 flags=0x02
+0024 MOVE               a=0 b=1 c=0 flags=0x82
+0025 INDEX_ADDRESS      a=16 b=1 c=0 flags=0x00
+0026 INDEX_ADDRESS      a=16 b=1 c=1 flags=0x00
+0027 MUL                a=1 b=20 c=1 flags=0x02
+0028 MOVE               a=0 b=1 c=0 flags=0x82
+0029 INDEX_ADDRESS      a=16 b=2 c=0 flags=0x00
+0030 INDEX_ADDRESS      a=16 b=2 c=1 flags=0x00
+0031 MUL                a=1 b=20 c=1 flags=0x02
+0032 MOVE               a=0 b=1 c=0 flags=0x82
+0033 PUSH               a=0 b=0 c=0 flags=0x00
+0034 PUSH               a=1 b=0 c=0 flags=0x00
+0035 CALL               a=-2 b=2 c=0 flags=0x00 external=random
+0036 POP                a=1 b=0 c=1 flags=0x00
+0037 POP                a=0 b=0 c=0 flags=0x00
+0038 MUL                a=1036831949 b=2 c=1 flags=0x01 a_float=0.1
+0039 ADD                a=1028443341 b=1 c=0 flags=0x01 a_float=0.05
+0040 SET_WAIT           a=0 b=0 c=0 flags=0x00
+0041 CALL_WAIT          a=0 b=0 c=0 flags=0x00
+0042 YIELD              a=0 b=0 c=0 flags=0x00

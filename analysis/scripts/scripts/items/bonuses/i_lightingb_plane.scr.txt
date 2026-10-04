@@ -1,0 +1,55 @@
+entry=0 slots=20 functions=['random', 'rotatex', 'rotatey']
+0000 JUMP_IF_NONZERO    a=19 b=49 c=0 flags=0x00
+0001 PUSH               a=0 b=0 c=0 flags=0x00
+0002 PUSH               a=1 b=0 c=0 flags=0x00
+0003 PUSH               a=2 b=0 c=0 flags=0x00
+0004 CALL               a=-1 b=3 c=0 flags=0x00 external=random
+0005 POP                a=2 b=0 c=2 flags=0x00
+0006 POP                a=1 b=0 c=1 flags=0x00
+0007 POP                a=0 b=0 c=0 flags=0x00
+0008 MUL                a=1125515264 b=3 c=2 flags=0x01 a_float=150
+0009 ADD                a=1116471296 b=2 c=1 flags=0x01 a_float=70
+0010 MOVE               a=16 b=1 c=0 flags=0x00
+0011 PUSH               a=0 b=0 c=0 flags=0x00
+0012 PUSH               a=1 b=0 c=0 flags=0x00
+0013 PUSH               a=2 b=0 c=0 flags=0x00
+0014 CALL               a=-1 b=3 c=0 flags=0x00 external=random
+0015 POP                a=2 b=0 c=2 flags=0x00
+0016 POP                a=1 b=0 c=1 flags=0x00
+0017 POP                a=0 b=0 c=0 flags=0x00
+0018 MUL                a=1125515264 b=3 c=2 flags=0x01 a_float=150
+0019 ADD                a=1116471296 b=2 c=1 flags=0x01 a_float=70
+0020 MOVE               a=17 b=1 c=0 flags=0x00
+0021 INDEX_ADDRESS      a=-1 b=14 c=0 flags=0x00
+0022 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+0023 PUSH               a=0 b=0 c=0 flags=0x80
+0024 PUSH               a=1 b=0 c=0 flags=0x00
+0025 CALL               a=-1 b=2 c=0 flags=0x00 external=random
+0026 POP                a=1 b=0 c=1 flags=0x00
+0027 POP                a=0 b=0 c=0 flags=0x80
+0028 MUL                a=1135869952 b=2 c=1 flags=0x01 a_float=360
+0029 MOVE               a=0 b=1 c=0 flags=0x82
+0030 INDEX_ADDRESS      a=-1 b=14 c=0 flags=0x00
+0031 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+0032 PUSH               a=0 b=0 c=0 flags=0x80
+0033 PUSH               a=1 b=0 c=0 flags=0x00
+0034 CALL               a=-1 b=2 c=0 flags=0x00 external=random
+0035 POP                a=1 b=0 c=1 flags=0x00
+0036 POP                a=0 b=0 c=0 flags=0x80
+0037 MUL                a=1135869952 b=2 c=1 flags=0x01 a_float=360
+0038 MOVE               a=0 b=1 c=0 flags=0x82
+0039 INDEX_ADDRESS      a=-1 b=14 c=0 flags=0x00
+0040 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0041 PUSH               a=0 b=0 c=0 flags=0x80
+0042 PUSH               a=1 b=0 c=0 flags=0x00
+0043 CALL               a=-1 b=2 c=0 flags=0x00 external=random
+0044 POP                a=1 b=0 c=1 flags=0x00
+0045 POP                a=0 b=0 c=0 flags=0x80
+0046 MUL                a=1135869952 b=2 c=1 flags=0x01 a_float=360
+0047 MOVE               a=0 b=1 c=0 flags=0x82
+0048 MOVE               a=19 b=0 c=0 flags=0x10 b_float=0
+0049 MOVE               a=0 b=16 c=0 flags=0x00
+0050 CALL               a=-2 b=0 c=0 flags=0x00 external=rotatex
+0051 MOVE               a=0 b=17 c=0 flags=0x00
+0052 CALL               a=-3 b=0 c=0 flags=0x00 external=rotatey
+0053 YIELD              a=0 b=0 c=0 flags=0x00

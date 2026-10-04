@@ -1,0 +1,138 @@
+PS_SNOW {
+	draw_mode       DRAW_VERT
+	blend_mode	BLEND_ADD
+		
+	texture		"gfx\flare_white_red_small.tga" 2 1
+
+	emit_rate	200
+
+	life_time	3
+
+	init_offset	0 -200 100 250 300 -50
+	init_size	1 1
+	init_frame	0 0
+	init_color	1 1 1 1
+        init_velocity   0 0 -22 20 20 -15
+	size 		-1
+
+	fade_mode	FADE_LINEAR
+	accel		3 1 -10
+
+}
+
+PS_PEPEL {
+	draw_mode       DRAW_VERT
+	blend_mode	BLEND_FILTER
+		
+	texture		"gfx\pepel.tga" 1 1
+
+	emit_rate	120
+
+	life_time	2
+
+	init_offset	0 -200 -50 250 300 -50
+	init_size	12 1
+	init_frame	0 0
+	init_color	1 1 1 1
+        init_velocity   0 0 22 20 20 15
+	size 		40
+
+	fade_mode	FADE_LINEAR
+	accel		3 1 10
+
+}
+
+PS_IZMOROS {
+	draw_mode       DRAW_VERT
+	blend_mode	BLEND_ADD
+		
+	texture		"gfx\flare_white_red_small.tga" 2 1
+
+	emit_rate	200
+
+	life_time	4
+
+	init_offset	0 -200 100 250 300 -50
+	init_size	0.5 0.5
+	init_frame	0 0
+	init_color	1 1 1 1
+        init_velocity   0 0 -22 40 40 -15
+	size 		-0.5
+
+	fade_mode	FADE_LINEAR
+	accel		3 1 -10
+
+	fade_factor     0.5
+}
+
+PS_RAIN {
+	draw_mode       DRAW_VERT
+	blend_mode	BLEND_ADD
+	
+	texture		"gfx\rain.tga" 2 1
+
+	emit_rate	200
+
+	life_time	0.5
+
+	init_offset	0 -230 100 300 300 10
+	init_size	20 1
+	init_frame	0 2
+	init_color	1 1 1 1
+        init_velocity   0 0 -400 15 15 200
+	size 		-20
+
+	fade_mode	FADE_LINEAR
+	accel		3 1 -10
+}
+
+
+PS_SPICE_STORM {
+	blend_mode	BLEND_ADD
+	
+	texture		"gfx\spice.tga" 1 1
+
+	emit_rate	300
+//	emit_mode	EMIT_ONCE
+
+	life_time	1
+
+
+	init_offset     0 0 30      360 100 30
+	init_velocity   70 70 20    20 20 30
+
+	init_size	1.5 1
+	init_frame	0 0
+	init_color	1 1 1 1
+	size 		-1
+
+	coords		COORD_CILINDER
+	fade_mode	FADE_LINEAR
+	fade_factor     0.6
+}
+
+
+PS_SPICE_STORM2 {
+        blend_mode      BLEND_ALPHA
+        rflag           RF_NODEPTHTEST
+
+        texture         "gfx\combust2.tga" 4 4
+
+        emit_rate       30
+
+        life_time       0.7
+
+        init_offset     0 0 3           360 2 3
+        init_velocity   100 80 1         0 10 2
+
+        init_size       5 3
+        init_color      0.6 0.5 0.3 1
+        init_frame      4 7
+
+        size            70
+
+        coords          COORD_CILINDER
+//      anim_mode       ANIM_LINEAR
+        fade_mode       FADE_LINEAR
+        fade_factor     0.4
+}

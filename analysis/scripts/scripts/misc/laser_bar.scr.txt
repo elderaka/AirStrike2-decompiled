@@ -1,0 +1,16 @@
+entry=-1 slots=16 functions=['AttachDeactivate', 'deactivate']
+0000 JUMP_IF_NONZERO    a=-1 b=5 c=0 flags=0x00
+0001 MOVE               a=0 b=0 c=0 flags=0x10 b_float=0
+0002 CALL               a=-1 b=0 c=0 flags=0x00 external=AttachDeactivate
+0003 MOVE               a=0 b=-2 c=0 flags=0x00
+0004 CALL               a=-2 b=0 c=0 flags=0x00 external=deactivate
+0005 YIELD              a=0 b=0 c=0 flags=0x00
+0006 INDEX_ADDRESS      a=-2 b=34 c=0 flags=0x00
+0007 GT                 a=0 b=0 c=0 flags=0x12 b_float=0
+0008 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+0009 RETURN             a=0 b=0 c=0 flags=0x00
+0010 MOVE               a=0 b=7 c=0 flags=0x10 b_float=9.80909e-45
+0011 CALL               a=-1 b=0 c=0 flags=0x00 external=AttachDeactivate
+0012 MOVE               a=0 b=-2 c=0 flags=0x00
+0013 CALL               a=-2 b=0 c=0 flags=0x00 external=deactivate
+0014 YIELD              a=0 b=0 c=0 flags=0x00

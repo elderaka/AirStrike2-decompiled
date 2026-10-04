@@ -1,0 +1,1450 @@
+// ===========================================================================
+//
+// MACHINEGUN
+//
+// ===========================================================================
+
+mgun_proj {
+	touch	TOUCH_ENEMIES
+	model	"models\weapons\laser\mgun.mdl"
+	skin	"models\weapons\laser\weapons.tga"
+	blend	BLEND_ADD
+
+	flag	FL_POINT_COLLISION
+	rflag	RF_NOCULLING
+	rflag	RF_NODEPTHTEST
+	rflag	RF_NOLIGHTING
+	sort	SORT_EFFECT
+
+	damage	6
+
+	script	"scripts\weapons\mgun\mgun_proj.scr"
+}
+
+
+mgun_flash {
+	model	"models\weapons\mgun\mgfire.mdl"
+	skin	"models\weapons\laser\laser_flash.tga"
+	blend	BLEND_ADD
+	flag	FL_TEMPORARY
+ 
+	rflag	RF_NOCULLING
+	rflag	RF_NODEPTHWRITE
+	rflag	RF_NOLIGHTING
+	sort	SORT_EFFECT
+  
+	attach "mgun_flare" origin
+
+	script	"scripts\weapons\mgun\mgun_flash.scr"
+}
+
+mgun_flare {
+	type	TYPE_SPRITE
+	skin	"gfx\effects\flash_yellow.tga"
+	blend	BLEND_ADD
+	rflag	RF_NODEPTHWRITE
+
+	min	-40 -40 0.0 0.0
+	max	40 40 1.0 1.0	
+}
+
+
+mgun_hit {
+	flag FL_NODRAW
+	attach PS_ISKORKA "origin" 
+	script "scripts\weapons\hit.scr"
+}
+
+
+mgun_trasser {
+	model	"models\weapons\trassers\mgun_trasser.mdl"
+	skin	"models\weapons\trassers\trassers.tga"
+	blend	BLEND_ALPHA
+
+	rflag	RF_NOCULLING
+	rflag	RF_NODEPTHTEST
+	rflag	RF_NOLIGHTING
+	sort	SORT_EFFECT
+
+	script	"scripts\weapons\mgun\mgun_trasser.scr"
+}
+
+
+// =============================================================================
+//
+// IMPULSEGUN
+//
+// =============================================================================
+
+impulse_flare {
+	type	TYPE_SPRITE
+	skin	"models\weapons_enemy\missiles\missile_flare.tga"
+	blend	BLEND_ADD
+	rflag	RF_NODEPTHTEST
+
+	min	-11 -11  0.0 0.0
+	max	11 11    0.5 1.0	
+}
+
+impulse_proj {
+	touch	TOUCH_ENEMIES
+	model	"models\weapons\impulse\spark.mdl"
+	skin	"models\weapons\impulse\impulse.tga"
+	rflag	RF_NOCULLING
+	rflag	RF_NODEPTHTEST
+	flag	FL_POINT_COLLISION
+
+	blend	BLEND_ADD
+	sort	SORT_EFFECT
+
+	damage	10
+
+	script	"scripts\weapons\impulse\igun_proj.scr"
+	attach	"impulse_flare" "tag_flare"
+}
+
+impulse_flash {
+	model	"models\weapons\impulse\igun_flash.mdl"
+	skin	"models\weapons\impulse\igun_flash.tga"
+	blend	BLEND_ADD
+	flag	FL_TEMPORARY
+
+	rflag	RF_NOCULLING
+	rflag	RF_NODEPTHWRITE
+	rflag	RF_NOLIGHTING
+	sort	SORT_EFFECT
+
+	attach "mgun_flare" origin
+
+	script	"scripts\weapons\impulse\igun_flash.scr"
+}
+
+impulse_hit {
+	type    TYPE_SPRITE
+	skin    "gfx\weapons\hits.tga"
+	blend   BLEND_ADD
+	rflag	RF_NODEPTHTEST
+	rflag	RF_NOLIGHTING
+
+	flag    FL_TEMPORARY
+
+	min     -12 -12   0     0.75
+	max     12 12     0.25  1.0
+
+	script  "scripts\weapons_enemy\hit.scr"
+}
+
+
+
+// =============================================================================
+//
+// PLASMAGUN
+//
+// =============================================================================
+
+plasmagun_flare {
+	type	TYPE_SPRITE
+	skin	"gfx\effects\flash_yellow.tga"
+	blend	BLEND_ADD
+	rflag	RF_NODEPTHTEST
+
+	min	-25 -25  0.0 0.0
+	max	25 25    1.0 1.0	
+}
+
+
+plasmagun_proj {
+	touch	TOUCH_ENEMIES
+
+        model   "models\weapons\plasma\plasma_new.mdl"
+	skin	"models\weapons\plasma\plasma02.tga"
+	blend	BLEND_ADD
+	damage	100
+//	light	150 0.3 0.3 3
+
+        rflag   RF_NOCULLING
+        rflag   RF_NODEPTHTEST
+        sort    SORT_EFFECT
+	rflag	RF_NOLIGHTING        
+        sort    SORT_EFFECT
+
+        damage  15
+        attach  "plasmagun_flare" "tag_flare"
+
+	script	"scripts\weapons\plasmagun\plasmagun_proj.scr"
+}
+
+plasmagun_proj2 {
+	touch	TOUCH_ENEMIES
+        model   "models\weapons\plasma\plasma.mdl"
+	skin	"models\weapons\plasma\plasma.tga"
+        rflag   RF_NOCULLING
+        rflag   RF_NODEPTHTEST
+        blend   BLEND_ADD
+        sort    SORT_EFFECT
+	rflag	RF_NOLIGHTING        
+
+	bbox_scale 0.5 0.5 0.5
+
+        damage  30
+
+	attach	PS_WAVEGUN "origin"
+
+	script	"scripts\weapons\bpg\bpg_proj.scr"
+}
+
+
+plasmagun_flash {
+	model	"models\weapons\laser\plasma_flash.mdl"
+	skin	"models\weapons\laser\laser_flash.tga"
+
+
+	blend	BLEND_ADD
+	flag	FL_TEMPORARY
+
+	rflag	RF_NOCULLING
+	rflag	RF_NODEPTHWRITE
+	rflag	RF_NOLIGHTING
+	sort	SORT_EFFECT
+
+	attach "mgun_flare" origin
+
+	script	"scripts\weapons\laser\plasma_flash.scr"
+}
+
+plasmagun_flash2 {
+	type    TYPE_SPRITE
+	skin    "models\weapons\plasma\bpg_flash.tga"
+	blend   BLEND_ADD
+
+	flag    FL_TEMPORARY
+
+	min     -15 -15   0 0
+	max     15 15     1 1
+
+	attach  PS_EXPLOSION_SPARKS_SMALL "origin"
+
+	script  "scripts\weapons\laser\flash.scr"
+}
+
+
+plasmagun_hit {
+	type    TYPE_SPRITE
+	skin    "gfx\weapons\hits.tga"
+	blend   BLEND_ADD
+	rflag	RF_NODEPTHTEST
+	rflag	RF_NOLIGHTING
+
+	flag    FL_TEMPORARY
+
+	min     -10 -10   0     0.5
+	max     10  10    0.25  0.75
+
+	script  "scripts\weapons_enemy\hit.scr"
+}
+
+
+// =============================================================================
+
+bpg_proj {
+	touch	TOUCH_ENEMIES
+        model   "models\weapons\plasma\plasma.mdl"
+	skin	"models\weapons\plasma\plasma.tga"
+        rflag   RF_NOCULLING
+        rflag   RF_NODEPTHTEST
+        blend   BLEND_ADD
+        sort    SORT_EFFECT
+	rflag	RF_NOLIGHTING        
+
+	bbox_scale 0.5 0.5 0.5
+
+        damage  65
+
+	script	"scripts\weapons\bpg\bpg_proj.scr"
+}
+
+bpg_flash {
+	type    TYPE_SPRITE
+	skin    "models\weapons\plasma\bpg_flash.tga"
+	blend   BLEND_ADD
+
+	flag    FL_TEMPORARY
+
+	min     -15 -15   0 0
+	max     15 15     1 1
+
+	script  "scripts\weapons\laser\flash.scr"
+}
+
+bpg_hit_flare {
+	type    TYPE_SPRITE
+	skin    "gfx\effects\gibspark.tga"
+	blend   BLEND_ADD
+	rflag	RF_NODEPTHTEST
+	rflag	RF_NOLIGHTING
+
+	flag    FL_TEMPORARY
+
+	min     -30 -30   0.0   0.0
+	max      30  30   1.0   1.0
+	script  "scripts\weapons_enemy\hit2.scr"
+}
+
+bpg_hit {
+	type    TYPE_SPRITE
+	skin    "gfx\weapons\hits.tga"
+	blend   BLEND_ADD
+	rflag	RF_NODEPTHTEST
+	rflag	RF_NOLIGHTING
+
+	flag    FL_TEMPORARY
+
+	min     -20 -20   0.25     0.0
+	max     20  20    0.5  0.25
+
+	attach	"bpg_hit_flare"	 "origin"
+	attach  PS_EXPLOSION_SPARKS_SMALL "origin"
+
+	script  "scripts\weapons_enemy\hit2.scr"
+}
+
+
+
+// =============================================================================
+//
+// meteorite
+//
+// =============================================================================
+
+meteorite_flare {
+	type	TYPE_SPRITE
+	skin	"models\weapons_enemy\missiles\missile_flare.tga"
+	blend	BLEND_ADD
+	rflag	RF_NODEPTHTEST
+
+	min	-13 -13  0.0 0.0
+	max	13 13    0.5 1.0	
+}
+
+meteorite_hvost {
+	model	"models/weapons/missilegun/missile_small_hvost.mdl"
+	skin	"models/weapons/missile_hvost2.tga"
+	rflag	RF_NODEPTHTEST
+	rflag   RF_NOCULLING
+	rflag	RF_NOLIGHTING
+	blend	BLEND_ADD
+}
+
+meteorite_proj {
+	touch	TOUCH_ENEMIES
+	model	"models/weapons/missilegun/missile_small.mdl"
+	skin	"models/weapons/rockets.tga"
+
+	rflag	RF_NOCULLING
+
+	damage	12
+
+	attach	PS_MISTRAIL_SMALL "tag_hvost"
+	attach	"meteorite_flare" "tag_hvost"
+
+	script	"scripts\weapons\missilegun\misgun_proj.scr"
+}
+
+
+meteorite_flash {
+	type    TYPE_SPRITE
+	skin    "models\weapons\meteorite\flash.tga"
+	blend   BLEND_ADD
+
+	flag    FL_TEMPORARY
+
+	min     -15 -15   0 0
+	max     15 15     1 1
+
+	script  "scripts\weapons\laser\flash.scr"
+}
+
+meteorite_hit {
+	type    TYPE_SPRITE
+	skin    "gfx\expl.tga"
+	blend   BLEND_ADD
+	rflag	RF_NODEPTHTEST
+	rflag	RF_NOLIGHTING
+	flag	FL_POINT_COLLISION
+
+	flag    FL_TEMPORARY
+
+	min     -15 -15   0.0 0.0
+	max     15  15    0.5 1.0
+
+	attach  PS_EXPLOSION_SPARKS_SMALL "origin"
+
+	script  "scripts\weapons_enemy\hit2.scr"
+}
+
+
+
+
+
+
+// =============================================================================
+//
+// meteorite
+//
+// =============================================================================
+
+missilegun_flare {
+	type	TYPE_SPRITE
+	skin	"models\weapons_enemy\missiles\missile_flare.tga"
+	blend	BLEND_ADD
+	rflag	RF_NODEPTHTEST
+
+	min	-13 -13  0.0 0.0
+	max	13 13    0.5 1.0	
+}
+
+missilegun_hvost {
+	model	"models/weapons/missilegun/missile_small_hvost.mdl"
+	skin	"models/weapons/missile_hvost2.tga"
+	rflag	RF_NODEPTHTEST
+	rflag   RF_NOCULLING
+	rflag	RF_NOLIGHTING
+	blend	BLEND_ADD
+}
+
+missilegun_proj {
+	touch	TOUCH_ENEMIES
+	model	"models/weapons/missilegun/missile_small.mdl"
+	skin	"models/weapons/rockets.tga"
+
+	rflag	RF_NOCULLING
+
+	damage	15
+
+	attach	PS_MISTRAIL_SMALL "tag_hvost"
+	attach	"meteorite_flare" "tag_hvost"
+
+	script	"scripts\weapons\missilegun\misgun_proj.scr"
+}
+
+missilegun_proj2 {
+	touch	TOUCH_ENEMIES
+	model	"models/weapons/missilegun/missile_small.mdl"
+	skin	"models/weapons/rockets.tga"
+
+	rflag	RF_NOCULLING
+
+	damage	25
+
+	attach	PS_MISTRAIL_SMALL_BLACK "tag_hvost"
+	attach	"e_missile_flare_small2" "tag_hvost"
+
+	script	"scripts\weapons\missilegun\misgun_proj2.scr"
+}
+
+
+missilegun_flash {
+	type    TYPE_SPRITE
+	skin    "models\weapons\meteorite\flash.tga"
+	blend   BLEND_ADD
+
+	flag    FL_TEMPORARY
+
+	min     -15 -15   0 0
+	max     15 15     1 1
+
+	script  "scripts\weapons\laser\flash.scr"
+}
+
+missilegun_hit {
+	type    TYPE_SPRITE
+	skin    "gfx\expl.tga"
+	blend   BLEND_ADD
+	rflag	RF_NODEPTHTEST
+	rflag	RF_NOLIGHTING
+	flag	FL_POINT_COLLISION
+
+	flag    FL_TEMPORARY
+
+	min     -15 -15   0.0 0.0
+	max     15  15    0.5 1.0
+
+	attach  PS_EXPLOSION_SPARKS_SMALL "origin"
+
+	script  "scripts\weapons_enemy\hit2.scr"
+}
+
+
+
+
+
+
+
+// =============================================================================
+//
+// LASER
+//
+// =============================================================================
+
+laser_flare {
+	type	TYPE_SPRITE
+	skin	"models/weapons/laser/flare.tga"
+	blend	BLEND_ADD
+	rflag	RF_NODEPTHTEST
+
+	min	-4 -4 0.0 0.0
+	max	4 4 1.0 1.0	
+}
+
+laser2_proj {
+	touch	TOUCH_ENEMIES
+	type	TYPE_SPRITE
+	skin    "models/weapons/fireball/fireball2.tga"
+	blend   BLEND_ADD
+
+	min     -40 -40   0.0 0.0
+	max      40  40   1.0 1.0
+
+        rflag   RF_NODEPTHTEST
+        sort    SORT_EFFECT
+	rflag	RF_NOLIGHTING
+	flag	FL_POINT_COLLISION
+
+        damage  40
+
+	script	"scripts\weapons\fireball\fireball2.scr"
+	attach  PS_FIREBALL2_HVOST   "origin"
+}
+
+
+
+laser_proj {
+	touch	TOUCH_ENEMIES
+	type	TYPE_SPRITE
+	skin    "models/weapons/fireball/fireball.tga"
+	blend   BLEND_ADD
+
+	min     -20 -20   0.0 0.0
+	max      20  20   1.0 1.0
+
+        rflag   RF_NODEPTHTEST
+        sort    SORT_EFFECT
+	rflag	RF_NOLIGHTING
+	flag	FL_POINT_COLLISION
+
+        damage  20
+
+	script	"scripts\weapons\fireball\fireball.scr"
+	attach  PS_FIREBALL_HVOST   "origin"
+}
+
+laser_flash {
+	model	"models\weapons\laser\plasma_flash.mdl"
+	skin	"models\weapons\laser\laser_flash.tga"
+	blend	BLEND_ADD
+	flag	FL_TEMPORARY
+
+	rflag	RF_NOCULLING
+	rflag	RF_NODEPTHWRITE
+	rflag	RF_NOLIGHTING
+	sort	SORT_EFFECT
+	script	"scripts\weapons\laser\plasma_flash.scr"
+}
+
+laser_flash2 {
+	type    TYPE_SPRITE
+	skin    "models\weapons\laser\biglaser_flash.tga"
+	blend   BLEND_ADD
+
+	flag    FL_TEMPORARY
+
+	min     -35 -35   0 0
+	max     35 35     1 1
+
+	script  "scripts\weapons\laser\flash.scr"
+}
+
+
+laser_orange2_hit {
+	type    TYPE_SPRITE
+	skin    "gfx\weapons\hits.tga"
+	blend   BLEND_ADD
+	rflag	RF_NODEPTHTEST
+	rflag	RF_NOLIGHTING
+
+	flag    FL_TEMPORARY
+
+	min     -20 -20   0.25     0.0
+	max     20  20    0.5  0.25
+
+	attach	"bpg_hit_flare"	 "origin"
+	attach  PS_EXPLOSION_SPARKS_SMALL "origin"
+
+	script  "scripts\weapons_enemy\hit2.scr"
+}
+
+
+laser_orange_hit {
+	type    TYPE_SPRITE
+	skin    "gfx\weapons\hits.tga"
+	blend   BLEND_ADD
+	rflag	RF_NODEPTHTEST
+	rflag	RF_NOLIGHTING
+
+	flag    FL_TEMPORARY
+
+	min     -9 -9   0.25   0.25
+	max     9  9    0.5    0.5
+
+	script  "scripts\weapons_enemy\hit_z.scr"
+}
+
+
+// =============================================================================
+
+
+biglaser_proj {
+	touch	TOUCH_ENEMIES
+        model   "models/weapons/laser/laser3.mdl"
+	skin	"models\weapons\laser\weapons.tga"
+        rflag   RF_NOCULLING
+        rflag   RF_NODEPTHTEST
+	rflag	RF_NOLIGHTING        
+	blend   BLEND_ADD
+        sort    SORT_EFFECT
+
+        damage  100
+
+	script	"scripts\weapons\laser\biglaser_proj.scr"
+	attach	PS_LASER_GREEN_ISKRA  origin
+}
+
+biglaser2_proj {
+	touch	TOUCH_ENEMIES
+        model   "models/weapons/laser/laser3_2.mdl"
+	skin	"models\weapons\laser\weapons.tga"
+        rflag   RF_NOCULLING
+        rflag   RF_NODEPTHTEST
+	rflag	RF_NOLIGHTING        
+	blend   BLEND_ADD
+        sort    SORT_EFFECT
+
+        damage  150
+
+	script	"scripts\weapons\laser\biglaser_proj.scr"
+	attach	PS_LASER_GREEN_ISKRA  origin
+}
+
+biglaser3_proj {
+	touch	TOUCH_ENEMIES
+        model   "models/weapons/laser/laser3_3.mdl"
+	skin	"models\weapons\laser\weapons.tga"
+        rflag   RF_NOCULLING
+        rflag   RF_NODEPTHTEST
+	rflag	RF_NOLIGHTING        
+	blend   BLEND_ADD
+        sort    SORT_EFFECT
+
+        damage  200
+
+	script	"scripts\weapons\laser\biglaser_proj.scr"
+	attach	PS_LASER_GREEN_ISKRA  origin
+}
+
+biglaser4_proj {
+	touch	TOUCH_ENEMIES
+        model   "models/weapons/laser/laser3_4.mdl"
+	skin	"models\weapons\laser\weapons.tga"
+        rflag   RF_NOCULLING
+        rflag   RF_NODEPTHTEST
+	rflag	RF_NOLIGHTING        
+	blend   BLEND_ADD
+        sort    SORT_EFFECT
+
+        damage  300
+
+	script	"scripts\weapons\laser\biglaser_proj.scr"
+	attach	PS_LASER_GREEN_ISKRA  origin
+}
+
+biglaser5_proj {
+	touch	TOUCH_ENEMIES
+        model   "models/weapons/laser/laser3_5.mdl"
+	skin	"models\weapons\laser\weapons.tga"
+        rflag   RF_NOCULLING
+        rflag   RF_NODEPTHTEST
+	rflag	RF_NOLIGHTING        
+	blend   BLEND_ADD
+        sort    SORT_EFFECT
+
+        damage  450
+
+	script	"scripts\weapons\laser\biglaser_proj.scr"
+	attach	PS_LASER_GREEN_ISKRA  origin
+}
+
+
+biglaser_flash {
+	type    TYPE_SPRITE
+	skin    "models\weapons\laser\biglaser_flash.tga"
+	blend   BLEND_ADD
+
+	flag    FL_TEMPORARY
+
+	min     -25 -25   0 0
+	max     25 25     1 1
+
+	script  "scripts\weapons\laser\flash.scr"
+}
+
+
+biglaser_hit {
+	type    TYPE_SPRITE
+	skin    "gfx\weapons\hits.tga"
+	blend   BLEND_ADD
+	rflag	RF_NODEPTHTEST
+	rflag	RF_NOLIGHTING
+
+	flag    FL_TEMPORARY
+
+	min     -10 -10   0.25   0.25
+	max     10  10    0.5    0.5
+
+	script  "scripts\weapons_enemy\hit_z.scr"
+}
+
+
+
+// =============================================================================
+// =======GOROX=================================================================
+// =============================================================================
+
+gorox_proj {
+	touch	TOUCH_ENEMIES
+	type	TYPE_SPRITE
+	skin    "models\weapons_enemy\fballs\fball_red_small2.tga"
+	blend   BLEND_ADD
+
+	min     -4 -4   0.0 0.0
+	max      4  4   1.0 1.0
+
+        rflag   RF_NODEPTHTEST
+        sort    SORT_EFFECT
+	rflag	RF_NOLIGHTING
+	flag	FL_POINT_COLLISION
+
+        damage  15
+
+	script	"scripts\weapons\gorox\gorox_proj.scr"
+}
+
+gorox_flash {
+	model	"models\weapons\impulse\igun_flash.mdl"
+	skin	"models\weapons\gorox\gorox_flash.tga"
+	blend	BLEND_ADD
+	flag	FL_TEMPORARY
+
+	rflag	RF_NOCULLING
+	rflag	RF_NODEPTHWRITE
+	rflag	RF_NOLIGHTING
+	sort	SORT_EFFECT
+	script	"scripts\weapons\impulse\igun_flash.scr"
+}
+
+
+// =============================================================================
+// =======FlameFrower===========================================================
+// =============================================================================
+
+flamefrower_proj {
+	attach PS_FLAMEFROWER_HOR "origin" 
+	attach PS_FLAMEFROWER_BLUE_HOR "origin" 
+}
+
+
+flamefrower2_proj {
+	attach PS_FLAMEFROWER_HOR2 "origin" 
+	attach PS_FLAMEFROWER_BLUE_HOR2 "origin" 
+}
+
+
+flamefrower3_proj {
+	attach PS_FLAMEFROWER_HOR3 "origin" 
+	attach PS_FLAMEFROWER_BLUE_HOR3 "origin" 
+}
+
+
+// =============================================================================
+//     WAVEGUN
+// =============================================================================
+
+wavegun_flare {
+	type	TYPE_SPRITE
+	skin	"gfx\flare_blue_small.tga"
+	blend	BLEND_ADD
+	rflag	RF_NODEPTHTEST
+
+	min	-6 -6 0.0 0.0
+	max	6 6 1.0 1.0	
+}
+
+
+wavegun_proj {
+	touch	TOUCH_ENEMIES
+        model   "models/weapons/wavegun/wavegun2.mdl"
+//	skin	"models/weapons/wavegun/wavegun.tga"
+	skin	"models/weapons/plasma/raadgun.tga"
+
+        rflag   RF_NOCULLING
+        rflag   RF_NODEPTHTEST
+        blend   BLEND_ADD
+        sort    SORT_EFFECT
+	rflag	RF_NOLIGHTING        
+	flag	FL_POINT_COLLISION
+
+        damage  15
+
+	script	"scripts\weapons\wavegun\wavegun_proj2.scr"
+//	script	"scripts\weapons\wavegun\wavegun_proj.scr"
+//	attach	PS_WAVEGUN "origin"
+//	attach	"wavegun_flare" "origin"
+}
+
+wavegun_small1_proj {
+	touch	TOUCH_ENEMIES
+        model   "models/weapons/wavegun/wavegun_small.mdl"
+	skin	"models/weapons/wavegun/wavegun.tga"
+        rflag   RF_NOCULLING
+        rflag   RF_NODEPTHTEST
+        blend   BLEND_ADD
+        sort    SORT_EFFECT
+	rflag	RF_NOLIGHTING        
+	flag	FL_POINT_COLLISION
+
+
+        damage  40
+	script	"scripts\weapons\wavegun\wavegun_small1_proj.scr"
+	attach	PS_WAVEGUN "origin"
+	attach	"wavegun_flare" "origin"
+}
+
+wavegun_small2_proj {
+	touch	TOUCH_ENEMIES
+        model   "models/weapons/wavegun/wavegun_small.mdl"
+	skin	"models/weapons/wavegun/wavegun.tga"
+        rflag   RF_NOCULLING
+        rflag   RF_NODEPTHTEST
+        blend   BLEND_ADD
+        sort    SORT_EFFECT
+	rflag	RF_NOLIGHTING        
+	flag	FL_POINT_COLLISION
+
+        damage  40
+	script	"scripts\weapons\wavegun\wavegun_small2_proj.scr"
+	attach	PS_WAVEGUN "origin"
+	attach	"wavegun_flare" "origin"
+}
+
+wavegun_flash {
+	type    TYPE_SPRITE
+	skin    "models\weapons\wavegun\flash.tga"
+        rflag   RF_NODEPTHTEST
+        blend   BLEND_ADD
+        sort    SORT_EFFECT
+
+	flag    FL_TEMPORARY
+
+	min     -20 -20   0 0
+	max     20 20     1 1
+
+	script  "scripts\weapons\laser\flash.scr"
+}
+
+
+wavegun_hit {
+	type    TYPE_SPRITE
+	skin    "models\weapons\wavegun\wavegun_hit.tga"
+	blend   BLEND_ADD
+	rflag	RF_NODEPTHTEST
+	rflag	RF_NOLIGHTING
+
+	flag    FL_TEMPORARY
+
+	attach PS_EXPLOSION_SPARKS_BLUE_SMALL origin	
+
+	min     -40 -40   0.0   0.0
+	max      40  40   1.0   1.0
+	script  "scripts\weapons_enemy\hit2.scr"
+}
+
+
+// =============================================================================
+//     LIGHTINGGUN
+// =============================================================================
+
+lightinggun_flare {
+	type	TYPE_SPRITE
+	blend	BLEND_ADD
+	rflag	RF_NODEPTHTEST
+	sort	SORT_EFFECT
+	skin	"models\weapons\bfg\ballflare.tga"
+
+	min	-16 -16 0.0 0.0
+	max	16 16 1.0 1.0	
+}
+
+
+lightinggun_proj {
+	touch	TOUCH_ENEMIES
+	model	"models\weapons\bfg\bfgball.mdl"
+	skin	"models\weapons\bfg\bfgball.tga"
+
+	damage	10
+//	light	150 0.3 0.3 3
+
+	blend	BLEND_ADD
+        rflag   RF_NODEPTHTEST
+        rflag   RF_NOLIGHTING
+        sort    SORT_EFFECT
+
+	attach	"lightinggun_flare" "origin"
+
+	script	"scripts\weapons\lightinggun\lightinggun_proj.scr"
+	attach	PS_RIPER "origin"
+//	attach	"wavegun_flare" "origin"
+}
+
+lightinggun_small1_proj {
+	touch	TOUCH_ENEMIES
+        model   "models/weapons/wavegun/wavegun_small.mdl"
+	skin	"models/weapons/wavegun/wavegun.tga"
+        rflag   RF_NOCULLING
+        rflag   RF_NODEPTHTEST
+        blend   BLEND_ADD
+        sort    SORT_EFFECT
+	rflag	RF_NOLIGHTING        
+	flag	FL_POINT_COLLISION
+
+
+        damage  40
+	script	"scripts\weapons\wavegun\wavegun_small1_proj.scr"
+	attach	PS_WAVEGUN "origin"
+	attach	"wavegun_flare" "origin"
+}
+
+lightinggun_flash {
+	type    TYPE_SPRITE
+	skin    "models\weapons\wavegun\flash.tga"
+	blend   BLEND_ADD
+
+	flag    FL_TEMPORARY
+
+	min     -20 -20   0 0
+	max     20 20     1 1
+
+	script  "scripts\weapons\laser\flash.scr"
+}
+
+
+lightinggun_hit {
+	type    TYPE_SPRITE
+	skin    "gfx\weapons\hits.tga"
+	blend   BLEND_ADD
+	rflag	RF_NODEPTHTEST
+	rflag	RF_NOLIGHTING
+
+	flag    FL_TEMPORARY
+
+	min     -14 -14   0.5   0.75
+	max     14  14    0.75  1.0
+
+	attach	"bpg_hit_flare"	 "origin"
+
+	script  "scripts\weapons_enemy\hit2.scr"
+}
+
+
+
+
+// =============================================================================
+//
+//  LIGHTING BOMB
+//
+// =============================================================================
+
+lball_flare {
+	type	TYPE_SPRITE
+	blend	BLEND_ADD
+	rflag	RF_NODEPTHTEST
+	sort	SORT_EFFECT
+	skin	"models\weapons\bfg\ballflare.tga"
+
+	min	-15 -15 0.0 0.0
+	max	15 15 1.0 1.0	
+}
+
+
+lball_plane {
+	model	"models\weapons\bfg\plane.mdl"
+	skin	"models\weapons\bfg\bfg_plane.tga"
+	blend	BLEND_ADD
+
+	rflag	RF_NOCULLING
+        rflag   RF_NODEPTHTEST
+        rflag   RF_NOLIGHTING
+        sort    SORT_EFFECT
+
+	script	"scripts\bonuses\lightingbomb\lightingbomb_plane.scr"
+}
+
+lightingbomb_proj {
+	model	"models\weapons\bfg\bfgball.mdl"
+	blend	BLEND_ADD
+	damage	100
+	light	150 0.3 0.3 3
+
+        rflag   RF_NODEPTHTEST
+        rflag   RF_NOLIGHTING
+        sort    SORT_EFFECT
+
+	script	"scripts\bonuses\lightingbomb\lightingbomb_proj.scr"
+	attach	"lball_flare" "origin"
+
+	attach	abs "lball_plane" "origin"
+	attach	abs "lball_plane" "origin"
+	attach	abs "lball_plane" "origin"
+	attach	abs "lball_plane" "origin"
+	attach	abs "lball_plane" "origin"
+	attach	abs "lball_plane" "origin"
+	attach	abs "lball_plane" "origin"
+	attach	abs "lball_plane" "origin"
+	attach	abs "lball_plane" "origin"
+	attach	abs "lball_plane" "origin"
+	attach	abs "lball_plane" "origin"
+	attach	abs "lball_plane" "origin"
+	attach	abs "lball_plane" "origin"
+	attach	abs "lball_plane" "origin"
+	attach	abs "lball_plane" "origin"
+	attach	abs "lball_plane" "origin"
+	attach	abs "lball_plane" "origin"
+	attach	abs "lball_plane" "origin"
+}
+
+
+lbomb_hit {
+	type	TYPE_SPRITE
+	blend	BLEND_ADD
+	rflag	RF_NODEPTHTEST
+	sort	SORT_EFFECT
+	skin	"models\weapons\bfg\ballflare.tga"
+
+	min	-15 -15 0.0 0.0
+	max	15 15 1.0 1.0	
+
+	attach	"PS_LBOMB_HIT" "origin"
+}
+
+
+
+
+// =============================================================================
+
+
+clusterbomb_proj {
+	touch	TOUCH_ENEMIES
+	model	"models\weapons\clusterbomb\clusterbomb.mdl"
+	skin	"models\weapons\clusterbomb\clusterbomb.tga"
+
+	damage	200
+
+	envmap	"gfx\envmap1.tga"
+	envmode	ENV_GLITTER
+
+	script	"scripts\bonuses\clusterbomb\clusterbomb_proj.scr"
+}
+
+
+clustb_small {
+	touch	TOUCH_ENEMIES
+	model	"models\weapons\clusterbomb\clusterbomb_small.mdl"
+	skin	"models\weapons\clusterbomb\clusterbomb.tga"
+
+	damage	100
+
+	script	"scripts\bonuses\clusterbomb\clusterbomb_small.scr"
+}
+
+// =============================================================================
+
+rocketbomb_proj {
+	model	"models/weapons/missile_big.mdl"
+	skin	"models/weapons/rockets.tga"
+
+	touch	TOUCH_ENEMIES
+
+	damage	400
+	script	"scripts\bonuses\rocketbomb\p_rb.scr"
+
+	attach abs "missile_hvost_big" "tag_hvost"
+	attach	"missile_flare_big" "tag_hvost"
+}
+
+
+// =============================================================================
+
+
+abomb_proj {
+	touch	TOUCH_ENEMIES
+	touch   TOUCH_CIVILIAN
+
+	model	"models\weapons\abomb\abomb.mdl"
+	skin	"models\weapons\abomb\abomb.tga"
+
+	damage	200
+
+	envmap	"gfx\envmap1.tga"
+	envmode	ENV_GLITTER
+
+	script	"scripts\bonuses\abomb\abomb_proj.scr"
+}
+
+smoke_green {
+//        flag    FL_TEMPORARY
+        type    TYPE_SPRITE
+
+        skin    "gfx\smoke_green.tga"
+        blend   BLEND_ADD
+
+        rflag   RF_NODEPTHTEST
+
+        frames  2 1
+        min     -50 -50  0 0
+        max     50 50    0.5 1
+
+        script  "scripts\bonuses\abomb\smoke_green.scr"
+}
+
+satellite_strike_laser {
+        model   "models\weapons\satellite_strike/satellite_laser.mdl"
+        skin	"models\weapons\satellite_strike/laser.tga"
+        rflag   RF_NOCULLING
+        rflag   RF_NODEPTHTEST
+	rflag	RF_NOLIGHTING        
+	blend   BLEND_ADD
+        sort    SORT_EFFECT
+
+	flag	FL_ONGROUND
+        damage  300
+
+	script	"scripts\bonuses\satellite_strike\satellite_strike.scr"
+//	attach	PS_LASER_GREEN_ISKRA  origin
+}
+
+
+// =============================================================================
+//
+// SATELLITE
+//
+// =============================================================================
+
+satellite_vint {
+	model   "models\weapons\satellite\vint_satellite.mdl"
+	skin    "models\helics\vints\vint_small2.tga"
+
+	blend   BLEND_ALPHA
+	rflag   RF_NOCULLING
+	rflag   RF_NODEPTHWRITE
+	sort    SORT_TRANS
+
+	script  "scripts\helics\vint180.scr"
+}
+
+satellite_proj {
+	touch	TOUCH_ENEMIES
+	type	TYPE_SPRITE
+	skin    "models\weapons_enemy\fballs\fball_red_small.tga"
+	blend   BLEND_ADD
+
+	min     -4 -4   0.0 0.0
+	max      4  4   1.0 1.0
+
+        rflag   RF_NODEPTHTEST
+        sort    SORT_EFFECT
+	rflag	RF_NOLIGHTING
+
+        damage  10
+
+	script	"scripts\weapons\satellite\fball.scr"
+}
+
+satellite_hit {
+	flag FL_NODRAW
+	attach PS_LASER_HIT "origin" 
+}
+
+
+satellite {
+	model	"models\weapons\satellite\satellite.mdl"
+	skin	"models\weapons\satellite\satellite.tga"
+
+	attach abs "satellite_vint" "tag_vint"
+
+	envmap	"gfx\envmap3.tga"
+	envmode	ENV_GLITTER
+
+	script	"scripts\weapons\satellite\satellite.scr"
+
+}
+
+satellite2 {
+	model	"models\weapons\satellite\satellite.mdl"
+	skin	"models\weapons\satellite\satellite.tga"
+
+	attach abs "satellite_vint" "tag_vint"
+
+	envmap	"gfx\envmap3.tga"
+	envmode	ENV_GLITTER
+
+	script	"scripts\weapons\satellite\satellite2.scr"
+
+}
+
+
+// =============================================================================
+
+satellite_laser_proj {
+	touch	TOUCH_ENEMIES
+        model   "models/weapons/laser/laser2.mdl"
+	skin	"models\weapons\laser\weapons.tga"
+        rflag   RF_NOCULLING
+        rflag   RF_NODEPTHTEST
+	rflag	RF_NOLIGHTING        
+	blend   BLEND_ADD
+        sort    SORT_EFFECT
+
+        damage  30
+	script	"scripts\weapons\satellite\satellite_laser_gun.scr"
+}
+
+satellite_laser {
+	model	"models\weapons\satellite\satellite_laser.mdl"
+	skin	"models\weapons\satellite\satellite_laser.tga"
+
+	envmap	"gfx\envmap3.tga"
+	envmode	ENV_GLITTER
+
+	attach "helic_redflare" "tag_flare1"
+	attach "helic_redflare" "tag_flare2"
+
+	attach "PS_SATELLITE" "tag_flare1"
+
+	script	"scripts\weapons\satellite\satellite_laser.scr"
+}
+
+satellite_laser2 {
+	model	"models\weapons\satellite\satellite_laser.mdl"
+	skin	"models\weapons\satellite\satellite_laser.tga"
+
+	envmap	"gfx\envmap3.tga"
+	envmode	ENV_GLITTER
+
+	attach "helic_redflare" "tag_flare1"
+	attach "helic_redflare" "tag_flare2"
+	attach "PS_SATELLITE" "tag_flare1"
+
+	script	"scripts\weapons\satellite\satellite_laser2.scr"
+}
+
+
+// =============================================================================
+//
+// MISSILES
+//
+// =============================================================================
+
+missile_flare {
+	type	TYPE_SPRITE
+	skin	"models\weapons_enemy\missiles\missile_flare.tga"
+	blend	BLEND_ADD
+	rflag	RF_NODEPTHTEST
+
+	min	-15 -15  0.0 0.0
+	max	15 15    0.5 1.0	
+}
+
+
+missile_flare_big {
+	type	TYPE_SPRITE
+	skin	"models\weapons_enemy\missiles\missile_flare_big.tga"
+	blend	BLEND_ADD
+	rflag	RF_NODEPTHTEST
+
+	min	-30 -30    0.0 0.0
+	max	 30  30    1.0 1.0	
+}
+
+
+missile_flare_red {
+	type	TYPE_SPRITE
+	skin	"models\weapons_enemy\missiles\missile_flare.tga"
+	blend	BLEND_ADD
+	rflag	RF_NODEPTHTEST
+
+	min	-15 -15  0.5 0.0
+	max	15 15    1.0 1.0	
+}
+
+missile_flare_small {
+	type	TYPE_SPRITE
+	skin	"models\weapons_enemy\missiles\missile_flare.tga"
+	blend	BLEND_ADD
+	rflag	RF_NODEPTHTEST
+
+	min	-10 -10  0.0 0.0
+	max	10 10    0.5 1.0	
+}
+
+
+missile_flare_red_small {
+	type	TYPE_SPRITE
+	skin	"models\weapons_enemy\missiles\missile_flare.tga"
+	blend	BLEND_ADD
+	rflag	RF_NODEPTHTEST
+
+	min	-5 -5  0.5 0.0
+	max	5 5    1.0 1.0	
+}
+
+
+missile_hvost {
+	model	"models/weapons/missile_small_hvost.mdl"
+	skin	"models/weapons/missile_hvost2.tga"
+	rflag	RF_NODEPTHTEST
+	rflag   RF_NOCULLING
+	rflag	RF_NOLIGHTING
+	blend	BLEND_ADD
+}
+
+missile_hvost_big {
+	model	"models/weapons/missile_hvost_big.mdl"
+	skin	"models/weapons/missile_hvost2.tga"
+	rflag	RF_NODEPTHTEST
+	rflag   RF_NOCULLING
+	rflag	RF_NOLIGHTING
+	blend	BLEND_ADD
+	attach	PS_MISTRAIL_BLACK "origin"
+}
+
+
+missile_hvost_bh {
+	model	"models/weapons/missile_hvost.mdl"
+	skin	"models/weapons/missile_hvost.tga"
+	rflag	RF_NODEPTHTEST
+	rflag   RF_NOCULLING
+	rflag	RF_NOLIGHTING
+	blend	BLEND_ADD
+	attach	PS_MISTRAIL_BLACK2 "tag_smoke"
+}
+
+missile_hvost_mad {
+	model	"models/weapons/missile_hvost.mdl"
+	skin	"models/weapons/missile_hvost.tga"
+	rflag	RF_NODEPTHTEST
+	rflag   RF_NOCULLING
+	rflag	RF_NOLIGHTING
+	blend	BLEND_ADD
+	attach	PS_MISTRAIL_GREEN "tag_smoke"
+}
+
+
+missile {
+	model	"models/weapons/missile.mdl"
+	skin	"models/weapons/rockets.tga"
+
+	touch	TOUCH_ENEMIES
+
+	damage	140
+	attach abs "missile_hvost" "tag_hvost"
+	attach	"missile_flare_small" "tag_hvost"
+	attach	PS_MISTRAIL "tag_hvost"
+	script	"scripts\weapons\missile\p_missile.scr"
+}
+
+missile_heat {
+	model	"models/weapons/missile.mdl"
+	skin	"models/weapons/rockets.tga"
+
+	touch	TOUCH_ENEMIES
+
+	damage	130
+	attach	"missile_flare_red_small" "tag_hvost"
+	attach abs "missile_hvost" "tag_hvost"
+	attach	PS_MISTRAIL "tag_hvost"
+	script	"scripts\weapons\missile\p_heatmis.scr"
+}
+
+
+missile_big {
+	model	"models/weapons/missile_big.mdl"
+	skin	"models/weapons/rockets.tga"
+
+	touch	TOUCH_ENEMIES
+
+	damage	350
+	script	"scripts\weapons\missile\p_missile_big.scr"
+	attach abs "missile_hvost_big" "tag_hvost"
+
+	attach	"missile_flare_big" "tag_hvost"
+}
+
+missile_heat_big {
+	model	"models/weapons/missile_big_heat.mdl"
+	skin	"models/weapons/rockets.tga"
+
+	touch	TOUCH_ENEMIES
+
+	damage	250
+	script	"scripts\weapons\missile\p_heatmis_big.scr"
+	attach	"missile_flare_red" "tag_hvost"
+	attach abs "missile_hvost_bh" "tag_hvost"
+}
+
+missile_mad {
+	model	"models/weapons/missile_mad.mdl"
+	skin	"models/weapons/rockets.tga"
+
+	touch	TOUCH_ENEMIES
+
+	damage	250
+	script	"scripts\weapons\missile\p_missile_mad.scr"
+	attach	"missile_flare_red" "tag_hvost"
+	attach abs "missile_hvost_mad" "tag_hvost"
+}
+
+
+
+missile_smoke {
+	flag    FL_NODRAW
+	attach  "PS_GUNSMOKE" "origin"
+	script	"scripts\weapons\hit5.scr"
+}
+
+missile_smoke_small {
+	flag    FL_NODRAW
+	attach  "PS_GUNSMOKE_SMALL" "origin"
+	script	"scripts\weapons\hit5.scr"
+}
+
+
+missile_bonus_big {
+	model	"models/weapons/missile_big.mdl"
+	skin	"models/weapons/rockets.tga"
+
+	touch	TOUCH_ENEMIES
+
+	damage	500
+	attach abs "missile_hvost_big" "tag_hvost"
+
+	attach	"missile_flare_big" "tag_hvost"
+	script	"scripts\weapons\missile\p_missile_bonus_big.scr"
+}

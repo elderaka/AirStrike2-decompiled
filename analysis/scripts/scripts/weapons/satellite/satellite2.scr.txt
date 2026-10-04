@@ -1,0 +1,40 @@
+entry=34 slots=21 functions=['rotatez', 'Shoot']
+0000 INDEX_ADDRESS      a=-1 b=5 c=0 flags=0x00
+0001 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+0002 INDEX_ADDRESS      a=-2 b=5 c=1 flags=0x00
+0003 INDEX_ADDRESS      a=1 b=0 c=1 flags=0x00
+0004 ADD                a=1 b=1103626240 c=1 flags=0x12 b_float=25
+0005 MOVE               a=0 b=1 c=0 flags=0x82
+0006 YIELD              a=0 b=0 c=0 flags=0x00
+0007 INDEX_ADDRESS      a=-1 b=5 c=0 flags=0x00
+0008 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+0009 INDEX_ADDRESS      a=-2 b=5 c=1 flags=0x00
+0010 INDEX_ADDRESS      a=1 b=0 c=1 flags=0x00
+0011 ADD                a=1 b=1103626240 c=1 flags=0x12 b_float=25
+0012 MOVE               a=0 b=1 c=0 flags=0x82
+0013 INDEX_ADDRESS      a=-1 b=5 c=0 flags=0x00
+0014 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+0015 INDEX_ADDRESS      a=-2 b=5 c=1 flags=0x00
+0016 INDEX_ADDRESS      a=1 b=1 c=1 flags=0x00
+0017 ADD                a=1 b=1097859072 c=1 flags=0x12 b_float=15
+0018 MOVE               a=0 b=1 c=0 flags=0x82
+0019 MOVE               a=0 b=1135869952 c=0 flags=0x10 b_float=360
+0020 CALL               a=-1 b=0 c=0 flags=0x00 external=rotatez
+0021 YIELD              a=0 b=0 c=0 flags=0x00
+0022 MOVE               a=16 b=0 c=0 flags=0x00
+0023 INDEX_ADDRESS      a=17 b=0 c=0 flags=0x00
+0024 MOVE               a=0 b=0 c=0 flags=0x92 b_float=0
+0025 INDEX_ADDRESS      a=17 b=1 c=0 flags=0x00
+0026 MOVE               a=0 b=1065353216 c=0 flags=0x92 b_float=1
+0027 INDEX_ADDRESS      a=17 b=2 c=0 flags=0x00
+0028 MOVE               a=0 b=0 c=0 flags=0x92 b_float=0
+0029 MOVE               a=0 b=0 c=0 flags=0x10 b_float=0
+0030 MOVE               a=1 b=16 c=0 flags=0x00
+0031 MOVE               a=2 b=17 c=0 flags=0x00
+0032 CALL               a=-2 b=0 c=0 flags=0x00 external=Shoot
+0033 YIELD              a=0 b=0 c=0 flags=0x00
+0034 MOVE               a=0 b=14 c=0 flags=0x10 b_float=1.96182e-44
+0035 CALL               a=22 b=0 c=0 flags=0x00
+0036 SET_WAIT           a=1048576000 b=0 c=0 flags=0x01 a_float=0.25
+0037 CALL_WAIT          a=7 b=0 c=0 flags=0x00
+0038 YIELD              a=0 b=0 c=0 flags=0x00

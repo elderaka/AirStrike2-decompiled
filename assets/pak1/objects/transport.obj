@@ -1,0 +1,841 @@
+
+svet_orangeflasher {
+	model   "models/misc/svet_far.mdl"
+        skin    "models/misc/svet_far_orange.tga"
+        blend   BLEND_ADD
+	rflag   RF_NOCULLING
+        rflag   RF_NODEPTHWRITE
+
+	light_dir 400 1.1 0.9 0 0 1 -0.2 100
+} 
+ 
+gruzovik_flasher {
+        model   "models\rocketlauncher_mobil\rocketlauncher_flasher.mdl"
+        skin    "models\rocketlauncher_mobil\raketnitsa.tga"
+
+        attach abs "svet_orangeflasher" "tag_light"
+
+        envmap  "gfx\envmap3.tga"
+        envmode ENV_GLITTER
+
+        script  "scripts\rocketlauncher\rl_flasher.scr"
+}
+
+gruzovik {
+        health  200
+        flag    FL_ONGROUND_NORMAL
+        enemy
+	score	200
+
+	skid_mark  8 27 4 "gfx/marks/jeepmark1.tga"
+	skid_mark -8 27 4 "gfx/marks/jeepmark1.tga"
+
+        model   "models\gruzovik\gruzovik.mdl"
+        skin    "models\gruzovik\gruzovik.tga"
+        shadow  SHADOW_PLANAR_LOW
+
+	attach  "helic_redflare"        "tag_flare"
+        attach abs "gruzovik_flasher" "tag_flasher"
+        attach abs night "svet_far" "tag_fara1"
+        attach abs night "svet_far_wol" "tag_fara2"
+        attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+        script  "scripts\transport\gruzovik.scr"
+}
+
+gruzovik_oil {
+        health  600
+        flag    FL_ONGROUND_NORMAL
+        enemy
+	score	500
+
+	skid_mark  13 45 7 "gfx/marks/jeepmark1.tga"
+	skid_mark -13 45 7 "gfx/marks/jeepmark1.tga"
+
+        model   "models\gruzovik\gruzovik_oil.mdl"
+        skin    "models\gruzovik\gruzovik_oil.tga"
+        shadow  SHADOW_PLANAR_LOW
+
+	attach  "helic_redflare"        "tag_flare"
+        attach abs "gruzovik_flasher" "tag_flasher"
+        attach abs night "svet_far" "tag_fara1"
+        attach abs night "svet_far_wol" "tag_fara2"
+        attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+        script  "scripts\transport\gruzovik_oil.scr"
+}
+
+gruzovik_dead {
+        model   "models\gruzovik\gruzovik_dead.mdl"
+        skin    "models\dead.tga"
+
+	attach id "CAMPFIRE" "campfire" "origin"
+	attach id "CAMPFIRE_SMALL" "campfire_small" "origin"
+	script	"scripts\dead2.scr"
+
+}
+
+/////////////////////////////////////////////////////////////////////////
+/////////////////////// truck_medium_oil ////////////////////////////////
+/////////////////////////////////////////////////////////////////////////
+
+
+truck_medium_oil_wh {
+	model   "models\truck_medium_oil\truck_medium_oil_wh.mdl"
+        skin    "models\truck_medium_oil\truck_medium_oil.tga"
+        script  "scripts\transport\truck_medium_oil\truck_medium_oil_wheel.scr"
+}
+
+truck_medium_oil {
+        health  600
+        flag    FL_ONGROUND_NORMAL
+        enemy
+	score	500
+
+	skid_mark  14 31 7 "gfx/marks/jeepmark1.tga"
+	skid_mark -14 31 7 "gfx/marks/jeepmark1.tga"
+
+        model   "models\truck_medium_oil\truck_medium_oil.mdl"
+        skin    "models\truck_medium_oil\truck_medium_oil.tga"
+        shadow  SHADOW_PLANAR_LOW
+
+        attach abs "truck_medium_oil_wh" "tag_wheels01"
+        attach abs "truck_medium_oil_wh" "tag_wheels02"
+        attach abs "truck_medium_oil_wh" "tag_wheels03"
+        attach abs night "svet_far" "tag_fara01"
+        attach abs night "svet_far_wol" "tag_fara02"
+        attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+        script  "scripts\transport\truck_medium_oil\truck_medium_oil.scr"
+}
+
+truck_medium_oil_desert_wh {
+	model   "models\truck_medium_oil\truck_medium_oil_wh.mdl"
+        skin    "models\truck_medium_oil\truck_medium_oil_desert.tga"
+        script  "scripts\transport\truck_medium_oil\truck_medium_oil_wheel.scr"
+}
+
+
+truck_medium_oil_desert {
+        health  600
+        flag    FL_ONGROUND_NORMAL
+        enemy
+	score	500
+
+	skid_mark  14 31 7 "gfx/marks/jeepmark1.tga"
+	skid_mark -14 31 7 "gfx/marks/jeepmark1.tga"
+
+        model   "models\truck_medium_oil\truck_medium_oil.mdl"
+        skin    "models\truck_medium_oil\truck_medium_oil_desert.tga"
+        shadow  SHADOW_PLANAR_LOW
+
+        attach abs "truck_medium_oil_desert_wh" "tag_wheels01"
+        attach abs "truck_medium_oil_desert_wh" "tag_wheels02"
+        attach abs "truck_medium_oil_desert_wh" "tag_wheels03"
+        attach abs night "svet_far" "tag_fara01"
+        attach abs night "svet_far_wol" "tag_fara02"
+        attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+        script  "scripts\transport\truck_medium_oil\truck_medium_oil.scr"
+}
+
+truck_medium_oil_black_wh {
+	model   "models\truck_medium_oil\truck_medium_oil_wh.mdl"
+        skin    "models\truck_medium_oil\truck_medium_oil_black.tga"
+        script  "scripts\transport\truck_medium_oil\truck_medium_oil_wheel.scr"
+}
+
+
+truck_medium_oil_black {
+        health  600
+        flag    FL_ONGROUND_NORMAL
+        enemy
+	score	500
+
+	skid_mark  14 31 7 "gfx/marks/jeepmark1.tga"
+	skid_mark -14 31 7 "gfx/marks/jeepmark1.tga"
+
+	model   "models\truck_medium_oil\truck_medium_oil.mdl"
+	skin    "models\truck_medium_oil\truck_medium_oil_black.tga"
+        shadow  SHADOW_PLANAR_LOW
+
+        attach abs "truck_medium_oil_wh" "tag_wheels01"
+        attach abs "truck_medium_oil_wh" "tag_wheels02"
+        attach abs "truck_medium_oil_wh" "tag_wheels03"
+        attach abs night "svet_far" "tag_fara01"
+        attach abs night "svet_far_wol" "tag_fara02"
+        attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+        script  "scripts\transport\truck_medium_oil\truck_medium_oil.scr"
+}
+
+truck_medium_oil_dead {
+
+	model   "models\truck_medium_oil\truck_dead.mdl"
+	skin    "models\truck_medium_oil\truck_dead.tga"
+
+        rflag   RF_NOCULLING
+
+	script	"scripts\dead2.scr"
+}
+/////////////////////////////////////////////////////////////////////////
+/////////////////////// truck_medium_kuzov //////////////////////////////
+/////////////////////////////////////////////////////////////////////////
+
+
+truck_medium_kuzov_green_wh {
+	model   "models\truck_medium_kuzov\truck_medium_kuzov_wh.mdl"
+        skin    "models\truck_medium_kuzov\truck_medium_kuzov_green.tga"
+        script  "scripts\transport\truck_medium_kuzov\truck_medium_kuzov_wh.scr"
+}
+
+truck_medium_kuzov_green {
+        health  600
+        flag    FL_ONGROUND_NORMAL
+        enemy
+	score	500
+
+	skid_mark  16 38 14 "gfx/marks/jeepmark1.tga"
+	skid_mark -16 38 14 "gfx/marks/jeepmark1.tga"
+
+        model   "models\truck_medium_kuzov\truck_medium_kuzov.mdl"
+        skin    "models\truck_medium_kuzov\truck_medium_kuzov_green.tga"
+        shadow  SHADOW_PLANAR_LOW
+
+        attach abs "truck_medium_kuzov_green_wh" "tag_wheels01"
+        attach abs "truck_medium_kuzov_green_wh" "tag_wheels02"
+        attach abs "truck_medium_kuzov_green_wh" "tag_wheels03"
+
+        attach abs night "svet_far" "tag_fara01"
+        attach abs night "svet_far_wol" "tag_fara02"
+        attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+        script  "scripts\transport\truck_medium_kuzov\truck_medium_kuzov.scr"
+}
+
+truck_medium_kuzov_black_wh {
+	model   "models\truck_medium_kuzov\truck_medium_kuzov_wh.mdl"
+        skin    "models\truck_medium_kuzov\truck_medium_kuzov_black.tga"
+        script  "scripts\transport\truck_medium_kuzov\truck_medium_kuzov_wh.scr"
+}
+
+
+truck_medium_kuzov_black {
+        health  600
+        flag    FL_ONGROUND_NORMAL
+        enemy
+	score	500
+
+	skid_mark  16 38 14 "gfx/marks/jeepmark1.tga"
+	skid_mark -16 38 14 "gfx/marks/jeepmark1.tga"
+
+        model   "models\truck_medium_kuzov\truck_medium_kuzov.mdl"
+        skin    "models\truck_medium_kuzov\truck_medium_kuzov_black.tga"
+        shadow  SHADOW_PLANAR_LOW
+
+        attach abs "truck_medium_kuzov_black_wh" "tag_wheels01"
+        attach abs "truck_medium_kuzov_black_wh" "tag_wheels02"
+        attach abs "truck_medium_kuzov_black_wh" "tag_wheels03"
+        attach abs night "svet_far" "tag_fara01"
+        attach abs night "svet_far_wol" "tag_fara02"
+        attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+        script  "scripts\transport\truck_medium_kuzov\truck_medium_kuzov.scr"
+}
+
+truck_medium_kuzov_desert_wh {
+	model   "models\truck_medium_kuzov\truck_medium_kuzov_wh.mdl"
+        skin    "models\truck_medium_kuzov\truck_medium_kuzov_desert.tga"
+        script  "scripts\transport\truck_medium_kuzov\truck_medium_kuzov_wh.scr"
+}       
+
+truck_medium_kuzov_desert {
+        health  600
+        flag    FL_ONGROUND_NORMAL
+        enemy
+	score	500
+
+	skid_mark  16 38 14 "gfx/marks/jeepmark1.tga"
+	skid_mark -16 38 14 "gfx/marks/jeepmark1.tga"
+
+        model   "models\truck_medium_kuzov\truck_medium_kuzov.mdl"
+        skin    "models\truck_medium_kuzov\truck_medium_kuzov_desert.tga"
+        shadow  SHADOW_PLANAR_LOW
+
+        attach abs "truck_medium_kuzov_desert_wh" "tag_wheels01"
+        attach abs "truck_medium_kuzov_desert_wh" "tag_wheels02"
+        attach abs "truck_medium_kuzov_desert_wh" "tag_wheels03"
+        attach abs night "svet_far" "tag_fara01"
+        attach abs night "svet_far_wol" "tag_fara02"
+        attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+        
+        script  "scripts\transport\truck_medium_kuzov\truck_medium_kuzov.scr"
+}
+
+///////////////////////////////////////////////////////////////////
+///////////////========= civil_car ===========/////////////////////
+///////////////////////////////////////////////////////////////////
+
+
+civil_car_green_wh {
+	model	"models\jeeps\civil\civil_car_wh.mdl"
+	skin	"models\jeeps\civil\civil_car_green.tga"
+
+	script	"scripts\transport\civil_car\civil_car_wheel.scr"
+}
+
+civil_car_green {
+	civilian
+	health	100
+	flag    FL_ONGROUND_NORMAL
+	score 100	
+
+	skid_mark  12 18 4 "gfx/marks/jeepmark1.tga"
+	skid_mark -12 18 4 "gfx/marks/jeepmark1.tga"
+
+	model	"models\jeeps\civil\civil_car.mdl"
+	skin	"models\jeeps\civil\civil_car_green.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	attach abs night "svet_far" "tag_fara01"
+	attach abs night "svet_far_wol" "tag_fara02"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+	attach abs "civil_car_green_wh" "tag_wh01"
+	attach abs "civil_car_green_wh" "tag_wh02"
+
+	script	"scripts\transport\civil_car\civil_car.scr"
+}
+
+civil_car_red_wh {
+	model	"models\jeeps\civil\civil_car_wh.mdl"
+	skin	"models\jeeps\civil\civil_car_red.tga"
+
+	script	"scripts\transport\civil_car\civil_car_wheel.scr"
+}
+
+civil_car_red {
+	civilian
+	health	100
+	flag    FL_ONGROUND_NORMAL
+	score 100	
+
+	skid_mark  12 18 4 "gfx/marks/jeepmark1.tga"
+	skid_mark -12 18 4 "gfx/marks/jeepmark1.tga"
+
+	model	"models\jeeps\civil\civil_car.mdl"
+	skin	"models\jeeps\civil\civil_car_red.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	attach abs night "svet_far" "tag_fara01"
+	attach abs night "svet_far_wol" "tag_fara02"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	attach abs "civil_car_red_wh" "tag_wh01"
+	attach abs "civil_car_red_wh" "tag_wh02"
+
+	script	"scripts\transport\civil_car\civil_car.scr"
+}
+
+civil_car_blue_wh {
+	model	"models\jeeps\civil\civil_car_wh.mdl"
+	skin	"models\jeeps\civil\civil_car_blue.tga"
+
+	script	"scripts\transport\civil_car\civil_car_wheel.scr"
+}
+
+civil_car_blue {
+	civilian
+	health	100
+	flag    FL_ONGROUND_NORMAL
+	score 100	
+
+	skid_mark  12 18 4 "gfx/marks/jeepmark1.tga"
+	skid_mark -12 18 4 "gfx/marks/jeepmark1.tga"
+
+	model	"models\jeeps\civil\civil_car.mdl"
+	skin	"models\jeeps\civil\civil_car_blue.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	attach abs night "svet_far" "tag_fara01"
+	attach abs night "svet_far_wol" "tag_fara02"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+	attach abs "civil_car_blue_wh" "tag_wh01"
+	attach abs "civil_car_blue_wh" "tag_wh02"
+
+	script	"scripts\transport\civil_car\civil_car.scr"
+}
+
+civil_car_dead {
+	flag    FL_ONGROUND_NORMAL
+
+        blend   BLEND_ALPHA
+        rflag   RF_NOCULLING
+
+	model	"models\jeeps\civil\civil_car_dead.mdl"
+	skin	"models\jeeps\civil\civil_car_dead.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+}
+
+civil_car_dead_1 {
+	flag    FL_ONGROUND_NORMAL
+
+        blend   BLEND_ALPHA
+        rflag   RF_NOCULLING
+
+	model	"models\jeeps\civil\civil_car_dead_1.mdl"
+	skin	"models\jeeps\civil\civil_car_dead.tga"
+	shadow	SHADOW_PLANAR_LOW
+}
+
+civil_car_dead_2 {
+	flag    FL_ONGROUND_NORMAL
+
+        blend   BLEND_ALPHA
+        rflag   RF_NOCULLING
+
+	model	"models\jeeps\civil\civil_car_dead_2.mdl"
+	skin	"models\jeeps\civil\civil_car_dead.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+}
+
+///////////////////////////////////////////////////////////////////
+///////////////========= civil_car2 ==========/////////////////////
+///////////////////////////////////////////////////////////////////
+
+
+civil_car2_green {
+	civilian
+	health	200
+	flag    FL_ONGROUND_NORMAL
+	score 200	
+
+	skid_mark  10 22 4 "gfx/marks/jeepmark1.tga"
+	skid_mark -10 22 4 "gfx/marks/jeepmark1.tga"
+
+	model	"models\jeeps\civil\civil_car2.mdl"
+	skin	"models\jeeps\civil\civil_car2_green.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	attach abs night "svet_far" "tag_fara01"
+	attach abs night "svet_far_wol" "tag_fara02"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\transport\civil_car2\civil_car2.scr"
+}
+
+civil_car2_red {
+	civilian
+	health	200
+	flag    FL_ONGROUND_NORMAL
+	score 200	
+
+	skid_mark  10 22 4 "gfx/marks/jeepmark1.tga"
+	skid_mark -10 22 4 "gfx/marks/jeepmark1.tga"
+
+	model	"models\jeeps\civil\civil_car2.mdl"
+	skin	"models\jeeps\civil\civil_car2_red.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	attach abs night "svet_far" "tag_fara01"
+	attach abs night "svet_far_wol" "tag_fara02"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\transport\civil_car2\civil_car2.scr"
+}
+
+civil_car2_dead {
+	flag    FL_ONGROUND_NORMAL
+        blend   BLEND_ALPHA
+        rflag   RF_NOCULLING
+
+	model	"models\jeeps\civil\civil_car2_dead.mdl"
+	skin	"models\jeeps\civil\civil_car2_dead.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+}
+
+///////////////////////////////////////////////////////////////////
+///////////////========= civil_jeep ==========/////////////////////
+///////////////////////////////////////////////////////////////////
+
+civil_jeep_blue {
+	health	150
+	flag    FL_ONGROUND_NORMAL
+	flag FL_NONTARGET
+	score 150	
+
+	skid_mark  10 18 4 "gfx/marks/jeepmark1.tga"
+	skid_mark -10 18 4 "gfx/marks/jeepmark1.tga"
+
+	model	"models\jeeps\civil\civil_jeep.mdl"
+	skin	"models\jeeps\civil\civil_jeep_blue.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	attach abs night "svet_far" "tag_fara01"
+	attach abs night "svet_far_wol" "tag_fara02"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\transport\civil_jeep.scr"
+}
+
+civil_jeep_dark {
+	health	150
+	flag    FL_ONGROUND_NORMAL
+	flag FL_NONTARGET
+	score 150	
+
+	skid_mark  10 18 4 "gfx/marks/jeepmark1.tga"
+	skid_mark -10 18 4 "gfx/marks/jeepmark1.tga"
+
+	model	"models\jeeps\civil\civil_jeep.mdl"
+	skin	"models\jeeps\civil\civil_jeep_dark.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	attach abs night "svet_far" "tag_fara01"
+	attach abs night "svet_far_wol" "tag_fara02"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\transport\civil_jeep.scr"
+}
+
+///////////////////////////////////////////////////////////////////
+//////////////////========= traktor ==========/////////////////////
+///////////////////////////////////////////////////////////////////
+
+traktor {
+
+	flag    FL_ONGROUND_NORMAL
+
+	skid_mark  14 0 14 "gfx/marks/tankmark1.tga"
+	skid_mark -14 0 14 "gfx/marks/tankmark1.tga"
+
+	model	"models\traktor\traktor.mdl"
+	skin	"models\traktor\traktor.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	script	"scripts\transport\traktor.scr"
+}
+
+traktor_dead {
+
+	flag    FL_ONGROUND_NORMAL
+
+	model	"models\traktor\traktor_dead.mdl"
+	skin	"models\traktor\traktor_dead.tga"
+	shadow	SHADOW_PLANAR_LOW
+}
+
+
+///////////////////////////////////////////////////////////////////
+//////////////////========= katusha ==========/////////////////////
+///////////////////////////////////////////////////////////////////
+
+katusha_green {
+
+	health	450
+	flag    FL_ONGROUND_NORMAL
+        rflag   RF_NOCULLING
+	enemy
+	score   600
+
+	skid_mark  15 35 10 "gfx/marks/jeepmark1.tga"
+	skid_mark -15 35 10 "gfx/marks/jeepmark1.tga"
+
+	model	"models\katusha\katusha.mdl"
+	skin	"models\katusha\katusha_green.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	attach abs "katusha_green_wheel" "tag_wh01"
+	attach abs "katusha_green_wheel" "tag_wh02"
+	attach abs "katusha_green_wheel" "tag_wh03"
+	attach abs "katusha_green_raketa" "tag_raketa_01"
+	attach abs "katusha_green_raketa" "tag_raketa_02"
+	attach abs "katusha_green_raketa" "tag_raketa_03"
+	attach abs "katusha_green_raketa" "tag_raketa_04"
+	attach abs "katusha_green_raketa" "tag_raketa_05"
+	attach abs "katusha_green_raketa" "tag_raketa_06"
+
+	attach abs night "svet_far" "tag_fara_01"
+	attach abs night "svet_far_wol" "tag_fara_02"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\transport\katusha\katusha.scr"
+}
+
+katusha_green_wheel {
+	model	"models\katusha\katusha_wh.mdl"
+	skin	"models\katusha\katusha_green.tga"
+        rflag   RF_NOCULLING
+
+	script	"scripts\transport\katusha\katusha_wheel.scr"
+}
+
+katusha_green_raketa {
+	model	"models\katusha\katusha_raketa.mdl"
+	skin	"models\katusha\katusha_green.tga"
+        rflag   RF_NOCULLING
+
+//	script	"scripts\transport\katusha\katusha_raketa.scr"
+}
+katusha_blue {
+	health	450
+	flag    FL_ONGROUND_NORMAL
+        rflag   RF_NOCULLING
+	enemy
+	score   600
+
+	skid_mark  15 35 10 "gfx/marks/jeepmark1.tga"
+	skid_mark -15 35 10 "gfx/marks/jeepmark1.tga"
+
+	model	"models\katusha\katusha.mdl"
+	skin	"models\katusha\katusha_blue.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	attach abs "katusha_blue_wheel" "tag_wh01"
+	attach abs "katusha_blue_wheel" "tag_wh02"
+	attach abs "katusha_blue_wheel" "tag_wh03"
+	attach abs "katusha_blue_raketa" "tag_raketa_01"
+	attach abs "katusha_blue_raketa" "tag_raketa_02"
+	attach abs "katusha_blue_raketa" "tag_raketa_03"
+	attach abs "katusha_blue_raketa" "tag_raketa_04"
+	attach abs "katusha_blue_raketa" "tag_raketa_05"
+	attach abs "katusha_blue_raketa" "tag_raketa_06"
+
+	attach abs night "svet_far" "tag_fara_01"
+	attach abs night "svet_far_wol" "tag_fara_02"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\transport\katusha\katusha.scr"
+}
+katusha_blue_wheel {
+	model	"models\katusha\katusha_wh.mdl"
+	skin	"models\katusha\katusha_blue.tga"
+
+        rflag   RF_NOCULLING
+
+	script	"scripts\transport\katusha\katusha_wheel.scr"
+}
+
+katusha_blue_raketa {
+	model	"models\katusha\katusha_raketa.mdl"
+	skin	"models\katusha\katusha_blue.tga"
+
+        rflag   RF_NOCULLING
+
+//	script	"scripts\transport\katusha\katusha_raketa.scr"
+}
+
+katusha_dead {
+
+        rflag   RF_NOCULLING
+
+	model	"models\katusha\katusha_dead.mdl"
+	skin	"models\katusha\katusha_dead.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	attach id "CAMPFIRE" "campfire" "origin"
+	attach id "CAMPFIRE_SMALL" "campfire_small" "origin"
+
+	script	"scripts\dead2.scr"
+}
+
+//////////////////////////////////////////////////////////////////////
+//////////////////========= fire_truck ==========/////////////////////
+//////////////////////////////////////////////////////////////////////
+
+fire_truck_turret {
+
+	model	"models\fire_truck\fire_truck_turret.mdl"
+	skin	"models\fire_truck\fire_truck.tga"
+
+	script	"scripts\transport\fire_truck\fire_truck_turret.scr"
+}
+
+fire_truck_lestnica {
+
+	shadow	SHADOW_PROJECTED
+	rflag   RF_NOCULLING
+        rflag   RF_NODEPTHWRITE
+        sort    SORT_TRANS
+	blend	BLEND_ALPHA
+
+	model	"models\fire_truck\fire_truck_lestnica.mdl"
+	skin  "models\mapobjects\cisterns\lestnica.tga"
+}
+
+fire_truck_wh {
+
+        rflag   RF_NOCULLING
+	shadow	SHADOW_PLANAR_LOW
+
+	model	"models\fire_truck\fire_truck_wh.mdl"
+	skin	"models\fire_truck\fire_truck.tga"
+
+	script	"scripts\transport\fire_truck\fire_truck_wheel.scr"
+}
+
+fire_truck {
+
+	health	450
+	flag    FL_ONGROUND_NORMAL
+	score   600
+        rflag   RF_NOCULLING
+	shadow	SHADOW_PLANAR_LOW
+
+	skid_mark  16 29 9 "gfx/marks/jeepmark1.tga"
+	skid_mark -16 29 9 "gfx/marks/jeepmark1.tga"
+
+	model	"models\fire_truck\fire_truck.mdl"
+	skin	"models\fire_truck\fire_truck.tga"
+
+	attach abs "fire_truck_wh" "tag_wh01"
+	attach abs "fire_truck_wh" "tag_wh02"
+	attach abs "fire_truck_wh" "tag_wh03"
+	attach abs "fire_truck_turret" "tag_turret"
+	attach abs "fire_truck_lestnica" "tag_lestnica"
+
+	attach abs night "svet_far" "tag_fara_01"
+	attach abs night "svet_far_wol" "tag_fara_02"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+	attach	"whiteflare_small" "tag_flare01"
+	attach	"whiteflare_small" "tag_flare02"
+	attach	"whiteflare_small" "tag_flare03"
+	attach	"whiteflare_small" "tag_flare04"
+
+	script	"scripts\transport\fire_truck\fire_truck.scr"
+}
+
+polozai {
+	civilian
+	health	50
+	health	150
+	flag    FL_ONGROUND_NORMAL
+
+	skid_mark  10 22 4 "gfx/marks/jeepmark1.tga"
+	skid_mark -10 22 4 "gfx/marks/jeepmark1.tga"
+
+	model	"models\jeeps\civil\polozai.mdl"
+	skin	"models\jeeps\civil\polozai.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	attach abs night "svet_far" "tag_fara01"
+	attach abs night "svet_far_wol" "tag_fara02"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\transport\civil_car2\civil_car2.scr"
+}
+
+truck_static {
+	civilian
+	health	50
+	flag    FL_ONGROUND_NORMAL
+	shadow	SHADOW_PLANAR_LOW
+
+	model	"models\transport\truck\truck_static.mdl"
+	skin	"models\transport\truck\truck01.tga"
+
+	script	"scripts\transport\truck\expl_truck.scr"
+}
+
+truck_static02 {
+	civilian
+	health	50
+	flag    FL_ONGROUND_NORMAL
+	shadow	SHADOW_PLANAR_LOW
+
+	model	"models\transport\truck\truck_static.mdl"
+	skin	"models\transport\truck\truck02.tga"
+
+	script	"scripts\transport\truck\expl_truck.scr"
+}
+
+
+
+truck01_wh {
+
+        rflag   RF_NOCULLING
+
+	model	"models\transport\truck\truck_wh.mdl"
+	skin	"models\transport\truck\truck01.tga"
+
+	script	"scripts\transport\truck\truck_wheel.scr"
+}
+
+truck01 {
+	civilian
+	health	50
+	flag    FL_ONGROUND_NORMAL
+	shadow	SHADOW_PLANAR_LOW
+
+	skid_mark  14 21 8 "gfx/marks/jeepmark1.tga"
+	skid_mark -14 21 8 "gfx/marks/jeepmark1.tga"
+
+	model	"models\transport\truck\truck.mdl"
+	skin	"models\transport\truck\truck01.tga"
+
+	attach abs "truck01_wh" "tag_wh01"
+	attach abs "truck01_wh" "tag_wh02"
+	attach abs "truck01_wh" "tag_wh03"
+	attach abs "truck01_wh" "tag_wh04"
+	attach abs night "svet_far" "tag_fara01"
+	attach abs night "svet_far_wol" "tag_fara02"
+	attach  "helic_redflare"        "tag_flare"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\transport\truck\truck.scr"
+}
+
+///////////////////////////////////////////////////////////////////////
+
+truck02_wh {
+
+        rflag   RF_NOCULLING
+
+	model	"models\transport\truck\truck_wh.mdl"
+	skin	"models\transport\truck\truck02.tga"
+
+	script	"scripts\transport\truck\truck_wheel.scr"
+}
+
+truck02 {
+	civilian
+	health	50
+	flag    FL_ONGROUND_NORMAL
+	shadow	SHADOW_PLANAR_LOW
+
+	skid_mark  14 21 8 "gfx/marks/jeepmark1.tga"
+	skid_mark -14 21 8 "gfx/marks/jeepmark1.tga"
+
+	model	"models\transport\truck\truck.mdl"
+	skin	"models\transport\truck\truck02.tga"
+
+	attach abs "truck02_wh" "tag_wh01"
+	attach abs "truck02_wh" "tag_wh02"
+	attach abs "truck02_wh" "tag_wh03"
+	attach abs "truck02_wh" "tag_wh04"
+	attach abs night "svet_far" "tag_fara01"
+	attach abs night "svet_far_wol" "tag_fara02"
+	attach  "helic_redflare"        "tag_flare"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\transport\truck\truck.scr"
+}
+
+
+
+truck_dead {
+
+        rflag   RF_NOCULLING
+
+	model	"models\transport\truck\truck_dead.mdl"
+	skin	"models\transport\truck\truck_dead.tga"
+
+	attach id "CAMPFIRE" "campfire" "origin"
+	attach id "CAMPFIRE_SMALL" "campfire_small" "origin"
+
+	script	"scripts\dead2.scr"
+}
+

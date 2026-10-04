@@ -1,0 +1,6 @@
+Python 3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]
+pefile 2024.8.26
+capstone 5.0.9
+innoextract 1.9
+Inspection packages installed locally under work/packages.
+No supplied executable or DLL executed.

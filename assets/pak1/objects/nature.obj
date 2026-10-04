@@ -1,0 +1,45 @@
+
+snow {
+	flag    FL_NODRAW
+        script  "scripts\snow.scr"
+	attach  PS_SNOW "origin"
+} 
+
+pepel {
+	flag    FL_NODRAW
+//        script  "scripts\pepel.scr"
+	attach  PS_PEPEL "origin"
+} 
+
+snow_constant {
+	flag    FL_NODRAW
+        script  "scripts\snow_constant.scr"
+	attach  PS_SNOW "origin"
+} 
+
+izmoros {
+	flag    FL_NODRAW
+        script  "scripts\snow.scr"
+	attach  PS_IZMOROS "origin"
+} 
+
+rain {
+	flag    FL_NODRAW
+        script  "scripts\snow.scr"
+	attach  PS_RAIN "origin"
+} 
+
+rain_constant {
+	flag    FL_NODRAW
+        script  "scripts\snow_constant.scr"
+	attach  PS_RAIN "origin"
+} 
+
+
+storm_spice {
+	flag    FL_NODRAW
+	flag    FL_ONGROUND
+        script  "scripts\nature\storm_spice.scr"
+	attach  PS_SPICE_STORM "origin"
+	attach  PS_SPICE_STORM2 "origin"
+} 

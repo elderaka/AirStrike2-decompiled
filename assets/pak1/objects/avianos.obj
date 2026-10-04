@@ -1,0 +1,107 @@
+
+//////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////// avianos ////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
+
+
+avianos_guns {
+
+        model   "models\ships\avianos\avianos_guns.mdl"
+        skin    "models\ships\avianos\avianos.tga"
+
+//	attach abs night "svet_far" "tag_fara"
+	script	"scripts\ships\avianos\avianos_guns.scr"
+
+}
+
+
+avianos_turret {
+
+        model   "models\ships\avianos\avianos_turret.mdl"
+        skin    "models\ships\avianos\avianos.tga"
+
+	attach abs "avianos_guns" "tag_gun"
+
+	script	"scripts\ships\avianos\avianos_turret.scr"
+}
+
+avianos_rubka {
+
+	health	20000
+	enemy
+	flag    FL_TEMPORARY
+
+	score	30000
+
+        model   "models\ships\avianos\avianos_rubka.mdl"
+        skin    "models\ships\avianos\avianos.tga"
+
+	attach abs "avianos_radar" "tag_radar"
+
+}
+
+
+avianos_radar {
+
+        model   "models\ships\avianos\avianos_radar.mdl"
+        skin    "models\ships\avianos\avianos.tga"
+
+	script	"scripts\ships\avianos\avianos_radar.scr"
+
+}
+
+
+avianos {
+
+	flag	FL_ONWATER_FLAT
+	        
+        model   "models\ships\avianos\avianos_base.mdl"
+        skin    "models\ships\avianos\avianos.tga"
+
+        attach abs "avianos_turret" "tag_turret01"
+        attach abs "avianos_turret" "tag_turret02"
+        attach abs "avianos_turret" "tag_turret03"
+        attach abs "avianos_turret" "tag_turret04"
+        attach abs "avianos_turret" "tag_turret05"
+        attach abs "avianos_rubka" "tag_rubka"
+        attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+        attach  "dom_flare" "tag_flare03"
+        attach  "dom_flare" "tag_flare04"
+        attach  "dom_flare" "tag_flare05"
+        attach  "dom_flare" "tag_flare06"
+        attach  "dom_flare" "tag_flare07"
+        attach  "dom_flare" "tag_flare08"
+        attach  "dom_flare" "tag_flare09"
+        attach  "dom_flare" "tag_flare10"
+
+
+	script	"scripts\ships\avianos\avianos.scr"
+}
+ 
+avianos_dead {
+
+        model   "models\ships\avianos\avianos_dead.mdl"
+        skin    "models\ships\avianos\avianos_dead.tga"
+}
+
+plane_f15_avianos {
+	touch	TOUCH_PLAYER
+
+        health  1200
+        enemy
+
+	score	1700
+
+        model   "models/planes/f15/plane_f15.mdl"
+        skin    "models/planes/f15/plane3_dark.tga"
+        shadow  SHADOW_PLANAR_LOW
+
+	attach  "helic_redflare" "tag_flare1"
+	attach  "helic_redflare" "tag_flare2"
+        attach  abs night "svet_far" "tag_fara"
+        attach  id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin
+	attach	id "XBOCT_DbIM" "PS_F15"  "tag_smoke"
+
+	script	"scripts\ships\avianos\plane.scr"
+} 

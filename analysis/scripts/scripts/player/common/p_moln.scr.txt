@@ -1,0 +1,72 @@
+entry=17 slots=21 functions=['PlayerDisableAction', 'AttachEntity', 'remove', 'PlaceLight']
+0000 MOVE               a=0 b=1065353216 c=0 flags=0x10 b_float=1
+0001 CALL               a=-1 b=0 c=0 flags=0x00 external=PlayerDisableAction
+0002 INDEX_ADDRESS      a=-1 b=14 c=0 flags=0x00
+0003 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+0004 MOVE               a=0 b=0 c=0 flags=0x92 b_float=0
+0005 INDEX_ADDRESS      a=-1 b=14 c=0 flags=0x00
+0006 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+0007 MOVE               a=0 b=0 c=0 flags=0x92 b_float=0
+0008 INDEX_ADDRESS      a=-1 b=14 c=0 flags=0x00
+0009 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0010 MOVE               a=0 b=0 c=0 flags=0x92 b_float=0
+0011 MOVE               a=0 b=-1 c=0 flags=0x00
+0012 MOVE               a=1 b=-2 c=0 flags=0x00
+0013 MOVE               a=2 b=0 c=0 flags=0x10 b_float=0
+0014 MOVE               a=3 b=1065353216 c=0 flags=0x10 b_float=1
+0015 CALL               a=-2 b=0 c=0 flags=0x00 external=AttachEntity
+0016 YIELD              a=0 b=0 c=0 flags=0x00
+0017 INDEX_ADDRESS      a=-1 b=1 c=0 flags=0x00
+0018 GE                 a=0 b=1082130432 c=0 flags=0x12 b_float=4
+0019 INDEX_ADDRESS      a=-2 b=4 c=1 flags=0x00
+0020 BOOL_OR_INT        a=0 b=1 c=0 flags=0x20
+0021 JUMP_IF_NONZERO    a=0 b=6 c=0 flags=0x00
+0022 MOVE               a=0 b=0 c=0 flags=0x10 b_float=0
+0023 CALL               a=-1 b=0 c=0 flags=0x00 external=PlayerDisableAction
+0024 MOVE               a=0 b=-1 c=0 flags=0x00
+0025 CALL               a=-3 b=0 c=0 flags=0x00 external=remove
+0026 RETURN             a=0 b=0 c=0 flags=0x00
+0027 INDEX_ADDRESS      a=-1 b=1 c=0 flags=0x00
+0028 LT                 a=0 b=1065353216 c=0 flags=0x12 b_float=1
+0029 JUMP_IF_NONZERO    a=0 b=13 c=0 flags=0x00
+0030 INDEX_ADDRESS      a=-1 b=1 c=1 flags=0x00
+0031 DIV                a=1 b=1065353216 c=1 flags=0x12 b_float=1
+0032 MOVE               a=20 b=1 c=0 flags=0x00
+0033 INDEX_ADDRESS      a=-1 b=28 c=0 flags=0x00
+0034 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+0035 MOVE               a=0 b=20 c=0 flags=0x82
+0036 INDEX_ADDRESS      a=-1 b=28 c=0 flags=0x00
+0037 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+0038 MOVE               a=0 b=20 c=0 flags=0x82
+0039 INDEX_ADDRESS      a=-1 b=28 c=0 flags=0x00
+0040 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0041 MOVE               a=0 b=20 c=0 flags=0x82
+0042 INDEX_ADDRESS      a=-1 b=1 c=0 flags=0x00
+0043 GT                 a=0 b=1077936128 c=0 flags=0x12 b_float=3
+0044 JUMP_IF_NONZERO    a=0 b=14 c=0 flags=0x00
+0045 INDEX_ADDRESS      a=-1 b=1 c=2 flags=0x00
+0046 SUB                a=1082130432 b=2 c=1 flags=0x21 a_float=4
+0047 DIV                a=1 b=1065353216 c=1 flags=0x10 b_float=1
+0048 MOVE               a=20 b=1 c=0 flags=0x00
+0049 INDEX_ADDRESS      a=-1 b=28 c=0 flags=0x00
+0050 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+0051 MOVE               a=0 b=20 c=0 flags=0x82
+0052 INDEX_ADDRESS      a=-1 b=28 c=0 flags=0x00
+0053 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+0054 MOVE               a=0 b=20 c=0 flags=0x82
+0055 INDEX_ADDRESS      a=-1 b=28 c=0 flags=0x00
+0056 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0057 MOVE               a=0 b=20 c=0 flags=0x82
+0058 INDEX_ADDRESS      a=16 b=0 c=0 flags=0x00
+0059 MUL                a=1073741824 b=20 c=1 flags=0x01 a_float=2
+0060 MOVE               a=0 b=1 c=0 flags=0x82
+0061 INDEX_ADDRESS      a=16 b=1 c=0 flags=0x00
+0062 MUL                a=1069547520 b=20 c=1 flags=0x01 a_float=1.5
+0063 MOVE               a=0 b=1 c=0 flags=0x82
+0064 INDEX_ADDRESS      a=16 b=2 c=0 flags=0x00
+0065 MOVE               a=0 b=0 c=0 flags=0x92 b_float=0
+0066 INDEX_ADDRESS      a=-1 b=5 c=0 flags=0x00
+0067 MOVE               a=1 b=16 c=0 flags=0x00
+0068 MOVE               a=2 b=1128792064 c=0 flags=0x10 b_float=200
+0069 CALL               a=-4 b=0 c=0 flags=0x00 external=PlaceLight
+0070 YIELD              a=0 b=0 c=0 flags=0x00

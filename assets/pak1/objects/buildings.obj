@@ -1,0 +1,1665 @@
+dom_light {
+	light   100 1.5 1.5 0.8
+} 
+
+dom_flare {
+	type    TYPE_SPRITE
+	skin    "models\mapobjects\vishka\flare.tga"
+	blend   BLEND_ADD
+	min     -4 -4 0.0 0.0
+	max     4 4 1.0 1.0
+}
+
+
+dom1_whitebricks {
+	civilian
+	health	40
+
+	model	"models\mapobjects\houses\dom1.mdl"
+	skin    "models\mapobjects\houses\dom1_2.tga"
+	shadow	SHADOW_PROJECTED
+	attach	"dom_flare" "tag_flare"
+	flag    FL_ONGROUND
+	rflag 	RF_NOCULLING
+
+	script  "scripts\effects\expl_house\expl_small.scr"
+}
+
+big_dom2 {
+	civilian
+	health	80
+
+	model	"models\mapobjects\houses\big_dom\big_dom.mdl"
+	skin    "models\mapobjects\houses\big_dom\big_dom02.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+	rflag 	RF_NOCULLING
+
+	script  "scripts\effects\expl_house\expl_big.scr"
+}
+
+big_dom3 {
+	civilian
+	health	80
+
+	model	"models\mapobjects\houses\big_dom\big_dom.mdl"
+	skin    "models\mapobjects\houses\big_dom\big_dom03.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+	rflag 	RF_NOCULLING
+
+	script  "scripts\effects\expl_house\expl_big.scr"
+}
+
+dom2_white {
+	civilian
+	health	60
+
+	model	"models\mapobjects\houses\dom2.mdl"
+	skin    "models\mapobjects\houses\dom2_3.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+	rflag 	RF_NOCULLING
+
+	script  "scripts\effects\expl_house\expl_medium.scr"
+}
+
+dom3_white {
+	civilian
+	health	60
+
+	model	"models\mapobjects\houses\dom3.mdl"
+	skin    "models\mapobjects\houses\dom3.tga"
+	shadow	SHADOW_PROJECTED
+	attach	"dom_flare" "tag_flare1"
+	flag    FL_ONGROUND
+	rflag 	RF_NOCULLING
+
+	script  "scripts\effects\expl_house\expl_medium.scr"
+}
+
+///============================================//
+////////////////vishka///////////////////////////
+///============================================//
+
+vishka_flare {
+        type    TYPE_SPRITE
+        skin    "models\mapobjects\vishka\flare.tga"
+        blend   BLEND_ADD
+        rflag   RF_NODEPTHTEST
+
+        min     -5 -5 0.0 0.0
+        max     5 5 1.0 1.0
+//	attach night "dom_light" origin
+}
+
+vishka_flare_wol {
+        type    TYPE_SPRITE
+        skin    "models\mapobjects\vishka\flare.tga"
+        blend   BLEND_ADD
+        rflag   RF_NODEPTHTEST
+
+        min     -5 -5 0.0 0.0
+        max     5 5 1.0 1.0
+}
+
+vishka_green {
+	model	"models\mapobjects\vishka\vishka1.mdl"
+	skin    "models\mapobjects\vishka\vishka_green.tga"
+	shadow	SHADOW_PROJECTED
+	attach	"vishka_flare_wol" "tag_flare1"
+	attach	"vishka_flare" "tag_flare2"
+	attach	"vishka_flare_wol" "tag_flare3"
+	flag    FL_ONGROUND
+}
+
+vishka_redbricks {
+	model	"models\mapobjects\vishka\vishka1.mdl"
+	skin    "models\mapobjects\vishka\vishka_redbricks.tga"
+	shadow	SHADOW_PROJECTED
+	attach	"vishka_flare_wol" "tag_flare1"
+	attach	"vishka_flare" "tag_flare2"
+	attach	"vishka_flare_wol" "tag_flare3"
+	flag    FL_ONGROUND
+}
+
+vishka_brownbricks {
+	model	"models\mapobjects\vishka\vishka1.mdl"
+	skin    "models\mapobjects\vishka\vishka_brownbricks.tga"
+	shadow	SHADOW_PROJECTED
+	attach	"vishka_flare_wol" "tag_flare1"
+	attach	"vishka_flare" "tag_flare2"
+	attach	"vishka_flare_wol" "tag_flare3"
+	flag    FL_ONGROUND
+}
+
+//////////////////////angar////////////////////////////
+
+angar_leftdoor {
+	model	"models\mapobjects\houses\army\angar_leftdoor.mdl"
+	skin    "models\mapobjects\houses\army\angar.tga"
+        rflag   RF_NOCULLING
+
+	script  "scripts\buildings\angar_leftdoor.scr"
+}
+
+angar_rightdoor {
+	model	"models\mapobjects\houses\army\angar_rightdoor.mdl"
+	skin    "models\mapobjects\houses\army\angar.tga"
+	rflag   RF_NOCULLING
+	script  "scripts\buildings\angar_rightdoor.scr"
+}
+
+angar {
+	model	"models\mapobjects\houses\army\angar.mdl"
+	skin    "models\mapobjects\houses\army\angar.tga"
+	shadow	SHADOW_PROJECTED
+	health 	2500
+	score   2500
+	enemy
+	flag FL_NONTARGET
+	attach	"vishka_flare" "tag_flare1"
+	attach	"vishka_flare" "tag_flare2"
+	attach	"vishka_flare" "tag_flare3"
+	attach	"vishka_flare" "tag_flare4"
+	attach abs "angar_leftdoor" "tag_leftdoor"
+	attach abs "angar_rightdoor" "tag_rightdoor"
+	flag    FL_ONGROUND
+	script  "scripts\buildings\angar.scr"
+}
+
+//////////////////////////////////////////////////////////////////
+
+angar_brown_leftdoor {
+	model	"models\mapobjects\houses\army\angar_leftdoor.mdl"
+	skin    "models\mapobjects\houses\army\angar_brown.tga"
+	rflag   RF_NOCULLING
+
+	script  "scripts\buildings\angar_leftdoor.scr"
+}
+
+angar_brown_rightdoor {
+	model	"models\mapobjects\houses\army\angar_rightdoor.mdl"
+	skin    "models\mapobjects\houses\army\angar_brown.tga"
+	rflag   RF_NOCULLING
+
+	script  "scripts\buildings\angar_rightdoor.scr"
+}
+
+angar_brown {
+	model	"models\mapobjects\houses\army\angar.mdl"
+	skin    "models\mapobjects\houses\army\angar_brown.tga"
+
+	shadow	SHADOW_PROJECTED
+
+	health 	3000
+	score   3000
+
+	enemy
+	flag FL_NONTARGET
+
+	attach	"vishka_flare" "tag_flare1"
+	attach	"vishka_flare" "tag_flare2"
+	attach	"vishka_flare" "tag_flare3"
+	attach	"vishka_flare" "tag_flare4"
+
+	attach abs "angar_brown_leftdoor" "tag_leftdoor"
+	attach abs "angar_brown_rightdoor" "tag_rightdoor"
+
+	flag    FL_ONGROUND
+
+	script  "scripts\buildings\angar.scr"
+}
+
+////////////////////////////////////////////////////////////////
+
+angar_na_leftdoor {
+	model	"models\mapobjects\houses\army\angar_leftdoor.mdl"
+	skin    "models\mapobjects\houses\army\angar.tga"
+	rflag   RF_NOCULLING
+}
+
+angar_na_rightdoor {
+	model	"models\mapobjects\houses\army\angar_rightdoor.mdl"
+	skin    "models\mapobjects\houses\army\angar.tga"
+	rflag   RF_NOCULLING
+}
+
+angar_na {
+	model	"models\mapobjects\houses\army\angar.mdl"
+	skin    "models\mapobjects\houses\army\angar.tga"
+
+	shadow	SHADOW_PROJECTED
+
+	health 	2500
+	score   2500
+
+	enemy
+	flag FL_NONTARGET
+
+	attach	"vishka_flare" "tag_flare1"
+	attach	"vishka_flare" "tag_flare2"
+	attach	"vishka_flare" "tag_flare3"
+	attach	"vishka_flare" "tag_flare4"
+
+	attach abs "angar_na_leftdoor" "tag_leftdoor"
+	attach abs "angar_na_rightdoor" "tag_rightdoor"
+
+	flag    FL_ONGROUND
+
+	script  "scripts\buildings\angar.scr"
+}
+
+
+//////////////////////////////////////////////////////////////////
+
+angar_na_brown_leftdoor {
+	model	"models\mapobjects\houses\army\angar_leftdoor.mdl"
+	skin    "models\mapobjects\houses\army\angar_brown.tga"
+        rflag   RF_NOCULLING
+}
+
+angar_na_brown_rightdoor {
+	model	"models\mapobjects\houses\army\angar_rightdoor.mdl"
+	skin    "models\mapobjects\houses\army\angar_brown.tga"
+        rflag   RF_NOCULLING
+}
+
+angar_na_brown {
+	model	"models\mapobjects\houses\army\angar.mdl"
+	skin    "models\mapobjects\houses\army\angar_brown.tga"
+
+	shadow	SHADOW_PROJECTED
+
+	health 	3000
+	score   3000
+
+	enemy
+	flag FL_NONTARGET
+
+	attach	"vishka_flare" "tag_flare1"
+	attach	"vishka_flare" "tag_flare2"
+	attach	"vishka_flare" "tag_flare3"
+	attach	"vishka_flare" "tag_flare4"
+
+	attach abs "angar_na_brown_leftdoor" "tag_leftdoor"
+	attach abs "angar_na_brown_rightdoor" "tag_rightdoor"
+
+	flag    FL_ONGROUND
+
+	script  "scripts\buildings\angar.scr"
+}
+
+
+//////////////////////  oilpump  ////////////////////////////
+
+oilpump {
+	model	"models\mapobjects\oilpump\oilpump.mdl"
+	skin    "models\mapobjects\oilpump\oilpump.tga"
+	shadow	SHADOW_PROJECTED
+	blend	BLEND_ALPHA
+	sort    SORT_TRANS
+	health 	400
+	score   400
+
+	enemy
+	flag FL_NONTARGET
+
+	attach "redflare_small" "tag_flare1"
+	attach "redflare_small" "tag_flare2"
+	attach "redflare_small" "tag_flare3"
+	attach "redflare_small" "tag_flare4"
+	flag    FL_ONGROUND
+	script  "scripts\effects\static_obj_expl_big.scr"
+}
+
+oilpump_twice {
+	model	"models\mapobjects\oilpump\oilpump_twice.mdl"
+	skin    "models\mapobjects\oilpump\oilpump_twice.tga"
+	shadow	SHADOW_PROJECTED
+	blend	BLEND_ALPHA
+	sort    SORT_TRANS
+	health 	600
+	score   600
+
+	enemy
+	flag FL_NONTARGET
+
+	attach "redflare_small" "tag_flare1"
+	attach "redflare_small" "tag_flare2"
+	attach "redflare_small" "tag_flare3"
+	attach "redflare_small" "tag_flare4"
+	attach "redflare_small" "tag_flare5"
+	attach "redflare_small" "tag_flare6"
+	attach "redflare_small" "tag_flare7"
+	attach "redflare_small" "tag_flare8"
+	flag    FL_ONGROUND
+	script  "scripts\effects\static_obj_expl_big.scr"
+}
+
+oilpump_big {
+	model	"models\mapobjects\oilpump\oilpump_big.mdl"
+	skin    "models\mapobjects\oilpump\oilpump_big.tga"
+	shadow	SHADOW_PROJECTED
+	health 500
+	enemy
+	flag FL_NONTARGET
+	score   500
+
+	attach "redflare_small" "tag_flare1"
+	attach "redflare_small" "tag_flare2"
+	attach "redflare_small" "tag_flare3"
+	attach "redflare_small" "tag_flare4"
+	flag    FL_ONGROUND
+	script  "scripts\effects\static_obj_expl_big.scr"
+}
+
+
+//////////////////////  oilpump2  ////////////////////////////
+
+oilpump_right {
+	model	"models\mapobjects\oilpump2\oilpump_right.mdl"
+	skin    "models\mapobjects\oilpump2\oil_pump.tga"
+	shadow	SHADOW_PROJECTED
+}
+
+oilpump_left {
+	model	"models\mapobjects\oilpump2\oilpump_left.mdl"
+	skin    "models\mapobjects\oilpump2\oil_pump.tga"
+	shadow	SHADOW_PROJECTED
+}
+
+oilpump_kach {
+	model	"models\mapobjects\oilpump2\oilpump_kach.mdl"
+	skin    "models\mapobjects\oilpump2\oil_pump.tga"
+	shadow	SHADOW_PROJECTED
+
+	attach "oilpump_left" "tag_leftpart"
+	attach "oilpump_right" "tag_rightpart"
+
+	script  "scripts\mapobjects\oilpump\op_kach.scr"
+}
+
+oilpump2 {
+	model	"models\mapobjects\oilpump2\oilpump.mdl"
+	skin    "models\mapobjects\oilpump2\oil_pump.tga"
+	shadow	SHADOW_PROJECTED
+	blend	BLEND_ALPHA
+	sort    SORT_TRANS
+	rflag   RF_NOCULLING	
+
+	health 	400
+	score   500
+
+	enemy
+	flag FL_NONTARGET
+
+	attach abs "oilpump_kach" "tag_kach"
+	flag    FL_ONGROUND
+	script  "scripts\effects\static_obj_expl_big.scr"
+}
+
+
+//////////////////////  oilpump3  ////////////////////////////
+
+oilpump3_right {
+	model	"models\mapobjects\oilpump3\oilpump_right.mdl"
+	skin    "models\mapobjects\oilpump3\oilpump.tga"
+	shadow	SHADOW_PROJECTED
+}
+
+oilpump3_left {
+	model	"models\mapobjects\oilpump3\oilpump_left.mdl"
+	skin    "models\mapobjects\oilpump3\oilpump.tga"
+	shadow	SHADOW_PROJECTED
+}
+
+oilpump3_palka {
+	model	"models\mapobjects\oilpump3\oilpump_palka.mdl"
+	skin    "models\mapobjects\oilpump3\oilpump.tga"
+	shadow	SHADOW_PROJECTED
+
+	attach "oilpump3_left" "tag_left"
+	attach "oilpump3_right" "tag_right"
+
+	script  "scripts\mapobjects\oilpump\op_kach.scr"
+}
+
+oilpump3 {
+	model	"models\mapobjects\oilpump3\oilpump_base.mdl"
+	skin    "models\mapobjects\oilpump3\oilpump.tga"
+	shadow	SHADOW_PROJECTED
+//	blend	BLEND_ALPHA
+	sort    SORT_TRANS
+//	rflag   RF_NOCULLING	
+
+	health 	400
+	score   500
+
+	enemy
+	flag FL_NONTARGET
+
+	attach abs "oilpump3_palka" "tag_palka"
+	flag    FL_ONGROUND
+	script  "scripts\effects\static_obj_expl_big.scr"
+}
+
+
+sinogoga {
+	civilian
+	health	80
+
+	
+        shadow	SHADOW_PROJECTED
+        flag    FL_ONGROUND
+
+	model	"models\mapobjects\houses\sinogoga\sinogoga.mdl"
+	skin    "models\mapobjects\houses\sinogoga\sinogoga.tga"
+        rflag   RF_NOCULLING
+
+	script  "scripts\effects\expl_house\expl_sinogoga.scr"
+}
+
+castel {
+	civilian
+	health	80
+	
+        shadow	SHADOW_PROJECTED
+        flag    FL_ONGROUND
+
+	model	"models\mapobjects\houses\sinogoga\sinogoga.mdl"
+	skin    "models\mapobjects\houses\sinogoga\castel.tga"
+        rflag   RF_NOCULLING
+
+	script  "scripts\effects\expl_house\expl_sinogoga.scr"
+}
+
+///////////////////////////// dock_domik ////////////////////////
+
+dock_domik_green {
+        
+        civilian
+	health	40
+
+	blend	BLEND_ALPHA
+	rflag   RF_NOCULLING	
+
+	model	"models\mapobjects\docks\dock_domik\dock_domik.mdl"
+	skin    "models\mapobjects\docks\dock_domik\dock_domik_green.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+
+	script  "scripts\effects\expl_house\expl_small.scr"
+}
+
+dock_domik_red {
+
+        civilian
+	health	40
+
+	blend	BLEND_ALPHA
+	rflag   RF_NOCULLING	
+
+	model	"models\mapobjects\docks\dock_domik\dock_domik.mdl"
+	skin    "models\mapobjects\docks\dock_domik\dock_domik_red.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+
+	script  "scripts\effects\expl_house\expl_small.scr"
+}
+
+dock_domik_green_1 {
+
+        civilian
+	health	40
+
+	blend	BLEND_ALPHA
+	rflag   RF_NOCULLING	
+
+	model	"models\mapobjects\docks\dock_domik\dock_domik.mdl"
+	skin    "models\mapobjects\docks\dock_domik\dock_domik_green_1.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+
+	script  "scripts\effects\expl_house\expl_small.scr"
+}
+
+///////////////////////////// dock_domik_2 ////////////////////////
+
+dock_domik_2_grey {
+
+        civilian
+	health	40
+
+	rflag   RF_NOCULLING	
+
+	model	"models\mapobjects\docks\dock_domik\dock_domik_02.mdl"
+	skin    "models\mapobjects\docks\dock_domik\dock_domik_grey.tga"
+
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+
+	script  "scripts\effects\expl_house\expl_small.scr"
+}
+
+dock_domik_2_blue {
+
+        civilian
+	health	40
+
+	rflag   RF_NOCULLING	
+
+	model	"models\mapobjects\docks\dock_domik\dock_domik_02.mdl"
+	skin    "models\mapobjects\docks\dock_domik\dock_domik_blue.tga"
+
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+
+	script  "scripts\effects\expl_house\expl_small.scr"
+}
+
+
+///////////////////////////// dock_prichal ////////////////////////
+
+barrel_1 {
+	model	"models\mapobjects\barrel\barrel1.mdl"
+	skin	"models\mapobjects\misc\misc.tga"
+	shadow	SHADOW_PROJECTED
+}
+
+dock_prichal {
+	model	"models\mapobjects\docks\dock_prichal\dock_prichal.mdl"
+	skin    "models\mapobjects\docks\dock_prichal\dock_prichal.tga"
+	shadow	SHADOW_PROJECTED
+	attach  "barrel_1" "tag_barrel01"
+	flag	FL_ONWATER
+}
+
+///////////////////////////////// mayak /////////////////////////////
+
+mayak {
+        civilian
+	health	40
+	model	"models\mapobjects\mayak\mayak_base.mdl"
+	skin	"models\mapobjects\mayak\mayak.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+        attach  "mayak_fonar" "tag_fonar"
+	script  "scripts\effects\expl_house\expl_small.scr"
+}
+
+
+mayak_fonar {
+	model	"models\mapobjects\mayak\mayak_fonar.mdl"
+	skin	"models\mapobjects\mayak\mayak.tga"
+	shadow	SHADOW_PROJECTED
+	attach abs  "svet_far_helic" "tag_fara"
+	script	"scripts\buildings\mayak.scr"
+}
+
+////////////////////////////////// kran /////////////////////////////
+
+kran_bashnya {
+	blend   BLEND_ALPHA
+	rflag   RF_NOCULLING
+        sort    SORT_TRANS
+	model	"models\mapobjects\kran\kran_bashnya.mdl"
+	skin	"models\mapobjects\kran\kran.tga"
+	shadow	SHADOW_PROJECTED
+	script  "scripts\mapobjects\kran\kran02.scr"
+}
+
+kran {
+	blend   BLEND_ALPHA
+	rflag   RF_NOCULLING
+	sort    SORT_TRANS
+	model	"models\mapobjects\kran\kran.mdl"
+	skin    "models\mapobjects\kran\kran.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+        attach  "kran_bashnya" "tag_bashnya"
+}
+
+/////////////////////////////////////////////////////////////
+
+kran02_bashnya {
+	blend   BLEND_ALPHA
+	rflag   RF_NOCULLING
+	sort    SORT_TRANS
+	model	"models\mapobjects\kran\kran02_bashnya.mdl"
+	skin    "models\mapobjects\kran\kran02.tga"
+//	script  "scripts\mapobjects\kran\kran02.scr"
+}
+
+kran02 {
+	model	"models\mapobjects\kran\kran02.mdl"
+	skin    "models\mapobjects\kran\kran02.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+	attach abs "kran02_bashnya" "tag_bashnya"
+}
+
+////////////////////////////////////////////////////////////////////////
+/////////////////////////////// kolhoz_01 //////////////////////////////
+////////////////////////////////////////////////////////////////////////
+
+kolhoz_01 {
+        civilian
+	health	60
+        model	"models\mapobjects\kolhoz\kolhoz01.mdl"
+	skin    "models\mapobjects\kolhoz\kolhoz01.tga"
+	shadow	SHADOW_PROJECTED
+	attach	"dom_flare" "tag_flare01"
+        attach	"dom_flare" "tag_flare02"
+        attach	"dom_flare" "tag_flare03"
+        attach	"dom_flare" "tag_flare04"
+	attach	PS_DOMSMOKE "tag_fog"
+        flag    FL_ONGROUND
+	script  "scripts\effects\expl_house\expl_medium1.scr"
+}
+
+/////////////////////////////// kolhoz_05 //////////////////////////////
+
+
+kolhoz_05 {
+        civilian
+	health	40
+	model	"models\mapobjects\kolhoz\kolhoz05.mdl"
+	skin    "models\mapobjects\kolhoz\kolhoz05.tga"
+	shadow	SHADOW_PROJECTED
+	attach	"dom_flare" "tag_flare01"
+        attach	"dom_flare" "tag_flare02"
+        attach	"dom_flare" "tag_flare03"
+        attach	"dom_flare" "tag_flare04"
+        flag    FL_ONGROUND
+	script  "scripts\effects\expl_house\expl_small.scr"
+}
+
+/////////////////////////////// kolhoz_06 //////////////////////////////
+
+kolhoz_06_bricks {
+        civilian
+	health	40
+	model	"models\mapobjects\kolhoz\kolhoz06.mdl"
+	skin    "models\mapobjects\kolhoz\kolhoz06.tga"
+	shadow	SHADOW_PROJECTED
+	attach	PS_DOMSMOKE "tag_smoke"
+	flag    FL_ONGROUND
+	script  "scripts\effects\expl_house\expl_small.scr"
+}
+
+kolhoz_06_green {
+        civilian
+	health	40
+	model	"models\mapobjects\kolhoz\kolhoz06.mdl"
+	skin    "models\mapobjects\kolhoz\kolhoz06_green.tga"
+	shadow	SHADOW_PROJECTED
+	attach	PS_DOMSMOKE "tag_smoke"
+	flag    FL_ONGROUND
+	script  "scripts\effects\expl_house\expl_small.scr"
+}
+
+kolhoz_06_green_dead {
+        civilian
+	health	40
+	model	"models\mapobjects\kolhoz\kolhoz06.mdl"
+	skin    "models\mapobjects\kolhoz\kolhoz06_green_dead.tga"
+	shadow	SHADOW_PROJECTED
+	attach	PS_DOMSMOKE "tag_smoke"
+	flag    FL_ONGROUND
+	script  "scripts\effects\expl_house\expl_small.scr"
+}
+
+kolhoz_06_wood {
+        civilian
+	health	40
+	model	"models\mapobjects\kolhoz\kolhoz06.mdl"
+	skin    "models\mapobjects\kolhoz\kolhoz06_wood.tga"
+	shadow	SHADOW_PROJECTED
+	attach	PS_DOMSMOKE "tag_smoke"
+	flag    FL_ONGROUND
+	script  "scripts\effects\expl_house\expl_small.scr"
+}
+
+kolhoz_06_wood1 {
+        civilian
+	health	40
+	model	"models\mapobjects\kolhoz\kolhoz06.mdl"
+	skin    "models\mapobjects\kolhoz\kolhoz06_wood1.tga"
+	shadow	SHADOW_PROJECTED
+	attach	PS_DOMSMOKE "tag_smoke"
+	flag    FL_ONGROUND
+	script  "scripts\effects\expl_house\expl_small.scr"
+}
+
+kolhoz_06_wood1_dead {
+        civilian
+	health	40
+	model	"models\mapobjects\kolhoz\kolhoz06.mdl"
+	skin    "models\mapobjects\kolhoz\kolhoz06_wood1_dead.tga"
+	shadow	SHADOW_PROJECTED
+	attach	PS_DOMSMOKE "tag_smoke"
+	flag    FL_ONGROUND
+	script  "scripts\effects\expl_house\expl_small.scr"
+}
+
+/////////////////////////////// kolhoz_08 //////////////////////////////
+
+kolhoz_08 {
+	civilian
+	health	40
+	model	"models\mapobjects\kolhoz\kolhoz08.mdl"
+	skin    "models\mapobjects\kolhoz\kolhoz08.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+	script  "scripts\effects\expl_house\expl_small.scr"
+}
+
+/////////////////////////////// kolhoz_09 //////////////////////////////
+
+kolhoz_09_1 {
+	civilian
+	health	60
+	model	"models\mapobjects\kolhoz\kolhoz09.mdl"
+	skin    "models\mapobjects\kolhoz\kolhoz09_1.tga"
+	shadow	SHADOW_PROJECTED
+	attach	PS_DOMSMOKE "tag_smoke"
+	flag    FL_ONGROUND
+	script  "scripts\effects\expl_house\expl_medium1.scr"
+}
+
+kolhoz_09_2 {
+	civilian
+	health	60
+	model	"models\mapobjects\kolhoz\kolhoz09.mdl"
+	skin    "models\mapobjects\kolhoz\kolhoz09_2.tga"
+	shadow	SHADOW_PROJECTED
+	attach	PS_DOMSMOKE "tag_smoke"
+	flag    FL_ONGROUND
+	script  "scripts\effects\expl_house\expl_medium1.scr"
+}
+
+kolhoz_10_red {
+	civilian
+	health	60
+
+	model	"models\mapobjects\kolhoz\kolhoz10.mdl"
+	skin    "models\mapobjects\kolhoz\kolhoz10_red.tga"
+	shadow	SHADOW_PROJECTED
+	attach	PS_DOMSMOKE "tag_smoke"
+	flag    FL_ONGROUND
+
+	script  "scripts\effects\expl_house\expl_medium.scr"
+}
+
+kolhoz_10_grey {
+
+	civilian
+	health	60
+ 
+	model	"models\mapobjects\kolhoz\kolhoz10.mdl"
+	skin    "models\mapobjects\kolhoz\kolhoz10_grey.tga"
+	shadow	SHADOW_PROJECTED
+	attach	PS_DOMSMOKE "tag_smoke"
+	flag    FL_ONGROUND
+
+	script  "scripts\effects\expl_house\expl_medium.scr"
+}
+
+kolhoz_11_grey {
+
+	civilian
+	health	60
+
+	model	"models\mapobjects\kolhoz\kolhoz11.mdl"
+	skin    "models\mapobjects\kolhoz\kolhoz11_grey.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+
+	script  "scripts\effects\expl_house\expl_medium.scr"
+}
+
+kolhoz_11_red {
+
+	civilian
+	health	60
+
+	model	"models\mapobjects\kolhoz\kolhoz11.mdl"
+	skin    "models\mapobjects\kolhoz\kolhoz11_red.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+
+	script  "scripts\effects\expl_house\expl_medium.scr"
+}
+
+kolhoz_12_grey {
+
+	civilian
+	health	60
+
+	model	"models\mapobjects\kolhoz\kolhoz12.mdl"
+	skin    "models\mapobjects\kolhoz\kolhoz12_grey.tga"
+	shadow	SHADOW_PROJECTED
+	attach	PS_DOMSMOKE "tag_smoke01"
+	attach	PS_DOMSMOKE "tag_smoke02"
+	flag    FL_ONGROUND
+
+	script  "scripts\effects\expl_house\expl_medium.scr"
+}
+
+kolhoz_12_bricks {
+
+	civilian
+	health	60
+
+	model	"models\mapobjects\kolhoz\kolhoz12.mdl"
+	skin    "models\mapobjects\kolhoz\kolhoz12_bricks.tga"
+	shadow	SHADOW_PROJECTED
+	attach	PS_DOMSMOKE "tag_smoke01"
+	attach	PS_DOMSMOKE "tag_smoke02"
+	flag    FL_ONGROUND
+
+	script  "scripts\effects\expl_house\expl_medium.scr"
+}
+
+kolhoz_12_green {
+
+	civilian
+	health	60
+
+	model	"models\mapobjects\kolhoz\kolhoz12.mdl"
+	skin    "models\mapobjects\kolhoz\kolhoz12_green.tga"
+	shadow	SHADOW_PROJECTED
+	attach	PS_DOMSMOKE "tag_smoke01"
+	attach	PS_DOMSMOKE "tag_smoke02"
+	flag    FL_ONGROUND
+
+	script  "scripts\effects\expl_house\expl_medium.scr"
+}
+
+/////////////////////////////////////////////////////////////////////
+//////////////////////////// factory ////////////////////////////////
+/////////////////////////////////////////////////////////////////////
+
+factory_x_red {
+
+	civilian
+	health	60
+
+	model	"models\mapobjects\factory\factory_x\factory_x.mdl"
+	skin    "models\mapobjects\factory\factory_x\factory_x.tga"
+
+	shadow	SHADOW_PROJECTED
+	attach	"dom_flare" "tag_flare"
+	attach	"dom_flare" "tag_flare01"
+	attach	"dom_flare" "tag_flare02"
+	attach	"dom_flare" "tag_flare03"
+
+	attach	PS_DOMSMOKE "tag_fog01"
+	attach	PS_DOMSMOKE "tag_fog02"
+	attach	PS_DOMSMOKE "tag_fog03"
+	attach	PS_DOMSMOKE "tag_fog04"
+
+	flag    FL_ONGROUND
+
+	script  "scripts\effects\expl_house\expl_factory.scr"
+}
+
+factory_med_red {
+
+	civilian
+	health	60
+
+	model	"models\mapobjects\factory\factory_med\factory_med.mdl"
+	skin  "models\mapobjects\factory\factory_med\factory_med_red.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+      
+	attach	"dom_flare" "tag_flare"
+	attach	PS_DOMSMOKE "tag_fog01"
+	attach	PS_DOMSMOKE "tag_fog02"
+	attach	PS_DOMSMOKE "tag_fog03"
+	attach	PS_DOMSMOKE "tag_fog04"
+      
+	script  "scripts\effects\expl_house\expl_factory1.scr"
+}
+
+water_tw {
+	model	"models\mapobjects\factory\water_tw\water_tw.mdl"
+	skin    "models\mapobjects\factory\water_tw\water_tw.tga"
+        shadow	 SHADOW_PROJECTED
+        flag     FL_ONGROUND
+      
+      attach	"dom_flare" "tag_flare01"
+      attach	"dom_flare" "tag_flare02"
+      attach	"dom_flare" "tag_flare03"
+      attach	"dom_flare" "tag_flare04"
+}
+
+
+vetryk_vint {
+	model	"models\mapobjects\factory\vetryk\vetryk_vint.mdl"
+	skin    "models\mapobjects\factory\vetryk\vetryk.tga"
+
+	shadow	SHADOW_PROJECTED
+
+	flag    FL_ONGROUND
+
+	script "scripts\buildings\vetryk_vint.scr"
+}
+
+
+vetryk {
+	model	"models\mapobjects\factory\vetryk\vetryk_base.mdl"
+	skin    "models\mapobjects\factory\vetryk\vetryk.tga"
+
+	shadow	SHADOW_PROJECTED
+
+	attach	abs "vetryk_vint" "tag_vint"
+	flag    FL_ONGROUND
+	
+}
+
+oil_platform_tower {
+	model	"models\mapobjects\oil_platform\oil_platform_tower.mdl"
+	skin    "models\mapobjects\oil_platform\oil_platform.tga"
+        
+        blend	BLEND_ALPHA
+	rflag   RF_NOCULLING	
+	sort    SORT_TRANS
+}
+
+oil_platform_zaborchik01 {
+	model	"models\mapobjects\oil_platform\oil_platform_zaborchik01.mdl"
+	skin    "models\mapobjects\oil_platform\oil_platform.tga"
+        
+        blend	BLEND_ALPHA
+	rflag   RF_NOCULLING	
+	sort    SORT_TRANS
+        attach	"dom_flare" "tag_flare01"
+        attach	"dom_flare" "tag_flare02"
+        attach	"dom_flare" "tag_flare03"
+        attach	"dom_flare" "tag_flare04"
+        attach	"dom_flare" "tag_flare05"
+        attach	"dom_flare" "tag_flare06"
+        attach	"dom_flare" "tag_flare07"
+        attach	"dom_flare" "tag_flare08"
+        attach	"dom_flare" "tag_flare09"
+        attach	"dom_flare" "tag_flare10"
+}
+
+oil_platform_zaborchik02 {
+	model	"models\mapobjects\oil_platform\oil_platform_zaborchik02.mdl"
+	skin    "models\mapobjects\oil_platform\oil_platform.tga"
+        
+//        attach	"dom_flare" "tag_flare01"
+//        attach	"dom_flare" "tag_flare02"
+//        attach	"dom_flare" "tag_flare03"
+//        attach	"dom_flare" "tag_flare04"
+        attach	"helic_redflare" "tag_flare05"
+        attach	"helic_redflare" "tag_flare06"
+        attach	"helic_redflare" "tag_flare07"
+        attach	"helic_redflare" "tag_flare08"
+        
+        blend	BLEND_ALPHA
+	rflag   RF_NOCULLING	
+	sort    SORT_TRANS
+}
+
+oil_platform {
+	model	"models\mapobjects\oil_platform\oil_platform.mdl"
+	skin    "models\mapobjects\oil_platform\oil_platform.tga"
+        shadow	SHADOW_PROJECTED
+        flag    FL_ONGROUND
+        
+        attach	abs "oil_platform_tower" "tag_tower"
+        attach	abs "oil_platform_zaborchik01" "tag_zaborchik01"
+        attach	abs "oil_platform_zaborchik02" "tag_zaborchik02"
+        
+        attach	abs "barrel" "tag_barrel"
+        attach	abs "barrel" "tag_barrel01"
+        attach	abs "barrel" "tag_barrel02"
+}
+
+/////////////////////////////////////////////////////////////////////////
+////////////////////////// hells_kitchen ////////////////////////////////
+/////////////////////////////////////////////////////////////////////////
+
+hells_kitchen_tower {
+	model	"models\mapobjects\factory\hell\hells_tower.mdl"
+	skin    "models\mapobjects\factory\hell\tower.tga"
+        blend	BLEND_ALPHA
+	rflag   RF_NOCULLING	
+	sort    SORT_TRANS
+        attach	"helic_redflare" "tag_flare01"
+        attach	"helic_redflare" "tag_flare02"
+        attach	"helic_redflare" "tag_flare03"
+        attach	"helic_redflare" "tag_flare04"
+}
+
+hells_kitchen_vint {
+	model	"models\mapobjects\factory\hell\vint.mdl"
+	skin    "models\mapobjects\factory\hell\shahta.tga"
+        
+        script	"scripts\helics\vint270i.scr"
+}
+
+hells_kitchen_sha {
+	model	"models\mapobjects\factory\hell\hells_sha.mdl"
+	skin    "models\mapobjects\factory\hell\shahta.tga"
+        
+        attach	abs "hells_kitchen_vint" "tag_vint"
+       
+       blend	BLEND_ALPHA
+       rflag   RF_NOCULLING	
+       sort    SORT_TRANS
+}
+
+hells_kitchen {
+	model	"models\mapobjects\factory\hell\hells_kitchen.mdl"
+	skin    "models\mapobjects\factory\hell\hells_kitchen.tga"
+        shadow	SHADOW_PROJECTED
+        flag    FL_ONGROUND
+        
+        attach	abs "hells_kitchen_sha" "tag_shahta01"
+        attach	abs "hells_kitchen_sha" "tag_shahta02"
+        attach	abs "PS_ZAVOD_SMOKE" "tag_shahta01"
+        attach	abs "PS_ZAVOD_SMOKE" "tag_shahta02"
+
+        attach	abs "hells_kitchen_tower" "tag_tower01"
+        attach	abs "hells_kitchen_tower" "tag_tower02"
+        attach	abs "hells_kitchen_tower" "tag_tower03"
+        attach	abs "hells_kitchen_tower" "tag_tower04"
+     
+        attach	"dom_flare" "tag_flare01"
+        attach	"dom_flare" "tag_flare02"
+        attach	"dom_flare" "tag_flare03"
+        attach	"dom_flare" "tag_flare04"
+        attach	"helic_redflare" "tag_flare05"
+        attach	"helic_redflare" "tag_flare06"
+        attach	"helic_redflare" "tag_flare07"
+        attach	"helic_redflare" "tag_flare08"
+        attach	"helic_redflare" "tag_flare09"
+        attach	"helic_redflare" "tag_flare10"
+        attach	"helic_redflare" "tag_flare11"
+}
+
+/////////////////////////////////////////////////////////////////////////
+/////////////////////////////// hungars /////////////////////////////////
+/////////////////////////////////////////////////////////////////////////
+
+hungar01_kletka {
+
+	civilian
+	health	60
+
+        model "models\mapobjects\factory\hungar01\hungar01.mdl"
+	skin  "models\mapobjects\factory\hungar01\hungar01_kletka.tga"
+        shadow	SHADOW_PROJECTED
+        flag    FL_ONGROUND
+      
+	attach	"dom_flare" "tag_flare01"
+	attach	"dom_flare" "tag_flare02"
+
+	attach	PS_DOMSMOKE "tag_smoke01"
+	attach	PS_DOMSMOKE "tag_smoke02"
+	attach	PS_DOMSMOKE "tag_smoke03"
+	attach	PS_DOMSMOKE "tag_smoke04"
+
+	script  "scripts\effects\expl_house\expl_medium.scr"
+}
+
+hungar01_ruin {
+
+        shadow	SHADOW_PROJECTED
+        flag    FL_ONGROUND
+        rflag   RF_NOCULLING
+
+        model "models\mapobjects\factory\hungar01\hungar01_ruin.mdl"
+	skin  "models\mapobjects\factory\hungar01\hungar01_kletka.tga"
+}
+
+///////////////////////////////////////////////////////////////////////////////////////
+
+hungar02 {
+	
+	civilian
+	health	60
+
+	model "models\mapobjects\factory\hungar02\hungar02.mdl"
+	skin  "models\mapobjects\factory\hungar02\hungar02.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+      
+	attach	"dom_flare" "tag_flare01"
+	attach	"dom_flare" "tag_flare02"
+	attach	"dom_flare" "tag_flare03"
+	attach	"dom_flare" "tag_flare04"
+      
+	script  "scripts\effects\expl_house\expl_medium.scr"
+}
+
+hungar02_kletka {
+	
+	civilian
+	health	60
+	
+	model "models\mapobjects\factory\hungar02\hungar02.mdl"
+	skin  "models\mapobjects\factory\hungar02\hungar02_kletka.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+      
+	attach	"dom_flare" "tag_flare01"
+	attach	"dom_flare" "tag_flare02"
+	attach	"dom_flare" "tag_flare03"
+	attach	"dom_flare" "tag_flare04"
+
+	script  "scripts\effects\expl_house\expl_medium.scr"
+}
+
+hungar02_dead {
+	
+//	shadow	SHADOW_PROJECTED
+	rflag 	RF_NOCULLING
+	flag    FL_ONGROUND
+
+	model "models\mapobjects\factory\hungar02\hungar02_dead.mdl"
+	skin  "models\mapobjects\factory\hungar02\hungar02_dead.tga"
+}
+
+///////////////////////////////////////////////////////////////////////////////////////
+
+office_green {
+      
+	civilian
+	health	80
+	
+	model "models\mapobjects\factory\office\office.mdl"
+	skin  "models\mapobjects\factory\office\office_green.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+      
+	attach	"dom_flare" "tag_flare01"
+	attach	"dom_flare" "tag_flare02"
+	attach	"dom_flare" "tag_flare03"
+	attach	"dom_flare" "tag_flare04"
+	attach	"dom_flare" "tag_flare05"
+	attach	"dom_flare" "tag_flare06"
+	attach	PS_DOMSMOKE "tag_smoke"
+
+	script  "scripts\effects\expl_house\expl_big2.scr"
+}
+
+office_blue {
+      
+	civilian
+	health	80
+	
+	model "models\mapobjects\factory\office\office.mdl"
+	skin  "models\mapobjects\factory\office\office_blue.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+      
+	attach	"dom_flare" "tag_flare01"
+	attach	"dom_flare" "tag_flare02"
+	attach	"dom_flare" "tag_flare03"
+	attach	"dom_flare" "tag_flare04"
+	attach	"dom_flare" "tag_flare05"
+	attach	"dom_flare" "tag_flare06"
+	attach	PS_DOMSMOKE "tag_smoke"
+
+	script  "scripts\effects\expl_house\expl_big2.scr"
+}      
+
+office_old {
+      
+	civilian
+	health	80
+	
+	model "models\mapobjects\factory\office\office.mdl"
+	skin  "models\mapobjects\factory\office\office_old.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+      
+	attach	"dom_flare" "tag_flare01"
+	attach	"dom_flare" "tag_flare02"
+	attach	"dom_flare" "tag_flare03"
+	attach	"dom_flare" "tag_flare04"
+	attach	"dom_flare" "tag_flare05"
+	attach	"dom_flare" "tag_flare06"
+	attach	PS_DOMSMOKE "tag_smoke"
+
+	script  "scripts\effects\expl_house\expl_big2.scr"
+}      
+
+office_old_1 {
+      
+	civilian
+	health	80
+	
+	model "models\mapobjects\factory\office\office.mdl"
+	skin  "models\mapobjects\factory\office\office_old_1.tga"
+	shadow SHADOW_PROJECTED
+	flag    FL_ONGROUND
+      
+	attach	"dom_flare" "tag_flare01"
+	attach	"dom_flare" "tag_flare02"
+	attach	"dom_flare" "tag_flare03"
+	attach	"dom_flare" "tag_flare04"
+	attach	"dom_flare" "tag_flare05"
+	attach	"dom_flare" "tag_flare06"
+      
+	attach	PS_DOMSMOKE "tag_smoke"
+
+	script  "scripts\effects\expl_house\expl_big2.scr"
+}      
+
+benzokolonka {
+        
+	civilian
+	health	10
+
+	model "models\mapobjects\benzokolonka\benzokolonka.mdl"
+	skin  "models\mapobjects\benzokolonka\benzokolonka.tga"
+	shadow SHADOW_PROJECTED
+	flag    FL_ONGROUND
+
+	attach abs "benzokolonka_zabor" "tag_zabor"
+
+	script  "scripts\effects\expl_house\expl_benzokolonka.scr"
+}
+
+benzokolonka_zabor {
+
+	model "models\mapobjects\benzokolonka\zabor.mdl"
+	skin  "models\mapobjects\zabors\zabor.tga"
+
+	shadow SHADOW_PROJECTED
+	blend	BLEND_ALPHA
+	rflag 	RF_NOCULLING
+
+	attach	"dom_flare" "tag_flare01"
+	attach	"dom_flare" "tag_flare02"
+	attach	"dom_flare" "tag_flare03"
+	attach	"dom_flare" "tag_flare04"
+	attach	"dom_flare" "tag_flare05"
+	attach	"dom_flare" "tag_flare06"
+	attach	"dom_flare" "tag_flare07"
+	attach	"dom_flare" "tag_flare08"
+}
+
+benzokolonka_dead {
+
+	model "models\mapobjects\benzokolonka\benzokolonka_dead.mdl"
+	skin  "models\mapobjects\benzokolonka\benzokolonka_dead.tga"
+//	shadow SHADOW_PROJECTED
+	flag    FL_ONGROUND
+}
+
+///////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////// budki ///////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////
+
+budka_01__zabor {
+
+	model "models\mapobjects\budki\budka_01_zabor.mdl"
+	skin  "models\mapobjects\cisterns\lestnica.tga"
+
+	sort    SORT_TRANS
+	rflag   RF_NOCULLING
+	blend	BLEND_ALPHA
+
+	shadow SHADOW_PROJECTED
+}
+
+budka_01 {
+
+	civilian
+	health	60
+
+	model "models\mapobjects\budki\budka_01.mdl"
+	skin  "models\mapobjects\budki\budka01.tga"
+
+	shadow SHADOW_PROJECTED
+	flag    FL_ONGROUND
+
+	attach abs "budka_01__zabor" "tag_zabor"
+
+	script  "scripts\effects\expl_house\expl_medium1.scr"
+}
+
+
+budka_02 {
+
+	civilian
+	health	60
+
+	model "models\mapobjects\budki\budka_02.mdl"
+	skin  "models\mapobjects\budki\budka_02.tga"
+	shadow SHADOW_PROJECTED
+	flag    FL_ONGROUND
+
+	script  "scripts\effects\expl_house\expl_medium2.scr"
+}
+
+budka_03 {
+
+	civilian
+	health	60
+
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PROJECTED
+	rflag 	RF_NOCULLING
+	flag    FL_ONGROUND
+
+	attach	PS_DOMSMOKE "tag_smoke"
+
+	model "models\mapobjects\budki\budka_03.mdl"
+	skin  "models\mapobjects\budki\budka_03.tga"
+	shadow SHADOW_PROJECTED
+
+	script  "scripts\effects\expl_house\expl_medium1.scr"
+}
+
+budka_05 {
+
+	civilian
+	health	60
+
+	model "models\mapobjects\budki\budka_05.mdl"
+	skin  "models\mapobjects\budki\budka_05.tga"
+	shadow SHADOW_PROJECTED
+	flag    FL_ONGROUND
+
+	attach	"dom_flare" "tag_flare01"
+	attach	"dom_flare" "tag_flare02"
+	attach	"dom_flare" "tag_flare03"
+	attach	"dom_flare" "tag_flare04"
+
+	script  "scripts\effects\expl_house\expl_medium1.scr"
+}
+
+///////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////// doma ////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////
+
+dom_01 {
+	civilian
+	health	80
+
+	model "models\mapobjects\doma\dom_01.mdl"
+	skin  "models\mapobjects\doma\dom01.tga"
+	shadow SHADOW_PROJECTED
+	rflag 	RF_NOCULLING
+	flag    FL_ONGROUND
+
+	script  "scripts\effects\expl_house\expl_big.scr"
+}
+
+dom_02_zabor {
+
+	model "models\mapobjects\doma\dom_02_zabor.mdl"
+	skin  "models\mapobjects\cisterns\lestnica.tga"
+
+	sort    SORT_TRANS
+	rflag   RF_NOCULLING
+	blend	BLEND_ALPHA
+}
+
+dom_02 {
+       
+	civilian
+	health	80
+
+	model "models\mapobjects\doma\dom_02.mdl"
+	skin  "models\mapobjects\doma\dom02.tga"
+	shadow SHADOW_PROJECTED
+	rflag 	RF_NOCULLING
+	flag    FL_ONGROUND
+
+	attach abs "dom_02_zabor" "tag_zabor"
+
+	script  "scripts\effects\expl_house\expl_small.scr"
+}
+
+dom_03_zabor {
+
+	model "models\mapobjects\doma\dom_03_zabor.mdl"
+	skin  "models\mapobjects\cisterns\lestnica.tga"
+
+	sort    SORT_TRANS
+	rflag   RF_NOCULLING
+	blend	BLEND_ALPHA
+}
+
+dom_03 {
+	civilian
+	health	10
+
+	model "models\mapobjects\doma\dom_03.mdl"
+	skin  "models\mapobjects\doma\dom03.tga"
+	shadow SHADOW_PROJECTED
+	rflag 	RF_NOCULLING
+	flag    FL_ONGROUND
+
+	attach abs "dom_03_zabor" "tag_zabor"
+
+	script  "scripts\effects\expl_house\expl_big1.scr"
+}
+
+krematorii_tr {
+
+	civilian
+	health	10
+	shadow SHADOW_PROJECTED
+
+	model "models\mapobjects\misc\krematorii.mdl"
+	skin  "models\mapobjects\misc\krematorii.tga"
+
+	attach	"helic_redflare" "tag_flare01"
+	attach	"helic_redflare" "tag_flare02"
+	attach	"helic_redflare" "tag_flare03"
+	attach	"helic_redflare" "tag_flare04"
+	attach	"dom_flare" "tag_flare05"
+	attach	"dom_flare" "tag_flare06"
+	attach	"dom_flare" "tag_flare07"
+	attach	"dom_flare" "tag_flare08"
+	attach	abs "PS_ZAVOD_SMOKE" "tag_smoke"
+
+	script  "scripts\effects\expl_house\expl_medium1.scr"
+}
+
+krematorii {
+
+	civilian
+	shadow SHADOW_PROJECTED
+	flag    FL_ONGROUND
+	health	10
+
+	model "models\mapobjects\misc\krematorii_tr.mdl"
+	skin  "models\mapobjects\misc\krematorii.tga"
+
+	attach abs "krematorii_tr" "tag_tr"
+
+	script  "scripts\effects\expl_house\expl_medium5.scr"
+}
+
+sccs_tr {
+
+	sort    SORT_TRANS
+	rflag   RF_NOCULLING
+	blend	BLEND_ALPHA
+
+	model "models\mapobjects\misc\sccs_tr.mdl"
+	skin  "models\mapobjects\misc\sccs.tga"
+
+	attach	"whiteflare_small" "tag_flare01"
+	attach	"whiteflare_small" "tag_flare02"
+	attach	"whiteflare_small" "tag_flare03"
+	attach	"whiteflare_small" "tag_flare04"
+}
+
+sccs {
+
+	civilian
+	flag    FL_ONGROUND
+	shadow SHADOW_PROJECTED
+	health	60
+
+	model "models\mapobjects\misc\sccs.mdl"
+	skin  "models\mapobjects\misc\sccs.tga"
+
+	attach	"dom_flare" "tag_flare01"
+	attach	"dom_flare" "tag_flare02"
+	attach	"dom_flare" "tag_flare03"
+	attach	"dom_flare" "tag_flare04"
+	attach	PS_DOMSMOKE "tag_smoke"
+	attach abs "sccs_tr" "tag_tr"
+
+	script  "scripts\effects\expl_house\expl_medium.scr"
+}
+
+sccs02 {
+
+	civilian
+	flag    FL_ONGROUND
+	shadow SHADOW_PROJECTED
+	health	60
+
+	model "models\mapobjects\misc\sccs02.mdl"
+	skin  "models\mapobjects\misc\sccs02.tga"
+
+	attach	"dom_flare" "tag_flare01"
+	attach	"dom_flare" "tag_flare02"
+	attach	"dom_flare" "tag_flare03"
+	attach	"dom_flare" "tag_flare04"
+
+	script  "scripts\effects\expl_house\expl_medium.scr"
+}
+
+///////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////// angars ///////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////
+
+angar01 {
+
+	civilian
+	flag    FL_ONGROUND
+	shadow SHADOW_PROJECTED
+	health	100
+
+	model "models\mapobjects\angars\angar_1.mdl"
+	skin  "models\mapobjects\angars\angar01.tga"
+
+	script  "scripts\effects\expl_house\expl_big3.scr"
+}
+
+angar02 {
+
+	civilian
+	flag    FL_ONGROUND
+	shadow SHADOW_PROJECTED
+	health	100
+
+	model "models\mapobjects\angars\angar_1.mdl"
+	skin  "models\mapobjects\angars\angar02.tga"
+
+	script  "scripts\effects\expl_house\expl_big3.scr"
+}
+
+angar_1_dead {
+
+	flag    FL_ONGROUND
+//	shadow SHADOW_PROJECTED
+	rflag   RF_NOCULLING
+
+	model "models\mapobjects\angars\angar_1_dead.mdl"
+	skin  "models\mapobjects\angars\angar_1_dead.tga"
+}
+
+angar_2_dead {
+
+	flag    FL_ONGROUND
+//	shadow SHADOW_PROJECTED
+	rflag   RF_NOCULLING
+
+	model "models\mapobjects\angars\angar_2_dead.mdl"
+	skin  "models\mapobjects\angars\angar_2_dead.tga"
+}
+
+angar03 {
+
+	civilian
+	flag    FL_ONGROUND
+	shadow SHADOW_PROJECTED
+	health	100
+
+	model "models\mapobjects\angars\angar_2.mdl"
+	skin  "models\mapobjects\angars\angar03.tga"
+
+	script  "scripts\effects\expl_house\expl_big4.scr"
+}
+
+angar04 {
+
+	civilian
+	flag    FL_ONGROUND
+	shadow SHADOW_PROJECTED
+	health	100
+
+	model "models\mapobjects\angars\angar_2.mdl"
+	skin  "models\mapobjects\angars\angar04.tga"
+
+	script  "scripts\effects\expl_house\expl_big4.scr"
+}
+
+///////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////// aziat ////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////
+
+aziat_dom01 {
+	civilian
+	flag    FL_ONGROUND
+	shadow SHADOW_PROJECTED
+	health	60
+	model "models\mapobjects\aziat\aziat_dom01.mdl"
+	skin  "models\mapobjects\aziat\dom_1.tga"
+	script  "scripts\effects\expl_house\expl_medium.scr"
+}
+
+aziat_dom02 {
+	civilian
+	flag    FL_ONGROUND
+	shadow SHADOW_PROJECTED
+	health	60
+	model "models\mapobjects\aziat\aziat_dom02.mdl"
+	skin  "models\mapobjects\aziat\dom_2.tga"
+	script  "scripts\effects\expl_house\expl_medium.scr"
+}
+
+aziat_dom03 {
+	civilian
+	flag    FL_ONGROUND
+	shadow SHADOW_PROJECTED
+	health	60
+	model "models\mapobjects\aziat\aziat_dom03.mdl"
+	skin  "models\mapobjects\aziat\dom_3.tga"
+	script  "scripts\effects\expl_house\expl_medium.scr"
+}
+
+aziat_tent {
+	civilian
+	flag    FL_ONGROUND
+	shadow SHADOW_PROJECTED
+	health	60
+	model "models\mapobjects\aziat\aziat_tent.mdl"
+	skin  "models\mapobjects\aziat\tent.tga"
+	script  "scripts\effects\expl_house\expl_small.scr"
+}
+
+aziat_kolodec {
+	flag    FL_ONGROUND
+	shadow SHADOW_PROJECTED
+	model "models\mapobjects\aziat\aziat_kolodec.mdl"
+	skin  "models\mapobjects\aziat\kolodec.tga"
+}

@@ -1,0 +1,1166 @@
+{
+  "source": "work\\payload\\app\\AirStrike2.exe",
+  "size": 417792,
+  "sha256": "efba05b176776369ac9f9dceb04c62193730a58b12bc1685c1106cef3d0ce58a",
+  "machine": "0x14c",
+  "timestamp": 1168955993,
+  "linker": [
+    8,
+    0
+  ],
+  "image_base": "0x400000",
+  "entry_rva": "0x38f0c",
+  "subsystem": 2,
+  "sections": [
+    {
+      "name": ".text",
+      "rva": "0x1000",
+      "virtual_size": 315333,
+      "raw_offset": 4096,
+      "raw_size": 315392,
+      "characteristics": "0x60000020",
+      "entropy": 6.731599704081632
+    },
+    {
+      "name": ".rdata",
+      "rva": "0x4e000",
+      "virtual_size": 71606,
+      "raw_offset": 319488,
+      "raw_size": 73728,
+      "characteristics": "0x40000040",
+      "entropy": 6.04637455899588
+    },
+    {
+      "name": ".data",
+      "rva": "0x60000",
+      "virtual_size": 30883196,
+      "raw_offset": 393216,
+      "raw_size": 16384,
+      "characteristics": "0xc0000040",
+      "entropy": 3.6328818851816185
+    },
+    {
+      "name": ".rsrc",
+      "rva": "0x1dd4000",
+      "virtual_size": 4872,
+      "raw_offset": 409600,
+      "raw_size": 8192,
+      "characteristics": "0x40000040",
+      "entropy": 3.299411824002968
+    }
+  ],
+  "imports": {
+    "WINMM.dll": [
+      {
+        "name": "joyGetPosEx",
+        "iat_va": "0x44e3e4"
+      },
+      {
+        "name": "joyGetDevCapsA",
+        "iat_va": "0x44e3e8"
+      },
+      {
+        "name": "joyGetNumDevs",
+        "iat_va": "0x44e3ec"
+      },
+      {
+        "name": "timeBeginPeriod",
+        "iat_va": "0x44e3f0"
+      },
+      {
+        "name": "timeGetTime",
+        "iat_va": "0x44e3f4"
+      },
+      {
+        "name": "timeEndPeriod",
+        "iat_va": "0x44e3f8"
+      }
+    ],
+    "WININET.dll": [
+      {
+        "name": "InternetCloseHandle",
+        "iat_va": "0x44e3c8"
+      },
+      {
+        "name": "InternetOpenA",
+        "iat_va": "0x44e3cc"
+      },
+      {
+        "name": "HttpSendRequestA",
+        "iat_va": "0x44e3d0"
+      },
+      {
+        "name": "InternetAttemptConnect",
+        "iat_va": "0x44e3d4"
+      },
+      {
+        "name": "HttpOpenRequestA",
+        "iat_va": "0x44e3d8"
+      },
+      {
+        "name": "InternetConnectA",
+        "iat_va": "0x44e3dc"
+      }
+    ],
+    "OPENGL32.dll": [
+      {
+        "name": "wglCreateContext",
+        "iat_va": "0x44e214"
+      },
+      {
+        "name": "wglMakeCurrent",
+        "iat_va": "0x44e218"
+      },
+      {
+        "name": "wglDeleteContext",
+        "iat_va": "0x44e21c"
+      },
+      {
+        "name": "glVertex2f",
+        "iat_va": "0x44e220"
+      },
+      {
+        "name": "glTexCoord2f",
+        "iat_va": "0x44e224"
+      },
+      {
+        "name": "glEnd",
+        "iat_va": "0x44e228"
+      },
+      {
+        "name": "glBindTexture",
+        "iat_va": "0x44e22c"
+      },
+      {
+        "name": "glDisable",
+        "iat_va": "0x44e230"
+      },
+      {
+        "name": "glBegin",
+        "iat_va": "0x44e234"
+      },
+      {
+        "name": "glRotatef",
+        "iat_va": "0x44e238"
+      },
+      {
+        "name": "glPolygonMode",
+        "iat_va": "0x44e23c"
+      },
+      {
+        "name": "glTexEnvf",
+        "iat_va": "0x44e240"
+      },
+      {
+        "name": "glTranslatef",
+        "iat_va": "0x44e244"
+      },
+      {
+        "name": "glColor4fv",
+        "iat_va": "0x44e248"
+      },
+      {
+        "name": "glEnable",
+        "iat_va": "0x44e24c"
+      },
+      {
+        "name": "glLoadIdentity",
+        "iat_va": "0x44e250"
+      },
+      {
+        "name": "glClear",
+        "iat_va": "0x44e254"
+      },
+      {
+        "name": "glClearColor",
+        "iat_va": "0x44e258"
+      },
+      {
+        "name": "glOrtho",
+        "iat_va": "0x44e25c"
+      },
+      {
+        "name": "glPolygonOffset",
+        "iat_va": "0x44e260"
+      },
+      {
+        "name": "glColor3fv",
+        "iat_va": "0x44e264"
+      },
+      {
+        "name": "glShadeModel",
+        "iat_va": "0x44e268"
+      },
+      {
+        "name": "glFogi",
+        "iat_va": "0x44e26c"
+      },
+      {
+        "name": "glDepthMask",
+        "iat_va": "0x44e270"
+      },
+      {
+        "name": "glFogfv",
+        "iat_va": "0x44e274"
+      },
+      {
+        "name": "glPopMatrix",
+        "iat_va": "0x44e278"
+      },
+      {
+        "name": "glReadPixels",
+        "iat_va": "0x44e27c"
+      },
+      {
+        "name": "glGetFloatv",
+        "iat_va": "0x44e280"
+      },
+      {
+        "name": "glPushMatrix",
+        "iat_va": "0x44e284"
+      },
+      {
+        "name": "glMultMatrixf",
+        "iat_va": "0x44e288"
+      },
+      {
+        "name": "glScalef",
+        "iat_va": "0x44e28c"
+      },
+      {
+        "name": "glVertex3f",
+        "iat_va": "0x44e290"
+      },
+      {
+        "name": "glMatrixMode",
+        "iat_va": "0x44e294"
+      },
+      {
+        "name": "glViewport",
+        "iat_va": "0x44e298"
+      },
+      {
+        "name": "glFogf",
+        "iat_va": "0x44e29c"
+      },
+      {
+        "name": "glFlush",
+        "iat_va": "0x44e2a0"
+      },
+      {
+        "name": "glGetDoublev",
+        "iat_va": "0x44e2a4"
+      },
+      {
+        "name": "glColor4f",
+        "iat_va": "0x44e2a8"
+      },
+      {
+        "name": "glGenTextures",
+        "iat_va": "0x44e2ac"
+      },
+      {
+        "name": "glTexImage2D",
+        "iat_va": "0x44e2b0"
+      },
+      {
+        "name": "glDeleteTextures",
+        "iat_va": "0x44e2b4"
+      },
+      {
+        "name": "glTexCoordPointer",
+        "iat_va": "0x44e2b8"
+      },
+      {
+        "name": "glVertexPointer",
+        "iat_va": "0x44e2bc"
+      },
+      {
+        "name": "glColorPointer",
+        "iat_va": "0x44e2c0"
+      },
+      {
+        "name": "glDrawElements",
+        "iat_va": "0x44e2c4"
+      },
+      {
+        "name": "glEnableClientState",
+        "iat_va": "0x44e2c8"
+      },
+      {
+        "name": "glColor3ubv",
+        "iat_va": "0x44e2cc"
+      },
+      {
+        "name": "glReadBuffer",
+        "iat_va": "0x44e2d0"
+      },
+      {
+        "name": "glFrontFace",
+        "iat_va": "0x44e2d4"
+      },
+      {
+        "name": "glTexGeni",
+        "iat_va": "0x44e2d8"
+      },
+      {
+        "name": "wglGetProcAddress",
+        "iat_va": "0x44e2dc"
+      },
+      {
+        "name": "glTexEnvi",
+        "iat_va": "0x44e2e0"
+      },
+      {
+        "name": "glCullFace",
+        "iat_va": "0x44e2e4"
+      },
+      {
+        "name": "glBlendFunc",
+        "iat_va": "0x44e2e8"
+      },
+      {
+        "name": "glClearStencil",
+        "iat_va": "0x44e2ec"
+      },
+      {
+        "name": "glGetString",
+        "iat_va": "0x44e2f0"
+      },
+      {
+        "name": "glTexParameterf",
+        "iat_va": "0x44e2f4"
+      },
+      {
+        "name": "glDepthFunc",
+        "iat_va": "0x44e2f8"
+      },
+      {
+        "name": "glAlphaFunc",
+        "iat_va": "0x44e2fc"
+      },
+      {
+        "name": "glGetIntegerv",
+        "iat_va": "0x44e300"
+      },
+      {
+        "name": "glNormal3fv",
+        "iat_va": "0x44e304"
+      },
+      {
+        "name": "glTexCoord2fv",
+        "iat_va": "0x44e308"
+      },
+      {
+        "name": "glGenLists",
+        "iat_va": "0x44e30c"
+      },
+      {
+        "name": "glNewList",
+        "iat_va": "0x44e310"
+      },
+      {
+        "name": "glEndList",
+        "iat_va": "0x44e314"
+      },
+      {
+        "name": "glDeleteLists",
+        "iat_va": "0x44e318"
+      },
+      {
+        "name": "glVertex3fv",
+        "iat_va": "0x44e31c"
+      },
+      {
+        "name": "glHint",
+        "iat_va": "0x44e320"
+      },
+      {
+        "name": "glCallList",
+        "iat_va": "0x44e324"
+      },
+      {
+        "name": "glColor3f",
+        "iat_va": "0x44e328"
+      }
+    ],
+    "GLU32.dll": [
+      {
+        "name": "gluPerspective",
+        "iat_va": "0x44e0a4"
+      },
+      {
+        "name": "gluBuild2DMipmaps",
+        "iat_va": "0x44e0a8"
+      }
+    ],
+    "BASS.dll": [
+      {
+        "name": "BASS_SampleGetChannel",
+        "iat_va": "0x44e010"
+      },
+      {
+        "name": "BASS_Apply3D",
+        "iat_va": "0x44e014"
+      },
+      {
+        "name": "BASS_MusicFree",
+        "iat_va": "0x44e018"
+      },
+      {
+        "name": "BASS_SampleLoad",
+        "iat_va": "0x44e01c"
+      },
+      {
+        "name": "BASS_SetEAXParameters",
+        "iat_va": "0x44e020"
+      },
+      {
+        "name": "BASS_SampleSetInfo",
+        "iat_va": "0x44e024"
+      },
+      {
+        "name": "BASS_SetConfig",
+        "iat_va": "0x44e028"
+      },
+      {
+        "name": "BASS_ChannelIsActive",
+        "iat_va": "0x44e02c"
+      },
+      {
+        "name": "BASS_Set3DPosition",
+        "iat_va": "0x44e030"
+      },
+      {
+        "name": "BASS_Set3DFactors",
+        "iat_va": "0x44e034"
+      },
+      {
+        "name": "BASS_ChannelSet3DPosition",
+        "iat_va": "0x44e038"
+      },
+      {
+        "name": "BASS_Init",
+        "iat_va": "0x44e03c"
+      },
+      {
+        "name": "BASS_ChannelPlay",
+        "iat_va": "0x44e040"
+      },
+      {
+        "name": "BASS_SampleFree",
+        "iat_va": "0x44e044"
+      },
+      {
+        "name": "BASS_ChannelSetFlags",
+        "iat_va": "0x44e048"
+      },
+      {
+        "name": "BASS_Start",
+        "iat_va": "0x44e04c"
+      },
+      {
+        "name": "BASS_ChannelSetAttributes",
+        "iat_va": "0x44e050"
+      },
+      {
+        "name": "BASS_ChannelGetInfo",
+        "iat_va": "0x44e054"
+      },
+      {
+        "name": "BASS_SampleGetInfo",
+        "iat_va": "0x44e058"
+      },
+      {
+        "name": "BASS_GetVersion",
+        "iat_va": "0x44e05c"
+      },
+      {
+        "name": "BASS_Free",
+        "iat_va": "0x44e060"
+      },
+      {
+        "name": "BASS_MusicLoad",
+        "iat_va": "0x44e064"
+      },
+      {
+        "name": "BASS_ChannelStop",
+        "iat_va": "0x44e068"
+      },
+      {
+        "name": "BASS_Stop",
+        "iat_va": "0x44e06c"
+      },
+      {
+        "name": "BASS_MusicGetLength",
+        "iat_va": "0x44e070"
+      },
+      {
+        "name": "BASS_ChannelSetPosition",
+        "iat_va": "0x44e074"
+      },
+      {
+        "name": "BASS_Pause",
+        "iat_va": "0x44e078"
+      },
+      {
+        "name": "BASS_Update",
+        "iat_va": "0x44e07c"
+      }
+    ],
+    "KERNEL32.dll": [
+      {
+        "name": "HeapDestroy",
+        "iat_va": "0x44e0b0"
+      },
+      {
+        "name": "InitializeCriticalSection",
+        "iat_va": "0x44e0b4"
+      },
+      {
+        "name": "LoadLibraryA",
+        "iat_va": "0x44e0b8"
+      },
+      {
+        "name": "EnterCriticalSection",
+        "iat_va": "0x44e0bc"
+      },
+      {
+        "name": "LeaveCriticalSection",
+        "iat_va": "0x44e0c0"
+      },
+      {
+        "name": "DeleteCriticalSection",
+        "iat_va": "0x44e0c4"
+      },
+      {
+        "name": "GetStdHandle",
+        "iat_va": "0x44e0c8"
+      },
+      {
+        "name": "WriteFile",
+        "iat_va": "0x44e0cc"
+      },
+      {
+        "name": "GetOEMCP",
+        "iat_va": "0x44e0d0"
+      },
+      {
+        "name": "GetACP",
+        "iat_va": "0x44e0d4"
+      },
+      {
+        "name": "GetCPInfo",
+        "iat_va": "0x44e0d8"
+      },
+      {
+        "name": "HeapSize",
+        "iat_va": "0x44e0dc"
+      },
+      {
+        "name": "Sleep",
+        "iat_va": "0x44e0e0"
+      },
+      {
+        "name": "InterlockedDecrement",
+        "iat_va": "0x44e0e4"
+      },
+      {
+        "name": "GetCurrentThreadId",
+        "iat_va": "0x44e0e8"
+      },
+      {
+        "name": "HeapCreate",
+        "iat_va": "0x44e0ec"
+      },
+      {
+        "name": "InterlockedIncrement",
+        "iat_va": "0x44e0f0"
+      },
+      {
+        "name": "TlsFree",
+        "iat_va": "0x44e0f4"
+      },
+      {
+        "name": "TlsSetValue",
+        "iat_va": "0x44e0f8"
+      },
+      {
+        "name": "TlsAlloc",
+        "iat_va": "0x44e0fc"
+      },
+      {
+        "name": "TlsGetValue",
+        "iat_va": "0x44e100"
+      },
+      {
+        "name": "RtlUnwind",
+        "iat_va": "0x44e104"
+      },
+      {
+        "name": "RaiseException",
+        "iat_va": "0x44e108"
+      },
+      {
+        "name": "HeapReAlloc",
+        "iat_va": "0x44e10c"
+      },
+      {
+        "name": "GetProcessHeap",
+        "iat_va": "0x44e110"
+      },
+      {
+        "name": "GetCommandLineA",
+        "iat_va": "0x44e114"
+      },
+      {
+        "name": "CreateDirectoryA",
+        "iat_va": "0x44e118"
+      },
+      {
+        "name": "HeapAlloc",
+        "iat_va": "0x44e11c"
+      },
+      {
+        "name": "HeapFree",
+        "iat_va": "0x44e120"
+      },
+      {
+        "name": "GetLastError",
+        "iat_va": "0x44e124"
+      },
+      {
+        "name": "ExitProcess",
+        "iat_va": "0x44e128"
+      },
+      {
+        "name": "GetModuleHandleA",
+        "iat_va": "0x44e12c"
+      },
+      {
+        "name": "GetProcAddress",
+        "iat_va": "0x44e130"
+      },
+      {
+        "name": "IsDebuggerPresent",
+        "iat_va": "0x44e134"
+      },
+      {
+        "name": "SetUnhandledExceptionFilter",
+        "iat_va": "0x44e138"
+      },
+      {
+        "name": "UnhandledExceptionFilter",
+        "iat_va": "0x44e13c"
+      },
+      {
+        "name": "GetCurrentProcess",
+        "iat_va": "0x44e140"
+      },
+      {
+        "name": "VirtualFree",
+        "iat_va": "0x44e144"
+      },
+      {
+        "name": "SetLastError",
+        "iat_va": "0x44e148"
+      },
+      {
+        "name": "VirtualAlloc",
+        "iat_va": "0x44e14c"
+      },
+      {
+        "name": "MultiByteToWideChar",
+        "iat_va": "0x44e150"
+      },
+      {
+        "name": "ReadFile",
+        "iat_va": "0x44e154"
+      },
+      {
+        "name": "SetFilePointer",
+        "iat_va": "0x44e158"
+      },
+      {
+        "name": "CloseHandle",
+        "iat_va": "0x44e15c"
+      },
+      {
+        "name": "WideCharToMultiByte",
+        "iat_va": "0x44e160"
+      },
+      {
+        "name": "GetConsoleCP",
+        "iat_va": "0x44e164"
+      },
+      {
+        "name": "GetConsoleMode",
+        "iat_va": "0x44e168"
+      },
+      {
+        "name": "LCMapStringA",
+        "iat_va": "0x44e16c"
+      },
+      {
+        "name": "LCMapStringW",
+        "iat_va": "0x44e170"
+      },
+      {
+        "name": "SetHandleCount",
+        "iat_va": "0x44e174"
+      },
+      {
+        "name": "GetFileType",
+        "iat_va": "0x44e178"
+      },
+      {
+        "name": "FreeEnvironmentStringsA",
+        "iat_va": "0x44e17c"
+      },
+      {
+        "name": "GetEnvironmentStrings",
+        "iat_va": "0x44e180"
+      },
+      {
+        "name": "FreeEnvironmentStringsW",
+        "iat_va": "0x44e184"
+      },
+      {
+        "name": "GetEnvironmentStringsW",
+        "iat_va": "0x44e188"
+      },
+      {
+        "name": "QueryPerformanceCounter",
+        "iat_va": "0x44e18c"
+      },
+      {
+        "name": "GetTickCount",
+        "iat_va": "0x44e190"
+      },
+      {
+        "name": "GetCurrentProcessId",
+        "iat_va": "0x44e194"
+      },
+      {
+        "name": "GetSystemTimeAsFileTime",
+        "iat_va": "0x44e198"
+      },
+      {
+        "name": "GetStringTypeA",
+        "iat_va": "0x44e19c"
+      },
+      {
+        "name": "GetStringTypeW",
+        "iat_va": "0x44e1a0"
+      },
+      {
+        "name": "GetLocaleInfoA",
+        "iat_va": "0x44e1a4"
+      },
+      {
+        "name": "CreateFileA",
+        "iat_va": "0x44e1a8"
+      },
+      {
+        "name": "GetPrivateProfileStringA",
+        "iat_va": "0x44e1ac"
+      },
+      {
+        "name": "WritePrivateProfileStringA",
+        "iat_va": "0x44e1b0"
+      },
+      {
+        "name": "GetCurrentDirectoryA",
+        "iat_va": "0x44e1b4"
+      },
+      {
+        "name": "GetFullPathNameA",
+        "iat_va": "0x44e1b8"
+      },
+      {
+        "name": "GetDriveTypeA",
+        "iat_va": "0x44e1bc"
+      },
+      {
+        "name": "GetVolumeInformationA",
+        "iat_va": "0x44e1c0"
+      },
+      {
+        "name": "SetCurrentDirectoryA",
+        "iat_va": "0x44e1c4"
+      },
+      {
+        "name": "GetModuleFileNameA",
+        "iat_va": "0x44e1c8"
+      },
+      {
+        "name": "FindFirstFileA",
+        "iat_va": "0x44e1cc"
+      },
+      {
+        "name": "FindClose",
+        "iat_va": "0x44e1d0"
+      },
+      {
+        "name": "FindNextFileA",
+        "iat_va": "0x44e1d4"
+      },
+      {
+        "name": "lstrlenA",
+        "iat_va": "0x44e1d8"
+      },
+      {
+        "name": "GetVersionExA",
+        "iat_va": "0x44e1dc"
+      },
+      {
+        "name": "TerminateProcess",
+        "iat_va": "0x44e1e0"
+      },
+      {
+        "name": "SetStdHandle",
+        "iat_va": "0x44e1e4"
+      },
+      {
+        "name": "FlushFileBuffers",
+        "iat_va": "0x44e1e8"
+      },
+      {
+        "name": "WriteConsoleA",
+        "iat_va": "0x44e1ec"
+      },
+      {
+        "name": "GetConsoleOutputCP",
+        "iat_va": "0x44e1f0"
+      },
+      {
+        "name": "WriteConsoleW",
+        "iat_va": "0x44e1f4"
+      },
+      {
+        "name": "SetEndOfFile",
+        "iat_va": "0x44e1f8"
+      },
+      {
+        "name": "CompareStringA",
+        "iat_va": "0x44e1fc"
+      },
+      {
+        "name": "CompareStringW",
+        "iat_va": "0x44e200"
+      },
+      {
+        "name": "SetEnvironmentVariableA",
+        "iat_va": "0x44e204"
+      },
+      {
+        "name": "GetStartupInfoA",
+        "iat_va": "0x44e208"
+      },
+      {
+        "name": "SetEnvironmentVariableW",
+        "iat_va": "0x44e20c"
+      }
+    ],
+    "USER32.dll": [
+      {
+        "name": "DialogBoxParamA",
+        "iat_va": "0x44e338"
+      },
+      {
+        "name": "GetDesktopWindow",
+        "iat_va": "0x44e33c"
+      },
+      {
+        "name": "EndDialog",
+        "iat_va": "0x44e340"
+      },
+      {
+        "name": "EnumDisplaySettingsA",
+        "iat_va": "0x44e344"
+      },
+      {
+        "name": "SendDlgItemMessageA",
+        "iat_va": "0x44e348"
+      },
+      {
+        "name": "MessageBoxA",
+        "iat_va": "0x44e34c"
+      },
+      {
+        "name": "SendMessageA",
+        "iat_va": "0x44e350"
+      },
+      {
+        "name": "GetCursorPos",
+        "iat_va": "0x44e354"
+      },
+      {
+        "name": "SetCursorPos",
+        "iat_va": "0x44e358"
+      },
+      {
+        "name": "GetWindowRect",
+        "iat_va": "0x44e35c"
+      },
+      {
+        "name": "ShowCursor",
+        "iat_va": "0x44e360"
+      },
+      {
+        "name": "RegisterClassA",
+        "iat_va": "0x44e364"
+      },
+      {
+        "name": "RegisterHotKey",
+        "iat_va": "0x44e368"
+      },
+      {
+        "name": "DestroyWindow",
+        "iat_va": "0x44e36c"
+      },
+      {
+        "name": "GetMessageA",
+        "iat_va": "0x44e370"
+      },
+      {
+        "name": "SetForegroundWindow",
+        "iat_va": "0x44e374"
+      },
+      {
+        "name": "LoadIconA",
+        "iat_va": "0x44e378"
+      },
+      {
+        "name": "SetFocus",
+        "iat_va": "0x44e37c"
+      },
+      {
+        "name": "GetDC",
+        "iat_va": "0x44e380"
+      },
+      {
+        "name": "TranslateMessage",
+        "iat_va": "0x44e384"
+      },
+      {
+        "name": "UnregisterClassA",
+        "iat_va": "0x44e388"
+      },
+      {
+        "name": "CreateWindowExA",
+        "iat_va": "0x44e38c"
+      },
+      {
+        "name": "PeekMessageA",
+        "iat_va": "0x44e390"
+      },
+      {
+        "name": "ReleaseDC",
+        "iat_va": "0x44e394"
+      },
+      {
+        "name": "DefWindowProcA",
+        "iat_va": "0x44e398"
+      },
+      {
+        "name": "SetWindowPos",
+        "iat_va": "0x44e39c"
+      },
+      {
+        "name": "ShowWindow",
+        "iat_va": "0x44e3a0"
+      },
+      {
+        "name": "DispatchMessageA",
+        "iat_va": "0x44e3a4"
+      },
+      {
+        "name": "SystemParametersInfoA",
+        "iat_va": "0x44e3a8"
+      },
+      {
+        "name": "ReleaseCapture",
+        "iat_va": "0x44e3ac"
+      },
+      {
+        "name": "GetSystemMetrics",
+        "iat_va": "0x44e3b0"
+      },
+      {
+        "name": "UpdateWindow",
+        "iat_va": "0x44e3b4"
+      },
+      {
+        "name": "AdjustWindowRect",
+        "iat_va": "0x44e3b8"
+      },
+      {
+        "name": "UnregisterHotKey",
+        "iat_va": "0x44e3bc"
+      },
+      {
+        "name": "ChangeDisplaySettingsA",
+        "iat_va": "0x44e3c0"
+      }
+    ],
+    "GDI32.dll": [
+      {
+        "name": "SwapBuffers",
+        "iat_va": "0x44e084"
+      },
+      {
+        "name": "GetPixelFormat",
+        "iat_va": "0x44e088"
+      },
+      {
+        "name": "PatBlt",
+        "iat_va": "0x44e08c"
+      },
+      {
+        "name": "DescribePixelFormat",
+        "iat_va": "0x44e090"
+      },
+      {
+        "name": "GetDeviceCaps",
+        "iat_va": "0x44e094"
+      },
+      {
+        "name": "SetPixelFormat",
+        "iat_va": "0x44e098"
+      },
+      {
+        "name": "ChoosePixelFormat",
+        "iat_va": "0x44e09c"
+      }
+    ],
+    "ADVAPI32.dll": [
+      {
+        "name": "RegCreateKeyExA",
+        "iat_va": "0x44e000"
+      },
+      {
+        "name": "RegSetValueExA",
+        "iat_va": "0x44e004"
+      },
+      {
+        "name": "RegCloseKey",
+        "iat_va": "0x44e008"
+      }
+    ],
+    "SHELL32.dll": [
+      {
+        "name": "ShellExecuteA",
+        "iat_va": "0x44e330"
+      }
+    ]
+  },
+  "resources": [
+    {
+      "path": [
+        "3",
+        "1",
+        "1049"
+      ],
+      "rva": "0x1dd4758",
+      "size": 2216,
+      "file": "resource_3_1_1049.bin"
+    },
+    {
+      "path": [
+        "5",
+        "120",
+        "1049"
+      ],
+      "rva": "0x1dd4150",
+      "size": 760,
+      "file": "resource_5_120_1049.bin"
+    },
+    {
+      "path": [
+        "5",
+        "121",
+        "1049"
+      ],
+      "rva": "0x1dd4448",
+      "size": 780,
+      "file": "resource_5_121_1049.bin"
+    },
+    {
+      "path": [
+        "5",
+        "141",
+        "1031"
+      ],
+      "rva": "0x1dd5018",
+      "size": 748,
+      "file": "resource_5_141_1031.bin"
+    },
+    {
+      "path": [
+        "14",
+        "140",
+        "1049"
+      ],
+      "rva": "0x1dd5000",
+      "size": 20,
+      "file": "resource_14_140_1049.bin"
+    }
+  ],
+  "warnings": [],
+  "overlay": {
+    "offset": null,
+    "size": 0,
+    "prefix_hex": ""
+  },
+  "directories": [
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_IMPORT",
+      "rva": "0x5e1d0",
+      "size": 220
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_RESOURCE",
+      "rva": "0x1dd4000",
+      "size": 4872
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_IAT",
+      "rva": "0x4e000",
+      "size": 1024
+    }
+  ],
+  "version_info": {},
+  "rich_header": {
+    "key": "efb9eefd",
+    "raw_data": "abd880aeefb9eefdefb9eefdefb9eefd787d90fdeeb9eefdc87f93fddeb9eefdc87f83fd74b9eefdc87f80fdd9b9eefd1099eafdf1b9eefd2cb6b3fdfcb9eefdefb9effd07b9eefdc87f9cfda6b9eefdc87f92fdeeb9eefdc87f96fdeeb9eefd",
+    "clear_data": "44616e5300000000000000000000000097c47e000100000027c67d003100000027c66d009b00000027c66e0036000000ff2004001e000000c30f5d001300000000000100e800000027c672004900000027c67c000100000027c6780001000000",
+    "checksum": 4260280815,
+    "values": [
+      8307863,
+      1,
+      8242727,
+      49,
+      7194151,
+      155,
+      7259687,
+      54,
+      270591,
+      30,
+      6098883,
+      19,
+      65536,
+      232,
+      7521831,
+      73,
+      8177191,
+      1,
+      7915047,
+      1
+    ]
+  },
+  "dll_characteristics": "0x0",
+  "file_characteristics": "0x103",
+  "exports": [],
+  "debug": []
+}

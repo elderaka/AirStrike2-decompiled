@@ -1,0 +1,21 @@
+entry=0 slots=16 functions=['TerrainHeight', 'remove']
+0000 INDEX_ADDRESS      a=-1 b=5 c=0 flags=0x00
+0001 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0002 MUL                a=1109393408 b=-2 c=1 flags=0x01 a_float=40
+0003 SUB                a=0 b=1 c=0 flags=0x82
+0004 INDEX_ADDRESS      a=-1 b=5 c=0 flags=0x00
+0005 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0006 PUSH               a=0 b=0 c=0 flags=0x80
+0007 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0008 INDEX_ADDRESS      a=1 b=0 c=1 flags=0x00
+0009 MOVE               a=0 b=1 c=0 flags=0x20
+0010 INDEX_ADDRESS      a=-1 b=5 c=2 flags=0x00
+0011 INDEX_ADDRESS      a=2 b=1 c=2 flags=0x00
+0012 MOVE               a=1 b=2 c=0 flags=0x20
+0013 CALL               a=-1 b=1 c=0 flags=0x00 external=TerrainHeight
+0014 POP                a=0 b=0 c=0 flags=0x80
+0015 LE                 a=0 b=1 c=0 flags=0x02
+0016 JUMP_IF_NONZERO    a=0 b=3 c=0 flags=0x00
+0017 MOVE               a=0 b=-1 c=0 flags=0x00
+0018 CALL               a=-2 b=0 c=0 flags=0x00 external=remove
+0019 YIELD              a=0 b=0 c=0 flags=0x00

@@ -1,0 +1,270 @@
+{
+  "header_words": [
+    1280525138,
+    16,
+    0,
+    2,
+    6,
+    0,
+    16,
+    29,
+    20,
+    -1,
+    13,
+    -1,
+    0,
+    -1
+  ],
+  "version": 16,
+  "cached_resource_count": 0,
+  "slot_count": 16,
+  "entry_pc": 13,
+  "functions": [
+    "Damage",
+    "create",
+    "remove",
+    "rotatex",
+    "move",
+    "Lightning"
+  ],
+  "definitions": [
+    "other",
+    "self"
+  ],
+  "chunks": {
+    "DEFS": {
+      "file_offset": 64,
+      "size": 13
+    },
+    "FUNC": {
+      "file_offset": 85,
+      "size": 50
+    },
+    "DATA": {
+      "file_offset": 143,
+      "size": 0
+    },
+    "STRG": {
+      "file_offset": 151,
+      "size": 29
+    },
+    "CODE": {
+      "file_offset": 188,
+      "size": 280
+    }
+  },
+  "initializers": [],
+  "instructions": [
+    {
+      "pc": 0,
+      "file_offset": 188,
+      "opcode": 17,
+      "name": "MOVE",
+      "flags": 0,
+      "a": 0,
+      "b": -1,
+      "c": 0
+    },
+    {
+      "pc": 1,
+      "file_offset": 202,
+      "opcode": 18,
+      "name": "INDEX_ADDRESS",
+      "flags": 0,
+      "a": -2,
+      "b": 35,
+      "c": 1
+    },
+    {
+      "pc": 2,
+      "file_offset": 216,
+      "opcode": 17,
+      "name": "MOVE",
+      "flags": 32,
+      "a": 1,
+      "b": 1,
+      "c": 0
+    },
+    {
+      "pc": 3,
+      "file_offset": 230,
+      "opcode": 28,
+      "name": "CALL",
+      "flags": 0,
+      "a": -1,
+      "b": 0,
+      "c": 0,
+      "function": "Damage"
+    },
+    {
+      "pc": 4,
+      "file_offset": 244,
+      "opcode": 17,
+      "name": "MOVE",
+      "flags": 16,
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "b_immediate": 0.0
+    },
+    {
+      "pc": 5,
+      "file_offset": 258,
+      "opcode": 18,
+      "name": "INDEX_ADDRESS",
+      "flags": 0,
+      "a": -2,
+      "b": 5,
+      "c": 1
+    },
+    {
+      "pc": 6,
+      "file_offset": 272,
+      "opcode": 28,
+      "name": "CALL",
+      "flags": 0,
+      "a": -2,
+      "b": 0,
+      "c": 0,
+      "function": "create"
+    },
+    {
+      "pc": 7,
+      "file_offset": 286,
+      "opcode": 17,
+      "name": "MOVE",
+      "flags": 16,
+      "a": 0,
+      "b": 12,
+      "c": 0,
+      "b_immediate": 1.6815581571897805e-44
+    },
+    {
+      "pc": 8,
+      "file_offset": 300,
+      "opcode": 18,
+      "name": "INDEX_ADDRESS",
+      "flags": 0,
+      "a": -2,
+      "b": 5,
+      "c": 1
+    },
+    {
+      "pc": 9,
+      "file_offset": 314,
+      "opcode": 28,
+      "name": "CALL",
+      "flags": 0,
+      "a": -2,
+      "b": 0,
+      "c": 0,
+      "function": "create"
+    },
+    {
+      "pc": 10,
+      "file_offset": 328,
+      "opcode": 17,
+      "name": "MOVE",
+      "flags": 0,
+      "a": 0,
+      "b": -2,
+      "c": 0
+    },
+    {
+      "pc": 11,
+      "file_offset": 342,
+      "opcode": 28,
+      "name": "CALL",
+      "flags": 0,
+      "a": -3,
+      "b": 0,
+      "c": 0,
+      "function": "remove"
+    },
+    {
+      "pc": 12,
+      "file_offset": 356,
+      "opcode": 0,
+      "name": "YIELD",
+      "flags": 0,
+      "a": 0,
+      "b": 0,
+      "c": 0
+    },
+    {
+      "pc": 13,
+      "file_offset": 370,
+      "opcode": 17,
+      "name": "MOVE",
+      "flags": 16,
+      "a": 0,
+      "b": 1120403456,
+      "c": 0,
+      "b_immediate": 100.0
+    },
+    {
+      "pc": 14,
+      "file_offset": 384,
+      "opcode": 28,
+      "name": "CALL",
+      "flags": 0,
+      "a": -4,
+      "b": 0,
+      "c": 0,
+      "function": "rotatex"
+    },
+    {
+      "pc": 15,
+      "file_offset": 398,
+      "opcode": 18,
+      "name": "INDEX_ADDRESS",
+      "flags": 0,
+      "a": -2,
+      "b": 17,
+      "c": 0
+    },
+    {
+      "pc": 16,
+      "file_offset": 412,
+      "opcode": 28,
+      "name": "CALL",
+      "flags": 0,
+      "a": -5,
+      "b": 0,
+      "c": 0,
+      "function": "move"
+    },
+    {
+      "pc": 17,
+      "file_offset": 426,
+      "opcode": 17,
+      "name": "MOVE",
+      "flags": 16,
+      "a": 0,
+      "b": 1128792064,
+      "c": 0,
+      "b_immediate": 200.0
+    },
+    {
+      "pc": 18,
+      "file_offset": 440,
+      "opcode": 28,
+      "name": "CALL",
+      "flags": 0,
+      "a": -6,
+      "b": 0,
+      "c": 0,
+      "function": "Lightning"
+    },
+    {
+      "pc": 19,
+      "file_offset": 454,
+      "opcode": 0,
+      "name": "YIELD",
+      "flags": 0,
+      "a": 0,
+      "b": 0,
+      "c": 0
+    }
+  ]
+}

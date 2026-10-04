@@ -1,0 +1,107 @@
+entry=102 slots=33 functions=['create', 'Damage', 'remove', 'move', 'IsValidTarget', 'movez', 'TerrainHeight', 'RotateTo', 'AnglesToAxis', 'vec_copy', 'vec_scale', 'ClearAxis', 'LockTarget']
+0000 MOVE               a=0 b=0 c=0 flags=0x10 b_float=0
+0001 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0002 CALL               a=-1 b=0 c=0 flags=0x00 external=create
+0003 MOVE               a=0 b=-2 c=0 flags=0x00
+0004 INDEX_ADDRESS      a=-1 b=35 c=1 flags=0x00
+0005 MOVE               a=1 b=1 c=0 flags=0x20
+0006 CALL               a=-2 b=0 c=0 flags=0x00 external=Damage
+0007 MOVE               a=0 b=-1 c=0 flags=0x00
+0008 CALL               a=-3 b=0 c=0 flags=0x00 external=remove
+0009 YIELD              a=0 b=0 c=0 flags=0x00
+0010 MOVE               a=0 b=28 c=0 flags=0x00
+0011 CALL               a=-4 b=0 c=0 flags=0x00 external=move
+0012 MOVE               a=0 b=16 c=0 flags=0x00
+0013 CALL               a=-5 b=0 c=0 flags=0x00 external=IsValidTarget
+0014 NOT_INT            a=0 b=0 c=0 flags=0x00
+0015 JUMP_IF_NONZERO    a=0 b=29 c=0 flags=0x00
+0016 INDEX_ADDRESS      a=-1 b=14 c=0 flags=0x00
+0017 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+0018 ADD                a=1112014848 b=32 c=1 flags=0x01 a_float=50
+0019 DIV                a=1 b=1090519040 c=1 flags=0x10 b_float=8
+0020 MOVE               a=0 b=1 c=0 flags=0x82
+0021 SUB                a=-1035468800 b=32 c=0 flags=0x01 a_float=-50
+0022 CALL               a=-6 b=0 c=0 flags=0x00 external=movez
+0023 MUL                a=1128792064 b=-3 c=1 flags=0x01 a_float=200
+0024 ADD                a=32 b=1 c=32 flags=0x00
+0025 PUSH               a=0 b=0 c=0 flags=0x00
+0026 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0027 INDEX_ADDRESS      a=1 b=0 c=1 flags=0x00
+0028 MOVE               a=0 b=1 c=0 flags=0x20
+0029 INDEX_ADDRESS      a=-1 b=5 c=2 flags=0x00
+0030 INDEX_ADDRESS      a=2 b=1 c=2 flags=0x00
+0031 MOVE               a=1 b=2 c=0 flags=0x20
+0032 CALL               a=-7 b=1 c=0 flags=0x00 external=TerrainHeight
+0033 POP                a=0 b=0 c=0 flags=0x00
+0034 MOVE               a=27 b=1 c=0 flags=0x00
+0035 INDEX_ADDRESS      a=-1 b=5 c=0 flags=0x00
+0036 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0037 LT                 a=0 b=27 c=0 flags=0x02
+0038 JUMP_IF_NONZERO    a=0 b=6 c=0 flags=0x00
+0039 MOVE               a=0 b=15 c=0 flags=0x10 b_float=2.10195e-44
+0040 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0041 CALL               a=-1 b=0 c=0 flags=0x00 external=create
+0042 MOVE               a=0 b=-1 c=0 flags=0x00
+0043 CALL               a=-3 b=0 c=0 flags=0x00 external=remove
+0044 YIELD              a=0 b=0 c=0 flags=0x00
+0045 MOVE               a=0 b=16 c=0 flags=0x00
+0046 CALL               a=-5 b=0 c=0 flags=0x00 external=IsValidTarget
+0047 JUMP_IF_NONZERO    a=0 b=8 c=0 flags=0x00
+0048 MOVE               a=0 b=16 c=0 flags=0x00
+0049 MOVE               a=1 b=1077936128 c=0 flags=0x10 b_float=3
+0050 CALL               a=-8 b=0 c=0 flags=0x00 external=RotateTo
+0051 INDEX_ADDRESS      a=-1 b=14 c=0 flags=0x00
+0052 MOVE               a=1 b=17 c=0 flags=0x00
+0053 CALL               a=-9 b=0 c=0 flags=0x00 external=AnglesToAxis
+0054 JUMP               a=29 b=0 c=0 flags=0x00
+0055 INDEX_ADDRESS      a=-1 b=14 c=0 flags=0x00
+0056 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+0057 ADD                a=1112014848 b=32 c=1 flags=0x01 a_float=50
+0058 DIV                a=1 b=1090519040 c=1 flags=0x10 b_float=8
+0059 MOVE               a=0 b=1 c=0 flags=0x82
+0060 SUB                a=-1035468800 b=32 c=0 flags=0x01 a_float=-50
+0061 CALL               a=-6 b=0 c=0 flags=0x00 external=movez
+0062 MUL                a=1128792064 b=-3 c=1 flags=0x01 a_float=200
+0063 ADD                a=32 b=1 c=32 flags=0x00
+0064 PUSH               a=0 b=0 c=0 flags=0x00
+0065 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0066 INDEX_ADDRESS      a=1 b=0 c=1 flags=0x00
+0067 MOVE               a=0 b=1 c=0 flags=0x20
+0068 INDEX_ADDRESS      a=-1 b=5 c=2 flags=0x00
+0069 INDEX_ADDRESS      a=2 b=1 c=2 flags=0x00
+0070 MOVE               a=1 b=2 c=0 flags=0x20
+0071 CALL               a=-7 b=1 c=0 flags=0x00 external=TerrainHeight
+0072 POP                a=0 b=0 c=0 flags=0x00
+0073 MOVE               a=27 b=1 c=0 flags=0x00
+0074 INDEX_ADDRESS      a=-1 b=5 c=0 flags=0x00
+0075 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0076 LT                 a=0 b=27 c=0 flags=0x02
+0077 JUMP_IF_NONZERO    a=0 b=6 c=0 flags=0x00
+0078 MOVE               a=0 b=30 c=0 flags=0x10 b_float=4.2039e-44
+0079 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0080 CALL               a=-1 b=0 c=0 flags=0x00 external=create
+0081 MOVE               a=0 b=-1 c=0 flags=0x00
+0082 CALL               a=-3 b=0 c=0 flags=0x00 external=remove
+0083 INDEX_ADDRESS      a=17 b=3 c=0 flags=0x00
+0084 MOVE               a=1 b=28 c=0 flags=0x00
+0085 CALL               a=-10 b=0 c=0 flags=0x00 external=vec_copy
+0086 MOVE               a=0 b=28 c=0 flags=0x00
+0087 MOVE               a=1 b=1141473280 c=0 flags=0x10 b_float=550
+0088 CALL               a=-11 b=0 c=0 flags=0x00 external=vec_scale
+0089 MOVE               a=0 b=28 c=0 flags=0x00
+0090 CALL               a=-4 b=0 c=0 flags=0x00 external=move
+0091 YIELD              a=0 b=0 c=0 flags=0x00
+0092 MOVE               a=0 b=17 c=0 flags=0x00
+0093 CALL               a=-12 b=0 c=0 flags=0x00 external=ClearAxis
+0094 PUSH               a=0 b=0 c=0 flags=0x00
+0095 CALL               a=-13 b=1 c=0 flags=0x00 external=LockTarget
+0096 POP                a=0 b=0 c=0 flags=0x00
+0097 MOVE               a=16 b=1 c=0 flags=0x00
+0098 MOVE               a=32 b=0 c=0 flags=0x10 b_float=0
+0099 INDEX_ADDRESS      a=-1 b=24 c=0 flags=0x00
+0100 MOVE               a=0 b=1135869952 c=0 flags=0x92 b_float=360
+0101 YIELD              a=0 b=0 c=0 flags=0x00
+0102 SET_WAIT           a=1041865114 b=0 c=0 flags=0x01 a_float=0.15
+0103 CALL_WAIT          a=45 b=0 c=0 flags=0x00
+0104 CALL_WAIT          a=10 b=0 c=0 flags=0x00
+0105 YIELD              a=0 b=0 c=0 flags=0x00

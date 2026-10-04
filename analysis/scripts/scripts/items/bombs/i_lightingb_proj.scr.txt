@@ -1,0 +1,4 @@
+entry=0 slots=16 functions=['rotatez']
+0000 MOVE               a=0 b=1120403456 c=0 flags=0x10 b_float=100
+0001 CALL               a=-1 b=0 c=0 flags=0x00 external=rotatez
+0002 YIELD              a=0 b=0 c=0 flags=0x00

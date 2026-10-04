@@ -1,0 +1,182 @@
+///////////////////////////////////////////////////////////////////
+//////    MISSILES    /////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////
+
+e_missile_flare_small {
+	type	TYPE_SPRITE
+	skin	"models\weapons_enemy\missiles\missile_flare.tga"
+	blend	BLEND_ADD
+	rflag	RF_NODEPTHTEST
+
+	min	-5 -5  0.0 0.0
+	max	5 5    0.5 1.0	
+}
+
+e_missile_flare_small2 {
+	type	TYPE_SPRITE
+	skin	"models\weapons_enemy\missiles\missile_flare.tga"
+	blend	BLEND_ADD
+	rflag	RF_NODEPTHTEST
+
+	min	-6 -6  0.5 0.0
+	max	6 6    1.0 1.0	
+}
+
+e_missile_small_hvost {
+	model	"models/weapons_enemy/missiles/missile_small_hvost.mdl"
+	skin	"models/weapons/missile_hvost2.tga"
+	rflag	RF_NODEPTHTEST
+	rflag   RF_NOCULLING
+	rflag	RF_NOLIGHTING
+	blend	BLEND_ADD
+}
+
+e_missile_small {
+	touch	TOUCH_PLAYER
+	model	"models/weapons_enemy/missiles/missile_small.mdl"
+	skin	"models/weapons/rockets.tga"
+
+
+	rflag	RF_NOCULLING
+
+	damage	12
+
+	attach abs "e_missile_small_hvost" "tag_hvost"
+	attach	"e_missile_flare_small" "tag_hvost"
+
+	script	"scripts\weapons_enemy\e_missile_small.scr"
+
+}
+
+
+e_missile_small_hvost2 {
+	model	"models/weapons_enemy/missiles/missile_small_hvost2.mdl"
+	skin	"models/weapons_enemy/missiles/missile_hvost2.tga"
+	rflag	RF_NODEPTHTEST
+	rflag   RF_NOCULLING
+	rflag	RF_NOLIGHTING
+	blend	BLEND_ADD
+}
+
+e_missile_small2 {
+	touch	TOUCH_PLAYER
+	model	"models/weapons_enemy/missiles/missile_small2.mdl"
+	skin	"models/weapons/rockets.tga"
+
+
+	rflag	RF_NOCULLING
+
+	damage	13
+
+	attach abs "e_missile_small_hvost2" "tag_hvost"
+	attach	"e_missile_flare_small2" "tag_hvost"
+
+	script	"scripts\weapons_enemy\e_missile_heat_small.scr"
+
+}
+
+
+e_missile_vsmall {
+	touch	TOUCH_PLAYER
+	model	"models/weapons/missilegun/missile_small.mdl"
+	skin	"models/weapons/rockets.tga"
+
+	rflag	RF_NOCULLING
+
+	damage	11
+
+	attach	PS_MISTRAIL_SMALL "tag_hvost"
+	attach	"meteorite_flare" "tag_hvost"
+
+	script	"scripts\weapons_enemy\e_missile_small.scr"
+}
+
+
+e_missile_heat_small {
+	touch	TOUCH_PLAYER
+	model	"models/weapons_enemy/missiles/missile_small.mdl"
+	skin	"models/weapons/rockets.tga"
+
+
+	rflag	RF_NOCULLING
+
+	damage	20
+
+	attach abs "e_missile_small_hvost" "tag_hvost"
+	attach	"e_missile_flare_small" "tag_hvost"
+
+	script	"scripts\weapons_enemy\e_missile_heat_small.scr"
+
+}
+
+e_missile_hvost {
+	model	"models/weapons/missile_hvost_big.mdl"
+	skin	"models/weapons/missile_hvost2.tga"
+	rflag	RF_NODEPTHTEST
+	rflag   RF_NOCULLING
+	rflag	RF_NOLIGHTING
+	blend	BLEND_ADD
+	attach	PS_MISTRAIL_GRAY "origin"
+}
+
+
+e_missile_heat {
+	touch	TOUCH_PLAYER
+	health  3
+        model   "models/weapons_enemy/missiles/missile_heat.mdl"
+        skin    "models/weapons/rockets.tga"
+        rflag   RF_NOCULLING
+
+        damage  35
+
+        script  "scripts\weapons_enemy\e_missile_heat.scr"
+        attach abs "e_missile_hvost" "tag_hvost"
+}
+
+
+e_missile {
+	touch	TOUCH_PLAYER
+	model	"models/weapons_enemy/missile.mdl"
+	skin	"models/weapons/rockets.tga"
+
+	damage	40
+
+	script	"scripts\weapons_enemy\e_missile.scr"
+
+	attach abs "e_missile_hvost" "tag_hvost"
+	attach	"missile_flare_small" "tag_hvost"
+}
+
+
+e_missile_big {
+	touch	TOUCH_PLAYER
+	model	"models/weapons/missile_big.mdl"
+	skin	"models/weapons/rockets.tga"
+
+	damage	70
+
+	script	"scripts\weapons_enemy\e_missile_big.scr"
+	attach abs "missile_hvost_big" "tag_hvost"
+	attach	"missile_flare_small" "tag_hvost"
+}
+
+
+enem_missile_heat_big_ground {
+	touch	TOUCH_PLAYER
+	enemy
+	flag 	FL_NONTARGET
+
+	health  200
+
+        model   "models/weapons/missile_big_heat.mdl"
+        skin    "models/weapons/rockets.tga"
+        rflag   RF_NOCULLING
+
+        damage  70
+
+        attach abs "e_missile_hvost" "tag_hvost"
+	attach  campfire_light_small "origin"
+
+        script  "scripts\weapons\missile\missile_heat_big_ground.scr"
+}
+ 

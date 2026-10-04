@@ -1,0 +1,34 @@
+entry=21 slots=21 functions=['vec_sub', 'Shoot', 'RotateTo', 'lRotateTo']
+0000 INDEX_ADDRESS      a=-1 b=24 c=0 flags=0x00
+0001 MOVE               a=0 b=1117782016 c=0 flags=0x92 b_float=80
+0002 YIELD              a=0 b=0 c=0 flags=0x00
+0003 MOVE               a=16 b=0 c=0 flags=0x00
+0004 INDEX_ADDRESS      a=-2 b=5 c=0 flags=0x00
+0005 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0006 MOVE               a=2 b=17 c=0 flags=0x00
+0007 CALL               a=-1 b=0 c=0 flags=0x00 external=vec_sub
+0008 INDEX_ADDRESS      a=17 b=1 c=0 flags=0x00
+0009 ADD                a=0 b=1107296256 c=0 flags=0x92 b_float=32
+0010 INDEX_ADDRESS      a=17 b=2 c=0 flags=0x00
+0011 ADD                a=0 b=1101004800 c=0 flags=0x92 b_float=20
+0012 MOVE               a=0 b=0 c=0 flags=0x10 b_float=0
+0013 MOVE               a=1 b=16 c=0 flags=0x00
+0014 MOVE               a=2 b=17 c=0 flags=0x00
+0015 CALL               a=-2 b=0 c=0 flags=0x00 external=Shoot
+0016 YIELD              a=0 b=0 c=0 flags=0x00
+0017 MOVE               a=0 b=-2 c=0 flags=0x00
+0018 MOVE               a=1 b=1065353216 c=0 flags=0x10 b_float=1
+0019 CALL               a=-3 b=0 c=0 flags=0x00 external=RotateTo
+0020 YIELD              a=0 b=0 c=0 flags=0x00
+0021 MOVE               a=0 b=-2 c=0 flags=0x00
+0022 MOVE               a=1 b=1065353216 c=0 flags=0x10 b_float=1
+0023 CALL_WAIT          a=-4 b=0 c=0 flags=0x00 external=lRotateTo
+0024 MOVE               a=0 b=17 c=0 flags=0x10 b_float=2.38221e-44
+0025 CALL               a=3 b=0 c=0 flags=0x00
+0026 SET_WAIT           a=1036831949 b=0 c=0 flags=0x01 a_float=0.1
+0027 CALL_WAIT          a=17 b=0 c=0 flags=0x00
+0028 MOVE               a=0 b=26 c=0 flags=0x10 b_float=3.64338e-44
+0029 CALL               a=3 b=0 c=0 flags=0x00
+0030 SET_WAIT           a=1080033280 b=0 c=0 flags=0x01 a_float=3.5
+0031 CALL_WAIT          a=17 b=0 c=0 flags=0x00
+0032 YIELD              a=0 b=0 c=0 flags=0x00

@@ -1,0 +1,27 @@
+entry=0 slots=18 functions=['rotatex', 'TerrainHeight']
+0000 MOVE               a=0 b=1128792064 c=0 flags=0x10 b_float=200
+0001 CALL               a=-1 b=0 c=0 flags=0x00 external=rotatex
+0002 PUSH               a=0 b=0 c=0 flags=0x00
+0003 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0004 INDEX_ADDRESS      a=1 b=0 c=1 flags=0x00
+0005 MOVE               a=0 b=1 c=0 flags=0x20
+0006 INDEX_ADDRESS      a=-1 b=5 c=2 flags=0x00
+0007 INDEX_ADDRESS      a=2 b=1 c=2 flags=0x00
+0008 MOVE               a=1 b=2 c=0 flags=0x20
+0009 CALL               a=-2 b=1 c=0 flags=0x00 external=TerrainHeight
+0010 POP                a=0 b=0 c=0 flags=0x00
+0011 MOVE               a=16 b=1 c=0 flags=0x00
+0012 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0013 INDEX_ADDRESS      a=1 b=2 c=1 flags=0x00
+0014 MOVE               a=17 b=1 c=0 flags=0x20
+0015 LT                 a=17 b=16 c=0 flags=0x00
+0016 JUMP_IF_NONZERO    a=0 b=6 c=0 flags=0x00
+0017 INDEX_ADDRESS      a=-1 b=8 c=0 flags=0x00
+0018 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0019 SUB                a=16 b=17 c=1 flags=0x00
+0020 MOVE               a=0 b=1 c=0 flags=0x82
+0021 JUMP               a=4 b=0 c=0 flags=0x00
+0022 INDEX_ADDRESS      a=-1 b=8 c=0 flags=0x00
+0023 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0024 MOVE               a=0 b=0 c=0 flags=0x92 b_float=0
+0025 YIELD              a=0 b=0 c=0 flags=0x00

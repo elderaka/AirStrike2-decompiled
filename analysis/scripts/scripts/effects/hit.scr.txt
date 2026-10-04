@@ -1,0 +1,13 @@
+entry=0 slots=17 functions=['sleep', 'remove']
+0000 MOVE               a=16 b=0 c=0 flags=0x10 b_float=0
+0001 LT                 a=16 b=1094713344 c=0 flags=0x10 b_float=12
+0002 JUMP_IF_NONZERO    a=0 b=7 c=0 flags=0x00
+0003 INDEX_ADDRESS      a=-1 b=33 c=0 flags=0x00
+0004 MOVE               a=0 b=16 c=0 flags=0x82
+0005 SET_WAIT           a=1050253722 b=0 c=0 flags=0x01 a_float=0.3
+0006 CALL_WAIT          a=-1 b=0 c=0 flags=0x00 external=sleep
+0007 ADD                a=16 b=1065353216 c=16 flags=0x10 b_float=1
+0008 JUMP               a=-7 b=0 c=0 flags=0x00
+0009 MOVE               a=0 b=-1 c=0 flags=0x00
+0010 CALL               a=-2 b=0 c=0 flags=0x00 external=remove
+0011 YIELD              a=0 b=0 c=0 flags=0x00

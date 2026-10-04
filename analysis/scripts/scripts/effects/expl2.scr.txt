@@ -1,0 +1,40 @@
+entry=0 slots=16 functions=['random', 'StartSound', 'sleep', 'create', 'CameraQuake', 'remove']
+0000 CALL               a=-1 b=0 c=0 flags=0x00 external=random
+0001 LT                 a=0 b=1056964608 c=0 flags=0x10 b_float=0.5
+0002 JUMP_IF_NONZERO    a=0 b=4 c=0 flags=0x00
+0003 MOVE               a=0 b=0 c=0 flags=0x10 b_float=0
+0004 CALL               a=-2 b=0 c=0 flags=0x00 external=StartSound
+0005 JUMP               a=3 b=0 c=0 flags=0x00
+0006 MOVE               a=0 b=17 c=0 flags=0x10 b_float=2.38221e-44
+0007 CALL               a=-2 b=0 c=0 flags=0x00 external=StartSound
+0008 SET_WAIT           a=1028443341 b=0 c=0 flags=0x01 a_float=0.05
+0009 CALL_WAIT          a=-3 b=0 c=0 flags=0x00 external=sleep
+0010 MOVE               a=0 b=34 c=0 flags=0x10 b_float=4.76441e-44
+0011 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0012 CALL               a=-4 b=0 c=0 flags=0x00 external=create
+0013 MOVE               a=0 b=39 c=0 flags=0x10 b_float=5.46506e-44
+0014 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0015 CALL               a=-4 b=0 c=0 flags=0x00 external=create
+0016 MOVE               a=0 b=53 c=0 flags=0x10 b_float=7.42688e-44
+0017 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0018 CALL               a=-4 b=0 c=0 flags=0x00 external=create
+0019 MOVE               a=0 b=67 c=0 flags=0x10 b_float=9.3887e-44
+0020 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0021 CALL               a=-4 b=0 c=0 flags=0x00 external=create
+0022 MOVE               a=0 b=81 c=0 flags=0x10 b_float=1.13505e-43
+0023 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0024 CALL               a=-4 b=0 c=0 flags=0x00 external=create
+0025 MOVE               a=0 b=94 c=0 flags=0x10 b_float=1.31722e-43
+0026 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0027 CALL               a=-4 b=0 c=0 flags=0x00 external=create
+0028 MOVE               a=0 b=104 c=0 flags=0x10 b_float=1.45735e-43
+0029 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0030 CALL               a=-4 b=0 c=0 flags=0x00 external=create
+0031 MOVE               a=0 b=116 c=0 flags=0x10 b_float=1.62551e-43
+0032 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0033 CALL               a=-4 b=0 c=0 flags=0x00 external=create
+0034 MOVE               a=0 b=1050253722 c=0 flags=0x10 b_float=0.3
+0035 CALL               a=-5 b=0 c=0 flags=0x00 external=CameraQuake
+0036 MOVE               a=0 b=-1 c=0 flags=0x00
+0037 CALL               a=-6 b=0 c=0 flags=0x00 external=remove
+0038 YIELD              a=0 b=0 c=0 flags=0x00

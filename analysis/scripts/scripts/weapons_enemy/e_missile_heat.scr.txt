@@ -1,0 +1,36 @@
+entry=31 slots=31 functions=['Damage', 'create', 'remove', 'RotateTo', 'AnglesToAxis', 'vec_copy', 'vec_scale', 'move']
+0000 MOVE               a=0 b=-1 c=0 flags=0x00
+0001 INDEX_ADDRESS      a=-2 b=35 c=1 flags=0x00
+0002 MOVE               a=1 b=1 c=0 flags=0x20
+0003 CALL               a=-1 b=0 c=0 flags=0x00 external=Damage
+0004 MOVE               a=0 b=0 c=0 flags=0x10 b_float=0
+0005 INDEX_ADDRESS      a=-2 b=5 c=1 flags=0x00
+0006 CALL               a=-2 b=0 c=0 flags=0x00 external=create
+0007 MOVE               a=0 b=-2 c=0 flags=0x00
+0008 CALL               a=-3 b=0 c=0 flags=0x00 external=remove
+0009 YIELD              a=0 b=0 c=0 flags=0x00
+0010 INDEX_ADDRESS      a=-2 b=24 c=0 flags=0x00
+0011 MOVE               a=0 b=1120403456 c=0 flags=0x92 b_float=100
+0012 YIELD              a=0 b=0 c=0 flags=0x00
+0013 MOVE               a=0 b=-3 c=0 flags=0x00
+0014 MOVE               a=1 b=1077936128 c=0 flags=0x10 b_float=3
+0015 CALL               a=-4 b=0 c=0 flags=0x00 external=RotateTo
+0016 INDEX_ADDRESS      a=-2 b=14 c=0 flags=0x00
+0017 MOVE               a=1 b=21 c=0 flags=0x00
+0018 CALL               a=-5 b=0 c=0 flags=0x00 external=AnglesToAxis
+0019 INDEX_ADDRESS      a=21 b=3 c=0 flags=0x00
+0020 MOVE               a=1 b=16 c=0 flags=0x00
+0021 CALL               a=-6 b=0 c=0 flags=0x00 external=vec_copy
+0022 MOVE               a=0 b=16 c=0 flags=0x00
+0023 MOVE               a=1 b=1128792064 c=0 flags=0x10 b_float=200
+0024 CALL               a=-7 b=0 c=0 flags=0x00 external=vec_scale
+0025 MOVE               a=0 b=16 c=0 flags=0x00
+0026 CALL               a=-8 b=0 c=0 flags=0x00 external=move
+0027 YIELD              a=0 b=0 c=0 flags=0x00
+0028 MOVE               a=0 b=16 c=0 flags=0x00
+0029 CALL               a=-8 b=0 c=0 flags=0x00 external=move
+0030 YIELD              a=0 b=0 c=0 flags=0x00
+0031 SET_WAIT           a=1060320051 b=0 c=0 flags=0x01 a_float=0.7
+0032 CALL_WAIT          a=13 b=0 c=0 flags=0x00
+0033 CALL_WAIT          a=28 b=0 c=0 flags=0x00
+0034 YIELD              a=0 b=0 c=0 flags=0x00

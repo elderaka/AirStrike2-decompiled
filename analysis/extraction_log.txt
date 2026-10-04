@@ -1,0 +1,17 @@
+Extracting "Air Assault 2" - setup data version 5.2.1
+ - "app\XbrowserLite.exe" [temp]
+ - "app\game.exe"
+ - "app\AirStrike2.exe"
+ - "app\as3d2_icon.ico"
+ - "app\bass.dll"
+ - "app\config.ini"
+ - "app\data\pak0.apk"
+ - "app\data\pak1.apk"
+ - "app\data\pak2.apk"
+ - "app\data\Settings.xml"
+ - "app\data\gfx\logo2.tga"
+ - "app\data\gfx\logo\glow.tga"
+ - "app\data\gfx\logo\logo.tga"
+ - "app\link.ico"
+ - "app\link.url"
+Done.

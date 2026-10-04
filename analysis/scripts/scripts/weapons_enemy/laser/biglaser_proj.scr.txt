@@ -1,0 +1,30 @@
+entry=16 slots=23 functions=['vec_copy', 'TraceLineDamage', 'remove']
+0000 INDEX_ADDRESS      a=-1 b=1 c=2 flags=0x00
+0001 SUB                a=1058642330 b=2 c=1 flags=0x21 a_float=0.6
+0002 MOVE               a=21 b=1 c=0 flags=0x00
+0003 INDEX_ADDRESS      a=-1 b=28 c=0 flags=0x00
+0004 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+0005 MUL                a=21 b=1073741824 c=1 flags=0x10 b_float=2
+0006 MOVE               a=0 b=1 c=0 flags=0x82
+0007 INDEX_ADDRESS      a=-1 b=28 c=0 flags=0x00
+0008 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+0009 MUL                a=21 b=1073741824 c=1 flags=0x10 b_float=2
+0010 MOVE               a=0 b=1 c=0 flags=0x82
+0011 INDEX_ADDRESS      a=-1 b=28 c=0 flags=0x00
+0012 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0013 MUL                a=21 b=1073741824 c=1 flags=0x10 b_float=2
+0014 MOVE               a=0 b=1 c=0 flags=0x82
+0015 YIELD              a=0 b=0 c=0 flags=0x00
+0016 INDEX_ADDRESS      a=-2 b=5 c=0 flags=0x00
+0017 MOVE               a=1 b=17 c=0 flags=0x00
+0018 CALL               a=-1 b=0 c=0 flags=0x00 external=vec_copy
+0019 INDEX_ADDRESS      a=-1 b=5 c=0 flags=0x00
+0020 MOVE               a=1 b=17 c=0 flags=0x00
+0021 INDEX_ADDRESS      a=-1 b=35 c=2 flags=0x00
+0022 MOVE               a=2 b=2 c=0 flags=0x20
+0023 CALL               a=-2 b=0 c=0 flags=0x00 external=TraceLineDamage
+0024 SET_WAIT           a=1058642330 b=0 c=0 flags=0x01 a_float=0.6
+0025 CALL_WAIT          a=0 b=0 c=0 flags=0x00
+0026 MOVE               a=0 b=-1 c=0 flags=0x00
+0027 CALL               a=-3 b=0 c=0 flags=0x00 external=remove
+0028 YIELD              a=0 b=0 c=0 flags=0x00

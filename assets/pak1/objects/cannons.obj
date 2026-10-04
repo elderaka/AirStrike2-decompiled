@@ -1,0 +1,1099 @@
+////////////////////////////////////////////////////////////////////
+//////////////////// rocketlaucher /////////////////////////////////
+////////////////////////////////////////////////////////////////////
+
+rocketlaucher_left {
+	model	"models/cannons/rocketlaucher_left.mdl"
+	skin	"models/cannons/rocketlaucher.tga"
+        rflag   RF_NOCULLING
+
+	script	"scripts\cannons\rocketlaucher_left.scr"
+}
+
+rocketlaucher_right {
+	model	"models/cannons/rocketlaucher_right.mdl"
+	skin	"models/cannons/rocketlaucher.tga"
+        rflag   RF_NOCULLING
+	
+	script	"scripts\cannons\rocketlaucher_right.scr"
+}
+
+rocketlaucher {
+	health	500
+	flag    FL_ONGROUND
+	enemy
+	score   500
+
+	rflag   RF_NOCULLING
+	shadow  SHADOW_PROJECTED
+	model	"models/cannons/rocketlaucher.mdl"
+	skin	"models/cannons/rocketlaucher.tga"
+
+	attach abs	"rocketlaucher_left" "tag_gate"
+	attach abs	"rocketlaucher_right" "tag_gate"	
+
+	script	"scripts\cannons\rocketlaucher.scr"
+}
+
+
+rocketlaucher_brown_left {
+	model	"models/cannons/rocketlaucher_left.mdl"
+	skin	"models/cannons/rocketlaucher_brown.tga"
+        rflag   RF_NOCULLING
+
+	script	"scripts\cannons\rocketlaucher_left.scr"
+}
+
+rocketlaucher_brown_right {
+	model	"models/cannons/rocketlaucher_right.mdl"
+	skin	"models/cannons/rocketlaucher_brown.tga"
+        rflag   RF_NOCULLING
+	
+	script	"scripts\cannons\rocketlaucher_right.scr"
+}
+
+rocketlaucher_brown {
+	health	800
+	flag    FL_ONGROUND
+	enemy
+	score   800
+
+	rflag   RF_NOCULLING
+	shadow  SHADOW_PROJECTED
+	model	"models/cannons/rocketlaucher.mdl"
+	skin	"models/cannons/rocketlaucher_brown.tga"
+
+	attach abs	"rocketlaucher_brown_left" "tag_gate"
+	attach abs	"rocketlaucher_brown_right" "tag_gate"	
+
+	script	"scripts\cannons\rocketlaucher.scr"
+}
+
+
+rocketlaucher_winter_left {
+	model	"models/cannons/rocketlaucher_left.mdl"
+	skin	"models/cannons/rocketlaucher_winter.tga"
+        rflag   RF_NOCULLING
+
+	script	"scripts\cannons\rocketlaucher_left.scr"
+}
+
+rocketlaucher_winter_right {
+	model	"models/cannons/rocketlaucher_right.mdl"
+	skin	"models/cannons/rocketlaucher_winter.tga"
+        rflag   RF_NOCULLING
+	
+	script	"scripts\cannons\rocketlaucher_right.scr"
+}
+
+rocketlaucher_winter {
+	health	800
+	flag    FL_ONGROUND
+	enemy
+	score   800
+
+	rflag   RF_NOCULLING
+	shadow  SHADOW_PROJECTED
+	model	"models/cannons/rocketlaucher.mdl"
+	skin	"models/cannons/rocketlaucher_winter.tga"
+
+	attach abs	"rocketlaucher_winter_left" "tag_gate"
+	attach abs	"rocketlaucher_winter_right" "tag_gate"	
+
+	script	"scripts\cannons\rocketlaucher.scr"
+}
+
+
+cannon_dead {
+        model   "models\cannons\cannon_dead.mdl"
+        skin    "models\dead.tga"
+        shadow  SHADOW_PLANAR_LOW
+}
+
+//------------------------------------------------
+
+
+cannon1_gun {
+	model	"models/cannons/cannon1.mdl"
+	skin	"models/cannons/cannon1.tga"
+	script	"scripts\cannons\cannon1\cannon.scr"
+}
+
+cannon1_bricks_gun {
+	model	"models/cannons/cannon1.mdl"
+	skin	"models/cannons/cannon1_bricks.tga"
+	script	"scripts\cannons\cannon1\cannon.scr"
+}
+
+cannon1_white_gun {
+	model	"models/cannons/cannon1.mdl"
+	skin	"models/cannons/cannon1_white.tga"
+	script	"scripts\cannons\cannon1\cannon.scr"
+}
+
+cannon1_green {
+	health	150
+	flag    FL_ONGROUND
+	enemy
+
+	shadow	SHADOW_PROJECTED
+
+	score   150
+
+	model	"models/cannons/cannonbase.mdl"
+	skin	"models/cannons/cannon1.tga"
+
+	attach	abs "cannon1_gun" "tag_cannon"	
+	attach	"redflare_small" "tag_flare1"	
+	attach	"redflare_small" "tag_flare2"	
+	attach	"redflare_small" "tag_flare3"	
+	attach	"redflare_small" "tag_flare4"	
+
+	script	"scripts\cannons\cannonbase.scr"
+}
+
+cannon1_white {
+	health	200
+	flag    FL_ONGROUND
+	enemy
+	score   200
+
+	shadow	SHADOW_PROJECTED
+
+	model	"models/cannons/cannonbase.mdl"
+	skin	"models/cannons/cannon1_white.tga"
+
+	attach	abs "cannon1_white_gun" "tag_cannon"	
+	attach	"redflare_small" "tag_flare1"	
+	attach	"redflare_small" "tag_flare2"	
+	attach	"redflare_small" "tag_flare3"	
+	attach	"redflare_small" "tag_flare4"	
+	script	"scripts\cannons\cannonbase.scr"
+}
+
+cannon1_bricks {
+	health	100
+	flag    FL_ONGROUND
+	enemy
+	score   100
+
+	shadow	SHADOW_PROJECTED
+
+	model	"models/cannons/cannonbase.mdl"
+	skin	"models/cannons/cannon1_bricks.tga"
+
+	attach	abs "cannon1_bricks_gun" "tag_cannon"	
+	attach	"redflare_small" "tag_flare1"	
+	attach	"redflare_small" "tag_flare2"	
+	attach	"redflare_small" "tag_flare3"	
+	attach	"redflare_small" "tag_flare4"	
+	script	"scripts\cannons\cannonbase.scr"
+}
+
+//------------------------------------------------
+
+cannon2_guns {
+	model	"models/cannons/cannon2_guns.mdl"
+	skin	"models/cannons/cannon2_bricks.tga"
+
+	script	"scripts\cannons\cannon2\cannon2_guns.scr"
+}
+
+cannon2_gun {
+	model	"models/cannons/cannon2.mdl"
+	skin	"models/cannons/cannon2_bricks.tga"
+
+	attach abs id "GUNS" "cannon2_guns" "tag_guns"	
+
+	script	"scripts\cannons\cannon2\cannon2.scr"
+}
+
+cannon2_brown_guns {
+	model	"models/cannons/cannon2_guns.mdl"
+	skin	"models/cannons/cannon2_brown.tga"
+
+	script	"scripts\cannons\cannon2\cannon2_guns.scr"
+}
+
+cannon2_brown_gun {
+	model	"models/cannons/cannon2.mdl"
+	skin	"models/cannons/cannon2_brown.tga"
+
+	attach abs id "GUNS" "cannon2_brown_guns" "tag_guns"	
+
+	script	"scripts\cannons\cannon2\cannon2.scr"
+}
+
+cannon2_big_guns {
+	model	"models/cannons/cannon2_big_guns.mdl"
+	skin	"models/cannons/cannon2_bricks.tga"
+
+	script	"scripts\cannons\cannon2\cannon2_big_guns.scr"
+}
+
+cannon2_big_gun {
+	model	"models/cannons/cannon2_big.mdl"
+	skin	"models/cannons/cannon2_bricks.tga"
+
+	attach abs id "GUNS" "cannon2_big_guns" "tag_guns"	
+
+	script	"scripts\cannons\cannon2\cannon2.scr"
+}
+
+cannon2_bricks {
+	health	200
+	flag    FL_ONGROUND
+	enemy
+	score   200
+
+	shadow	SHADOW_PROJECTED
+
+	model	"models/cannons/cannonbase.mdl"
+	skin	"models/cannons/cannon2_bricks.tga"
+
+	attach	abs "cannon2_gun" "tag_cannon"	
+	attach	"redflare_small" "tag_flare1"	
+	attach	"redflare_small" "tag_flare2"	
+	attach	"redflare_small" "tag_flare3"	
+	attach	"redflare_small" "tag_flare4"	
+
+	script	"scripts\cannons\cannonbase.scr"
+}
+
+cannon2_big_bricks {
+	health	400
+	flag    FL_ONGROUND
+	enemy
+	score   400
+
+	shadow	SHADOW_PROJECTED
+
+	model	"models/cannons/cannonbase.mdl"
+	skin	"models/cannons/cannon2_bricks.tga"
+
+	attach	abs "cannon2_big_gun" "tag_cannon"	
+	attach	"redflare_small" "tag_flare1"	
+	attach	"redflare_small" "tag_flare2"	
+	attach	"redflare_small" "tag_flare3"	
+	attach	"redflare_small" "tag_flare4"	
+
+	script	"scripts\cannons\cannonbase.scr"
+}
+
+cannon2_brown {
+	health	400
+	flag    FL_ONGROUND
+	enemy
+	score   400
+
+	shadow	SHADOW_PROJECTED
+
+	model	"models/cannons/cannonbase.mdl"
+	skin	"models/cannons/cannon2_brown.tga"
+
+	attach	abs "cannon2_brown_gun" "tag_cannon"	
+	attach	"redflare_small" "tag_flare1"	
+	attach	"redflare_small" "tag_flare2"	
+	attach	"redflare_small" "tag_flare3"	
+	attach	"redflare_small" "tag_flare4"	
+
+	script	"scripts\cannons\cannonbase.scr"
+}
+
+//------------------------------------------------
+
+
+cannon3_gun {
+	model	"models/cannons/cannon3.mdl"
+	skin	"models/cannons/cannon1_bricks.tga"
+
+	script	"scripts\cannons\cannon1\cannon3.scr"
+}
+
+cannon3_bricks {
+	health	80
+	flag    FL_ONGROUND
+	enemy
+	score   100
+
+	shadow	SHADOW_PROJECTED
+
+	model	"models/cannons/cannonbase.mdl"
+	skin	"models/cannons/cannon1_bricks.tga"
+
+	attach	abs "cannon3_gun" "tag_cannon"	
+	attach	"redflare_small" "tag_flare1"	
+	attach	"redflare_small" "tag_flare2"	
+	attach	"redflare_small" "tag_flare3"	
+	attach	"redflare_small" "tag_flare4"	
+	script	"scripts\cannons\cannonbase.scr"
+}
+
+//----------------------- cannon4_big ------------------------
+
+
+cannon4_big_green_guns {
+	model	"models/cannons/cannon4_big/cannon4_big_guns.mdl"
+	skin	"models/cannons/cannon4_big/cannon4_big_green.tga"
+
+	script	"scripts\cannons\cannon4_big\cannon4_big_guns.scr"
+}
+
+cannon4_big_green_cannon {
+	model	"models/cannons/cannon4_big/cannon4_big_cannon.mdl"
+	skin	"models/cannons/cannon4_big/cannon4_big_green.tga"
+
+	attach	abs id "GUNS" "cannon4_big_green_guns" "tag_guns"	
+
+	script	"scripts\cannons\cannon4_big\cannon4_big_turret.scr"
+
+}
+
+cannon4_big_green {
+	health	500
+	flag    FL_ONGROUND
+	enemy
+	score   500
+
+	shadow	SHADOW_PROJECTED
+
+	model	"models/cannons/cannon4_big/cannon4_big.mdl"
+	skin	"models/cannons/cannon4_big/cannon4_big_green.tga"
+
+	attach  abs "cannon4_big_green_cannon" "tag_cannon"	
+	
+	script	"scripts\cannons\cannon4_big\cannonbase.scr"
+}
+
+cannon4_big_desert_guns {
+	model	"models/cannons/cannon4_big/cannon4_big_guns.mdl"
+	skin	"models/cannons/cannon4_big/cannon4_big_desert.tga"
+
+	script	"scripts\cannons\cannon4_big\cannon4_big_guns.scr"
+}
+
+cannon4_big_desert_cannon {
+	model	"models/cannons/cannon4_big/cannon4_big_cannon.mdl"
+	skin	"models/cannons/cannon4_big/cannon4_big_desert.tga"
+
+	attach  abs id "GUNS" "cannon4_big_desert_guns" "tag_guns"	
+
+	script	"scripts\cannons\cannon4_big\cannon4_big_turret.scr"
+}
+
+cannon4_big_desert {
+	health	600
+	flag    FL_ONGROUND
+	enemy
+	score   600
+
+	shadow	SHADOW_PROJECTED
+
+	model	"models/cannons/cannon4_big/cannon4_big.mdl"
+	skin	"models/cannons/cannon4_big/cannon4_big_desert.tga"
+
+	attach  abs "cannon4_big_desert_cannon" "tag_cannon"	
+
+	script	"scripts\cannons\cannon4_big\cannonbase.scr"
+}
+
+cannon4_big_blue_guns {
+	model	"models/cannons/cannon4_big/cannon4_big_guns.mdl"
+	skin	"models/cannons/cannon4_big/cannon4_big_blue.tga"
+
+	script	"scripts\cannons\cannon4_big\cannon4_big_guns.scr"
+}
+
+cannon4_big_blue_cannon {
+	model	"models/cannons/cannon4_big/cannon4_big_cannon.mdl"
+	skin	"models/cannons/cannon4_big/cannon4_big_blue.tga"
+
+	attach	abs id "GUNS" "cannon4_big_blue_guns" "tag_guns"	
+
+	script	"scripts\cannons\cannon4_big\cannon4_big_turret.scr"
+
+}
+
+cannon4_big_blue {
+	health	900
+	flag    FL_ONGROUND
+	enemy
+	score   900
+
+	shadow	SHADOW_PROJECTED
+
+	model	"models/cannons/cannon4_big/cannon4_big.mdl"
+	skin	"models/cannons/cannon4_big/cannon4_big_blue.tga"
+
+	attach  abs "cannon4_big_blue_cannon" "tag_cannon"	
+
+	script	"scripts\cannons\cannon4_big\cannonbase.scr"
+}
+
+//------------------------------------------------
+
+
+cannon4_gun {
+	model	"models/cannons/cannon4.mdl"
+	skin	"models/cannons/cannon1_bricks.tga"
+	script	"scripts\cannons\cannon_laser.scr"
+}
+
+cannon4_green {
+	health	150
+	flag    FL_ONGROUND
+	enemy
+	score   150
+
+	shadow	SHADOW_PROJECTED
+
+	model	"models/cannons/cannonbase_long.mdl"
+	skin	"models/cannons/cannon1_bricks.tga"
+
+	attach	"cannon4_gun" "tag_cannon"	
+	attach	"redflare_small" "tag_flare1"	
+	attach	"redflare_small" "tag_flare2"	
+	attach	"redflare_small" "tag_flare3"	
+	attach	"redflare_small" "tag_flare4"	
+	script	"scripts\cannons\cannonbase.scr"
+}
+
+
+//------------------------------------------------
+
+
+cannon5_gun {
+	model	"models/cannons/cannon5_laser_gun.mdl"
+	skin	"models/cannons/cannon5_laser.tga"
+	touch	TOUCH_PLAYER
+
+
+	script	"scripts\cannons\cannon_laser.scr"
+}
+
+cannon5_laser {
+	health	700
+	flag    FL_ONGROUND
+	enemy
+	score   1200
+
+	touch	TOUCH_PLAYER
+
+	model	"models/cannons/cannon5_laser.mdl"
+	skin	"models/cannons/cannon5_laser.tga"
+
+	attach	"cannon5_gun" "tag_cannon"	
+	attach	"redflare_small" "tag_flare1"	
+	attach	"redflare_small" "tag_flare2"	
+	attach	"redflare_small" "tag_flare3"	
+	attach	"redflare_small" "tag_flare4"	
+
+	script	"scripts\cannons\cannonbase.scr"
+}
+
+//------------------------------------------------
+
+cannon6_plasma_gun {
+        model   "models\cannons\cannon6_plasma.mdl"
+        skin    "models\cannons\cannon6_plasma.tga"
+
+        script  "scripts\cannons\cannon_plasma\cannon_plasma_gun.scr"
+}
+
+cannon6_plasma_holder {
+        model   "models\cannons\cannon6_plasma_holder.mdl"
+        skin    "models\cannons\cannon6_plasma.tga"
+
+	attach abs id "GUNS" "cannon6_plasma_gun" "tag_gun"
+
+        script  "scripts\cannons\cannon_plasma\cannon_plasma.scr"
+}
+
+
+cannon6_plasma {
+	health	300
+	flag    FL_ONGROUND_NORMAL
+	enemy
+	score   300
+
+        model   "models\cannons\cannon6_plasma_base.mdl"
+        skin    "models\cannons\cannon6_plasma.tga"
+
+	attach abs "cannon6_plasma_holder" "tag_cannon_left"
+
+        script  "scripts\cannons\cannonbase.scr"
+}
+
+//------------------------------------------------
+
+cannon7_lighting_gun {
+        model   "models\cannons\cannon7_lighting.mdl"
+        skin    "models\cannons\cannon7_lighting.tga"
+
+        script  "scripts\cannons\cannon_lighting.scr"
+}
+
+cannon7_lighting {
+	health	400
+	flag    FL_ONGROUND
+	enemy
+
+	score   800
+
+        model   "models\cannons\cannon6_plasma_base.mdl"
+        skin    "models\cannons\cannon7_lighting.tga"
+
+	attach "cannon7_lighting_gun" "tag_cannon_left"
+
+        script  "scripts\cannons\cannonbase.scr"
+}
+
+//------------------------------------------------
+
+cannon8_BMG_gun {
+        model   "models\cannons\cannon8_BMG_gun.mdl"
+        skin    "models\cannons\cannon8_BMG.tga"
+
+        script  "scripts\cannons\BMG\bmg_gun.scr"
+}
+
+cannon8_BMG_holder {
+        model   "models\cannons\cannon8_BMG_holder.mdl"
+        skin    "models\cannons\cannon8_BMG.tga"
+
+	attach abs "cannon8_BMG_gun" "tag_gun"
+
+	script  "scripts\cannons\BMG\bmg_holder.scr"
+}
+
+cannon8_BMG_mainholder {
+        model   "models\cannons\cannon8_BMG.mdl"
+        skin    "models\cannons\cannon8_BMG.tga"
+
+	attach abs id "HOLDER" "cannon8_BMG_holder" "tag_gun_holder"
+
+        script  "scripts\cannons\BMG\bmg_mh.scr"
+}
+
+cannon8_BMG {
+	health	400
+	flag    FL_ONGROUND_NORMAL
+	enemy
+	score   600
+
+	model	"models/cannons/cannonbase.mdl"
+        skin    "models\cannons\cannon8_BMG.tga"
+
+	attach abs "cannon8_BMG_mainholder" "tag_cannon"	
+
+	attach	"redflare_small" "tag_flare1"	
+	attach	"redflare_small" "tag_flare2"	
+	attach	"redflare_small" "tag_flare3"	
+	attach	"redflare_small" "tag_flare4"	
+
+        script  "scripts\cannons\cannonbase.scr"
+}
+
+//------------------------------------------------
+
+cannon8_BMG_brown_gun {
+        model   "models\cannons\cannon8_BMG_gun.mdl"
+        skin    "models\cannons\cannon8_BMG_brown.tga"
+
+        script  "scripts\cannons\BMG\bmg_gun.scr"
+}
+
+cannon8_BMG_brown_holder {
+        model   "models\cannons\cannon8_BMG_holder.mdl"
+        skin    "models\cannons\cannon8_BMG_brown.tga"
+
+	attach abs  "cannon8_BMG_brown_gun" "tag_gun"
+
+	script  "scripts\cannons\BMG\bmg_holder.scr"
+}
+
+cannon8_BMG_brown_mainholder {
+        model   "models\cannons\cannon8_BMG.mdl"
+        skin    "models\cannons\cannon8_BMG_brown.tga"
+
+	attach abs id "HOLDER" "cannon8_BMG_brown_holder" "tag_gun_holder"
+
+        script  "scripts\cannons\BMG\bmg_mh.scr"
+}
+
+
+cannon8_BMG_brown {
+	health	600
+	flag    FL_ONGROUND_NORMAL
+	enemy
+	score   900
+
+	model	"models/cannons/cannonbase.mdl"
+	skin    "models/cannons/cannon8_BMG_brown.tga"
+
+	attach	abs "cannon8_BMG_brown_mainholder" "tag_cannon"	
+	attach	"redflare_small" "tag_flare1"	
+	attach	"redflare_small" "tag_flare2"	
+	attach	"redflare_small" "tag_flare3"	
+	attach	"redflare_small" "tag_flare4"	
+
+        script  "scripts\cannons\cannonbase.scr"
+}
+
+
+////////////////////////////////////////////////////////////////////
+////////////////////cannon_big///////////////////////////////////
+////////////////////////////////////////////////////////////////////
+
+
+cannon_big_gun {
+	model	"models\cannons\cannon_big\cannon_big_gun.mdl"
+	skin	"models\cannons\cannon_big\cannon_biggest.tga"
+
+
+	script	"scripts\cannons\cannon_big\c_guns.scr"
+}
+
+cannon_big_turret {
+	model	"models\cannons\cannon_big\cannon_big_turret.mdl"
+	skin	"models\cannons\cannon_big\cannon_biggest.tga"
+
+	attach abs id "GUNS" "cannon_big_gun" "tag_guns"	
+
+	script	"scripts\cannons\cannon_big\c_turret.scr"
+}
+
+cannon_big {
+	health	500
+	flag    FL_ONGROUND_NORMAL
+	enemy
+
+	score	600
+
+	model	"models\cannons\cannon_big\cannon_big.mdl"
+	skin	"models\cannons\cannon_big\cannon_biggest.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	attach abs "cannon_big_turret" "tag_cannon"	
+//	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\cannons\cannon_big\cannonbase.scr"
+}
+
+
+
+////////////////////////////////////////////////////////////////////
+
+
+cannon_big_gun_brown {
+	model	"models\cannons\cannon_big\cannon_big_gun.mdl"
+	skin	"models\cannons\cannon_big\cannon_biggest_desert.tga"
+
+
+	script	"scripts\cannons\cannon_big\c_guns.scr"
+}
+
+cannon_big_brown_turret {
+	model	"models\cannons\cannon_big\cannon_big_turret.mdl"
+	skin	"models\cannons\cannon_big\cannon_biggest_desert.tga"
+
+	attach abs id "GUNS" "cannon_big_gun_brown" "tag_guns"	
+
+	script	"scripts\cannons\cannon_big\c_turret.scr"
+}
+
+cannon_big_brown {
+	health	800
+	flag    FL_ONGROUND_NORMAL
+	enemy
+
+	score	1000
+
+	model	"models\cannons\cannon_big\cannon_big.mdl"
+	skin	"models\cannons\cannon_big\cannon_biggest_desert.tga"
+	shadow	SHADOW_PLANAR_LOW
+
+	attach abs "cannon_big_brown_turret" "tag_cannon"	
+//	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\cannons\cannon_big\cannonbase.scr"
+}
+
+
+
+///////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////// cannon10 //////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////
+
+cannon10_1_gun {
+        model   "models\cannons\cannon10_gun.mdl"
+        skin    "models\cannons\cannon10_1.tga"
+
+        script  "scripts\cannons\cannon10\cannon10_gun.scr"
+}
+
+cannon10_1_cannon {
+        model   "models\cannons\cannon10_cannon.mdl"
+        skin    "models\cannons\cannon10_1.tga"
+
+	attach abs id "GUNS" "cannon10_1_gun" "tag_gun"
+
+        script  "scripts\cannons\cannon10\cannon10_turret.scr"
+}
+
+
+cannon10_1 {
+	health	600
+	flag    FL_ONGROUND_NORMAL
+	enemy
+	score   600
+
+        model   "models\cannons\cannon10_base.mdl"
+        skin    "models\cannons\cannon10_1.tga"
+
+	attach abs "cannon10_1_cannon" "tag_cannon"
+
+        script  "scripts\cannons\cannon10\cannon10.scr"
+}
+
+///////////////////////////////////////////////////////////////////
+
+cannon10_2_gun {
+        model   "models\cannons\cannon10_gun.mdl"
+        skin    "models\cannons\cannon10_2.tga"
+
+        script  "scripts\cannons\cannon10\cannon10_gun.scr"
+}
+
+cannon10_2_cannon {
+        model   "models\cannons\cannon10_cannon.mdl"
+        skin    "models\cannons\cannon10_2.tga"
+
+	attach abs id "GUNS" "cannon10_2_gun" "tag_gun"
+
+        script  "scripts\cannons\cannon10\cannon10_turret.scr"
+}
+
+
+cannon10_2 {
+	health	1000
+	flag    FL_ONGROUND_NORMAL
+	enemy
+	score   1000
+
+        model   "models\cannons\cannon10_base.mdl"
+        skin    "models\cannons\cannon10_2.tga"
+
+	attach abs "cannon10_2_cannon" "tag_cannon"
+
+        script  "scripts\cannons\cannon10\cannon10.scr"
+}
+
+/////////////////////////////////////////////////////////////////////
+
+cannon10_3_gun {
+        model   "models\cannons\cannon10_gun.mdl"
+        skin    "models\cannons\cannon10_3.tga"
+
+        script  "scripts\cannons\cannon10\cannon10_gun.scr"
+}
+
+cannon10_3_cannon {
+        model   "models\cannons\cannon10_cannon.mdl"
+        skin    "models\cannons\cannon10_3.tga"
+
+	attach abs id "GUNS" "cannon10_3_gun" "tag_gun"
+
+        script  "scripts\cannons\cannon10\cannon10_turret.scr"
+}
+
+
+cannon10_3 {
+	health	700
+	flag    FL_ONGROUND_NORMAL
+	enemy
+	score   700
+
+        model   "models\cannons\cannon10_base.mdl"
+        skin    "models\cannons\cannon10_3.tga"
+
+	attach abs "cannon10_3_cannon" "tag_cannon"
+
+        script  "scripts\cannons\cannon10\cannon10.scr"
+}
+
+/////////////////////////////////////////////////////////////////////
+
+cannon10_4_gun {
+        model   "models\cannons\cannon10_gun.mdl"
+        skin    "models\cannons\cannon10_4.tga"
+
+        script  "scripts\cannons\cannon10\cannon10_gun.scr"
+}
+
+cannon10_4_cannon {
+        model   "models\cannons\cannon10_cannon.mdl"
+        skin    "models\cannons\cannon10_4.tga"
+
+	attach abs id "GUNS" "cannon10_4_gun" "tag_gun"
+
+        script  "scripts\cannons\cannon10\cannon10_turret.scr"
+}
+
+
+cannon10_4 {
+	health	800
+	flag    FL_ONGROUND_NORMAL
+	enemy
+	score   800
+
+        model   "models\cannons\cannon10_base.mdl"
+        skin    "models\cannons\cannon10_4.tga"
+
+	attach abs "cannon10_4_cannon" "tag_cannon"
+
+        script  "scripts\cannons\cannon10\cannon10.scr"
+}
+
+
+//////////////////////////////////////////////////////////////////////////
+/////////////////////////// cannon_3way //////////////////////////////////
+//////////////////////////////////////////////////////////////////////////
+
+
+cannon_3way_green_guns {
+       model   "models\cannons\cannon_3way\cannon_3way_guns.mdl"
+       skin    "models\cannons\cannon_3way\cannons_3way_green.tga"
+
+        script  "scripts\cannons\cannon_3way\cannon_3way_guns.scr"
+}
+
+cannon_3way_green_turret {
+        model   "models\cannons\cannon_3way\cannon_3way_turret.mdl"
+        skin    "models\cannons\cannon_3way\cannons_3way_green.tga"
+
+	attach abs id "GUNS" "cannon_3way_green_guns" "tag_guns"
+
+        script  "scripts\cannons\cannon_3way\cannon_3way_turret.scr"
+}
+
+cannon_3way_green {
+	health	300
+	flag    FL_ONGROUND_NORMAL
+	enemy
+	score   300
+
+        model   "models\cannons\cannon_3way\cannon_3way.mdl"
+        skin    "models\cannons\cannon_3way\cannons_3way_green.tga"
+
+	attach abs "cannon_3way_green_turret" "tag_turret"
+
+        script  "scripts\cannons\cannon_3way\cannonbase.scr"
+}
+
+
+
+cannon_3way_brown_guns {
+       model   "models\cannons\cannon_3way\cannon_3way_guns.mdl"
+       skin    "models\cannons\cannon_3way\cannons_3way_brown.tga"
+
+        script  "scripts\cannons\cannon_3way\cannon_3way_guns.scr"
+}
+
+cannon_3way_brown_turret {
+        model   "models\cannons\cannon_3way\cannon_3way_turret.mdl"
+        skin    "models\cannons\cannon_3way\cannons_3way_brown.tga"
+
+	attach abs id "GUNS" "cannon_3way_brown_guns" "tag_guns"
+
+        script  "scripts\cannons\cannon_3way\cannon_3way_turret.scr"
+}
+
+cannon_3way_brown {
+	health	400
+	flag    FL_ONGROUND_NORMAL
+	enemy
+	score   400
+
+        model   "models\cannons\cannon_3way\cannon_3way.mdl"
+        skin    "models\cannons\cannon_3way\cannons_3way_brown.tga"
+
+	attach abs "cannon_3way_brown_turret" "tag_turret"
+
+        script  "scripts\cannons\cannon_3way\cannonbase.scr"
+}
+
+
+
+cannon_3way_stone_guns {
+       model   "models\cannons\cannon_3way\cannon_3way_guns.mdl"
+       skin    "models\cannons\cannon_3way\cannons_3way_stone.tga"
+
+        script  "scripts\cannons\cannon_3way\cannon_3way_guns.scr"
+}
+
+cannon_3way_stone_turret {
+        model   "models\cannons\cannon_3way\cannon_3way_turret.mdl"
+        skin    "models\cannons\cannon_3way\cannons_3way_stone.tga"
+
+	attach abs id "GUNS" "cannon_3way_brown_guns" "tag_guns"
+
+        script  "scripts\cannons\cannon_3way\cannon_3way_turret.scr"
+}
+
+cannon_3way_stone {
+	health	500
+	flag    FL_ONGROUND_NORMAL
+	enemy
+	score   500
+
+	model   "models\cannons\cannon_3way\cannon_3way.mdl"
+	skin    "models\cannons\cannon_3way\cannons_3way_stone.tga"
+
+	attach abs "cannon_3way_stone_turret" "tag_turret"
+
+        script  "scripts\cannons\cannon_3way\cannonbase.scr"
+}
+
+
+
+//////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////// machine_gun_x2 /////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
+
+machine_gun_x2_guns {
+
+	model   "models\cannons\machine_gun_x2\machine_gun_x2_guns.mdl"
+	skin    "models\cannons\machine_gun_x2\machine_gun_x2.tga"
+
+        script  "scripts\cannons\machine_gun_x2\machine_gun_x2_guns.scr"
+}
+
+machine_gun_x2_turret {
+
+	model   "models\cannons\machine_gun_x2\machine_gun_x2_turret.mdl"
+	skin    "models\cannons\machine_gun_x2\machine_gun_x2.tga"
+
+	attach abs id "GUNS"  "machine_gun_x2_guns" "tag_guns"
+
+	script  "scripts\cannons\machine_gun_x2\machine_gun_x2_turret.scr"
+}
+
+machine_gun_x2 {
+
+	health	150
+	flag    FL_ONGROUND_NORMAL
+	enemy
+	score   150
+
+	model   "models\cannons\machine_gun_x2\machine_gun_x2.mdl"
+	skin    "models\cannons\machine_gun_x2\machine_gun_x2.tga"
+
+	attach abs "machine_gun_x2_turret" "tag_turret"
+
+	script  "scripts\cannons\machine_gun_x2\machine_gun_x2_base.scr"
+}
+
+machine_gun_x2_2_guns {
+
+	model   "models\cannons\machine_gun_x2\machine_gun_x2_guns.mdl"
+	skin    "models\cannons\machine_gun_x2\machine_gun_x2_2.tga"
+
+        script  "scripts\cannons\machine_gun_x2\machine_gun_x2_guns.scr"
+}
+
+machine_gun_x2_2_turret {
+
+	model   "models\cannons\machine_gun_x2\machine_gun_x2_turret.mdl"
+	skin    "models\cannons\machine_gun_x2\machine_gun_x2_2.tga"
+
+	attach abs id "GUNS"  "machine_gun_x2_2_guns" "tag_guns"
+
+	script  "scripts\cannons\machine_gun_x2\machine_gun_x2_turret.scr"
+}
+
+machine_gun_x2_2 {
+
+	health	200
+	flag    FL_ONGROUND_NORMAL
+	enemy
+	score   200
+
+	model   "models\cannons\machine_gun_x2\machine_gun_x2.mdl"
+	skin    "models\cannons\machine_gun_x2\machine_gun_x2_2.tga"
+
+	attach abs "machine_gun_x2_2_turret" "tag_turret"
+
+	script  "scripts\cannons\machine_gun_x2\machine_gun_x2_base.scr"
+}
+
+machine_gun_x2_3_guns {
+
+	model   "models\cannons\machine_gun_x2\machine_gun_x2_guns.mdl"
+	skin    "models\cannons\machine_gun_x2\machine_gun_x2_3.tga"
+
+        script  "scripts\cannons\machine_gun_x2\machine_gun_x2_guns.scr"
+}
+
+machine_gun_x2_3_turret {
+
+	model   "models\cannons\machine_gun_x2\machine_gun_x2_turret.mdl"
+	skin    "models\cannons\machine_gun_x2\machine_gun_x2_3.tga"
+
+	attach abs id "GUNS"  "machine_gun_x2_3_guns" "tag_guns"
+
+	script  "scripts\cannons\machine_gun_x2\machine_gun_x2_turret.scr"
+}
+
+machine_gun_x2_3 {
+
+	health	300
+	flag    FL_ONGROUND_NORMAL
+	enemy
+	score   300
+
+	model   "models\cannons\machine_gun_x2\machine_gun_x2.mdl"
+	skin    "models\cannons\machine_gun_x2\machine_gun_x2_3.tga"
+
+	attach abs "machine_gun_x2_3_turret" "tag_turret"
+
+	script  "scripts\cannons\machine_gun_x2\machine_gun_x2_base.scr"
+}
+
+
+//////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////// rocket_launcher //////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////
+
+rocket_launcher_gun {
+
+	model   "models\cannons\rocket_launcher\rocket_launcher_gun.mdl"
+	skin    "models\cannons\rocket_launcher\rocket_launcher.tga"
+
+	script  "scripts\cannons\rocket_launcher\rocket_launcher_gun.scr"
+}
+
+rocket_launcher_turret {
+
+	model   "models\cannons\rocket_launcher\rocket_launcher_turret.mdl"
+	skin    "models\cannons\rocket_launcher\rocket_launcher.tga"
+
+	attach abs "rocket_launcher_gun" "tag_gun"
+
+	script  "scripts\cannons\rocket_launcher\rocket_launcher_turret.scr"
+}
+
+rocket_launcher {
+
+	health	400
+	flag    FL_ONGROUND_NORMAL
+	enemy
+	score   400
+
+	model   "models\cannons\rocket_launcher\rocket_launcher.mdl"
+	skin    "models\cannons\rocket_launcher\rocket_launcher.tga"
+
+	attach abs "rocket_launcher_turret" "tag_turret"
+
+	script  "scripts\cannons\rocket_launcher\rocket_launcher.scr"
+}

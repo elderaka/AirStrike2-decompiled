@@ -1,0 +1,17 @@
+entry=-1 slots=16 functions=['create', 'remove']
+0000 INDEX_ADDRESS      a=-1 b=34 c=0 flags=0x00
+0001 GT                 a=0 b=0 c=0 flags=0x12 b_float=0
+0002 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+0003 RETURN             a=0 b=0 c=0 flags=0x00
+0004 MOVE               a=0 b=0 c=0 flags=0x10 b_float=0
+0005 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0006 CALL               a=-1 b=0 c=0 flags=0x00 external=create
+0007 MOVE               a=0 b=6 c=0 flags=0x10 b_float=8.40779e-45
+0008 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0009 CALL               a=-1 b=0 c=0 flags=0x00 external=create
+0010 MOVE               a=0 b=18 c=0 flags=0x10 b_float=2.52234e-44
+0011 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0012 CALL               a=-1 b=0 c=0 flags=0x00 external=create
+0013 MOVE               a=0 b=-1 c=0 flags=0x00
+0014 CALL               a=-2 b=0 c=0 flags=0x00 external=remove
+0015 YIELD              a=0 b=0 c=0 flags=0x00

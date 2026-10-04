@@ -1,0 +1,515 @@
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////// Mission 1 ////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+
+{
+	name		"Mission 1: Tutorial"
+
+	id		"mission1"
+
+	map		"maps\level1_tutor.hsc"
+	music		"music\track02.mo3"
+
+	textures	"textures\rock"
+
+	hmin		-200
+	hmax		150
+
+	sun		0.8 0.8 0.8   -1.0 -0.4 1.0  0.1 0.1 0.15
+
+	fog 		0.1 0.1 0.1   700 950
+}
+
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////// Mission 2 ////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+
+{
+	name		"Mission 2: Riot Call"
+
+	id		"mission2"
+
+	map		"maps\level2.hsc"
+	music		"music\track01.mo3"
+	textures	"textures\grass"
+
+	hmin		-120
+	hmax		130
+
+//	fog 		0.4 0.4 0.3   650 900
+
+//	sun		0.8 0.8 0.8   -1.0 -0.4 1.0  0.1 0.1 0.15
+
+	fog 		0.25 0.25 0.2   650 900
+
+	sun		0.4 0.4 0.25   -1.0 -0.5 0.5  0.1 0.1 0.1
+
+	water	 	"gfx\water\water_ocean_1.tga" "gfx\water\water_ocean_1_shine.tga" -68 0.5
+
+	night
+
+}
+
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////// Mission 3 ////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+
+{
+	name		"Mission 3: Lost Paradise"
+
+	id		"mission3"
+
+	map		"maps\level3.hsc"
+	music		"music\track04.mo3"
+
+	textures	"textures\grass"
+
+	hmin		-150
+	hmax		150
+
+	fog 		0.3 0.4 0.3   650 850
+
+	sun		0.9 0.9 0.6   -1.0 -0.2 1.0  0.15 0.15 0.05
+
+	water	 	"gfx\water\water_ocean_1.tga" "gfx\water\water_ocean_1_shine.tga" -97 0.4
+}
+
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////// Mission 4 ////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+
+{
+	name		"Mission 4: Sand Assault"
+
+	id		"mission4"
+
+	map		"maps\level4.hsc"
+	music		"music\track01.mo3"
+	textures	"textures\desert"
+
+	hmin		-270
+	hmax		200
+
+	fog 		0.4 0.4 0.25   620 900
+
+	sun		0.8 0.8 0.5  -0.7 -0.6 1.0  0.2 0.2 0.15
+
+	water	 	"gfx\water\water_sand_1.tga" "gfx\water\water_sand_1_shine.tga" -255 0.4
+
+	enableHelic	1
+}
+
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////// Mission 5 ////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+
+{
+	name		"Mission 5: Blood'n'Oil"
+
+	id		"mission5"
+
+	map		"maps\level5.hsc"
+	music		"music\track05.mo3"
+	textures	"textures\desert"
+
+	hmin		-100
+	hmax		170
+
+	fog 		0.4 0.4 0.3   650 900
+
+	sun		0.6 0.5 0.35   -1.0 -0.5 0.5  0.1 0.1 0.1
+
+//	water	 	"gfx\water\water_ocean_1.tga" "gfx\water\water_ocean_1_shine.tga" -400 0.5
+}
+
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////// Mission 6 ////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+
+{
+	name		"Mission 6: Machine of hate"
+
+	id		"mission6"
+
+	map		"maps\level_boss1.hsc"
+	music		"music\track04.mo3"
+	textures	"textures\badlands"
+
+	hmin		-400
+	hmax		300
+
+//	fog 		0.3 0.25 0.1   900 1000
+
+//	sun		0.3 0.25 0.25   -1.0 -0.6 1.0  0.15 0.2 0.15
+
+	fog 		0.2 0.12 0.12  900 1000
+
+	sun		0.4 0.3 0.3  -1.0 -0.4 0.6  0.1 0.1 0.3
+
+	water	 	"gfx\water\water_ocean_1.tga" "gfx\water\water_ocean_1_shine.tga" -300 0.5
+        
+	night
+}
+
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////// Mission 7 ////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+
+{
+	name		"Mission 7: Gold Isle"
+
+	id		"mission7"
+
+	map		"maps\bonus_level.hsc"
+	music		"music\track02.mo3"
+	textures	"textures\grass"
+
+	hmin		-170
+	hmax		200
+
+	fog 		0.26 0.24 0.16   650 900
+
+	sun		1.0 0.8 0.6  -0.7 -0.2 0.3   0.15 0.15 0.25
+
+	water	 	"gfx\water\water_ocean_1.tga" "gfx\water\water_ocean_1_shine.tga" -100 0.5
+
+	enableHelic	2
+}
+
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////// Mission 8 ////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+
+{
+	name		"Mission 8: Deep Strike"
+
+	id		"mission8"
+
+	map		"maps\level8.hsc"
+	music		"music\track03.mo3"
+	textures	"textures\rock"
+
+	hmin		-250
+	hmax		200
+
+	fog 		0.3 0.4 0.3   650 850
+
+	sun		0.5 0.5 0.35   -1.0 -0.5 0.5  0.1 0.1 0.1
+
+	water	 	"gfx\water\water_ocean_1.tga" "gfx\water\water_ocean_1_shine.tga" -50 0.5
+
+	night
+
+}
+
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////// Mission 9 ////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+
+{
+	name		"Mission 9: Dark Water"
+
+	id		"mission9"
+
+	map		"maps\level9.hsc"
+	music		"music\track04.mo3"
+	textures	"textures\rock_snow"
+
+	hmin		-250
+	hmax		200
+
+	fog 		0.5 0.5 0.55   600 800
+
+	sun		0.8 0.8 0.8   -1.0 -0.4 1.0  0.1 0.1 0.15
+
+	water	 	"gfx\water\water_ocean_1.tga" "gfx\water\water_ocean_1_shine.tga" -50 0.5
+}
+
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////// Mission 10 ///////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+
+{
+	name		"Mission 10: Frozen Fury"
+
+	id		"mission10"
+
+	map		"maps\level10.hsc"
+	music		"music\track01.mo3"
+	textures	"textures\snow"
+
+	hmin		-180
+	hmax		230
+
+//	fog 		0.3 0.3 0.3   600 800
+
+//	sun		0.4 0.4 0.4   -1.0 -0.4 1.0  0.2 0.2 0.2
+
+
+	fog 		0.5 0.5 0.55   600 800
+
+	sun		0.8 0.8 0.8   -1.0 -0.4 1.0  0.1 0.1 0.15
+
+	water	 	"gfx\water\water_ocean_1.tga" "gfx\water\water_ocean_1_shine.tga" -100 0.5
+
+	enableHelic	3
+}
+
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////// Mission 11 ///////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+
+{
+	name		"Mission 11: Flashpoint"
+
+	id		"mission11"
+
+	map		"maps\level11.hsc"
+	music		"music\track05.mo3"
+	textures	"textures\grass"
+
+	hmin		-150
+	hmax		250
+
+	fog 		0.15 0.2 0.15   650 850
+
+	sun		0.15 0.15 0.15   -1.0 -0.4 1.0  0.15 0.2 0.15
+
+	water	 	"gfx\water\water_ocean_1.tga" "gfx\water\water_ocean_1_shine.tga" -100 0.5
+        
+        night
+}
+
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////// Mission 12 ///////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+
+{
+	name		"Mission 12: Flying Beast"
+
+	id		"mission12"
+
+	map		"maps\level_boss2.hsc"
+	music		"music\track05.mo3"
+	textures	"textures\rock"
+
+	hmin		-270
+	hmax		350
+
+	sun		0.8 0.8 0.8   -1.0 -0.4 1.0  0.1 0.1 0.15
+
+	fog 		0.1 0.1 0.1   700 950
+       
+        water	 	"gfx\water\water_ocean_1.tga" "gfx\water\water_ocean_1_shine.tga" -250 0.7
+}
+
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////// Mission 13 ///////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+
+{
+	name		"Mission 13: Treasures of Ancients"
+
+	id		"mission13"
+
+	map		"maps\bonus_level2.hsc"
+	music		"music\track02.mo3"
+	textures	"textures\desert"
+
+	hmin		-300
+	hmax		300
+
+	fog 		0.3 0.25 0.1   700 900
+
+	sun		0.3 0.2 0.2   -1.0 -0.4 1.0  0.15 0.2 0.15
+
+	water	 	"gfx\water\water_ocean_1.tga" "gfx\water\water_ocean_1_shine.tga" -250 0.5
+
+	enableHelic	4
+}
+
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////// Mission 14 ///////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+
+{
+	name		"Mission 14: Close Combat"
+
+	id		"mission14"
+
+	map		"maps\level14.hsc"
+	music		"music\track01.mo3"
+	textures	"textures\grass"
+
+	hmin		-150
+	hmax		200
+
+//	fog 		0.15 0.2 0.15   600 750
+
+//	sun		0.8 0.8 0.8   -1.0 -0.4 1.0  0.1 0.1 0.15
+
+	fog 		0.3 0.4 0.3   650 850
+
+	sun		0.9 0.9 0.6   -1.0 -0.2 1.0  0.15 0.15 0.05
+
+
+	water	 	"gfx\water\water_ocean_1.tga" "gfx\water\water_ocean_1_shine.tga" -70 0.5
+}
+
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////// Mission 15 ///////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+
+{
+	name		"Mission 15: Burning Wasteland"
+
+	id		"mission15"
+
+	map		"maps\level15.hsc"
+	music		"music\track04.mo3"
+	textures	"textures\badlands"
+
+	hmin		-190
+	hmax		250
+
+	fog 		0.2 0.12 0.12  630 850
+
+	sun		0.4 0.3 0.3  -1.0 -0.4 0.6  0.1 0.1 0.3
+
+	water	 	"gfx\water\water_lava2.tga" "gfx\water\water_ocean_1_shine.tga" -100 0.5
+        
+	night
+}
+
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////// Mission 16 ///////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+
+{
+	name		"Mission 16: Industrial Scar"
+
+	id		"mission16"
+
+	map		"maps\level16.hsc"
+	music		"music\track04.mo3"
+	textures	"textures\badlands"
+
+	hmin		-190
+	hmax		250
+
+	fog 		0.15 0.1 0.1  630 850
+
+	sun		0.4 0.35 0.35  -1.0 -0.4 0.6  0.1 0.1 0.3
+
+	water	 	"gfx\water\water_lava2.tga" "gfx\water\water_ocean_1_shine.tga" -100 0.5
+        
+	night
+
+	enableHelic	5
+}
+
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////// Mission 17 ///////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+
+{
+	name		"Mission 17: Canyon Crisis"
+
+	id		"mission17"
+
+	map		"maps\level17.hsc"
+	music		"music\track05.mo3"
+	textures	"textures\rock_snow"
+
+	hmin		-250
+	hmax		200
+
+//	fog 		0.1 0.1 0.1   950 1350
+
+//	sun		0.6 0.3 0.37   -1.0 -0.4 1.0  0.15 0.2 0.15
+
+	fog 		0.35 0.25 0.25   650 900
+
+	sun		1.0 0.7 0.45  -0.7 1 0.6  0.1 0.1 0.2
+
+	water	 	"gfx\water\water_ocean_1.tga" "gfx\water\water_ocean_1_shine.tga" -230 0.5
+
+	night
+}
+
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////// Mission 12 ///////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+
+{
+	name		"Mission 18: Judgement Day"
+
+	id		"mission18"
+
+	map		"maps\level_boss3.hsc"
+	music		"music\track05.mo3"
+//	textures	"textures\rock"
+	textures	"textures\badlands"
+
+	hmin		-270
+	hmax		350
+
+//	fog 		0.15 0.1 0.1  700 950
+
+//	sun		0.4 0.35 0.35  -1.0 -0.4 0.6  0.1 0.1 0.3
+
+	fog 		0.2 0.12 0.12  700 950
+
+	sun		0.45 0.3 0.3  -1.0 -0.4 0.6  0.1 0.1 0.4
+
+       
+//        water	 	"gfx\water\water_ocean_1.tga" "gfx\water\water_ocean_1_shine.tga" -200 0.7
+	water	 	"gfx\water\water_lava2.tga" "gfx\water\water_ocean_1_shine.tga" -200 0.5
+
+	night
+}
+
+
+//------------------------------------------------------------------------//
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////// Intro`s ///////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//------------------------------------------------------------------------//
+
+{
+	id		"intro1"
+
+	intermission	150 256 200   -60 0 30
+
+	map		"maps\intro2.hsc"
+	music		"music\track03.mo3"
+	textures	"textures\grass"
+
+	hmin		-150
+	hmax		160
+
+	fog 		0.36 0.32 0.22  500 1000
+
+	sun		0.8 0.8 0.8  -1.0 -0.4 1.0  0.1 0.1 0.14
+        
+        water	 	"gfx\water\water_ocean_1.tga" "gfx\water\water_ocean_1_shine.tga" -100 0.5
+}
+
+{
+	id		"intro2"
+
+	intermission	150 256 200   -60 0 30
+
+	map		"maps\intro1.hsc"
+	music		"music\track03.mo3"
+	textures	"textures\snow"
+
+	hmin		-150
+	hmax		160
+
+	fog 		0.35 0.35 0.5  500 1000
+
+	sun		0.2 0.2 0.27   -1.0 -0.4 1.0  0.1 0.1 0.14
+        
+        water	 	"gfx\water\water_ocean_1.tga" "gfx\water\water_ocean_1_shine.tga" -100 0.5
+}

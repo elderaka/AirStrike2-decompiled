@@ -1,0 +1,61 @@
+entry=50 slots=17 functions=['AttachDeactivate', 'AttachActivate', 'random', 'create', 'remove', 'sleep', 'lMoveToNextWP', 'lRotateToNextWP']
+0000 INDEX_ADDRESS      a=-1 b=23 c=0 flags=0x00
+0001 MOVE               a=0 b=1112014848 c=0 flags=0x92 b_float=50
+0002 INDEX_ADDRESS      a=-1 b=24 c=0 flags=0x00
+0003 MOVE               a=0 b=1112014848 c=0 flags=0x92 b_float=50
+0004 MOVE               a=0 b=0 c=0 flags=0x10 b_float=0
+0005 CALL               a=-1 b=0 c=0 flags=0x00 external=AttachDeactivate
+0006 YIELD              a=0 b=0 c=0 flags=0x00
+0007 INDEX_ADDRESS      a=-1 b=34 c=0 flags=0x00
+0008 LT                 a=0 b=1112014848 c=0 flags=0x12 b_float=50
+0009 JUMP_IF_NONZERO    a=0 b=3 c=0 flags=0x00
+0010 MOVE               a=0 b=20 c=0 flags=0x10 b_float=2.8026e-44
+0011 CALL               a=-2 b=0 c=0 flags=0x00 external=AttachActivate
+0012 INDEX_ADDRESS      a=-1 b=34 c=0 flags=0x00
+0013 GT                 a=0 b=0 c=0 flags=0x12 b_float=0
+0014 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+0015 RETURN             a=0 b=0 c=0 flags=0x00
+0016 PUSH               a=0 b=0 c=0 flags=0x00
+0017 CALL               a=-3 b=1 c=0 flags=0x00 external=random
+0018 POP                a=0 b=0 c=0 flags=0x00
+0019 MOVE               a=16 b=1 c=0 flags=0x00
+0020 GE                 a=16 b=1058642330 c=0 flags=0x10 b_float=0.6
+0021 JUMP_IF_NONZERO    a=0 b=5 c=0 flags=0x00
+0022 MOVE               a=0 b=40 c=0 flags=0x10 b_float=5.60519e-44
+0023 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0024 CALL               a=-4 b=0 c=0 flags=0x00 external=create
+0025 JUMP               a=10 b=0 c=0 flags=0x00
+0026 GE                 a=16 b=1050253722 c=0 flags=0x10 b_float=0.3
+0027 JUMP_IF_NONZERO    a=0 b=5 c=0 flags=0x00
+0028 MOVE               a=0 b=46 c=0 flags=0x10 b_float=6.44597e-44
+0029 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0030 CALL               a=-4 b=0 c=0 flags=0x00 external=create
+0031 JUMP               a=4 b=0 c=0 flags=0x00
+0032 MOVE               a=0 b=52 c=0 flags=0x10 b_float=7.28675e-44
+0033 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0034 CALL               a=-4 b=0 c=0 flags=0x00 external=create
+0035 CALL               a=-3 b=0 c=0 flags=0x00 external=random
+0036 GE                 a=0 b=1058642330 c=0 flags=0x10 b_float=0.6
+0037 JUMP_IF_NONZERO    a=0 b=5 c=0 flags=0x00
+0038 MOVE               a=0 b=58 c=0 flags=0x10 b_float=8.12753e-44
+0039 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0040 CALL               a=-4 b=0 c=0 flags=0x00 external=create
+0041 JUMP               a=4 b=0 c=0 flags=0x00
+0042 MOVE               a=0 b=68 c=0 flags=0x10 b_float=9.52883e-44
+0043 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0044 CALL               a=-4 b=0 c=0 flags=0x00 external=create
+0045 MOVE               a=0 b=79 c=0 flags=0x10 b_float=1.10703e-43
+0046 CALL               a=-1 b=0 c=0 flags=0x00 external=AttachDeactivate
+0047 MOVE               a=0 b=-1 c=0 flags=0x00
+0048 CALL               a=-5 b=0 c=0 flags=0x00 external=remove
+0049 YIELD              a=0 b=0 c=0 flags=0x00
+0050 INDEX_ADDRESS      a=-1 b=37 c=0 flags=0x00
+0051 GT                 a=0 b=0 c=0 flags=0x12 b_float=0
+0052 JUMP_IF_NONZERO    a=0 b=4 c=0 flags=0x00
+0053 INDEX_ADDRESS      a=-1 b=37 c=0 flags=0x00
+0054 SET_WAIT           a=0 b=0 c=0 flags=0x02
+0055 CALL_WAIT          a=-6 b=0 c=0 flags=0x00 external=sleep
+0056 MOVE               a=0 b=0 c=0 flags=0x10 b_float=0
+0057 CALL_WAIT          a=-7 b=0 c=0 flags=0x00 external=lMoveToNextWP
+0058 CALL_WAIT          a=-8 b=0 c=0 flags=0x00 external=lRotateToNextWP
+0059 YIELD              a=0 b=0 c=0 flags=0x00

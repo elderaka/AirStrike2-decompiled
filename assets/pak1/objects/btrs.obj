@@ -1,0 +1,577 @@
+/////////////////////BTR//////////////////////
+
+btr_dead {
+	model   "models/btrs/btr_dead.mdl"
+	skin    "models/btrs/btr_dead.tga"	
+	shadow	SHADOW_PLANAR_LOW
+
+	attach id "CAMPFIRE" "campfire" "origin"
+	attach id "CAMPFIRE_SMALL" "campfire_small" "origin"
+	script	"scripts\dead2.scr"
+}
+
+btr_dead2 {
+	model   "models/btrs/btr_dead2.mdl"
+	skin    "models/btrs/btr_dead.tga"	
+	shadow	SHADOW_PLANAR_LOW
+
+	attach id "CAMPFIRE" "campfire" "origin"
+	attach id "CAMPFIRE_SMALL" "campfire_small" "origin"
+	script	"scripts\dead2.scr"
+}
+
+/////////////////////////////////////////////////
+
+btr_green_guns {
+        model   "models/btrs/btr_small/btr_guns.mdl"
+        skin    "models/btrs/btr_small/btr_green.tga"
+
+        script  "scripts\btrs\btr\btr_guns.scr"
+}
+
+
+btr_green_cannon {
+        model   "models/btrs/btr_small/btr_b.mdl"
+        skin    "models/btrs/btr_small/btr_green.tga"
+
+	attach	abs id "GUNS" "btr_green_guns" "tag_guns"	
+
+        script  "scripts\btrs\btr\btr_cannon.scr"
+}
+
+btr_green {
+        health  340
+        flag    FL_ONGROUND_NORMAL
+	enemy
+	score   450
+
+        model   "models/btrs/btr_small/btr.mdl"
+        skin    "models/btrs/btr_small/btr_green.tga"
+        shadow  SHADOW_PLANAR_LOW
+
+	attach  "helic_redflare"        "tag_flare"
+        attach abs "btr_green_cannon" "tag_cannon"
+	attach abs night "svet_far" "tag_fara1"
+	attach abs night "svet_far_wol" "tag_fara2"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+        script  "scripts\btrs\btr\btr.scr"
+}
+
+
+/////////////////////////////////////////////////
+
+btr_white_guns {
+        model   "models/btrs/btr_small/btr_guns.mdl"
+        skin    "models/btrs/btr_small/btr_white.tga"
+
+        script  "scripts\btrs\btr\btr_guns.scr"
+}
+
+btr_white_cannon {
+        model   "models/btrs/btr_small/btr_b.mdl"
+        skin    "models/btrs/btr_small/btr_white.tga"
+
+	attach	abs id "GUNS" "btr_white_guns" "tag_guns"	
+
+        script  "scripts\btrs\btr\btr_cannon.scr"
+}
+
+btr_white {
+        health  430
+        flag    FL_ONGROUND_NORMAL
+	enemy
+	score   550
+
+        model   "models/btrs/btr_small/btr.mdl"
+        skin    "models/btrs/btr_small/btr_white.tga"
+        shadow  SHADOW_PLANAR_LOW
+
+	attach  "helic_redflare"        "tag_flare"
+        attach abs "btr_white_cannon" "tag_cannon"
+	attach abs night "svet_far" "tag_fara1"
+	attach abs night "svet_far_wol" "tag_fara2"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+        script  "scripts\btrs\btr\btr.scr"
+}
+
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////// btr_small_1 ///////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+
+btr_small_1_green_guns {
+        model   "models/btrs/btr_small_1/btr_small_1_guns.mdl"
+        skin    "models/btrs/btr_small_1/btr_small_1_green.tga"
+
+        script  "scripts\btrs\btr_small_1\btr_small_1_guns.scr"
+}
+
+
+btr_small_1_green_turret {
+        model   "models/btrs/btr_small_1/btr_small_1_turret.mdl"
+        skin    "models/btrs/btr_small_1/btr_small_1_green.tga"
+
+	attach	abs id "GUNS" "btr_small_1_green_guns" "tag_guns"	
+
+        script  "scripts\btrs\btr_small_1\btr_small_1_turret.scr"
+}
+
+btr_small_1_green {
+        health  500
+        flag    FL_ONGROUND_NORMAL
+	enemy
+	score   500
+
+	skid_mark  11 0 9 "gfx/marks/jeepmark1.tga"
+	skid_mark -11 0 9 "gfx/marks/jeepmark1.tga"
+
+        model   "models/btrs/btr_small_1/btr_small_1_base.mdl"
+        skin    "models/btrs/btr_small_1/btr_small_1_green.tga"
+        shadow  SHADOW_PLANAR_LOW
+
+        attach abs "btr_small_1_green_turret" "tag_turret"
+	attach abs night "svet_far" "tag_fara01"
+	attach abs "btr_small_1_green_wh" "tag_wh01"
+	attach abs "btr_small_1_green_wh" "tag_wh02"
+	attach abs "btr_small_1_green_wh" "tag_wh03"
+	attach abs night "svet_far_wol" "tag_fara02"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+        script  "scripts\btrs\btr_small_1\btr_small_1.scr"
+}
+
+btr_small_1_green_wh {
+	model	"models\btrs\btr_small_1\btr_small_1_wh.mdl"
+	skin	"models\btrs\btr_small_1\btr_small_1_green.tga"
+
+        script  "scripts\btrs\btr_small_1\btr_small_1_wheel.scr"
+}
+
+
+
+btr_small_1_white_guns {
+        model   "models/btrs/btr_small_1/btr_small_1_guns.mdl"
+        skin    "models/btrs/btr_small_1/btr_small_1_white.tga"
+
+        script  "scripts\btrs\btr_small_1\btr_small_1_guns.scr"
+}
+
+
+btr_small_1_white_turret {
+        model   "models/btrs/btr_small_1/btr_small_1_turret.mdl"
+        skin    "models/btrs/btr_small_1/btr_small_1_white.tga"
+
+	attach	abs id "GUNS" "btr_small_1_white_guns" "tag_guns"	
+
+        script  "scripts\btrs\btr_small_1\btr_small_1_turret.scr"
+}
+
+btr_small_1_white {
+        health  600
+        flag    FL_ONGROUND_NORMAL
+	enemy
+	score   600
+
+	skid_mark  11 0 9 "gfx/marks/jeepmark1.tga"
+	skid_mark -11 0 9 "gfx/marks/jeepmark1.tga"
+
+        model   "models/btrs/btr_small_1/btr_small_1_base.mdl"
+        skin    "models/btrs/btr_small_1/btr_small_1_white.tga"
+        shadow  SHADOW_PLANAR_LOW
+
+        attach abs "btr_small_1_white_turret" "tag_turret"
+	attach abs night "svet_far" "tag_fara01"
+	attach abs "btr_small_1_white_wh" "tag_wh01"
+	attach abs "btr_small_1_white_wh" "tag_wh02"
+	attach abs "btr_small_1_white_wh" "tag_wh03"
+	attach abs night "svet_far_wol" "tag_fara02"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+        script  "scripts\btrs\btr_small_1\btr_small_1.scr"
+}
+
+btr_small_1_white_wh {
+	model	"models\btrs\btr_small_1\btr_small_1_wh.mdl"
+	skin	"models\btrs\btr_small_1\btr_small_1_white.tga"
+
+        script  "scripts\btrs\btr_small_1\btr_small_1_wheel.scr"
+}
+
+
+
+btr_small_1_yellow_guns {
+        model   "models/btrs/btr_small_1/btr_small_1_guns.mdl"
+        skin    "models/btrs/btr_small_1/btr_small_1_yellow.tga"
+
+        script  "scripts\btrs\btr_small_1\btr_small_1_guns.scr"
+}
+
+
+btr_small_1_yellow_turret {
+        model   "models/btrs/btr_small_1/btr_small_1_turret.mdl"
+        skin    "models/btrs/btr_small_1/btr_small_1_yellow.tga"
+
+	attach	abs id "GUNS" "btr_small_1_yellow_guns" "tag_guns"	
+
+        script  "scripts\btrs\btr_small_1\btr_small_1_turret.scr"
+}
+
+btr_small_1_yellow {
+        health  500
+        flag    FL_ONGROUND_NORMAL
+	enemy
+	score   500
+
+	skid_mark  11 0 9 "gfx/marks/jeepmark1.tga"
+	skid_mark -11 0 9 "gfx/marks/jeepmark1.tga"
+
+        model   "models/btrs/btr_small_1/btr_small_1_base.mdl"
+        skin    "models/btrs/btr_small_1/btr_small_1_yellow.tga"
+        shadow  SHADOW_PLANAR_LOW
+
+        attach abs "btr_small_1_yellow_turret" "tag_turret"
+	attach abs night "svet_far" "tag_fara01"
+	attach abs "btr_small_1_yellow_wh" "tag_wh01"
+	attach abs "btr_small_1_yellow_wh" "tag_wh02"
+	attach abs "btr_small_1_yellow_wh" "tag_wh03"
+	attach abs night "svet_far_wol" "tag_fara02"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+        script  "scripts\btrs\btr_small_1\btr_small_1.scr"
+}
+
+btr_small_1_yellow_wh {
+	model	"models\btrs\btr_small_1\btr_small_1_wh.mdl"
+	skin	"models\btrs\btr_small_1\btr_small_1_yellow.tga"
+
+        script  "scripts\btrs\btr_small_1\btr_small_1_wheel.scr"
+}
+
+
+
+////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////// btr_small_brdm //////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////
+
+btr_small_brdm_green_gun {
+        model   "models/btrs/btr_small_brdm/btr_small_brdm_gun.mdl"
+        skin    "models/btrs/btr_small_brdm/btr_small_brdm_green.tga"
+
+        
+	script	"scripts\btrs\btr_small_brdm\btr_small_brdm_guns.scr"
+}
+
+btr_small_brdm_green_wh {
+         model   "models/btrs/btr_small_brdm/btr_small_brdm_wh.mdl"
+         skin    "models/btrs/btr_small_brdm/btr_small_brdm_green.tga"
+
+	script	"scripts\btrs\btr_small_brdm\btr_small_brdm_wheel.scr"
+}
+
+btr_small_brdm_green_turret {
+        
+         model   "models/btrs/btr_small_brdm/btr_small_brdm_turret.mdl"
+         skin    "models/btrs/btr_small_brdm/btr_small_brdm_green.tga"
+
+	 attach	abs id "GUNS" "btr_small_brdm_green_gun" "tag_gun"	
+
+	script	"scripts\btrs\btr_small_brdm\btr_small_brdm_turret.scr"
+}
+
+btr_small_brdm_green {
+        
+        health  250
+        flag    FL_ONGROUND_NORMAL
+	enemy
+	score   250
+
+	skid_mark  10 12 5 "gfx/marks/jeepmark1.tga"
+	skid_mark -10 12 5 "gfx/marks/jeepmark1.tga"
+
+        model   "models/btrs/btr_small_brdm/btr_small_brdm.mdl"
+        skin    "models/btrs/btr_small_brdm/btr_small_brdm_green.tga"
+        shadow  SHADOW_PLANAR_LOW
+
+        attach abs "btr_small_brdm_green_turret" "tag_turret"
+        attach abs "btr_small_brdm_green_wh" "tag_wheels01"
+        attach abs "btr_small_brdm_green_wh" "tag_wheels02"
+        
+	attach abs night "svet_far" "tag_fara01"
+	attach abs night "svet_far_wol" "tag_fara02"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\btrs\btr_small_brdm\btr_small_brdm.scr"
+}
+
+
+/////////////////////////////////////////////////
+
+btr_small_brdm_desert_gun {
+        model   "models/btrs/btr_small_brdm/btr_small_brdm_gun.mdl"
+        skin    "models/btrs/btr_small_brdm/btr_small_brdm_desert.tga"
+
+        
+	script	"scripts\btrs\btr_small_brdm\btr_small_brdm_guns.scr"
+}
+
+btr_small_brdm_desert_wh {
+         model   "models/btrs/btr_small_brdm/btr_small_brdm_wh.mdl"
+         skin    "models/btrs/btr_small_brdm/btr_small_brdm_desert.tga"
+
+	script	"scripts\btrs\btr_small_brdm\btr_small_brdm_wheel.scr"
+}
+
+btr_small_brdm_desert_turret {
+        
+         model   "models/btrs/btr_small_brdm/btr_small_brdm_turret.mdl"
+         skin    "models/btrs/btr_small_brdm/btr_small_brdm_desert.tga"
+
+	 attach	abs id "GUNS" "btr_small_brdm_desert_gun" "tag_gun"	
+
+	script	"scripts\btrs\btr_small_brdm\btr_small_brdm_turret.scr"
+}
+
+btr_small_brdm_desert {
+        
+        health  350
+        flag    FL_ONGROUND_NORMAL
+	enemy
+	score   350
+
+	skid_mark  10 12 5 "gfx/marks/jeepmark1.tga"
+	skid_mark -10 12 5 "gfx/marks/jeepmark1.tga"
+
+        model   "models/btrs/btr_small_brdm/btr_small_brdm.mdl"
+        skin    "models/btrs/btr_small_brdm/btr_small_brdm_desert.tga"
+        shadow  SHADOW_PLANAR_LOW
+
+        attach abs "btr_small_brdm_desert_turret" "tag_turret"
+        attach abs "btr_small_brdm_desert_wh" "tag_wheels01"
+        attach abs "btr_small_brdm_desert_wh" "tag_wheels02"
+	attach abs night "svet_far" "tag_fara01"
+	attach abs night "svet_far_wol" "tag_fara02"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\btrs\btr_small_brdm\btr_small_brdm.scr"
+}
+
+
+/////////////////////////////////////////////////
+
+btr_small_brdm_white_gun {
+        model   "models/btrs/btr_small_brdm/btr_small_brdm_gun.mdl"
+        skin    "models/btrs/btr_small_brdm/btr_small_brdm_white.tga"
+
+        
+	script	"scripts\btrs\btr_small_brdm\btr_small_brdm_guns.scr"
+}
+
+btr_small_brdm_white_wh {
+         model   "models/btrs/btr_small_brdm/btr_small_brdm_wh.mdl"
+         skin    "models/btrs/btr_small_brdm/btr_small_brdm_white.tga"
+
+	script	"scripts\btrs\btr_small_brdm\btr_small_brdm_wheel.scr"
+}
+
+btr_small_brdm_white_turret {
+        
+	model   "models/btrs/btr_small_brdm/btr_small_brdm_turret.mdl"
+	skin    "models/btrs/btr_small_brdm/btr_small_brdm_white.tga"
+
+	attach	abs id "GUNS" "btr_small_brdm_desert_gun" "tag_gun"	
+
+	script	"scripts\btrs\btr_small_brdm\btr_small_brdm_turret.scr"
+}
+
+btr_small_brdm_white {
+        
+        health  350
+        flag    FL_ONGROUND_NORMAL
+	enemy
+	score   350
+
+	skid_mark  10 12 5 "gfx/marks/jeepmark1.tga"
+	skid_mark -10 12 5 "gfx/marks/jeepmark1.tga"
+
+        model   "models/btrs/btr_small_brdm/btr_small_brdm.mdl"
+        skin    "models/btrs/btr_small_brdm/btr_small_brdm_white.tga"
+        shadow  SHADOW_PLANAR_LOW
+
+        attach abs "btr_small_brdm_white_turret" "tag_turret"
+        attach abs "btr_small_brdm_white_wh" "tag_wheels01"
+        attach abs "btr_small_brdm_white_wh" "tag_wheels02"
+	attach abs night "svet_far" "tag_fara01"
+	attach abs night "svet_far_wol" "tag_fara02"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\btrs\btr_small_brdm\btr_small_brdm.scr"
+}
+
+////////////////////////////////////////////////////////////////////////
+////////////////////////// btr_rocket //////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+
+btr_rocket_green_wh {
+
+	model   "models/btrs/btr_rocket/btr_rocket_wh.mdl"
+	skin    "models/btrs/btr_rocket/btr_rocket_green.tga"
+
+	script	"scripts\btrs\btr_rocket\btr_rocket_wheel.scr"
+}
+
+btr_rocket_green_gun {
+
+	model   "models/btrs/btr_rocket/btr_rocket_gun.mdl"
+	skin    "models/btrs/btr_rocket/btr_rocket_green.tga"
+
+	script	"scripts\btrs\btr_rocket\btr_rocket_guns.scr"
+}
+
+btr_rocket_green_turret {
+
+	model   "models/btrs/btr_rocket/btr_rocket_turret.mdl"
+	skin    "models/btrs/btr_rocket/btr_rocket_green.tga"
+
+	attach	abs id "GUNS" "btr_rocket_green_gun" "tag_gun"	
+
+	script	"scripts\btrs\btr_rocket\btr_rocket_cannon.scr"
+}
+
+btr_rocket_green {
+
+	health  350
+	flag    FL_ONGROUND_NORMAL
+	enemy
+	score   350
+
+	skid_mark  12 0 6 "gfx/marks/jeepmark1.tga"
+	skid_mark -12 0 6 "gfx/marks/jeepmark1.tga"
+
+	model   "models/btrs/btr_rocket/btr_rocket.mdl"
+	skin    "models/btrs/btr_rocket/btr_rocket_green.tga"
+	shadow  SHADOW_PLANAR_LOW
+
+	attach abs "btr_rocket_green_turret" "tag_turret"
+	attach abs "btr_rocket_green_wh" "tag_wh01"
+	attach abs "btr_rocket_green_wh" "tag_wh02"
+	attach abs "btr_rocket_green_wh" "tag_wh03"
+	attach abs "btr_rocket_green_wh" "tag_wh04"
+        
+	attach abs night "svet_far" "tag_fara01"
+	attach abs night "svet_far_wol" "tag_fara02"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\btrs\btr_rocket\btr_rocket.scr"
+}
+
+///////////////////////////////////////////////////////////////////////
+
+btr_rocket_snow_wh {
+
+	model   "models/btrs/btr_rocket/btr_rocket_wh.mdl"
+	skin    "models/btrs/btr_rocket/btr_rocket_snow.tga"
+
+	script	"scripts\btrs\btr_rocket\btr_rocket_wheel.scr"
+}
+
+btr_rocket_snow_gun {
+
+	model   "models/btrs/btr_rocket/btr_rocket_gun.mdl"
+	skin    "models/btrs/btr_rocket/btr_rocket_snow.tga"
+
+	script	"scripts\btrs\btr_rocket\btr_rocket_guns.scr"
+}
+
+btr_rocket_snow_turret {
+
+	model   "models/btrs/btr_rocket/btr_rocket_turret.mdl"
+	skin    "models/btrs/btr_rocket/btr_rocket_snow.tga"
+
+	attach	abs id "GUNS" "btr_rocket_snow_gun" "tag_gun"	
+
+	script	"scripts\btrs\btr_rocket\btr_rocket_cannon.scr"
+}
+
+btr_rocket_snow {
+
+	health  500
+	flag    FL_ONGROUND_NORMAL
+	enemy
+	score   600
+
+	skid_mark  12 0 6 "gfx/marks/jeepmark1.tga"
+	skid_mark -12 0 6 "gfx/marks/jeepmark1.tga"
+
+	model   "models/btrs/btr_rocket/btr_rocket.mdl"
+	skin    "models/btrs/btr_rocket/btr_rocket_snow.tga"
+	shadow  SHADOW_PLANAR_LOW
+
+	attach abs "btr_rocket_snow_turret" "tag_turret"
+	attach abs "btr_rocket_snow_wh" "tag_wh01"
+	attach abs "btr_rocket_snow_wh" "tag_wh02"
+	attach abs "btr_rocket_snow_wh" "tag_wh03"
+	attach abs "btr_rocket_snow_wh" "tag_wh04"
+        
+	attach abs night "svet_far" "tag_fara01"
+	attach abs night "svet_far_wol" "tag_fara02"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\btrs\btr_rocket\btr_rocket.scr"
+}
+
+///////////////////////////////////////////////////////////////////////
+
+btr_rocket_desert_wh {
+
+	model   "models/btrs/btr_rocket/btr_rocket_wh.mdl"
+	skin    "models/btrs/btr_rocket/btr_rocket_desert.tga"
+
+	script	"scripts\btrs\btr_rocket\btr_rocket_wheel.scr"
+}
+
+btr_rocket_desert_gun {
+
+	model   "models/btrs/btr_rocket/btr_rocket_gun.mdl"
+	skin    "models/btrs/btr_rocket/btr_rocket_desert.tga"
+
+	script	"scripts\btrs\btr_rocket\btr_rocket_guns.scr"
+}
+
+btr_rocket_desert_turret {
+
+	model   "models/btrs/btr_rocket/btr_rocket_turret.mdl"
+	skin    "models/btrs/btr_rocket/btr_rocket_desert.tga"
+
+	attach	abs id "GUNS" "btr_rocket_desert_gun" "tag_gun"	
+
+	script	"scripts\btrs\btr_rocket\btr_rocket_cannon.scr"
+}
+
+btr_rocket_desert {
+
+	health  400
+	flag    FL_ONGROUND_NORMAL
+	enemy
+	score   400
+
+	skid_mark  12 0 6 "gfx/marks/jeepmark1.tga"
+	skid_mark -12 0 6 "gfx/marks/jeepmark1.tga"
+
+	model   "models/btrs/btr_rocket/btr_rocket.mdl"
+	skin    "models/btrs/btr_rocket/btr_rocket_desert.tga"
+	shadow  SHADOW_PLANAR_LOW
+
+	attach abs "btr_rocket_desert_turret" "tag_turret"
+        
+	attach abs "btr_rocket_desert_wh" "tag_wh01"
+	attach abs "btr_rocket_desert_wh" "tag_wh02"
+	attach abs "btr_rocket_desert_wh" "tag_wh03"
+	attach abs "btr_rocket_desert_wh" "tag_wh04"
+        
+	attach abs night "svet_far" "tag_fara01"
+	attach abs night "svet_far_wol" "tag_fara02"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\btrs\btr_rocket\btr_rocket.scr"
+}

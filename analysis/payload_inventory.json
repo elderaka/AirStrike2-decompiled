@@ -1,0 +1,77 @@
+[
+  {
+    "path": "app\\AirStrike2.exe",
+    "size": 417792,
+    "sha256": "efba05b176776369ac9f9dceb04c62193730a58b12bc1685c1106cef3d0ce58a"
+  },
+  {
+    "path": "app\\as3d2_icon.ico",
+    "size": 2238,
+    "sha256": "6b83e9c36e34901ebc02130368b5b8f8ab18beac421213d9300de4aec8b48df4"
+  },
+  {
+    "path": "app\\bass.dll",
+    "size": 95288,
+    "sha256": "129a2d333eb4390a4b5065fe2e442b70341457806784638bdb4172d842d54d8a"
+  },
+  {
+    "path": "app\\config.ini",
+    "size": 809,
+    "sha256": "9d8c1bc3f9f8244ca50e8d160b5b0a50a3de2e5a371935bf00a559050f34004a"
+  },
+  {
+    "path": "app\\game.exe",
+    "size": 57344,
+    "sha256": "70934ce32cef37bf25d7a207110b2760242e634b227c56f9a97a858cba19f16a"
+  },
+  {
+    "path": "app\\link.ico",
+    "size": 25214,
+    "sha256": "11891726d40064e992e7f763b22740cd0cc9e5c88649b3d00ec68d4fd5be2a43"
+  },
+  {
+    "path": "app\\link.url",
+    "size": 162,
+    "sha256": "035ebcfb1f88cc0ed7d25aff44afc75a7a28c228b14678cd2bf2e6f681659b3f"
+  },
+  {
+    "path": "app\\XbrowserLite.exe",
+    "size": 820224,
+    "sha256": "fc64755aae4a01a6d1236a7df72a629074e88af9b511cb9e58b3a30f62ab9665"
+  },
+  {
+    "path": "app\\data\\pak0.apk",
+    "size": 39411244,
+    "sha256": "989b8324922a018c3d76a78583c419f94901393cac61409415df3623a06e1afa"
+  },
+  {
+    "path": "app\\data\\pak1.apk",
+    "size": 2459895,
+    "sha256": "858f176fd875f7c84439fb2398b1d37d1292afb708f0b63c0f2faa96efe46952"
+  },
+  {
+    "path": "app\\data\\pak2.apk",
+    "size": 5953690,
+    "sha256": "bc29cf7375e5557f3e9e19278e5318e77324d3f32d57f64116387712050c6175"
+  },
+  {
+    "path": "app\\data\\Settings.xml",
+    "size": 1001,
+    "sha256": "61c133051d09de543d93864cfa1bc6206bcc44230a9c1efc260088f6d3a04f83"
+  },
+  {
+    "path": "app\\data\\gfx\\logo2.tga",
+    "size": 786476,
+    "sha256": "3a2d251fb1359ef721839c187849b0b9e741546ec72eca579c9c4eb8b5f1300e"
+  },
+  {
+    "path": "app\\data\\gfx\\logo\\glow.tga",
+    "size": 196652,
+    "sha256": "2dced7604a365c28d91dcaebbbf7dc30778122394a13a64ecd73f1369528cfa2"
+  },
+  {
+    "path": "app\\data\\gfx\\logo\\logo.tga",
+    "size": 262188,
+    "sha256": "37207008de53f4c1545d8b8e034a1ff969ff28615eaa8b1e455144360bceb679"
+  }
+]

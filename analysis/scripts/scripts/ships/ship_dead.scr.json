@@ -1,0 +1,254 @@
+{
+  "header_words": [
+    1280525138,
+    16,
+    0,
+    2,
+    2,
+    0,
+    16,
+    0,
+    20,
+    -1,
+    0,
+    -1,
+    -1,
+    -1
+  ],
+  "version": 16,
+  "cached_resource_count": 0,
+  "slot_count": 16,
+  "entry_pc": 0,
+  "functions": [
+    "TerrainHeight",
+    "remove"
+  ],
+  "definitions": [
+    "self",
+    "frametime"
+  ],
+  "chunks": {
+    "DEFS": {
+      "file_offset": 64,
+      "size": 17
+    },
+    "FUNC": {
+      "file_offset": 89,
+      "size": 23
+    },
+    "DATA": {
+      "file_offset": 120,
+      "size": 0
+    },
+    "CODE": {
+      "file_offset": 128,
+      "size": 280
+    }
+  },
+  "initializers": [],
+  "instructions": [
+    {
+      "pc": 0,
+      "file_offset": 128,
+      "opcode": 18,
+      "name": "INDEX_ADDRESS",
+      "flags": 0,
+      "a": -1,
+      "b": 5,
+      "c": 0
+    },
+    {
+      "pc": 1,
+      "file_offset": 142,
+      "opcode": 18,
+      "name": "INDEX_ADDRESS",
+      "flags": 0,
+      "a": 0,
+      "b": 2,
+      "c": 0
+    },
+    {
+      "pc": 2,
+      "file_offset": 156,
+      "opcode": 1,
+      "name": "MUL",
+      "flags": 1,
+      "a": 1109393408,
+      "b": -2,
+      "c": 1,
+      "a_immediate": 40.0
+    },
+    {
+      "pc": 3,
+      "file_offset": 170,
+      "opcode": 4,
+      "name": "SUB",
+      "flags": 130,
+      "a": 0,
+      "b": 1,
+      "c": 0
+    },
+    {
+      "pc": 4,
+      "file_offset": 184,
+      "opcode": 18,
+      "name": "INDEX_ADDRESS",
+      "flags": 0,
+      "a": -1,
+      "b": 5,
+      "c": 0
+    },
+    {
+      "pc": 5,
+      "file_offset": 198,
+      "opcode": 18,
+      "name": "INDEX_ADDRESS",
+      "flags": 0,
+      "a": 0,
+      "b": 2,
+      "c": 0
+    },
+    {
+      "pc": 6,
+      "file_offset": 212,
+      "opcode": 19,
+      "name": "PUSH",
+      "flags": 128,
+      "a": 0,
+      "b": 0,
+      "c": 0
+    },
+    {
+      "pc": 7,
+      "file_offset": 226,
+      "opcode": 18,
+      "name": "INDEX_ADDRESS",
+      "flags": 0,
+      "a": -1,
+      "b": 5,
+      "c": 1
+    },
+    {
+      "pc": 8,
+      "file_offset": 240,
+      "opcode": 18,
+      "name": "INDEX_ADDRESS",
+      "flags": 0,
+      "a": 1,
+      "b": 0,
+      "c": 1
+    },
+    {
+      "pc": 9,
+      "file_offset": 254,
+      "opcode": 17,
+      "name": "MOVE",
+      "flags": 32,
+      "a": 0,
+      "b": 1,
+      "c": 0
+    },
+    {
+      "pc": 10,
+      "file_offset": 268,
+      "opcode": 18,
+      "name": "INDEX_ADDRESS",
+      "flags": 0,
+      "a": -1,
+      "b": 5,
+      "c": 2
+    },
+    {
+      "pc": 11,
+      "file_offset": 282,
+      "opcode": 18,
+      "name": "INDEX_ADDRESS",
+      "flags": 0,
+      "a": 2,
+      "b": 1,
+      "c": 2
+    },
+    {
+      "pc": 12,
+      "file_offset": 296,
+      "opcode": 17,
+      "name": "MOVE",
+      "flags": 32,
+      "a": 1,
+      "b": 2,
+      "c": 0
+    },
+    {
+      "pc": 13,
+      "file_offset": 310,
+      "opcode": 28,
+      "name": "CALL",
+      "flags": 0,
+      "a": -1,
+      "b": 1,
+      "c": 0,
+      "function": "TerrainHeight"
+    },
+    {
+      "pc": 14,
+      "file_offset": 324,
+      "opcode": 20,
+      "name": "POP",
+      "flags": 128,
+      "a": 0,
+      "b": 0,
+      "c": 0
+    },
+    {
+      "pc": 15,
+      "file_offset": 338,
+      "opcode": 14,
+      "name": "LE",
+      "flags": 2,
+      "a": 0,
+      "b": 1,
+      "c": 0
+    },
+    {
+      "pc": 16,
+      "file_offset": 352,
+      "opcode": 26,
+      "name": "JUMP_IF_NONZERO",
+      "flags": 0,
+      "a": 0,
+      "b": 3,
+      "c": 0
+    },
+    {
+      "pc": 17,
+      "file_offset": 366,
+      "opcode": 17,
+      "name": "MOVE",
+      "flags": 0,
+      "a": 0,
+      "b": -1,
+      "c": 0
+    },
+    {
+      "pc": 18,
+      "file_offset": 380,
+      "opcode": 28,
+      "name": "CALL",
+      "flags": 0,
+      "a": -2,
+      "b": 0,
+      "c": 0,
+      "function": "remove"
+    },
+    {
+      "pc": 19,
+      "file_offset": 394,
+      "opcode": 0,
+      "name": "YIELD",
+      "flags": 0,
+      "a": 0,
+      "b": 0,
+      "c": 0
+    }
+  ]
+}

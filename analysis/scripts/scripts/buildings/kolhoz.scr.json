@@ -1,0 +1,927 @@
+{
+  "header_words": [
+    1280525138,
+    16,
+    0,
+    1,
+    6,
+    1,
+    22,
+    38,
+    83,
+    -1,
+    0,
+    -1,
+    -1,
+    -1
+  ],
+  "version": 16,
+  "cached_resource_count": 0,
+  "slot_count": 22,
+  "entry_pc": 0,
+  "functions": [
+    "CameraQuake",
+    "create",
+    "crandom",
+    "random",
+    "sleep",
+    "remove"
+  ],
+  "definitions": [
+    "self"
+  ],
+  "chunks": {
+    "DEFS": {
+      "file_offset": 64,
+      "size": 6
+    },
+    "FUNC": {
+      "file_offset": 78,
+      "size": 53
+    },
+    "DATA": {
+      "file_offset": 139,
+      "size": 8
+    },
+    "STRG": {
+      "file_offset": 155,
+      "size": 38
+    },
+    "CODE": {
+      "file_offset": 201,
+      "size": 1162
+    }
+  },
+  "initializers": [
+    {
+      "type": 3,
+      "slot": 18,
+      "raw_value": 19,
+      "float_value": 2.6624670822171524e-44
+    }
+  ],
+  "instructions": [
+    {
+      "pc": 0,
+      "file_offset": 201,
+      "opcode": 18,
+      "name": "INDEX_ADDRESS",
+      "flags": 0,
+      "a": -1,
+      "b": 34,
+      "c": 0
+    },
+    {
+      "pc": 1,
+      "file_offset": 215,
+      "opcode": 11,
+      "name": "GT",
+      "flags": 18,
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "b_immediate": 0.0
+    },
+    {
+      "pc": 2,
+      "file_offset": 229,
+      "opcode": 26,
+      "name": "JUMP_IF_NONZERO",
+      "flags": 0,
+      "a": 0,
+      "b": 2,
+      "c": 0
+    },
+    {
+      "pc": 3,
+      "file_offset": 243,
+      "opcode": 24,
+      "name": "RETURN",
+      "flags": 0,
+      "a": 0,
+      "b": 0,
+      "c": 0
+    },
+    {
+      "pc": 4,
+      "file_offset": 257,
+      "opcode": 17,
+      "name": "MOVE",
+      "flags": 16,
+      "a": 17,
+      "b": 0,
+      "c": 0,
+      "b_immediate": 0.0
+    },
+    {
+      "pc": 5,
+      "file_offset": 271,
+      "opcode": 12,
+      "name": "LT",
+      "flags": 16,
+      "a": 17,
+      "b": 1086324736,
+      "c": 0,
+      "b_immediate": 6.0
+    },
+    {
+      "pc": 6,
+      "file_offset": 285,
+      "opcode": 26,
+      "name": "JUMP_IF_NONZERO",
+      "flags": 0,
+      "a": 0,
+      "b": 71,
+      "c": 0
+    },
+    {
+      "pc": 7,
+      "file_offset": 299,
+      "opcode": 17,
+      "name": "MOVE",
+      "flags": 16,
+      "a": 0,
+      "b": 1068708659,
+      "c": 0,
+      "b_immediate": 1.399999976158142
+    },
+    {
+      "pc": 8,
+      "file_offset": 313,
+      "opcode": 28,
+      "name": "CALL",
+      "flags": 0,
+      "a": -1,
+      "b": 0,
+      "c": 0,
+      "function": "CameraQuake"
+    },
+    {
+      "pc": 9,
+      "file_offset": 327,
+      "opcode": 9,
+      "name": "EQ_INT",
+      "flags": 16,
+      "a": 17,
+      "b": 1065353216,
+      "c": 0,
+      "b_immediate": 1.0
+    },
+    {
+      "pc": 10,
+      "file_offset": 341,
+      "opcode": 26,
+      "name": "JUMP_IF_NONZERO",
+      "flags": 0,
+      "a": 0,
+      "b": 4,
+      "c": 0
+    },
+    {
+      "pc": 11,
+      "file_offset": 355,
+      "opcode": 17,
+      "name": "MOVE",
+      "flags": 16,
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "b_immediate": 0.0
+    },
+    {
+      "pc": 12,
+      "file_offset": 369,
+      "opcode": 18,
+      "name": "INDEX_ADDRESS",
+      "flags": 0,
+      "a": -1,
+      "b": 5,
+      "c": 1
+    },
+    {
+      "pc": 13,
+      "file_offset": 383,
+      "opcode": 28,
+      "name": "CALL",
+      "flags": 0,
+      "a": -2,
+      "b": 0,
+      "c": 0,
+      "function": "create"
+    },
+    {
+      "pc": 14,
+      "file_offset": 397,
+      "opcode": 9,
+      "name": "EQ_INT",
+      "flags": 16,
+      "a": 17,
+      "b": 1082130432,
+      "c": 0,
+      "b_immediate": 4.0
+    },
+    {
+      "pc": 15,
+      "file_offset": 411,
+      "opcode": 26,
+      "name": "JUMP_IF_NONZERO",
+      "flags": 0,
+      "a": 0,
+      "b": 4,
+      "c": 0
+    },
+    {
+      "pc": 16,
+      "file_offset": 425,
+      "opcode": 17,
+      "name": "MOVE",
+      "flags": 16,
+      "a": 0,
+      "b": 9,
+      "c": 0,
+      "b_immediate": 1.2611686178923354e-44
+    },
+    {
+      "pc": 17,
+      "file_offset": 439,
+      "opcode": 18,
+      "name": "INDEX_ADDRESS",
+      "flags": 0,
+      "a": -1,
+      "b": 5,
+      "c": 1
+    },
+    {
+      "pc": 18,
+      "file_offset": 453,
+      "opcode": 28,
+      "name": "CALL",
+      "flags": 0,
+      "a": -2,
+      "b": 0,
+      "c": 0,
+      "function": "create"
+    },
+    {
+      "pc": 19,
+      "file_offset": 467,
+      "opcode": 17,
+      "name": "MOVE",
+      "flags": 16,
+      "a": 16,
+      "b": 0,
+      "c": 0,
+      "b_immediate": 0.0
+    },
+    {
+      "pc": 20,
+      "file_offset": 481,
+      "opcode": 12,
+      "name": "LT",
+      "flags": 16,
+      "a": 16,
+      "b": 1082130432,
+      "c": 0,
+      "b_immediate": 4.0
+    },
+    {
+      "pc": 21,
+      "file_offset": 495,
+      "opcode": 26,
+      "name": "JUMP_IF_NONZERO",
+      "flags": 0,
+      "a": 0,
+      "b": 54,
+      "c": 0
+    },
+    {
+      "pc": 22,
+      "file_offset": 509,
+      "opcode": 18,
+      "name": "INDEX_ADDRESS",
+      "flags": 0,
+      "a": 18,
+      "b": 0,
+      "c": 0
+    },
+    {
+      "pc": 23,
+      "file_offset": 523,
+      "opcode": 18,
+      "name": "INDEX_ADDRESS",
+      "flags": 0,
+      "a": -1,
+      "b": 5,
+      "c": 1
+    },
+    {
+      "pc": 24,
+      "file_offset": 537,
+      "opcode": 18,
+      "name": "INDEX_ADDRESS",
+      "flags": 0,
+      "a": 1,
+      "b": 0,
+      "c": 1
+    },
+    {
+      "pc": 25,
+      "file_offset": 551,
+      "opcode": 3,
+      "name": "ADD",
+      "flags": 18,
+      "a": 1,
+      "b": 1106247680,
+      "c": 1,
+      "b_immediate": 30.0
+    },
+    {
+      "pc": 26,
+      "file_offset": 565,
+      "opcode": 19,
+      "name": "PUSH",
+      "flags": 128,
+      "a": 0,
+      "b": 0,
+      "c": 0
+    },
+    {
+      "pc": 27,
+      "file_offset": 579,
+      "opcode": 19,
+      "name": "PUSH",
+      "flags": 0,
+      "a": 1,
+      "b": 0,
+      "c": 0
+    },
+    {
+      "pc": 28,
+      "file_offset": 593,
+      "opcode": 19,
+      "name": "PUSH",
+      "flags": 0,
+      "a": 2,
+      "b": 0,
+      "c": 0
+    },
+    {
+      "pc": 29,
+      "file_offset": 607,
+      "opcode": 28,
+      "name": "CALL",
+      "flags": 0,
+      "a": -3,
+      "b": 3,
+      "c": 0,
+      "function": "crandom"
+    },
+    {
+      "pc": 30,
+      "file_offset": 621,
+      "opcode": 20,
+      "name": "POP",
+      "flags": 0,
+      "a": 2,
+      "b": 0,
+      "c": 2
+    },
+    {
+      "pc": 31,
+      "file_offset": 635,
+      "opcode": 20,
+      "name": "POP",
+      "flags": 0,
+      "a": 1,
+      "b": 0,
+      "c": 1
+    },
+    {
+      "pc": 32,
+      "file_offset": 649,
+      "opcode": 20,
+      "name": "POP",
+      "flags": 128,
+      "a": 0,
+      "b": 0,
+      "c": 0
+    },
+    {
+      "pc": 33,
+      "file_offset": 663,
+      "opcode": 1,
+      "name": "MUL",
+      "flags": 1,
+      "a": 1114636288,
+      "b": 3,
+      "c": 2,
+      "a_immediate": 60.0
+    },
+    {
+      "pc": 34,
+      "file_offset": 677,
+      "opcode": 3,
+      "name": "ADD",
+      "flags": 0,
+      "a": 1,
+      "b": 2,
+      "c": 1
+    },
+    {
+      "pc": 35,
+      "file_offset": 691,
+      "opcode": 17,
+      "name": "MOVE",
+      "flags": 130,
+      "a": 0,
+      "b": 1,
+      "c": 0
+    },
+    {
+      "pc": 36,
+      "file_offset": 705,
+      "opcode": 18,
+      "name": "INDEX_ADDRESS",
+      "flags": 0,
+      "a": 18,
+      "b": 1,
+      "c": 0
+    },
+    {
+      "pc": 37,
+      "file_offset": 719,
+      "opcode": 18,
+      "name": "INDEX_ADDRESS",
+      "flags": 0,
+      "a": -1,
+      "b": 5,
+      "c": 1
+    },
+    {
+      "pc": 38,
+      "file_offset": 733,
+      "opcode": 18,
+      "name": "INDEX_ADDRESS",
+      "flags": 0,
+      "a": 1,
+      "b": 1,
+      "c": 1
+    },
+    {
+      "pc": 39,
+      "file_offset": 747,
+      "opcode": 4,
+      "name": "SUB",
+      "flags": 18,
+      "a": 1,
+      "b": 1109393408,
+      "c": 1,
+      "b_immediate": 40.0
+    },
+    {
+      "pc": 40,
+      "file_offset": 761,
+      "opcode": 19,
+      "name": "PUSH",
+      "flags": 128,
+      "a": 0,
+      "b": 0,
+      "c": 0
+    },
+    {
+      "pc": 41,
+      "file_offset": 775,
+      "opcode": 19,
+      "name": "PUSH",
+      "flags": 0,
+      "a": 1,
+      "b": 0,
+      "c": 0
+    },
+    {
+      "pc": 42,
+      "file_offset": 789,
+      "opcode": 19,
+      "name": "PUSH",
+      "flags": 0,
+      "a": 2,
+      "b": 0,
+      "c": 0
+    },
+    {
+      "pc": 43,
+      "file_offset": 803,
+      "opcode": 28,
+      "name": "CALL",
+      "flags": 0,
+      "a": -3,
+      "b": 3,
+      "c": 0,
+      "function": "crandom"
+    },
+    {
+      "pc": 44,
+      "file_offset": 817,
+      "opcode": 20,
+      "name": "POP",
+      "flags": 0,
+      "a": 2,
+      "b": 0,
+      "c": 2
+    },
+    {
+      "pc": 45,
+      "file_offset": 831,
+      "opcode": 20,
+      "name": "POP",
+      "flags": 0,
+      "a": 1,
+      "b": 0,
+      "c": 1
+    },
+    {
+      "pc": 46,
+      "file_offset": 845,
+      "opcode": 20,
+      "name": "POP",
+      "flags": 128,
+      "a": 0,
+      "b": 0,
+      "c": 0
+    },
+    {
+      "pc": 47,
+      "file_offset": 859,
+      "opcode": 1,
+      "name": "MUL",
+      "flags": 1,
+      "a": 1116471296,
+      "b": 3,
+      "c": 2,
+      "a_immediate": 70.0
+    },
+    {
+      "pc": 48,
+      "file_offset": 873,
+      "opcode": 3,
+      "name": "ADD",
+      "flags": 0,
+      "a": 1,
+      "b": 2,
+      "c": 1
+    },
+    {
+      "pc": 49,
+      "file_offset": 887,
+      "opcode": 17,
+      "name": "MOVE",
+      "flags": 130,
+      "a": 0,
+      "b": 1,
+      "c": 0
+    },
+    {
+      "pc": 50,
+      "file_offset": 901,
+      "opcode": 18,
+      "name": "INDEX_ADDRESS",
+      "flags": 0,
+      "a": 18,
+      "b": 2,
+      "c": 0
+    },
+    {
+      "pc": 51,
+      "file_offset": 915,
+      "opcode": 18,
+      "name": "INDEX_ADDRESS",
+      "flags": 0,
+      "a": -1,
+      "b": 5,
+      "c": 1
+    },
+    {
+      "pc": 52,
+      "file_offset": 929,
+      "opcode": 18,
+      "name": "INDEX_ADDRESS",
+      "flags": 0,
+      "a": 1,
+      "b": 2,
+      "c": 1
+    },
+    {
+      "pc": 53,
+      "file_offset": 943,
+      "opcode": 3,
+      "name": "ADD",
+      "flags": 18,
+      "a": 1,
+      "b": 1106247680,
+      "c": 1,
+      "b_immediate": 30.0
+    },
+    {
+      "pc": 54,
+      "file_offset": 957,
+      "opcode": 19,
+      "name": "PUSH",
+      "flags": 128,
+      "a": 0,
+      "b": 0,
+      "c": 0
+    },
+    {
+      "pc": 55,
+      "file_offset": 971,
+      "opcode": 19,
+      "name": "PUSH",
+      "flags": 0,
+      "a": 1,
+      "b": 0,
+      "c": 0
+    },
+    {
+      "pc": 56,
+      "file_offset": 985,
+      "opcode": 19,
+      "name": "PUSH",
+      "flags": 0,
+      "a": 2,
+      "b": 0,
+      "c": 0
+    },
+    {
+      "pc": 57,
+      "file_offset": 999,
+      "opcode": 28,
+      "name": "CALL",
+      "flags": 0,
+      "a": -3,
+      "b": 3,
+      "c": 0,
+      "function": "crandom"
+    },
+    {
+      "pc": 58,
+      "file_offset": 1013,
+      "opcode": 20,
+      "name": "POP",
+      "flags": 0,
+      "a": 2,
+      "b": 0,
+      "c": 2
+    },
+    {
+      "pc": 59,
+      "file_offset": 1027,
+      "opcode": 20,
+      "name": "POP",
+      "flags": 0,
+      "a": 1,
+      "b": 0,
+      "c": 1
+    },
+    {
+      "pc": 60,
+      "file_offset": 1041,
+      "opcode": 20,
+      "name": "POP",
+      "flags": 128,
+      "a": 0,
+      "b": 0,
+      "c": 0
+    },
+    {
+      "pc": 61,
+      "file_offset": 1055,
+      "opcode": 1,
+      "name": "MUL",
+      "flags": 1,
+      "a": 1106247680,
+      "b": 3,
+      "c": 2,
+      "a_immediate": 30.0
+    },
+    {
+      "pc": 62,
+      "file_offset": 1069,
+      "opcode": 3,
+      "name": "ADD",
+      "flags": 0,
+      "a": 1,
+      "b": 2,
+      "c": 1
+    },
+    {
+      "pc": 63,
+      "file_offset": 1083,
+      "opcode": 17,
+      "name": "MOVE",
+      "flags": 130,
+      "a": 0,
+      "b": 1,
+      "c": 0
+    },
+    {
+      "pc": 64,
+      "file_offset": 1097,
+      "opcode": 17,
+      "name": "MOVE",
+      "flags": 16,
+      "a": 0,
+      "b": 18,
+      "c": 0,
+      "b_immediate": 2.5223372357846707e-44
+    },
+    {
+      "pc": 65,
+      "file_offset": 1111,
+      "opcode": 17,
+      "name": "MOVE",
+      "flags": 0,
+      "a": 1,
+      "b": 18,
+      "c": 0
+    },
+    {
+      "pc": 66,
+      "file_offset": 1125,
+      "opcode": 28,
+      "name": "CALL",
+      "flags": 0,
+      "a": -2,
+      "b": 0,
+      "c": 0,
+      "function": "create"
+    },
+    {
+      "pc": 67,
+      "file_offset": 1139,
+      "opcode": 19,
+      "name": "PUSH",
+      "flags": 0,
+      "a": 0,
+      "b": 0,
+      "c": 0
+    },
+    {
+      "pc": 68,
+      "file_offset": 1153,
+      "opcode": 28,
+      "name": "CALL",
+      "flags": 0,
+      "a": -4,
+      "b": 1,
+      "c": 0,
+      "function": "random"
+    },
+    {
+      "pc": 69,
+      "file_offset": 1167,
+      "opcode": 20,
+      "name": "POP",
+      "flags": 0,
+      "a": 0,
+      "b": 0,
+      "c": 0
+    },
+    {
+      "pc": 70,
+      "file_offset": 1181,
+      "opcode": 1,
+      "name": "MUL",
+      "flags": 1,
+      "a": 1036831949,
+      "b": 1,
+      "c": 0,
+      "a_immediate": 0.10000000149011612
+    },
+    {
+      "pc": 71,
+      "file_offset": 1195,
+      "opcode": 30,
+      "name": "SET_WAIT",
+      "flags": 0,
+      "a": 0,
+      "b": 0,
+      "c": 0
+    },
+    {
+      "pc": 72,
+      "file_offset": 1209,
+      "opcode": 29,
+      "name": "CALL_WAIT",
+      "flags": 0,
+      "a": -5,
+      "b": 0,
+      "c": 0,
+      "function": "sleep"
+    },
+    {
+      "pc": 73,
+      "file_offset": 1223,
+      "opcode": 3,
+      "name": "ADD",
+      "flags": 16,
+      "a": 16,
+      "b": 1065353216,
+      "c": 16,
+      "b_immediate": 1.0
+    },
+    {
+      "pc": 74,
+      "file_offset": 1237,
+      "opcode": 27,
+      "name": "JUMP",
+      "flags": 0,
+      "a": -54,
+      "b": 0,
+      "c": 0
+    },
+    {
+      "pc": 75,
+      "file_offset": 1251,
+      "opcode": 3,
+      "name": "ADD",
+      "flags": 16,
+      "a": 17,
+      "b": 1065353216,
+      "c": 17,
+      "b_immediate": 1.0
+    },
+    {
+      "pc": 76,
+      "file_offset": 1265,
+      "opcode": 27,
+      "name": "JUMP",
+      "flags": 0,
+      "a": -71,
+      "b": 0,
+      "c": 0
+    },
+    {
+      "pc": 77,
+      "file_offset": 1279,
+      "opcode": 17,
+      "name": "MOVE",
+      "flags": 16,
+      "a": 0,
+      "b": 29,
+      "c": 0,
+      "b_immediate": 4.0637655465419695e-44
+    },
+    {
+      "pc": 78,
+      "file_offset": 1293,
+      "opcode": 18,
+      "name": "INDEX_ADDRESS",
+      "flags": 0,
+      "a": -1,
+      "b": 5,
+      "c": 1
+    },
+    {
+      "pc": 79,
+      "file_offset": 1307,
+      "opcode": 28,
+      "name": "CALL",
+      "flags": 0,
+      "a": -2,
+      "b": 0,
+      "c": 0,
+      "function": "create"
+    },
+    {
+      "pc": 80,
+      "file_offset": 1321,
+      "opcode": 17,
+      "name": "MOVE",
+      "flags": 0,
+      "a": 0,
+      "b": -1,
+      "c": 0
+    },
+    {
+      "pc": 81,
+      "file_offset": 1335,
+      "opcode": 28,
+      "name": "CALL",
+      "flags": 0,
+      "a": -6,
+      "b": 0,
+      "c": 0,
+      "function": "remove"
+    },
+    {
+      "pc": 82,
+      "file_offset": 1349,
+      "opcode": 0,
+      "name": "YIELD",
+      "flags": 0,
+      "a": 0,
+      "b": 0,
+      "c": 0
+    }
+  ]
+}

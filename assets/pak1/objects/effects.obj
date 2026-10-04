@@ -1,0 +1,656 @@
+
+fx_item_taken {
+        flag    FL_NODRAW
+        attach  "PS_ITEM_TAKEN" "origin"
+	script	"scripts\weapons\hit5.scr"
+}
+
+mark {
+	type	TYPE_MARK
+	skin	"gfx\mark.tga"
+	blend	BLEND_FILTER
+	min	-50 -50 0 0
+	max	50 50 1 1
+	script	"scripts\weapons\hit10.scr"
+}
+
+splash {
+	model	"models\misc\splash.mdl"
+	skin	"gfx\splash.tga"
+	rflag	RF_NOLIGHTING
+	rflag	RF_NODEPTHWRITE
+	sort	SORT_ONGROUND
+	blend	BLEND_ADD
+	
+	script	"scripts\effects\splash.scr"
+}
+
+campfire_light {
+	flag    FL_NODRAW
+	script "scripts\effects\campfire.scr"
+}
+
+campfire_light_small {
+	flag    FL_NODRAW
+	script "scripts\effects\campfire_small.scr"
+}
+
+
+campfire {
+	flag    FL_NODRAW
+	attach	PS_CAMPFIRE "origin"
+	attach	PS_EXPLOSION_FIRE "origin"
+	attach	campfire_light "origin"
+}
+
+
+
+campfire_small {
+	flag    FL_NODRAW
+	attach	PS_CAMPFIRE_SMALL2 "origin"
+//	attach	campfire_light "origin"
+//	attach	PS_EXPLOSION_FIRE "origin"
+}
+
+helic_campfire {
+	flag    FL_NODRAW
+	attach	PS_CAMPFIRE_SMALL "origin"
+	attach	PS_EXPLOSION_FIRE_SMALL "origin"
+//	attach	campfire_light "origin"
+}
+
+
+barreltrail {
+	flag    FL_NODRAW
+	attach	PS_BARRELTRAIL "origin"
+}
+
+score_num {
+	type	TYPE_SPRITE
+	skin	"gfx\scores.tga"
+	blend	BLEND_ADD
+	rflag	RF_NODEPTHTEST
+
+	frames	10 1
+	min	-6 -8  0 0
+	max	6 8    1 1	
+
+	script	"scripts\effects\scorenum.scr"
+}
+
+// ONGROUND EXPLOSION
+
+gib_flare {
+	type	TYPE_SPRITE
+	skin	"gfx\effects\gibflare.tga"
+	blend	BLEND_ADD
+	rflag	RF_NODEPTHWRITE
+
+	min	-17 -17 0.0 0.0
+	max	17 17 1.0 1.0	
+}
+
+gib_spark {
+	type	TYPE_SPRITE
+	skin	"gfx\effects\gibspark.tga"
+	blend	BLEND_ADD
+	rflag	RF_NODEPTHWRITE
+
+	min	-6 -6 0.0 0.0
+	max	6 6 1.0 1.0	
+	script	"scripts\effects\gib_spark.scr"
+}
+
+///////////////////////GIBS/////////////////
+//////// _a - для воздушных
+//////// _b - побольше, для статичных объектов
+
+gib_big1 {
+	model	"models\gibs\gib_big1.mdl"
+	script	"scripts\effects\gib.scr"
+	attach	PS_GIBTRAIL "origin"
+	//     attach	"gib_flare" "origin"
+}
+
+
+gib_koleso {
+	model	"models\gibs\gib_koleso.mdl"
+	skin	"models\gibs\gib_koleso.tga"
+	script	"scripts\effects\gib_koleso.scr"
+	attach	id "GIBTRAIL" PS_GIBTRAIL "origin"
+}
+
+gib_big1_a {
+	model	"models\gibs\gib_big1_a.mdl"
+	skin	"models\gibs\gib.tga"
+	script	"scripts\effects\gib_air.scr"
+	attach	PS_GIBTRAIL_AIR "origin"
+}
+
+gib_big2 {
+	model	"models\gibs\gib_big2.mdl"
+	skin	"models\gibs\gib.tga"
+	script	"scripts\effects\gib.scr"
+	attach	PS_GIBTRAIL "origin"
+}
+
+gib_big2_a {
+	model	"models\gibs\gib_big2_a.mdl"
+	skin	"models\gibs\gib.tga"
+	script	"scripts\effects\gib_air.scr"
+	attach	PS_GIBTRAIL_AIR "origin"
+}
+
+gib_big2_b {
+	model	"models\gibs\gib_big2_b.mdl"
+	skin	"models\gibs\gib.tga"
+	script	"scripts\effects\gib_big.scr"
+	attach	PS_GIBTRAIL "origin"
+}
+
+gib_big3 {
+	model	"models\gibs\gib_big3.mdl"
+	skin	"models\gibs\gib.tga"
+	script	"scripts\effects\gib.scr"
+	attach	PS_GIBTRAIL "origin"
+}
+
+gib_big3_b {
+	model	"models\gibs\gib_big3_b.mdl"
+	skin	"models\gibs\gib.tga"
+	script	"scripts\effects\gib_big.scr"
+	attach	PS_GIBTRAIL "origin"
+}
+
+gib_medium1 {
+	model	"models\gibs\gib_medium1.mdl"
+	skin	"models\gibs\gib.tga"
+	script	"scripts\effects\gib.scr"
+	attach	PS_GIBTRAIL "origin"
+}
+
+gib_medium1_a {
+	model	"models\gibs\gib_medium1_a.mdl"
+	skin	"models\gibs\gib.tga"
+	script	"scripts\effects\gib_air.scr"
+	attach	PS_GIBTRAIL_AIR "origin"
+}
+
+gib_medium1_b {
+	model	"models\gibs\gib_medium1_b.mdl"
+	skin	"models\gibs\gib.tga"
+	script	"scripts\effects\gib_big.scr"
+	attach	PS_GIBTRAIL "origin"
+}
+
+gib_medium2 {
+	model	"models\gibs\gib_medium2.mdl"
+	skin	"models\gibs\gib.tga"
+	script	"scripts\effects\gib.scr"
+	attach	PS_GIBTRAIL "origin"
+}
+
+gib_medium2_a {
+	model	"models\gibs\gib_medium2_a.mdl"
+	skin	"models\gibs\gib.tga"
+	script	"scripts\effects\gib_air.scr"
+	attach	PS_GIBTRAIL_AIR "origin"
+}
+
+gib_medium2_b {
+	model	"models\gibs\gib_medium2_b.mdl"
+	skin	"models\gibs\gib.tga"
+	script	"scripts\effects\gib_big.scr"
+	attach	PS_GIBTRAIL "origin"
+}
+
+gib_small1 {
+	model	"models\gibs\gib_small1.mdl"
+	skin	"models\gibs\gib.tga"
+	script	"scripts\effects\gib.scr"
+	attach	PS_GIBTRAIL "origin"
+}
+
+gib_small2 {
+	model	"models\gibs\gib_small2.mdl"
+	skin	"models\gibs\gib.tga"
+	script	"scripts\effects\gib.scr"
+	attach	PS_GIBTRAIL "origin"
+}
+
+gib_small3 {
+	model	"models\gibs\gib_small3.mdl"
+	skin	"models\gibs\gib.tga"
+	script	"scripts\effects\gib.scr"
+	attach	PS_GIBTRAIL "origin"
+}
+
+gib_small3_a {
+	model	"models\gibs\gib_small3_a.mdl"
+	skin	"models\gibs\gib.tga"
+	script	"scripts\effects\gib_air.scr"
+	attach	PS_GIBTRAIL_AIR "origin"
+}
+
+gib_small4 {
+	model	"models\gibs\gib_small4.mdl"
+	skin	"models\gibs\gib.tga"
+	script	"scripts\effects\gib.scr"
+	attach	PS_GIBTRAIL "origin"
+}
+
+gib_small5 {
+	model	"models\gibs\gib_small5.mdl"
+	skin	"models\gibs\gib.tga"
+	script	"scripts\effects\gib.scr"
+	attach	PS_GIBTRAIL "origin"
+}
+
+gib_small5_a {
+	model	"models\gibs\gib_small5_a.mdl"
+	skin	"models\gibs\gib.tga"
+	script	"scripts\effects\gib_air.scr"
+	attach	PS_GIBTRAIL_AIR "origin"
+}
+
+
+gib_small6 {
+	model	"models\gibs\gib_small6.mdl"
+	skin	"models\gibs\gib.tga"
+	script	"scripts\effects\gib.scr"
+	attach	PS_GIBTRAIL "origin"
+}
+
+gib_small7 {
+	model	"models\gibs\gib_small7.mdl"
+	skin	"models\gibs\gib.tga"
+	script	"scripts\effects\gib.scr"
+	attach	PS_GIBTRAIL "origin"
+}
+
+gib_small7_b {
+	model	"models\gibs\gib_small7_b.mdl"
+	skin	"models\gibs\gib.tga"
+	script	"scripts\effects\gib_big.scr"
+	attach	PS_GIBTRAIL "origin"
+}
+
+gib_small8 {
+	model	"models\gibs\gib_small8.mdl"
+	skin	"models\gibs\gib.tga"
+	script	"scripts\effects\gib.scr"
+	attach	PS_GIBTRAIL "origin"
+}
+
+gib_small8_a {
+	model	"models\gibs\gib_small8_a.mdl"
+	skin	"models\gibs\gib.tga"
+	script	"scripts\effects\gib_air.scr"
+	attach	PS_GIBTRAIL_AIR "origin"
+}
+
+gib_small8_b {
+	model	"models\gibs\gib_small8_b.mdl"
+	skin	"models\gibs\gib.tga"
+	script	"scripts\effects\gib_big.scr"
+	attach	PS_GIBTRAIL "origin"
+}
+
+////////////сферы во время взрыва///////////
+
+expl_wave {
+	model	"models\misc\sphere.mdl"
+	skin	"models\misc\hlanno.tga"
+        blend	BLEND_ADD
+	rflag	RF_NOLIGHTING
+	rflag	RF_NODEPTHWRITE
+	script	"scripts\effects\wave.scr"
+}
+
+expl_wave_small {
+	flag    FL_NODRAW
+	script	"scripts\effects\wave_nvisible.scr"
+}
+
+expl_wave_big {
+	touch	TOUCH_CIVILIAN
+	model	"models\misc\sphere.mdl"
+	skin	"models\misc\hlanno.tga"
+        blend	BLEND_ADD
+	rflag	RF_NOLIGHTING
+	rflag	RF_NODEPTHWRITE
+	script	"scripts\effects\wave_big.scr"
+}
+
+
+/////////////для наземных врагов/////////////
+
+// идут по уменьшению полигонов/частиц
+
+expl1 {
+	flag    FL_NODRAW
+	script	"scripts\effects\expl1.scr"
+	attach  PS_EXPLOSION_SPARKS "origin"
+
+	attach  PS_EXPLOSION_LAND_SPARKS "origin"
+}
+
+expl1_water {
+	flag    FL_NODRAW
+	script	"scripts\effects\expl1.scr"
+	attach  PS_EXPLOSION_SPARKS "origin"
+
+}
+
+house_expl1 {
+	flag    FL_NODRAW
+	script	"scripts\effects\expl_house\expl_medium.scr"
+	attach  PS_EXPLOSION_SPARKS "origin"
+}
+
+expl1_kolesa {
+	flag    FL_NODRAW
+	script	"scripts\effects\expl1_kolesa.scr"
+	attach  PS_EXPLOSION_SPARKS "origin"
+
+	attach  PS_EXPLOSION_LAND_SPARKS "origin"
+}
+
+expl2_kolesa {
+	flag    FL_NODRAW
+	script	"scripts\effects\expl2_kolesa.scr"
+	attach  PS_EXPLOSION_SPARKS "origin"
+
+	attach  PS_EXPLOSION_LAND_SPARKS "origin"
+}
+
+
+boss_tank_expl1 {
+	flag    FL_NODRAW
+	script	"scripts\effects\boss_tank_expl1.scr"
+	attach  PS_EXPLOSION_SPARKS "origin"
+}
+
+expl2 {
+	flag    FL_NODRAW
+	attach  PS_EXPLOSION_SPARKS_MEDIUM "origin"
+	script	"scripts\effects\expl2.scr"
+
+	attach  PS_EXPLOSION_LAND_SPARKS "origin"
+}
+
+expl3 {
+	flag    FL_NODRAW
+	attach  PS_EXPLOSION_SPARKS_MEDIUM "origin"
+	script	"scripts\effects\expl3.scr"
+
+	attach  PS_EXPLOSION_LAND_SPARKS "origin"
+}
+
+/////////////для воздушных врагов/////////////
+
+//для самолёта
+
+expl1_air {
+	flag    FL_NODRAW
+	attach  PS_EXPLOSION_FIRE_FLASH "origin"
+	attach  PS_SMALL_EXPLOSION_SMOKE_FLASH "origin"
+	attach  PS_EXPLOSION_SPARKS_SMALL "origin"
+	script	"scripts\effects\expl1_air.scr"
+}
+
+
+expl1_air_small {
+	flag    FL_NODRAW
+	attach  PS_SMALL_EXPLOSION_FIRE_FLASH "origin"
+	attach  PS_SMALL_EXPLOSION_SMOKE_FLASH "origin"
+	attach  PS_EXPLOSION_SPARKS_MEDIUM "origin"
+//	script	"scripts\effects\expl1_air_small.scr"
+}
+
+// вертолёта
+expl1_helic {
+	flag    FL_NODRAW
+	attach  PS_EXPLOSION_FIRE_FLASH "origin"
+	attach  PS_EXPLOSION_SMOKE_FLASH "origin"
+	attach  PS_EXPLOSION_SPARKS "origin"
+	script	"scripts\effects\expl1_helic.scr"
+}
+
+////////////для статичных объектов////////////
+
+expl_big {
+	flag    FL_NODRAW
+	attach  PS_EXPLOSION_SPARKS "origin"
+	attach  PS_EXPLOSION_LAND_SPARKS_BIG "origin"
+	script	"scripts\effects\expl_big.scr"
+}
+
+expl_big_water {
+	flag    FL_NODRAW
+	attach  PS_EXPLOSION_SPARKS "origin"
+	script	"scripts\effects\expl_big.scr"
+}
+
+expl_small {
+	flag    FL_NODRAW
+	attach  PS_EXPLOSION_SPARKS_MEDIUM "origin"
+	script	"scripts\effects\expl_small.scr"
+}
+
+expl_medium {
+	flag    FL_NODRAW
+	attach  PS_EXPLOSION_SPARKS_MEDIUM "origin"
+	attach  PS_EXPLOSION_LAND_SPARKS "origin"
+	script	"scripts\effects\expl_medium.scr"
+}
+
+////////////////взрыв бочки/////////////////////
+
+expl_barrel {
+	flag    FL_NODRAW
+	attach  PS_EXPLOSION_SPARKS_MEDIUM "origin"
+	script	"scripts\barrel\expl_barrel.scr"
+}
+
+
+////////////////взрыв рокеты////////////////////
+
+expl_missile {
+	flag    FL_NODRAW
+	attach  PS_EXPLOSION_SPARKS_SMALL "origin"
+	attach  PS_MISSILE_EXPLOSION_FIRE_FLASH "origin"
+	attach  PS_MISSILE_EXPLOSION_FIRE_FLASH2 "origin"
+	script	"scripts\weapons\hit4.scr"
+}
+
+expl_missile_small {
+	flag    FL_NODRAW
+	attach  PS_EXPLOSION_SPARKS_SMALL "origin"
+	attach  PS_MISSILE_EXPLOSION_FIRE_FLASH "origin"
+	attach  PS_MISSILE_EXPLOSION_FIRE_FLASH2 "origin"
+	script	"scripts\weapons\hit4.scr"
+}
+
+expl_missile_big {
+	flag    FL_NODRAW
+	attach  PS_EXPLOSION_SPARKS_SMALL "origin"
+	attach  PS_MISSILE_BIG_EXPLOSION_FIRE_FLASH "origin"
+	attach  PS_MISSILE_BIG_EXPLOSION_FIRE_FLASH2 "origin"
+	script	"scripts\weapons\hit4.scr"
+}
+
+////////////////взрыв clusterbomb////////////////////
+
+expl_clustbomb {
+	flag    FL_NODRAW
+	attach  PS_EXPLOSION_SPARKS "origin"
+	attach  PS_MISSILE_BIG_EXPLOSION_FIRE_FLASH "origin"
+	attach  PS_MISSILE_BIG_EXPLOSION_FIRE_FLASH2 "origin"
+	script	"scripts\weapons\hit5.scr"
+}
+
+expl_clustbomb_small {
+	flag    FL_NODRAW
+	attach  PS_MISSILE_BIG_EXPLOSION_FIRE_FLASH "origin"
+	attach  PS_MISSILE_BIG_EXPLOSION_FIRE_FLASH2 "origin"
+	script	"scripts\weapons\hit5.scr"
+}
+
+////////////////взрыв abomb////////////////////
+
+expl_abomb {
+	flag    FL_NODRAW
+	script	"scripts\effects\expl_abomb.scr"
+	attach	PS_EXPLOSION_ABOMB_FIRE_FLASH "origin"
+	attach  PS_EXPLOSION_SPARKS "origin"
+}
+
+
+////////////яркие пятна на земле во время взрыва
+
+expl_barrel_light {
+	type	TYPE_MARK
+	skin	"gfx\effects\expl1light.tga"
+	blend	BLEND_ADD
+	min	-90 -90 0 0
+	max	90 90 1 1
+	attach	PS_EXPLOSION_BARREL_FIRE_FLASH "origin"
+	script	"scripts\effects\expl1light.scr"
+}
+
+expl1_light {
+	type	TYPE_MARK
+	skin	"gfx\effects\expl1light.tga"
+	blend	BLEND_ADD
+	min	-120 -120 0 0
+	max	120 120 1 1
+	attach	PS_EXPLOSION_FIRE_FLASH "origin"
+	attach	PS_EXPLOSION_SMOKE_FLASH "origin"
+	script	"scripts\effects\expl1light.scr"
+}
+
+expl_lighting_light {
+	type	TYPE_MARK
+	skin	"gfx\effects\expl1light.tga"
+	blend	BLEND_ADD
+	min	-30 -30 0 0
+	max	30 30 1 1
+//	attach	PS_EXPLOSION_FIRE_FLASH "origin"
+//	attach	PS_EXPLOSION_SMOKE_FLASH "origin"
+	script	"scripts\effects\expl_lighting_light.scr"
+}
+
+
+
+expl_small_light {
+	type	TYPE_MARK
+	skin	"gfx\effects\expl1light.tga"
+	blend	BLEND_ADD
+	min	-60 -60 0 0
+	max	60 60 1 1
+	attach	PS_SMALL_EXPLOSION_FIRE_FLASH "origin"
+	attach	PS_SMALL_EXPLOSION_SMOKE_FLASH "origin"
+	script	"scripts\effects\expl1light.scr"
+}
+
+expl_big_light {
+	type	TYPE_MARK
+	skin	"gfx\effects\expl1light.tga"
+	blend	BLEND_ADD
+	min	-140 -140 0 0
+	max	140 140 1 1
+	attach	PS_BIG_EXPLOSION_FIRE_FLASH "origin"
+	attach	PS_BIG_EXPLOSION_SMOKE_FLASH "origin"
+	script	"scripts\effects\expl1light.scr"
+}
+
+expl_abomb_light {
+	type	TYPE_MARK
+	skin	"gfx\effects\expl1light.tga"
+	blend	BLEND_ADD
+	min	-200 -200 0 0
+	max	200 200 1 1
+	attach	PS_BIG_EXPLOSION_FIRE_FLASH "origin"
+	script	"scripts\effects\expl_abomb_light.scr"
+}
+
+/////////////кольца от взрыва/////////////
+
+expl_ring {
+//	type	TYPE_MARK
+	model	"models\misc\ring.mdl"
+	skin	"models\misc\ring_fire.tga"
+	rflag	RF_NOLIGHTING
+	rflag	RF_NODEPTHTEST
+	sort	SORT_ONGROUND
+	blend	BLEND_ADD
+//	min	-90 -90 0 0
+//	max	90 90 1 1
+	
+	script	"scripts\effects\expl_ring.scr"
+}
+
+expl_ring_small {
+	model	"models\misc\ring.mdl"
+	skin	"models\misc\ring_fire.tga"
+	rflag	RF_NOLIGHTING
+	rflag	RF_NODEPTHTEST
+	sort	SORT_ONGROUND
+	blend	BLEND_ADD
+	
+	script	"scripts\effects\expl_ring_small.scr"
+}
+
+expl_ring_small2 {
+	model	"models\misc\ring.mdl"
+	skin	"models\misc\ring_fire.tga"
+	rflag	RF_NOLIGHTING
+	rflag	RF_NODEPTHTEST
+	sort	SORT_ONGROUND
+	blend	BLEND_ADD
+	
+	script	"scripts\effects\expl_ring_small2.scr"
+}
+
+
+expl1_hit {
+	type	TYPE_SPRITE
+	skin	"gfx\expl3.tga"
+	blend	BLEND_ADD
+	rflag	RF_NODEPTHTEST
+
+	frames	3 4
+	min	-24 -24  0 0
+	max	24 24    1 1	
+
+	script	"scripts\effects\hit.scr"
+}
+///////////////////////////////treepojar/////////////////////////////////////////////////////
+
+pozhar_small 
+{
+	flag    FL_NODRAW
+	attach	PS_POZHAR_SMALL "origin"
+	//attach	PS_EXPLOSION_FIRE "origin"
+	//attach	campfire_light "origin"
+}
+
+pozhar_medium
+
+{
+	flag    FL_NODRAW
+	attach	PS_POZHAR_MEDIUM "origin"
+	//attach	PS_EXPLOSION_FIRE "origin"
+	//attach	campfire_light "origin"
+}
+
+pozhar_big
+
+{
+	flag    FL_NODRAW
+	attach	PS_POZHAR_BIG "origin"
+	//attach	PS_EXPLOSION_FIRE "origin"
+	//attach	campfire_light "origin"
+}
+//////////////////

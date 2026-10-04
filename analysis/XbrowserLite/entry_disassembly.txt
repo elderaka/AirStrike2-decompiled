@@ -1,0 +1,55 @@
+0048769c: 55                       push ebp
+0048769d: 8bec                     mov ebp, esp
+0048769f: 83c4ec                   add esp, -0x14
+004876a2: 53                       push ebx
+004876a3: 56                       push esi
+004876a4: 33c0                     xor eax, eax
+004876a6: 8945ec                   mov dword ptr [ebp - 0x14], eax
+004876a9: b814734800               mov eax, 0x487314
+004876ae: e8cdf0f7ff               call 0x406780
+004876b3: 33c0                     xor eax, eax
+004876b5: 55                       push ebp
+004876b6: 6842774800               push 0x487742
+004876bb: 64ff30                   push dword ptr fs:[eax]
+004876be: 648920                   mov dword ptr fs:[eax], esp
+004876c1: b8f4fa4800               mov eax, 0x48faf4
+004876c6: e885cef7ff               call 0x404550
+004876cb: e8f0b7f7ff               call 0x402ec0
+004876d0: 8bd8                     mov ebx, eax
+004876d2: 85db                     test ebx, ebx
+004876d4: 7e30                     jle 0x487706
+004876d6: be01000000               mov esi, 1
+004876db: ff35f4fa4800             push dword ptr [0x48faf4]
+004876e1: 6858774800               push 0x487758
+004876e6: 8d55ec                   lea edx, [ebp - 0x14]
+004876e9: 8bc6                     mov eax, esi
+004876eb: e838b8f7ff               call 0x402f28
+004876f0: ff75ec                   push dword ptr [ebp - 0x14]
+004876f3: b8f4fa4800               mov eax, 0x48faf4
+004876f8: ba03000000               mov edx, 3
+004876fd: e8ced1f7ff               call 0x4048d0
+00487702: 46                       inc esi
+00487703: 4b                       dec ebx
+00487704: 75d5                     jne 0x4876db
+00487706: a1f4fa4800               mov eax, dword ptr [0x48faf4]
+0048770b: e8f8f0ffff               call 0x486808
+00487710: a1f4fa4800               mov eax, dword ptr [0x48faf4]
+00487715: e852f2ffff               call 0x48696c
+0048771a: 8b1504ba4800             mov edx, dword ptr [0x48ba04]
+00487720: 8a12                     mov dl, byte ptr [edx]
+00487722: a1f4fa4800               mov eax, dword ptr [0x48faf4]
+00487727: e854f4ffff               call 0x486b80
+0048772c: 33c0                     xor eax, eax
+0048772e: 5a                       pop edx
+0048772f: 59                       pop ecx
+00487730: 59                       pop ecx
+00487731: 648910                   mov dword ptr fs:[eax], edx
+00487734: 6849774800               push 0x487749
+00487739: 8d45ec                   lea eax, [ebp - 0x14]
+0048773c: e80fcef7ff               call 0x404550
+00487741: c3                       ret 
+00487742: e9c9c7f7ff               jmp 0x403f10
+00487747: ebf0                     jmp 0x487739
+00487749: 5e                       pop esi
+0048774a: 5b                       pop ebx
+0048774b: e808cdf7ff               call 0x404458

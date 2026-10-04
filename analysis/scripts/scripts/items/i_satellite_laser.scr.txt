@@ -1,0 +1,48 @@
+entry=20 slots=17 functions=['create', 'remove', 'rotatez', 'movez', 'sin']
+0000 INDEX_ADDRESS      a=-1 b=5 c=0 flags=0x00
+0001 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0002 EQ_INT             a=0 b=0 c=0 flags=0x12 b_float=0
+0003 JUMP_IF_NONZERO    a=0 b=4 c=0 flags=0x00
+0004 INDEX_ADDRESS      a=-1 b=5 c=0 flags=0x00
+0005 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0006 MOVE               a=0 b=1120403456 c=0 flags=0x92 b_float=100
+0007 YIELD              a=0 b=0 c=0 flags=0x00
+0008 MOVE               a=0 b=0 c=0 flags=0x10 b_float=0
+0009 INDEX_ADDRESS      a=-2 b=5 c=1 flags=0x00
+0010 CALL               a=-1 b=0 c=0 flags=0x00 external=create
+0011 MOVE               a=0 b=16 c=0 flags=0x10 b_float=2.24208e-44
+0012 INDEX_ADDRESS      a=-2 b=5 c=1 flags=0x00
+0013 CALL               a=-1 b=0 c=0 flags=0x00 external=create
+0014 MOVE               a=0 b=33 c=0 flags=0x10 b_float=4.62428e-44
+0015 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0016 CALL               a=-1 b=0 c=0 flags=0x00 external=create
+0017 MOVE               a=0 b=-1 c=0 flags=0x00
+0018 CALL               a=-2 b=0 c=0 flags=0x00 external=remove
+0019 YIELD              a=0 b=0 c=0 flags=0x00
+0020 MOVE               a=0 b=1123024896 c=0 flags=0x10 b_float=120
+0021 CALL               a=-3 b=0 c=0 flags=0x00 external=rotatez
+0022 JUMP_IF_NONZERO    a=16 b=9 c=0 flags=0x00
+0023 MOVE               a=0 b=1112014848 c=0 flags=0x10 b_float=50
+0024 CALL               a=-4 b=0 c=0 flags=0x00 external=movez
+0025 INDEX_ADDRESS      a=-1 b=5 c=0 flags=0x00
+0026 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0027 GE                 a=0 b=1120403456 c=0 flags=0x12 b_float=100
+0028 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+0029 MOVE               a=16 b=0 c=0 flags=0x10 b_float=0
+0030 RETURN             a=0 b=0 c=0 flags=0x00
+0031 INDEX_ADDRESS      a=-1 b=5 c=0 flags=0x00
+0032 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0033 PUSH               a=0 b=0 c=0 flags=0x80
+0034 PUSH               a=1 b=0 c=0 flags=0x00
+0035 PUSH               a=2 b=0 c=0 flags=0x00
+0036 INDEX_ADDRESS      a=-1 b=1 c=4 flags=0x00
+0037 MUL                a=1131413504 b=4 c=3 flags=0x21 a_float=240
+0038 MOVE               a=0 b=3 c=0 flags=0x00
+0039 CALL               a=-5 b=3 c=0 flags=0x00 external=sin
+0040 POP                a=2 b=0 c=2 flags=0x00
+0041 POP                a=1 b=0 c=1 flags=0x00
+0042 POP                a=0 b=0 c=0 flags=0x80
+0043 MUL                a=1088421888 b=3 c=2 flags=0x01 a_float=7
+0044 ADD                a=1120403456 b=2 c=1 flags=0x01 a_float=100
+0045 MOVE               a=0 b=1 c=0 flags=0x82
+0046 YIELD              a=0 b=0 c=0 flags=0x00

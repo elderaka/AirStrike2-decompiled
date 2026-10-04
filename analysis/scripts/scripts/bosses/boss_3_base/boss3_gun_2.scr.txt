@@ -1,0 +1,55 @@
+entry=34 slots=21 functions=['vec_sub', 'Shoot', 'RotateTo', 'create', 'deactivate', 'lRotateTo']
+0000 MOVE               a=16 b=0 c=0 flags=0x00
+0001 INDEX_ADDRESS      a=-1 b=5 c=0 flags=0x00
+0002 INDEX_ADDRESS      a=-2 b=5 c=1 flags=0x00
+0003 MOVE               a=2 b=17 c=0 flags=0x00
+0004 CALL               a=-1 b=0 c=0 flags=0x00 external=vec_sub
+0005 INDEX_ADDRESS      a=17 b=1 c=0 flags=0x00
+0006 ADD                a=0 b=1107296256 c=0 flags=0x92 b_float=32
+0007 INDEX_ADDRESS      a=17 b=2 c=0 flags=0x00
+0008 ADD                a=0 b=1107296256 c=0 flags=0x92 b_float=32
+0009 MOVE               a=0 b=0 c=0 flags=0x10 b_float=0
+0010 MOVE               a=1 b=16 c=0 flags=0x00
+0011 MOVE               a=2 b=17 c=0 flags=0x00
+0012 CALL               a=-2 b=0 c=0 flags=0x00 external=Shoot
+0013 YIELD              a=0 b=0 c=0 flags=0x00
+0014 MOVE               a=0 b=-1 c=0 flags=0x00
+0015 MOVE               a=1 b=1065353216 c=0 flags=0x10 b_float=1
+0016 CALL               a=-3 b=0 c=0 flags=0x00 external=RotateTo
+0017 YIELD              a=0 b=0 c=0 flags=0x00
+0018 INDEX_ADDRESS      a=-2 b=24 c=0 flags=0x00
+0019 MOVE               a=0 b=1120403456 c=0 flags=0x92 b_float=100
+0020 YIELD              a=0 b=0 c=0 flags=0x00
+0021 INDEX_ADDRESS      a=-2 b=34 c=0 flags=0x00
+0022 GT                 a=0 b=0 c=0 flags=0x12 b_float=0
+0023 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+0024 RETURN             a=0 b=0 c=0 flags=0x00
+0025 MOVE               a=0 b=12 c=0 flags=0x10 b_float=1.68156e-44
+0026 INDEX_ADDRESS      a=-2 b=5 c=1 flags=0x00
+0027 CALL               a=-4 b=0 c=0 flags=0x00 external=create
+0028 INDEX_ADDRESS      a=-2 b=8 c=0 flags=0x00
+0029 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0030 SUB                a=0 b=-1013579776 c=0 flags=0x92 b_float=-300
+0031 MOVE               a=0 b=-2 c=0 flags=0x00
+0032 CALL               a=-5 b=0 c=0 flags=0x00 external=deactivate
+0033 YIELD              a=0 b=0 c=0 flags=0x00
+0034 MOVE               a=0 b=-1 c=0 flags=0x00
+0035 MOVE               a=1 b=1073741824 c=0 flags=0x10 b_float=2
+0036 CALL_WAIT          a=-6 b=0 c=0 flags=0x00 external=lRotateTo
+0037 MOVE               a=0 b=18 c=0 flags=0x10 b_float=2.52234e-44
+0038 CALL               a=0 b=0 c=0 flags=0x00
+0039 SET_WAIT           a=1041865114 b=0 c=0 flags=0x01 a_float=0.15
+0040 CALL_WAIT          a=14 b=0 c=0 flags=0x00
+0041 MOVE               a=0 b=29 c=0 flags=0x10 b_float=4.06377e-44
+0042 CALL               a=0 b=0 c=0 flags=0x00
+0043 SET_WAIT           a=1041865114 b=0 c=0 flags=0x01 a_float=0.15
+0044 CALL_WAIT          a=14 b=0 c=0 flags=0x00
+0045 MOVE               a=0 b=40 c=0 flags=0x10 b_float=5.60519e-44
+0046 CALL               a=0 b=0 c=0 flags=0x00
+0047 SET_WAIT           a=1041865114 b=0 c=0 flags=0x01 a_float=0.15
+0048 CALL_WAIT          a=14 b=0 c=0 flags=0x00
+0049 MOVE               a=0 b=51 c=0 flags=0x10 b_float=7.14662e-44
+0050 CALL               a=0 b=0 c=0 flags=0x00
+0051 SET_WAIT           a=1073741824 b=0 c=0 flags=0x01 a_float=2
+0052 CALL_WAIT          a=14 b=0 c=0 flags=0x00
+0053 YIELD              a=0 b=0 c=0 flags=0x00

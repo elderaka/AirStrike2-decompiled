@@ -1,0 +1,265 @@
+{
+  "header_words": [
+    1280525138,
+    16,
+    0,
+    3,
+    5,
+    1,
+    17,
+    14,
+    19,
+    -1,
+    10,
+    -1,
+    0,
+    -1
+  ],
+  "version": 16,
+  "cached_resource_count": 0,
+  "slot_count": 17,
+  "entry_pc": 10,
+  "functions": [
+    "Damage",
+    "create",
+    "remove",
+    "movey",
+    "rotatey"
+  ],
+  "definitions": [
+    "other",
+    "self",
+    "frametime"
+  ],
+  "chunks": {
+    "DEFS": {
+      "file_offset": 64,
+      "size": 24
+    },
+    "FUNC": {
+      "file_offset": 96,
+      "size": 40
+    },
+    "DATA": {
+      "file_offset": 144,
+      "size": 8
+    },
+    "STRG": {
+      "file_offset": 160,
+      "size": 14
+    },
+    "CODE": {
+      "file_offset": 182,
+      "size": 266
+    }
+  },
+  "initializers": [
+    {
+      "type": 2,
+      "slot": 16,
+      "raw_value": 1125515264,
+      "float_value": 150.0
+    }
+  ],
+  "instructions": [
+    {
+      "pc": 0,
+      "file_offset": 182,
+      "opcode": 17,
+      "name": "MOVE",
+      "flags": 0,
+      "a": 0,
+      "b": -1,
+      "c": 0
+    },
+    {
+      "pc": 1,
+      "file_offset": 196,
+      "opcode": 18,
+      "name": "INDEX_ADDRESS",
+      "flags": 0,
+      "a": -2,
+      "b": 35,
+      "c": 1
+    },
+    {
+      "pc": 2,
+      "file_offset": 210,
+      "opcode": 17,
+      "name": "MOVE",
+      "flags": 32,
+      "a": 1,
+      "b": 1,
+      "c": 0
+    },
+    {
+      "pc": 3,
+      "file_offset": 224,
+      "opcode": 28,
+      "name": "CALL",
+      "flags": 0,
+      "a": -1,
+      "b": 0,
+      "c": 0,
+      "function": "Damage"
+    },
+    {
+      "pc": 4,
+      "file_offset": 238,
+      "opcode": 17,
+      "name": "MOVE",
+      "flags": 16,
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "b_immediate": 0.0
+    },
+    {
+      "pc": 5,
+      "file_offset": 252,
+      "opcode": 18,
+      "name": "INDEX_ADDRESS",
+      "flags": 0,
+      "a": -2,
+      "b": 5,
+      "c": 1
+    },
+    {
+      "pc": 6,
+      "file_offset": 266,
+      "opcode": 28,
+      "name": "CALL",
+      "flags": 0,
+      "a": -2,
+      "b": 0,
+      "c": 0,
+      "function": "create"
+    },
+    {
+      "pc": 7,
+      "file_offset": 280,
+      "opcode": 17,
+      "name": "MOVE",
+      "flags": 0,
+      "a": 0,
+      "b": -2,
+      "c": 0
+    },
+    {
+      "pc": 8,
+      "file_offset": 294,
+      "opcode": 28,
+      "name": "CALL",
+      "flags": 0,
+      "a": -3,
+      "b": 0,
+      "c": 0,
+      "function": "remove"
+    },
+    {
+      "pc": 9,
+      "file_offset": 308,
+      "opcode": 0,
+      "name": "YIELD",
+      "flags": 0,
+      "a": 0,
+      "b": 0,
+      "c": 0
+    },
+    {
+      "pc": 10,
+      "file_offset": 322,
+      "opcode": 12,
+      "name": "LT",
+      "flags": 16,
+      "a": 16,
+      "b": 1143111680,
+      "c": 0,
+      "b_immediate": 650.0
+    },
+    {
+      "pc": 11,
+      "file_offset": 336,
+      "opcode": 26,
+      "name": "JUMP_IF_NONZERO",
+      "flags": 0,
+      "a": 0,
+      "b": 3,
+      "c": 0
+    },
+    {
+      "pc": 12,
+      "file_offset": 350,
+      "opcode": 1,
+      "name": "MUL",
+      "flags": 1,
+      "a": 1153138688,
+      "b": -3,
+      "c": 1,
+      "a_immediate": 1500.0
+    },
+    {
+      "pc": 13,
+      "file_offset": 364,
+      "opcode": 3,
+      "name": "ADD",
+      "flags": 0,
+      "a": 16,
+      "b": 1,
+      "c": 16
+    },
+    {
+      "pc": 14,
+      "file_offset": 378,
+      "opcode": 17,
+      "name": "MOVE",
+      "flags": 0,
+      "a": 0,
+      "b": 16,
+      "c": 0
+    },
+    {
+      "pc": 15,
+      "file_offset": 392,
+      "opcode": 28,
+      "name": "CALL",
+      "flags": 0,
+      "a": -4,
+      "b": 0,
+      "c": 0,
+      "function": "movey"
+    },
+    {
+      "pc": 16,
+      "file_offset": 406,
+      "opcode": 17,
+      "name": "MOVE",
+      "flags": 16,
+      "a": 0,
+      "b": 1133903872,
+      "c": 0,
+      "b_immediate": 300.0
+    },
+    {
+      "pc": 17,
+      "file_offset": 420,
+      "opcode": 28,
+      "name": "CALL",
+      "flags": 0,
+      "a": -5,
+      "b": 0,
+      "c": 0,
+      "function": "rotatey"
+    },
+    {
+      "pc": 18,
+      "file_offset": 434,
+      "opcode": 0,
+      "name": "YIELD",
+      "flags": 0,
+      "a": 0,
+      "b": 0,
+      "c": 0
+    }
+  ]
+}

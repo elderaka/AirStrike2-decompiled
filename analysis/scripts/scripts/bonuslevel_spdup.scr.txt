@@ -1,0 +1,41 @@
+entry=6 slots=16 functions=['AttachEntity', 'remove']
+0000 MOVE               a=0 b=-1 c=0 flags=0x00
+0001 MOVE               a=1 b=-2 c=0 flags=0x00
+0002 MOVE               a=2 b=0 c=0 flags=0x10 b_float=0
+0003 MOVE               a=3 b=0 c=0 flags=0x10 b_float=0
+0004 CALL               a=-1 b=0 c=0 flags=0x00 external=AttachEntity
+0005 YIELD              a=0 b=0 c=0 flags=0x00
+0006 INDEX_ADDRESS      a=-1 b=1 c=0 flags=0x00
+0007 GE                 a=0 b=1119092736 c=0 flags=0x12 b_float=90
+0008 INDEX_ADDRESS      a=-2 b=4 c=1 flags=0x00
+0009 BOOL_OR_INT        a=0 b=1 c=0 flags=0x20
+0010 JUMP_IF_NONZERO    a=0 b=6 c=0 flags=0x00
+0011 INDEX_ADDRESS      a=-3 b=9 c=0 flags=0x00
+0012 MOVE               a=0 b=1065353216 c=0 flags=0x92 b_float=1
+0013 MOVE               a=0 b=-1 c=0 flags=0x00
+0014 CALL               a=-2 b=0 c=0 flags=0x00 external=remove
+0015 RETURN             a=0 b=0 c=0 flags=0x00
+0016 INDEX_ADDRESS      a=-1 b=1 c=0 flags=0x00
+0017 LT                 a=0 b=1077936128 c=0 flags=0x12 b_float=3
+0018 JUMP_IF_NONZERO    a=0 b=8 c=0 flags=0x00
+0019 INDEX_ADDRESS      a=-3 b=9 c=0 flags=0x00
+0020 INDEX_ADDRESS      a=-1 b=1 c=3 flags=0x00
+0021 DIV                a=3 b=1077936128 c=3 flags=0x12 b_float=3
+0022 MUL                a=1068708659 b=3 c=2 flags=0x01 a_float=1.4
+0023 ADD                a=1065353216 b=2 c=1 flags=0x01 a_float=1
+0024 MOVE               a=0 b=1 c=0 flags=0x82
+0025 JUMP               a=14 b=0 c=0 flags=0x00
+0026 INDEX_ADDRESS      a=-1 b=1 c=0 flags=0x00
+0027 GT                 a=0 b=1118699520 c=0 flags=0x12 b_float=87
+0028 JUMP_IF_NONZERO    a=0 b=9 c=0 flags=0x00
+0029 INDEX_ADDRESS      a=-3 b=9 c=0 flags=0x00
+0030 INDEX_ADDRESS      a=-1 b=1 c=4 flags=0x00
+0031 SUB                a=1119092736 b=4 c=3 flags=0x21 a_float=90
+0032 MUL                a=1068708659 b=3 c=2 flags=0x01 a_float=1.4
+0033 DIV                a=2 b=1077936128 c=2 flags=0x10 b_float=3
+0034 ADD                a=1065353216 b=2 c=1 flags=0x01 a_float=1
+0035 MOVE               a=0 b=1 c=0 flags=0x82
+0036 JUMP               a=3 b=0 c=0 flags=0x00
+0037 INDEX_ADDRESS      a=-3 b=9 c=0 flags=0x00
+0038 MOVE               a=0 b=1075419546 c=0 flags=0x92 b_float=2.4
+0039 YIELD              a=0 b=0 c=0 flags=0x00

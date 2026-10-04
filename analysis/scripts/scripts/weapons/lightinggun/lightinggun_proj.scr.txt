@@ -1,0 +1,21 @@
+entry=13 slots=16 functions=['Damage', 'create', 'remove', 'rotatex', 'move', 'Lightning']
+0000 MOVE               a=0 b=-1 c=0 flags=0x00
+0001 INDEX_ADDRESS      a=-2 b=35 c=1 flags=0x00
+0002 MOVE               a=1 b=1 c=0 flags=0x20
+0003 CALL               a=-1 b=0 c=0 flags=0x00 external=Damage
+0004 MOVE               a=0 b=0 c=0 flags=0x10 b_float=0
+0005 INDEX_ADDRESS      a=-2 b=5 c=1 flags=0x00
+0006 CALL               a=-2 b=0 c=0 flags=0x00 external=create
+0007 MOVE               a=0 b=12 c=0 flags=0x10 b_float=1.68156e-44
+0008 INDEX_ADDRESS      a=-2 b=5 c=1 flags=0x00
+0009 CALL               a=-2 b=0 c=0 flags=0x00 external=create
+0010 MOVE               a=0 b=-2 c=0 flags=0x00
+0011 CALL               a=-3 b=0 c=0 flags=0x00 external=remove
+0012 YIELD              a=0 b=0 c=0 flags=0x00
+0013 MOVE               a=0 b=1120403456 c=0 flags=0x10 b_float=100
+0014 CALL               a=-4 b=0 c=0 flags=0x00 external=rotatex
+0015 INDEX_ADDRESS      a=-2 b=17 c=0 flags=0x00
+0016 CALL               a=-5 b=0 c=0 flags=0x00 external=move
+0017 MOVE               a=0 b=1128792064 c=0 flags=0x10 b_float=200
+0018 CALL               a=-6 b=0 c=0 flags=0x00 external=Lightning
+0019 YIELD              a=0 b=0 c=0 flags=0x00

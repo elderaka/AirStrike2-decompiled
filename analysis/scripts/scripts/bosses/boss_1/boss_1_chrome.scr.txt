@@ -1,0 +1,26 @@
+entry=2 slots=18 functions=['sin']
+0000 MOVE               a=17 b=0 c=0 flags=0x10 b_float=0
+0001 YIELD              a=0 b=0 c=0 flags=0x00
+0002 ADD                a=17 b=-1 c=17 flags=0x00
+0003 PUSH               a=0 b=0 c=0 flags=0x00
+0004 PUSH               a=1 b=0 c=0 flags=0x00
+0005 PUSH               a=2 b=0 c=0 flags=0x00
+0006 MUL                a=1123024896 b=17 c=3 flags=0x01 a_float=120
+0007 MOVE               a=0 b=3 c=0 flags=0x00
+0008 CALL               a=-1 b=3 c=0 flags=0x00 external=sin
+0009 POP                a=2 b=0 c=2 flags=0x00
+0010 POP                a=1 b=0 c=1 flags=0x00
+0011 POP                a=0 b=0 c=0 flags=0x00
+0012 MUL                a=1048576000 b=3 c=2 flags=0x01 a_float=0.25
+0013 ADD                a=1056964608 b=2 c=1 flags=0x01 a_float=0.5
+0014 MOVE               a=16 b=1 c=0 flags=0x00
+0015 INDEX_ADDRESS      a=-2 b=28 c=0 flags=0x00
+0016 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+0017 MOVE               a=0 b=16 c=0 flags=0x82
+0018 INDEX_ADDRESS      a=-2 b=28 c=0 flags=0x00
+0019 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+0020 MOVE               a=0 b=16 c=0 flags=0x82
+0021 INDEX_ADDRESS      a=-2 b=28 c=0 flags=0x00
+0022 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0023 MOVE               a=0 b=16 c=0 flags=0x82
+0024 YIELD              a=0 b=0 c=0 flags=0x00

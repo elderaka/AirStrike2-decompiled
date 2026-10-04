@@ -1,0 +1,44 @@
+entry=0 slots=16 functions=['StartSound', 'CameraQuake', 'TerraMorph', 'create', 'sleep', 'remove']
+0000 MOVE               a=0 b=0 c=0 flags=0x10 b_float=0
+0001 CALL               a=-1 b=0 c=0 flags=0x00 external=StartSound
+0002 MOVE               a=0 b=1065353216 c=0 flags=0x10 b_float=1
+0003 CALL               a=-2 b=0 c=0 flags=0x00 external=CameraQuake
+0004 INDEX_ADDRESS      a=-1 b=5 c=0 flags=0x00
+0005 MOVE               a=1 b=22 c=0 flags=0x10 b_float=3.08286e-44
+0006 CALL               a=-3 b=0 c=0 flags=0x00 external=TerraMorph
+0007 MOVE               a=0 b=41 c=0 flags=0x10 b_float=5.74532e-44
+0008 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0009 CALL               a=-4 b=0 c=0 flags=0x00 external=create
+0010 MOVE               a=0 b=55 c=0 flags=0x10 b_float=7.70714e-44
+0011 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0012 CALL               a=-4 b=0 c=0 flags=0x00 external=create
+0013 MOVE               a=0 b=72 c=0 flags=0x10 b_float=1.00893e-43
+0014 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0015 CALL               a=-4 b=0 c=0 flags=0x00 external=create
+0016 SET_WAIT           a=1050253722 b=0 c=0 flags=0x01 a_float=0.3
+0017 CALL_WAIT          a=-5 b=0 c=0 flags=0x00 external=sleep
+0018 MOVE               a=0 b=1065353216 c=0 flags=0x10 b_float=1
+0019 CALL               a=-2 b=0 c=0 flags=0x00 external=CameraQuake
+0020 MOVE               a=0 b=82 c=0 flags=0x10 b_float=1.14906e-43
+0021 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0022 CALL               a=-4 b=0 c=0 flags=0x00 external=create
+0023 MOVE               a=0 b=92 c=0 flags=0x10 b_float=1.28919e-43
+0024 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0025 CALL               a=-4 b=0 c=0 flags=0x00 external=create
+0026 SET_WAIT           a=1050253722 b=0 c=0 flags=0x01 a_float=0.3
+0027 CALL_WAIT          a=-5 b=0 c=0 flags=0x00 external=sleep
+0028 INDEX_ADDRESS      a=-1 b=5 c=0 flags=0x00
+0029 MOVE               a=1 b=102 c=0 flags=0x10 b_float=1.42932e-43
+0030 CALL               a=-3 b=0 c=0 flags=0x00 external=TerraMorph
+0031 MOVE               a=0 b=125 c=0 flags=0x10 b_float=1.75162e-43
+0032 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0033 CALL               a=-4 b=0 c=0 flags=0x00 external=create
+0034 MOVE               a=0 b=130 c=0 flags=0x10 b_float=1.82169e-43
+0035 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0036 CALL               a=-4 b=0 c=0 flags=0x00 external=create
+0037 MOVE               a=0 b=140 c=0 flags=0x10 b_float=1.96182e-43
+0038 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0039 CALL               a=-4 b=0 c=0 flags=0x00 external=create
+0040 MOVE               a=0 b=-1 c=0 flags=0x00
+0041 CALL               a=-6 b=0 c=0 flags=0x00 external=remove
+0042 YIELD              a=0 b=0 c=0 flags=0x00

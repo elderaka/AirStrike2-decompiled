@@ -1,0 +1,635 @@
+{
+  "source": "work\\payload\\app\\bass.dll",
+  "size": 95288,
+  "sha256": "129a2d333eb4390a4b5065fe2e442b70341457806784638bdb4172d842d54d8a",
+  "machine": "0x14c",
+  "timestamp": 1106328391,
+  "linker": [
+    6,
+    0
+  ],
+  "image_base": "0x10000000",
+  "entry_rva": "0x40043",
+  "subsystem": 2,
+  "sections": [
+    {
+      "name": "",
+      "rva": "0x1000",
+      "virtual_size": 245760,
+      "raw_offset": 4608,
+      "raw_size": 90112,
+      "characteristics": "0xe0000060",
+      "entropy": 7.9858993586675755
+    },
+    {
+      "name": ".rsrc",
+      "rva": "0x3d000",
+      "virtual_size": 4096,
+      "raw_offset": 94720,
+      "raw_size": 568,
+      "characteristics": "0x40000040",
+      "entropy": 3.0869260859253607
+    },
+    {
+      "name": "",
+      "rva": "0x3e000",
+      "virtual_size": 8192,
+      "raw_offset": 0,
+      "raw_size": 0,
+      "characteristics": "0xc2000040",
+      "entropy": 0.0
+    },
+    {
+      "name": "",
+      "rva": "0x40000",
+      "virtual_size": 3686,
+      "raw_offset": 512,
+      "raw_size": 4096,
+      "characteristics": "0xe2000060",
+      "entropy": 5.381258533524348
+    }
+  ],
+  "imports": {
+    "WINMM.dll": [
+      {
+        "name": "mixerOpen",
+        "iat_va": "0x1004027c"
+      }
+    ],
+    "MSACM32.dll": [
+      {
+        "name": "acmStreamSize",
+        "iat_va": "0x10040284"
+      }
+    ],
+    "KERNEL32.dll": [
+      {
+        "name": "ExitProcess",
+        "iat_va": "0x1004025c"
+      },
+      {
+        "name": "LoadLibraryA",
+        "iat_va": "0x10040260"
+      },
+      {
+        "name": "GetProcAddress",
+        "iat_va": "0x10040264"
+      },
+      {
+        "name": "VirtualProtect",
+        "iat_va": "0x10040268"
+      },
+      {
+        "name": "GlobalAlloc",
+        "iat_va": "0x1004026c"
+      },
+      {
+        "name": "GlobalFree",
+        "iat_va": "0x10040270"
+      },
+      {
+        "name": "GetModuleHandleA",
+        "iat_va": "0x10040274"
+      }
+    ],
+    "USER32.dll": [
+      {
+        "name": "MessageBoxA",
+        "iat_va": "0x10040250"
+      },
+      {
+        "name": "wsprintfA",
+        "iat_va": "0x10040254"
+      }
+    ],
+    "ole32.dll": [
+      {
+        "name": "CoInitialize",
+        "iat_va": "0x1004028c"
+      }
+    ],
+    "MSVCRT.dll": [
+      {
+        "name": "atoi",
+        "iat_va": "0x10040294"
+      }
+    ]
+  },
+  "resources": [
+    {
+      "path": [
+        "16",
+        "1",
+        "2057"
+      ],
+      "rva": "0x3d060",
+      "size": 468,
+      "file": "resource_16_1_2057.bin"
+    }
+  ],
+  "warnings": [
+    "Suspicious flags set for section 0. Both IMAGE_SCN_MEM_WRITE and IMAGE_SCN_MEM_EXECUTE are set. This might indicate a packed executable.",
+    "Suspicious flags set for section 3. Both IMAGE_SCN_MEM_WRITE and IMAGE_SCN_MEM_EXECUTE are set. This might indicate a packed executable.",
+    "Imported symbols contain entries typical of packed executables.",
+    "Overlapping offsets in relocation data at RVA: 0x40000"
+  ],
+  "overlay": {
+    "offset": null,
+    "size": 0,
+    "prefix_hex": ""
+  },
+  "directories": [
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_EXPORT",
+      "rva": "0x403a0",
+      "size": 2758
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_IMPORT",
+      "rva": "0x401c4",
+      "size": 475
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_RESOURCE",
+      "rva": "0x3d000",
+      "size": 568
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_BASERELOC",
+      "rva": "0x16f04",
+      "size": 16
+    }
+  ],
+  "version_info": {
+    "CompanyName": "Un4seen Developments",
+    "FileDescription": "BASS",
+    "FileVersion": "2.1",
+    "LegalCopyright": "Copyright \u00a9 1999-2005"
+  },
+  "rich_header": null,
+  "dll_characteristics": "0x0",
+  "file_characteristics": "0x210e",
+  "exports": [
+    {
+      "name": "BASS_Apply3D",
+      "ordinal": 1,
+      "rva": "0x1e8c4"
+    },
+    {
+      "name": "BASS_ChannelBytes2Seconds",
+      "ordinal": 2,
+      "rva": "0x1adf7"
+    },
+    {
+      "name": "BASS_ChannelGet3DAttributes",
+      "ordinal": 3,
+      "rva": "0x1cbac"
+    },
+    {
+      "name": "BASS_ChannelGet3DPosition",
+      "ordinal": 4,
+      "rva": "0x1cc05"
+    },
+    {
+      "name": "BASS_ChannelGetAttributes",
+      "ordinal": 5,
+      "rva": "0x1b02a"
+    },
+    {
+      "name": "BASS_ChannelGetData",
+      "ordinal": 6,
+      "rva": "0x1bb99"
+    },
+    {
+      "name": "BASS_ChannelGetDevice",
+      "ordinal": 7,
+      "rva": "0x1ad84"
+    },
+    {
+      "name": "BASS_ChannelGetEAXMix",
+      "ordinal": 8,
+      "rva": "0x1ccc9"
+    },
+    {
+      "name": "BASS_ChannelGetInfo",
+      "ordinal": 9,
+      "rva": "0x1aa96"
+    },
+    {
+      "name": "BASS_ChannelGetLevel",
+      "ordinal": 10,
+      "rva": "0x1c544"
+    },
+    {
+      "name": "BASS_ChannelGetPosition",
+      "ordinal": 11,
+      "rva": "0x1bacd"
+    },
+    {
+      "name": "BASS_ChannelIsActive",
+      "ordinal": 12,
+      "rva": "0x1a9c9"
+    },
+    {
+      "name": "BASS_ChannelIsSliding",
+      "ordinal": 13,
+      "rva": "0x1b1c6"
+    },
+    {
+      "name": "BASS_ChannelPause",
+      "ordinal": 14,
+      "rva": "0x1c743"
+    },
+    {
+      "name": "BASS_ChannelPlay",
+      "ordinal": 15,
+      "rva": "0x1a643"
+    },
+    {
+      "name": "BASS_ChannelPreBuf",
+      "ordinal": 16,
+      "rva": "0x1a4ed"
+    },
+    {
+      "name": "BASS_ChannelRemoveDSP",
+      "ordinal": 17,
+      "rva": "0x1cad7"
+    },
+    {
+      "name": "BASS_ChannelRemoveFX",
+      "ordinal": 18,
+      "rva": "0x1d113"
+    },
+    {
+      "name": "BASS_ChannelRemoveLink",
+      "ordinal": 19,
+      "rva": "0x1cdd3"
+    },
+    {
+      "name": "BASS_ChannelRemoveSync",
+      "ordinal": 20,
+      "rva": "0x1c9ab"
+    },
+    {
+      "name": "BASS_ChannelSeconds2Bytes",
+      "ordinal": 21,
+      "rva": "0x1ae7d"
+    },
+    {
+      "name": "BASS_ChannelSet3DAttributes",
+      "ordinal": 22,
+      "rva": "0x1cb47"
+    },
+    {
+      "name": "BASS_ChannelSet3DPosition",
+      "ordinal": 23,
+      "rva": "0x1cbdd"
+    },
+    {
+      "name": "BASS_ChannelSetAttributes",
+      "ordinal": 24,
+      "rva": "0x1aecf"
+    },
+    {
+      "name": "BASS_ChannelSetDSP",
+      "ordinal": 25,
+      "rva": "0x1ca0a"
+    },
+    {
+      "name": "BASS_ChannelSetEAXMix",
+      "ordinal": 26,
+      "rva": "0x1cc4e"
+    },
+    {
+      "name": "BASS_ChannelSetFX",
+      "ordinal": 27,
+      "rva": "0x1ce3f"
+    },
+    {
+      "name": "BASS_ChannelSetFlags",
+      "ordinal": 28,
+      "rva": "0x1ac64"
+    },
+    {
+      "name": "BASS_ChannelSetLink",
+      "ordinal": 29,
+      "rva": "0x1cd2d"
+    },
+    {
+      "name": "BASS_ChannelSetPosition",
+      "ordinal": 30,
+      "rva": "0x1ba6d"
+    },
+    {
+      "name": "BASS_ChannelSetSync",
+      "ordinal": 31,
+      "rva": "0x1c7d2"
+    },
+    {
+      "name": "BASS_ChannelSlideAttributes",
+      "ordinal": 32,
+      "rva": "0x1b0d6"
+    },
+    {
+      "name": "BASS_ChannelStop",
+      "ordinal": 33,
+      "rva": "0x1c725"
+    },
+    {
+      "name": "BASS_ErrorGetCode",
+      "ordinal": 34,
+      "rva": "0x1f7d7"
+    },
+    {
+      "name": "BASS_FXGetParameters",
+      "ordinal": 35,
+      "rva": "0x1d2ec"
+    },
+    {
+      "name": "BASS_FXSetParameters",
+      "ordinal": 36,
+      "rva": "0x1d208"
+    },
+    {
+      "name": "BASS_Free",
+      "ordinal": 37,
+      "rva": "0x1d44f"
+    },
+    {
+      "name": "BASS_Get3DFactors",
+      "ordinal": 38,
+      "rva": "0x1e740"
+    },
+    {
+      "name": "BASS_Get3DPosition",
+      "ordinal": 39,
+      "rva": "0x1e85e"
+    },
+    {
+      "name": "BASS_GetCPU",
+      "ordinal": 40,
+      "rva": "0x5fbd"
+    },
+    {
+      "name": "BASS_GetConfig",
+      "ordinal": 41,
+      "rva": "0x1fbae"
+    },
+    {
+      "name": "BASS_GetDSoundObject",
+      "ordinal": 42,
+      "rva": "0x1e32c"
+    },
+    {
+      "name": "BASS_GetDevice",
+      "ordinal": 43,
+      "rva": "0x1e2fe"
+    },
+    {
+      "name": "BASS_GetDeviceDescription",
+      "ordinal": 44,
+      "rva": "0x1d330"
+    },
+    {
+      "name": "BASS_GetEAXParameters",
+      "ordinal": 45,
+      "rva": "0x1e990"
+    },
+    {
+      "name": "BASS_GetInfo",
+      "ordinal": 46,
+      "rva": "0x1e38a"
+    },
+    {
+      "name": "BASS_GetVersion",
+      "ordinal": 47,
+      "rva": "0x1f7cc"
+    },
+    {
+      "name": "BASS_GetVolume",
+      "ordinal": 48,
+      "rva": "0x1e6a8"
+    },
+    {
+      "name": "BASS_Init",
+      "ordinal": 49,
+      "rva": "0x1d5f0"
+    },
+    {
+      "name": "BASS_MusicFree",
+      "ordinal": 50,
+      "rva": "0x164a4"
+    },
+    {
+      "name": "BASS_MusicGetAttribute",
+      "ordinal": 51,
+      "rva": "0x1a411"
+    },
+    {
+      "name": "BASS_MusicGetLength",
+      "ordinal": 52,
+      "rva": "0x1a231"
+    },
+    {
+      "name": "BASS_MusicGetName",
+      "ordinal": 53,
+      "rva": "0x1a206"
+    },
+    {
+      "name": "BASS_MusicLoad",
+      "ordinal": 54,
+      "rva": "0x16529"
+    },
+    {
+      "name": "BASS_MusicSetAttribute",
+      "ordinal": 55,
+      "rva": "0x1a281"
+    },
+    {
+      "name": "BASS_Pause",
+      "ordinal": 56,
+      "rva": "0x1e5ac"
+    },
+    {
+      "name": "BASS_RecordFree",
+      "ordinal": 57,
+      "rva": "0x1eb36"
+    },
+    {
+      "name": "BASS_RecordGetDevice",
+      "ordinal": 58,
+      "rva": "0x1ef33"
+    },
+    {
+      "name": "BASS_RecordGetDeviceDescription",
+      "ordinal": 59,
+      "rva": "0x1ea3a"
+    },
+    {
+      "name": "BASS_RecordGetInfo",
+      "ordinal": 60,
+      "rva": "0x1ef63"
+    },
+    {
+      "name": "BASS_RecordGetInput",
+      "ordinal": 61,
+      "rva": "0x1f266"
+    },
+    {
+      "name": "BASS_RecordGetInputName",
+      "ordinal": 62,
+      "rva": "0x1efde"
+    },
+    {
+      "name": "BASS_RecordInit",
+      "ordinal": 63,
+      "rva": "0x1eb99"
+    },
+    {
+      "name": "BASS_RecordSetDevice",
+      "ordinal": 64,
+      "rva": "0x1eef3"
+    },
+    {
+      "name": "BASS_RecordSetInput",
+      "ordinal": 65,
+      "rva": "0x1f018"
+    },
+    {
+      "name": "BASS_RecordStart",
+      "ordinal": 66,
+      "rva": "0x1f3f0"
+    },
+    {
+      "name": "BASS_SampleCreate",
+      "ordinal": 67,
+      "rva": "0x669c"
+    },
+    {
+      "name": "BASS_SampleCreateDone",
+      "ordinal": 68,
+      "rva": "0x6796"
+    },
+    {
+      "name": "BASS_SampleFree",
+      "ordinal": 69,
+      "rva": "0x67d7"
+    },
+    {
+      "name": "BASS_SampleGetChannel",
+      "ordinal": 70,
+      "rva": "0x6909"
+    },
+    {
+      "name": "BASS_SampleGetInfo",
+      "ordinal": 71,
+      "rva": "0x67e3"
+    },
+    {
+      "name": "BASS_SampleLoad",
+      "ordinal": 72,
+      "rva": "0x608f"
+    },
+    {
+      "name": "BASS_SampleSetInfo",
+      "ordinal": 73,
+      "rva": "0x68a0"
+    },
+    {
+      "name": "BASS_SampleStop",
+      "ordinal": 74,
+      "rva": "0x6ea4"
+    },
+    {
+      "name": "BASS_Set3DFactors",
+      "ordinal": 75,
+      "rva": "0x1e6d1"
+    },
+    {
+      "name": "BASS_Set3DPosition",
+      "ordinal": 76,
+      "rva": "0x1e79d"
+    },
+    {
+      "name": "BASS_SetConfig",
+      "ordinal": 77,
+      "rva": "0x1f7df"
+    },
+    {
+      "name": "BASS_SetDevice",
+      "ordinal": 78,
+      "rva": "0x1e2c1"
+    },
+    {
+      "name": "BASS_SetEAXParameters",
+      "ordinal": 79,
+      "rva": "0x1e8f5"
+    },
+    {
+      "name": "BASS_SetVolume",
+      "ordinal": 80,
+      "rva": "0x1e658"
+    },
+    {
+      "name": "BASS_Start",
+      "ordinal": 81,
+      "rva": "0x1e464"
+    },
+    {
+      "name": "BASS_Stop",
+      "ordinal": 82,
+      "rva": "0x1e530"
+    },
+    {
+      "name": "BASS_StreamCreate",
+      "ordinal": 83,
+      "rva": "0x160a3"
+    },
+    {
+      "name": "BASS_StreamCreateFile",
+      "ordinal": 84,
+      "rva": "0xf876"
+    },
+    {
+      "name": "BASS_StreamCreateFileUser",
+      "ordinal": 85,
+      "rva": "0x1600c"
+    },
+    {
+      "name": "BASS_StreamCreateURL",
+      "ordinal": 86,
+      "rva": "0x15031"
+    },
+    {
+      "name": "BASS_StreamFree",
+      "ordinal": 87,
+      "rva": "0x161a9"
+    },
+    {
+      "name": "BASS_StreamGetFilePosition",
+      "ordinal": 88,
+      "rva": "0x1637f"
+    },
+    {
+      "name": "BASS_StreamGetLength",
+      "ordinal": 89,
+      "rva": "0x16288"
+    },
+    {
+      "name": "BASS_StreamGetTags",
+      "ordinal": 90,
+      "rva": "0x161e9"
+    },
+    {
+      "name": "BASS_Update",
+      "ordinal": 91,
+      "rva": "0x5e4e"
+    },
+    {
+      "name": "_",
+      "ordinal": 92,
+      "rva": "0x26ab8"
+    }
+  ],
+  "debug": []
+}

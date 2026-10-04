@@ -1,0 +1,2141 @@
+0000004d	ascii	!This program cannot be run in DOS mode.
+000001e8	ascii	.text
+0000020f	ascii	`.rdata
+00000237	ascii	@.data
+00000260	ascii	.rsrc
+00001531	ascii	\$ 9\$
+00001545	ascii	l$ 9l$
+00001557	ascii	;t$ v
+0000159f	ascii	\$89\$4v
+000015ae	ascii	l$89l$4v
+000015bd	ascii	t$4;t$8v
+000017f5	ascii	T$P;T)
+00001856	ascii	)PQh 
+00001b67	ascii	Y_^][
+00001bb9	ascii	D$ Ph
+00001be6	ascii	T$ Rh
+00001c18	ascii	L$ Qh
+00001c4f	ascii	D$ Ph
+00001c7c	ascii	T$ Rh
+00001cae	ascii	L$ Qh
+00001ce5	ascii	D$ Ph
+00001d12	ascii	T$ Rh
+00001d44	ascii	L$ Qh
+00001d7b	ascii	D$ Ph
+00001da8	ascii	T$ Rh
+00001dda	ascii	L$ Qh
+00001e11	ascii	D$ Ph
+00001e3e	ascii	T$ Rh
+00001e70	ascii	L$ Qh
+00001ea8	ascii	D$ Ph
+00001ed5	ascii	T$ Rh
+00001f07	ascii	L$ Qh
+00001f3e	ascii	D$ Ph
+00001f6b	ascii	T$ Rh
+00001f9d	ascii	L$ Qh
+00001fd4	ascii	D$ Ph
+00002001	ascii	T$ Rh
+00002033	ascii	L$ Qh
+0000206a	ascii	D$ Ph
+00002097	ascii	T$ Rh
+000020c9	ascii	L$ Qh
+0000211d	ascii	L$ Qh
+0000216c	ascii	L$ Qh
+000021de	ascii	L$ Qh
+00002211	ascii	L$ Qh
+00002247	ascii	T$ Rh
+0000227d	ascii	D$ Ph
+000022b3	ascii	L$ Qh(
+000022e9	ascii	T$ RhD
+0000231f	ascii	D$ Ph\
+00002355	ascii	L$ Qhx
+0000238b	ascii	T$ Rh
+000023c1	ascii	D$ Ph
+0000240c	ascii	L$ Qh
+00002445	ascii	D$ Ph
+00002478	ascii	T$ Rh
+00002529	ascii	SUVWP
+00002a9b	ascii	_^][3
+00002ab0	ascii	QSUVWh
+00002d52	ascii	_^][Y
+00002fbd	ascii	L$t^][3
+000034ee	ascii	0^][Y
+000035e3	ascii	L$8Q+
+0000360a	ascii	L$8Q+
+000036b9	ascii	Y_^][
+000036e0	ascii	;t$ t
+000037ee	ascii	0^][Y
+000046f9	ascii	D$,PS
+0000476c	ascii	D$,PWSU
+000047a2	ascii	L$,QSV
+000047d7	ascii	T$,RV
+00004b9f	ascii	9D$hr
+00004bf7	ascii	;L$lsy
+00004c70	ascii	;L$lr
+00005869	utf16	jjjjj
+0000590f	ascii	j5QPj
+00005932	ascii	_^[]3
+00005efd	ascii	_^][3
+00005f24	ascii	SUVWhX
+00005f40	ascii	D$ Ph
+00005f8b	ascii	D$LPh
+00005fca	ascii	L$ QV
+000060ae	ascii	_^][3
+000060c3	ascii	9=XEF
+000060f1	ascii	;=XEF
+000062a6	ascii	_^][3
+000062c1	ascii	l$$hT
+000062e1	ascii	L:@SQP
+0000678c	ascii	_^[]3
+000068b4	ascii	SUVWhT
+0000692c	ascii	T$(j R
+000069fa	ascii	9D$,t
+00006b16	ascii	_^][3
+00006e0e	ascii	D$@j P
+00006e98	ascii	t/<{t
+000075f7	ascii	    j
+00007a14	ascii	t/<{t
+00008461	ascii	T$ Ph
+00009247	ascii	D$ U}
+00009450	ascii	D$ Q}
+00009a02	ascii	$j3hX
+0000a05d	ascii	D$ W}
+0000a2ab	ascii	D$ Q}
+0000b3a6	ascii	l$lVW
+0000b832	ascii	95T(F
+0000b8b0	ascii	;5T(F
+0000cace	ascii	\$8t}
+0000e122	ascii	D$(Pj
+00010f48	ascii	SUVWh
+00010fba	ascii	|$4HMAPt
+00010ffd	ascii	9t$H~G
+00011044	ascii	;t$H|
+0001104c	ascii	9l$L~b
+000110ae	ascii	;l$L|
+00011310	ascii	f9L$.
+00011485	ascii	f;P$v(
+0001153c	ascii	_^][3
+00011668	ascii	;l$0|
+000116fc	ascii	_^][3
+00012053	ascii	SVPWj
+000130ec	ascii	_^][3
+0001311d	ascii	Wh ~X
+00013450	ascii	_^][Y
+00013993	ascii	D$ PQ
+00013b06	ascii	T$,SR
+00013b25	ascii	D$,SP
+00013b41	ascii	L$,SQ
+00013d48	ascii	V QVhH
+00013e1b	ascii	D$ Phx
+000140bb	ascii	_^][3
+000154a5	ascii	PQRWh8
+0001558e	ascii	D$0`[A
+0001560b	ascii	T$TSR
+00015625	ascii	D$PPj
+0001570b	ascii	SRSSQP
+00015712	ascii	D$<SSVhP E
+00015753	ascii	SSSSSQ
+0001591e	ascii	jBQRj
+00015a75	utf16	Djjjj
+00015c70	ascii	D$ PQ
+00015c8c	ascii	SRPSSSQ
+00015c9e	ascii	D$(RPh4"E
+00016372	ascii	u"hL"E
+000163a1	ascii	u#ht"E
+00018ffa	ascii	_^][Y
+0001929b	ascii	VWPQj
+00019542	ascii	D$(hq
+00019f07	ascii	D$l9t$
+0001a2f7	ascii	D$$|t
+0001a488	ascii	4SVWj
+0001a7db	ascii	L$0~|
+0001a9b3	ascii	tZ;\$(
+0001a9be	ascii	\$ tP
+0001acae	ascii	D$ )D$(u
+0001cb8e	ascii	|$PMDL!t$h8$E
+0001cbc7	ascii	t$hd$E
+0001cf29	ascii	\$$t4
+0001d505	ascii	uyh|%E
+0001d654	ascii	VWhl'E
+0001d966	ascii	D$Th()E
+0001d9f0	ascii	0h@)E
+0001da01	ascii	L$`hT
+0001da34	ascii	u#hP)E
+0001db4a	ascii	 _^[3
+0001e077	ascii	tcSVW
+0001e280	ascii	QSUVW
+0001e292	ascii	_^][Y
+0001ee4a	ascii	8;~X|
+0001eeaf	ascii	9FX~(
+0001fe50	ascii	T$ ;WXu5
+00020a0b	ascii	D$(Vh
+000215da	ascii	T$8SR
+00022543	ascii	T$pRQ
+000228a4	ascii	L$8QP
+00022ac8	ascii	PQUVS
+00022d66	ascii	_^][3
+00022fb7	ascii	T$$UVW
+00023064	ascii	L$@SU
+0002324a	ascii	L$$;|$L
+00023a4f	ascii	D$,_^
+0002540a	ascii	_^][Y
+00025add	ascii	PQSVW
+00025cb6	ascii	SUVW3
+0002649e	ascii	Sh$-E
+000264b1	ascii	Sh(-E
+000264c4	ascii	Sh,-E
+000264dd	ascii	Sh8-E
+000265e1	ascii	L$ QW
+00026f15	ascii	SUVWu
+000275c1	ascii	XHUV3
+00027792	ascii	_^][Y
+0002863d	ascii	95T(F
+00028775	ascii	;5T(F
+00028cac	ascii	D^][Y
+00028da5	ascii	G|_^[
+00028f99	ascii	SWtpU3
+00028fa0	ascii	9-T(F
+00029000	ascii	;-T(F
+000290fc	ascii	SUVWh
+00029c24	ascii	9FT~X
+00029cbc	ascii	SVW|c
+00029ccd	ascii	9XH~R
+00029d1e	ascii	H;ZH|
+00029e2a	ascii	?RCSLt
+00029e8b	ascii	D$ =STRG
+00029e9f	ascii	=DATA
+00029eaa	ascii	=FUNC
+00029eb5	ascii	=CODE
+00029f3a	ascii	_^][3
+0002a046	ascii	=CASH
+0002a051	ascii	=DEFSt
+0002a5c1	ascii	\$$PQ
+0002a629	ascii	D$@QR
+0002a8ed	ascii	SWt2V
+0002a986	ascii	T$XRj
+0002a9d9	ascii	T$XRj
+0002abcb	ascii	+B +G
+0002b708	ascii	L$P_^3
+0002bb89	ascii	D$4(EE
+0002bb91	ascii	D$<8EE
+0002bb99	ascii	D$@HEE
+0002bba1	ascii	D$H\EE
+0002bba9	ascii	D$LdEE
+0002bcde	ascii	t+<{t
+0002c6af	ascii	y\9:t
+0002c703	ascii	PP+PT
+0002c762	ascii	FX+FT3
+0002c83f	ascii	~P+~T
+0002c879	ascii	9NT~Z
+0002c919	ascii	F\_][Y
+0002ca34	ascii	G SUVj
+0002ceb5	ascii	t+<{t
+0002d580	ascii	uS9C8tN
+0002d894	ascii	;s8u|
+0002da09	ascii	(;s8uR
+0002dabe	ascii	tr;s8u4
+0002daf9	ascii	;s<u4
+0002dc43	ascii	t+<{t
+0002dc77	ascii	D$$Uj
+0002e123	ascii	t+<{t
+0002e6e0	ascii	t/<{t
+000300ad	ascii	D$$XHE
+000300cd	ascii	D$8HIE
+000300d5	ascii	D$@`IE
+000301d5	ascii	L$Ht4
+000301e0	ascii	<{t <}t
+000302b2	ascii	_^][3
+000316d4	ascii	D$(jxj<
+00031713	ascii	D$4`ME
+0003172b	ascii	D$@4NE
+00031798	ascii	D$<jxj<
+000317d7	ascii	D$0DOE
+000317df	ascii	D$8XOE
+000317e7	ascii	D$<hOE
+00031807	ascii	D$P PE
+00031a14	ascii	D$0jxj<
+00031a4b	ascii	D$,8QE
+00031a53	ascii	D$0HQE
+00031da8	ascii	D$8jxj<
+00031dcf	ascii	D$$xSE
+00031def	ascii	D$8 TE
+00031df7	ascii	D$<\TE
+00031dff	ascii	D$DdTE
+00032128	ascii	D$0jxj<
+0003214f	ascii	D$$HVE
+00032157	ascii	D$(XVE
+00032187	ascii	D$HTWE
+000323c6	ascii	D$,DXE
+000331fb	ascii	SVWu,8
+000339d5	ascii	_^][Y
+00033d9a	ascii	_^][Y
+00033f71	ascii	9D$$r
+00034372	ascii	SVWu.
+00034b63	ascii	T$<SU
+00034c64	ascii	L$4_^][3
+00035ac1	ascii	$RPUQ
+00035c62	ascii	t+<{t
+00035dc6	ascii	SUV}X
+00035f4b	ascii	^][h`%
+00035f85	ascii	L$D_3
+000360fb	ascii	D$4t@;
+000361cd	ascii	PQSUVW
+00036276	ascii	t$ t?
+00036440	ascii	Y_^][
+0003646e	ascii	Y_^][
+00036539	ascii	Y_^][
+00036c39	ascii	0WWWWW
+00036c8b	ascii	SSSSS
+00036e1a	ascii	WWWWW
+00036e9e	ascii	QSUVW
+00036f45	ascii	_^][Y
+000370f4	ascii	PPPPP
+00037127	ascii	0WWWWW
+00037225	ascii	SSSSS
+000373b9	ascii	VVVVV
+000373f0	ascii	VVVVV
+00037455	ascii	YYuTVWhl
+000374c8	ascii	F95(5F
+0003769e	ascii	SSSSS
+0003772e	ascii	VVVVV
+00037843	ascii	95p=F
+000379a0	ascii	SSSSS
+00037bc7	ascii	PPPPP
+00037c19	ascii	VVVVV
+00037d71	ascii	VVVVV
+00037de6	ascii	WWWWW
+00037e6f	ascii	WWWWW
+00038009	ascii	0VVVVV
+00038567	ascii	SSSSS
+00038634	ascii	SSSSS
+000387ea	ascii	VVVVV
+000388a0	ascii	SSSSS
+00038a47	ascii	VVVVV
+0003930f	ascii	QQSVWd
+00039507	utf16	jjjjj
+00039bf7	ascii	, <Xw
+00039e2f	ascii	HHt@HHt
+00039edc	ascii	HHt]+
+0003a258	ascii	2If90t
+0003a3cc	ascii	PPPPP
+0003a43f	ascii	0SSSSS
+0003a56f	ascii	SSSSS
+0003acb9	ascii	jF<-uH
+0003acc7	ascii	]t=F:
+0003adbc	ascii	YYj0[
+0003b18c	ascii	WWWWW
+0003b5e2	ascii	YYt:V
+0003b8a7	ascii	YYt4V
+0003b986	ascii	YYu-9D$
+0003b9d8	ascii	u-9D$
+0003ba33	ascii	WWWWW
+0003baff	ascii	Y__^[
+0003bb15	ascii	\$ UV
+0003bc35	ascii	D$,9h
+0003c4f9	ascii	0A@@Ju
+0003c747	ascii	t^9(uZ
+0003c7af	ascii	tD9(u@
+0003c85e	ascii	Y_^][
+0003ca49	ascii	WWWWQ
+0003cc52	ascii	SSSSS
+0003cd12	ascii	<+t(<-t$:
+0003ce26	ascii	+t HHt
+0003d440	ascii	VVVVV
+0003d484	ascii	PPPPP
+0003d49a	ascii	<Yv8V
+0003d4c7	ascii	VVVVV
+0003d4eb	ascii	VVVVV
+0003d50d	ascii	VVVVV
+0003d562	ascii	]_^[Y
+0003db6f	ascii	PPPPP
+0003dcfa	ascii	WWWWW
+0003ddd6	ascii	VVVVV
+0003ddf1	ascii	VVVVV
+0003ebe1	ascii	<at9<rt,<wt
+0003ebf2	ascii	SSSSS
+0003ec68	ascii	tVHtG
+0003ed00	ascii	tDHt0
+0003edff	ascii	SSSSS
+0003ef93	ascii	URPQQh
+0003f0e8	ascii	WWWWW
+0003f247	ascii	WWWWW
+0003f3df	ascii	WWWWW
+0003f7e8	ascii	WWWWW
+0003f885	ascii	VVVVV
+0003f963	ascii	WWWWW
+0003fa15	ascii	~,WPV
+0003fc5a	ascii	WWWWW
+0003fd50	ascii	VVVVV
+0003fdbd	ascii	VVVVV
+00040319	ascii	WWWWW
+0004055c	ascii	u8SS3
+000405f4	ascii	9]$SS
+00040b60	ascii	j(j ^V
+00040be4	ascii	Rj(j 
+00040e11	ascii	tqJtE
+00040edf	ascii	tNIt?It0It 
+000413df	ascii	X 9} 
+00041a41	ascii	t$<"u
+00041ad8	ascii	>=Yt/j
+00041aeb	ascii	tJVUP
+00041afc	ascii	SSSSS
+00041b31	ascii	Y]_^[
+00041c71	ascii	< tK<
+00041e26	ascii	@PVSS
+00041e44	ascii	t#SSUP
+00041e4b	ascii	t$$VSS
+00041ecc	ascii	_^][YY
+000427ef	ascii	s[S;7|G;w
+00042c46	ascii	tR99u2
+00042c9c	ascii	@_^[]
+00042dd8	ascii	WWWWW
+00042e19	ascii	WWWWW
+00042f07	ascii	VVVVV
+00042f79	ascii	^SSSSS
+00042ff1	ascii	j"^SSSSS
+0004303b	ascii	QSWVj
+000431f8	ascii	WWWWW
+00043403	ascii	WWWWW
+0004349c	ascii	uL9=x=F
+000435a3	ascii	wIVSP
+00043689	ascii	9=x=F
+00043769	ascii	VVVVV
+00043904	ascii	9] SS
+00043ce8	ascii	0SSSSS
+00043d46	ascii	PPPPPPPP
+00043dba	ascii	0SSSSS
+00043f06	ascii	PPPPPPPP
+00044b7e	ascii	_VVVVV
+00044c48	ascii	SSSSS
+00044d05	ascii	SSSSS
+00044ded	ascii	^WWWWW
+00045151	ascii	PPPPP
+00045257	ascii	SSSSS
+00045310	ascii	SSSSS
+0004548c	ascii	VVVVV
+00045762	ascii	SSSSS
+000457f5	ascii	SSSSS
+00045898	ascii	VVVVV
+000459a2	ascii	SSSSS
+000459bd	ascii	SSSSS
+000459f5	ascii	t>Ht2Ht&
+00045a0e	ascii	^SSSSS
+00045fbe	ascii	8VVVVV
+000460a0	ascii	VVVVV
+000460d7	ascii	VVVVV
+00046306	ascii	SSSSS
+0004633c	ascii	SSSSS
+00046433	ascii	SVWUj
+000464d4	ascii	;t$,v-
+00046559	ascii	UQPXY]Y[
+0004656d	ascii	VW|Z;
+000465ed	ascii	VW|[;
+000466ba	ascii	VVVVV
+00046977	ascii	SSSSS
+00046d22	ascii	WWWWV
+00046d45	ascii	t+WWVPV
+00046e94	ascii	SSSSS
+00046eca	ascii	SSSSS
+00046f72	ascii	SSSSS
+00046fb1	ascii	SSSSS
+00047097	ascii	SSSSW
+0004713d	ascii	SSSSW
+000471d7	ascii	0SSSSS
+0004739e	ascii	PPPPP
+000474f4	ascii	_VVVVV
+000477a9	ascii	VVVVV
+00047950	ascii	u&f!;f;
+000479dd	ascii	VVVVV
+00047a09	ascii	VVVVV
+000485f2	ascii	SSSSS
+0004862f	ascii	SSSSS
+000486c0	ascii	QQSV3
+000486dc	ascii	VVVVj
+00048763	ascii	@A;D$
+000489a0	ascii	t{~Bj
+00048b6d	ascii	SSSSS
+00048baa	ascii	SSSSS
+00048cf0	ascii	SSSSS
+00048d10	ascii	tSj=V
+00048e93	ascii	YYt\VV
+00048e9e	ascii	@Y@PW
+00048eaf	ascii	SSSSS
+00048f43	ascii	YYt SVW
+00048f56	ascii	UUUUU
+00048f8e	ascii	SSSSS
+0004906a	ascii	VVVVV
+00049088	ascii	WuXj=S
+000490a4	ascii	}_@WP
+000490b0	ascii	YYsQS
+0004910a	ascii	VVVVV
+000491d1	ascii	trSPj
+0004935c	ascii	VVVVV
+00049380	ascii	tjj=W
+0004938e	ascii	YYtZ;
+0004953a	ascii	@Y@PW
+0004954b	ascii	VVVVV
+000495a6	ascii	VVVVj
+000495ef	ascii	u8VVVVj
+000496c4	ascii	SSSSS
+000496ee	ascii	SSSSS
+0004971b	ascii	SSSSS
+00049801	ascii	WWWWW
+00049851	ascii	 CCBB
+000498b2	ascii	t SVW
+000498c3	ascii	UUUUU
+000498f9	ascii	0WWWWW
+00049920	ascii	BBFFf;
+00049a2f	ascii	>=Yt/j
+00049a42	ascii	tLVWP
+00049a53	ascii	UUUUU
+00049a64	ascii	4~f9.u
+00049a8a	ascii	Y[_^]
+00049b0b	ascii	@@f98u
+00049b12	ascii	@@f98u
+00049b61	ascii	t#SSj
+00049bf8	ascii	_^][Y
+00049d29	ascii	9E Yt
+0004a06b	ascii	<$t6f
+0004a18b	ascii	<$tPf
+0004a2bb	ascii	<$tPf
+0004a55b	ascii	<$tmf
+0004a7db	ascii	<$tTf
+0004bc0c	ascii	(-peE
+0004bc18	ascii	X-`eE
+0004bc24	ascii	X-PeE
+0004bc30	ascii	X-@eE
+0004bc7a	ascii	(-0eE
+0004bc86	ascii	X- eE
+0004bd96	ascii	(-peE
+0004bda2	ascii	X-`eE
+0004bdae	ascii	X-PeE
+0004bdba	ascii	X-@eE
+0004c0a7	ascii	f-00f=
+0004c0fc	ascii	(-`nE
+0004c13c	ascii	(5@nE
+0004c181	ascii	X-PnE
+0004c18d	ascii	X50nE
+0004c277	ascii	f-00f=
+0004c538	ascii	(- xE
+0004cfd7	ascii	f- 8f=
+0004d4ad	ascii	t+Ht$Ht
+0004e4a0	ascii	string too long
+0004e4b0	ascii	invalid string position
+0004e4d4	ascii	Unknown exception
+0004e4f0	ascii	CorExitProcess
+0004e500	ascii	mscoree.dll
+0004e57e	utf16	F(null)
+0004e590	ascii	(null)
+0004e5b9	ascii	( 8PX
+0004e5c1	ascii	700WP
+0004e5d1	ascii	`h````
+0004e5d9	ascii	xpxxxx
+0004e5f4	ascii	EncodePointer
+0004e604	ascii	KERNEL32.DLL
+0004e614	ascii	DecodePointer
+0004e624	ascii	FlsFree
+0004e62c	ascii	FlsSetValue
+0004e638	ascii	FlsGetValue
+0004e644	ascii	FlsAlloc
+0004e66f	ascii	 !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+0004e6dc	ascii	runtime error 
+0004e6f0	ascii	TLOSS error
+0004e700	ascii	SING error
+0004e710	ascii	DOMAIN error
+0004e720	ascii	R6034
+0004e727	ascii	An application has made an attempt to load the C runtime library incorrectly.
+0004e775	ascii	Please contact the application's support team for more information.
+0004e7c0	ascii	R6033
+0004e7c7	ascii	- Attempt to use MSIL code from this assembly during native code initialization
+0004e817	ascii	This indicates a bug in your application. It is most likely the result of calling an MSIL-compiled (/clr) function from a native constructor or from DllMain.
+0004e8b8	ascii	R6032
+0004e8bf	ascii	- not enough space for locale information
+0004e8f0	ascii	R6031
+0004e8f7	ascii	- Attempt to initialize the CRT more than once.
+0004e927	ascii	This indicates a bug in your application.
+0004e954	ascii	R6030
+0004e95b	ascii	- CRT not initialized
+0004e974	ascii	R6028
+0004e97b	ascii	- unable to initialize heap
+0004e99c	ascii	R6027
+0004e9a3	ascii	- not enough space for lowio initialization
+0004e9d4	ascii	R6026
+0004e9db	ascii	- not enough space for stdio initialization
+0004ea0c	ascii	R6025
+0004ea13	ascii	- pure virtual function call
+0004ea34	ascii	R6024
+0004ea3b	ascii	- not enough space for _onexit/atexit table
+0004ea6c	ascii	R6019
+0004ea73	ascii	- unable to open console device
+0004ea98	ascii	R6018
+0004ea9f	ascii	- unexpected heap error
+0004eabc	ascii	R6017
+0004eac3	ascii	- unexpected multithread lock error
+0004eaec	ascii	R6016
+0004eaf3	ascii	- not enough space for thread data
+0004eb1a	ascii	This application has requested the Runtime to terminate it in an unusual way.
+0004eb68	ascii	Please contact the application's support team for more information.
+0004ebb0	ascii	R6009
+0004ebb7	ascii	- not enough space for environment
+0004ebdc	ascii	R6008
+0004ebe3	ascii	- not enough space for arguments
+0004ec08	ascii	R6002
+0004ec0f	ascii	- floating point not loaded
+0004ec30	ascii	Microsoft Visual C++ Runtime Library
+0004ec5c	ascii	<program name unknown>
+0004ec74	ascii	Runtime Error!
+0004ec84	ascii	Program: 
+0004ec90	ascii	InitializeCriticalSectionAndSpinCount
+0004ecb8	ascii	kernel32.dll
+0004ecd0	ascii	UTF-8
+0004ecd8	ascii	UTF-16LE
+0004ece4	ascii	UNICODE
+0004ed68	ascii	exp10
+0004ed84	ascii	log10
+0004ed94	ascii	_nextafter
+0004eda0	ascii	_logb
+0004edb4	ascii	frexp
+0004edbc	ascii	_hypot
+0004edc4	ascii	_cabs
+0004edcc	ascii	ldexp
+0004ee0c	ascii	bad exception
+0004ee45	ascii	('8PW
+0004ee4e	ascii	700PP
+0004ee60	ascii	`h`hhh
+0004ee69	ascii	xppwpp
+0004ef80	utf16	         (((((                  H
+0004f182	utf16	         h((((                  H
+0004f280	utf16	                                 H
+0004f428	ascii	 !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+0004f5a8	ascii	 !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+0004f688	ascii	HH:mm:ss
+0004f694	ascii	dddd, MMMM dd, yyyy
+0004f6a8	ascii	MM/dd/yy
+0004f6bc	ascii	December
+0004f6c8	ascii	November
+0004f6d4	ascii	October
+0004f6dc	ascii	September
+0004f6e8	ascii	August
+0004f700	ascii	April
+0004f708	ascii	March
+0004f710	ascii	February
+0004f71c	ascii	January
+0004f754	ascii	Saturday
+0004f760	ascii	Friday
+0004f768	ascii	Thursday
+0004f774	ascii	Wednesday
+0004f780	ascii	Tuesday
+0004f788	ascii	Monday
+0004f790	ascii	Sunday
+0004f7b4	ascii	e+000
+0004f7ce	ascii	GAIsProcessorFeaturePresent
+0004f7ec	ascii	KERNEL32
+0004f7f8	ascii	 Complete Object Locator'
+0004f814	ascii	 Class Hierarchy Descriptor'
+0004f834	ascii	 Base Class Array'
+0004f848	ascii	 Base Class Descriptor at (
+0004f864	ascii	 Type Descriptor'
+0004f878	ascii	`local static thread guard'
+0004f894	ascii	`managed vector copy constructor iterator'
+0004f8c0	ascii	`vector vbase copy constructor iterator'
+0004f8ec	ascii	`vector copy constructor iterator'
+0004f910	ascii	`dynamic atexit destructor for '
+0004f934	ascii	`dynamic initializer for '
+0004f950	ascii	`eh vector vbase copy constructor iterator'
+0004f97c	ascii	`eh vector copy constructor iterator'
+0004f9a4	ascii	`managed vector destructor iterator'
+0004f9cc	ascii	`managed vector constructor iterator'
+0004f9f4	ascii	`placement delete[] closure'
+0004fa14	ascii	`placement delete closure'
+0004fa30	ascii	`omni callsig'
+0004fa40	ascii	 delete[]
+0004fa4c	ascii	 new[]
+0004fa54	ascii	`local vftable constructor closure'
+0004fa78	ascii	`local vftable'
+0004fa88	ascii	`RTTI
+0004fa94	ascii	`udt returning'
+0004faa4	ascii	`copy constructor closure'
+0004fac0	ascii	`eh vector vbase constructor iterator'
+0004fae8	ascii	`eh vector destructor iterator'
+0004fb08	ascii	`eh vector constructor iterator'
+0004fb2c	ascii	`virtual displacement map'
+0004fb48	ascii	`vector vbase constructor iterator'
+0004fb6c	ascii	`vector destructor iterator'
+0004fb8c	ascii	`vector constructor iterator'
+0004fbac	ascii	`scalar deleting destructor'
+0004fbcc	ascii	`default constructor closure'
+0004fbec	ascii	`vector deleting destructor'
+0004fc0c	ascii	`vbase destructor'
+0004fc20	ascii	`string'
+0004fc2c	ascii	`local static guard'
+0004fc44	ascii	`typeof'
+0004fc50	ascii	`vcall'
+0004fc58	ascii	`vbtable'
+0004fc64	ascii	`vftable'
+0004fcd4	ascii	operator
+0004fcf8	ascii	 delete
+0004fd08	ascii	__unaligned
+0004fd14	ascii	__restrict
+0004fd20	ascii	__ptr64
+0004fd28	ascii	__clrcall
+0004fd34	ascii	__fastcall
+0004fd40	ascii	__thiscall
+0004fd4c	ascii	__stdcall
+0004fd58	ascii	__pascal
+0004fd64	ascii	__cdecl
+0004fd6c	ascii	__based(
+0004fef8	ascii	GetProcessWindowStation
+0004ff10	ascii	GetUserObjectInformationA
+0004ff2c	ascii	GetLastActivePopup
+0004ff40	ascii	GetActiveWindow
+0004ff50	ascii	MessageBoxA
+0004ff5c	ascii	USER32.DLL
+0004ff68	ascii	SunMonTueWedThuFriSat
+0004ff80	ascii	JanFebMarAprMayJunJulAugSepOctNovDec
+0004ffa8	ascii	CONOUT$
+0004ffb0	ascii	1#QNAN
+0004ffb8	ascii	1#INF
+0004ffc0	ascii	1#IND
+0004ffc8	ascii	1#SNAN
+0004ffd0	ascii	bad allocation
+0004ffe0	ascii	%dx%d
+0004ffe9	ascii	    Forcing video mode: %ix%i - %iHz
+00050012	ascii	    Summary:
+00050021	ascii	    %ix%i with frequences:
+00050040	ascii	    Error: no suitable video modes found... 
+00050070	ascii	Enabling non-standard modes.
+00050090	ascii	Forcing standard modes.
+000500ac	ascii	Shutting down.
+000500c4	ascii	ShowHints
+000500d0	ascii	System
+000500dc	ascii	FirstRun
+000500e8	ascii	ShowLogo
+000500f4	ascii	UseSystemMouse
+00050104	ascii	Camera
+0005010c	ascii	MouseControl
+00050120	ascii	VideoMode
+0005012c	ascii	Display
+00050134	ascii	RefreshRate
+00050140	ascii	ColorDepth
+0005014c	ascii	EnableNonStdModes
+00050160	ascii	ForceStdModes
+00050170	ascii	Fullscreen
+0005017c	ascii	ForceFullscreen
+0005018c	ascii	WaitVSync
+0005019c	ascii	Brightness
+000501a8	ascii	AllowSoftware
+000501b8	ascii	Graphics
+000501c4	ascii	TextureFilter
+000501d4	ascii	DisableDistanceFog
+000501e8	ascii	DisableMultitexture
+000501fc	ascii	DisableVertexArray
+00050210	ascii	DisableTextureEnvAdd
+00050228	ascii	DisableTextureEnvCombine
+00050244	ascii	ShowFPS
+0005024c	ascii	Debug
+00050254	ascii	ShowTris
+00050260	ascii	ShowTexBinds
+00050270	ascii	ShowCounters
+00050284	ascii	SfxVolume
+00050290	ascii	Sound
+00050298	ascii	MusicVolume
+000502a4	ascii	Sound3D
+000502ac	ascii	Controls
+000502b8	ascii	Controls2
+000502c4	ascii	38 243
+000502cc	ascii	KeyMoveForward
+000502dc	ascii	%i %i
+000502e4	ascii	40 244
+000502ec	ascii	KeyMoveBackward
+000502fc	ascii	37 241
+00050304	ascii	KeyMoveLeft
+00050310	ascii	39 242
+00050318	ascii	KeyMoveRight
+00050328	ascii	17 200
+00050330	ascii	KeyPrimaryAttack
+00050344	ascii	50 206
+0005034c	ascii	KeySwitchWeapon
+0005035c	ascii	16 201
+00050364	ascii	KeyMissileAttack
+00050378	ascii	49 211
+00050380	ascii	KeySwitchMissiles
+00050394	ascii	32 202
+0005039c	ascii	KeyUsePowerUp
+000503ac	ascii	50 212
+000503b4	ascii	KeySwitchPowerUp
+000503c8	ascii	JoystickDisabled
+000503dc	ascii	Joystick
+000503ec	ascii	JoystickThresholdX
+00050400	ascii	JoystickThresholdY
+00050418	ascii	%1.4f
+00050420	ascii	KeyUsePowerup
+00050430	ascii	\config.ini
+0005043c	ascii	--- Enumerating display modes ---
+00050460	ascii	-setup
+00050468	ascii	Bilinear
+00050474	ascii	Trilinear
+00050480	ascii	%s - 16 bit
+0005048c	ascii	%s - 32 bit
+00050498	ascii	vector<T> too long
+000504ac	ascii	Error
+000504b8	ascii	Software\CLASSES\CLSID\{72C33BB5-7A28-4E74-B083-AF9FE31F58B7}\ProgID
+00050508	ascii	Settings.xml
+00050518	ascii	Can not load game settings.
+00050534	ascii	F_LoadPackFile: Too many paks.
+00050559	ascii	---- Initializing file system ----
+00050580	ascii	data\*.apk
+0005058c	ascii	F_Init: No data files were found.
+000505b0	ascii	data\%s
+000505c0	ascii	 - %i files
+000505d0	ascii	 - corrupted
+000505e0	ascii	F_Init: 
+000505e9	ascii	%i data files found.
+00050600	ascii	File '%s' not found.
+00050618	ascii	data\%s\*.%s
+00050628	ascii	%s\%s
+00050630	ascii	game.bin
+0005063c	ascii	G_LoadBin: Illegal '%s' version. 
+00050660	ascii	G_LoadBin: File '%s' corrupted. 
+00050688	ascii	invulnerability
+00050698	ascii	God Mode: Enabled
+000506ac	ascii	God Mode: Disabled
+000506c0	ascii	igonnaliveforever
+000506d4	ascii	All Lives: Enabled
+000506e8	ascii	showmetheweapons
+000506fc	ascii	All Weapons: Enabled
+00050714	ascii	moremoreweapons
+00050724	ascii	All Missiles: Enabled
+0005073c	ascii	glitteringprizes
+00050750	ascii	All Power-Ups: Enabled
+00050768	ascii	deadlineisnear
+00050778	ascii	diediediemydarling
+0005078c	ascii	sounds\cheat.wav
+000507a0	ascii	menu\cursor_1.tga
+000507b4	ascii	menu\cursor_2.tga
+000507c8	ascii	gfx\ui\mainbar2.tga
+000507dc	ascii	gfx\ui\life.tga
+000507ec	ascii	gfx\ui\weapons.tga
+00050800	ascii	gfx\ui\missiles.tga
+00050814	ascii	gfx\ui\items.tga
+00050828	ascii	gfx\mc_cur.tga
+00050838	ascii	sounds\type.wav
+00050848	ascii	gfx\ui\comix\loading3_1_1
+00050864	ascii	gfx\ui\comix\loading3_1_2
+00050880	ascii	gfx\ui\comix\loading3_2_1
+0005089c	ascii	gfx\ui\comix\loading3_2_2
+000508b8	ascii	gfx\ui\comix\loading3_3_1
+000508d4	ascii	gfx\ui\comix\loading3_3_2
+000508f0	ascii	gfx\ui\comix\loading2_1_1
+0005090c	ascii	gfx\ui\comix\loading2_1_2
+00050928	ascii	gfx\ui\comix\loading2_2_1
+00050944	ascii	gfx\ui\comix\loading2_2_2
+00050960	ascii	gfx\ui\comix\loading2_3_1
+0005097c	ascii	gfx\ui\comix\loading2_3_2
+00050998	ascii	gfx\ui\comix\loading1_1_1
+000509b4	ascii	gfx\ui\comix\loading1_1_2
+000509d0	ascii	gfx\ui\comix\loading1_2_1
+000509ec	ascii	gfx\ui\comix\loading1_2_2
+00050a08	ascii	gfx\ui\comix\loading1_3_1
+00050a24	ascii	gfx\ui\comix\loading1_3_2
+00050a40	ascii	Loading
+00050a48	ascii	hbar_full
+00050a54	ascii	hbar_empty
+00050a60	ascii	ERROR: Unknown level identifier '%s'.
+00050a88	ascii	Too many levels in level-list file.
+00050ab4	ascii	'{' expected
+00050ac4	ascii	Unexpected end of file
+00050aec	ascii	enableHelic
+00050afc	ascii	music
+00050b04	ascii	textures
+00050b24	ascii	intermission
+00050b34	ascii	water
+00050b40	ascii	night
+00050b48	ascii	maps\levels.txt
+00050b58	ascii	G_LoadLevelList: Couldn't open '\maps\levels.txt'
+00050b90	ascii	particles
+00050b9c	ascii	gfx\logo.tga
+00050bac	ascii	music\track02.mo3
+00050bc0	ascii	gfx\ui\comix\intro\Frame#1_0_0.tga
+00050be4	ascii	gfx\ui\comix\intro\Frame#1_0_1.tga
+00050c08	ascii	gfx\ui\comix\intro\Frame#1_0_2.tga
+00050c2c	ascii	gfx\ui\comix\intro\Frame#1_0_3.tga
+00050c50	ascii	gfx\ui\comix\intro\Frame#1_1_0.tga
+00050c74	ascii	gfx\ui\comix\intro\Frame#1_1_1.tga
+00050c98	ascii	gfx\ui\comix\intro\Frame#1_1_2.tga
+00050cbc	ascii	gfx\ui\comix\intro\Frame#1_1_3.tga
+00050ce0	ascii	gfx\ui\comix\intro\Frame#2_0_0.tga
+00050d04	ascii	gfx\ui\comix\intro\Frame#2_0_1.tga
+00050d28	ascii	gfx\ui\comix\intro\Frame#2_0_2.tga
+00050d4c	ascii	gfx\ui\comix\intro\Frame#2_0_3.tga
+00050d70	ascii	gfx\ui\comix\intro\Frame#2_1_0.tga
+00050d94	ascii	gfx\ui\comix\intro\Frame#2_1_1.tga
+00050db8	ascii	gfx\ui\comix\intro\Frame#2_1_2.tga
+00050ddc	ascii	gfx\ui\comix\intro\Frame#2_1_3.tga
+00050e00	ascii	gfx\ui\comix\intro\Frame#3_1_0_0.tga
+00050e28	ascii	gfx\ui\comix\intro\Frame#3_1_0_1.tga
+00050e50	ascii	gfx\ui\comix\intro\Frame#3_1_0_2.tga
+00050e78	ascii	gfx\ui\comix\intro\Frame#3_1_0_3.tga
+00050ea0	ascii	gfx\ui\comix\intro\Frame#3_2_0_0.tga
+00050ec8	ascii	gfx\ui\comix\intro\Frame#3_2_0_1.tga
+00050ef0	ascii	gfx\ui\comix\intro\Frame#3_2_1_0.tga
+00050f18	ascii	gfx\ui\comix\intro\Frame#3_2_1_1.tga
+00050f40	ascii	gfx\ui\comix\intro\Frame#3_3_0_0.tga
+00050f68	ascii	gfx\ui\comix\intro\Frame#3_3_0_1.tga
+00050f90	ascii	gfx\ui\comix\intro\Frame#3_4_0_0.tga
+00050fb8	ascii	gfx\ui\comix\intro\Frame#3_4_0_1.tga
+00050fe0	ascii	gfx\ui\comix\intro\Frame#3_4_1_0.tga
+00051008	ascii	gfx\ui\comix\intro\Frame#3_4_1_1.tga
+00051030	ascii	gfx\ui\comix\intro\Frame#3_5_0_0.tga
+00051058	ascii	gfx\ui\comix\intro\Frame#3_5_0_1.tga
+00051080	ascii	gfx\ui\comix\intro\Frame#4_1_0_0.tga
+000510a8	ascii	gfx\ui\comix\intro\Frame#4_1_0_1.tga
+000510d0	ascii	gfx\ui\comix\intro\Frame#4_1_0_2.tga
+000510f8	ascii	gfx\ui\comix\intro\Frame#4_1_0_3.tga
+00051120	ascii	gfx\ui\comix\intro\Frame#4_1_1_0.tga
+00051148	ascii	gfx\ui\comix\intro\Frame#4_1_1_1.tga
+00051170	ascii	gfx\ui\comix\intro\Frame#4_1_1_2.tga
+00051198	ascii	gfx\ui\comix\intro\Frame#4_1_1_3.tga
+000511c0	ascii	gfx\ui\comix\intro\Frame#4_2_0_0.tga
+000511e8	ascii	gfx\ui\comix\intro\Frame#4_2_0_1.tga
+00051210	ascii	DivoGames
+0005121c	ascii	list<T> too long
+000512bc	ascii	Would you like to upgrade now?
+000512dc	ascii	To continue playing, please upgrade to the full version.
+00051318	ascii	You have reached then end of the free Demo.
+00051344	ascii	intro4
+0005134c	ascii	intro3
+00051354	ascii	intro2
+0005135c	ascii	intro1
+00051374	ascii	score_num
+00051380	ascii	wavegun_hit
+0005138c	ascii	Map file '%s' not found.
+000513a8	ascii	File '%s' read failure.
+000513c0	ascii	'%s': File header corrupted.
+000513e0	ascii	'%s': Illegal file version.
+000513fc	ascii	'%s': Too many map objects.
+00051418	ascii	item_star
+00051428	ascii	objects.txt
+00051438	ascii	// This file was generated by Air Strike 3D II.
+00051468	ascii	// Do not modify !!!
+00051484	ascii	ERROR: Unknown object '%s'.
+000514a4	ascii	ERROR: G_InitObject(%s): Unknown attach '%s'.
+000514d4	ascii	ParseObject: Too many objects in object files.
+0005150c	ascii	TYPE_MODEL
+00051518	ascii	TYPE_SPRITE
+00051524	ascii	TYPE_VSPRITE
+00051534	ascii	TYPE_HSPRITE
+00051544	ascii	TYPE_MARK
+00051550	ascii	model
+00051564	ascii	envmap
+0005156c	ascii	blend
+00051574	ascii	BLEND_ALPHA
+00051580	ascii	BLEND_ADD
+0005158c	ascii	BLEND_FILTER
+0005159c	ascii	envmode
+000515a4	ascii	ENV_GLITTER
+000515b0	ascii	ENV_CHROME
+000515bc	ascii	ENV_QUAD
+000515c8	ascii	rflag
+000515d0	ascii	RF_NOLIGHTING
+000515e0	ascii	RF_NODLIGHT
+000515ec	ascii	RF_NOCULLING
+000515fc	ascii	RF_NODEPTHTEST
+0005160c	ascii	RF_NODEPTHWRITE
+0005161c	ascii	RF_BANNER
+00051628	ascii	shadow
+00051630	ascii	SHADOW_PROJECTED
+00051644	ascii	SHADOW_PROJECTED_LOW
+0005165c	ascii	SHADOW_PROJECTED_HIGH
+00051674	ascii	SHADOW_PLANAR
+00051684	ascii	SHADOW_PLANAR_LOW
+00051698	ascii	SHADOW_PLANAR_HIGH
+000516ac	ascii	SHADOW_PLANAR_PROJECTED
+000516c4	ascii	SHADOW_PLANAR_PROJECTED_LOW
+000516e0	ascii	SHADOW_PLANAR_PROJECTED_HIGH
+00051700	ascii	light
+00051708	ascii	light_dir
+0005171c	ascii	SORT_OPAQUE
+00051728	ascii	SORT_TRANS
+00051734	ascii	SORT_EFFECT
+00051740	ascii	player
+00051748	ascii	enemy
+00051750	ascii	civilian
+00051764	ascii	health
+0005176c	ascii	damage
+00051774	ascii	speed
+0005177c	ascii	score
+0005178c	ascii	FL_ONGROUND
+00051798	ascii	FL_ONGROUND_NORMAL
+000517ac	ascii	FL_ONWATER
+000517b8	ascii	FL_ONWATER_NORMAL
+000517cc	ascii	FL_ONWATER_FLAT
+000517dc	ascii	FL_NODRAW
+000517e8	ascii	FL_TEMPORARY
+000517f8	ascii	FL_NONTARGET
+00051808	ascii	FL_POINT_COLLISION
+0005181c	ascii	touch
+00051824	ascii	TOUCH_ENEMIES
+00051834	ascii	TOUCH_PLAYER
+00051844	ascii	TOUCH_CIVILIAN
+00051854	ascii	TOUCH_ALL
+00051860	ascii	attach
+0005186c	ascii	skid_mark
+00051878	ascii	scale
+00051880	ascii	bbox_scale
+0005188c	ascii	frames
+0005189c	ascii	script
+000518a5	ascii	  '%s': Unknown object parameter '%s'.
+000518d4	ascii	objects
+000518dc	ascii	G_LoadObjects: Couldn't find object files.
+00051908	ascii	G_LoadObjects: Couldn't find object files.
+00051934	ascii	G_LoadObjects: %4i objects parsed succefully.
+00051968	ascii	\ziU]Koh<0vRG^)'[H;b:WC*aIuVQ5cZ-}AJOxD
+00051990	ascii	#ekPL +$~YryF2d,M3q?!s_&p6Bm4/l1g>f=E@tw%nTXN{S97"(8`.j|
+00051c50	ascii	Elite
+00051c58	ascii	Berserker
+00051c64	ascii	Master Pilot
+00051c74	ascii	Pilot
+00051c7c	ascii	Junior Pilot
+00051c8c	ascii	Rookie
+00051c94	ascii	Cheater
+00051ca5	ascii	===== Posting score =====
+00051cc0	ascii	InternetAttemptConnect: Failed.
+00051ce4	ascii	Mozilla/4.0 (compatible; MSIE 5.0; Windows 98)
+00051d14	ascii	InternetOpen: Failed.
+00051d2c	ascii	InternetConnect: Failed.
+00051d58	ascii	CryptText: Failed.
+00051d6c	ascii	%s?data=%s
+00051d7c	ascii	HttpOpenRequest: Failed.
+00051d98	ascii	PostScore: Succeeded.
+00051db0	ascii	-campos
+00051db8	ascii	Too many weapons.
+00051dcc	ascii	flash
+00051dd4	ascii	missile
+00051de0	ascii	weapons
+00051de8	ascii	ERROR: Unknown weapon '%s'.
+00051e0c	ascii	aassault.log
+00051e1c	ascii	...using desktop display depth of %d.
+00051e44	ascii	...use refresh rate %d Hz.
+00051e60	ascii	...use default refresh rate.
+00051e80	ascii	...CDS: Failed. Switching to window mode.
+00051eac	ascii	...CDS: succeeded.
+00051ec0	ascii	ChoosePixelFormat(): failed.
+00051ee0	ascii	ChoosePixelFormat() - failed.
+00051f00	ascii	SetPixelFormat(): failed.
+00051f1c	ascii	SetPixelFormat() - failed.
+00051f38	ascii	...using pixel format %i: color(%i-bit), Z-buffer(%i-bit), stencil(%i-bit))
+00051f88	ascii	...no PFD_GENERIC_ACCELERATED 
+00051fa8	ascii	...no PFD_GENERIC_FORMAT 
+00051fc4	ascii	Air Strike 3D
+00051fd4	ascii	... registering window class - failed.
+00051ffc	ascii	MW_CreateWindow: Couldn't register window class.
+00052030	ascii	...registered window class.
+00052050	ascii	AirAssault II - Divo Games
+0005206c	ascii	...window creation: succeeded.
+0005208c	ascii	MW_CreateWindow: Couldn't create window
+000520b4	ascii	---- Initializing main window ----
+000520dc	ascii	FX_GLIDE_NO_SPLASH=0
+000520f4	ascii	MW_Init: Couldn't get OS info
+00052114	ascii	Air Strike 3D requires windows version 4 or greater
+00052148	ascii	Air Strike 3D doesn't run on Win32s
+0005216c	ascii	...getting DC: succeeded.
+00052188	ascii	...getting DC: failed.
+000521a0	ascii	...creating RC: succeeded.
+000521bc	ascii	...creating RC: failed.
+000521d8	ascii	Couldn't create rendering context
+000521fc	ascii	wglMakeCurrent: failed.
+00052218	ascii	wglMakeCurrent: failed
+00052234	ascii	Window changed: %i %i
+0005224c	ascii	Joy_Init: Joystick disabled by user.
+00052274	ascii	Joy_Init: No joysticks were found.
+0005229c	ascii	Joy_Init: No valid joysticks (%x)
+000522c0	ascii	Joy_Init: Invalid joystick capabilities (%x)
+000522f0	ascii	Joy_Init: Joystick detected.
+00052310	ascii	'%s' Error (line %i): %s
+0005232c	ascii	Line is incomplete
+00052340	ascii	Line is incomplete
+00052354	ascii	'"' expected
+00052364	ascii	Token too large
+0005237c	ascii	Triangles: 
+00052388	ascii	TexBinds: 
+00052394	ascii	Models: 
+000523a0	ascii	Sprites: 
+000523ac	ascii	Marks: 
+000523b4	ascii	Enteties: 
+000523c0	ascii	gfx\lightning2.tga
+000523d4	ascii	origin
+000523dc	ascii	Tag '%s' not found in model '%s'
+00052400	ascii	-notex
+00052408	ascii	R_LoadModel: Couldn't open model file '%s'.
+00052438	ascii	R_LoadModel ('%s'): File header corrupted.
+00052464	ascii	R_LoadModel ('%s'): Illegal model version.
+00052490	ascii	R_RegisterModel: Too many registered models.
+000524c0	ascii	gdi generic
+000524cc	ascii	GL_ARB_multitexture
+000524e0	ascii	glClientActiveTextureARB
+000524fc	ascii	glActiveTextureARB
+00052510	ascii	glMultiTexCoord2fARB
+00052528	ascii	  multitexture    : enabled
+00052548	ascii	  multitexture    : disabled
+00052568	ascii	GL_EXT_vertex_array
+0005257c	ascii	glArrayElementEXT
+00052590	ascii	glColorPointerEXT
+000525a4	ascii	glDrawArraysEXT
+000525b4	ascii	glEdgeFlagPointerEXT
+000525cc	ascii	glGetPointervEXT
+000525e0	ascii	glIndexPointerEXT
+000525f4	ascii	glNormalPointerEXT
+00052608	ascii	glTexCoordPointerEXT
+00052620	ascii	glVertexPointerEXT
+00052634	ascii	  vertex arrays   : enabled
+00052654	ascii	  vertex arrays   : disabled
+00052674	ascii	GL_EXT_texture_env_add
+0005268c	ascii	  texture env add : enabled
+000526ac	ascii	  texture env add : disabled
+000526cc	ascii	GL_EXT_texture_env_combine
+000526e8	ascii	  texture combine : enabled
+00052708	ascii	  texture combine : disabled
+00052728	ascii	WGL_EXT_swap_control
+00052740	ascii	wglSwapIntervalEXT
+00052754	ascii	wglGetSwapIntervalEXT
+0005276c	ascii	------ OpenGL Initializing ------
+00052798	ascii	nvidia
+000527a4	ascii	matrox
+000527b0	ascii	  renderer   : %s
+000527c4	ascii	  vendor     : %s
+000527d8	ascii	  version    : %s
+000527ec	ascii	  extensions : %s
+00052800	ascii	GL_Init: No hardware acceleration detected.
+00052830	ascii	manual\faq.html
+00052840	ascii	No hardware acceleration detected.
+00052864	ascii	Your system does not support hardware acceleration or your
+0005289f	ascii	video drivers should be updated.
+000528c1	ascii	Please read the Support Section in the game manual for details.
+00052904	ascii	GL_Init: Software mode enabled.
+00052928	ascii	screenshots
+00052934	ascii	shot000.tga
+00052940	ascii	screenshots/%s
+00052951	ascii	Error: Too many screen shots.
+00052970	ascii	Too many particle system descriptors.
+00052998	ascii	texture
+000529a0	ascii	texture_set
+000529ac	ascii	blend_mode
+000529b8	ascii	coords
+000529c0	ascii	COORD_DECART
+000529d0	ascii	COORD_SPHERE
+000529e0	ascii	COORD_CILINDER
+000529f8	ascii	draw_mode
+00052a04	ascii	DRAW_VERT
+00052a10	ascii	DRAW_HORIZ
+00052a1c	ascii	emit_mode
+00052a28	ascii	EMIT_ONCE
+00052a34	ascii	EMIT_DURATION
+00052a44	ascii	emit_time
+00052a50	ascii	emit_rate
+00052a5c	ascii	life_time
+00052a68	ascii	init_offset
+00052a74	ascii	init_velocity
+00052a84	ascii	init_color
+00052a90	ascii	init_size
+00052a9c	ascii	init_angle
+00052aa8	ascii	init_frame
+00052ab4	ascii	anim_mode
+00052ac0	ascii	ANIM_LINEAR
+00052acc	ascii	ANIM_NORMAL
+00052ad8	ascii	ANIM_LOOP
+00052ae4	ascii	anim_speed
+00052af0	ascii	accel
+00052af8	ascii	fade_mode
+00052b04	ascii	FADE_LINEAR
+00052b10	ascii	FADE_EXP
+00052b1c	ascii	fade_factor
+00052b38	ascii	color
+00052b40	ascii	_shadow%i
+00052b4c	ascii	R_RegisterShadow: Too many shadowmaps.
+00052b74	ascii	%s\texture%i.tga
+00052b88	ascii	mapTexture%i
+00052b98	ascii	tiles\tiles%i.tga
+00052bac	ascii	%s\detail.tga
+00052bbc	ascii	Illegal image format in '%s'.
+00052be4	ascii	RegisterTexture: Too many registered textures.
+00052c14	ascii	Settings
+00052c20	ascii	CheckCD
+00052c28	ascii	check
+00052c30	ascii	label
+00052c38	ascii	title
+00052c40	ascii	message
+00052c48	ascii	PostScores
+00052c54	ascii	allow
+00052c5c	ascii	address
+00052c74	ascii	Purchase
+00052c80	ascii	showButtonInMainMenu
+00052c98	ascii	shellCommand
+00052ca8	ascii	NagScreen
+00052cc4	ascii	version
+00052ccc	ascii	copyright
+00052cd8	ascii	AtExit
+00052ce0	ascii	Intros
+00052ce8	ascii	BuiltIn
+00052cf0	ascii	Image
+00052cf8	ascii	Video
+00052d00	ascii	BackColor
+00052d18	ascii	Logotypes
+00052d2c	ascii	invertAxisX
+00052d38	ascii	invertAxisY
+00052d44	ascii	Script '%s': Thread stack overflow.
+00052d68	ascii	Script '%s': Thread stack underflow.
+00052d90	ascii	Script stall detected.
+00052da8	ascii	g_health_factor
+00052db8	ascii	g_damage_factor
+00052dc8	ascii	g_map_pos
+00052dd4	ascii	cameramode
+00052de0	ascii	camera
+00052df0	ascii	frametime
+00052dfc	ascii	l_waterlevel
+00052e0c	ascii	l_water
+00052e14	ascii	l_night
+00052e1c	ascii	p_weapon
+00052e28	ascii	p_counter3
+00052e34	ascii	p_counter2
+00052e40	ascii	p_counter1
+00052e4c	ascii	p_speedfactor
+00052e5c	ascii	p_stars
+00052e64	ascii	p_lives
+00052e6c	ascii	p_scores
+00052e78	ascii	p_maxHealth
+00052e84	ascii	p_action
+00052e90	ascii	player2
+00052e98	ascii	player1
+00052ea0	ascii	cb_parm2
+00052eac	ascii	cb_parm1
+00052eb8	ascii	cb_msg
+00052ec0	ascii	other
+00052ed0	ascii	GetPlayersDistance
+00052ee4	ascii	GetPlayerAccel
+00052ef4	ascii	GetMapPosOfs
+00052f04	ascii	IsPlayerInGame
+00052f14	ascii	IsMultiplayer
+00052f24	ascii	TerraMorph
+00052f30	ascii	SetModel
+00052f3c	ascii	ClearFlag
+00052f48	ascii	SetFlag
+00052f50	ascii	FreezeHealth
+00052f60	ascii	PlayerDisableAction
+00052f74	ascii	PlayerFreezeHealth
+00052f88	ascii	ShowTutorialHint
+00052f9c	ascii	G_SetUpgrade
+00052fac	ascii	G_GetUpgrade
+00052fbc	ascii	G_GetMissiles
+00052fcc	ascii	G_UseMissile
+00052fdc	ascii	G_AddMissiles
+00052fec	ascii	G_SetPowerUpCount
+00053000	ascii	G_GetPowerUp
+00053010	ascii	G_UsePowerUp
+00053020	ascii	G_AddPowerUp
+00053030	ascii	PushPlayer
+0005303c	ascii	Lightning
+00053048	ascii	TraceLineDamage
+00053058	ascii	TraceLine
+00053064	ascii	StopLoopingSound
+00053078	ascii	StartLoopingSound
+0005308c	ascii	StartSound
+00053098	ascii	IsValidTarget
+000530a8	ascii	LockTarget
+000530b4	ascii	CameraQuake
+000530c0	ascii	PlaceLight
+000530cc	ascii	WaterHeight
+000530d8	ascii	TerrainHeight
+000530e8	ascii	GetWaypointDelay
+000530fc	ascii	lRotateToNextWP
+0005310c	ascii	RotateToNextWP
+0005311c	ascii	lMoveToNextWP
+0005312c	ascii	MoveToNextWP
+0005313c	ascii	lRotateToClamp
+0005314c	ascii	RotateToClamp
+0005315c	ascii	lRotateTo
+00053168	ascii	RotateTo
+00053174	ascii	RadialDamagePlayer
+00053188	ascii	RadialDamage
+00053198	ascii	Damage
+000531a0	ascii	Shoot
+000531a8	ascii	sleep
+000531b0	ascii	rotatez
+000531b8	ascii	rotatey
+000531c0	ascii	rotatex
+000531c8	ascii	rotate
+000531d0	ascii	movez
+000531d8	ascii	movey
+000531e0	ascii	movex
+000531f0	ascii	ParentCallback
+00053200	ascii	AttachCallback
+00053210	ascii	AttachDeactivate
+00053224	ascii	AttachActivate
+00053234	ascii	DetachEntity
+00053244	ascii	AttachEntity
+00053254	ascii	callback
+00053260	ascii	setskin
+00053268	ascii	getentity
+00053274	ascii	deactivate
+00053280	ascii	activate
+0005328c	ascii	remove
+00053294	ascii	create
+0005329c	ascii	AnglesToAxis
+000532ac	ascii	ClearAxis
+000532b8	ascii	vec_toangles
+000532c8	ascii	vec_toyaw
+000532d4	ascii	vec_setlen
+000532e0	ascii	vec_scale
+000532ec	ascii	vec_norm
+000532f8	ascii	vec_length
+00053304	ascii	vec_ma
+0005330c	ascii	vec_sub
+00053314	ascii	vec_add
+0005331c	ascii	vec_copy
+00053330	ascii	floor2
+00053338	ascii	floor
+00053340	ascii	copysign
+00053354	ascii	atan2
+00053370	ascii	crandom
+00053378	ascii	random
+00053380	ascii	GameOver
+0005338c	ascii	EndLevel
+00053398	ascii	RespawnPlayer
+000533a8	ascii	debug
+000533b0	ascii	SL_GetExternFunc: Built-in function '%s' not supported.
+000533ec	ascii	-nosound
+000533f8	ascii	Sound disabled - '-nosound' found.
+0005341c	ascii	---- Initializing sound system ----
+00053444	ascii	S_Init: Illegal BASS version.
+00053464	ascii	  BASS_Init: Failed.
+0005347c	ascii	  BASS_Init: Succeeded.
+00053498	ascii	Shutting down sound system.
+000534b8	ascii	S_RegisterSound: Too many registered samples.
+000534e8	ascii	Didn't expect anything else from you.
+0005350e	ascii	You show them, boy!
+00053528	ascii	I think, I heard that before, Snake.
+0005354d	ascii	Don't worry, I'll do what I can and can what
+0005357a	ascii	I can't!
+00053588	ascii	We got to the target.
+0005359e	ascii	This is the last terrorist base.
+000535bf	ascii	Son, this is your chance to become a hero and
+000535ed	ascii	make history.
+000535fb	ascii	Don't miss this chance!
+00053614	ascii	OK, I will talk to the head of our secret
+0005363e	ascii	weapon research lab.
+00053658	ascii	Snake, it's about time I get some new toys.
+00053684	ascii	Otherwise they'll kill me.
+000536a0	ascii	Damn, you are good.
+000536b5	ascii	Amazing job!
+000536c8	ascii	It's getting hotter with each mile.
+000536ec	ascii	Snake, stuff the refrigerator with cold soda.
+0005371a	ascii	I'll need it, when I come back.
+0005373c	ascii	Got it!
+00053748	ascii	We have no intelligence on that quadrant,
+00053772	ascii	so play it by ear.
+00053786	ascii	I am standing by.
+00053798	ascii	Good luck and take care of yourself!
+000537c0	ascii	I know I can't expect any good news from you.
+000537ee	ascii	Just wish me luck!
+00053804	ascii	Yeah, but you did a perfect job. As usual!
+00053830	ascii	Now, that was not easy...
+00053850	ascii	Looks like we've stumbled upon yet another
+0005387b	ascii	N.I.T.O. secret weapon.
+00053893	ascii	These damn terrorists keep me amazed.
+000538b9	ascii	Son, this time you will need all the firepower
+000538e8	ascii	you can get!
+000538f8	ascii	Piece of cake!
+00053907	ascii	Snake, buddy, make me a hot bath,
+00053929	ascii	I'm going to stop by when I punch out!
+00053950	ascii	Copy that!
+0005395c	ascii	Make her fly!
+00053970	ascii	Got some intelligence from our reserve satellite!
+000539a2	ascii	We detected a large concentration of heavy
+000539cd	ascii	arms and military vehicles in your quadrant.
+000539fa	ascii	Try to avoid head-on battles!
+00053a18	ascii	Snake, quit brown-nosing.
+00053a32	ascii	You'd better tell your boys give me
+00053a56	ascii	a bigger cannon!
+00053a68	ascii	You are the best of the best, as usual!
+00053a90	ascii	Nice job, once again!
+00053aa8	ascii	Well, you know better.
+00053ac0	ascii	Good luck! You'll need it.
+00053ae0	ascii	Nice joke, Snake, but you've got a sick sense
+00053b0e	ascii	of humor. Destroying their first base probably
+00053b3d	ascii	infuriated them.
+00053b4e	ascii	I think they are going to throw a welcoming
+00053b7a	ascii	party for me!
+00053b88	ascii	Move on to the next quadrant.
+00053ba6	ascii	You are a hurricane, boy.
+00053bc0	ascii	I don't think they suspect you are planning
+00053bec	ascii	to pay them a visit.
+00053c04	ascii	You were great.
+00053c15	ascii	Congratulations!!!
+00053c28	ascii	I better look for another job.
+00053c47	ascii	Gonna flip burgers somewhere.
+00053c68	ascii	Son, be careful.
+00053c79	ascii	If anything happens to you...          
+00053ca1	ascii	no, you are going to be alright!
+00053cc3	ascii	Good luck!
+00053cd0	ascii	Damn! My radar is going crazy.
+00053cef	ascii	Looks like they've hidden a tank bigger
+00053d17	ascii	then a skyscraper.
+00053d2b	ascii	That's not good. Not good at all!
+00053d50	ascii	Snake, they are up to something,
+00053d71	ascii	that's for sure.
+00053d83	ascii	I don't like it one bit!
+00053da0	ascii	Son, you are approaching the first N.I.T.O base.
+00053dd1	ascii	You can expect anything from these bastards,
+00053dfe	ascii	so you better take it slow and keep your eyes
+00053e2c	ascii	open.
+00053e34	ascii	Good job!
+00053e40	ascii	I shredded them to pieces!
+00053e60	ascii	I am sure some large corporation is behind
+00053e8b	ascii	all of this and N.I.T.O is likely to be just
+00053eb8	ascii	a tip on an iceberg.
+00053ece	ascii	Be careful!
+00053ee0	ascii	Son, we've been working together for the past
+00053f0e	ascii	fifteen years.
+00053f1d	ascii	You know I've been always watching your back.
+00053f50	ascii	Snake, darn it. How did you manage to overlook
+00053f7f	ascii	smuggling this huge pile of weapons?
+00053fa4	ascii	I believe I am going to take quite a beating.
+00053fd8	ascii	Looks like it's going to be a fun brawl.
+00054001	ascii	These guys know how to shoot and they've got
+0005402e	ascii	enough firepower to start World War III.
+00054058	ascii	All clear!
+00054068	ascii	OK, first you've got to do aerial surveillance of
+0005409a	ascii	the quadrant. Report back to me with anything
+000540c8	ascii	strange.
+000540d1	ascii	I am standing by.
+000540e4	ascii	Looks like you are in a great shape.
+00054109	ascii	Good job!
+00054114	ascii	Fine, Snake.
+00054121	ascii	Let's get it out of the way as quick
+00054146	ascii	as possible.
+00054158	ascii	Listen to me carefully, son.
+00054175	ascii	I know you are the best and you don't like
+000541a0	ascii	following these stupid government guidelines.
+000541ce	ascii	But everyone has to pass the exam.
+000541f1	ascii	You know this.
+00054200	ascii	gfx\ui\portraits2.tga
+00054218	ascii	Player 2
+00054224	ascii	Player 1
+00054230	ascii	joyDown
+00054238	ascii	joyUp
+00054240	ascii	joyRight
+0005424c	ascii	joyLeft
+00054274	ascii	Mouse 3
+0005427c	ascii	Mouse 2
+00054284	ascii	Mouse 1
+000542b0	ascii	Scroll Lock
+000542bc	ascii	NumLock
+000542c8	ascii	SEPARATOR
+000542e8	ascii	Right
+00054308	ascii	PGDOWN
+00054318	ascii	SPACE
+00054320	ascii	CAPS LOCK
+00054338	ascii	SHIFT
+00054340	ascii	ENTER
+00054348	ascii	CLEAR
+00054354	ascii	BACKSPACE
+00054360	ascii	Move Right
+0005436c	ascii	Move Left
+00054378	ascii	Move Backward
+00054388	ascii	Move Forward
+00054398	ascii	Switch Item
+000543a4	ascii	Use Item
+000543b0	ascii	Switch Missiles
+000543c0	ascii	Missile Attack
+000543d4	ascii	Switch Weapon
+000543e4	ascii	Primary Attack
+000543f8	ascii	NumPad%i
+00054408	ascii	Joy%i
+00054418	ascii	 or %s
+00054420	ascii	Configure Controls
+00054434	ascii	menu\controlsh_1.tga
+0005444c	ascii	menu\controlsh_0.tga
+00054464	ascii	menu\controlsh_2.tga
+0005447c	ascii	Controls Set:
+0005448c	ascii	 Back 
+00054494	ascii	PROJECT LEADER
+000544a4	ascii	{Dmitry Zakharov}
+000544b8	ascii	PROGRAMMING
+000544c4	ascii	{Anton Petrov}
+000544d4	ascii	3D MODELING & LEVEL DESIGN
+000544f0	ascii	{Evgeny Yakhin}
+00054500	ascii	{Anton Vakhlachev}
+00054514	ascii	2D ART & TEXTURING
+00054528	ascii	{Ilya Borisov}
+00054538	ascii	ADDITIONAL ART
+00054548	ascii	{Evgeny Khlunev}
+0005455c	ascii	MUSIC
+00054564	ascii	{Alexander Khomutovskiy}
+00054580	ascii	SOUND EFFECTS
+00054590	ascii	{Konstantin Elgazin}
+000545a8	ascii	  Back  
+000545c0	ascii	Enemies destroyed:
+000545dc	ascii	Stars collected:
+000545f0	ascii	%i/%i
+000545f8	ascii	Your current rank:
+0005460c	ascii	New helicopter is available.
+0005462c	ascii	Mission Complete
+00054640	ascii	 Restart 
+0005464c	ascii	  Quit  
+00054658	ascii	 Choose Helicopter 
+0005466c	ascii	  Next  
+00054678	ascii	Are you sure you want to quit?
+00054698	ascii	Confirm Exit
+000546a8	ascii	 YES 
+000546b8	ascii	@ Unlimited play time
+000546d0	ascii	  share high-scores all over the world
+000546f8	ascii	@ DivoRating system allowing players to
+00054720	ascii	@ 6 battle helicopters to fly on
+00054744	ascii	@ 15 power-ups and 5 missile types
+00054768	ascii	@ 10 unique upgradeable weapons
+00054788	ascii	@ 18 large levels across 5 environments
+000547b0	ascii	@ Over 100 different units and 3 Big Bosses
+000547dc	ascii	Buy AirStrike II full version now to get:
+00054808	ascii	Congratulations!
+0005481c	ascii	Once again, having toppled the world's most evil elements
+00054858	ascii	and destroyed the citadel of the international terrorism,
+00054894	ascii	you proved that you are the top of the crop.
+000548c8	ascii	The citizens do highly appreciate and praise you for your valor.
+0005490c	ascii	Now and forever your name will be written in the history
+00054948	ascii	books in bold letters.
+00054960	ascii	We are proud of you!
+00054978	ascii	gfx\ui\comix\gamedone_1_1
+00054994	ascii	gfx\ui\comix\gamedone_1_2
+000549b0	ascii	gfx\ui\comix\gamedone_2_1
+000549cc	ascii	gfx\ui\comix\gamedone_2_2
+000549e8	ascii	gfx\ui\comix\gamedone_3_1
+00054a04	ascii	gfx\ui\comix\gamedone_3_2
+00054a20	ascii	 Continue 
+00054a2c	ascii	Game Over
+00054a38	ascii	gfx\ui\comix\gameover_1_1.tga
+00054a58	ascii	gfx\ui\comix\gameover_1_2.tga
+00054a78	ascii	gfx\ui\comix\gameover_2_1.tga
+00054a98	ascii	gfx\ui\comix\gameover_2_2.tga
+00054ab8	ascii	gfx\ui\comix\gameover_3_1.tga
+00054ad8	ascii	gfx\ui\comix\gameover_3_2.tga
+00054af8	ascii	gfx\ui\comix\gamov.tga
+00054b10	ascii	Lava Hammer
+00054b1c	ascii	DG 17-F
+00054b24	ascii	Venomous Thorn
+00054b34	ascii	Steel Falcon
+00054b44	ascii	Sky Keeper
+00054b50	ascii	Green Viper
+00054b5c	ascii	gfx\ui\helicna.tga
+00054b70	ascii	NOT AVAILABLE
+00054b80	ascii	Speed:
+00054b88	ascii	Armor:
+00054b90	ascii	Choose Helicopter
+00054ba4	ascii	Player:
+00054bac	ascii	 Accept 
+00054bb8	ascii	 Start 
+00054bc0	ascii	gfx\ui\grid.tga
+00054bd0	ascii	8 of 8
+00054bd8	ascii	7 of 8
+00054be0	ascii	6 of 8
+00054be8	ascii	5 of 8
+00054bf0	ascii	4 of 8
+00054bf8	ascii	3 of 8
+00054c00	ascii	2 of 8
+00054c08	ascii	1 of 8
+00054c10	ascii	You will pilot a heavy battle helicopter equipped with up-to-date
+00054c58	ascii	weapons and special devices. Your primary mission is to destroy
+00054c98	ascii	terrorists' secret bases and small arms factories located all
+00054cd8	ascii	over the world.
+00054ce8	ascii	There are two basic goals. First, stay alive.
+00054d18	ascii	Second, eliminate as many enemies as possible to get the highest score.
+00054d60	ascii	During the course of the game, you will be given upgrades for your
+00054da8	ascii	weapons and missiles, as well as numerous power-ups. For some dead
+00054df0	ascii	enemies you will be awarded stars, which will raise your rank when
+00054e34	ascii	you collect them.
+00054e48	ascii	OVERVIEW
+00054e54	ascii	{Machine Gun}
+00054e64	ascii	While not very powerful, this weapon has a very high rate
+00054ea0	ascii	of fire. This makes it extremely effective against enemies
+00054edc	ascii	with low amounts of armor.
+00054ef8	ascii	{Impulse Gun}
+00054f08	ascii	Energy beans of this weapon will blow enemy pilots out of
+00054f44	ascii	their warm seats.
+00054f58	ascii	{Plasma Cannon}
+00054f68	ascii	One of the most common weapons, the plasma cannon
+00054f9c	ascii	unleashes a deadly stream of plasma bullets at its target.
+00054fd8	ascii	{Quantum Gun}
+00054fe8	ascii	Modern fiberglass weapon that shoots and reloads faster
+00055020	ascii	than you can imagine.  
+00055038	ascii	PRIMARY WEAPONS (Page 1 of 3)
+00055058	ascii	{Big Laser}
+00055064	ascii	This highly accurate weapon uses a modern light amplification
+000550a4	ascii	system to produce deadly streams of accelerated photons.
+000550e0	ascii	The system must recharge between shots, causing a delay
+00055118	ascii	before it can be used again.
+00055138	ascii	{Lightning Gun}
+00055148	ascii	This weapon can be extremely useful in the heat of combat
+00055184	ascii	thanks to its capability of multitarget fire.
+000551b4	ascii	{Wave Gun}
+000551c0	ascii	This gun generates highly destructive ultrahigh
+000551f0	ascii	frequency waves.
+00055204	ascii	PRIMARY WEAPONS (Page 2 of 3)
+00055224	ascii	{Missile Gun}
+00055234	ascii	Small caliber, semi self-guided missiles make this weapon
+00055270	ascii	an effective remedy for excessive  enemy air units.
+000552a4	ascii	{Flamethrower}
+000552b4	ascii	Armageddon as is.
+000552c8	ascii	PRIMARY WEAPONS (Page 3 of 3)
+000552e8	ascii	{Small Missiles}
+000552fc	ascii	These missiles can be effectively used against slow-moving
+00055338	ascii	ground targets such as tanks, jeeps, stationary cannons etc.
+00055378	ascii	{Big Missiles}
+00055388	ascii	A supercharged version of common non guided missiles.
+000553c0	ascii	{Small Heat Seeking Missiles}
+000553e0	ascii	This kind of missile is equipped with an auto-guiding system
+00055420	ascii	that allows the missile to lock on and pursue the nearest
+0005545c	ascii	target.
+00055464	ascii	{Big Heat Seeking Missiles}
+00055480	ascii	The guiding system of these heavy missiles is automatically
+000554bc	ascii	disabled after a short period of time to eliminate the
+000554f4	ascii	possibility of unauthorized detonations.
+00055520	ascii	MISSILES (Page 1 of 2)
+00055538	ascii	{M.A.D. Missiles}
+0005554c	ascii	The great advantage of the M.A.D. Launching System over
+00055584	ascii	common missile launchers is its double-firing mode.
+000555b8	ascii	MISSILES (Page 2 of 2)
+000555d0	ascii	{Annihilator}
+000555e0	ascii	This cannon shoots Terraquantum Shells which are capable
+0005561c	ascii	of burning out thousands of square miles.
+00055648	ascii	{Nuclear Bomb}
+00055658	ascii	Very effective means o'Mass Destruction.
+00055684	ascii	{Rocket Strike}
+00055694	ascii	A dozen hungry missiles go hunting so you don't have to.
+000556d0	ascii	{Lightning Bomb}
+000556e4	ascii	An extremely powerful weapon with no need for aiming.
+0005571c	ascii	This big electric ball will find targets for its forked
+00055754	ascii	lightning strikes without any problems.
+0005577c	ascii	ITEMS (Page 1 of 2)
+00055790	ascii	{Satellite Strike}
+000557a4	ascii	A blast from your strategically placed satellite
+000557d8	ascii	can destroy a dozen or so enemy units at once.
+00055808	ascii	{Air Support}
+00055818	ascii	When you need some assistance from the air,
+00055844	ascii	this option comes in very handy.
+00055868	ascii	ITEMS (Page 2 of 2)
+0005587c	ascii	PgUp - Previous Page
+00055894	ascii	PgDown - Next Page
+000558a8	ascii	Page:
+000558b0	ascii	 Resume 
+000558bc	ascii	 Options 
+000558c8	ascii	 Quit 
+000558d0	ascii	gfx\ui\font.tga
+000558e0	ascii	gfx\ui\font_alpha.tga
+000558f8	ascii	gfx\logo\logo.tga
+0005590c	ascii	gfx\logo\glow.tga
+00055920	ascii	gfx\logo\two3.tga
+00055934	ascii	gfx\logo\clouds.tga
+00055948	ascii	gfx\ui\interface.tga
+00055960	ascii	gfx\ui\snow.tga
+00055970	ascii	sounds\menu1.wav
+00055984	ascii	sounds\menu2.wav
+00055998	ascii	UI_PushMenu: Menu stack overflowm
+000559bc	ascii	UI_PopMenu: Menu stack underflow.
+000559e0	ascii	 Start Game 
+000559f0	ascii	 Top Scores 
+00055a00	ascii	 Information 
+00055a10	ascii	 Credits 
+00055a1c	ascii	Enter Your Name
+00055a2c	ascii	  Ok  
+00055a34	ascii	32 bit
+00055a3c	ascii	16 bit
+00055a44	ascii	Top-Down
+00055a50	ascii	High Pitch
+00055a5c	ascii	Default
+00055a64	ascii	Low Pitch
+00055a78	ascii	default
+00055a80	ascii	%d Hz
+00055a88	ascii	Resolution:
+00055a94	ascii	Refresh rate:
+00055aa4	ascii	Color Depth:
+00055ab4	ascii	Fullscreen:
+00055ac0	ascii	Brightness:
+00055acc	ascii	Sound Volume:
+00055adc	ascii	Music Volume:
+00055aec	ascii	3D Sound:
+00055af8	ascii	Camera:
+00055b00	ascii	Mouse Control:
+00055b10	ascii	 Configure Controls 
+00055b28	ascii	 Apply 
+00055b30	ascii	Cooperative
+00055b3c	ascii	Single Player
+00055b4c	ascii	Nightmare
+00055b60	ascii	Normal
+00055b70	ascii	Very Easy
+00055b7c	ascii	Start Game
+00055b88	ascii	Difficulty:
+00055b94	ascii	Game mode:
+00055ba0	ascii	 Next 
+00055ba8	ascii	Tutorial Tip
+00055bc4	ascii	Score
+00055bd4	ascii	Top Scores
+00055be0	ascii	 Post Scores 
+00055ec3	ascii	C333?{
+000560ee	ascii	V@333333
+00056256	ascii	U@433333
+0005625f	ascii	?ffffff
+00056287	ascii	@ffffff
+00056297	ascii	?333333
+00056318	ascii	333333
+0005631f	ascii	?333333
+000563b7	ascii	@(knN
+000564c0	ascii	RUUUUU
+00056541	ascii	TUUUU
+000567af	ascii	?uZEeu
+000568b0	ascii	uZEeu
+00056bb0	ascii	uZEeu
+00056caf	ascii	?uZEeu
+00056e2f	ascii	?UUUUUU
+00056e47	ascii	?UUUUUU
+00056e73	ascii	m0_$@
+0005704f	ascii	?uZEeu
+00057150	ascii	uZEeu
+00057450	ascii	uZEeu
+0005754f	ascii	?uZEeu
+000576cf	ascii	?UUUUUU
+000576e7	ascii	?UUUUUU
+00057713	ascii	m0_$@
+000578b1	ascii	?RbSQ
+000578b7	ascii	<zQ}<
+000578f7	ascii	<8bunz8
+000579b6	ascii	v<'*6
+00057b93	ascii	l,kg<i
+00057c17	ascii	<@En[vP
+00057e29	ascii	4lkQg
+00057fcf	ascii	?ju!4
+000582ff	ascii	?V:e:
+00058531	ascii	5SmT4
+000585f1	ascii	*+xi(
+00058a2f	ascii	?ZEM-'^
+00058baf	ascii	?>6)}
+00058ccf	ascii	?{yK+;
+00058daf	ascii	?765@Z
+00059001	ascii	D<xZu
+00059117	ascii	?l$G~
+000591a9	ascii	^\sY0
+0005923f	ascii	?e')lW
+000593f8	ascii	UUUUUU
+00059400	ascii	333333
+00059417	ascii	?333333
+00059427	ascii	?UUUUUU
+0005943f	ascii	?$rxxx
+000594d7	ascii	?UUUUUU
+00059595	ascii	|u?!u$
+000595a5	ascii	Nu?-HF
+000595b6	ascii	d? cf>
+00059a55	ascii	&2@UUUUUU
+00059c0a	ascii	#wi#:
+00059d00	ascii	+*tsJ
+00059df1	ascii	s{c|H
+0005a038	ascii	UUUUUU
+0005a147	ascii	>o3fW
+0005a211	ascii	s{c|H
+0005a280	ascii	+*tsJ
+0005a35b	ascii	?c3y?
+0005a44a	ascii	#wi#:=
+0005a49f	ascii	?."S-
+0005a4dd	ascii	A]?VJ
+0005a555	ascii	&2@UUUUUU
+0005aa45	ascii	Nu?-HF
+0005aaa3	ascii	m0_$@
+0005aaab	ascii	m0_$@
+0005ac09	ascii	UUUUU
+0005b097	ascii	?Dj0Q:W$=
+0005b0ab	ascii	Lyc>=
+0005b0bb	ascii	?C;0=
+0005b25b	ascii	?4j<=
+0005b2db	ascii	Nl,"=
+0005b347	ascii	?{fHn
+0005b35a	ascii	5s3R6=
+0005b522	ascii	i^^?(>
+0005b761	ascii	Y:/(A6>
+0005b823	ascii	MVx:>
+0005bc73	ascii	[j&,>
+0005bf27	ascii	?6FID
+0005c20f	ascii	?5L$.
+0005c3f3	ascii	F\IE>
+0005c56f	ascii	?A%My
+0005c61b	ascii	B'=>>
+0005c723	ascii	in]D>
+0005c753	ascii	F"VM>
+0005c76b	ascii	30}->
+0005c8a3	ascii	0)LK>
+0005cbff	ascii	?43-s
+0005cc17	ascii	?P`E5
+0005e6ae	ascii	timeEndPeriod
+0005e6be	ascii	timeGetTime
+0005e6cc	ascii	timeBeginPeriod
+0005e6de	ascii	joyGetNumDevs
+0005e6ee	ascii	joyGetDevCapsA
+0005e700	ascii	joyGetPosEx
+0005e70c	ascii	WINMM.dll
+0005e718	ascii	InternetConnectA
+0005e72c	ascii	HttpOpenRequestA
+0005e740	ascii	InternetAttemptConnect
+0005e75a	ascii	HttpSendRequestA
+0005e76e	ascii	InternetOpenA
+0005e77e	ascii	InternetCloseHandle
+0005e792	ascii	WININET.dll
+0005e7a0	ascii	wglCreateContext
+0005e7b4	ascii	wglMakeCurrent
+0005e7c6	ascii	wglDeleteContext
+0005e7da	ascii	glVertex2f
+0005e7e8	ascii	glTexCoord2f
+0005e7f8	ascii	glEnd
+0005e800	ascii	glBindTexture
+0005e810	ascii	glDisable
+0005e81c	ascii	glBegin
+0005e826	ascii	glRotatef
+0005e832	ascii	glPolygonMode
+0005e842	ascii	glTexEnvf
+0005e84e	ascii	glTranslatef
+0005e85e	ascii	glColor4fv
+0005e86c	ascii	glEnable
+0005e878	ascii	glLoadIdentity
+0005e88a	ascii	glClear
+0005e894	ascii	glClearColor
+0005e8a4	ascii	glOrtho
+0005e8ae	ascii	glPolygonOffset
+0005e8c0	ascii	glColor3fv
+0005e8ce	ascii	glShadeModel
+0005e8de	ascii	glFogi
+0005e8e8	ascii	glDepthMask
+0005e8f6	ascii	glFogfv
+0005e900	ascii	glPopMatrix
+0005e90e	ascii	glReadPixels
+0005e91e	ascii	glGetFloatv
+0005e92c	ascii	glPushMatrix
+0005e93c	ascii	glMultMatrixf
+0005e94c	ascii	glScalef
+0005e958	ascii	glVertex3f
+0005e966	ascii	glMatrixMode
+0005e976	ascii	glViewport
+0005e984	ascii	glFogf
+0005e98e	ascii	glFlush
+0005e998	ascii	glColor3f
+0005e9a4	ascii	glCallList
+0005e9b2	ascii	glHint
+0005e9bc	ascii	glVertex3fv
+0005e9ca	ascii	glDeleteLists
+0005e9da	ascii	glEndList
+0005e9e6	ascii	glNewList
+0005e9f2	ascii	glGenLists
+0005ea00	ascii	glTexCoord2fv
+0005ea10	ascii	glNormal3fv
+0005ea1e	ascii	glGetIntegerv
+0005ea2e	ascii	glAlphaFunc
+0005ea3c	ascii	glDepthFunc
+0005ea4a	ascii	glTexParameterf
+0005ea5c	ascii	glGetString
+0005ea6a	ascii	glClearStencil
+0005ea7c	ascii	glBlendFunc
+0005ea8a	ascii	glCullFace
+0005ea98	ascii	glTexEnvi
+0005eaa4	ascii	wglGetProcAddress
+0005eab8	ascii	glTexGeni
+0005eac4	ascii	glFrontFace
+0005ead2	ascii	glReadBuffer
+0005eae2	ascii	glColor3ubv
+0005eaf0	ascii	glEnableClientState
+0005eb06	ascii	glDrawElements
+0005eb18	ascii	glColorPointer
+0005eb2a	ascii	glVertexPointer
+0005eb3c	ascii	glTexCoordPointer
+0005eb50	ascii	glDeleteTextures
+0005eb64	ascii	glTexImage2D
+0005eb74	ascii	glGenTextures
+0005eb84	ascii	glColor4f
+0005eb90	ascii	glGetDoublev
+0005eb9e	ascii	OPENGL32.dll
+0005ebae	ascii	gluPerspective
+0005ebc0	ascii	gluBuild2DMipmaps
+0005ebd2	ascii	GLU32.dll
+0005ebde	ascii	BASS_Start
+0005ebec	ascii	BASS_SampleLoad
+0005ebfe	ascii	BASS_MusicFree
+0005ec10	ascii	BASS_SampleGetChannel
+0005ec28	ascii	BASS_SampleSetInfo
+0005ec3e	ascii	BASS_SetEAXParameters
+0005ec56	ascii	BASS_Apply3D
+0005ec66	ascii	BASS_Update
+0005ec74	ascii	BASS_Pause
+0005ec82	ascii	BASS_ChannelSetPosition
+0005ec9c	ascii	BASS_MusicGetLength
+0005ecb2	ascii	BASS_Stop
+0005ecbe	ascii	BASS_ChannelStop
+0005ecd2	ascii	BASS_MusicLoad
+0005ece4	ascii	BASS_Free
+0005ecf0	ascii	BASS_GetVersion
+0005ed02	ascii	BASS_SampleGetInfo
+0005ed18	ascii	BASS_ChannelGetInfo
+0005ed2e	ascii	BASS_ChannelSetAttributes
+0005ed4a	ascii	BASS_SetConfig
+0005ed5c	ascii	BASS_ChannelSetFlags
+0005ed74	ascii	BASS_SampleFree
+0005ed86	ascii	BASS_ChannelPlay
+0005ed9a	ascii	BASS_Init
+0005eda6	ascii	BASS_ChannelSet3DPosition
+0005edc2	ascii	BASS_Set3DFactors
+0005edd6	ascii	BASS_Set3DPosition
+0005edec	ascii	BASS_ChannelIsActive
+0005ee02	ascii	BASS.dll
+0005ee0e	ascii	GetPrivateProfileStringA
+0005ee2a	ascii	WritePrivateProfileStringA
+0005ee48	ascii	GetCurrentDirectoryA
+0005ee60	ascii	GetFullPathNameA
+0005ee74	ascii	GetDriveTypeA
+0005ee84	ascii	GetVolumeInformationA
+0005ee9c	ascii	SetCurrentDirectoryA
+0005eeb4	ascii	GetModuleFileNameA
+0005eeca	ascii	FindFirstFileA
+0005eedc	ascii	FindClose
+0005eee8	ascii	FindNextFileA
+0005eef8	ascii	lstrlenA
+0005ef04	ascii	GetVersionExA
+0005ef12	ascii	KERNEL32.dll
+0005ef22	ascii	DialogBoxParamA
+0005ef34	ascii	GetDesktopWindow
+0005ef48	ascii	EndDialog
+0005ef54	ascii	EnumDisplaySettingsA
+0005ef6c	ascii	SendDlgItemMessageA
+0005ef82	ascii	MessageBoxA
+0005ef90	ascii	SendMessageA
+0005efa0	ascii	GetCursorPos
+0005efb0	ascii	SetCursorPos
+0005efc0	ascii	GetWindowRect
+0005efd0	ascii	ShowCursor
+0005efde	ascii	RegisterClassA
+0005eff0	ascii	RegisterHotKey
+0005f002	ascii	ChangeDisplaySettingsA
+0005f01c	ascii	UnregisterHotKey
+0005f030	ascii	AdjustWindowRect
+0005f044	ascii	UpdateWindow
+0005f054	ascii	GetSystemMetrics
+0005f068	ascii	ReleaseCapture
+0005f07a	ascii	SystemParametersInfoA
+0005f092	ascii	DispatchMessageA
+0005f0a6	ascii	ShowWindow
+0005f0b4	ascii	SetWindowPos
+0005f0c4	ascii	DefWindowProcA
+0005f0d6	ascii	ReleaseDC
+0005f0e2	ascii	PeekMessageA
+0005f0f2	ascii	CreateWindowExA
+0005f104	ascii	UnregisterClassA
+0005f118	ascii	TranslateMessage
+0005f12c	ascii	GetDC
+0005f134	ascii	SetFocus
+0005f140	ascii	LoadIconA
+0005f14c	ascii	SetForegroundWindow
+0005f162	ascii	GetMessageA
+0005f170	ascii	DestroyWindow
+0005f17e	ascii	USER32.dll
+0005f18c	ascii	SetPixelFormat
+0005f19e	ascii	ChoosePixelFormat
+0005f1b2	ascii	GetDeviceCaps
+0005f1c2	ascii	DescribePixelFormat
+0005f1d8	ascii	PatBlt
+0005f1e2	ascii	GetPixelFormat
+0005f1f4	ascii	SwapBuffers
+0005f200	ascii	GDI32.dll
+0005f20c	ascii	RegSetValueExA
+0005f21e	ascii	RegCreateKeyExA
+0005f230	ascii	RegCloseKey
+0005f23c	ascii	ADVAPI32.dll
+0005f24c	ascii	ShellExecuteA
+0005f25a	ascii	SHELL32.dll
+0005f268	ascii	TerminateProcess
+0005f27c	ascii	GetCurrentProcess
+0005f290	ascii	UnhandledExceptionFilter
+0005f2ac	ascii	SetUnhandledExceptionFilter
+0005f2ca	ascii	IsDebuggerPresent
+0005f2de	ascii	GetProcAddress
+0005f2f0	ascii	GetModuleHandleA
+0005f304	ascii	ExitProcess
+0005f312	ascii	GetLastError
+0005f322	ascii	HeapFree
+0005f32e	ascii	HeapAlloc
+0005f33a	ascii	CreateDirectoryA
+0005f34e	ascii	GetCommandLineA
+0005f360	ascii	GetProcessHeap
+0005f372	ascii	GetStartupInfoA
+0005f384	ascii	RaiseException
+0005f396	ascii	RtlUnwind
+0005f3a2	ascii	TlsGetValue
+0005f3b0	ascii	TlsAlloc
+0005f3bc	ascii	TlsSetValue
+0005f3ca	ascii	TlsFree
+0005f3d4	ascii	InterlockedIncrement
+0005f3ec	ascii	SetLastError
+0005f3fc	ascii	GetCurrentThreadId
+0005f412	ascii	InterlockedDecrement
+0005f42a	ascii	Sleep
+0005f432	ascii	HeapSize
+0005f43e	ascii	GetCPInfo
+0005f44a	ascii	GetACP
+0005f454	ascii	GetOEMCP
+0005f460	ascii	WriteFile
+0005f46c	ascii	GetStdHandle
+0005f47c	ascii	DeleteCriticalSection
+0005f494	ascii	LeaveCriticalSection
+0005f4ac	ascii	EnterCriticalSection
+0005f4c4	ascii	LoadLibraryA
+0005f4d4	ascii	InitializeCriticalSection
+0005f4f0	ascii	HeapDestroy
+0005f4fe	ascii	HeapCreate
+0005f50c	ascii	VirtualFree
+0005f51a	ascii	VirtualAlloc
+0005f52a	ascii	HeapReAlloc
+0005f538	ascii	MultiByteToWideChar
+0005f54e	ascii	ReadFile
+0005f55a	ascii	SetFilePointer
+0005f56c	ascii	CloseHandle
+0005f57a	ascii	WideCharToMultiByte
+0005f590	ascii	GetConsoleCP
+0005f5a0	ascii	GetConsoleMode
+0005f5b2	ascii	LCMapStringA
+0005f5c2	ascii	LCMapStringW
+0005f5d2	ascii	SetHandleCount
+0005f5e4	ascii	GetFileType
+0005f5f2	ascii	FreeEnvironmentStringsA
+0005f60c	ascii	GetEnvironmentStrings
+0005f624	ascii	FreeEnvironmentStringsW
+0005f63e	ascii	GetEnvironmentStringsW
+0005f658	ascii	QueryPerformanceCounter
+0005f672	ascii	GetTickCount
+0005f682	ascii	GetCurrentProcessId
+0005f698	ascii	GetSystemTimeAsFileTime
+0005f6b2	ascii	GetStringTypeA
+0005f6c4	ascii	GetStringTypeW
+0005f6d6	ascii	GetLocaleInfoA
+0005f6e8	ascii	CreateFileA
+0005f6f6	ascii	SetStdHandle
+0005f706	ascii	FlushFileBuffers
+0005f71a	ascii	WriteConsoleA
+0005f72a	ascii	GetConsoleOutputCP
+0005f740	ascii	WriteConsoleW
+0005f750	ascii	SetEndOfFile
+0005f760	ascii	CompareStringA
+0005f772	ascii	CompareStringW
+0005f784	ascii	SetEnvironmentVariableA
+0005f79e	ascii	SetEnvironmentVariableW
+0006000c	ascii	.?AVout_of_range@std@@
+00060038	ascii	.?AVtype_info@@
+0006026e	ascii	                          
+0006034e	ascii	abcdefghijklmnopqrstuvwxyz
+0006036e	ascii	ABCDEFGHIJKLMNOPQRSTUVWXYZ
+00060472	ascii	                          
+00060559	ascii	abcdefghijklmnopqrstuvwxyz
+00060579	ascii	ABCDEFGHIJKLMNOPQRSTUVWXYZ
+00060f9c	ascii	.?AVbad_exception@std@@
+000612ee	ascii	z?aUY
+00061330	ascii	zc%C1
+00061383	ascii	-64OS
+00062470	ascii	123456789ABCDEFGHJKLMNPRSTUVWXYZ
+00062500	ascii	Divo Master
+00062528	ascii	Dennis
+00062550	ascii	Terminator
+00062578	ascii	Walter
+000625c8	ascii	James
+000625f0	ascii	Marianne
+00062618	ascii	Chris
+00062640	ascii	Smasher
+00062668	ascii	Greg Gizmo
+00062690	ascii	Alex. B. Blom
+000626e0	ascii	Jennifer
+00062708	ascii	Turner
+00062730	ascii	Linda
+00062779	ascii	player_1
+0006279a	ascii	player_2
+000627bb	ascii	player_4
+000627dc	ascii	player_6
+000627fd	ascii	player_5
+0006281e	ascii	player_3
+0006287b	ascii	?333?
+00062883	ascii	?333?
+000628e9	ascii	mission1
+0006290a	ascii	mission2
+0006292b	ascii	mission3
+0006294c	ascii	mission4
+0006296d	ascii	mission5
+0006298e	ascii	mission6
+000629af	ascii	mission7
+000629d0	ascii	mission8
+000629f1	ascii	mission9
+00062a12	ascii	mission10
+00062a33	ascii	mission11
+00062a54	ascii	mission12
+00062a75	ascii	mission13
+00062a96	ascii	mission14
+00062ab7	ascii	mission15
+00062ad8	ascii	mission16
+00062af9	ascii	mission17
+00062b1a	ascii	mission18
+00062ca0	ascii	b$C4 
+00062d79	ascii	P%@Fpg`
+00062d9b	ascii	RwbVr
+00062db8	ascii	ftGd$T
+00062e10	ascii	uJTZ7j
+00062e33	ascii	ld\EL
+00062e51	ascii	n6~UNt^
+00062e68	ascii	.?AVexception@std@@
+00062e84	ascii	.?AVlogic_error@std@@
+00062ea4	ascii	.?AVlength_error@std@@
+00062ec4	ascii	.?AVbad_alloc@std@@
+00062ee0	ascii	.?AVIntroPageStory4@@
+00062f00	ascii	.?AVIntroPageStory3@@
+00062f20	ascii	.?AVIntroPageStory2@@
+00062f40	ascii	.?AVIntroPageStory1@@
+00062f60	ascii	.?AVIntroPageStorySimple@@
+00062f84	ascii	.?AVIntroPageDivoGames@@
+00062fa8	ascii	.?AVIntroPageImage@@
+00062fc8	ascii	.?AVIntroPage@@
+000630b0	ascii	.?AV?$XmlObject@VXmlNodeImpl@Utility@@@Utility@@
+000630ec	ascii	.?AVXmlNodeImpl@Utility@@
+00063110	ascii	.?AV?$XmlObject@VXmlAttributeImpl@Utility@@@Utility@@
+00063150	ascii	.?AVXmlAttributeImpl@Utility@@
+00063178	ascii	.?AVXmlNode@Utility@@
+00063198	ascii	.?AVXmlAttribute@Utility@@
+00063411	ascii	atan2
+0006416e	utf16	Air Strike 3D II - Video Setup
+000641b2	utf16	MS Sans Serif
+00064210	utf16	Cancel
+0006423c	utf16	Video Mode Options
+000642a0	utf16	Video Mode
+000642d4	utf16	Advanced Options
+00064314	utf16	Full Screen
+0006434c	utf16	Wait for VSYNC
+000643a8	utf16	Texture Filter
+000643e4	utf16	Use System Mouse Cursor
+00064434	utf16	Show FPS
+0006448a	utf16	 2 - 
+000644ae	utf16	MS Sans Serif
+00064c05	ascii	%!$*D]Wn
+00064c26	ascii	"!! )203\]^P:
+00064c4d	ascii	)1Gkp
+00064c6f	ascii	A.CJi
+00064c88	ascii	eF,//+&-(+-J[m
+00064cae	ascii	@)Ii<,Eo
+00064ccf	ascii	jH=h;?v
+00064cf1	ascii	>jlRu
+00064dc6	ascii	trbgt
+00064e06	ascii	fdsrr
+00064f26	ascii	qsdsrv
+00065036	utf16	Air Strike 3D II
+0006505e	utf16	MS Sans Serif
+000650bc	utf16	Abbrechen
+000650f0	utf16	Aufloesung Optionen
+00065158	utf16	Aufloesung
+0006518c	utf16	Weitere Optionen
+000651cc	utf16	Vollbildmodus
+00065208	utf16	VSYNC
+00065254	utf16	Textur-Filter
+00065290	utf16	System-Mauszeiger verwenden
+000652e8	utf16	FPS anzeigen

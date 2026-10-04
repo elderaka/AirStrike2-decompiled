@@ -1,0 +1,16 @@
+entry=6 slots=16 functions=['rotatez', 'sleep']
+0000 MOVE               a=0 b=-1028390912 c=0 flags=0x10 b_float=-90
+0001 CALL               a=-1 b=0 c=0 flags=0x00 external=rotatez
+0002 YIELD              a=0 b=0 c=0 flags=0x00
+0003 MOVE               a=0 b=1119092736 c=0 flags=0x10 b_float=90
+0004 CALL               a=-1 b=0 c=0 flags=0x00 external=rotatez
+0005 YIELD              a=0 b=0 c=0 flags=0x00
+0006 SET_WAIT           a=1084227584 b=0 c=0 flags=0x01 a_float=5
+0007 CALL_WAIT          a=-2 b=0 c=0 flags=0x00 external=sleep
+0008 SET_WAIT           a=1065353216 b=0 c=0 flags=0x01 a_float=1
+0009 CALL_WAIT          a=0 b=0 c=0 flags=0x00
+0010 SET_WAIT           a=1077936128 b=0 c=0 flags=0x01 a_float=3
+0011 CALL_WAIT          a=-2 b=0 c=0 flags=0x00 external=sleep
+0012 SET_WAIT           a=1065353216 b=0 c=0 flags=0x01 a_float=1
+0013 CALL_WAIT          a=3 b=0 c=0 flags=0x00
+0014 YIELD              a=0 b=0 c=0 flags=0x00

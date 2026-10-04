@@ -1,0 +1,47 @@
+entry=36 slots=21 functions=['Shoot', 'remove']
+0000 INDEX_ADDRESS      a=-1 b=14 c=0 flags=0x00
+0001 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0002 MOVE               a=0 b=0 c=0 flags=0x92 b_float=0
+0003 INDEX_ADDRESS      a=-1 b=5 c=0 flags=0x00
+0004 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+0005 INDEX_ADDRESS      a=-2 b=5 c=1 flags=0x00
+0006 INDEX_ADDRESS      a=1 b=0 c=1 flags=0x00
+0007 ADD                a=1 b=1103626240 c=1 flags=0x12 b_float=25
+0008 MOVE               a=0 b=1 c=0 flags=0x82
+0009 YIELD              a=0 b=0 c=0 flags=0x00
+0010 INDEX_ADDRESS      a=-1 b=5 c=0 flags=0x00
+0011 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+0012 INDEX_ADDRESS      a=-2 b=5 c=1 flags=0x00
+0013 INDEX_ADDRESS      a=1 b=0 c=1 flags=0x00
+0014 ADD                a=1 b=1103626240 c=1 flags=0x12 b_float=25
+0015 MOVE               a=0 b=1 c=0 flags=0x82
+0016 INDEX_ADDRESS      a=-1 b=5 c=0 flags=0x00
+0017 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+0018 INDEX_ADDRESS      a=-2 b=5 c=1 flags=0x00
+0019 INDEX_ADDRESS      a=1 b=1 c=1 flags=0x00
+0020 ADD                a=1 b=1097859072 c=1 flags=0x12 b_float=15
+0021 MOVE               a=0 b=1 c=0 flags=0x82
+0022 YIELD              a=0 b=0 c=0 flags=0x00
+0023 MOVE               a=16 b=0 c=0 flags=0x00
+0024 JUMP_IF_NONZERO    a=-3 b=11 c=0 flags=0x00
+0025 INDEX_ADDRESS      a=17 b=0 c=0 flags=0x00
+0026 MOVE               a=0 b=0 c=0 flags=0x92 b_float=0
+0027 INDEX_ADDRESS      a=17 b=1 c=0 flags=0x00
+0028 MOVE               a=0 b=1065353216 c=0 flags=0x92 b_float=1
+0029 INDEX_ADDRESS      a=17 b=2 c=0 flags=0x00
+0030 MOVE               a=0 b=0 c=0 flags=0x92 b_float=0
+0031 MOVE               a=0 b=0 c=0 flags=0x10 b_float=0
+0032 MOVE               a=1 b=16 c=0 flags=0x00
+0033 MOVE               a=2 b=17 c=0 flags=0x00
+0034 CALL               a=-1 b=0 c=0 flags=0x00 external=Shoot
+0035 YIELD              a=0 b=0 c=0 flags=0x00
+0036 MOVE               a=0 b=20 c=0 flags=0x10 b_float=2.8026e-44
+0037 CALL               a=23 b=0 c=0 flags=0x00
+0038 SET_WAIT           a=1041865114 b=0 c=0 flags=0x01 a_float=0.15
+0039 CALL_WAIT          a=10 b=0 c=0 flags=0x00
+0040 INDEX_ADDRESS      a=-1 b=1 c=0 flags=0x00
+0041 GT                 a=0 b=1123024896 c=0 flags=0x12 b_float=120
+0042 JUMP_IF_NONZERO    a=0 b=3 c=0 flags=0x00
+0043 MOVE               a=0 b=-1 c=0 flags=0x00
+0044 CALL               a=-2 b=0 c=0 flags=0x00 external=remove
+0045 YIELD              a=0 b=0 c=0 flags=0x00

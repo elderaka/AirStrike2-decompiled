@@ -1,0 +1,589 @@
+{
+  "header_words": [
+    1280525138,
+    16,
+    0,
+    2,
+    7,
+    1,
+    21,
+    49,
+    50,
+    18,
+    34,
+    21,
+    -1,
+    -1
+  ],
+  "version": 16,
+  "cached_resource_count": 0,
+  "slot_count": 21,
+  "entry_pc": 34,
+  "functions": [
+    "vec_sub",
+    "Shoot",
+    "RotateTo",
+    "create",
+    "deactivate",
+    "lRotateTo",
+    "sleep"
+  ],
+  "definitions": [
+    "player",
+    "self"
+  ],
+  "chunks": {
+    "DEFS": {
+      "file_offset": 64,
+      "size": 14
+    },
+    "FUNC": {
+      "file_offset": 86,
+      "size": 64
+    },
+    "DATA": {
+      "file_offset": 158,
+      "size": 8
+    },
+    "STRG": {
+      "file_offset": 174,
+      "size": 49
+    },
+    "CODE": {
+      "file_offset": 231,
+      "size": 700
+    }
+  },
+  "initializers": [
+    {
+      "type": 3,
+      "slot": 17,
+      "raw_value": 18,
+      "float_value": 2.5223372357846707e-44
+    }
+  ],
+  "instructions": [
+    {
+      "pc": 0,
+      "file_offset": 231,
+      "opcode": 17,
+      "name": "MOVE",
+      "flags": 0,
+      "a": 16,
+      "b": 0,
+      "c": 0
+    },
+    {
+      "pc": 1,
+      "file_offset": 245,
+      "opcode": 18,
+      "name": "INDEX_ADDRESS",
+      "flags": 0,
+      "a": -1,
+      "b": 5,
+      "c": 0
+    },
+    {
+      "pc": 2,
+      "file_offset": 259,
+      "opcode": 18,
+      "name": "INDEX_ADDRESS",
+      "flags": 0,
+      "a": -2,
+      "b": 5,
+      "c": 1
+    },
+    {
+      "pc": 3,
+      "file_offset": 273,
+      "opcode": 17,
+      "name": "MOVE",
+      "flags": 0,
+      "a": 2,
+      "b": 17,
+      "c": 0
+    },
+    {
+      "pc": 4,
+      "file_offset": 287,
+      "opcode": 28,
+      "name": "CALL",
+      "flags": 0,
+      "a": -1,
+      "b": 0,
+      "c": 0,
+      "function": "vec_sub"
+    },
+    {
+      "pc": 5,
+      "file_offset": 301,
+      "opcode": 18,
+      "name": "INDEX_ADDRESS",
+      "flags": 0,
+      "a": 17,
+      "b": 1,
+      "c": 0
+    },
+    {
+      "pc": 6,
+      "file_offset": 315,
+      "opcode": 3,
+      "name": "ADD",
+      "flags": 146,
+      "a": 0,
+      "b": 1107296256,
+      "c": 0,
+      "b_immediate": 32.0
+    },
+    {
+      "pc": 7,
+      "file_offset": 329,
+      "opcode": 18,
+      "name": "INDEX_ADDRESS",
+      "flags": 0,
+      "a": 17,
+      "b": 2,
+      "c": 0
+    },
+    {
+      "pc": 8,
+      "file_offset": 343,
+      "opcode": 3,
+      "name": "ADD",
+      "flags": 146,
+      "a": 0,
+      "b": 1107296256,
+      "c": 0,
+      "b_immediate": 32.0
+    },
+    {
+      "pc": 9,
+      "file_offset": 357,
+      "opcode": 17,
+      "name": "MOVE",
+      "flags": 16,
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "b_immediate": 0.0
+    },
+    {
+      "pc": 10,
+      "file_offset": 371,
+      "opcode": 17,
+      "name": "MOVE",
+      "flags": 0,
+      "a": 1,
+      "b": 16,
+      "c": 0
+    },
+    {
+      "pc": 11,
+      "file_offset": 385,
+      "opcode": 17,
+      "name": "MOVE",
+      "flags": 0,
+      "a": 2,
+      "b": 17,
+      "c": 0
+    },
+    {
+      "pc": 12,
+      "file_offset": 399,
+      "opcode": 28,
+      "name": "CALL",
+      "flags": 0,
+      "a": -2,
+      "b": 0,
+      "c": 0,
+      "function": "Shoot"
+    },
+    {
+      "pc": 13,
+      "file_offset": 413,
+      "opcode": 0,
+      "name": "YIELD",
+      "flags": 0,
+      "a": 0,
+      "b": 0,
+      "c": 0
+    },
+    {
+      "pc": 14,
+      "file_offset": 427,
+      "opcode": 17,
+      "name": "MOVE",
+      "flags": 0,
+      "a": 0,
+      "b": -1,
+      "c": 0
+    },
+    {
+      "pc": 15,
+      "file_offset": 441,
+      "opcode": 17,
+      "name": "MOVE",
+      "flags": 16,
+      "a": 1,
+      "b": 1065353216,
+      "c": 0,
+      "b_immediate": 1.0
+    },
+    {
+      "pc": 16,
+      "file_offset": 455,
+      "opcode": 28,
+      "name": "CALL",
+      "flags": 0,
+      "a": -3,
+      "b": 0,
+      "c": 0,
+      "function": "RotateTo"
+    },
+    {
+      "pc": 17,
+      "file_offset": 469,
+      "opcode": 0,
+      "name": "YIELD",
+      "flags": 0,
+      "a": 0,
+      "b": 0,
+      "c": 0
+    },
+    {
+      "pc": 18,
+      "file_offset": 483,
+      "opcode": 18,
+      "name": "INDEX_ADDRESS",
+      "flags": 0,
+      "a": -2,
+      "b": 24,
+      "c": 0
+    },
+    {
+      "pc": 19,
+      "file_offset": 497,
+      "opcode": 17,
+      "name": "MOVE",
+      "flags": 146,
+      "a": 0,
+      "b": 1120403456,
+      "c": 0,
+      "b_immediate": 100.0
+    },
+    {
+      "pc": 20,
+      "file_offset": 511,
+      "opcode": 0,
+      "name": "YIELD",
+      "flags": 0,
+      "a": 0,
+      "b": 0,
+      "c": 0
+    },
+    {
+      "pc": 21,
+      "file_offset": 525,
+      "opcode": 18,
+      "name": "INDEX_ADDRESS",
+      "flags": 0,
+      "a": -2,
+      "b": 34,
+      "c": 0
+    },
+    {
+      "pc": 22,
+      "file_offset": 539,
+      "opcode": 11,
+      "name": "GT",
+      "flags": 18,
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "b_immediate": 0.0
+    },
+    {
+      "pc": 23,
+      "file_offset": 553,
+      "opcode": 26,
+      "name": "JUMP_IF_NONZERO",
+      "flags": 0,
+      "a": 0,
+      "b": 2,
+      "c": 0
+    },
+    {
+      "pc": 24,
+      "file_offset": 567,
+      "opcode": 24,
+      "name": "RETURN",
+      "flags": 0,
+      "a": 0,
+      "b": 0,
+      "c": 0
+    },
+    {
+      "pc": 25,
+      "file_offset": 581,
+      "opcode": 17,
+      "name": "MOVE",
+      "flags": 16,
+      "a": 0,
+      "b": 16,
+      "c": 0,
+      "b_immediate": 2.2420775429197073e-44
+    },
+    {
+      "pc": 26,
+      "file_offset": 595,
+      "opcode": 18,
+      "name": "INDEX_ADDRESS",
+      "flags": 0,
+      "a": -2,
+      "b": 5,
+      "c": 1
+    },
+    {
+      "pc": 27,
+      "file_offset": 609,
+      "opcode": 28,
+      "name": "CALL",
+      "flags": 0,
+      "a": -4,
+      "b": 0,
+      "c": 0,
+      "function": "create"
+    },
+    {
+      "pc": 28,
+      "file_offset": 623,
+      "opcode": 18,
+      "name": "INDEX_ADDRESS",
+      "flags": 0,
+      "a": -2,
+      "b": 8,
+      "c": 0
+    },
+    {
+      "pc": 29,
+      "file_offset": 637,
+      "opcode": 18,
+      "name": "INDEX_ADDRESS",
+      "flags": 0,
+      "a": 0,
+      "b": 2,
+      "c": 0
+    },
+    {
+      "pc": 30,
+      "file_offset": 651,
+      "opcode": 4,
+      "name": "SUB",
+      "flags": 146,
+      "a": 0,
+      "b": -1013579776,
+      "c": 0,
+      "b_immediate": -300.0
+    },
+    {
+      "pc": 31,
+      "file_offset": 665,
+      "opcode": 17,
+      "name": "MOVE",
+      "flags": 0,
+      "a": 0,
+      "b": -2,
+      "c": 0
+    },
+    {
+      "pc": 32,
+      "file_offset": 679,
+      "opcode": 28,
+      "name": "CALL",
+      "flags": 0,
+      "a": -5,
+      "b": 0,
+      "c": 0,
+      "function": "deactivate"
+    },
+    {
+      "pc": 33,
+      "file_offset": 693,
+      "opcode": 0,
+      "name": "YIELD",
+      "flags": 0,
+      "a": 0,
+      "b": 0,
+      "c": 0
+    },
+    {
+      "pc": 34,
+      "file_offset": 707,
+      "opcode": 17,
+      "name": "MOVE",
+      "flags": 0,
+      "a": 0,
+      "b": -1,
+      "c": 0
+    },
+    {
+      "pc": 35,
+      "file_offset": 721,
+      "opcode": 17,
+      "name": "MOVE",
+      "flags": 16,
+      "a": 1,
+      "b": 1073741824,
+      "c": 0,
+      "b_immediate": 2.0
+    },
+    {
+      "pc": 36,
+      "file_offset": 735,
+      "opcode": 29,
+      "name": "CALL_WAIT",
+      "flags": 0,
+      "a": -6,
+      "b": 0,
+      "c": 0,
+      "function": "lRotateTo"
+    },
+    {
+      "pc": 37,
+      "file_offset": 749,
+      "opcode": 17,
+      "name": "MOVE",
+      "flags": 16,
+      "a": 0,
+      "b": 22,
+      "c": 0,
+      "b_immediate": 3.0828566215145976e-44
+    },
+    {
+      "pc": 38,
+      "file_offset": 763,
+      "opcode": 28,
+      "name": "CALL",
+      "flags": 0,
+      "a": 0,
+      "b": 0,
+      "c": 0
+    },
+    {
+      "pc": 39,
+      "file_offset": 777,
+      "opcode": 30,
+      "name": "SET_WAIT",
+      "flags": 1,
+      "a": 1036831949,
+      "b": 0,
+      "c": 0,
+      "a_immediate": 0.10000000149011612
+    },
+    {
+      "pc": 40,
+      "file_offset": 791,
+      "opcode": 29,
+      "name": "CALL_WAIT",
+      "flags": 0,
+      "a": 14,
+      "b": 0,
+      "c": 0
+    },
+    {
+      "pc": 41,
+      "file_offset": 805,
+      "opcode": 17,
+      "name": "MOVE",
+      "flags": 16,
+      "a": 0,
+      "b": 31,
+      "c": 0,
+      "b_immediate": 4.344025239406933e-44
+    },
+    {
+      "pc": 42,
+      "file_offset": 819,
+      "opcode": 28,
+      "name": "CALL",
+      "flags": 0,
+      "a": 0,
+      "b": 0,
+      "c": 0
+    },
+    {
+      "pc": 43,
+      "file_offset": 833,
+      "opcode": 30,
+      "name": "SET_WAIT",
+      "flags": 1,
+      "a": 1036831949,
+      "b": 0,
+      "c": 0,
+      "a_immediate": 0.10000000149011612
+    },
+    {
+      "pc": 44,
+      "file_offset": 847,
+      "opcode": 29,
+      "name": "CALL_WAIT",
+      "flags": 0,
+      "a": 14,
+      "b": 0,
+      "c": 0
+    },
+    {
+      "pc": 45,
+      "file_offset": 861,
+      "opcode": 17,
+      "name": "MOVE",
+      "flags": 16,
+      "a": 0,
+      "b": 40,
+      "c": 0,
+      "b_immediate": 5.605193857299268e-44
+    },
+    {
+      "pc": 46,
+      "file_offset": 875,
+      "opcode": 28,
+      "name": "CALL",
+      "flags": 0,
+      "a": 0,
+      "b": 0,
+      "c": 0
+    },
+    {
+      "pc": 47,
+      "file_offset": 889,
+      "opcode": 30,
+      "name": "SET_WAIT",
+      "flags": 1,
+      "a": 1069547520,
+      "b": 0,
+      "c": 0,
+      "a_immediate": 1.5
+    },
+    {
+      "pc": 48,
+      "file_offset": 903,
+      "opcode": 29,
+      "name": "CALL_WAIT",
+      "flags": 0,
+      "a": -7,
+      "b": 0,
+      "c": 0,
+      "function": "sleep"
+    },
+    {
+      "pc": 49,
+      "file_offset": 917,
+      "opcode": 0,
+      "name": "YIELD",
+      "flags": 0,
+      "a": 0,
+      "b": 0,
+      "c": 0
+    }
+  ]
+}

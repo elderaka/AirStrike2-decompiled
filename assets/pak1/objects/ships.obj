@@ -1,0 +1,740 @@
+//////////////////////////////////////////////////////////////
+////////////////ship_destroyer///////////////////////////////
+////////////////////////////////////////////////////////////
+
+
+ship_destroyer_guns {
+        model   "models\ships\ship_destroyer_guns.mdl"
+        skin    "models\ships\ship1.tga"
+
+	attach abs night "svet_far" "tag_fara"
+        script  "scripts\ships\ship_destroyer\ship_destroyer_guns.scr"
+}
+
+
+ship_destroyer_cannon {
+        model   "models\ships\ship_destroyer_cannon.mdl"
+        skin    "models\ships\ship1.tga"
+
+	attach abs id "GUNS" "ship_destroyer_guns" "tag_guns"
+
+        script  "scripts\ships\ship_destroyer\ship_destroyer_cannon.scr"
+}
+
+ship_destroyer_radar {
+        model   "models\ships\ship_destroyer_radar.mdl"
+        skin    "models\ships\ship_radar.tga"
+        blend   BLEND_ALPHA
+        rflag   RF_NOCULLING
+        rflag   RF_NODEPTHWRITE
+        sort    SORT_TRANS
+
+        script  "scripts\ships\ship_destroyer\ship_destroyer_radar.scr"
+}
+
+ship_destroyer {
+        health  800
+        enemy
+
+	flag	FL_ONWATER_NORMAL
+
+	score	1000	
+
+        model   "models\ships\ship_destroyer.mdl"
+        skin    "models\ships\ship1.tga"
+
+        attach abs "ship_destroyer_cannon" "tag_cannon"
+        attach  "ship_destroyer_radar" "tag_radar"
+        attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+        attach  "helic_redflare" "tag_flare3"
+        attach  "whiteflare_small" "tag_flare1"
+        attach  "whiteflare_small" "tag_flare2"
+
+	attach abs id "SPLASHES" PS_SHIP_SPLASHES "tag_splash"
+
+	script	"scripts\ships\ship_destroyer\ship_destroyer.scr"
+} 
+
+//////////////////////////////////////////////////////////////
+////////////////ship_destroyer-BLACK/////////////////////////
+////////////////////////////////////////////////////////////
+
+ship_destroyer_black_guns {
+        model   "models\ships\ship_destroyer_guns.mdl"
+        skin    "models\ships\ship1_black.tga"
+
+	attach abs night "svet_far" "tag_fara"
+        script  "scripts\ships\ship_destroyer\ship_destroyer_guns.scr"
+}
+
+
+ship_destroyer_black_cannon {
+        model   "models\ships\ship_destroyer_cannon.mdl"
+        skin    "models\ships\ship1_black.tga"
+
+	attach abs id "GUNS" "ship_destroyer_black_guns" "tag_guns"
+
+        script  "scripts\ships\ship_destroyer\ship_destroyer_cannon.scr"
+}
+
+ship_destroyer_black_radar {
+        model   "models\ships\ship_destroyer_radar.mdl"
+        skin    "models\ships\ship_radar.tga"
+        blend   BLEND_ALPHA
+        rflag   RF_NOCULLING
+        rflag   RF_NODEPTHWRITE
+        sort    SORT_TRANS
+
+        script  "scripts\ships\ship_destroyer\ship_destroyer_radar.scr"
+}
+
+ship_destroyer_black {
+        health  1300
+        enemy
+
+	flag	FL_ONWATER_NORMAL
+
+	score	1500	
+
+        model   "models\ships\ship_destroyer.mdl"
+        skin    "models\ships\ship1_black.tga"
+//        shadow  SHADOW_PLANAR_LOW
+
+        attach abs "ship_destroyer_black_cannon" "tag_cannon"
+        attach  "ship_destroyer_black_radar" "tag_radar"
+        attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+        attach  "helic_redflare" "tag_flare3"
+        attach  "whiteflare_small" "tag_flare1"
+        attach  "whiteflare_small" "tag_flare2"
+
+	attach abs id "SPLASHES" PS_SHIP_SPLASHES "tag_splash"
+
+	script	"scripts\ships\ship_destroyer\ship_destroyer.scr"
+} 
+
+//////////////////////////////////////////////////////////////
+////////////////ship_destroyer-green/////////////////////////
+////////////////////////////////////////////////////////////
+
+ship_destroyer_green_guns {
+        model   "models\ships\ship_destroyer_guns.mdl"
+        skin    "models\ships\ship1_green.tga"
+
+	attach abs night "svet_far" "tag_fara"
+        script  "scripts\ships\ship_destroyer\ship_destroyer_guns.scr"
+}
+
+
+ship_destroyer_green_cannon {
+        model   "models\ships\ship_destroyer_cannon.mdl"
+        skin    "models\ships\ship1_green.tga"
+
+	attach abs id "GUNS" "ship_destroyer_green_guns" "tag_guns"
+
+        script  "scripts\ships\ship_destroyer\ship_destroyer_cannon.scr"
+}
+
+ship_destroyer_green_radar {
+        model   "models\ships\ship_destroyer_radar.mdl"
+        skin    "models\ships\ship_radar.tga"
+        blend   BLEND_ALPHA
+        rflag   RF_NOCULLING
+        rflag   RF_NODEPTHWRITE
+        sort    SORT_TRANS
+
+        script  "scripts\ships\ship_destroyer\ship_destroyer_radar.scr"
+}
+
+ship_destroyer_green {
+        health  600
+        enemy
+
+	flag	FL_ONWATER_NORMAL
+
+	score	800	
+
+        model   "models\ships\ship_destroyer.mdl"
+        skin    "models\ships\ship1_green.tga"
+//        shadow  SHADOW_PLANAR_LOW
+
+        attach abs "ship_destroyer_green_cannon" "tag_cannon"
+        attach  "ship_destroyer_green_radar" "tag_radar"
+        attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+        attach  "helic_redflare" "tag_flare3"
+        attach  "whiteflare_small" "tag_flare1"
+        attach  "whiteflare_small" "tag_flare2"
+
+	attach abs id "SPLASHES" PS_SHIP_SPLASHES "tag_splash"
+
+	script	"scripts\ships\ship_destroyer\ship_destroyer.scr"
+} 
+
+
+//////////////////////////////////////////////////////////////
+////////////////CUTTER/////////////////////////
+////////////////////////////////////////////////////////////
+
+cutter_cannon {
+        model   "models\ships\cutter_cannon.mdl"
+        skin    "models\ships\cutter.tga"
+
+	attach abs night "svet_far" "tag_fara"
+	script	"scripts\ships\ship_cannon.scr"
+}
+
+cutter {
+        health  300
+        enemy
+
+	score	350
+
+	flag	FL_ONWATER_NORMAL
+
+        model   "models\ships\cutter.mdl"
+        skin    "models\ships\cutter.tga"
+//        shadow  SHADOW_PLANAR_LOW
+
+        attach  "cutter_cannon" "tag_cannon"
+        attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+        attach  "helic_redflare" "tag_flare3"
+        attach  "whiteflare_small" "tag_flare1"
+        attach  "whiteflare_small" "tag_flare2"
+
+	attach abs id "SPLASHES" PS_SHIP_SPLASHES "tag_splash"
+
+	script	"scripts\ships\ship.scr"
+} 
+
+//////////////////////////////////////////////////////////////
+////////////////CUTTER_green/////////////////////////
+////////////////////////////////////////////////////////////
+
+cutter_green_cannon {
+        model   "models\ships\cutter_cannon.mdl"
+        skin    "models\ships\cutter_green.tga"
+
+	attach abs night "svet_far" "tag_fara"
+	script	"scripts\ships\ship_cannon.scr"
+}
+
+cutter_green {
+        health  200
+        enemy
+	
+	flag	FL_ONWATER_NORMAL
+
+	score	250
+
+        model   "models\ships\cutter.mdl"
+        skin    "models\ships\cutter_green.tga"
+//        shadow  SHADOW_PLANAR_LOW
+
+        attach  "cutter_green_cannon" "tag_cannon"
+        attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+        attach  "helic_redflare" "tag_flare3"
+        attach  "whiteflare_small" "tag_flare1"
+        attach  "whiteflare_small" "tag_flare2"
+
+	attach abs id "SPLASHES" PS_SHIP_SPLASHES "tag_splash"
+
+	script	"scripts\ships\ship.scr"
+} 
+
+
+ship_dead {
+        model   "models\ships\ship_dead.mdl"
+        skin    "models\misc\deadunit.tga"
+
+	script	"scripts\ships\ship_dead.scr"
+}
+
+////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////// cutter_small_guns ////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////
+
+
+cutter_small_guns_turret {
+        model   "models\ships\cutter_small_guns\cutter_small_guns_turret.mdl"
+        skin    "models\ships\cutter_small_guns\cutter_small_guns.tga"
+
+        attach  abs id "GUNS" "cutter_small_guns_gun" "tag_gun"
+	
+	script	"scripts\ships\cutter_small_guns\cutter_small_guns_turret.scr"
+}
+
+cutter_small_guns_gun {
+        model   "models\ships\cutter_small_guns\cutter_small_guns_gun.mdl"
+        skin    "models\ships\cutter_small_guns\cutter_small_guns.tga"
+
+	attach abs night "svet_far" "origin"
+	script	"scripts\ships\cutter_small_guns\cutter_small_guns_guns.scr"
+}
+
+cutter_small_guns {
+        health  500
+        enemy
+	
+	flag	FL_ONWATER_NORMAL
+
+	score	500
+
+        model   "models\ships\cutter_small_guns\cutter_small_guns.mdl"
+        skin    "models\ships\cutter_small_guns\cutter_small_guns.tga"
+
+        attach  "cutter_small_guns_turret" "tag_turret"
+        attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+        attach  "whiteflare_small" "tag_flare03"
+        attach  "whiteflare_small" "tag_flare01"
+        attach  "whiteflare_small" "tag_flare02"
+        attach  "whiteflare_small" "tag_flare04"
+        attach  "helic_redflare" "tag_flare05"
+
+	attach abs id "SPLASHES" PS_SHIP_SPLASHES "tag_splash"
+
+	script	"scripts\ships\cutter_small_guns\cutter_small_guns.scr"
+} 
+
+
+cutter_small_guns_dead_1 {
+        model   "models\ships\cutter_small_guns\cutter_small_guns_dead_1.mdl"
+        skin    "models\ships\cutter_small_guns\cutter_small_guns_dead_1.tga"
+
+	script	"scripts\ships\ship_dead.scr"
+}
+
+////////////////cutter_small_guns_blue/////////////////////////
+
+
+cutter_small_guns_blue_turret {
+        model   "models\ships\cutter_small_guns\cutter_small_guns_turret.mdl"
+        skin    "models\ships\cutter_small_guns\cutter_small_guns_blue.tga"
+
+        attach  abs id "GUNS" "cutter_small_guns_blue_gun" "tag_gun"
+	
+	script	"scripts\ships\cutter_small_guns\cutter_small_guns_turret.scr"
+}
+
+cutter_small_guns_blue_gun {
+        model   "models\ships\cutter_small_guns\cutter_small_guns_gun.mdl"
+        skin    "models\ships\cutter_small_guns\cutter_small_guns_blue.tga"
+
+	attach abs night "svet_far" "origin"
+	script	"scripts\ships\cutter_small_guns\cutter_small_guns_guns.scr"
+}
+
+cutter_small_guns_blue {
+        health  500
+        enemy
+	
+	flag	FL_ONWATER_NORMAL
+
+	score	400
+
+        model   "models\ships\cutter_small_guns\cutter_small_guns.mdl"
+        skin    "models\ships\cutter_small_guns\cutter_small_guns_blue.tga"
+
+        attach  "cutter_small_guns_blue_turret" "tag_turret"
+        attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+        attach  "whiteflare_small" "tag_flare03"
+        attach  "whiteflare_small" "tag_flare01"
+        attach  "whiteflare_small" "tag_flare02"
+        attach  "whiteflare_small" "tag_flare04"
+        attach  "helic_redflare" "tag_flare05"
+
+	attach abs id "SPLASHES" PS_SHIP_SPLASHES "tag_splash"
+
+	script	"scripts\ships\cutter_small_guns\cutter_small_guns.scr"
+}
+ 
+///////////////////////////////////////////////////////////////////////////
+////////////////////// cutter_small_guns_dead /////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+cutter_small_guns_dead {
+        model   "models\ships\cutter_small_guns\cutter_small_guns_dead.mdl"
+        skin    "models\ships\cutter_small_guns\cutter_small_guns_dead.tga"
+
+	flag	FL_ONWATER_NORMAL
+
+}
+
+
+/////////////////////////////////////////////////////////////////////////////
+////////////////////////////// rocket_boat //////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////
+
+rocket_boat_helic {
+	touch   TOUCH_PLAYER
+	model	"models\helics\helic_tiger\helic_tiger.mdl"
+	skin	"models\helics\helic_tiger\helic_tiger.tga"
+	shadow	SHADOW_PLANAR_HIGH
+	
+	health	1000
+
+	enemy
+	score   1000
+
+	attach abs	"vint_c4_red"	"tag_vint1"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin
+
+	script	"scripts\ships\rocket_boat\helic.scr"
+}
+
+
+rocket_boat_green_gun {
+        model   "models\ships\rocket_boat\rocket_boat_gun.mdl"
+        skin    "models\ships\rocket_boat\rocket_boat_green.tga"
+
+        script  "scripts\ships\rocket_boat\rocket_boat_guns.scr"
+}
+
+
+rocket_boat_green_turret {
+        model   "models\ships\rocket_boat\rocket_boat_turret.mdl"
+        skin    "models\ships\rocket_boat\rocket_boat_green.tga"
+
+	attach abs id "GUNS" "rocket_boat_green_gun" "tag_gun"
+
+        script  "scripts\ships\rocket_boat\rocket_boat_turret.scr"
+}
+
+rocket_boat_green_radar {
+        model   "models\ships\rocket_boat\rocket_boat_radar.mdl"
+        skin    "models\ships\rocket_boat\rocket_boat_green.tga"
+        blend   BLEND_ALPHA
+        rflag   RF_NOCULLING
+        rflag   RF_NODEPTHWRITE
+        sort    SORT_TRANS
+
+        script  "scripts\ships\rocket_boat\rocket_boat_radar.scr"
+}
+
+rocket_boat_green_radar_pod {
+        model   "models\ships\rocket_boat\rocket_boat_radar_pod.mdl"
+        skin    "models\ships\rocket_boat\rocket_boat_green.tga"
+	attach abs "rocket_boat_green_radar" "tag_radar"
+        blend   BLEND_ALPHA
+        rflag   RF_NOCULLING
+        rflag   RF_NODEPTHWRITE
+        sort    SORT_TRANS
+}
+
+rocket_boat_green_zabor {
+        model   "models\ships\rocket_boat\rocket_boat_zabor.mdl"
+        skin    "models\ships\rocket_boat\rocket_boat_green.tga"
+        blend   BLEND_ALPHA
+        rflag   RF_NOCULLING
+        rflag   RF_NODEPTHWRITE
+        sort    SORT_TRANS
+}
+
+rocket_boat_green {
+        health  6000
+        enemy
+
+	flag	FL_ONWATER_FLAT
+
+	score	6000	
+
+        model   "models\ships\rocket_boat\rocket_boat_base.mdl"
+        skin    "models\ships\rocket_boat\rocket_boat_green.tga"
+
+        attach abs "rocket_boat_green_turret" "tag_turret01"
+        attach abs "rocket_boat_green_turret" "tag_turret02"
+        attach abs "rocket_boat_green_turret" "tag_turret03"
+        attach abs "rocket_boat_green_zabor"  "tag_zabor"
+        attach abs "rocket_boat_green_radar_pod" "tag_radar_pod"
+        attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+        attach  "helic_redflare" "tag_flare01"
+        attach  "helic_redflare" "tag_flare02"
+        attach  "helic_redflare" "tag_flare03"
+        attach  "helic_redflare" "tag_flare04"
+        attach  "whiteflare_small" "tag_flare05"
+        attach  "whiteflare_small" "tag_flare06"
+
+	attach abs id "SPLASHES" PS_SHIP_SPLASHES "tag_splash"
+
+        script  "scripts\ships\rocket_boat\rocket_boat.scr"
+} 
+
+
+ship_big_helic_dead {
+        model   "models\ships\ship_big_helic\ship_big_helic_dead.mdl"
+        skin    "models\ships\ship_big_helic\ship_big_helic_dead.tga"
+
+	script	"scripts\ships\ship_dead.scr"
+}
+
+//--------------------------------------------------------------------//
+
+rocket_boat_black_gun {
+        model   "models\ships\rocket_boat\rocket_boat_gun.mdl"
+        skin    "models\ships\rocket_boat\rocket_boat_black.tga"
+
+        script  "scripts\ships\rocket_boat\rocket_boat_guns.scr"
+}
+
+
+rocket_boat_black_turret {
+        model   "models\ships\rocket_boat\rocket_boat_turret.mdl"
+        skin    "models\ships\rocket_boat\rocket_boat_black.tga"
+
+	attach abs id "GUNS" "rocket_boat_black_gun" "tag_gun"
+
+        script  "scripts\ships\rocket_boat\rocket_boat_turret.scr"
+}
+
+rocket_boat_black_radar {
+        model   "models\ships\rocket_boat\rocket_boat_radar.mdl"
+        skin    "models\ships\rocket_boat\rocket_boat_black.tga"
+        blend   BLEND_ALPHA
+        rflag   RF_NOCULLING
+        rflag   RF_NODEPTHWRITE
+        sort    SORT_TRANS
+
+        script  "scripts\ships\rocket_boat\rocket_boat_radar.scr"
+}
+
+rocket_boat_black_radar_pod {
+        model   "models\ships\rocket_boat\rocket_boat_radar_pod.mdl"
+        skin    "models\ships\rocket_boat\rocket_boat_black.tga"
+
+	attach abs "rocket_boat_black_radar" "tag_radar"
+
+        blend   BLEND_ALPHA
+        rflag   RF_NOCULLING
+        rflag   RF_NODEPTHWRITE
+        sort    SORT_TRANS
+}
+
+rocket_boat_black_zabor {
+        model   "models\ships\rocket_boat\rocket_boat_zabor.mdl"
+        skin    "models\ships\rocket_boat\rocket_boat_black.tga"
+        blend   BLEND_ALPHA
+        rflag   RF_NOCULLING
+        rflag   RF_NODEPTHWRITE
+        sort    SORT_TRANS
+}
+
+rocket_boat_black {
+        health  7000
+        enemy
+
+	flag	FL_ONWATER_FLAT
+
+	score	7000	
+
+        model   "models\ships\rocket_boat\rocket_boat_base.mdl"
+        skin    "models\ships\rocket_boat\rocket_boat_black.tga"
+
+        attach abs "rocket_boat_black_turret" "tag_turret01"
+        attach abs "rocket_boat_black_turret" "tag_turret02"
+        attach abs "rocket_boat_black_turret" "tag_turret03"
+        attach abs "rocket_boat_black_zabor" "tag_zabor"
+        attach abs "rocket_boat_black_radar_pod" "tag_radar_pod"
+        attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+        attach  "helic_redflare" "tag_flare01"
+        attach  "helic_redflare" "tag_flare02"
+        attach  "helic_redflare" "tag_flare03"
+        attach  "helic_redflare" "tag_flare04"
+        attach  "whiteflare_small" "tag_flare05"
+        attach  "whiteflare_small" "tag_flare06"
+
+	attach abs id "SPLASHES" PS_SHIP_SPLASHES "tag_splash"
+
+        script  "scripts\ships\rocket_boat\rocket_boat.scr"
+} 
+
+
+ship_big_helic_dead {
+        model   "models\ships\ship_big_helic\ship_big_helic_dead.mdl"
+        skin    "models\ships\ship_big_helic\ship_big_helic_dead.tga"
+
+	script	"scripts\ships\ship_dead.scr"
+}
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////// ship_big /////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////
+
+
+ship_big {
+        health  2500
+        enemy
+
+	flag	FL_ONWATER_FLAT
+
+	score	3000	
+
+        model   "models\ships\ship_big\ship_big_base.mdl"
+        skin    "models\ships\ship_big\ship_big.tga"
+
+        attach abs "machine_gun_x2_3" "tag_cannon4_big_base"
+        attach abs "ship_big_zabor" "tag_zabor"
+        attach abs "ship_big_radar_pod" "tag_radar_pod"
+
+	attach  PS_VULKAN_SMOKE  "tag_smoke01"
+	attach  PS_VULKAN_SMOKE  "tag_smoke02"
+        attach  "whiteflare_small" "tag_flare01"
+        attach  "whiteflare_small" "tag_flare02"
+        attach  "whiteflare_small" "tag_flare03"
+        attach  "whiteflare_small" "tag_flare04"
+
+	attach abs id "SPLASHES" PS_SHIP_SPLASHES "tag_sled"
+
+	script	"scripts\ships\ship_big\ship_big.scr"
+} 
+
+ship_big_kran {
+
+        model   "models\ships\ship_big\ship_big_kran.mdl"
+        skin    "models\ships\ship_big\ship_big_zabor.tga"
+
+        blend   BLEND_ALPHA
+        rflag   RF_NOCULLING
+        rflag   RF_NODEPTHWRITE
+        sort    SORT_TRANS
+}
+
+ship_big_zabor {
+
+        model   "models\ships\ship_big\ship_big_zabor.mdl"
+        skin    "models\ships\ship_big\ship_big_zabor.tga"
+
+        attach abs "ship_big_kran" "tag_kran"
+
+        blend   BLEND_ALPHA
+        rflag   RF_NOCULLING
+        rflag   RF_NODEPTHWRITE
+        sort    SORT_TRANS
+
+}
+
+ship_big_radar {
+        model   "models\ships\ship_big\ship_big_radar.mdl"
+        skin    "models\ships\ship_big\ship_big.tga"
+
+        script  "scripts\ships\ship_destroyer\ship_destroyer_radar.scr"
+}
+
+ship_big_radar_pod {
+        model   "models\ships\ship_big\ship_big_radar_pod.mdl"
+        skin    "models\ships\ship_big\ship_big.tga"
+
+	attach abs "ship_big_radar" "tag_radar"
+
+
+}
+
+
+ship_big_dead_zabor {
+
+        blend   BLEND_ALPHA
+        rflag   RF_NOCULLING
+        rflag   RF_NODEPTHWRITE
+        sort    SORT_TRANS
+
+	model   "models\ships\ship_big\ship_big_dead_zabor.mdl"
+	skin    "models\ships\ship_big\ship_big_zabor.tga"
+}
+
+ship_big_dead_1 {
+	model   "models\ships\ship_big\ship_big_dead_1.mdl"
+	skin    "models\ships\ship_big\ship_big_dead_1.tga"
+
+}
+
+ship_big_dead {
+        model   "models\ships\ship_big\ship_big_dead.mdl"
+        skin    "models\ships\ship_big\ship_big_dead_1.tga"
+
+//	flag    FL_ONGROUND_NORMAL
+
+        attach abs "ship_big_dead_zabor" "tag_zabor"
+	script	"scripts\ships\ship_dead.scr"
+}
+
+
+/////////////////////////////////////////////////////////////
+///////////////////////// lodka /////////////////////////////
+/////////////////////////////////////////////////////////////
+
+lodka_vint {
+
+	rflag   RF_NOCULLING
+
+	model   "models\ships\lodka\lodka_vint.mdl"
+	skin    "models\ships\lodka\lodka.tga"
+
+	script	"scripts\ships\lodka\lodka_vint.scr"
+}
+
+lodka_gun {
+
+	model   "models\ships\lodka\lodka_gun.mdl"
+	skin    "models\ships\lodka\lodka.tga"
+
+	script	"scripts\ships\lodka\lodka_gun.scr"
+}
+
+lodka_turret {
+
+	model   "models\ships\lodka\lodka_turret.mdl"
+	skin    "models\ships\lodka\lodka.tga"
+
+	attach abs id "GUNS" "lodka_gun" "tag_gun"
+
+	script	"scripts\ships\lodka\lodka_turret.scr"
+}
+
+lodka {
+	health  150
+	enemy
+	rflag   RF_NOCULLING
+	flag	FL_ONWATER_NORMAL
+	score	100	
+	model   "models\ships\lodka\lodka.mdl"
+	skin    "models\ships\lodka\lodka.tga"
+	attach abs "lodka_turret" "tag_turret"
+	attach abs "lodka_vint" "tag_vint"
+	attach abs id "SPLASHES" PS_SHIP_SPLASHES "tag_sled"
+	script	"scripts\ships\lodka\lodka.scr"
+}
+
+//////////////////////////////////////////////////////////////////////
+/////////////////////////////// apl //////////////////////////////////
+//////////////////////////////////////////////////////////////////////
+
+apl_dira {
+	model   "models\ships\apl\dira.mdl"
+	skin    "models\ships\apl\apl.tga"
+}
+
+apl {
+	health  8000
+	enemy
+	score	10000	
+	flag	FL_ONWATER_NORMAL
+
+	model   "models\ships\apl\apl.mdl"
+	skin    "models\ships\apl\apl.tga"
+
+	attach abs "apl_dira" "tag_rocket01"
+	attach abs "apl_dira" "tag_rocket02"
+	attach abs "apl_dira" "tag_rocket03"
+
+	attach abs id "SPLASHES" PS_SHIP_SPLASHES "tag_splash3"
+
+	script	"scripts\ships\apl\apl.scr"
+}

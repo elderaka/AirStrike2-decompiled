@@ -1,0 +1,163 @@
+0000004d	ascii	!This program cannot be run in DOS mode.
+000001c8	ascii	.text
+000001ef	ascii	`.rdata
+00000217	ascii	@.data
+00000240	ascii	.rsrc
+00001056	ascii	T$ PQRRRRRR
+0000139c	ascii	SSSh`
+00002a92	ascii	t/Ht HH
+00003e5d	ascii	QQSVWd
+0000407b	ascii	X_^[]
+000040ff	ascii	SVWUj
+00004168	ascii	t.;t$$t(
+00005216	ascii	uRFGHt
+000053f1	ascii	wDVSU
+000057a1	ascii	?=t"U
+000058f5	ascii	8"uF@
+00005ac3	ascii	SS@SSPVSS
+00005ae5	ascii	t#SSUP
+00005aec	ascii	t$$VSS
+00005b68	ascii	_^][YY
+00005b71	ascii	DSUVWh
+00005d58	ascii	VC20XC00U
+00006339	ascii	YY_^[
+000063be	ascii	sO;>|C;~
+000068b6	ascii	QQSVW
+00006999	ascii	QQSVW
+000069ef	ascii	QQSVW
+00008586	ascii	Wj@Y3
+00008759	ascii	VWuBh
+00008d5e	ascii	uFWWj
+00008d83	ascii	"WWSh
+00008e6f	ascii	tMWWS
+000090d2	ascii	HHtYHHtF
+0000a228	ascii	ios::eofbit set
+0000a238	ascii	ios::failbit set
+0000a24c	ascii	ios::badbit set
+0000a2a4	ascii	string too long
+0000a2d4	ascii	invalid string position
+0000a310	ascii	Unknown exception
+0000a348	ascii	runtime error 
+0000a35c	ascii	TLOSS error
+0000a36c	ascii	SING error
+0000a37c	ascii	DOMAIN error
+0000a38c	ascii	R6028
+0000a393	ascii	- unable to initialize heap
+0000a3b4	ascii	R6027
+0000a3bb	ascii	- not enough space for lowio initialization
+0000a3ec	ascii	R6026
+0000a3f3	ascii	- not enough space for stdio initialization
+0000a424	ascii	R6025
+0000a42b	ascii	- pure virtual function call
+0000a44c	ascii	R6024
+0000a453	ascii	- not enough space for _onexit/atexit table
+0000a484	ascii	R6019
+0000a48b	ascii	- unable to open console device
+0000a4b0	ascii	R6018
+0000a4b7	ascii	- unexpected heap error
+0000a4d4	ascii	R6017
+0000a4db	ascii	- unexpected multithread lock error
+0000a504	ascii	R6016
+0000a50b	ascii	- not enough space for thread data
+0000a532	ascii	abnormal program termination
+0000a554	ascii	R6009
+0000a55b	ascii	- not enough space for environment
+0000a580	ascii	R6008
+0000a587	ascii	- not enough space for arguments
+0000a5ac	ascii	R6002
+0000a5b3	ascii	- floating point not loaded
+0000a5d4	ascii	Microsoft Visual C++ Runtime Library
+0000a600	ascii	Runtime Error!
+0000a610	ascii	Program: 
+0000a620	ascii	<program name unknown>
+0000a6b0	ascii	GetLastActivePopup
+0000a6c4	ascii	GetActiveWindow
+0000a6d4	ascii	MessageBoxA
+0000a6e0	ascii	user32.dll
+0000b5c2	ascii	GetExitCodeProcess
+0000b5d8	ascii	CreateProcessA
+0000b5e8	ascii	KERNEL32.dll
+0000b5f8	ascii	ShellExecuteA
+0000b606	ascii	SHELL32.dll
+0000b614	ascii	MultiByteToWideChar
+0000b62a	ascii	GetModuleHandleA
+0000b63e	ascii	GetStartupInfoA
+0000b650	ascii	GetCommandLineA
+0000b662	ascii	GetVersion
+0000b670	ascii	ExitProcess
+0000b67e	ascii	RtlUnwind
+0000b68a	ascii	RaiseException
+0000b69c	ascii	HeapFree
+0000b6a8	ascii	TerminateProcess
+0000b6bc	ascii	GetCurrentProcess
+0000b6d0	ascii	HeapReAlloc
+0000b6de	ascii	HeapAlloc
+0000b6ea	ascii	HeapSize
+0000b6f6	ascii	UnhandledExceptionFilter
+0000b712	ascii	GetModuleFileNameA
+0000b728	ascii	FreeEnvironmentStringsA
+0000b742	ascii	FreeEnvironmentStringsW
+0000b75c	ascii	WideCharToMultiByte
+0000b772	ascii	GetEnvironmentStrings
+0000b78a	ascii	GetEnvironmentStringsW
+0000b7a4	ascii	SetHandleCount
+0000b7b6	ascii	GetStdHandle
+0000b7c6	ascii	GetFileType
+0000b7d4	ascii	HeapDestroy
+0000b7e2	ascii	HeapCreate
+0000b7f0	ascii	VirtualFree
+0000b7fe	ascii	WriteFile
+0000b80a	ascii	GetLastError
+0000b81a	ascii	SetFilePointer
+0000b82c	ascii	FlushFileBuffers
+0000b840	ascii	CloseHandle
+0000b84e	ascii	SetUnhandledExceptionFilter
+0000b86c	ascii	VirtualAlloc
+0000b87c	ascii	IsBadWritePtr
+0000b88c	ascii	GetCPInfo
+0000b898	ascii	GetACP
+0000b8a2	ascii	GetOEMCP
+0000b8ae	ascii	GetProcAddress
+0000b8c0	ascii	LoadLibraryA
+0000b8d0	ascii	IsBadReadPtr
+0000b8e0	ascii	IsBadCodePtr
+0000b8f0	ascii	ReadFile
+0000b8fc	ascii	SetStdHandle
+0000b90c	ascii	LCMapStringA
+0000b91c	ascii	LCMapStringW
+0000b92c	ascii	GetStringTypeA
+0000b93e	ascii	GetStringTypeW
+0000c0a8	ascii	http://www.gametop.com/stats/airassault2.html
+0000c0d8	ascii	AirStrike2.exe
+0000c0f8	ascii	.?AVios_base@std@@
+0000c118	ascii	.?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
+0000c150	ascii	.?AV?$basic_istream@DU?$char_traits@D@std@@@std@@
+0000c190	ascii	.?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@
+0000c1d0	ascii	.?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@
+0000c210	ascii	.?AV?$basic_filebuf@DU?$char_traits@D@std@@@std@@
+0000c250	ascii	.?AV?$basic_ios@GU?$char_traits@G@std@@@std@@
+0000c288	ascii	.?AV?$basic_istream@GU?$char_traits@G@std@@@std@@
+0000c2c8	ascii	.?AV?$basic_ostream@GU?$char_traits@G@std@@@std@@
+0000c308	ascii	.?AV?$basic_filebuf@GU?$char_traits@G@std@@@std@@
+0000c348	ascii	.?AV?$basic_streambuf@GU?$char_traits@G@std@@@std@@
+0000c388	ascii	.?AVexception@@
+0000c3a0	ascii	.?AVruntime_error@std@@
+0000c3c0	ascii	.?AVfailure@ios_base@std@@
+0000c3e8	ascii	.?AVfacet@locale@std@@
+0000c408	ascii	.?AV_Locimp@locale@std@@
+0000c430	ascii	.?AVlogic_error@std@@
+0000c450	ascii	.?AVlength_error@std@@
+0000c470	ascii	.?AVout_of_range@std@@
+0000c498	ascii	.?AVtype_info@@
+0000c75a	utf16	         (((((                  H
+0000d54d	ascii	%!$*D]Wn
+0000d56e	ascii	"!! )203\]^P:
+0000d595	ascii	)1Gkp
+0000d5b7	ascii	A.CJi
+0000d5d0	ascii	eF,//+&-(+-J[m
+0000d5f6	ascii	@)Ii<,Eo
+0000d617	ascii	jH=h;?v
+0000d639	ascii	>jlRu
+0000d70e	ascii	trbgt
+0000d74e	ascii	fdsrr
+0000d86e	ascii	qsdsrv

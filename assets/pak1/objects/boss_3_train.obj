@@ -1,0 +1,242 @@
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////// train ////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+boss_3_train {
+
+	enemy
+	health  13000
+	
+	score	50000
+	flag	FL_TEMPORARY
+
+	touch	TOUCH_PLAYER
+
+	model   "models\bosses\boss_3_train\vagon01_base.mdl"
+	skin    "models\bosses\boss_3_train\vagon01.tga"
+//	shadow  SHADOW_PROJECTED
+
+
+//	attach id "COVER" "boss_2_kabina" "tag_kabina"
+
+	attach abs "svet_far_helic" "tag_fara01"
+
+	attach abs "boss_3_train_wheel" "tag_wheel01"
+	attach abs "boss_3_train_wheel" "tag_wheel02"
+	attach abs "boss_3_train_wheel" "tag_wheel03"
+	attach abs "boss_3_train_wheel" "tag_wheel04"
+	attach abs "boss_3_train_wheel" "tag_wheel05"
+	attach abs "boss_3_train_wheel" "tag_wheel06"
+
+	attach abs "boss_3_train_turret" "tag_turret01"
+	attach abs "boss_3_train_turret" "tag_turret02"
+
+//	attach abs "vagon_02" "tag_vagon02"
+
+//	attach id "PROGRESS_FLARE1" "boss_yellowflare" "tag_flare01"
+//	attach id "PROGRESS_FLARE2" "boss_yellowflare" "tag_flare02"
+
+	script	"scripts\bosses\boss_3_train\train.scr"
+}
+
+boss_3_train_gun {
+
+	model   "models\bosses\boss_3_train\vagon01_gun.mdl"
+	skin    "models\bosses\boss_3_train\vagon01.tga"
+
+	script	"scripts\bosses\boss_3_train\train_gun.scr"
+}
+
+boss_3_train_turret {
+
+	model   "models\bosses\boss_3_train\vagon01_turret.mdl"
+	skin    "models\bosses\boss_3_train\vagon01.tga"
+
+	attach id "GUNS" abs "boss_3_train_gun" "tag_gun01"
+
+	script	"scripts\bosses\boss_3_train\train_turret.scr"
+}
+
+boss_3_train_wheel {
+
+	model   "models\bosses\boss_3_train\train_wheel.mdl"
+	skin    "models\bosses\boss_3_train\vagon03.tga"
+
+	script	"scripts\bosses\boss_3_train\train_wheel.scr"
+}
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////// vagon02 //////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+vagon02_porshen {
+
+	model   "models\bosses\boss_3_train\vagon02_porshen.mdl"
+	skin    "models\bosses\boss_3_train\vagon02.tga"
+
+	script	"scripts\bosses\boss_3_train\train_porshen.scr"
+}
+
+vagon02_porshen1 {
+
+	model   "models\bosses\boss_3_train\vagon02_porshen.mdl"
+	skin    "models\bosses\boss_3_train\vagon02.tga"
+
+	script	"scripts\bosses\boss_3_train\train_porshen1.scr"
+}
+
+vagon02_zabor {
+
+	blend	BLEND_ALPHA
+//	sort    SORT_TRANS
+	rflag   RF_NOCULLING	
+
+	model   "models\bosses\boss_3_train\vagon02_zabor.mdl"
+	skin    "models\mapobjects\zabors\zabor.tga"
+}
+
+vagon_02 {
+
+	model   "models\bosses\boss_3_train\vagon02_base.mdl"
+	skin    "models\bosses\boss_3_train\vagon02.tga"
+//	shadow  SHADOW_PROJECTED
+
+	flag	FL_TEMPORARY
+
+	attach abs "boss_3_train_wheel" "tag_wheel01"
+	attach abs "boss_3_train_wheel" "tag_wheel02"
+	attach abs "boss_3_train_wheel" "tag_wheel03"
+	attach abs "boss_3_train_wheel" "tag_wheel04"
+	attach abs "boss_3_train_wheel" "tag_wheel05"
+	attach abs "boss_3_train_wheel" "tag_wheel06"
+
+	attach abs "vagon02_zabor" "tag_zabor"
+	attach abs "vagon02_porshen" "tag_porshen01"
+	attach abs "vagon02_porshen" "tag_porshen02"
+	attach abs "vagon02_porshen" "tag_porshen03"
+	attach abs "vagon02_porshen" "tag_porshen04"
+	attach abs "vagon02_porshen1" "tag_porshen05"
+	attach abs "vagon02_porshen1" "tag_porshen06"
+	attach abs "vagon02_porshen1" "tag_porshen07"
+	attach abs "vagon02_porshen1" "tag_porshen08"
+
+//	attach abs "vagon_03" "tag_vagon03"
+}
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////// vagon03 //////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+vagon03_turret01 {
+
+	model   "models\bosses\boss_3_train\vagon03_turret01.mdl"
+	skin    "models\bosses\boss_3_train\vagon03.tga"
+
+	attach	id "GUNS" abs "vagon03_gun01" "tag_gun"
+
+	script	"scripts\bosses\boss_3_train\train_turret.scr"
+}
+
+vagon03_gun01 {
+
+	model   "models\bosses\boss_3_train\vagon03_gun01.mdl"
+	skin    "models\bosses\boss_3_train\vagon03.tga"
+
+	script	"scripts\bosses\boss_3_train\vagon03_gun01.scr"
+}
+
+vagon03_turret02 {
+
+	model   "models\bosses\boss_3_train\vagon03_turret02.mdl"
+	skin    "models\bosses\boss_3_train\vagon03.tga"
+
+	attach  id "GUNS" abs "vagon03_gun02" "tag_gun02"
+
+	script	"scripts\bosses\boss_3_train\train_turret.scr"
+}
+
+vagon03_gun02 {
+
+	model   "models\bosses\boss_3_train\vagon03_gun02.mdl"
+	skin    "models\bosses\boss_3_train\vagon03.tga"
+
+	attach  id "GUNS" abs "vagon03_gun02_pod" "tag_gun02_pod"
+
+	script	"scripts\bosses\boss_3_train\vagon03_gun02.scr"
+}
+
+vagon03_gun02_pod {
+	model   "models\bosses\boss_3_train\vagon03_gun02_pod.mdl"
+	skin    "models\bosses\boss_3_train\vagon03.tga"
+}
+
+vagon_03 {
+	enemy
+	health 20000
+	flag	FL_TEMPORARY
+
+	model   "models\bosses\boss_3_train\vagon03_base.mdl"
+	skin    "models\bosses\boss_3_train\vagon03.tga"
+//	shadow  SHADOW_PROJECTED
+
+	attach abs "boss_3_train_wheel" "tag_wheel01"
+	attach abs "boss_3_train_wheel" "tag_wheel02"
+	attach abs "boss_3_train_wheel" "tag_wheel03"
+	attach abs "boss_3_train_wheel" "tag_wheel04"
+	attach abs "boss_3_train_wheel" "tag_wheel05"
+	attach abs "boss_3_train_wheel" "tag_wheel06"
+
+	attach id "TURRET1" abs "vagon03_turret01" "tag_turret01"
+	attach id "TURRET2" abs "vagon03_turret01" "tag_turret02"
+	attach id "TURRET3" abs "vagon03_turret02" "tag_turret03"
+
+	script "scripts\bosses\boss_3_train\vagon3.scr"
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////// vagon03 //////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+vagon_04 {
+
+	model   "models\bosses\boss_3_train\vagon04_base.mdl"
+	skin    "models\bosses\boss_3_train\vagon04.tga"
+//	shadow  SHADOW_PROJECTED
+
+	flag	FL_TEMPORARY
+
+	attach abs "boss_3_train_wheel" "tag_wheel01"
+	attach abs "boss_3_train_wheel" "tag_wheel02"
+	attach abs "boss_3_train_wheel" "tag_wheel03"
+	attach abs "boss_3_train_wheel" "tag_wheel04"
+	attach abs "boss_3_train_wheel" "tag_wheel05"
+	attach abs "boss_3_train_wheel" "tag_wheel06"
+
+	script "scripts\bosses\boss_3_train\vagon4.scr"
+}
+
+vagon04_helic {
+	flag    FL_TEMPORARY
+	touch   TOUCH_PLAYER
+	model	"models\helics\helic_tiger\helic_tiger.mdl"
+	skin	"models\helics\helic_tiger\helic_tiger.tga"
+	shadow	SHADOW_PLANAR_HIGH
+	
+	health	1500
+
+	enemy
+	score   1700
+
+	attach abs	"vint_c4_red"	"tag_vint1"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin
+//	attach abs "vint_a3_red"	"tag_vint"
+//	attach abs night "svet_far_helic" "tag_fara"
+//	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin	
+
+	script	"scripts\bosses\boss_3_train\helic.scr"
+}

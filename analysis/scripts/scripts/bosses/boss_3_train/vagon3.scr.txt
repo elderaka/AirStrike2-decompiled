@@ -1,0 +1,72 @@
+entry=54 slots=22 functions=['crandom', 'create', 'CameraQuake', 'AttachDeactivate', 'deactivate', 'sleep', 'remove']
+0000 ADD                a=16 b=-1 c=16 flags=0x00
+0001 GT                 a=16 b=1034147594 c=0 flags=0x10 b_float=0.08
+0002 JUMP_IF_NONZERO    a=0 b=51 c=0 flags=0x00
+0003 MOVE               a=16 b=0 c=0 flags=0x10 b_float=0
+0004 ADD                a=21 b=1065353216 c=21 flags=0x10 b_float=1
+0005 INDEX_ADDRESS      a=17 b=0 c=0 flags=0x00
+0006 INDEX_ADDRESS      a=-2 b=5 c=1 flags=0x00
+0007 INDEX_ADDRESS      a=1 b=0 c=1 flags=0x00
+0008 PUSH               a=0 b=0 c=0 flags=0x80
+0009 PUSH               a=1 b=0 c=0 flags=0x00
+0010 PUSH               a=2 b=0 c=0 flags=0x00
+0011 CALL               a=-1 b=3 c=0 flags=0x00 external=crandom
+0012 POP                a=2 b=0 c=2 flags=0x00
+0013 POP                a=1 b=0 c=1 flags=0x80
+0014 POP                a=0 b=0 c=0 flags=0x80
+0015 MUL                a=1112014848 b=3 c=2 flags=0x01 a_float=50
+0016 ADD                a=1 b=2 c=1 flags=0x02
+0017 MOVE               a=0 b=1 c=0 flags=0x82
+0018 INDEX_ADDRESS      a=17 b=1 c=0 flags=0x00
+0019 INDEX_ADDRESS      a=-2 b=5 c=1 flags=0x00
+0020 INDEX_ADDRESS      a=1 b=1 c=1 flags=0x00
+0021 PUSH               a=0 b=0 c=0 flags=0x80
+0022 PUSH               a=1 b=0 c=0 flags=0x00
+0023 PUSH               a=2 b=0 c=0 flags=0x00
+0024 CALL               a=-1 b=3 c=0 flags=0x00 external=crandom
+0025 POP                a=2 b=0 c=2 flags=0x00
+0026 POP                a=1 b=0 c=1 flags=0x80
+0027 POP                a=0 b=0 c=0 flags=0x80
+0028 MUL                a=1120403456 b=3 c=2 flags=0x01 a_float=100
+0029 ADD                a=1 b=2 c=1 flags=0x02
+0030 MOVE               a=0 b=1 c=0 flags=0x82
+0031 INDEX_ADDRESS      a=17 b=2 c=0 flags=0x00
+0032 INDEX_ADDRESS      a=-2 b=5 c=1 flags=0x00
+0033 INDEX_ADDRESS      a=1 b=2 c=1 flags=0x00
+0034 ADD                a=1 b=1106247680 c=1 flags=0x12 b_float=30
+0035 PUSH               a=0 b=0 c=0 flags=0x80
+0036 PUSH               a=1 b=0 c=0 flags=0x00
+0037 PUSH               a=2 b=0 c=0 flags=0x00
+0038 CALL               a=-1 b=3 c=0 flags=0x00 external=crandom
+0039 POP                a=2 b=0 c=2 flags=0x00
+0040 POP                a=1 b=0 c=1 flags=0x00
+0041 POP                a=0 b=0 c=0 flags=0x80
+0042 MUL                a=1101004800 b=3 c=2 flags=0x01 a_float=20
+0043 ADD                a=1 b=2 c=1 flags=0x00
+0044 MOVE               a=0 b=1 c=0 flags=0x82
+0045 MOVE               a=0 b=0 c=0 flags=0x10 b_float=0
+0046 MOVE               a=1 b=17 c=0 flags=0x00
+0047 CALL               a=-2 b=0 c=0 flags=0x00 external=create
+0048 GE                 a=21 b=1086324736 c=0 flags=0x10 b_float=6
+0049 JUMP_IF_NONZERO    a=0 b=4 c=0 flags=0x00
+0050 MOVE               a=0 b=1068708659 c=0 flags=0x10 b_float=1.4
+0051 CALL               a=-3 b=0 c=0 flags=0x00 external=CameraQuake
+0052 MOVE               a=21 b=0 c=0 flags=0x10 b_float=0
+0053 YIELD              a=0 b=0 c=0 flags=0x00
+0054 INDEX_ADDRESS      a=-2 b=4 c=0 flags=0x00
+0055 JUMP_IF_NONZERO    a=0 b=15 c=0 flags=0x02
+0056 MOVE               a=0 b=11 c=0 flags=0x10 b_float=1.54143e-44
+0057 CALL               a=-4 b=0 c=0 flags=0x00 external=AttachDeactivate
+0058 MOVE               a=0 b=19 c=0 flags=0x10 b_float=2.66247e-44
+0059 CALL               a=-4 b=0 c=0 flags=0x00 external=AttachDeactivate
+0060 MOVE               a=0 b=27 c=0 flags=0x10 b_float=3.78351e-44
+0061 CALL               a=-4 b=0 c=0 flags=0x00 external=AttachDeactivate
+0062 SET_WAIT           a=1086324736 b=0 c=0 flags=0x01 a_float=6
+0063 CALL_WAIT          a=0 b=0 c=0 flags=0x00
+0064 MOVE               a=0 b=-2 c=0 flags=0x00
+0065 CALL               a=-5 b=0 c=0 flags=0x00 external=deactivate
+0066 SET_WAIT           a=1092616192 b=0 c=0 flags=0x01 a_float=10
+0067 CALL_WAIT          a=-6 b=0 c=0 flags=0x00 external=sleep
+0068 MOVE               a=0 b=-2 c=0 flags=0x00
+0069 CALL               a=-7 b=0 c=0 flags=0x00 external=remove
+0070 YIELD              a=0 b=0 c=0 flags=0x00

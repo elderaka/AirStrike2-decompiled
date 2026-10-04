@@ -1,0 +1,174 @@
+
+boss_2 {
+	touch	TOUCH_PLAYER
+	flag	FL_TEMPORARY
+	
+        model   "models\bosses\boss_2\boss_2_base.mdl"
+        skin    "models\bosses\boss_2\boss_2_base.tga"
+
+        attach  abs "boss_2_base_turret_l"  "tag_turret_l"
+        attach  abs "boss_2_base_turret_r"  "tag_turret_r"
+        attach  abs id "ROCKET1" "boss_2_base_rocket_l"  "tag_rocket_l"
+        attach  abs id "ROCKET2" "boss_2_base_rocket_r"  "tag_rocket_r"
+
+        script  "scripts\bosses\boss_2\boss_2.scr"
+}
+
+boss_2_base_turret_l {
+
+        model   "models\bosses\boss_2\boss_2_base_turret_l.mdl"
+        skin    "models\bosses\boss_2\boss_2_guns.tga"
+
+        attach  id "GUNS" abs "boss_2_base_turret_l_guns" "tag_turret_l_guns"
+
+	attach  abs "svet_far_helic" "tag_fara02"
+	attach  abs "svet_far_helic" "tag_fara03"
+
+        script  "scripts\bosses\boss_2\boss_2_base_turret.scr"
+}
+
+boss_2_base_turret_l_guns {
+
+        model   "models\bosses\boss_2\boss_2_base_turret_l_guns.mdl"
+        skin    "models\bosses\boss_2\boss_2_guns.tga"
+	envmap	"gfx\envmap3.tga"
+	envmode	ENV_GLITTER
+
+        attach  abs "boss_2_base_turret_l_guns_pod" "tag_turret_l_guns_pod"
+
+        script  "scripts\bosses\boss_2\boss_2_base_guns.scr"
+}
+
+boss_2_base_turret_r_guns {
+        model   "models\bosses\boss_2\boss_2_base_turret_r_guns.mdl"
+        skin    "models\bosses\boss_2\boss_2_guns.tga"
+	envmap	"gfx\envmap3.tga"
+	envmode	ENV_GLITTER
+
+        attach  abs "boss_2_base_turret_r_guns_pod" "tag_turret_r_guns_pod"
+
+        script  "scripts\bosses\boss_2\boss_2_base_guns_r.scr"
+}
+
+boss_2_base_turret_r_guns_pod {
+        model   "models\bosses\boss_2\boss_2_base_turret_r_guns_pod.mdl"
+        skin    "models\bosses\boss_2\boss_2_guns.tga"
+}
+
+boss_2_base_turret_l_guns_pod {
+
+        model   "models\bosses\boss_2\boss_2_base_turret_l_guns_pod.mdl"
+        skin    "models\bosses\boss_2\boss_2_guns.tga"
+
+}
+
+boss_2_base_turret_r {
+
+        model   "models\bosses\boss_2\boss_2_base_turret_r.mdl"
+        skin    "models\bosses\boss_2\boss_2_guns.tga"
+
+        attach  id "GUNS" abs "boss_2_base_turret_r_guns" "tag_turret_r_guns"
+	attach  abs "svet_far_helic" "tag_fara04"
+	attach  abs "svet_far_helic" "tag_fara05"
+
+        script  "scripts\bosses\boss_2\boss_2_base_turret.scr"
+}
+
+boss_2_base_rocket_l {
+
+        model   "models\bosses\boss_2\boss_2_rocket_l.mdl"
+        skin    "models\bosses\boss_2\boss_2_base.tga"
+
+        script  "scripts\bosses\boss_2\boss_2_base_rocket.scr"
+}
+
+boss_2_base_rocket_r {
+
+        model   "models\bosses\boss_2\boss_2_rocket_r.mdl"
+        skin    "models\bosses\boss_2\boss_2_base.tga"
+
+        script  "scripts\bosses\boss_2\boss_2_base_rocket.scr"
+}
+
+boss_2_base_turbina_l {
+	enemy
+	health	7000
+	touch	TOUCH_PLAYER
+	flag    FL_TEMPORARY
+
+        model   "models\bosses\boss_2\boss_2_turbina_l.mdl"
+        skin    "models\bosses\boss_2\boss_2_base.tga"
+
+	attach	abs id "FIRE" PS_BOSS2_FIRE "tag_sled03"
+	attach	PS_BOSS2_SMOKE  "tag_sled03"
+
+        script  "scripts\bosses\boss_2\boss_2_turbina_l.scr"
+}
+
+boss_2_base_turbina_r {
+	enemy
+	health	7000
+	touch	TOUCH_PLAYER
+	flag    FL_TEMPORARY
+
+        model   "models\bosses\boss_2\boss_2_turbina_r.mdl"
+        skin    "models\bosses\boss_2\boss_2_base.tga"
+
+	attach	abs id "FIRE" PS_BOSS2_FIRE "tag_sled04"
+	attach	PS_BOSS2_SMOKE  "tag_sled04"
+
+        script  "scripts\bosses\boss_2\boss_2_turbina_r.scr"
+}
+
+boss_2_kabina {
+	health	13000
+	flag	FL_TEMPORARY
+
+        model   "models\bosses\boss_2\boss_2_kabina.mdl"
+        skin    "models\bosses\boss_2\boss_2_kabina.tga"
+
+        attach abs "boss_2_kabina_kab" "tag_kabina_kab"
+        attach abs "boss_2_kabina_turbina_r" "tag_kabina_turbina_r"
+        attach abs "boss_2_kabina_turbina_l" "tag_kabina_turbina_l"
+        attach abs "boss_2_kabina_gun" "tag_kabina_gun"
+
+        script  "scripts\bosses\boss_2\boss_2_kabina.scr"
+}
+
+boss_2_kabina_gun {
+
+        model   "models\bosses\boss_2\boss_2_kabina_gun.mdl"
+        skin    "models\bosses\boss_2\boss_2_kabina.tga"
+
+        script  "scripts\bosses\boss_2\boss_2_kabina_gun.scr"
+
+}
+
+boss_2_kabina_kab {
+
+        model   "models\bosses\boss_2\boss_2_kabina_kab.mdl"
+        skin    "models\bosses\boss_2\boss_2_kabina.tga"
+	envmap	"gfx\envmap3.tga"
+	envmode	ENV_GLITTER
+
+//	attach abs   "svet_far_helic" "tag_fara01"
+
+}
+
+boss_2_kabina_turbina_l {
+
+	model   "models\bosses\boss_2\boss_2_kabina_turbina_l.mdl"
+	skin    "models\bosses\boss_2\boss_2_kabina.tga"
+
+	attach	PS_F15 "tag_sled01"
+
+}
+
+boss_2_kabina_turbina_r {
+
+	model   "models\bosses\boss_2\boss_2_kabina_turbina_r.mdl"
+	skin    "models\bosses\boss_2\boss_2_kabina.tga"
+
+	attach	PS_F15  "tag_sled02"
+}
+

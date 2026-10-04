@@ -1,0 +1,1780 @@
+entry=1680 slots=94 functions=['PlaceLight', 'StartSound', 'Shoot', 'AttachDeactivate', 'AttachActivate', 'G_UseMissile', 'G_UsePowerUp', 'create', 'G_GetUpgrade', 'G_GetMissiles', 'G_GetPowerUp', 'SetModel', 'GetPlayerAccel', 'vec_length', 'max', 'min', 'vec_ma', 'movey', 'TerrainHeight', 'rotatez', 'abs', 'vec_setlen', 'StopLoopingSound', 'deactivate', 'RespawnPlayer']
+0000 ADD                a=17 b=-1 c=17 flags=0x00
+0001 BIT_AND_INT        a=-2 b=1065353216 c=0 flags=0x10 b_float=1
+0002 NOT_INT            a=0 b=0 c=0 flags=0x00
+0003 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+0004 RETURN             a=0 b=0 c=0 flags=0x00
+0005 INDEX_ADDRESS      a=60 b=0 c=0 flags=0x00
+0006 MOVE               a=0 b=1065353216 c=0 flags=0x92 b_float=1
+0007 INDEX_ADDRESS      a=60 b=1 c=0 flags=0x00
+0008 MOVE               a=0 b=1061997773 c=0 flags=0x92 b_float=0.8
+0009 INDEX_ADDRESS      a=60 b=2 c=0 flags=0x00
+0010 MOVE               a=0 b=0 c=0 flags=0x92 b_float=0
+0011 INDEX_ADDRESS      a=-3 b=5 c=0 flags=0x00
+0012 MOVE               a=1 b=60 c=0 flags=0x00
+0013 MUL                a=1101004800 b=16 c=3 flags=0x01 a_float=20
+0014 ADD                a=1125515264 b=3 c=2 flags=0x01 a_float=150
+0015 CALL               a=-1 b=0 c=0 flags=0x00 external=PlaceLight
+0016 LT                 a=17 b=1036831949 c=0 flags=0x10 b_float=0.1
+0017 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+0018 RETURN             a=0 b=0 c=0 flags=0x00
+0019 MOVE               a=0 b=0 c=0 flags=0x10 b_float=0
+0020 CALL               a=-2 b=0 c=0 flags=0x00 external=StartSound
+0021 GE                 a=16 b=1082130432 c=0 flags=0x10 b_float=4
+0022 JUMP_IF_NONZERO    a=0 b=22 c=0 flags=0x00
+0023 MOVE               a=0 b=15 c=0 flags=0x10 b_float=2.10195e-44
+0024 MOVE               a=1 b=32 c=0 flags=0x10 b_float=4.48416e-44
+0025 MOVE               a=2 b=19 c=0 flags=0x00
+0026 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0027 MOVE               a=0 b=43 c=0 flags=0x10 b_float=6.02558e-44
+0028 MOVE               a=1 b=60 c=0 flags=0x10 b_float=8.40779e-44
+0029 MOVE               a=2 b=19 c=0 flags=0x00
+0030 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0031 MOVE               a=0 b=71 c=0 flags=0x10 b_float=9.94922e-44
+0032 MOVE               a=1 b=88 c=0 flags=0x10 b_float=1.23314e-43
+0033 MOVE               a=2 b=19 c=0 flags=0x00
+0034 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0035 MOVE               a=0 b=99 c=0 flags=0x10 b_float=1.38729e-43
+0036 MOVE               a=1 b=116 c=0 flags=0x10 b_float=1.62551e-43
+0037 MOVE               a=2 b=19 c=0 flags=0x00
+0038 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0039 MOVE               a=0 b=127 c=0 flags=0x10 b_float=1.77965e-43
+0040 MOVE               a=1 b=144 c=0 flags=0x10 b_float=2.01787e-43
+0041 MOVE               a=2 b=19 c=0 flags=0x00
+0042 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0043 JUMP               a=33 b=0 c=0 flags=0x00
+0044 GE                 a=16 b=1077936128 c=0 flags=0x10 b_float=3
+0045 JUMP_IF_NONZERO    a=0 b=14 c=0 flags=0x00
+0046 MOVE               a=0 b=155 c=0 flags=0x10 b_float=2.17201e-43
+0047 MOVE               a=1 b=172 c=0 flags=0x10 b_float=2.41023e-43
+0048 MOVE               a=2 b=19 c=0 flags=0x00
+0049 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0050 MOVE               a=0 b=183 c=0 flags=0x10 b_float=2.56438e-43
+0051 MOVE               a=1 b=200 c=0 flags=0x10 b_float=2.8026e-43
+0052 MOVE               a=2 b=19 c=0 flags=0x00
+0053 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0054 MOVE               a=0 b=211 c=0 flags=0x10 b_float=2.95674e-43
+0055 MOVE               a=1 b=228 c=0 flags=0x10 b_float=3.19496e-43
+0056 MOVE               a=2 b=19 c=0 flags=0x00
+0057 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0058 JUMP               a=18 b=0 c=0 flags=0x00
+0059 GE                 a=16 b=1073741824 c=0 flags=0x10 b_float=2
+0060 JUMP_IF_NONZERO    a=0 b=10 c=0 flags=0x00
+0061 MOVE               a=0 b=239 c=0 flags=0x10 b_float=3.3491e-43
+0062 MOVE               a=1 b=256 c=0 flags=0x10 b_float=3.58732e-43
+0063 MOVE               a=2 b=19 c=0 flags=0x00
+0064 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0065 MOVE               a=0 b=267 c=0 flags=0x10 b_float=3.74147e-43
+0066 MOVE               a=1 b=284 c=0 flags=0x10 b_float=3.97969e-43
+0067 MOVE               a=2 b=19 c=0 flags=0x00
+0068 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0069 JUMP               a=7 b=0 c=0 flags=0x00
+0070 GE                 a=16 b=1065353216 c=0 flags=0x10 b_float=1
+0071 JUMP_IF_NONZERO    a=0 b=5 c=0 flags=0x00
+0072 MOVE               a=0 b=295 c=0 flags=0x10 b_float=4.13383e-43
+0073 MOVE               a=1 b=312 c=0 flags=0x10 b_float=4.37205e-43
+0074 MOVE               a=2 b=19 c=0 flags=0x00
+0075 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0076 MOVE               a=17 b=0 c=0 flags=0x10 b_float=0
+0077 YIELD              a=0 b=0 c=0 flags=0x00
+0078 ADD                a=17 b=-1 c=17 flags=0x00
+0079 BIT_AND_INT        a=-2 b=1065353216 c=0 flags=0x10 b_float=1
+0080 NOT_INT            a=0 b=0 c=0 flags=0x00
+0081 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+0082 RETURN             a=0 b=0 c=0 flags=0x00
+0083 INDEX_ADDRESS      a=64 b=0 c=0 flags=0x00
+0084 MOVE               a=0 b=1065353216 c=0 flags=0x92 b_float=1
+0085 INDEX_ADDRESS      a=64 b=1 c=0 flags=0x00
+0086 MOVE               a=0 b=1056964608 c=0 flags=0x92 b_float=0.5
+0087 INDEX_ADDRESS      a=64 b=2 c=0 flags=0x00
+0088 MOVE               a=0 b=1058642330 c=0 flags=0x92 b_float=0.6
+0089 INDEX_ADDRESS      a=-3 b=5 c=0 flags=0x00
+0090 MOVE               a=1 b=64 c=0 flags=0x00
+0091 MUL                a=1101004800 b=16 c=3 flags=0x01 a_float=20
+0092 ADD                a=1121714176 b=3 c=2 flags=0x01 a_float=110
+0093 CALL               a=-1 b=0 c=0 flags=0x00 external=PlaceLight
+0094 LT                 a=17 b=1040187392 c=0 flags=0x10 b_float=0.125
+0095 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+0096 RETURN             a=0 b=0 c=0 flags=0x00
+0097 MOVE               a=0 b=323 c=0 flags=0x10 b_float=4.52619e-43
+0098 CALL               a=-2 b=0 c=0 flags=0x00 external=StartSound
+0099 GE                 a=16 b=1084227584 c=0 flags=0x10 b_float=5
+0100 JUMP_IF_NONZERO    a=0 b=30 c=0 flags=0x00
+0101 MOVE               a=0 b=345 c=0 flags=0x10 b_float=4.83448e-43
+0102 MOVE               a=1 b=362 c=0 flags=0x10 b_float=5.0727e-43
+0103 MOVE               a=2 b=19 c=0 flags=0x00
+0104 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0105 MOVE               a=0 b=373 c=0 flags=0x10 b_float=5.22684e-43
+0106 MOVE               a=1 b=390 c=0 flags=0x10 b_float=5.46506e-43
+0107 MOVE               a=2 b=39 c=0 flags=0x00
+0108 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0109 MOVE               a=0 b=401 c=0 flags=0x10 b_float=5.61921e-43
+0110 MOVE               a=1 b=418 c=0 flags=0x10 b_float=5.85743e-43
+0111 MOVE               a=2 b=31 c=0 flags=0x00
+0112 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0113 MOVE               a=0 b=429 c=0 flags=0x10 b_float=6.01157e-43
+0114 MOVE               a=1 b=446 c=0 flags=0x10 b_float=6.24979e-43
+0115 MOVE               a=2 b=43 c=0 flags=0x00
+0116 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0117 MOVE               a=0 b=457 c=0 flags=0x10 b_float=6.40393e-43
+0118 MOVE               a=1 b=474 c=0 flags=0x10 b_float=6.64215e-43
+0119 MOVE               a=2 b=35 c=0 flags=0x00
+0120 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0121 MOVE               a=0 b=485 c=0 flags=0x10 b_float=6.7963e-43
+0122 MOVE               a=1 b=502 c=0 flags=0x10 b_float=7.03452e-43
+0123 MOVE               a=2 b=47 c=0 flags=0x00
+0124 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0125 MOVE               a=0 b=513 c=0 flags=0x10 b_float=7.18866e-43
+0126 MOVE               a=1 b=530 c=0 flags=0x10 b_float=7.42688e-43
+0127 MOVE               a=2 b=51 c=0 flags=0x00
+0128 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0129 JUMP               a=56 b=0 c=0 flags=0x00
+0130 GE                 a=16 b=1082130432 c=0 flags=0x10 b_float=4
+0131 JUMP_IF_NONZERO    a=0 b=22 c=0 flags=0x00
+0132 MOVE               a=0 b=541 c=0 flags=0x10 b_float=7.58102e-43
+0133 MOVE               a=1 b=558 c=0 flags=0x10 b_float=7.81925e-43
+0134 MOVE               a=2 b=19 c=0 flags=0x00
+0135 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0136 MOVE               a=0 b=569 c=0 flags=0x10 b_float=7.97339e-43
+0137 MOVE               a=1 b=586 c=0 flags=0x10 b_float=8.21161e-43
+0138 MOVE               a=2 b=39 c=0 flags=0x00
+0139 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0140 MOVE               a=0 b=597 c=0 flags=0x10 b_float=8.36575e-43
+0141 MOVE               a=1 b=614 c=0 flags=0x10 b_float=8.60397e-43
+0142 MOVE               a=2 b=31 c=0 flags=0x00
+0143 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0144 MOVE               a=0 b=625 c=0 flags=0x10 b_float=8.75812e-43
+0145 MOVE               a=1 b=642 c=0 flags=0x10 b_float=8.99634e-43
+0146 MOVE               a=2 b=43 c=0 flags=0x00
+0147 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0148 MOVE               a=0 b=653 c=0 flags=0x10 b_float=9.15048e-43
+0149 MOVE               a=1 b=670 c=0 flags=0x10 b_float=9.3887e-43
+0150 MOVE               a=2 b=35 c=0 flags=0x00
+0151 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0152 JUMP               a=33 b=0 c=0 flags=0x00
+0153 GE                 a=16 b=1077936128 c=0 flags=0x10 b_float=3
+0154 JUMP_IF_NONZERO    a=0 b=14 c=0 flags=0x00
+0155 MOVE               a=0 b=681 c=0 flags=0x10 b_float=9.54284e-43
+0156 MOVE               a=1 b=698 c=0 flags=0x10 b_float=9.78106e-43
+0157 MOVE               a=2 b=19 c=0 flags=0x00
+0158 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0159 MOVE               a=0 b=709 c=0 flags=0x10 b_float=9.93521e-43
+0160 MOVE               a=1 b=726 c=0 flags=0x10 b_float=1.01734e-42
+0161 MOVE               a=2 b=19 c=0 flags=0x00
+0162 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0163 MOVE               a=0 b=737 c=0 flags=0x10 b_float=1.03276e-42
+0164 MOVE               a=1 b=754 c=0 flags=0x10 b_float=1.05658e-42
+0165 MOVE               a=2 b=19 c=0 flags=0x00
+0166 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0167 JUMP               a=18 b=0 c=0 flags=0x00
+0168 GE                 a=16 b=1073741824 c=0 flags=0x10 b_float=2
+0169 JUMP_IF_NONZERO    a=0 b=10 c=0 flags=0x00
+0170 MOVE               a=0 b=765 c=0 flags=0x10 b_float=1.07199e-42
+0171 MOVE               a=1 b=782 c=0 flags=0x10 b_float=1.09582e-42
+0172 MOVE               a=2 b=19 c=0 flags=0x00
+0173 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0174 MOVE               a=0 b=793 c=0 flags=0x10 b_float=1.11123e-42
+0175 MOVE               a=1 b=810 c=0 flags=0x10 b_float=1.13505e-42
+0176 MOVE               a=2 b=19 c=0 flags=0x00
+0177 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0178 JUMP               a=7 b=0 c=0 flags=0x00
+0179 GE                 a=16 b=1065353216 c=0 flags=0x10 b_float=1
+0180 JUMP_IF_NONZERO    a=0 b=5 c=0 flags=0x00
+0181 MOVE               a=0 b=821 c=0 flags=0x10 b_float=1.15047e-42
+0182 MOVE               a=1 b=838 c=0 flags=0x10 b_float=1.17429e-42
+0183 MOVE               a=2 b=19 c=0 flags=0x00
+0184 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0185 MOVE               a=17 b=0 c=0 flags=0x10 b_float=0
+0186 YIELD              a=0 b=0 c=0 flags=0x00
+0187 ADD                a=17 b=-1 c=17 flags=0x00
+0188 ADD                a=18 b=-1 c=18 flags=0x00
+0189 BIT_AND_INT        a=-2 b=1065353216 c=0 flags=0x10 b_float=1
+0190 NOT_INT            a=0 b=0 c=0 flags=0x00
+0191 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+0192 RETURN             a=0 b=0 c=0 flags=0x00
+0193 INDEX_ADDRESS      a=68 b=0 c=0 flags=0x00
+0194 MOVE               a=0 b=1065353216 c=0 flags=0x92 b_float=1
+0195 INDEX_ADDRESS      a=68 b=1 c=0 flags=0x00
+0196 MOVE               a=0 b=1061997773 c=0 flags=0x92 b_float=0.8
+0197 INDEX_ADDRESS      a=68 b=2 c=0 flags=0x00
+0198 MOVE               a=0 b=0 c=0 flags=0x92 b_float=0
+0199 INDEX_ADDRESS      a=-3 b=5 c=0 flags=0x00
+0200 MOVE               a=1 b=68 c=0 flags=0x00
+0201 MUL                a=1101004800 b=16 c=3 flags=0x01 a_float=20
+0202 ADD                a=1125515264 b=3 c=2 flags=0x01 a_float=150
+0203 CALL               a=-1 b=0 c=0 flags=0x00 external=PlaceLight
+0204 LT                 a=17 b=1045220557 c=0 flags=0x10 b_float=0.2
+0205 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+0206 RETURN             a=0 b=0 c=0 flags=0x00
+0207 MOVE               a=0 b=849 c=0 flags=0x10 b_float=1.1897e-42
+0208 CALL               a=-2 b=0 c=0 flags=0x00 external=StartSound
+0209 GE                 a=16 b=1090519040 c=0 flags=0x10 b_float=8
+0210 JUMP_IF_NONZERO    a=0 b=33 c=0 flags=0x00
+0211 GT                 a=18 b=1056964608 c=0 flags=0x10 b_float=0.5
+0212 JUMP_IF_NONZERO    a=0 b=14 c=0 flags=0x00
+0213 MOVE               a=0 b=866 c=0 flags=0x10 b_float=1.21352e-42
+0214 MOVE               a=1 b=879 c=0 flags=0x10 b_float=1.23174e-42
+0215 MOVE               a=2 b=19 c=0 flags=0x00
+0216 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0217 MOVE               a=0 b=890 c=0 flags=0x10 b_float=1.24716e-42
+0218 MOVE               a=1 b=903 c=0 flags=0x10 b_float=1.26537e-42
+0219 MOVE               a=2 b=19 c=0 flags=0x00
+0220 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0221 MOVE               a=0 b=914 c=0 flags=0x10 b_float=1.28079e-42
+0222 MOVE               a=1 b=927 c=0 flags=0x10 b_float=1.299e-42
+0223 MOVE               a=2 b=19 c=0 flags=0x00
+0224 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0225 MOVE               a=18 b=0 c=0 flags=0x10 b_float=0
+0226 MOVE               a=0 b=938 c=0 flags=0x10 b_float=1.31442e-42
+0227 MOVE               a=1 b=950 c=0 flags=0x10 b_float=1.33123e-42
+0228 MOVE               a=2 b=19 c=0 flags=0x00
+0229 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0230 MOVE               a=0 b=961 c=0 flags=0x10 b_float=1.34665e-42
+0231 MOVE               a=1 b=973 c=0 flags=0x10 b_float=1.36346e-42
+0232 MOVE               a=2 b=19 c=0 flags=0x00
+0233 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0234 MOVE               a=0 b=984 c=0 flags=0x10 b_float=1.37888e-42
+0235 MOVE               a=1 b=996 c=0 flags=0x10 b_float=1.39569e-42
+0236 MOVE               a=2 b=39 c=0 flags=0x00
+0237 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0238 MOVE               a=0 b=1007 c=0 flags=0x10 b_float=1.41111e-42
+0239 MOVE               a=1 b=1019 c=0 flags=0x10 b_float=1.42792e-42
+0240 MOVE               a=2 b=43 c=0 flags=0x00
+0241 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0242 JUMP               a=126 b=0 c=0 flags=0x00
+0243 GE                 a=16 b=1088421888 c=0 flags=0x10 b_float=7
+0244 JUMP_IF_NONZERO    a=0 b=25 c=0 flags=0x00
+0245 GT                 a=18 b=1056964608 c=0 flags=0x10 b_float=0.5
+0246 JUMP_IF_NONZERO    a=0 b=14 c=0 flags=0x00
+0247 MOVE               a=0 b=1030 c=0 flags=0x10 b_float=1.44334e-42
+0248 MOVE               a=1 b=1043 c=0 flags=0x10 b_float=1.46155e-42
+0249 MOVE               a=2 b=19 c=0 flags=0x00
+0250 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0251 MOVE               a=0 b=1054 c=0 flags=0x10 b_float=1.47697e-42
+0252 MOVE               a=1 b=1067 c=0 flags=0x10 b_float=1.49519e-42
+0253 MOVE               a=2 b=19 c=0 flags=0x00
+0254 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0255 MOVE               a=0 b=1078 c=0 flags=0x10 b_float=1.5106e-42
+0256 MOVE               a=1 b=1091 c=0 flags=0x10 b_float=1.52882e-42
+0257 MOVE               a=2 b=19 c=0 flags=0x00
+0258 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0259 MOVE               a=18 b=0 c=0 flags=0x10 b_float=0
+0260 MOVE               a=0 b=1102 c=0 flags=0x10 b_float=1.54423e-42
+0261 MOVE               a=1 b=1114 c=0 flags=0x10 b_float=1.56105e-42
+0262 MOVE               a=2 b=19 c=0 flags=0x00
+0263 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0264 MOVE               a=0 b=1125 c=0 flags=0x10 b_float=1.57646e-42
+0265 MOVE               a=1 b=1137 c=0 flags=0x10 b_float=1.59328e-42
+0266 MOVE               a=2 b=19 c=0 flags=0x00
+0267 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0268 JUMP               a=100 b=0 c=0 flags=0x00
+0269 GE                 a=16 b=1086324736 c=0 flags=0x10 b_float=6
+0270 JUMP_IF_NONZERO    a=0 b=25 c=0 flags=0x00
+0271 GT                 a=18 b=1056964608 c=0 flags=0x10 b_float=0.5
+0272 JUMP_IF_NONZERO    a=0 b=6 c=0 flags=0x00
+0273 MOVE               a=0 b=1148 c=0 flags=0x10 b_float=1.60869e-42
+0274 MOVE               a=1 b=1161 c=0 flags=0x10 b_float=1.62691e-42
+0275 MOVE               a=2 b=19 c=0 flags=0x00
+0276 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0277 MOVE               a=18 b=0 c=0 flags=0x10 b_float=0
+0278 MOVE               a=0 b=1172 c=0 flags=0x10 b_float=1.64232e-42
+0279 MOVE               a=1 b=1184 c=0 flags=0x10 b_float=1.65914e-42
+0280 MOVE               a=2 b=19 c=0 flags=0x00
+0281 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0282 MOVE               a=0 b=1195 c=0 flags=0x10 b_float=1.67455e-42
+0283 MOVE               a=1 b=1207 c=0 flags=0x10 b_float=1.69137e-42
+0284 MOVE               a=2 b=19 c=0 flags=0x00
+0285 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0286 MOVE               a=0 b=1218 c=0 flags=0x10 b_float=1.70678e-42
+0287 MOVE               a=1 b=1230 c=0 flags=0x10 b_float=1.7236e-42
+0288 MOVE               a=2 b=39 c=0 flags=0x00
+0289 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0290 MOVE               a=0 b=1241 c=0 flags=0x10 b_float=1.73901e-42
+0291 MOVE               a=1 b=1253 c=0 flags=0x10 b_float=1.75583e-42
+0292 MOVE               a=2 b=43 c=0 flags=0x00
+0293 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0294 JUMP               a=74 b=0 c=0 flags=0x00
+0295 GE                 a=16 b=1084227584 c=0 flags=0x10 b_float=5
+0296 JUMP_IF_NONZERO    a=0 b=17 c=0 flags=0x00
+0297 GT                 a=18 b=1056964608 c=0 flags=0x10 b_float=0.5
+0298 JUMP_IF_NONZERO    a=0 b=6 c=0 flags=0x00
+0299 MOVE               a=0 b=1264 c=0 flags=0x10 b_float=1.77124e-42
+0300 MOVE               a=1 b=1277 c=0 flags=0x10 b_float=1.78946e-42
+0301 MOVE               a=2 b=19 c=0 flags=0x00
+0302 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0303 MOVE               a=18 b=0 c=0 flags=0x10 b_float=0
+0304 MOVE               a=0 b=1288 c=0 flags=0x10 b_float=1.80487e-42
+0305 MOVE               a=1 b=1300 c=0 flags=0x10 b_float=1.82169e-42
+0306 MOVE               a=2 b=39 c=0 flags=0x00
+0307 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0308 MOVE               a=0 b=1311 c=0 flags=0x10 b_float=1.8371e-42
+0309 MOVE               a=1 b=1323 c=0 flags=0x10 b_float=1.85392e-42
+0310 MOVE               a=2 b=43 c=0 flags=0x00
+0311 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0312 JUMP               a=56 b=0 c=0 flags=0x00
+0313 GE                 a=16 b=1082130432 c=0 flags=0x10 b_float=4
+0314 JUMP_IF_NONZERO    a=0 b=22 c=0 flags=0x00
+0315 MOVE               a=0 b=1334 c=0 flags=0x10 b_float=1.86933e-42
+0316 MOVE               a=1 b=1346 c=0 flags=0x10 b_float=1.88615e-42
+0317 MOVE               a=2 b=19 c=0 flags=0x00
+0318 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0319 MOVE               a=0 b=1357 c=0 flags=0x10 b_float=1.90156e-42
+0320 MOVE               a=1 b=1369 c=0 flags=0x10 b_float=1.91838e-42
+0321 MOVE               a=2 b=39 c=0 flags=0x00
+0322 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0323 MOVE               a=0 b=1380 c=0 flags=0x10 b_float=1.93379e-42
+0324 MOVE               a=1 b=1392 c=0 flags=0x10 b_float=1.95061e-42
+0325 MOVE               a=2 b=19 c=0 flags=0x00
+0326 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0327 MOVE               a=0 b=1403 c=0 flags=0x10 b_float=1.96602e-42
+0328 MOVE               a=1 b=1415 c=0 flags=0x10 b_float=1.98284e-42
+0329 MOVE               a=2 b=43 c=0 flags=0x00
+0330 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0331 MOVE               a=0 b=1426 c=0 flags=0x10 b_float=1.99825e-42
+0332 MOVE               a=1 b=1438 c=0 flags=0x10 b_float=2.01507e-42
+0333 MOVE               a=2 b=19 c=0 flags=0x00
+0334 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0335 JUMP               a=33 b=0 c=0 flags=0x00
+0336 GE                 a=16 b=1077936128 c=0 flags=0x10 b_float=3
+0337 JUMP_IF_NONZERO    a=0 b=14 c=0 flags=0x00
+0338 MOVE               a=0 b=1449 c=0 flags=0x10 b_float=2.03048e-42
+0339 MOVE               a=1 b=1461 c=0 flags=0x10 b_float=2.0473e-42
+0340 MOVE               a=2 b=19 c=0 flags=0x00
+0341 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0342 MOVE               a=0 b=1472 c=0 flags=0x10 b_float=2.06271e-42
+0343 MOVE               a=1 b=1484 c=0 flags=0x10 b_float=2.07953e-42
+0344 MOVE               a=2 b=19 c=0 flags=0x00
+0345 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0346 MOVE               a=0 b=1495 c=0 flags=0x10 b_float=2.09494e-42
+0347 MOVE               a=1 b=1507 c=0 flags=0x10 b_float=2.11176e-42
+0348 MOVE               a=2 b=19 c=0 flags=0x00
+0349 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0350 JUMP               a=18 b=0 c=0 flags=0x00
+0351 GE                 a=16 b=1073741824 c=0 flags=0x10 b_float=2
+0352 JUMP_IF_NONZERO    a=0 b=10 c=0 flags=0x00
+0353 MOVE               a=0 b=1518 c=0 flags=0x10 b_float=2.12717e-42
+0354 MOVE               a=1 b=1530 c=0 flags=0x10 b_float=2.14399e-42
+0355 MOVE               a=2 b=19 c=0 flags=0x00
+0356 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0357 MOVE               a=0 b=1541 c=0 flags=0x10 b_float=2.1594e-42
+0358 MOVE               a=1 b=1553 c=0 flags=0x10 b_float=2.17622e-42
+0359 MOVE               a=2 b=19 c=0 flags=0x00
+0360 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0361 JUMP               a=7 b=0 c=0 flags=0x00
+0362 GE                 a=16 b=1065353216 c=0 flags=0x10 b_float=1
+0363 JUMP_IF_NONZERO    a=0 b=5 c=0 flags=0x00
+0364 MOVE               a=0 b=1564 c=0 flags=0x10 b_float=2.19163e-42
+0365 MOVE               a=1 b=1576 c=0 flags=0x10 b_float=2.20845e-42
+0366 MOVE               a=2 b=19 c=0 flags=0x00
+0367 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0368 MOVE               a=17 b=0 c=0 flags=0x10 b_float=0
+0369 YIELD              a=0 b=0 c=0 flags=0x00
+0370 ADD                a=17 b=-1 c=17 flags=0x00
+0371 ADD                a=18 b=-1 c=18 flags=0x00
+0372 BIT_AND_INT        a=-2 b=1065353216 c=0 flags=0x10 b_float=1
+0373 NOT_INT            a=0 b=0 c=0 flags=0x00
+0374 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+0375 RETURN             a=0 b=0 c=0 flags=0x00
+0376 INDEX_ADDRESS      a=72 b=0 c=0 flags=0x00
+0377 MOVE               a=0 b=1045220557 c=0 flags=0x92 b_float=0.2
+0378 INDEX_ADDRESS      a=72 b=1 c=0 flags=0x00
+0379 MOVE               a=0 b=1045220557 c=0 flags=0x92 b_float=0.2
+0380 INDEX_ADDRESS      a=72 b=2 c=0 flags=0x00
+0381 MOVE               a=0 b=1065353216 c=0 flags=0x92 b_float=1
+0382 INDEX_ADDRESS      a=-3 b=5 c=0 flags=0x00
+0383 MOVE               a=1 b=72 c=0 flags=0x00
+0384 MUL                a=1101004800 b=16 c=3 flags=0x01 a_float=20
+0385 ADD                a=1125515264 b=3 c=2 flags=0x01 a_float=150
+0386 CALL               a=-1 b=0 c=0 flags=0x00 external=PlaceLight
+0387 LT                 a=17 b=1041395352 c=0 flags=0x10 b_float=0.143
+0388 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+0389 RETURN             a=0 b=0 c=0 flags=0x00
+0390 GE                 a=16 b=1088421888 c=0 flags=0x10 b_float=7
+0391 JUMP_IF_NONZERO    a=0 b=23 c=0 flags=0x00
+0392 GT                 a=18 b=1048576000 c=0 flags=0x10 b_float=0.25
+0393 JUMP_IF_NONZERO    a=0 b=20 c=0 flags=0x00
+0394 MOVE               a=0 b=1587 c=0 flags=0x10 b_float=2.22386e-42
+0395 CALL               a=-2 b=0 c=0 flags=0x00 external=StartSound
+0396 MOVE               a=0 b=1602 c=0 flags=0x10 b_float=2.24488e-42
+0397 MOVE               a=1 b=1619 c=0 flags=0x10 b_float=2.2687e-42
+0398 MOVE               a=2 b=19 c=0 flags=0x00
+0399 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0400 MOVE               a=0 b=1630 c=0 flags=0x10 b_float=2.28412e-42
+0401 MOVE               a=1 b=1647 c=0 flags=0x10 b_float=2.30794e-42
+0402 MOVE               a=2 b=19 c=0 flags=0x00
+0403 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0404 MOVE               a=0 b=1658 c=0 flags=0x10 b_float=2.32335e-42
+0405 MOVE               a=1 b=1675 c=0 flags=0x10 b_float=2.34717e-42
+0406 MOVE               a=2 b=31 c=0 flags=0x00
+0407 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0408 MOVE               a=0 b=1686 c=0 flags=0x10 b_float=2.36259e-42
+0409 MOVE               a=1 b=1703 c=0 flags=0x10 b_float=2.38641e-42
+0410 MOVE               a=2 b=35 c=0 flags=0x00
+0411 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0412 MOVE               a=18 b=0 c=0 flags=0x10 b_float=0
+0413 JUMP               a=120 b=0 c=0 flags=0x00
+0414 GE                 a=16 b=1086324736 c=0 flags=0x10 b_float=6
+0415 JUMP_IF_NONZERO    a=0 b=25 c=0 flags=0x00
+0416 GT                 a=18 b=1048576000 c=0 flags=0x10 b_float=0.25
+0417 JUMP_IF_NONZERO    a=0 b=12 c=0 flags=0x00
+0418 MOVE               a=0 b=1714 c=0 flags=0x10 b_float=2.40183e-42
+0419 CALL               a=-2 b=0 c=0 flags=0x00 external=StartSound
+0420 MOVE               a=0 b=1729 c=0 flags=0x10 b_float=2.42285e-42
+0421 MOVE               a=1 b=1746 c=0 flags=0x10 b_float=2.44667e-42
+0422 MOVE               a=2 b=19 c=0 flags=0x00
+0423 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0424 MOVE               a=0 b=1757 c=0 flags=0x10 b_float=2.46208e-42
+0425 MOVE               a=1 b=1774 c=0 flags=0x10 b_float=2.4859e-42
+0426 MOVE               a=2 b=19 c=0 flags=0x00
+0427 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0428 MOVE               a=18 b=0 c=0 flags=0x10 b_float=0
+0429 MOVE               a=0 b=1785 c=0 flags=0x10 b_float=2.50132e-42
+0430 CALL               a=-2 b=0 c=0 flags=0x00 external=StartSound
+0431 MOVE               a=0 b=1807 c=0 flags=0x10 b_float=2.53215e-42
+0432 MOVE               a=1 b=1823 c=0 flags=0x10 b_float=2.55457e-42
+0433 MOVE               a=2 b=39 c=0 flags=0x00
+0434 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0435 MOVE               a=0 b=1834 c=0 flags=0x10 b_float=2.56998e-42
+0436 MOVE               a=1 b=1850 c=0 flags=0x10 b_float=2.5924e-42
+0437 MOVE               a=2 b=43 c=0 flags=0x00
+0438 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0439 JUMP               a=94 b=0 c=0 flags=0x00
+0440 GE                 a=16 b=1084227584 c=0 flags=0x10 b_float=5
+0441 JUMP_IF_NONZERO    a=0 b=29 c=0 flags=0x00
+0442 GT                 a=18 b=1048576000 c=0 flags=0x10 b_float=0.25
+0443 JUMP_IF_NONZERO    a=0 b=8 c=0 flags=0x00
+0444 MOVE               a=0 b=1861 c=0 flags=0x10 b_float=2.60782e-42
+0445 CALL               a=-2 b=0 c=0 flags=0x00 external=StartSound
+0446 MOVE               a=0 b=1876 c=0 flags=0x10 b_float=2.62884e-42
+0447 MOVE               a=1 b=1893 c=0 flags=0x10 b_float=2.65266e-42
+0448 MOVE               a=2 b=19 c=0 flags=0x00
+0449 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0450 MOVE               a=18 b=0 c=0 flags=0x10 b_float=0
+0451 MOVE               a=0 b=1904 c=0 flags=0x10 b_float=2.66807e-42
+0452 CALL               a=-2 b=0 c=0 flags=0x00 external=StartSound
+0453 MOVE               a=0 b=1926 c=0 flags=0x10 b_float=2.6989e-42
+0454 MOVE               a=1 b=1942 c=0 flags=0x10 b_float=2.72132e-42
+0455 MOVE               a=2 b=39 c=0 flags=0x00
+0456 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0457 MOVE               a=0 b=1953 c=0 flags=0x10 b_float=2.73674e-42
+0458 MOVE               a=1 b=1969 c=0 flags=0x10 b_float=2.75916e-42
+0459 MOVE               a=2 b=43 c=0 flags=0x00
+0460 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0461 MOVE               a=0 b=1980 c=0 flags=0x10 b_float=2.77457e-42
+0462 MOVE               a=1 b=1996 c=0 flags=0x10 b_float=2.79699e-42
+0463 MOVE               a=2 b=39 c=0 flags=0x00
+0464 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0465 MOVE               a=0 b=2007 c=0 flags=0x10 b_float=2.81241e-42
+0466 MOVE               a=1 b=2023 c=0 flags=0x10 b_float=2.83483e-42
+0467 MOVE               a=2 b=43 c=0 flags=0x00
+0468 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0469 JUMP               a=64 b=0 c=0 flags=0x00
+0470 GE                 a=16 b=1082130432 c=0 flags=0x10 b_float=4
+0471 JUMP_IF_NONZERO    a=0 b=24 c=0 flags=0x00
+0472 MOVE               a=0 b=2034 c=0 flags=0x10 b_float=2.85024e-42
+0473 CALL               a=-2 b=0 c=0 flags=0x00 external=StartSound
+0474 MOVE               a=0 b=2056 c=0 flags=0x10 b_float=2.88107e-42
+0475 MOVE               a=1 b=2072 c=0 flags=0x10 b_float=2.90349e-42
+0476 MOVE               a=2 b=19 c=0 flags=0x00
+0477 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0478 MOVE               a=0 b=2083 c=0 flags=0x10 b_float=2.9189e-42
+0479 MOVE               a=1 b=2099 c=0 flags=0x10 b_float=2.94133e-42
+0480 MOVE               a=2 b=31 c=0 flags=0x00
+0481 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0482 MOVE               a=0 b=2110 c=0 flags=0x10 b_float=2.95674e-42
+0483 MOVE               a=1 b=2126 c=0 flags=0x10 b_float=2.97916e-42
+0484 MOVE               a=2 b=39 c=0 flags=0x00
+0485 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0486 MOVE               a=0 b=2137 c=0 flags=0x10 b_float=2.99457e-42
+0487 MOVE               a=1 b=2153 c=0 flags=0x10 b_float=3.017e-42
+0488 MOVE               a=2 b=35 c=0 flags=0x00
+0489 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0490 MOVE               a=0 b=2164 c=0 flags=0x10 b_float=3.03241e-42
+0491 MOVE               a=1 b=2180 c=0 flags=0x10 b_float=3.05483e-42
+0492 MOVE               a=2 b=43 c=0 flags=0x00
+0493 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0494 JUMP               a=39 b=0 c=0 flags=0x00
+0495 GE                 a=16 b=1077936128 c=0 flags=0x10 b_float=3
+0496 JUMP_IF_NONZERO    a=0 b=16 c=0 flags=0x00
+0497 MOVE               a=0 b=2191 c=0 flags=0x10 b_float=3.07024e-42
+0498 CALL               a=-2 b=0 c=0 flags=0x00 external=StartSound
+0499 MOVE               a=0 b=2213 c=0 flags=0x10 b_float=3.10107e-42
+0500 MOVE               a=1 b=2229 c=0 flags=0x10 b_float=3.12349e-42
+0501 MOVE               a=2 b=19 c=0 flags=0x00
+0502 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0503 MOVE               a=0 b=2240 c=0 flags=0x10 b_float=3.13891e-42
+0504 MOVE               a=1 b=2256 c=0 flags=0x10 b_float=3.16133e-42
+0505 MOVE               a=2 b=19 c=0 flags=0x00
+0506 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0507 MOVE               a=0 b=2267 c=0 flags=0x10 b_float=3.17674e-42
+0508 MOVE               a=1 b=2283 c=0 flags=0x10 b_float=3.19916e-42
+0509 MOVE               a=2 b=19 c=0 flags=0x00
+0510 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0511 JUMP               a=22 b=0 c=0 flags=0x00
+0512 GE                 a=16 b=1073741824 c=0 flags=0x10 b_float=2
+0513 JUMP_IF_NONZERO    a=0 b=12 c=0 flags=0x00
+0514 MOVE               a=0 b=2294 c=0 flags=0x10 b_float=3.21458e-42
+0515 CALL               a=-2 b=0 c=0 flags=0x00 external=StartSound
+0516 MOVE               a=0 b=2316 c=0 flags=0x10 b_float=3.24541e-42
+0517 MOVE               a=1 b=2332 c=0 flags=0x10 b_float=3.26783e-42
+0518 MOVE               a=2 b=19 c=0 flags=0x00
+0519 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0520 MOVE               a=0 b=2343 c=0 flags=0x10 b_float=3.28324e-42
+0521 MOVE               a=1 b=2359 c=0 flags=0x10 b_float=3.30566e-42
+0522 MOVE               a=2 b=19 c=0 flags=0x00
+0523 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0524 JUMP               a=9 b=0 c=0 flags=0x00
+0525 GE                 a=16 b=1065353216 c=0 flags=0x10 b_float=1
+0526 JUMP_IF_NONZERO    a=0 b=7 c=0 flags=0x00
+0527 MOVE               a=0 b=2370 c=0 flags=0x10 b_float=3.32108e-42
+0528 CALL               a=-2 b=0 c=0 flags=0x00 external=StartSound
+0529 MOVE               a=0 b=2392 c=0 flags=0x10 b_float=3.35191e-42
+0530 MOVE               a=1 b=2408 c=0 flags=0x10 b_float=3.37433e-42
+0531 MOVE               a=2 b=19 c=0 flags=0x00
+0532 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0533 MOVE               a=17 b=0 c=0 flags=0x10 b_float=0
+0534 YIELD              a=0 b=0 c=0 flags=0x00
+0535 ADD                a=17 b=-1 c=17 flags=0x00
+0536 BIT_AND_INT        a=-2 b=1065353216 c=0 flags=0x10 b_float=1
+0537 NOT_INT            a=0 b=0 c=0 flags=0x00
+0538 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+0539 RETURN             a=0 b=0 c=0 flags=0x00
+0540 INDEX_ADDRESS      a=76 b=0 c=0 flags=0x00
+0541 MOVE               a=0 b=1045220557 c=0 flags=0x92 b_float=0.2
+0542 INDEX_ADDRESS      a=76 b=1 c=0 flags=0x00
+0543 MOVE               a=0 b=1045220557 c=0 flags=0x92 b_float=0.2
+0544 INDEX_ADDRESS      a=76 b=2 c=0 flags=0x00
+0545 MOVE               a=0 b=1065353216 c=0 flags=0x92 b_float=1
+0546 INDEX_ADDRESS      a=-3 b=5 c=0 flags=0x00
+0547 MOVE               a=1 b=76 c=0 flags=0x00
+0548 MUL                a=1101004800 b=16 c=3 flags=0x01 a_float=20
+0549 ADD                a=1125515264 b=3 c=2 flags=0x01 a_float=150
+0550 CALL               a=-1 b=0 c=0 flags=0x00 external=PlaceLight
+0551 LT                 a=17 b=1045220557 c=0 flags=0x10 b_float=0.2
+0552 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+0553 RETURN             a=0 b=0 c=0 flags=0x00
+0554 MOVE               a=0 b=2419 c=0 flags=0x10 b_float=3.38974e-42
+0555 CALL               a=-2 b=0 c=0 flags=0x00 external=StartSound
+0556 GE                 a=16 b=1082130432 c=0 flags=0x10 b_float=4
+0557 JUMP_IF_NONZERO    a=0 b=22 c=0 flags=0x00
+0558 MOVE               a=0 b=2442 c=0 flags=0x10 b_float=3.42197e-42
+0559 MOVE               a=1 b=2460 c=0 flags=0x10 b_float=3.44719e-42
+0560 MOVE               a=2 b=19 c=0 flags=0x00
+0561 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0562 MOVE               a=0 b=2471 c=0 flags=0x10 b_float=3.46261e-42
+0563 MOVE               a=1 b=2489 c=0 flags=0x10 b_float=3.48783e-42
+0564 MOVE               a=2 b=31 c=0 flags=0x00
+0565 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0566 MOVE               a=0 b=2500 c=0 flags=0x10 b_float=3.50325e-42
+0567 MOVE               a=1 b=2518 c=0 flags=0x10 b_float=3.52847e-42
+0568 MOVE               a=2 b=39 c=0 flags=0x00
+0569 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0570 MOVE               a=0 b=2529 c=0 flags=0x10 b_float=3.54388e-42
+0571 MOVE               a=1 b=2547 c=0 flags=0x10 b_float=3.56911e-42
+0572 MOVE               a=2 b=35 c=0 flags=0x00
+0573 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0574 MOVE               a=0 b=2558 c=0 flags=0x10 b_float=3.58452e-42
+0575 MOVE               a=1 b=2576 c=0 flags=0x10 b_float=3.60974e-42
+0576 MOVE               a=2 b=43 c=0 flags=0x00
+0577 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0578 JUMP               a=33 b=0 c=0 flags=0x00
+0579 GE                 a=16 b=1077936128 c=0 flags=0x10 b_float=3
+0580 JUMP_IF_NONZERO    a=0 b=14 c=0 flags=0x00
+0581 MOVE               a=0 b=2587 c=0 flags=0x10 b_float=3.62516e-42
+0582 MOVE               a=1 b=2605 c=0 flags=0x10 b_float=3.65038e-42
+0583 MOVE               a=2 b=19 c=0 flags=0x00
+0584 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0585 MOVE               a=0 b=2616 c=0 flags=0x10 b_float=3.6658e-42
+0586 MOVE               a=1 b=2634 c=0 flags=0x10 b_float=3.69102e-42
+0587 MOVE               a=2 b=19 c=0 flags=0x00
+0588 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0589 MOVE               a=0 b=2645 c=0 flags=0x10 b_float=3.70643e-42
+0590 MOVE               a=1 b=2663 c=0 flags=0x10 b_float=3.73166e-42
+0591 MOVE               a=2 b=19 c=0 flags=0x00
+0592 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0593 JUMP               a=18 b=0 c=0 flags=0x00
+0594 GE                 a=16 b=1073741824 c=0 flags=0x10 b_float=2
+0595 JUMP_IF_NONZERO    a=0 b=10 c=0 flags=0x00
+0596 MOVE               a=0 b=2674 c=0 flags=0x10 b_float=3.74707e-42
+0597 MOVE               a=1 b=2692 c=0 flags=0x10 b_float=3.7723e-42
+0598 MOVE               a=2 b=19 c=0 flags=0x00
+0599 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0600 MOVE               a=0 b=2703 c=0 flags=0x10 b_float=3.78771e-42
+0601 MOVE               a=1 b=2721 c=0 flags=0x10 b_float=3.81293e-42
+0602 MOVE               a=2 b=19 c=0 flags=0x00
+0603 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0604 JUMP               a=7 b=0 c=0 flags=0x00
+0605 GE                 a=16 b=1065353216 c=0 flags=0x10 b_float=1
+0606 JUMP_IF_NONZERO    a=0 b=5 c=0 flags=0x00
+0607 MOVE               a=0 b=2732 c=0 flags=0x10 b_float=3.82835e-42
+0608 MOVE               a=1 b=2750 c=0 flags=0x10 b_float=3.85357e-42
+0609 MOVE               a=2 b=19 c=0 flags=0x00
+0610 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0611 MOVE               a=17 b=0 c=0 flags=0x10 b_float=0
+0612 YIELD              a=0 b=0 c=0 flags=0x00
+0613 ADD                a=17 b=-1 c=17 flags=0x00
+0614 BIT_AND_INT        a=-2 b=1065353216 c=0 flags=0x10 b_float=1
+0615 NOT_INT            a=0 b=0 c=0 flags=0x00
+0616 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+0617 RETURN             a=0 b=0 c=0 flags=0x00
+0618 LT                 a=17 b=1048576000 c=0 flags=0x10 b_float=0.25
+0619 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+0620 RETURN             a=0 b=0 c=0 flags=0x00
+0621 MOVE               a=0 b=2761 c=0 flags=0x10 b_float=3.86899e-42
+0622 CALL               a=-2 b=0 c=0 flags=0x00 external=StartSound
+0623 GE                 a=16 b=1084227584 c=0 flags=0x10 b_float=5
+0624 JUMP_IF_NONZERO    a=0 b=22 c=0 flags=0x00
+0625 MOVE               a=0 b=2783 c=0 flags=0x10 b_float=3.89981e-42
+0626 MOVE               a=1 b=2800 c=0 flags=0x10 b_float=3.92364e-42
+0627 MOVE               a=2 b=19 c=0 flags=0x00
+0628 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0629 MOVE               a=0 b=2811 c=0 flags=0x10 b_float=3.93905e-42
+0630 MOVE               a=1 b=2829 c=0 flags=0x10 b_float=3.96427e-42
+0631 MOVE               a=2 b=19 c=0 flags=0x00
+0632 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0633 MOVE               a=0 b=2840 c=0 flags=0x10 b_float=3.97969e-42
+0634 MOVE               a=1 b=2858 c=0 flags=0x10 b_float=4.00491e-42
+0635 MOVE               a=2 b=19 c=0 flags=0x00
+0636 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0637 MOVE               a=0 b=2869 c=0 flags=0x10 b_float=4.02033e-42
+0638 MOVE               a=1 b=2886 c=0 flags=0x10 b_float=4.04415e-42
+0639 MOVE               a=2 b=19 c=0 flags=0x00
+0640 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0641 MOVE               a=0 b=2897 c=0 flags=0x10 b_float=4.05956e-42
+0642 MOVE               a=1 b=2914 c=0 flags=0x10 b_float=4.08338e-42
+0643 MOVE               a=2 b=19 c=0 flags=0x00
+0644 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0645 JUMP               a=56 b=0 c=0 flags=0x00
+0646 GE                 a=16 b=1082130432 c=0 flags=0x10 b_float=4
+0647 JUMP_IF_NONZERO    a=0 b=22 c=0 flags=0x00
+0648 MOVE               a=0 b=2925 c=0 flags=0x10 b_float=4.0988e-42
+0649 MOVE               a=1 b=2942 c=0 flags=0x10 b_float=4.12262e-42
+0650 MOVE               a=2 b=19 c=0 flags=0x00
+0651 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0652 MOVE               a=0 b=2953 c=0 flags=0x10 b_float=4.13803e-42
+0653 MOVE               a=1 b=2970 c=0 flags=0x10 b_float=4.16186e-42
+0654 MOVE               a=2 b=19 c=0 flags=0x00
+0655 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0656 MOVE               a=0 b=2981 c=0 flags=0x10 b_float=4.17727e-42
+0657 MOVE               a=1 b=2998 c=0 flags=0x10 b_float=4.20109e-42
+0658 MOVE               a=2 b=19 c=0 flags=0x00
+0659 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0660 MOVE               a=0 b=3009 c=0 flags=0x10 b_float=4.21651e-42
+0661 MOVE               a=1 b=3026 c=0 flags=0x10 b_float=4.24033e-42
+0662 MOVE               a=2 b=19 c=0 flags=0x00
+0663 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0664 MOVE               a=0 b=3037 c=0 flags=0x10 b_float=4.25574e-42
+0665 MOVE               a=1 b=3054 c=0 flags=0x10 b_float=4.27957e-42
+0666 MOVE               a=2 b=19 c=0 flags=0x00
+0667 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0668 JUMP               a=33 b=0 c=0 flags=0x00
+0669 GE                 a=16 b=1077936128 c=0 flags=0x10 b_float=3
+0670 JUMP_IF_NONZERO    a=0 b=14 c=0 flags=0x00
+0671 MOVE               a=0 b=3065 c=0 flags=0x10 b_float=4.29498e-42
+0672 MOVE               a=1 b=3082 c=0 flags=0x10 b_float=4.3188e-42
+0673 MOVE               a=2 b=19 c=0 flags=0x00
+0674 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0675 MOVE               a=0 b=3093 c=0 flags=0x10 b_float=4.33422e-42
+0676 MOVE               a=1 b=3110 c=0 flags=0x10 b_float=4.35804e-42
+0677 MOVE               a=2 b=19 c=0 flags=0x00
+0678 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0679 MOVE               a=0 b=3121 c=0 flags=0x10 b_float=4.37345e-42
+0680 MOVE               a=1 b=3138 c=0 flags=0x10 b_float=4.39727e-42
+0681 MOVE               a=2 b=19 c=0 flags=0x00
+0682 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0683 JUMP               a=18 b=0 c=0 flags=0x00
+0684 GE                 a=16 b=1073741824 c=0 flags=0x10 b_float=2
+0685 JUMP_IF_NONZERO    a=0 b=10 c=0 flags=0x00
+0686 MOVE               a=0 b=3149 c=0 flags=0x10 b_float=4.41269e-42
+0687 MOVE               a=1 b=3166 c=0 flags=0x10 b_float=4.43651e-42
+0688 MOVE               a=2 b=19 c=0 flags=0x00
+0689 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0690 MOVE               a=0 b=3177 c=0 flags=0x10 b_float=4.45193e-42
+0691 MOVE               a=1 b=3194 c=0 flags=0x10 b_float=4.47575e-42
+0692 MOVE               a=2 b=19 c=0 flags=0x00
+0693 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0694 JUMP               a=7 b=0 c=0 flags=0x00
+0695 GE                 a=16 b=1065353216 c=0 flags=0x10 b_float=1
+0696 JUMP_IF_NONZERO    a=0 b=5 c=0 flags=0x00
+0697 MOVE               a=0 b=3205 c=0 flags=0x10 b_float=4.49116e-42
+0698 MOVE               a=1 b=3222 c=0 flags=0x10 b_float=4.51498e-42
+0699 MOVE               a=2 b=19 c=0 flags=0x00
+0700 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0701 MOVE               a=17 b=0 c=0 flags=0x10 b_float=0
+0702 YIELD              a=0 b=0 c=0 flags=0x00
+0703 ADD                a=17 b=-1 c=17 flags=0x00
+0704 BIT_AND_INT        a=-2 b=1065353216 c=0 flags=0x10 b_float=1
+0705 NOT_INT            a=0 b=0 c=0 flags=0x00
+0706 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+0707 RETURN             a=0 b=0 c=0 flags=0x00
+0708 LT                 a=17 b=1056964608 c=0 flags=0x10 b_float=0.5
+0709 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+0710 RETURN             a=0 b=0 c=0 flags=0x00
+0711 MOVE               a=0 b=3233 c=0 flags=0x10 b_float=4.5304e-42
+0712 CALL               a=-2 b=0 c=0 flags=0x00 external=StartSound
+0713 GE                 a=16 b=1084227584 c=0 flags=0x10 b_float=5
+0714 JUMP_IF_NONZERO    a=0 b=6 c=0 flags=0x00
+0715 MOVE               a=0 b=3253 c=0 flags=0x10 b_float=4.55842e-42
+0716 MOVE               a=1 b=3269 c=0 flags=0x10 b_float=4.58084e-42
+0717 MOVE               a=2 b=19 c=0 flags=0x00
+0718 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0719 JUMP               a=28 b=0 c=0 flags=0x00
+0720 GE                 a=16 b=1082130432 c=0 flags=0x10 b_float=4
+0721 JUMP_IF_NONZERO    a=0 b=6 c=0 flags=0x00
+0722 MOVE               a=0 b=3280 c=0 flags=0x10 b_float=4.59626e-42
+0723 MOVE               a=1 b=3296 c=0 flags=0x10 b_float=4.61868e-42
+0724 MOVE               a=2 b=19 c=0 flags=0x00
+0725 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0726 JUMP               a=21 b=0 c=0 flags=0x00
+0727 GE                 a=16 b=1077936128 c=0 flags=0x10 b_float=3
+0728 JUMP_IF_NONZERO    a=0 b=6 c=0 flags=0x00
+0729 MOVE               a=0 b=3307 c=0 flags=0x10 b_float=4.63409e-42
+0730 MOVE               a=1 b=3323 c=0 flags=0x10 b_float=4.65651e-42
+0731 MOVE               a=2 b=19 c=0 flags=0x00
+0732 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0733 JUMP               a=14 b=0 c=0 flags=0x00
+0734 GE                 a=16 b=1073741824 c=0 flags=0x10 b_float=2
+0735 JUMP_IF_NONZERO    a=0 b=6 c=0 flags=0x00
+0736 MOVE               a=0 b=3334 c=0 flags=0x10 b_float=4.67193e-42
+0737 MOVE               a=1 b=3350 c=0 flags=0x10 b_float=4.69435e-42
+0738 MOVE               a=2 b=19 c=0 flags=0x00
+0739 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0740 JUMP               a=7 b=0 c=0 flags=0x00
+0741 GE                 a=16 b=1065353216 c=0 flags=0x10 b_float=1
+0742 JUMP_IF_NONZERO    a=0 b=5 c=0 flags=0x00
+0743 MOVE               a=0 b=3361 c=0 flags=0x10 b_float=4.70976e-42
+0744 MOVE               a=1 b=3376 c=0 flags=0x10 b_float=4.73078e-42
+0745 MOVE               a=2 b=19 c=0 flags=0x00
+0746 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0747 MOVE               a=17 b=0 c=0 flags=0x10 b_float=0
+0748 YIELD              a=0 b=0 c=0 flags=0x00
+0749 ADD                a=17 b=-1 c=17 flags=0x00
+0750 BIT_AND_INT        a=-2 b=1065353216 c=0 flags=0x10 b_float=1
+0751 NOT_INT            a=0 b=0 c=0 flags=0x00
+0752 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+0753 RETURN             a=0 b=0 c=0 flags=0x00
+0754 LT                 a=17 b=1036831949 c=0 flags=0x10 b_float=0.1
+0755 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+0756 RETURN             a=0 b=0 c=0 flags=0x00
+0757 MOVE               a=0 b=3387 c=0 flags=0x10 b_float=4.7462e-42
+0758 CALL               a=-2 b=0 c=0 flags=0x00 external=StartSound
+0759 GE                 a=16 b=1082130432 c=0 flags=0x10 b_float=4
+0760 JUMP_IF_NONZERO    a=0 b=22 c=0 flags=0x00
+0761 MOVE               a=0 b=3406 c=0 flags=0x10 b_float=4.77282e-42
+0762 MOVE               a=1 b=3420 c=0 flags=0x10 b_float=4.79244e-42
+0763 MOVE               a=2 b=19 c=0 flags=0x00
+0764 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0765 MOVE               a=0 b=3431 c=0 flags=0x10 b_float=4.80786e-42
+0766 MOVE               a=1 b=3445 c=0 flags=0x10 b_float=4.82747e-42
+0767 MOVE               a=2 b=31 c=0 flags=0x00
+0768 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0769 MOVE               a=0 b=3456 c=0 flags=0x10 b_float=4.84289e-42
+0770 MOVE               a=1 b=3470 c=0 flags=0x10 b_float=4.86251e-42
+0771 MOVE               a=2 b=35 c=0 flags=0x00
+0772 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0773 MOVE               a=0 b=3481 c=0 flags=0x10 b_float=4.87792e-42
+0774 MOVE               a=1 b=3495 c=0 flags=0x10 b_float=4.89754e-42
+0775 MOVE               a=2 b=23 c=0 flags=0x00
+0776 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0777 MOVE               a=0 b=3506 c=0 flags=0x10 b_float=4.91295e-42
+0778 MOVE               a=1 b=3520 c=0 flags=0x10 b_float=4.93257e-42
+0779 MOVE               a=2 b=27 c=0 flags=0x00
+0780 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0781 JUMP               a=33 b=0 c=0 flags=0x00
+0782 GE                 a=16 b=1077936128 c=0 flags=0x10 b_float=3
+0783 JUMP_IF_NONZERO    a=0 b=14 c=0 flags=0x00
+0784 MOVE               a=0 b=3531 c=0 flags=0x10 b_float=4.94798e-42
+0785 MOVE               a=1 b=3545 c=0 flags=0x10 b_float=4.9676e-42
+0786 MOVE               a=2 b=19 c=0 flags=0x00
+0787 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0788 MOVE               a=0 b=3556 c=0 flags=0x10 b_float=4.98302e-42
+0789 MOVE               a=1 b=3570 c=0 flags=0x10 b_float=5.00264e-42
+0790 MOVE               a=2 b=31 c=0 flags=0x00
+0791 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0792 MOVE               a=0 b=3581 c=0 flags=0x10 b_float=5.01805e-42
+0793 MOVE               a=1 b=3595 c=0 flags=0x10 b_float=5.03767e-42
+0794 MOVE               a=2 b=35 c=0 flags=0x00
+0795 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0796 JUMP               a=18 b=0 c=0 flags=0x00
+0797 GE                 a=16 b=1073741824 c=0 flags=0x10 b_float=2
+0798 JUMP_IF_NONZERO    a=0 b=10 c=0 flags=0x00
+0799 MOVE               a=0 b=3606 c=0 flags=0x10 b_float=5.05308e-42
+0800 MOVE               a=1 b=3620 c=0 flags=0x10 b_float=5.0727e-42
+0801 MOVE               a=2 b=19 c=0 flags=0x00
+0802 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0803 MOVE               a=0 b=3631 c=0 flags=0x10 b_float=5.08811e-42
+0804 MOVE               a=1 b=3645 c=0 flags=0x10 b_float=5.10773e-42
+0805 MOVE               a=2 b=19 c=0 flags=0x00
+0806 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0807 JUMP               a=7 b=0 c=0 flags=0x00
+0808 GE                 a=16 b=1065353216 c=0 flags=0x10 b_float=1
+0809 JUMP_IF_NONZERO    a=0 b=5 c=0 flags=0x00
+0810 MOVE               a=0 b=3656 c=0 flags=0x10 b_float=5.12315e-42
+0811 MOVE               a=1 b=3670 c=0 flags=0x10 b_float=5.14277e-42
+0812 MOVE               a=2 b=19 c=0 flags=0x00
+0813 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0814 MOVE               a=17 b=0 c=0 flags=0x10 b_float=0
+0815 YIELD              a=0 b=0 c=0 flags=0x00
+0816 BIT_AND_INT        a=-2 b=1065353216 c=0 flags=0x10 b_float=1
+0817 NOT_INT            a=0 b=0 c=0 flags=0x00
+0818 JUMP_IF_NONZERO    a=0 b=9 c=0 flags=0x00
+0819 MOVE               a=0 b=3681 c=0 flags=0x10 b_float=5.15818e-42
+0820 CALL               a=-4 b=0 c=0 flags=0x00 external=AttachDeactivate
+0821 MOVE               a=0 b=3694 c=0 flags=0x10 b_float=5.1764e-42
+0822 CALL               a=-4 b=0 c=0 flags=0x00 external=AttachDeactivate
+0823 MOVE               a=0 b=3708 c=0 flags=0x10 b_float=5.19601e-42
+0824 CALL               a=-4 b=0 c=0 flags=0x00 external=AttachDeactivate
+0825 MOVE               a=59 b=0 c=0 flags=0x10 b_float=0
+0826 RETURN             a=0 b=0 c=0 flags=0x00
+0827 GE                 a=16 b=1077936128 c=0 flags=0x10 b_float=3
+0828 JUMP_IF_NONZERO    a=0 b=4 c=0 flags=0x00
+0829 MOVE               a=0 b=3722 c=0 flags=0x10 b_float=5.21563e-42
+0830 CALL               a=-5 b=0 c=0 flags=0x00 external=AttachActivate
+0831 JUMP               a=10 b=0 c=0 flags=0x00
+0832 GE                 a=16 b=1073741824 c=0 flags=0x10 b_float=2
+0833 JUMP_IF_NONZERO    a=0 b=4 c=0 flags=0x00
+0834 MOVE               a=0 b=3736 c=0 flags=0x10 b_float=5.23525e-42
+0835 CALL               a=-5 b=0 c=0 flags=0x00 external=AttachActivate
+0836 JUMP               a=5 b=0 c=0 flags=0x00
+0837 GE                 a=16 b=1065353216 c=0 flags=0x10 b_float=1
+0838 JUMP_IF_NONZERO    a=0 b=3 c=0 flags=0x00
+0839 MOVE               a=0 b=3750 c=0 flags=0x10 b_float=5.25487e-42
+0840 CALL               a=-5 b=0 c=0 flags=0x00 external=AttachActivate
+0841 MOVE               a=59 b=1065353216 c=0 flags=0x10 b_float=1
+0842 YIELD              a=0 b=0 c=0 flags=0x00
+0843 ADD                a=55 b=-1 c=55 flags=0x00
+0844 BIT_AND_INT        a=-2 b=1073741824 c=0 flags=0x10 b_float=2
+0845 NOT_INT            a=0 b=0 c=0 flags=0x00
+0846 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+0847 RETURN             a=0 b=0 c=0 flags=0x00
+0848 LT                 a=55 b=1053609165 c=0 flags=0x10 b_float=0.4
+0849 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+0850 RETURN             a=0 b=0 c=0 flags=0x00
+0851 CALL               a=-6 b=0 c=0 flags=0x00 external=G_UseMissile
+0852 NOT_INT            a=0 b=0 c=0 flags=0x00
+0853 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+0854 RETURN             a=0 b=0 c=0 flags=0x00
+0855 MOVE               a=55 b=0 c=0 flags=0x10 b_float=0
+0856 MOVE               a=0 b=3763 c=0 flags=0x10 b_float=5.27309e-42
+0857 CALL               a=-2 b=0 c=0 flags=0x00 external=StartSound
+0858 JUMP_IF_NONZERO    a=57 b=6 c=0 flags=0x00
+0859 MOVE               a=0 b=3782 c=0 flags=0x10 b_float=5.29971e-42
+0860 MOVE               a=1 b=3797 c=0 flags=0x10 b_float=5.32073e-42
+0861 MOVE               a=2 b=19 c=0 flags=0x00
+0862 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0863 JUMP               a=5 b=0 c=0 flags=0x00
+0864 MOVE               a=0 b=3809 c=0 flags=0x10 b_float=5.33755e-42
+0865 MOVE               a=1 b=3824 c=0 flags=0x10 b_float=5.35857e-42
+0866 MOVE               a=2 b=19 c=0 flags=0x00
+0867 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0868 NOT_INT            a=57 b=0 c=1 flags=0x00
+0869 MOVE               a=57 b=1 c=0 flags=0x00
+0870 YIELD              a=0 b=0 c=0 flags=0x00
+0871 ADD                a=55 b=-1 c=55 flags=0x00
+0872 BIT_AND_INT        a=-2 b=1073741824 c=0 flags=0x10 b_float=2
+0873 NOT_INT            a=0 b=0 c=0 flags=0x00
+0874 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+0875 RETURN             a=0 b=0 c=0 flags=0x00
+0876 LT                 a=55 b=1050253722 c=0 flags=0x10 b_float=0.3
+0877 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+0878 RETURN             a=0 b=0 c=0 flags=0x00
+0879 CALL               a=-6 b=0 c=0 flags=0x00 external=G_UseMissile
+0880 NOT_INT            a=0 b=0 c=0 flags=0x00
+0881 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+0882 RETURN             a=0 b=0 c=0 flags=0x00
+0883 MOVE               a=55 b=0 c=0 flags=0x10 b_float=0
+0884 MOVE               a=0 b=3836 c=0 flags=0x10 b_float=5.37538e-42
+0885 CALL               a=-2 b=0 c=0 flags=0x00 external=StartSound
+0886 JUMP_IF_NONZERO    a=57 b=6 c=0 flags=0x00
+0887 MOVE               a=0 b=3855 c=0 flags=0x10 b_float=5.40201e-42
+0888 MOVE               a=1 b=3870 c=0 flags=0x10 b_float=5.42303e-42
+0889 MOVE               a=2 b=19 c=0 flags=0x00
+0890 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0891 JUMP               a=5 b=0 c=0 flags=0x00
+0892 MOVE               a=0 b=3882 c=0 flags=0x10 b_float=5.43984e-42
+0893 MOVE               a=1 b=3897 c=0 flags=0x10 b_float=5.46086e-42
+0894 MOVE               a=2 b=19 c=0 flags=0x00
+0895 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0896 NOT_INT            a=57 b=0 c=1 flags=0x00
+0897 MOVE               a=57 b=1 c=0 flags=0x00
+0898 YIELD              a=0 b=0 c=0 flags=0x00
+0899 ADD                a=55 b=-1 c=55 flags=0x00
+0900 BIT_AND_INT        a=-2 b=1073741824 c=0 flags=0x10 b_float=2
+0901 NOT_INT            a=0 b=0 c=0 flags=0x00
+0902 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+0903 RETURN             a=0 b=0 c=0 flags=0x00
+0904 LT                 a=55 b=1056964608 c=0 flags=0x10 b_float=0.5
+0905 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+0906 RETURN             a=0 b=0 c=0 flags=0x00
+0907 CALL               a=-6 b=0 c=0 flags=0x00 external=G_UseMissile
+0908 NOT_INT            a=0 b=0 c=0 flags=0x00
+0909 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+0910 RETURN             a=0 b=0 c=0 flags=0x00
+0911 MOVE               a=55 b=0 c=0 flags=0x10 b_float=0
+0912 MOVE               a=0 b=3909 c=0 flags=0x10 b_float=5.47768e-42
+0913 CALL               a=-2 b=0 c=0 flags=0x00 external=StartSound
+0914 JUMP_IF_NONZERO    a=57 b=6 c=0 flags=0x00
+0915 MOVE               a=0 b=3928 c=0 flags=0x10 b_float=5.5043e-42
+0916 MOVE               a=1 b=3947 c=0 flags=0x10 b_float=5.53093e-42
+0917 MOVE               a=2 b=19 c=0 flags=0x00
+0918 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0919 JUMP               a=5 b=0 c=0 flags=0x00
+0920 MOVE               a=0 b=3959 c=0 flags=0x10 b_float=5.54774e-42
+0921 MOVE               a=1 b=3978 c=0 flags=0x10 b_float=5.57437e-42
+0922 MOVE               a=2 b=19 c=0 flags=0x00
+0923 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0924 NOT_INT            a=57 b=0 c=1 flags=0x00
+0925 MOVE               a=57 b=1 c=0 flags=0x00
+0926 YIELD              a=0 b=0 c=0 flags=0x00
+0927 ADD                a=55 b=-1 c=55 flags=0x00
+0928 BIT_AND_INT        a=-2 b=1073741824 c=0 flags=0x10 b_float=2
+0929 NOT_INT            a=0 b=0 c=0 flags=0x00
+0930 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+0931 RETURN             a=0 b=0 c=0 flags=0x00
+0932 LT                 a=55 b=1058642330 c=0 flags=0x10 b_float=0.6
+0933 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+0934 RETURN             a=0 b=0 c=0 flags=0x00
+0935 CALL               a=-6 b=0 c=0 flags=0x00 external=G_UseMissile
+0936 NOT_INT            a=0 b=0 c=0 flags=0x00
+0937 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+0938 RETURN             a=0 b=0 c=0 flags=0x00
+0939 MOVE               a=55 b=0 c=0 flags=0x10 b_float=0
+0940 MOVE               a=0 b=3990 c=0 flags=0x10 b_float=5.59118e-42
+0941 CALL               a=-2 b=0 c=0 flags=0x00 external=StartSound
+0942 JUMP_IF_NONZERO    a=57 b=6 c=0 flags=0x00
+0943 MOVE               a=0 b=4009 c=0 flags=0x10 b_float=5.61781e-42
+0944 MOVE               a=1 b=4028 c=0 flags=0x10 b_float=5.64443e-42
+0945 MOVE               a=2 b=19 c=0 flags=0x00
+0946 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0947 JUMP               a=5 b=0 c=0 flags=0x00
+0948 MOVE               a=0 b=4040 c=0 flags=0x10 b_float=5.66125e-42
+0949 MOVE               a=1 b=4059 c=0 flags=0x10 b_float=5.68787e-42
+0950 MOVE               a=2 b=19 c=0 flags=0x00
+0951 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0952 NOT_INT            a=57 b=0 c=1 flags=0x00
+0953 MOVE               a=57 b=1 c=0 flags=0x00
+0954 YIELD              a=0 b=0 c=0 flags=0x00
+0955 ADD                a=55 b=-1 c=55 flags=0x00
+0956 BIT_AND_INT        a=-2 b=1073741824 c=0 flags=0x10 b_float=2
+0957 NOT_INT            a=0 b=0 c=0 flags=0x00
+0958 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+0959 RETURN             a=0 b=0 c=0 flags=0x00
+0960 LT                 a=55 b=1053609165 c=0 flags=0x10 b_float=0.4
+0961 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+0962 RETURN             a=0 b=0 c=0 flags=0x00
+0963 CALL               a=-6 b=0 c=0 flags=0x00 external=G_UseMissile
+0964 NOT_INT            a=0 b=0 c=0 flags=0x00
+0965 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+0966 RETURN             a=0 b=0 c=0 flags=0x00
+0967 MOVE               a=55 b=0 c=0 flags=0x10 b_float=0
+0968 MOVE               a=0 b=4071 c=0 flags=0x10 b_float=5.70469e-42
+0969 CALL               a=-2 b=0 c=0 flags=0x00 external=StartSound
+0970 MOVE               a=0 b=4090 c=0 flags=0x10 b_float=5.73131e-42
+0971 MOVE               a=1 b=4105 c=0 flags=0x10 b_float=5.75233e-42
+0972 MOVE               a=2 b=19 c=0 flags=0x00
+0973 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0974 MOVE               a=0 b=4117 c=0 flags=0x10 b_float=5.76915e-42
+0975 MOVE               a=1 b=4132 c=0 flags=0x10 b_float=5.79017e-42
+0976 MOVE               a=2 b=19 c=0 flags=0x00
+0977 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0978 YIELD              a=0 b=0 c=0 flags=0x00
+0979 ADD                a=56 b=-1 c=56 flags=0x00
+0980 BIT_AND_INT        a=-2 b=1082130432 c=0 flags=0x10 b_float=4
+0981 NOT_INT            a=0 b=0 c=0 flags=0x00
+0982 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+0983 RETURN             a=0 b=0 c=0 flags=0x00
+0984 LT                 a=56 b=1056964608 c=0 flags=0x10 b_float=0.5
+0985 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+0986 RETURN             a=0 b=0 c=0 flags=0x00
+0987 CALL               a=-7 b=0 c=0 flags=0x00 external=G_UsePowerUp
+0988 NOT_INT            a=0 b=0 c=0 flags=0x00
+0989 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+0990 RETURN             a=0 b=0 c=0 flags=0x00
+0991 MOVE               a=0 b=4144 c=0 flags=0x10 b_float=5.80698e-42
+0992 CALL               a=-2 b=0 c=0 flags=0x00 external=StartSound
+0993 MOVE               a=0 b=4164 c=0 flags=0x10 b_float=5.83501e-42
+0994 MOVE               a=1 b=4182 c=0 flags=0x10 b_float=5.86023e-42
+0995 MOVE               a=2 b=19 c=0 flags=0x00
+0996 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0997 MOVE               a=56 b=0 c=0 flags=0x10 b_float=0
+0998 YIELD              a=0 b=0 c=0 flags=0x00
+0999 ADD                a=56 b=-1 c=56 flags=0x00
+1000 BIT_AND_INT        a=-2 b=1082130432 c=0 flags=0x10 b_float=4
+1001 NOT_INT            a=0 b=0 c=0 flags=0x00
+1002 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+1003 RETURN             a=0 b=0 c=0 flags=0x00
+1004 LT                 a=56 b=1056964608 c=0 flags=0x10 b_float=0.5
+1005 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+1006 RETURN             a=0 b=0 c=0 flags=0x00
+1007 CALL               a=-7 b=0 c=0 flags=0x00 external=G_UsePowerUp
+1008 NOT_INT            a=0 b=0 c=0 flags=0x00
+1009 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+1010 RETURN             a=0 b=0 c=0 flags=0x00
+1011 MOVE               a=0 b=4193 c=0 flags=0x10 b_float=5.87564e-42
+1012 CALL               a=-2 b=0 c=0 flags=0x00 external=StartSound
+1013 MOVE               a=0 b=4209 c=0 flags=0x10 b_float=5.89807e-42
+1014 MOVE               a=1 b=4223 c=0 flags=0x10 b_float=5.91768e-42
+1015 MOVE               a=2 b=19 c=0 flags=0x00
+1016 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+1017 MOVE               a=56 b=0 c=0 flags=0x10 b_float=0
+1018 YIELD              a=0 b=0 c=0 flags=0x00
+1019 ADD                a=56 b=-1 c=56 flags=0x00
+1020 BIT_AND_INT        a=-2 b=1082130432 c=0 flags=0x10 b_float=4
+1021 NOT_INT            a=0 b=0 c=0 flags=0x00
+1022 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+1023 RETURN             a=0 b=0 c=0 flags=0x00
+1024 LT                 a=56 b=1041865114 c=0 flags=0x10 b_float=0.15
+1025 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+1026 RETURN             a=0 b=0 c=0 flags=0x00
+1027 CALL               a=-7 b=0 c=0 flags=0x00 external=G_UsePowerUp
+1028 NOT_INT            a=0 b=0 c=0 flags=0x00
+1029 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+1030 RETURN             a=0 b=0 c=0 flags=0x00
+1031 MOVE               a=0 b=4234 c=0 flags=0x10 b_float=5.9331e-42
+1032 CALL               a=-2 b=0 c=0 flags=0x00 external=StartSound
+1033 MOVE               a=0 b=4251 c=0 flags=0x10 b_float=5.95692e-42
+1034 MOVE               a=1 b=4271 c=0 flags=0x10 b_float=5.98495e-42
+1035 MOVE               a=2 b=19 c=0 flags=0x00
+1036 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+1037 MOVE               a=0 b=4282 c=0 flags=0x10 b_float=6.00036e-42
+1038 MOVE               a=1 b=4302 c=0 flags=0x10 b_float=6.02839e-42
+1039 MOVE               a=2 b=19 c=0 flags=0x00
+1040 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+1041 MOVE               a=0 b=4313 c=0 flags=0x10 b_float=6.0438e-42
+1042 MOVE               a=1 b=4333 c=0 flags=0x10 b_float=6.07183e-42
+1043 MOVE               a=2 b=19 c=0 flags=0x00
+1044 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+1045 MOVE               a=0 b=4344 c=0 flags=0x10 b_float=6.08724e-42
+1046 MOVE               a=1 b=4364 c=0 flags=0x10 b_float=6.11527e-42
+1047 MOVE               a=2 b=19 c=0 flags=0x00
+1048 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+1049 MOVE               a=0 b=4375 c=0 flags=0x10 b_float=6.13068e-42
+1050 MOVE               a=1 b=4395 c=0 flags=0x10 b_float=6.15871e-42
+1051 MOVE               a=2 b=19 c=0 flags=0x00
+1052 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+1053 MOVE               a=56 b=0 c=0 flags=0x10 b_float=0
+1054 YIELD              a=0 b=0 c=0 flags=0x00
+1055 ADD                a=56 b=-1 c=56 flags=0x00
+1056 BIT_AND_INT        a=-2 b=1082130432 c=0 flags=0x10 b_float=4
+1057 NOT_INT            a=0 b=0 c=0 flags=0x00
+1058 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+1059 RETURN             a=0 b=0 c=0 flags=0x00
+1060 LT                 a=56 b=1050253722 c=0 flags=0x10 b_float=0.3
+1061 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+1062 RETURN             a=0 b=0 c=0 flags=0x00
+1063 CALL               a=-7 b=0 c=0 flags=0x00 external=G_UsePowerUp
+1064 NOT_INT            a=0 b=0 c=0 flags=0x00
+1065 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+1066 RETURN             a=0 b=0 c=0 flags=0x00
+1067 MOVE               a=0 b=4406 c=0 flags=0x10 b_float=6.17412e-42
+1068 CALL               a=-2 b=0 c=0 flags=0x00 external=StartSound
+1069 MOVE               a=0 b=4425 c=0 flags=0x10 b_float=6.20075e-42
+1070 MOVE               a=1 b=4444 c=0 flags=0x10 b_float=6.22737e-42
+1071 MOVE               a=2 b=19 c=0 flags=0x00
+1072 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+1073 MOVE               a=0 b=4455 c=0 flags=0x10 b_float=6.24278e-42
+1074 MOVE               a=1 b=4474 c=0 flags=0x10 b_float=6.26941e-42
+1075 MOVE               a=2 b=19 c=0 flags=0x00
+1076 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+1077 MOVE               a=0 b=4485 c=0 flags=0x10 b_float=6.28482e-42
+1078 MOVE               a=1 b=4504 c=0 flags=0x10 b_float=6.31145e-42
+1079 MOVE               a=2 b=19 c=0 flags=0x00
+1080 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+1081 MOVE               a=0 b=4515 c=0 flags=0x10 b_float=6.32686e-42
+1082 MOVE               a=1 b=4534 c=0 flags=0x10 b_float=6.35349e-42
+1083 MOVE               a=2 b=19 c=0 flags=0x00
+1084 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+1085 MOVE               a=0 b=4545 c=0 flags=0x10 b_float=6.3689e-42
+1086 MOVE               a=1 b=4564 c=0 flags=0x10 b_float=6.39553e-42
+1087 MOVE               a=2 b=19 c=0 flags=0x00
+1088 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+1089 MOVE               a=56 b=0 c=0 flags=0x10 b_float=0
+1090 YIELD              a=0 b=0 c=0 flags=0x00
+1091 ADD                a=56 b=-1 c=56 flags=0x00
+1092 BIT_AND_INT        a=-2 b=1082130432 c=0 flags=0x10 b_float=4
+1093 NOT_INT            a=0 b=0 c=0 flags=0x00
+1094 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+1095 RETURN             a=0 b=0 c=0 flags=0x00
+1096 LT                 a=56 b=1065353216 c=0 flags=0x10 b_float=1
+1097 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+1098 RETURN             a=0 b=0 c=0 flags=0x00
+1099 CALL               a=-7 b=0 c=0 flags=0x00 external=G_UsePowerUp
+1100 NOT_INT            a=0 b=0 c=0 flags=0x00
+1101 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+1102 RETURN             a=0 b=0 c=0 flags=0x00
+1103 MOVE               a=0 b=4575 c=0 flags=0x10 b_float=6.41094e-42
+1104 CALL               a=-2 b=0 c=0 flags=0x00 external=StartSound
+1105 MOVE               a=0 b=4602 c=0 flags=0x10 b_float=6.44878e-42
+1106 INDEX_ADDRESS      a=-3 b=5 c=1 flags=0x00
+1107 CALL               a=-8 b=0 c=0 flags=0x00 external=create
+1108 MOVE               a=56 b=0 c=0 flags=0x10 b_float=0
+1109 YIELD              a=0 b=0 c=0 flags=0x00
+1110 ADD                a=56 b=-1 c=56 flags=0x00
+1111 BIT_AND_INT        a=-2 b=1082130432 c=0 flags=0x10 b_float=4
+1112 NOT_INT            a=0 b=0 c=0 flags=0x00
+1113 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+1114 RETURN             a=0 b=0 c=0 flags=0x00
+1115 LT                 a=56 b=1056964608 c=0 flags=0x10 b_float=0.5
+1116 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+1117 RETURN             a=0 b=0 c=0 flags=0x00
+1118 CALL               a=-7 b=0 c=0 flags=0x00 external=G_UsePowerUp
+1119 NOT_INT            a=0 b=0 c=0 flags=0x00
+1120 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+1121 RETURN             a=0 b=0 c=0 flags=0x00
+1122 MOVE               a=0 b=4625 c=0 flags=0x10 b_float=6.48101e-42
+1123 CALL               a=-2 b=0 c=0 flags=0x00 external=StartSound
+1124 MOVE               a=0 b=4641 c=0 flags=0x10 b_float=6.50343e-42
+1125 MOVE               a=1 b=4661 c=0 flags=0x10 b_float=6.53145e-42
+1126 MOVE               a=2 b=19 c=0 flags=0x00
+1127 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+1128 MOVE               a=56 b=0 c=0 flags=0x10 b_float=0
+1129 YIELD              a=0 b=0 c=0 flags=0x00
+1130 ADD                a=56 b=-1 c=56 flags=0x00
+1131 BIT_AND_INT        a=-2 b=1082130432 c=0 flags=0x10 b_float=4
+1132 NOT_INT            a=0 b=0 c=0 flags=0x00
+1133 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+1134 RETURN             a=0 b=0 c=0 flags=0x00
+1135 LT                 a=56 b=1056964608 c=0 flags=0x10 b_float=0.5
+1136 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+1137 RETURN             a=0 b=0 c=0 flags=0x00
+1138 CALL               a=-7 b=0 c=0 flags=0x00 external=G_UsePowerUp
+1139 NOT_INT            a=0 b=0 c=0 flags=0x00
+1140 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+1141 RETURN             a=0 b=0 c=0 flags=0x00
+1142 MOVE               a=0 b=4672 c=0 flags=0x10 b_float=6.54687e-42
+1143 CALL               a=-2 b=0 c=0 flags=0x00 external=StartSound
+1144 MOVE               a=0 b=4690 c=0 flags=0x10 b_float=6.57209e-42
+1145 INDEX_ADDRESS      a=-3 b=5 c=1 flags=0x00
+1146 CALL               a=-8 b=0 c=0 flags=0x00 external=create
+1147 MOVE               a=56 b=0 c=0 flags=0x10 b_float=0
+1148 YIELD              a=0 b=0 c=0 flags=0x00
+1149 PUSH               a=0 b=0 c=0 flags=0x00
+1150 MOVE               a=0 b=-4 c=0 flags=0x00
+1151 CALL               a=-9 b=1 c=0 flags=0x00 external=G_GetUpgrade
+1152 POP                a=0 b=0 c=0 flags=0x00
+1153 MOVE               a=16 b=1 c=0 flags=0x00
+1154 EQ_INT             a=-4 b=0 c=0 flags=0x10 b_float=0
+1155 JUMP_IF_NONZERO    a=0 b=3 c=0 flags=0x00
+1156 CALL               a=0 b=0 c=0 flags=0x00
+1157 JUMP               a=32 b=0 c=0 flags=0x00
+1158 EQ_INT             a=-4 b=1065353216 c=0 flags=0x10 b_float=1
+1159 JUMP_IF_NONZERO    a=0 b=3 c=0 flags=0x00
+1160 CALL               a=78 b=0 c=0 flags=0x00
+1161 JUMP               a=28 b=0 c=0 flags=0x00
+1162 EQ_INT             a=-4 b=1077936128 c=0 flags=0x10 b_float=3
+1163 JUMP_IF_NONZERO    a=0 b=3 c=0 flags=0x00
+1164 CALL               a=187 b=0 c=0 flags=0x00
+1165 JUMP               a=24 b=0 c=0 flags=0x00
+1166 EQ_INT             a=-4 b=1073741824 c=0 flags=0x10 b_float=2
+1167 JUMP_IF_NONZERO    a=0 b=3 c=0 flags=0x00
+1168 CALL               a=370 b=0 c=0 flags=0x00
+1169 JUMP               a=20 b=0 c=0 flags=0x00
+1170 EQ_INT             a=-4 b=1082130432 c=0 flags=0x10 b_float=4
+1171 JUMP_IF_NONZERO    a=0 b=3 c=0 flags=0x00
+1172 CALL               a=703 b=0 c=0 flags=0x00
+1173 JUMP               a=16 b=0 c=0 flags=0x00
+1174 EQ_INT             a=-4 b=1086324736 c=0 flags=0x10 b_float=6
+1175 JUMP_IF_NONZERO    a=0 b=3 c=0 flags=0x00
+1176 CALL               a=749 b=0 c=0 flags=0x00
+1177 JUMP               a=12 b=0 c=0 flags=0x00
+1178 EQ_INT             a=-4 b=1090519040 c=0 flags=0x10 b_float=8
+1179 JUMP_IF_NONZERO    a=0 b=3 c=0 flags=0x00
+1180 CALL               a=816 b=0 c=0 flags=0x00
+1181 JUMP               a=8 b=0 c=0 flags=0x00
+1182 EQ_INT             a=-4 b=1088421888 c=0 flags=0x10 b_float=7
+1183 JUMP_IF_NONZERO    a=0 b=3 c=0 flags=0x00
+1184 CALL               a=613 b=0 c=0 flags=0x00
+1185 JUMP               a=4 b=0 c=0 flags=0x00
+1186 EQ_INT             a=-4 b=1084227584 c=0 flags=0x10 b_float=5
+1187 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+1188 CALL               a=535 b=0 c=0 flags=0x00
+1189 PUSH               a=0 b=0 c=0 flags=0x00
+1190 CALL               a=-10 b=1 c=0 flags=0x00 external=G_GetMissiles
+1191 POP                a=0 b=0 c=0 flags=0x00
+1192 MOVE               a=80 b=1 c=0 flags=0x00
+1193 EQ_INT             a=80 b=0 c=0 flags=0x10 b_float=0
+1194 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+1195 CALL               a=871 b=0 c=0 flags=0x00
+1196 EQ_INT             a=80 b=1073741824 c=0 flags=0x10 b_float=2
+1197 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+1198 CALL               a=843 b=0 c=0 flags=0x00
+1199 EQ_INT             a=80 b=1065353216 c=0 flags=0x10 b_float=1
+1200 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+1201 CALL               a=899 b=0 c=0 flags=0x00
+1202 EQ_INT             a=80 b=1077936128 c=0 flags=0x10 b_float=3
+1203 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+1204 CALL               a=927 b=0 c=0 flags=0x00
+1205 EQ_INT             a=80 b=1082130432 c=0 flags=0x10 b_float=4
+1206 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+1207 CALL               a=955 b=0 c=0 flags=0x00
+1208 PUSH               a=0 b=0 c=0 flags=0x00
+1209 CALL               a=-11 b=1 c=0 flags=0x00 external=G_GetPowerUp
+1210 POP                a=0 b=0 c=0 flags=0x00
+1211 MOVE               a=80 b=1 c=0 flags=0x00
+1212 EQ_INT             a=80 b=0 c=0 flags=0x10 b_float=0
+1213 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+1214 CALL               a=979 b=0 c=0 flags=0x00
+1215 EQ_INT             a=80 b=1065353216 c=0 flags=0x10 b_float=1
+1216 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+1217 CALL               a=999 b=0 c=0 flags=0x00
+1218 EQ_INT             a=80 b=1073741824 c=0 flags=0x10 b_float=2
+1219 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+1220 CALL               a=1055 b=0 c=0 flags=0x00
+1221 EQ_INT             a=80 b=1077936128 c=0 flags=0x10 b_float=3
+1222 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+1223 CALL               a=1110 b=0 c=0 flags=0x00
+1224 EQ_INT             a=80 b=1082130432 c=0 flags=0x10 b_float=4
+1225 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+1226 CALL               a=1019 b=0 c=0 flags=0x00
+1227 EQ_INT             a=80 b=1084227584 c=0 flags=0x10 b_float=5
+1228 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+1229 CALL               a=1091 b=0 c=0 flags=0x00
+1230 EQ_INT             a=80 b=1090519040 c=0 flags=0x10 b_float=8
+1231 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+1232 CALL               a=1130 b=0 c=0 flags=0x00
+1233 YIELD              a=0 b=0 c=0 flags=0x00
+1234 INDEX_ADDRESS      a=-5 b=34 c=0 flags=0x00
+1235 LT                 a=0 b=1120403456 c=0 flags=0x12 b_float=100
+1236 JUMP_IF_NONZERO    a=0 b=12 c=0 flags=0x00
+1237 EQ_INT             a=58 b=1073741824 c=0 flags=0x10 b_float=2
+1238 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+1239 RETURN             a=0 b=0 c=0 flags=0x00
+1240 MOVE               a=58 b=1073741824 c=0 flags=0x10 b_float=2
+1241 MOVE               a=0 b=4704 c=0 flags=0x10 b_float=6.59171e-42
+1242 CALL               a=-4 b=0 c=0 flags=0x00 external=AttachDeactivate
+1243 MOVE               a=0 b=4724 c=0 flags=0x10 b_float=6.61973e-42
+1244 CALL               a=-5 b=0 c=0 flags=0x00 external=AttachActivate
+1245 MOVE               a=0 b=4745 c=0 flags=0x10 b_float=6.64916e-42
+1246 CALL               a=-12 b=0 c=0 flags=0x00 external=SetModel
+1247 RETURN             a=0 b=0 c=0 flags=0x00
+1248 INDEX_ADDRESS      a=-5 b=34 c=0 flags=0x00
+1249 LT                 a=0 b=1128792064 c=0 flags=0x12 b_float=200
+1250 JUMP_IF_NONZERO    a=0 b=12 c=0 flags=0x00
+1251 EQ_INT             a=58 b=1065353216 c=0 flags=0x10 b_float=1
+1252 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+1253 RETURN             a=0 b=0 c=0 flags=0x00
+1254 MOVE               a=58 b=1065353216 c=0 flags=0x10 b_float=1
+1255 MOVE               a=0 b=4787 c=0 flags=0x10 b_float=6.70802e-42
+1256 CALL               a=-5 b=0 c=0 flags=0x00 external=AttachActivate
+1257 MOVE               a=0 b=4807 c=0 flags=0x10 b_float=6.73604e-42
+1258 CALL               a=-4 b=0 c=0 flags=0x00 external=AttachDeactivate
+1259 MOVE               a=0 b=4828 c=0 flags=0x10 b_float=6.76547e-42
+1260 CALL               a=-12 b=0 c=0 flags=0x00 external=SetModel
+1261 RETURN             a=0 b=0 c=0 flags=0x00
+1262 EQ_INT             a=58 b=0 c=0 flags=0x10 b_float=0
+1263 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+1264 RETURN             a=0 b=0 c=0 flags=0x00
+1265 MOVE               a=58 b=0 c=0 flags=0x10 b_float=0
+1266 MOVE               a=0 b=4870 c=0 flags=0x10 b_float=6.82432e-42
+1267 CALL               a=-4 b=0 c=0 flags=0x00 external=AttachDeactivate
+1268 MOVE               a=0 b=4890 c=0 flags=0x10 b_float=6.85235e-42
+1269 CALL               a=-4 b=0 c=0 flags=0x00 external=AttachDeactivate
+1270 MOVE               a=0 b=4911 c=0 flags=0x10 b_float=6.88178e-42
+1271 CALL               a=-12 b=0 c=0 flags=0x00 external=SetModel
+1272 YIELD              a=0 b=0 c=0 flags=0x00
+1273 EQ_INT             a=-6 b=1073741824 c=0 flags=0x10 b_float=2
+1274 JUMP_IF_NONZERO    a=0 b=12 c=0 flags=0x00
+1275 MOVE               a=-4 b=-7 c=0 flags=0x00
+1276 NE_INT             a=-4 b=1090519040 c=0 flags=0x10 b_float=8
+1277 JUMP_IF_NONZERO    a=0 b=8 c=0 flags=0x00
+1278 MOVE               a=0 b=4945 c=0 flags=0x10 b_float=6.92942e-42
+1279 CALL               a=-4 b=0 c=0 flags=0x00 external=AttachDeactivate
+1280 MOVE               a=0 b=4958 c=0 flags=0x10 b_float=6.94764e-42
+1281 CALL               a=-4 b=0 c=0 flags=0x00 external=AttachDeactivate
+1282 MOVE               a=0 b=4972 c=0 flags=0x10 b_float=6.96726e-42
+1283 CALL               a=-4 b=0 c=0 flags=0x00 external=AttachDeactivate
+1284 MOVE               a=59 b=0 c=0 flags=0x10 b_float=0
+1285 RETURN             a=0 b=0 c=0 flags=0x00
+1286 EQ_INT             a=-6 b=1082130432 c=0 flags=0x10 b_float=4
+1287 JUMP_IF_NONZERO    a=0 b=5 c=0 flags=0x00
+1288 MOVE               a=0 b=4986 c=0 flags=0x10 b_float=6.98687e-42
+1289 INDEX_ADDRESS      a=-5 b=5 c=1 flags=0x00
+1290 CALL               a=-8 b=0 c=0 flags=0x00 external=create
+1291 RETURN             a=0 b=0 c=0 flags=0x00
+1292 EQ_INT             a=-6 b=1084227584 c=0 flags=0x10 b_float=5
+1293 JUMP_IF_NONZERO    a=0 b=5 c=0 flags=0x00
+1294 MOVE               a=0 b=5001 c=0 flags=0x10 b_float=7.00789e-42
+1295 INDEX_ADDRESS      a=-5 b=5 c=1 flags=0x00
+1296 CALL               a=-8 b=0 c=0 flags=0x00 external=create
+1297 RETURN             a=0 b=0 c=0 flags=0x00
+1298 YIELD              a=0 b=0 c=0 flags=0x00
+1299 MOVE               a=81 b=1065353216 c=0 flags=0x10 b_float=1
+1300 MOVE               a=0 b=5014 c=0 flags=0x10 b_float=7.02611e-42
+1301 CALL               a=-4 b=0 c=0 flags=0x00 external=AttachDeactivate
+1302 MOVE               a=0 b=5027 c=0 flags=0x10 b_float=7.04433e-42
+1303 CALL               a=-4 b=0 c=0 flags=0x00 external=AttachDeactivate
+1304 MOVE               a=0 b=5041 c=0 flags=0x10 b_float=7.06395e-42
+1305 CALL               a=-4 b=0 c=0 flags=0x00 external=AttachDeactivate
+1306 MOVE               a=59 b=0 c=0 flags=0x10 b_float=0
+1307 MOVE               a=-8 b=1065353216 c=0 flags=0x10 b_float=1
+1308 MOVE               a=0 b=5055 c=0 flags=0x10 b_float=7.08356e-42
+1309 INDEX_ADDRESS      a=-5 b=5 c=1 flags=0x00
+1310 CALL               a=-8 b=0 c=0 flags=0x00 external=create
+1311 INDEX_ADDRESS      a=-3 b=5 c=0 flags=0x00
+1312 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+1313 MOVE               a=0 b=1142947840 c=0 flags=0x92 b_float=640
+1314 INDEX_ADDRESS      a=-3 b=5 c=0 flags=0x00
+1315 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+1316 SUB                a=-9 b=1112014848 c=1 flags=0x10 b_float=50
+1317 MOVE               a=0 b=1 c=0 flags=0x82
+1318 INDEX_ADDRESS      a=-3 b=5 c=0 flags=0x00
+1319 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+1320 MOVE               a=0 b=1120403456 c=0 flags=0x92 b_float=100
+1321 MOVE               a=-10 b=0 c=0 flags=0x10 b_float=0
+1322 MOVE               a=-11 b=0 c=0 flags=0x10 b_float=0
+1323 MOVE               a=0 b=5071 c=0 flags=0x10 b_float=7.10598e-42
+1324 CALL               a=-4 b=0 c=0 flags=0x00 external=AttachDeactivate
+1325 MOVE               a=0 b=5091 c=0 flags=0x10 b_float=7.13401e-42
+1326 CALL               a=-4 b=0 c=0 flags=0x00 external=AttachDeactivate
+1327 INDEX_ADDRESS      a=19 b=0 c=0 flags=0x00
+1328 MOVE               a=0 b=0 c=0 flags=0x92 b_float=0
+1329 INDEX_ADDRESS      a=19 b=1 c=0 flags=0x00
+1330 MOVE               a=0 b=1065353216 c=0 flags=0x92 b_float=1
+1331 INDEX_ADDRESS      a=19 b=2 c=0 flags=0x00
+1332 MOVE               a=0 b=0 c=0 flags=0x92 b_float=0
+1333 INDEX_ADDRESS      a=23 b=0 c=0 flags=0x00
+1334 MOVE               a=0 b=-1082130432 c=0 flags=0x92 b_float=-1
+1335 INDEX_ADDRESS      a=23 b=1 c=0 flags=0x00
+1336 MOVE               a=0 b=0 c=0 flags=0x92 b_float=0
+1337 INDEX_ADDRESS      a=23 b=2 c=0 flags=0x00
+1338 MOVE               a=0 b=0 c=0 flags=0x92 b_float=0
+1339 INDEX_ADDRESS      a=27 b=0 c=0 flags=0x00
+1340 MOVE               a=0 b=1065353216 c=0 flags=0x92 b_float=1
+1341 INDEX_ADDRESS      a=27 b=1 c=0 flags=0x00
+1342 MOVE               a=0 b=0 c=0 flags=0x92 b_float=0
+1343 INDEX_ADDRESS      a=27 b=2 c=0 flags=0x00
+1344 MOVE               a=0 b=0 c=0 flags=0x92 b_float=0
+1345 INDEX_ADDRESS      a=31 b=0 c=0 flags=0x00
+1346 MOVE               a=0 b=-1105618534 c=0 flags=0x92 b_float=-0.15
+1347 INDEX_ADDRESS      a=31 b=1 c=0 flags=0x00
+1348 MOVE               a=0 b=1065353216 c=0 flags=0x92 b_float=1
+1349 INDEX_ADDRESS      a=31 b=2 c=0 flags=0x00
+1350 MOVE               a=0 b=0 c=0 flags=0x92 b_float=0
+1351 INDEX_ADDRESS      a=35 b=0 c=0 flags=0x00
+1352 MOVE               a=0 b=1041865114 c=0 flags=0x92 b_float=0.15
+1353 INDEX_ADDRESS      a=35 b=1 c=0 flags=0x00
+1354 MOVE               a=0 b=1065353216 c=0 flags=0x92 b_float=1
+1355 INDEX_ADDRESS      a=35 b=2 c=0 flags=0x00
+1356 MOVE               a=0 b=0 c=0 flags=0x92 b_float=0
+1357 INDEX_ADDRESS      a=39 b=0 c=0 flags=0x00
+1358 MOVE               a=0 b=-1110651699 c=0 flags=0x92 b_float=-0.1
+1359 INDEX_ADDRESS      a=39 b=1 c=0 flags=0x00
+1360 MOVE               a=0 b=1065353216 c=0 flags=0x92 b_float=1
+1361 INDEX_ADDRESS      a=39 b=2 c=0 flags=0x00
+1362 MOVE               a=0 b=0 c=0 flags=0x92 b_float=0
+1363 INDEX_ADDRESS      a=43 b=0 c=0 flags=0x00
+1364 MOVE               a=0 b=1036831949 c=0 flags=0x92 b_float=0.1
+1365 INDEX_ADDRESS      a=43 b=1 c=0 flags=0x00
+1366 MOVE               a=0 b=1065353216 c=0 flags=0x92 b_float=1
+1367 INDEX_ADDRESS      a=43 b=2 c=0 flags=0x00
+1368 MOVE               a=0 b=0 c=0 flags=0x92 b_float=0
+1369 INDEX_ADDRESS      a=47 b=0 c=0 flags=0x00
+1370 MOVE               a=0 b=-1073741824 c=0 flags=0x92 b_float=-2
+1371 INDEX_ADDRESS      a=47 b=1 c=0 flags=0x00
+1372 MOVE               a=0 b=1065353216 c=0 flags=0x92 b_float=1
+1373 INDEX_ADDRESS      a=47 b=2 c=0 flags=0x00
+1374 MOVE               a=0 b=0 c=0 flags=0x92 b_float=0
+1375 INDEX_ADDRESS      a=51 b=0 c=0 flags=0x00
+1376 MOVE               a=0 b=1073741824 c=0 flags=0x92 b_float=2
+1377 INDEX_ADDRESS      a=51 b=1 c=0 flags=0x00
+1378 MOVE               a=0 b=1065353216 c=0 flags=0x92 b_float=1
+1379 INDEX_ADDRESS      a=51 b=2 c=0 flags=0x00
+1380 MOVE               a=0 b=0 c=0 flags=0x92 b_float=0
+1381 YIELD              a=0 b=0 c=0 flags=0x00
+1382 MOVE               a=0 b=83 c=0 flags=0x00
+1383 CALL               a=-13 b=0 c=0 flags=0x00 external=GetPlayerAccel
+1384 INDEX_ADDRESS      a=-3 b=17 c=0 flags=0x00
+1385 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+1386 INDEX_ADDRESS      a=83 b=0 c=1 flags=0x00
+1387 MUL                a=1 b=-1 c=1 flags=0x02
+1388 MUL                a=1 b=1148846080 c=1 flags=0x10 b_float=1000
+1389 ADD                a=0 b=1 c=0 flags=0x82
+1390 INDEX_ADDRESS      a=-3 b=17 c=0 flags=0x00
+1391 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+1392 INDEX_ADDRESS      a=83 b=1 c=1 flags=0x00
+1393 MUL                a=1 b=-1 c=1 flags=0x02
+1394 MUL                a=1 b=1148846080 c=1 flags=0x10 b_float=1000
+1395 ADD                a=0 b=1 c=0 flags=0x82
+1396 INDEX_ADDRESS      a=83 b=1 c=0 flags=0x00
+1397 GT                 a=0 b=0 c=0 flags=0x12 b_float=0
+1398 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+1399 MOVE               a=82 b=0 c=0 flags=0x10 b_float=0
+1400 PUSH               a=0 b=0 c=0 flags=0x00
+1401 INDEX_ADDRESS      a=-3 b=17 c=1 flags=0x00
+1402 MOVE               a=0 b=1 c=0 flags=0x00
+1403 CALL               a=-14 b=1 c=0 flags=0x00 external=vec_length
+1404 POP                a=0 b=0 c=0 flags=0x00
+1405 MOVE               a=87 b=1 c=0 flags=0x00
+1406 JUMP_IF_NONZERO    a=87 b=71 c=0 flags=0x00
+1407 DIV                a=1065353216 b=87 c=1 flags=0x01 a_float=1
+1408 MOVE               a=88 b=1 c=0 flags=0x00
+1409 INDEX_ADDRESS      a=-3 b=17 c=1 flags=0x00
+1410 INDEX_ADDRESS      a=1 b=0 c=1 flags=0x00
+1411 MUL                a=1 b=88 c=1 flags=0x02
+1412 MUL                a=1 b=1134886912 c=1 flags=0x10 b_float=330
+1413 MOVE               a=89 b=1 c=0 flags=0x00
+1414 INDEX_ADDRESS      a=-3 b=17 c=1 flags=0x00
+1415 INDEX_ADDRESS      a=1 b=1 c=1 flags=0x00
+1416 MUL                a=1 b=88 c=1 flags=0x02
+1417 MUL                a=1 b=1134886912 c=1 flags=0x10 b_float=330
+1418 MOVE               a=90 b=1 c=0 flags=0x00
+1419 INDEX_ADDRESS      a=-3 b=17 c=0 flags=0x00
+1420 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+1421 GT                 a=0 b=0 c=0 flags=0x12 b_float=0
+1422 JUMP_IF_NONZERO    a=0 b=14 c=0 flags=0x00
+1423 INDEX_ADDRESS      a=-3 b=17 c=0 flags=0x00
+1424 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+1425 PUSH               a=0 b=0 c=0 flags=0x80
+1426 MOVE               a=0 b=0 c=0 flags=0x10 b_float=0
+1427 INDEX_ADDRESS      a=-3 b=17 c=2 flags=0x00
+1428 INDEX_ADDRESS      a=2 b=0 c=2 flags=0x00
+1429 MUL                a=-1 b=89 c=3 flags=0x00
+1430 SUB                a=2 b=3 c=2 flags=0x02
+1431 MOVE               a=1 b=2 c=0 flags=0x00
+1432 CALL               a=-15 b=1 c=0 flags=0x00 external=max
+1433 POP                a=0 b=0 c=0 flags=0x80
+1434 MOVE               a=0 b=1 c=0 flags=0x82
+1435 JUMP               a=13 b=0 c=0 flags=0x00
+1436 INDEX_ADDRESS      a=-3 b=17 c=0 flags=0x00
+1437 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+1438 PUSH               a=0 b=0 c=0 flags=0x80
+1439 MOVE               a=0 b=0 c=0 flags=0x10 b_float=0
+1440 INDEX_ADDRESS      a=-3 b=17 c=2 flags=0x00
+1441 INDEX_ADDRESS      a=2 b=0 c=2 flags=0x00
+1442 MUL                a=-1 b=89 c=3 flags=0x00
+1443 SUB                a=2 b=3 c=2 flags=0x02
+1444 MOVE               a=1 b=2 c=0 flags=0x00
+1445 CALL               a=-16 b=1 c=0 flags=0x00 external=min
+1446 POP                a=0 b=0 c=0 flags=0x80
+1447 MOVE               a=0 b=1 c=0 flags=0x82
+1448 INDEX_ADDRESS      a=-3 b=17 c=0 flags=0x00
+1449 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+1450 GT                 a=0 b=0 c=0 flags=0x12 b_float=0
+1451 JUMP_IF_NONZERO    a=0 b=14 c=0 flags=0x00
+1452 INDEX_ADDRESS      a=-3 b=17 c=0 flags=0x00
+1453 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+1454 PUSH               a=0 b=0 c=0 flags=0x80
+1455 MOVE               a=0 b=0 c=0 flags=0x10 b_float=0
+1456 INDEX_ADDRESS      a=-3 b=17 c=2 flags=0x00
+1457 INDEX_ADDRESS      a=2 b=1 c=2 flags=0x00
+1458 MUL                a=-1 b=90 c=3 flags=0x00
+1459 SUB                a=2 b=3 c=2 flags=0x02
+1460 MOVE               a=1 b=2 c=0 flags=0x00
+1461 CALL               a=-15 b=1 c=0 flags=0x00 external=max
+1462 POP                a=0 b=0 c=0 flags=0x80
+1463 MOVE               a=0 b=1 c=0 flags=0x82
+1464 JUMP               a=13 b=0 c=0 flags=0x00
+1465 INDEX_ADDRESS      a=-3 b=17 c=0 flags=0x00
+1466 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+1467 PUSH               a=0 b=0 c=0 flags=0x80
+1468 MOVE               a=0 b=0 c=0 flags=0x10 b_float=0
+1469 INDEX_ADDRESS      a=-3 b=17 c=2 flags=0x00
+1470 INDEX_ADDRESS      a=2 b=1 c=2 flags=0x00
+1471 MUL                a=-1 b=90 c=3 flags=0x00
+1472 SUB                a=2 b=3 c=2 flags=0x02
+1473 MOVE               a=1 b=2 c=0 flags=0x00
+1474 CALL               a=-16 b=1 c=0 flags=0x00 external=min
+1475 POP                a=0 b=0 c=0 flags=0x80
+1476 MOVE               a=0 b=1 c=0 flags=0x82
+1477 INDEX_ADDRESS      a=-3 b=17 c=0 flags=0x00
+1478 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+1479 GT                 a=0 b=1125515264 c=0 flags=0x12 b_float=150
+1480 JUMP_IF_NONZERO    a=0 b=4 c=0 flags=0x00
+1481 INDEX_ADDRESS      a=-3 b=17 c=0 flags=0x00
+1482 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+1483 MOVE               a=0 b=1125515264 c=0 flags=0x92 b_float=150
+1484 INDEX_ADDRESS      a=-3 b=17 c=0 flags=0x00
+1485 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+1486 NEG                a=1125515264 b=0 c=1 flags=0x01 a_float=150
+1487 LT                 a=0 b=1 c=0 flags=0x02
+1488 JUMP_IF_NONZERO    a=0 b=5 c=0 flags=0x00
+1489 INDEX_ADDRESS      a=-3 b=17 c=0 flags=0x00
+1490 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+1491 NEG                a=1125515264 b=0 c=1 flags=0x01 a_float=150
+1492 MOVE               a=0 b=1 c=0 flags=0x82
+1493 INDEX_ADDRESS      a=-3 b=17 c=0 flags=0x00
+1494 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+1495 GT                 a=0 b=1125515264 c=0 flags=0x12 b_float=150
+1496 JUMP_IF_NONZERO    a=0 b=4 c=0 flags=0x00
+1497 INDEX_ADDRESS      a=-3 b=17 c=0 flags=0x00
+1498 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+1499 MOVE               a=0 b=1125515264 c=0 flags=0x92 b_float=150
+1500 INDEX_ADDRESS      a=-3 b=17 c=0 flags=0x00
+1501 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+1502 NEG                a=1125515264 b=0 c=1 flags=0x01 a_float=150
+1503 LT                 a=0 b=1 c=0 flags=0x02
+1504 JUMP_IF_NONZERO    a=0 b=5 c=0 flags=0x00
+1505 INDEX_ADDRESS      a=-3 b=17 c=0 flags=0x00
+1506 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+1507 NEG                a=1125515264 b=0 c=1 flags=0x01 a_float=150
+1508 MOVE               a=0 b=1 c=0 flags=0x82
+1509 INDEX_ADDRESS      a=-3 b=5 c=0 flags=0x00
+1510 MUL                a=-1 b=-8 c=1 flags=0x00
+1511 INDEX_ADDRESS      a=-3 b=23 c=2 flags=0x00
+1512 MUL                a=1 b=2 c=1 flags=0x20
+1513 INDEX_ADDRESS      a=-3 b=17 c=2 flags=0x00
+1514 INDEX_ADDRESS      a=-3 b=5 c=3 flags=0x00
+1515 CALL               a=-17 b=0 c=0 flags=0x00 external=vec_ma
+1516 INDEX_ADDRESS      a=-12 b=6 c=0 flags=0x00
+1517 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+1518 MOVE               a=0 b=0 c=0 flags=0x20
+1519 CALL               a=-18 b=0 c=0 flags=0x00 external=movey
+1520 INDEX_ADDRESS      a=-3 b=5 c=0 flags=0x00
+1521 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+1522 ADD                a=-9 b=1134559232 c=1 flags=0x10 b_float=320
+1523 GT                 a=0 b=1 c=0 flags=0x02
+1524 JUMP_IF_NONZERO    a=0 b=5 c=0 flags=0x00
+1525 INDEX_ADDRESS      a=-3 b=5 c=0 flags=0x00
+1526 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+1527 ADD                a=-9 b=1134559232 c=1 flags=0x10 b_float=320
+1528 MOVE               a=0 b=1 c=0 flags=0x82
+1529 INDEX_ADDRESS      a=-3 b=5 c=0 flags=0x00
+1530 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+1531 ADD                a=-9 b=1108082688 c=1 flags=0x10 b_float=35
+1532 LT                 a=0 b=1 c=0 flags=0x02
+1533 JUMP_IF_NONZERO    a=0 b=6 c=0 flags=0x00
+1534 INDEX_ADDRESS      a=-3 b=5 c=0 flags=0x00
+1535 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+1536 ADD                a=-9 b=1108082688 c=1 flags=0x10 b_float=35
+1537 MOVE               a=0 b=1 c=0 flags=0x82
+1538 MOVE               a=82 b=1065353216 c=0 flags=0x10 b_float=1
+1539 INDEX_ADDRESS      a=-3 b=14 c=0 flags=0x00
+1540 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+1541 INDEX_ADDRESS      a=-3 b=17 c=2 flags=0x00
+1542 INDEX_ADDRESS      a=2 b=1 c=2 flags=0x00
+1543 DIV                a=2 b=1125515264 c=2 flags=0x12 b_float=150
+1544 MUL                a=1106247680 b=2 c=1 flags=0x01 a_float=30
+1545 MOVE               a=0 b=1 c=0 flags=0x82
+1546 INDEX_ADDRESS      a=-3 b=14 c=0 flags=0x00
+1547 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+1548 INDEX_ADDRESS      a=-3 b=17 c=2 flags=0x00
+1549 INDEX_ADDRESS      a=2 b=0 c=2 flags=0x00
+1550 DIV                a=2 b=1125515264 c=2 flags=0x12 b_float=150
+1551 MUL                a=-1043857408 b=2 c=1 flags=0x01 a_float=-25
+1552 MOVE               a=0 b=1 c=0 flags=0x82
+1553 YIELD              a=0 b=0 c=0 flags=0x00
+1554 MOVE               a=-2 b=0 c=0 flags=0x10 b_float=0
+1555 MOVE               a=82 b=0 c=0 flags=0x10 b_float=0
+1556 INDEX_ADDRESS      a=-3 b=17 c=0 flags=0x00
+1557 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+1558 MOVE               a=0 b=1123024896 c=0 flags=0x92 b_float=120
+1559 CALL               a=1382 b=0 c=0 flags=0x00
+1560 INDEX_ADDRESS      a=-3 b=5 c=0 flags=0x00
+1561 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+1562 ADD                a=-9 b=1114636288 c=1 flags=0x10 b_float=60
+1563 GE                 a=0 b=1 c=0 flags=0x02
+1564 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+1565 RETURN             a=0 b=0 c=0 flags=0x00
+1566 YIELD              a=0 b=0 c=0 flags=0x00
+1567 INDEX_ADDRESS      a=-3 b=5 c=0 flags=0x00
+1568 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+1569 SUB                a=0 b=1084227584 c=0 flags=0x12 b_float=5
+1570 PUSH               a=0 b=0 c=0 flags=0x00
+1571 INDEX_ADDRESS      a=-3 b=5 c=1 flags=0x00
+1572 INDEX_ADDRESS      a=1 b=0 c=1 flags=0x00
+1573 MOVE               a=0 b=1 c=0 flags=0x20
+1574 INDEX_ADDRESS      a=-3 b=5 c=2 flags=0x00
+1575 INDEX_ADDRESS      a=2 b=1 c=2 flags=0x00
+1576 MOVE               a=1 b=2 c=0 flags=0x20
+1577 CALL               a=-19 b=1 c=0 flags=0x00 external=TerrainHeight
+1578 POP                a=0 b=0 c=0 flags=0x00
+1579 LE                 a=0 b=1 c=0 flags=0x00
+1580 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+1581 RETURN             a=0 b=0 c=0 flags=0x00
+1582 INDEX_ADDRESS      a=-3 b=17 c=0 flags=0x00
+1583 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+1584 MUL                a=1109393408 b=-1 c=1 flags=0x01 a_float=40
+1585 SUB                a=0 b=1 c=0 flags=0x82
+1586 MOVE               a=0 b=91 c=0 flags=0x00
+1587 CALL               a=-20 b=0 c=0 flags=0x00 external=rotatez
+1588 BIT_AND_INT        a=-2 b=1098907648 c=0 flags=0x10 b_float=16
+1589 JUMP_IF_NONZERO    a=0 b=7 c=0 flags=0x00
+1590 INDEX_ADDRESS      a=-3 b=17 c=0 flags=0x00
+1591 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+1592 MUL                a=1036831949 b=-1 c=1 flags=0x01 a_float=0.1
+1593 MUL                a=1 b=1148846080 c=1 flags=0x10 b_float=1000
+1594 ADD                a=0 b=1 c=0 flags=0x82
+1595 MOVE               a=82 b=0 c=0 flags=0x10 b_float=0
+1596 BIT_AND_INT        a=-2 b=1107296256 c=0 flags=0x10 b_float=32
+1597 NOT_INT            a=82 b=0 c=1 flags=0x00
+1598 BOOL_AND_INT       a=0 b=1 c=0 flags=0x00
+1599 JUMP_IF_NONZERO    a=0 b=6 c=0 flags=0x00
+1600 INDEX_ADDRESS      a=-3 b=17 c=0 flags=0x00
+1601 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+1602 MUL                a=1036831949 b=-1 c=1 flags=0x01 a_float=0.1
+1603 MUL                a=1 b=1148846080 c=1 flags=0x10 b_float=1000
+1604 SUB                a=0 b=1 c=0 flags=0x82
+1605 BIT_AND_INT        a=-2 b=1124073472 c=0 flags=0x10 b_float=128
+1606 JUMP_IF_NONZERO    a=0 b=6 c=0 flags=0x00
+1607 INDEX_ADDRESS      a=-3 b=17 c=0 flags=0x00
+1608 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+1609 MUL                a=1036831949 b=-1 c=1 flags=0x01 a_float=0.1
+1610 MUL                a=1 b=1148846080 c=1 flags=0x10 b_float=1000
+1611 ADD                a=0 b=1 c=0 flags=0x82
+1612 BIT_AND_INT        a=-2 b=1115684864 c=0 flags=0x10 b_float=64
+1613 JUMP_IF_NONZERO    a=0 b=6 c=0 flags=0x00
+1614 INDEX_ADDRESS      a=-3 b=17 c=0 flags=0x00
+1615 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+1616 MUL                a=1036831949 b=-1 c=1 flags=0x01 a_float=0.1
+1617 MUL                a=1 b=1148846080 c=1 flags=0x10 b_float=1000
+1618 SUB                a=0 b=1 c=0 flags=0x82
+1619 INDEX_ADDRESS      a=-3 b=17 c=0 flags=0x00
+1620 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+1621 GT                 a=0 b=1120403456 c=0 flags=0x12 b_float=100
+1622 JUMP_IF_NONZERO    a=0 b=4 c=0 flags=0x00
+1623 INDEX_ADDRESS      a=-3 b=17 c=0 flags=0x00
+1624 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+1625 MOVE               a=0 b=1120403456 c=0 flags=0x92 b_float=100
+1626 INDEX_ADDRESS      a=-3 b=17 c=0 flags=0x00
+1627 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+1628 NEG                a=1120403456 b=0 c=1 flags=0x01 a_float=100
+1629 LT                 a=0 b=1 c=0 flags=0x02
+1630 JUMP_IF_NONZERO    a=0 b=5 c=0 flags=0x00
+1631 INDEX_ADDRESS      a=-3 b=17 c=0 flags=0x00
+1632 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+1633 NEG                a=1120403456 b=0 c=1 flags=0x01 a_float=100
+1634 MOVE               a=0 b=1 c=0 flags=0x82
+1635 INDEX_ADDRESS      a=-3 b=17 c=0 flags=0x00
+1636 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+1637 GT                 a=0 b=1120403456 c=0 flags=0x12 b_float=100
+1638 JUMP_IF_NONZERO    a=0 b=4 c=0 flags=0x00
+1639 INDEX_ADDRESS      a=-3 b=17 c=0 flags=0x00
+1640 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+1641 MOVE               a=0 b=1120403456 c=0 flags=0x92 b_float=100
+1642 INDEX_ADDRESS      a=-3 b=17 c=0 flags=0x00
+1643 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+1644 NEG                a=1120403456 b=0 c=1 flags=0x01 a_float=100
+1645 LT                 a=0 b=1 c=0 flags=0x02
+1646 JUMP_IF_NONZERO    a=0 b=5 c=0 flags=0x00
+1647 INDEX_ADDRESS      a=-3 b=17 c=0 flags=0x00
+1648 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+1649 NEG                a=1120403456 b=0 c=1 flags=0x01 a_float=100
+1650 MOVE               a=0 b=1 c=0 flags=0x82
+1651 INDEX_ADDRESS      a=-3 b=5 c=0 flags=0x00
+1652 MUL                a=-1 b=-8 c=1 flags=0x00
+1653 INDEX_ADDRESS      a=-3 b=17 c=2 flags=0x00
+1654 INDEX_ADDRESS      a=-3 b=5 c=3 flags=0x00
+1655 CALL               a=-17 b=0 c=0 flags=0x00 external=vec_ma
+1656 INDEX_ADDRESS      a=-12 b=6 c=0 flags=0x00
+1657 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+1658 MOVE               a=0 b=0 c=0 flags=0x20
+1659 CALL               a=-18 b=0 c=0 flags=0x00 external=movey
+1660 INDEX_ADDRESS      a=-3 b=5 c=0 flags=0x00
+1661 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+1662 ADD                a=-9 b=1134559232 c=1 flags=0x10 b_float=320
+1663 GT                 a=0 b=1 c=0 flags=0x02
+1664 JUMP_IF_NONZERO    a=0 b=5 c=0 flags=0x00
+1665 INDEX_ADDRESS      a=-3 b=5 c=0 flags=0x00
+1666 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+1667 ADD                a=-9 b=1134559232 c=1 flags=0x10 b_float=320
+1668 MOVE               a=0 b=1 c=0 flags=0x82
+1669 INDEX_ADDRESS      a=-3 b=5 c=0 flags=0x00
+1670 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+1671 ADD                a=-9 b=1108082688 c=1 flags=0x10 b_float=35
+1672 LT                 a=0 b=1 c=0 flags=0x02
+1673 JUMP_IF_NONZERO    a=0 b=6 c=0 flags=0x00
+1674 INDEX_ADDRESS      a=-3 b=5 c=0 flags=0x00
+1675 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+1676 ADD                a=-9 b=1108082688 c=1 flags=0x10 b_float=35
+1677 MOVE               a=0 b=1 c=0 flags=0x82
+1678 MOVE               a=82 b=1065353216 c=0 flags=0x10 b_float=1
+1679 YIELD              a=0 b=0 c=0 flags=0x00
+1680 NE_INT             a=-4 b=1090519040 c=0 flags=0x10 b_float=8
+1681 JUMP_IF_NONZERO    a=0 b=9 c=0 flags=0x00
+1682 JUMP_IF_NONZERO    a=59 b=8 c=0 flags=0x00
+1683 MOVE               a=0 b=5112 c=0 flags=0x10 b_float=7.16344e-42
+1684 CALL               a=-4 b=0 c=0 flags=0x00 external=AttachDeactivate
+1685 MOVE               a=0 b=5125 c=0 flags=0x10 b_float=7.18165e-42
+1686 CALL               a=-4 b=0 c=0 flags=0x00 external=AttachDeactivate
+1687 MOVE               a=0 b=5139 c=0 flags=0x10 b_float=7.20127e-42
+1688 CALL               a=-4 b=0 c=0 flags=0x00 external=AttachDeactivate
+1689 MOVE               a=59 b=0 c=0 flags=0x10 b_float=0
+1690 BIT_AND_INT        a=-2 b=1132462080 c=0 flags=0x10 b_float=256
+1691 GT                 a=-4 b=1065353216 c=1 flags=0x10 b_float=1
+1692 BOOL_AND_INT       a=0 b=1 c=0 flags=0x00
+1693 JUMP_IF_NONZERO    a=0 b=7 c=0 flags=0x00
+1694 BIT_AND_INT        a=-2 b=1082130432 c=0 flags=0x10 b_float=4
+1695 JUMP_IF_NONZERO    a=0 b=3 c=0 flags=0x00
+1696 SUB                a=16 b=1065353216 c=16 flags=0x10 b_float=1
+1697 JUMP               a=2 b=0 c=0 flags=0x00
+1698 SUB                a=-4 b=1065353216 c=-4 flags=0x10 b_float=1
+1699 SUB                a=-2 b=1132462080 c=-2 flags=0x10 b_float=256
+1700 BIT_AND_INT        a=-2 b=1140850688 c=0 flags=0x10 b_float=512
+1701 LT                 a=-4 b=1101004800 c=1 flags=0x10 b_float=20
+1702 BOOL_AND_INT       a=0 b=1 c=0 flags=0x00
+1703 JUMP_IF_NONZERO    a=0 b=7 c=0 flags=0x00
+1704 BIT_AND_INT        a=-2 b=1082130432 c=0 flags=0x10 b_float=4
+1705 JUMP_IF_NONZERO    a=0 b=3 c=0 flags=0x00
+1706 ADD                a=16 b=1065353216 c=16 flags=0x10 b_float=1
+1707 JUMP               a=2 b=0 c=0 flags=0x00
+1708 ADD                a=-4 b=1065353216 c=-4 flags=0x10 b_float=1
+1709 SUB                a=-2 b=1140850688 c=-2 flags=0x10 b_float=512
+1710 JUMP_IF_NONZERO    a=81 b=3 c=0 flags=0x00
+1711 MOVE               a=81 b=0 c=0 flags=0x10 b_float=0
+1712 CALL_WAIT          a=1554 b=0 c=0 flags=0x00
+1713 BIT_AND_INT        a=-2 b=1065353216 c=1 flags=0x10 b_float=1
+1714 MOVE               a=-11 b=1 c=0 flags=0x00
+1715 CALL               a=1382 b=0 c=0 flags=0x00
+1716 CALL               a=1149 b=0 c=0 flags=0x00
+1717 CALL               a=1234 b=0 c=0 flags=0x00
+1718 INDEX_ADDRESS      a=-3 b=4 c=0 flags=0x00
+1719 JUMP_IF_NONZERO    a=0 b=59 c=0 flags=0x02
+1720 MOVE               a=0 b=5153 c=0 flags=0x10 b_float=7.22089e-42
+1721 CALL               a=-4 b=0 c=0 flags=0x00 external=AttachDeactivate
+1722 MOVE               a=0 b=5166 c=0 flags=0x10 b_float=7.23911e-42
+1723 CALL               a=-4 b=0 c=0 flags=0x00 external=AttachDeactivate
+1724 MOVE               a=0 b=5180 c=0 flags=0x10 b_float=7.25873e-42
+1725 CALL               a=-4 b=0 c=0 flags=0x00 external=AttachDeactivate
+1726 MOVE               a=59 b=0 c=0 flags=0x10 b_float=0
+1727 INDEX_ADDRESS      a=-3 b=17 c=0 flags=0x00
+1728 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+1729 INDEX_ADDRESS      a=-12 b=6 c=1 flags=0x00
+1730 INDEX_ADDRESS      a=1 b=1 c=1 flags=0x00
+1731 ADD                a=0 b=1 c=0 flags=0xa2
+1732 INDEX_ADDRESS      a=-3 b=14 c=0 flags=0x00
+1733 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+1734 MOVE               a=0 b=0 c=0 flags=0x20
+1735 CALL               a=-21 b=0 c=0 flags=0x00 external=abs
+1736 LT                 a=0 b=1077936128 c=0 flags=0x10 b_float=3
+1737 JUMP_IF_NONZERO    a=0 b=4 c=0 flags=0x00
+1738 INDEX_ADDRESS      a=-3 b=14 c=0 flags=0x00
+1739 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+1740 MOVE               a=0 b=1077936128 c=0 flags=0x92 b_float=3
+1741 INDEX_ADDRESS      a=-3 b=17 c=0 flags=0x00
+1742 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+1743 LT                 a=0 b=-1041235968 c=0 flags=0x12 b_float=-30
+1744 JUMP_IF_NONZERO    a=0 b=4 c=0 flags=0x00
+1745 INDEX_ADDRESS      a=-3 b=17 c=0 flags=0x00
+1746 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+1747 MOVE               a=0 b=-1041235968 c=0 flags=0x92 b_float=-30
+1748 INDEX_ADDRESS      a=-3 b=17 c=0 flags=0x00
+1749 CALL               a=-14 b=0 c=0 flags=0x00 external=vec_length
+1750 GT                 a=0 b=1120403456 c=0 flags=0x10 b_float=100
+1751 JUMP_IF_NONZERO    a=0 b=4 c=0 flags=0x00
+1752 INDEX_ADDRESS      a=-3 b=17 c=0 flags=0x00
+1753 MOVE               a=1 b=1120403456 c=0 flags=0x10 b_float=100
+1754 CALL               a=-22 b=0 c=0 flags=0x00 external=vec_setlen
+1755 INDEX_ADDRESS      a=-3 b=14 c=2 flags=0x00
+1756 INDEX_ADDRESS      a=2 b=1 c=2 flags=0x00
+1757 MUL                a=-1028390912 b=2 c=1 flags=0x21 a_float=-90
+1758 DIV                a=1 b=-1043857408 c=1 flags=0x10 b_float=-25
+1759 MOVE               a=91 b=1 c=0 flags=0x00
+1760 CALL_WAIT          a=1567 b=0 c=0 flags=0x00
+1761 MOVE               a=0 b=5194 c=0 flags=0x10 b_float=7.27834e-42
+1762 INDEX_ADDRESS      a=-3 b=5 c=1 flags=0x00
+1763 CALL               a=-8 b=0 c=0 flags=0x00 external=create
+1764 MOVE               a=0 b=5202 c=0 flags=0x10 b_float=7.28955e-42
+1765 INDEX_ADDRESS      a=-3 b=5 c=1 flags=0x00
+1766 CALL               a=-8 b=0 c=0 flags=0x00 external=create
+1767 MOVE               a=0 b=5213 c=0 flags=0x10 b_float=7.30497e-42
+1768 INDEX_ADDRESS      a=-3 b=5 c=1 flags=0x00
+1769 CALL               a=-8 b=0 c=0 flags=0x00 external=create
+1770 CALL               a=-23 b=0 c=0 flags=0x00 external=StopLoopingSound
+1771 SUB                a=-13 b=1065353216 c=-13 flags=0x10 b_float=1
+1772 LT                 a=-13 b=0 c=0 flags=0x10 b_float=0
+1773 JUMP_IF_NONZERO    a=0 b=4 c=0 flags=0x00
+1774 MOVE               a=0 b=-3 c=0 flags=0x00
+1775 CALL               a=-24 b=0 c=0 flags=0x00 external=deactivate
+1776 JUMP               a=2 b=0 c=0 flags=0x00
+1777 CALL               a=-25 b=0 c=0 flags=0x00 external=RespawnPlayer
+1778 YIELD              a=0 b=0 c=0 flags=0x00

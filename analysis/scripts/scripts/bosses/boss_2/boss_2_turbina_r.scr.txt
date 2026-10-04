@@ -1,0 +1,77 @@
+entry=62 slots=16 functions=['AttachDeactivate', 'PushPlayer', 'Damage', 'AttachActivate', 'TerrainHeight', 'ParentCallback', 'sleep', 'remove']
+0000 INDEX_ADDRESS      a=-1 b=14 c=0 flags=0x00
+0001 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+0002 MOVE               a=0 b=0 c=0 flags=0x92 b_float=0
+0003 INDEX_ADDRESS      a=-1 b=14 c=0 flags=0x00
+0004 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+0005 MOVE               a=0 b=0 c=0 flags=0x92 b_float=0
+0006 INDEX_ADDRESS      a=-1 b=14 c=0 flags=0x00
+0007 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0008 MOVE               a=0 b=0 c=0 flags=0x92 b_float=0
+0009 MOVE               a=0 b=0 c=0 flags=0x10 b_float=0
+0010 CALL               a=-1 b=0 c=0 flags=0x00 external=AttachDeactivate
+0011 YIELD              a=0 b=0 c=0 flags=0x00
+0012 CALL               a=-2 b=0 c=0 flags=0x00 external=PushPlayer
+0013 MOVE               a=0 b=-2 c=0 flags=0x00
+0014 MUL                a=1128792064 b=-3 c=1 flags=0x01 a_float=200
+0015 CALL               a=-3 b=0 c=0 flags=0x00 external=Damage
+0016 YIELD              a=0 b=0 c=0 flags=0x00
+0017 INDEX_ADDRESS      a=-1 b=4 c=0 flags=0x00
+0018 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x02
+0019 RETURN             a=0 b=0 c=0 flags=0x00
+0020 EQ_INT             a=-4 b=1065353216 c=0 flags=0x10 b_float=1
+0021 JUMP_IF_NONZERO    a=0 b=3 c=0 flags=0x00
+0022 MOVE               a=0 b=5 c=0 flags=0x10 b_float=7.00649e-45
+0023 CALL               a=-4 b=0 c=0 flags=0x00 external=AttachActivate
+0024 EQ_INT             a=-4 b=1073741824 c=0 flags=0x10 b_float=2
+0025 JUMP_IF_NONZERO    a=0 b=3 c=0 flags=0x00
+0026 MOVE               a=0 b=10 c=0 flags=0x10 b_float=1.4013e-44
+0027 CALL               a=-1 b=0 c=0 flags=0x00 external=AttachDeactivate
+0028 YIELD              a=0 b=0 c=0 flags=0x00
+0029 INDEX_ADDRESS      a=-1 b=5 c=0 flags=0x00
+0030 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0031 PUSH               a=0 b=0 c=0 flags=0x80
+0032 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0033 INDEX_ADDRESS      a=1 b=0 c=1 flags=0x00
+0034 MOVE               a=0 b=1 c=0 flags=0x20
+0035 INDEX_ADDRESS      a=-1 b=5 c=2 flags=0x00
+0036 INDEX_ADDRESS      a=2 b=1 c=2 flags=0x00
+0037 MOVE               a=1 b=2 c=0 flags=0x20
+0038 CALL               a=-5 b=1 c=0 flags=0x00 external=TerrainHeight
+0039 POP                a=0 b=0 c=0 flags=0x80
+0040 LE                 a=0 b=1 c=0 flags=0x02
+0041 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+0042 RETURN             a=0 b=0 c=0 flags=0x00
+0043 INDEX_ADDRESS      a=-1 b=17 c=0 flags=0x00
+0044 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0045 MUL                a=1109393408 b=-3 c=1 flags=0x01 a_float=40
+0046 SUB                a=0 b=1 c=0 flags=0x82
+0047 INDEX_ADDRESS      a=-1 b=5 c=0 flags=0x00
+0048 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0049 INDEX_ADDRESS      a=-1 b=17 c=2 flags=0x00
+0050 INDEX_ADDRESS      a=2 b=2 c=2 flags=0x00
+0051 MUL                a=-3 b=2 c=1 flags=0x20
+0052 ADD                a=0 b=1 c=0 flags=0x82
+0053 INDEX_ADDRESS      a=-1 b=14 c=0 flags=0x00
+0054 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+0055 MUL                a=-3 b=1106247680 c=1 flags=0x10 b_float=30
+0056 ADD                a=0 b=1 c=0 flags=0x82
+0057 INDEX_ADDRESS      a=-1 b=14 c=0 flags=0x00
+0058 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+0059 MUL                a=-3 b=1109393408 c=1 flags=0x10 b_float=40
+0060 ADD                a=0 b=1 c=0 flags=0x82
+0061 YIELD              a=0 b=0 c=0 flags=0x00
+0062 INDEX_ADDRESS      a=-1 b=4 c=0 flags=0x00
+0063 JUMP_IF_NONZERO    a=0 b=12 c=0 flags=0x02
+0064 MOVE               a=0 b=15 c=0 flags=0x10 b_float=2.10195e-44
+0065 CALL               a=-1 b=0 c=0 flags=0x00 external=AttachDeactivate
+0066 MOVE               a=0 b=1065353216 c=0 flags=0x10 b_float=1
+0067 MOVE               a=1 b=1073741824 c=0 flags=0x10 b_float=2
+0068 MOVE               a=2 b=0 c=0 flags=0x10 b_float=0
+0069 CALL               a=-6 b=0 c=0 flags=0x00 external=ParentCallback
+0070 CALL_WAIT          a=29 b=0 c=0 flags=0x00
+0071 SET_WAIT           a=1092616192 b=0 c=0 flags=0x01 a_float=10
+0072 CALL_WAIT          a=-7 b=0 c=0 flags=0x00 external=sleep
+0073 MOVE               a=0 b=-1 c=0 flags=0x00
+0074 CALL               a=-8 b=0 c=0 flags=0x00 external=remove
+0075 YIELD              a=0 b=0 c=0 flags=0x00

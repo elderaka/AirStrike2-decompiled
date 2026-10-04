@@ -1,0 +1,164 @@
+
+yellowflare {
+        type    TYPE_SPRITE
+        skin    "models\mapobjects\zabors\yellowflare.tga"
+        blend   BLEND_ADD
+        sort    SORT_flag
+        rflag   RF_NODEPTHWRITE
+        min     -4 -4 0.0 0.0
+        max     4 4 1.0 1.0
+}
+
+///////////////zabors////////////////////
+
+zabor_metal {
+	model	"models\mapobjects\zabors\zabor_metal.mdl"
+	skin	"models\mapobjects\zabors\zabor.tga"
+	shadow	SHADOW_PROJECTED
+        rflag   RF_NOCULLING
+        rflag   RF_NODEPTHWRITE
+        sort    SORT_TRANS
+	blend	BLEND_ALPHA
+        attach  "yellowflare" "tag_flare"
+	flag    FL_ONGROUND
+
+}
+
+zabor_cement {
+	model	"models\mapobjects\zabors\zabor_cement.mdl"
+	skin	"models\mapobjects\zabors\zabor_cement.tga"
+	shadow	SHADOW_PROJECTED
+        rflag   RF_NOCULLING
+//	rflag	RF_NOLIGHTING
+//        rflag   RF_NODEPTHWRITE
+        sort    SORT_TRANS
+	blend	BLEND_ALPHA
+	flag    FL_ONGROUND
+}
+
+zabor_cement_rotate {
+	model	"models\mapobjects\zabors\zabor_cement_rotate.mdl"
+	skin	"models\mapobjects\zabors\zabor_cement.tga"
+	shadow	SHADOW_PROJECTED
+        rflag   RF_NOCULLING
+//        rflag   RF_NODEPTHWRITE
+//	rflag	RF_NOLIGHTING
+        sort    SORT_TRANS
+	blend	BLEND_ALPHA
+	flag    FL_ONGROUND
+}
+
+zabor_bricks {
+	model	"models\mapobjects\zabors\zabor_bricks.mdl"
+	skin	"models\mapobjects\zabors\zabor_bricks.tga"
+	shadow	SHADOW_PROJECTED
+//        health  10000
+	flag    FL_ONGROUND
+}
+
+zabor_bricks_rotate {
+	model	"models\mapobjects\zabors\zabor_bricks_rotate.mdl"
+	skin	"models\mapobjects\zabors\zabor_bricks.tga"
+	shadow	SHADOW_PROJECTED
+//        health  10000
+	flag    FL_ONGROUND
+}
+
+zabor_wood {
+	model	"models\mapobjects\zabors\zabor_wood.mdl"
+	skin	"models\mapobjects\zabors\zabor_wood.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+}
+
+zabor_wood2 {
+	model	"models\mapobjects\zabors\zabor_wood2.mdl"
+	skin	"models\mapobjects\zabors\zabor_wood.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+}
+
+zabor_wood3 {
+	model	"models\mapobjects\zabors\zabor_wood3.mdl"
+	skin	"models\mapobjects\zabors\zabor_wood.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+}
+
+
+zabor_wood_white {
+	model	"models\mapobjects\zabors\zabor_wood_white.mdl"
+	skin	"models\mapobjects\zabors\zabor_wood_white.tga"
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PROJECTED
+        rflag   RF_NOCULLING
+        rflag   RF_NODEPTHWRITE
+//	rflag	RF_NOLIGHTING
+        sort    SORT_TRANS
+	flag    FL_ONGROUND
+}
+
+//zabor_concrete01{
+	//model	"models\mapobjects\zabors\zabor_wood3.mdl"
+	//skin	"models\mapobjects\zabors\zabor_wood.tga"
+	//shadow	SHADOW_PROJECTED
+	//flag    FL_ONGROUND
+//}
+
+zabor_new {
+	model	"models\mapobjects\zabors\zabor_new\zabor_new.mdl"
+	skin	"models\mapobjects\zabors\zabor_new\zabor_new.tga"
+	shadow	SHADOW_PROJECTED
+        sort    SORT_TRANS
+	flag    FL_ONGROUND
+}
+
+zabor_new_stolb {
+	model	"models\mapobjects\zabors\zabor_new\zabor_new_stolb.mdl"
+	skin	"models\mapobjects\zabors\zabor_new\zabor_new.tga"
+	shadow	SHADOW_PROJECTED
+        sort    SORT_TRANS
+	flag    FL_ONGROUND
+}
+
+zabor_new_wood {
+
+	model	"models\mapobjects\zabors\zabor_new\zabor_new_wood.mdl"
+	skin	"models\mapobjects\zabors\zabor_new\zabor_new_wood.tga"
+	shadow	SHADOW_PROJECTED
+
+	rflag   RF_NOCULLING
+	sort    SORT_TRANS
+	blend	BLEND_ALPHA
+	flag    FL_ONGROUND
+}
+
+zabor_beton {
+
+	model	"models\mapobjects\zabors\zabor_new\zabor_beton.mdl"
+	skin	"models\mapobjects\zabors\zabor_new\zabor_beton.tga"
+	shadow	SHADOW_PROJECTED
+
+	flag    FL_ONGROUND
+	rflag   RF_NOCULLING
+}
+
+zabor_beton_rotate {
+
+	model	"models\mapobjects\zabors\zabor_new\zabor_beton_rotate.mdl"
+	skin	"models\mapobjects\zabors\zabor_new\zabor_beton.tga"
+	shadow	SHADOW_PROJECTED
+
+	flag    FL_ONGROUND
+	rflag   RF_NOCULLING
+}
+
+zabor_beton_stolb {
+
+	model	"models\mapobjects\zabors\zabor_new\zabor_beton_stolb.mdl"
+	skin	"models\mapobjects\zabors\zabor_new\zabor_beton.tga"
+	shadow	SHADOW_PROJECTED
+
+	flag    FL_ONGROUND
+	rflag   RF_NOCULLING
+}

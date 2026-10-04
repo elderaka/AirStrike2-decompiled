@@ -1,0 +1,694 @@
+
+
+flare_blue {
+	type	TYPE_SPRITE
+	blend	BLEND_ADD
+	rflag	RF_NODEPTHWRITE
+	rflag	RF_NOLIGHTING
+	sort	SORT_EFFECT
+
+	skin	"gfx\effects\flare_blue.tga"
+
+	min	-20 -20  0.0 0.0
+	max	 20  20  1.0 1.0	
+
+	script	"scripts\items\flare.scr"
+}
+
+flare_red {
+	type	TYPE_SPRITE
+	blend	BLEND_ADD
+	rflag	RF_NODEPTHWRITE
+	sort	SORT_EFFECT
+	skin	"gfx\effects\flare_red.tga"
+
+	min	-20 -20 0.0 0.0
+	max	20 20 1.0 1.0	
+
+	script	"scripts\items\flare.scr"
+}
+
+flare_green {
+	type	TYPE_SPRITE
+	blend	BLEND_ADD
+	rflag	RF_NODEPTHWRITE
+	sort	SORT_EFFECT
+	skin	"gfx\effects\flare_green.tga"
+
+	min	-20 -20 0.0 0.0
+	max	20 20 1.0 1.0	
+
+	script	"scripts\items\flare.scr"
+}
+
+
+
+
+
+
+item_life {
+        touch   TOUCH_PLAYER
+	model	"models\items\life.mdl"
+	skin	"models\items\life.tga"
+
+	flag    FL_TEMPORARY
+
+	envmap	"gfx\envmap1.tga"
+	envmode	ENV_GLITTER
+
+
+	attach abs "satellite_vint"   "tag_vint"
+
+	attach "flare_blue" "origin"
+	script	"scripts\items\i_life.scr"
+}
+
+
+item_shield {
+        touch   TOUCH_PLAYER
+	model	"models\items\shield\shield.mdl"
+	skin	"models\items\shield\shield.tga"
+	envmap	"gfx\envmap1.tga"
+	envmode	ENV_GLITTER
+
+	flag    FL_TEMPORARY
+
+	attach "flare_blue" "origin"
+
+	script	"scripts\items\i_shield.scr"
+}
+
+item_armor50 {
+        touch   TOUCH_PLAYER
+	flag    FL_TEMPORARY
+
+	model	"models\items\armor\armor50.mdl"
+	skin	"models\items\armor\armor.tga"
+	envmap	"gfx\envmap1.tga"
+	envmode	ENV_GLITTER
+	attach "flare_blue" "origin"
+	script	"scripts\items\i_armor50.scr"
+}
+
+item_armor100 {
+        touch   TOUCH_PLAYER
+	flag    FL_TEMPORARY
+
+	model	"models\items\armor\armor100.mdl"
+	skin	"models\items\armor\armor.tga"
+	envmap	"gfx\envmap1.tga"
+	envmode	ENV_GLITTER
+	attach "flare_blue" "origin"
+	script	"scripts\items\i_armor100.scr"
+}
+
+item_points10k {
+        touch   TOUCH_PLAYER
+	flag    FL_TEMPORARY
+
+	model	"models\items\points\points10k.mdl"
+	skin	"models\items\points\points.tga"
+
+	envmap	"gfx\envmap1.tga"
+	envmode	ENV_GLITTER
+
+	attach "flare_blue" "origin"
+	script	"scripts\items\i_pts10k.scr"
+}
+
+item_points5k {
+        touch   TOUCH_PLAYER
+	flag    FL_TEMPORARY
+
+	model	"models\items\points\points5k.mdl"
+	skin	"models\items\points\points.tga"
+
+	envmap	"gfx\envmap1.tga"
+	envmode	ENV_GLITTER
+
+	attach "flare_blue" "origin"
+	script	"scripts\items\i_pts5k.scr"
+}
+
+
+item_help {
+        touch   TOUCH_PLAYER
+	flag    FL_TEMPORARY
+
+	model	"models\items\help.mdl"
+	skin	"models\items\points\points.tga"
+
+	envmap	"gfx\envmap2.tga"
+	envmode	ENV_GLITTER
+
+	attach "flare_blue" "origin"
+//	script	"scripts\items\i_help.scr"
+}
+
+
+item_speeddown {
+        touch   TOUCH_PLAYER
+	flag    FL_TEMPORARY
+
+	model	"models\items\speeddown.mdl"
+	skin	"models\items\points\points.tga"
+	envmap	"gfx\envmap1.tga"
+	envmode	ENV_GLITTER
+	attach "flare_blue" "origin"
+	script	"scripts\items\i_spddown.scr"
+}
+
+item_speedup {
+        touch   TOUCH_PLAYER
+	flag    FL_TEMPORARY
+
+	model	"models\items\speedup.mdl"
+	skin	"models\items\points\points.tga"
+	envmap	"gfx\envmap1.tga"
+	envmode	ENV_GLITTER
+	attach  "flare_blue" "origin"
+
+	script	"scripts\items\i_spdup.scr"
+}
+
+// ============================================================================
+//
+// AMMO ITEMS
+//
+// ============================================================================
+
+ammo_shell {
+	model	"models\items\ammo\shell2.mdl"
+//	skin	"gfx\black.tga"
+	rflag	RF_NOLIGHTING
+	blend	BLEND_ADD
+//	envmap	"gfx\envmap2.tga"
+//	envmap	"gfx\effects\shield.tga" 
+//	envmode	ENV_GLITTER
+
+//	attach  PS_BONUS "origin"
+	script	"scripts\item_shell.scr"
+}
+
+ammo_shell2 {
+	model	"models\items\ammo\shell2.mdl"
+	skin	"gfx\black.tga"
+//	rflag	RF_NOLIGHTING
+	blend	BLEND_ADD
+//	envmap	"gfx\envmap2.tga"
+	envmap	"gfx\effects\moln.tga" 
+	envmode	ENV_GLITTER
+
+//        rflag   RF_NOCULLING
+        rflag   RF_NODEPTHTEST
+        rflag   RF_NOLIGHTING
+        sort    SORT_EFFECT
+
+//	attach  PS_BONUS "origin"
+	script	"scripts\item_shell.scr"
+}
+
+
+
+bonus_shell {
+	model	"models\items\bonus_shell.mdl"
+	skin	"gfx\black.tga"
+	blend	BLEND_ADD
+	envmap	"gfx\effects\moln.tga" 
+	envmode	ENV_GLITTER
+
+        rflag   RF_NODEPTHTEST
+        rflag   RF_NOLIGHTING
+        sort    SORT_EFFECT
+
+	script	"scripts\item_shell.scr"
+}
+
+light_green {
+	light   100 0.5 1.5 0.5
+}
+
+light_red {
+        light   100 1.5 0.5 0.5
+}
+
+light_blue {
+        light   100 0.5 0.5 1.5
+}
+
+light_yellow {
+        light   100 1 1 0.5
+}
+
+light_magenta {
+        light   100 1 0.5 1
+}
+
+
+item_machinegun {
+        touch   TOUCH_PLAYER
+	flag    FL_TEMPORARY
+
+	model	"models\items\ammo\ammo.mdl"
+	skin	"models\items\ammo\machinebox.tga"
+	envmap	"gfx\envmap3.tga"
+	envmode	ENV_GLITTER
+	rflag	RF_NOLIGHTING
+
+	attach  PS_BONUS "origin"
+//	attach night "light_yellow" origin
+	attach abs "ammo_shell2" "origin"
+
+	script	"scripts\items\ammo\i_mgun.scr"
+}
+
+item_impulsegun {
+        touch   TOUCH_PLAYER
+	flag    FL_TEMPORARY
+
+	model	"models\items\ammo\ammo.mdl"
+	skin	"models\items\ammo\impulsebox.tga"
+	envmap	"gfx\envmap2.tga"
+	envmode	ENV_GLITTER
+	rflag	RF_NOLIGHTING
+
+	attach  PS_BONUS "origin"
+//	attach night "light_magenta" origin
+	attach abs "ammo_shell2" "origin"
+
+
+	script	"scripts\items\ammo\i_igun.scr"
+}
+
+item_plasmagun {
+        touch   TOUCH_PLAYER
+	flag    FL_TEMPORARY
+
+	model	"models\items\ammo\ammo.mdl"
+	skin	"models\items\ammo\plasmabox.tga"
+	envmap	"gfx\envmap2.tga"
+	envmode	ENV_GLITTER
+	rflag	RF_NOLIGHTING
+
+	attach  PS_BONUS "origin"
+//	attach night "light_red" origin
+	attach abs "ammo_shell2" "origin"
+
+
+	script	"scripts\items\ammo\i_plasmagun.scr"
+}
+
+item_laser {
+        touch   TOUCH_PLAYER
+	flag    FL_TEMPORARY
+
+	model	"models\items\ammo\ammo.mdl"
+	skin	"models\items\ammo\laserbox.tga"
+	envmap	"gfx\envmap2.tga"
+	envmode	ENV_GLITTER
+	rflag	RF_NOLIGHTING
+
+	attach  PS_BONUS "origin"
+//	attach night "light_green" origin
+	attach abs "ammo_shell2" "origin"
+
+
+	script	"scripts\items\ammo\i_laser.scr"
+}
+
+item_missilegun {
+        touch   TOUCH_PLAYER
+	flag    FL_TEMPORARY
+
+	model	"models\items\ammo\ammo.mdl"
+	skin	"models\items\ammo\missilegunbox.tga"
+	envmap	"gfx\envmap2.tga"
+	envmode	ENV_GLITTER
+	rflag	RF_NOLIGHTING
+
+	attach  PS_BONUS "origin"
+//	attach night "light_red" origin
+	attach abs "ammo_shell2" "origin"
+
+
+	script	"scripts\items\ammo\i_missilegun.scr"
+}
+
+item_lightinggun {
+        touch   TOUCH_PLAYER
+	flag    FL_TEMPORARY
+
+	model	"models\items\ammo\ammo.mdl"
+	skin	"models\items\ammo\lightinggunbox.tga"
+	envmap	"gfx\envmap2.tga"
+	envmode	ENV_GLITTER
+	rflag	RF_NOLIGHTING
+
+	attach  PS_BONUS "origin"
+//	attach night "light_magenta" origin
+	attach abs "ammo_shell2" "origin"
+
+	script	"scripts\items\ammo\i_lightinggun.scr"
+}
+
+item_laser_big {
+        touch   TOUCH_PLAYER
+	flag    FL_TEMPORARY
+
+	model	"models\items\ammo\ammo.mdl"
+	skin	"models\items\ammo\lasergreenbox.tga"
+	envmap	"gfx\envmap2.tga"
+	envmode	ENV_GLITTER
+	rflag	RF_NOLIGHTING
+
+	attach  PS_BONUS "origin"
+//	attach night "light_green" origin
+	attach abs "ammo_shell2" "origin"
+
+
+	script	"scripts\items\ammo\i_biglaser.scr"
+}
+
+item_wavegun {
+        touch   TOUCH_PLAYER
+	flag    FL_TEMPORARY
+
+	model	"models\items\ammo\ammo.mdl"
+	skin	"models\items\ammo\wavegunbox.tga"
+	envmap	"gfx\envmap2.tga"
+	envmode	ENV_GLITTER
+	rflag	RF_NOLIGHTING
+
+	attach  PS_BONUS "origin"
+//	attach night "light_magenta" origin
+	attach abs "ammo_shell2" "origin"
+
+	script	"scripts\items\ammo\i_wavegun.scr"
+}
+
+
+item_flamefrower {
+        touch   TOUCH_PLAYER
+	flag    FL_TEMPORARY
+
+	model	"models\items\ammo\ammo.mdl"
+	skin	"models\items\ammo\flamefrowerbox.tga"
+	envmap	"gfx\envmap2.tga"
+	envmode	ENV_GLITTER
+	rflag	RF_NOLIGHTING
+
+	attach  PS_BONUS "origin"
+//	attach night "light_blue" origin
+	attach abs "ammo_shell2" "origin"
+
+
+	script	"scripts\items\ammo\i_flamefrower.scr"
+}
+
+
+/////////////////////////////////////////////////////////////////
+///////////////////////MISSILES//////////////////////////////////
+/////////////////////////////////////////////////////////////////
+
+
+item_missile {
+        touch   TOUCH_PLAYER
+	flag    FL_TEMPORARY
+
+	model	"models\items\ammo\missiles\bonus_missile.mdl"
+	skin	"models/weapons/rockets.tga"
+
+	attach "flare_red" "origin"
+	script	"scripts\items\missiles\i_mis.scr"
+}
+
+item_missile_heat {
+        touch   TOUCH_PLAYER
+	flag    FL_TEMPORARY
+
+	model	"models\items\ammo\missiles\bonus_missile_heat.mdl"
+	skin	"models/weapons/rockets.tga"
+
+	attach "flare_red" "origin"
+	script	"scripts\items\missiles\i_misheat.scr"
+}
+
+
+item_missile_big {
+        touch   TOUCH_PLAYER
+	flag    FL_TEMPORARY
+
+	model	"models\items\ammo\missiles\bonus_missile_big.mdl"
+	skin	"models/weapons/rockets.tga"
+
+	attach "flare_red" "origin"
+	script	"scripts\items\missiles\i_mis_big.scr"
+}
+
+item_missile_big_heat {
+        touch   TOUCH_PLAYER
+	flag    FL_TEMPORARY
+
+	model	"models\items\ammo\missiles\bonus_missile_big_heat.mdl"
+	skin	"models/weapons/rockets.tga"
+
+	attach "flare_red" "origin"
+	script	"scripts\items\missiles\i_misheat_big.scr"
+}
+
+item_missile_mad {
+        touch   TOUCH_PLAYER
+	flag    FL_TEMPORARY
+
+	model	"models\items\ammo\missiles\bonus_missile_mad.mdl"
+	skin	"models/weapons/rockets.tga"
+
+	attach "flare_red" "origin"
+	script	"scripts\items\missiles\i_mis_mad.scr"
+}
+
+
+/////////////////////////////////////////////////////////////////
+///////////////////////BONUSES///////////////////////////////////
+/////////////////////////////////////////////////////////////////
+
+item_lightingbomb {
+        touch   TOUCH_PLAYER
+	flag    FL_TEMPORARY
+
+	model	"models\items\bonuses\lightingb.mdl"
+	skin	"models\items\bonuses\lightingb.tga"
+	envmap	"gfx\envmap1.tga"
+	envmode	ENV_GLITTER
+//	rflag	RF_NOLIGHTING
+
+//	attach  PS_BONUS "origin"
+//	attach night "light_magenta" origin
+//	attach abs "ammo_shell2" "origin"
+	attach "i_lightingbomb_proj" "origin"
+
+
+	script	"scripts\items\bonuses\i_lightingb.scr"
+}
+
+
+i_lball_flare {
+	type	TYPE_SPRITE
+	blend	BLEND_ADD
+//	rflag	RF_NODEPTHTEST
+	sort	SORT_EFFECT
+	skin	"models\weapons\bfg\ballflare.tga"
+
+	min	-12 -12 0.0 0.0
+	max	12 12 1.0 1.0	
+}
+
+i_lball_plane {
+	model	"models\items\bonuses\plane.mdl"
+	skin	"models\weapons\bfg\bfg_plane.tga"
+	blend	BLEND_ADD
+
+	rflag	RF_NOCULLING
+        rflag   RF_NODEPTHTEST
+        rflag   RF_NOLIGHTING
+        sort    SORT_EFFECT
+
+	script	"scripts\items\bonuses\i_lightingb_plane.scr"
+}
+
+i_lightingbomb_proj {
+	model	"models\items\bonuses\sfera.mdl"
+	blend	BLEND_ADD
+	light	150 0.3 0.3 3
+
+//        rflag   RF_NODEPTHTEST
+        rflag   RF_NOLIGHTING
+        sort    SORT_EFFECT
+
+	script	"scripts\items\bonuses\i_lightingb_proj.scr"
+	attach 	"i_lball_flare" "origin"
+
+	attach abs "i_lball_plane" "origin"
+	attach abs "i_lball_plane" "origin"
+	attach abs "i_lball_plane" "origin"
+	attach abs "i_lball_plane" "origin"
+	attach abs "i_lball_plane" "origin"
+	attach abs "i_lball_plane" "origin"
+	attach abs "i_lball_plane" "origin"
+	attach abs "i_lball_plane" "origin"
+	attach abs "i_lball_plane" "origin"
+	attach abs "i_lball_plane" "origin"
+
+}
+
+/////////////////////////////////////////////////////////////////
+
+
+item_clustbomb {
+        touch   TOUCH_PLAYER
+	flag    FL_TEMPORARY
+
+	model	"models\items\bonuses\clustbomb.mdl"
+	skin	"models\weapons\clusterbomb\clusterbomb.tga"
+
+	envmap	"gfx\envmap1.tga"
+	envmode	ENV_GLITTER
+
+	attach "flare_green" "origin"
+
+	script	"scripts\items\bonuses\i_clustbomb.scr"
+}
+
+
+/////////////////////////////////////////////////////////////////
+
+
+item_abomb {
+        touch   TOUCH_PLAYER
+	flag    FL_TEMPORARY
+
+	model	"models\items\bonuses\abomb.mdl"
+	skin	"models\items\bonuses\abomb.tga"
+	envmap	"gfx\envmap2.tga"
+	envmode	ENV_GLITTER
+
+	attach "flare_green" "origin"
+
+	script	"scripts\items\bonuses\i_abomb.scr"
+}
+
+item_anihilator {
+        touch   TOUCH_PLAYER
+	flag    FL_TEMPORARY
+
+	model	"models\items\anihilator\anihilator.mdl"
+	skin	"models\items\anihilator\cherep.tga"
+	envmap	"gfx\envmap2.tga"
+	envmode	ENV_GLITTER
+
+	attach "flare_green" "origin"
+
+	script	"scripts\items\bonuses\i_annihilator.scr"
+}
+
+item_rocketbomb {
+        touch   TOUCH_PLAYER
+	flag    FL_TEMPORARY
+
+	model	"models\items\bonuses\rocketbomb.mdl"
+	skin	"models\weapons\clusterbomb\clusterbomb.tga"
+	envmap	"gfx\envmap2.tga"
+	envmode	ENV_GLITTER
+
+	attach "flare_green" "origin"
+
+	script	"scripts\items\bonuses\i_rocketbomb.scr"
+}
+
+item_satellitestrike {
+        touch   TOUCH_PLAYER
+	flag    FL_TEMPORARY
+
+	model	"models\items\sputnik\sputnik.mdl"
+	skin	"models\items\bonus.tga"
+	envmap	"gfx\envmap1.tga"
+	envmode	ENV_GLITTER
+
+	attach "flare_green" "origin"
+
+	script	"scripts\items\bonuses\i_satellitestrike.scr"
+}
+
+item_bomber {
+
+        touch   TOUCH_PLAYER
+
+	model	"models\items\bomber\plane.mdl"
+	skin	"models\items\bonus.tga"
+
+//	rflag   RF_NOCULLING
+	flag    FL_TEMPORARY
+
+	envmap	"gfx\envmap1.tga"
+	envmode	ENV_GLITTER
+
+	attach "flare_blue" "origin"
+	script	"scripts\items\bonuses\i_bomber.scr"
+}
+
+
+////////Satelittes/////////////////////////////////////////////////
+
+
+
+item_satellite {
+        touch   TOUCH_PLAYER
+	flag    FL_TEMPORARY
+
+	model   "models\items\satellite\i_satellite.mdl"
+	skin    "models\weapons\satellite\satellite.tga"
+
+	attach abs "satellite_vint"   "tag_vint"
+	envmap	"gfx\envmap3.tga"
+	envmode	ENV_GLITTER
+
+	attach "flare_green" "origin"
+
+	script  "scripts\items\i_satellite.scr"
+}
+
+
+item_satellite_laser {
+        touch   TOUCH_PLAYER
+	flag    FL_TEMPORARY
+
+	model   "models\items\satellite\i_satellite_laser.mdl"
+	skin    "models\weapons\satellite\satellite_laser.tga"
+
+	envmap	"gfx\envmap3.tga"
+	envmode	ENV_GLITTER
+
+	attach "helic_redflare" "tag_flare1"
+	attach "helic_redflare" "tag_flare2"
+
+	attach "flare_green" "origin"
+
+	script  "scripts\items\i_satellite_laser.scr"
+}
+
+
+
+item_star {
+        touch   TOUCH_PLAYER
+	flag    FL_TEMPORARY
+
+	model	"models\items\star.mdl"
+	skin	"models\items\points\points.tga"
+
+	envmap	"gfx\envmap3.tga"
+	envmode	ENV_GLITTER
+
+	attach "flare_blue" "origin"
+
+	script "scripts\items\star.scr"
+}

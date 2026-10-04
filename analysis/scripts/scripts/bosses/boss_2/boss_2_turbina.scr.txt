@@ -1,0 +1,29 @@
+entry=21 slots=16 functions=['AttachDeactivate', 'AttachActivate', 'ParentCallback']
+0000 INDEX_ADDRESS      a=-1 b=14 c=0 flags=0x00
+0001 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+0002 MOVE               a=0 b=0 c=0 flags=0x92 b_float=0
+0003 INDEX_ADDRESS      a=-1 b=14 c=0 flags=0x00
+0004 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+0005 MOVE               a=0 b=0 c=0 flags=0x92 b_float=0
+0006 INDEX_ADDRESS      a=-1 b=14 c=0 flags=0x00
+0007 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0008 MOVE               a=0 b=0 c=0 flags=0x92 b_float=0
+0009 MOVE               a=0 b=0 c=0 flags=0x10 b_float=0
+0010 CALL               a=-1 b=0 c=0 flags=0x00 external=AttachDeactivate
+0011 YIELD              a=0 b=0 c=0 flags=0x00
+0012 EQ_INT             a=-2 b=1065353216 c=0 flags=0x10 b_float=1
+0013 JUMP_IF_NONZERO    a=0 b=3 c=0 flags=0x00
+0014 MOVE               a=0 b=5 c=0 flags=0x10 b_float=7.00649e-45
+0015 CALL               a=-2 b=0 c=0 flags=0x00 external=AttachActivate
+0016 EQ_INT             a=-2 b=1073741824 c=0 flags=0x10 b_float=2
+0017 JUMP_IF_NONZERO    a=0 b=3 c=0 flags=0x00
+0018 MOVE               a=0 b=10 c=0 flags=0x10 b_float=1.4013e-44
+0019 CALL               a=-1 b=0 c=0 flags=0x00 external=AttachDeactivate
+0020 YIELD              a=0 b=0 c=0 flags=0x00
+0021 INDEX_ADDRESS      a=-1 b=4 c=0 flags=0x00
+0022 JUMP_IF_NONZERO    a=0 b=5 c=0 flags=0x02
+0023 MOVE               a=0 b=1065353216 c=0 flags=0x10 b_float=1
+0024 MOVE               a=1 b=0 c=0 flags=0x10 b_float=0
+0025 MOVE               a=2 b=0 c=0 flags=0x10 b_float=0
+0026 CALL               a=-3 b=0 c=0 flags=0x00 external=ParentCallback
+0027 YIELD              a=0 b=0 c=0 flags=0x00

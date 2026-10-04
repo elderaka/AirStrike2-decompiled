@@ -1,0 +1,525 @@
+{
+  "source": "C:\\Users\\lauda\\AppData\\Local\\Temp\\codex-file-preview-QlWONf\\Air_Assault2.exe",
+  "size": 23071855,
+  "sha256": "e779b8623dc1aea7bef79b2235ce27aa4f26a4a4aff6568aa31d01423be0b41e",
+  "machine": "0x14c",
+  "timestamp": 708992537,
+  "linker": [
+    2,
+    25
+  ],
+  "image_base": "0x400000",
+  "entry_rva": "0x9a54",
+  "subsystem": 2,
+  "sections": [
+    {
+      "name": "CODE",
+      "rva": "0x1000",
+      "virtual_size": 37228,
+      "raw_offset": 1024,
+      "raw_size": 37376,
+      "characteristics": "0x60000020",
+      "entropy": 6.5647212410937765
+    },
+    {
+      "name": "DATA",
+      "rva": "0xb000",
+      "virtual_size": 588,
+      "raw_offset": 38400,
+      "raw_size": 1024,
+      "characteristics": "0xc0000040",
+      "entropy": 2.7335120306674594
+    },
+    {
+      "name": "BSS",
+      "rva": "0xc000",
+      "virtual_size": 3656,
+      "raw_offset": 39424,
+      "raw_size": 0,
+      "characteristics": "0xc0000000",
+      "entropy": 0.0
+    },
+    {
+      "name": ".idata",
+      "rva": "0xd000",
+      "virtual_size": 2384,
+      "raw_offset": 39424,
+      "raw_size": 2560,
+      "characteristics": "0xc0000040",
+      "entropy": 4.430733069799036
+    },
+    {
+      "name": ".tls",
+      "rva": "0xe000",
+      "virtual_size": 8,
+      "raw_offset": 41984,
+      "raw_size": 0,
+      "characteristics": "0xc0000000",
+      "entropy": 0.0
+    },
+    {
+      "name": ".rdata",
+      "rva": "0xf000",
+      "virtual_size": 24,
+      "raw_offset": 41984,
+      "raw_size": 512,
+      "characteristics": "0x50000040",
+      "entropy": 0.2044881574398449
+    },
+    {
+      "name": ".reloc",
+      "rva": "0x10000",
+      "virtual_size": 2228,
+      "raw_offset": 42496,
+      "raw_size": 0,
+      "characteristics": "0x50000040",
+      "entropy": 0.0
+    },
+    {
+      "name": ".rsrc",
+      "rva": "0x11000",
+      "virtual_size": 10752,
+      "raw_offset": 42496,
+      "raw_size": 10752,
+      "characteristics": "0x50000040",
+      "entropy": 4.435697851048529
+    }
+  ],
+  "imports": {
+    "kernel32.dll": [
+      {
+        "name": "WriteFile",
+        "iat_va": "0x40d160"
+      },
+      {
+        "name": "VirtualQuery",
+        "iat_va": "0x40d164"
+      },
+      {
+        "name": "VirtualProtect",
+        "iat_va": "0x40d168"
+      },
+      {
+        "name": "VirtualFree",
+        "iat_va": "0x40d16c"
+      },
+      {
+        "name": "VirtualAlloc",
+        "iat_va": "0x40d170"
+      },
+      {
+        "name": "Sleep",
+        "iat_va": "0x40d174"
+      },
+      {
+        "name": "SizeofResource",
+        "iat_va": "0x40d178"
+      },
+      {
+        "name": "SetLastError",
+        "iat_va": "0x40d17c"
+      },
+      {
+        "name": "SetFilePointer",
+        "iat_va": "0x40d180"
+      },
+      {
+        "name": "SetErrorMode",
+        "iat_va": "0x40d184"
+      },
+      {
+        "name": "SetEndOfFile",
+        "iat_va": "0x40d188"
+      },
+      {
+        "name": "RemoveDirectoryA",
+        "iat_va": "0x40d18c"
+      },
+      {
+        "name": "ReadFile",
+        "iat_va": "0x40d190"
+      },
+      {
+        "name": "LockResource",
+        "iat_va": "0x40d194"
+      },
+      {
+        "name": "LoadResource",
+        "iat_va": "0x40d198"
+      },
+      {
+        "name": "LoadLibraryA",
+        "iat_va": "0x40d19c"
+      },
+      {
+        "name": "IsDBCSLeadByte",
+        "iat_va": "0x40d1a0"
+      },
+      {
+        "name": "GetWindowsDirectoryA",
+        "iat_va": "0x40d1a4"
+      },
+      {
+        "name": "GetVersionExA",
+        "iat_va": "0x40d1a8"
+      },
+      {
+        "name": "GetUserDefaultLangID",
+        "iat_va": "0x40d1ac"
+      },
+      {
+        "name": "GetSystemInfo",
+        "iat_va": "0x40d1b0"
+      },
+      {
+        "name": "GetSystemDefaultLCID",
+        "iat_va": "0x40d1b4"
+      },
+      {
+        "name": "GetProcAddress",
+        "iat_va": "0x40d1b8"
+      },
+      {
+        "name": "GetModuleHandleA",
+        "iat_va": "0x40d1bc"
+      },
+      {
+        "name": "GetModuleFileNameA",
+        "iat_va": "0x40d1c0"
+      },
+      {
+        "name": "GetLocaleInfoA",
+        "iat_va": "0x40d1c4"
+      },
+      {
+        "name": "GetLastError",
+        "iat_va": "0x40d1c8"
+      },
+      {
+        "name": "GetFullPathNameA",
+        "iat_va": "0x40d1cc"
+      },
+      {
+        "name": "GetFileSize",
+        "iat_va": "0x40d1d0"
+      },
+      {
+        "name": "GetFileAttributesA",
+        "iat_va": "0x40d1d4"
+      },
+      {
+        "name": "GetExitCodeProcess",
+        "iat_va": "0x40d1d8"
+      },
+      {
+        "name": "GetEnvironmentVariableA",
+        "iat_va": "0x40d1dc"
+      },
+      {
+        "name": "GetCurrentProcess",
+        "iat_va": "0x40d1e0"
+      },
+      {
+        "name": "GetCommandLineA",
+        "iat_va": "0x40d1e4"
+      },
+      {
+        "name": "GetACP",
+        "iat_va": "0x40d1e8"
+      },
+      {
+        "name": "InterlockedExchange",
+        "iat_va": "0x40d1ec"
+      },
+      {
+        "name": "FormatMessageA",
+        "iat_va": "0x40d1f0"
+      },
+      {
+        "name": "FindResourceA",
+        "iat_va": "0x40d1f4"
+      },
+      {
+        "name": "DeleteFileA",
+        "iat_va": "0x40d1f8"
+      },
+      {
+        "name": "CreateProcessA",
+        "iat_va": "0x40d1fc"
+      },
+      {
+        "name": "CreateFileA",
+        "iat_va": "0x40d200"
+      },
+      {
+        "name": "CreateDirectoryA",
+        "iat_va": "0x40d204"
+      },
+      {
+        "name": "CloseHandle",
+        "iat_va": "0x40d208"
+      }
+    ],
+    "user32.dll": [
+      {
+        "name": "TranslateMessage",
+        "iat_va": "0x40d210"
+      },
+      {
+        "name": "SetWindowLongA",
+        "iat_va": "0x40d214"
+      },
+      {
+        "name": "PeekMessageA",
+        "iat_va": "0x40d218"
+      },
+      {
+        "name": "MsgWaitForMultipleObjects",
+        "iat_va": "0x40d21c"
+      },
+      {
+        "name": "MessageBoxA",
+        "iat_va": "0x40d220"
+      },
+      {
+        "name": "LoadStringA",
+        "iat_va": "0x40d224"
+      },
+      {
+        "name": "ExitWindowsEx",
+        "iat_va": "0x40d228"
+      },
+      {
+        "name": "DispatchMessageA",
+        "iat_va": "0x40d22c"
+      },
+      {
+        "name": "DestroyWindow",
+        "iat_va": "0x40d230"
+      },
+      {
+        "name": "CreateWindowExA",
+        "iat_va": "0x40d234"
+      },
+      {
+        "name": "CallWindowProcA",
+        "iat_va": "0x40d238"
+      },
+      {
+        "name": "CharPrevA",
+        "iat_va": "0x40d23c"
+      }
+    ],
+    "oleaut32.dll": [
+      {
+        "name": "VariantChangeTypeEx",
+        "iat_va": "0x40d130"
+      },
+      {
+        "name": "VariantCopyInd",
+        "iat_va": "0x40d134"
+      },
+      {
+        "name": "VariantClear",
+        "iat_va": "0x40d138"
+      },
+      {
+        "name": "SysStringLen",
+        "iat_va": "0x40d13c"
+      },
+      {
+        "name": "SysAllocStringLen",
+        "iat_va": "0x40d140"
+      }
+    ],
+    "advapi32.dll": [
+      {
+        "name": "AdjustTokenPrivileges",
+        "iat_va": "0x40d24c"
+      }
+    ],
+    "comctl32.dll": [
+      {
+        "name": "InitCommonControls",
+        "iat_va": "0x40d244"
+      }
+    ]
+  },
+  "resources": [
+    {
+      "path": [
+        "3",
+        "1",
+        "1043"
+      ],
+      "rva": "0x11354",
+      "size": 296,
+      "file": "resource_3_1_1043.bin"
+    },
+    {
+      "path": [
+        "3",
+        "2",
+        "1043"
+      ],
+      "rva": "0x1147c",
+      "size": 1384,
+      "file": "resource_3_2_1043.bin"
+    },
+    {
+      "path": [
+        "3",
+        "3",
+        "1043"
+      ],
+      "rva": "0x119e4",
+      "size": 744,
+      "file": "resource_3_3_1043.bin"
+    },
+    {
+      "path": [
+        "3",
+        "4",
+        "1043"
+      ],
+      "rva": "0x11ccc",
+      "size": 2216,
+      "file": "resource_3_4_1043.bin"
+    },
+    {
+      "path": [
+        "6",
+        "4089",
+        "0"
+      ],
+      "rva": "0x12574",
+      "size": 754,
+      "file": "resource_6_4089_0.bin"
+    },
+    {
+      "path": [
+        "6",
+        "4090",
+        "0"
+      ],
+      "rva": "0x12868",
+      "size": 780,
+      "file": "resource_6_4090_0.bin"
+    },
+    {
+      "path": [
+        "6",
+        "4091",
+        "0"
+      ],
+      "rva": "0x12b74",
+      "size": 718,
+      "file": "resource_6_4091_0.bin"
+    },
+    {
+      "path": [
+        "6",
+        "4093",
+        "0"
+      ],
+      "rva": "0x12e44",
+      "size": 104,
+      "file": "resource_6_4093_0.bin"
+    },
+    {
+      "path": [
+        "6",
+        "4094",
+        "0"
+      ],
+      "rva": "0x12eac",
+      "size": 180,
+      "file": "resource_6_4094_0.bin"
+    },
+    {
+      "path": [
+        "6",
+        "4095",
+        "0"
+      ],
+      "rva": "0x12f60",
+      "size": 174,
+      "file": "resource_6_4095_0.bin"
+    },
+    {
+      "path": [
+        "10",
+        "11111",
+        "0"
+      ],
+      "rva": "0x13010",
+      "size": 44,
+      "file": "resource_10_11111_0.bin"
+    },
+    {
+      "path": [
+        "14",
+        "MAINICON",
+        "1033"
+      ],
+      "rva": "0x1303c",
+      "size": 62,
+      "file": "resource_14_MAINICON_1033.bin"
+    },
+    {
+      "path": [
+        "16",
+        "1",
+        "1033"
+      ],
+      "rva": "0x1307c",
+      "size": 972,
+      "file": "resource_16_1_1033.bin"
+    },
+    {
+      "path": [
+        "24",
+        "1",
+        "1033"
+      ],
+      "rva": "0x13448",
+      "size": 1150,
+      "file": "resource_24_1_1033.bin"
+    }
+  ],
+  "warnings": [],
+  "overlay": {
+    "offset": 53248,
+    "size": 23018607,
+    "prefix_hex": "7a6c621a5d00008000002696861df7f2016b0275948fa7be7be83a09ca8317d15264c298c1a63c2d5747be2dbe94bd8bdc6f2597af50f1d25b8552e1d47c3d4c"
+  },
+  "directories": [
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_IMPORT",
+      "rva": "0xd000",
+      "size": 2384
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_RESOURCE",
+      "rva": "0x11000",
+      "size": 10752
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_TLS",
+      "rva": "0xf000",
+      "size": 24
+    }
+  ],
+  "version_info": {
+    "Comments": "This installation was built with Inno Setup.",
+    "CompanyName": "Media Contact LLC                                           ",
+    "FileDescription": "Air Assault 2 Setup                                         ",
+    "FileVersion": "                    ",
+    "LegalCopyright": "Copyright (C) Media Contact LLC                                                                     "
+  },
+  "rich_header": null,
+  "dll_characteristics": "0x8000",
+  "file_characteristics": "0x818f",
+  "exports": [],
+  "debug": []
+}

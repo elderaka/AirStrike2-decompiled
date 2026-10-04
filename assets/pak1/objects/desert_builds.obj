@@ -1,0 +1,19 @@
+
+// DESERT BUILDINGS
+
+desert_build1_tent {
+	model	"models\desert_builds\tent1.mdl"
+	skin	"models\desert_builds\texture1.tga"
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PROJECTED
+	sort	SORT_TRANS
+}
+
+desert_build1 {
+	model	"models\desert_builds\building1.mdl"
+	skin	"models\desert_builds\texture1.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+
+	attach	abs "desert_build1_tent" "tag_tent"
+}

@@ -1,0 +1,804 @@
+vint_a3_red {
+	model	"models\helics\vints\vint_a.mdl"
+	skin	"models\helics\vints\vint_3_red.tga"
+	blend	BLEND_ALPHA
+	rflag	RF_NOCULLING
+	rflag	RF_NODEPTHWRITE
+	sort	SORT_TRANS
+
+	script	"scripts\helics\vint270.scr"
+}
+
+vint_a3_red_i {
+	model	"models\helics\vints\vint_a.mdl"
+	skin	"models\helics\vints\vint_3_red.tga"
+	blend	BLEND_ALPHA
+	rflag	RF_NOCULLING
+	rflag	RF_NODEPTHWRITE
+	sort	SORT_TRANS
+
+	script	"scripts\helics\vint270i.scr"
+}
+
+
+vint_a3_red_big {
+	model	"models\helics\vints\vint_c_big.mdl"
+	skin	"models\helics\vints\vint_3_red.tga"
+	blend	BLEND_ALPHA
+	rflag	RF_NOCULLING
+	rflag	RF_NODEPTHWRITE
+	sort	SORT_TRANS
+
+	script	"scripts\helics\vint270.scr"
+}
+
+
+vint_a3_red_big_i {
+	model	"models\helics\vints\vint_c_big.mdl"
+	skin	"models\helics\vints\vint_3_red.tga"
+	blend	BLEND_ALPHA
+	rflag	RF_NOCULLING
+	rflag	RF_NODEPTHWRITE
+	sort	SORT_TRANS
+
+	script	"scripts\helics\vint270i.scr"
+}
+
+vint_c4_red {
+	model	"models\helics\vints\vint_c.mdl"
+	skin	"models\helics\vints\vint_4_red.tga"
+	blend	BLEND_ALPHA
+	rflag	RF_NOCULLING
+	rflag	RF_NODEPTHWRITE
+	sort	SORT_TRANS
+
+	script	"scripts\helics\vint270.scr"
+}
+
+vint_a4_red {
+	model	"models\helics\vints\vint_a.mdl"
+	skin	"models\helics\vints\vint_4_red.tga"
+	blend	BLEND_ALPHA
+	rflag	RF_NOCULLING
+	rflag	RF_NODEPTHWRITE
+	sort	SORT_TRANS
+
+	script	"scripts\helics\vint270.scr"
+}
+
+vint_a4_blue {
+	model	"models\helics\vints\vint_a.mdl"
+	skin	"models\helics\vints\vint_4_blue.tga"
+	blend	BLEND_ALPHA
+	rflag	RF_NOCULLING
+	rflag	RF_NODEPTHWRITE
+	sort	SORT_TRANS
+
+	script	"scripts\helics\vint270.scr"
+}
+
+vint_c4_red_i {
+	model	"models\helics\vints\vint_c.mdl"
+	skin	"models\helics\vints\vint_4_red.tga"
+	blend	BLEND_ALPHA
+	rflag	RF_NOCULLING
+	rflag	RF_NODEPTHWRITE
+	sort	SORT_TRANS
+
+	script	"scripts\helics\vint270i.scr"
+}
+
+
+vint_c4_blue {
+	model	"models\helics\vints\vint_c.mdl"
+	skin	"models\helics\vints\vint_4_blue.tga"
+	blend	BLEND_ALPHA
+	rflag	RF_NOCULLING
+	rflag	RF_NODEPTHWRITE
+	sort	SORT_TRANS
+
+	script	"scripts\helics\vint270.scr"
+}
+
+
+vint_c4_blue_big {
+	model	"models\helics\vints\vint_c_big.mdl"
+	skin	"models\helics\vints\vint_4_blue.tga"
+	blend	BLEND_ALPHA
+	rflag	RF_NOCULLING
+	rflag	RF_NODEPTHWRITE
+	sort	SORT_TRANS
+
+	script	"scripts\helics\vint270.scr"
+}
+
+vint_c4_blue_vbig {
+	model	"models\helics\vints\vint_c_vbig.mdl"
+	skin	"models\helics\vints\vint_4_blue.tga"
+	blend	BLEND_ALPHA
+	rflag	RF_NOCULLING
+	rflag	RF_NODEPTHWRITE
+	sort	SORT_TRANS
+
+	script	"scripts\helics\vint270.scr"
+}
+
+vint_c4_blue_big_i {
+	model	"models\helics\vints\vint_c.mdl"
+	skin	"models\helics\vints\vint_4_blue.tga"
+	blend	BLEND_ALPHA
+	rflag	RF_NOCULLING
+	rflag	RF_NODEPTHWRITE
+	sort	SORT_TRANS
+
+	script	"scripts\helics\vint270i.scr"
+}
+
+
+vint_small2 {
+	model	"models\helics\vints\vint_small2.mdl"
+	skin	"models\helics\vints\vint_small.tga"
+	
+	blend	BLEND_ALPHA
+	rflag	RF_NOCULLING
+	rflag	RF_NODEPTHWRITE
+	sort	SORT_TRANS
+	script  "scripts\helics\vint270small.scr"
+}
+
+vint_dead {
+	model	"models\helics\vints\vint_dead.mdl"
+	skin	"models\helics\vints\vint_4_red.tga"
+	rflag	RF_NOCULLING
+	rflag	RF_NODEPTHWRITE
+
+	attach	PS_GIBTRAIL_AIR "origin"
+	script  "scripts\effects\gib.scr"
+}
+
+
+///////////////////////////////////////////////////////////////////
+helic_redflare {
+        type    TYPE_SPRITE
+        skin    "models\helics\redflare.tga"
+        blend   BLEND_ADD
+        sort    SORT_ONGROUND
+        rflag   RF_NODEPTHWRITE
+        min     -4 -4 0.0 0.0
+        max     4 4 1.0 1.0
+}
+
+///////////////////////////////////////////////////////////////////
+
+helic_dead {
+	model	"models\helics\helic_dead.mdl"
+	skin	"models\helics\helic_dead.tga"
+        shadow  SHADOW_PLANAR_LOW
+        flag    FL_ONGROUND_NORMAL
+}
+
+helic_dead2 {
+	model	"models\helics\helic_dead2.mdl"
+	skin	"models\helics\helic_dead.tga"
+        shadow  SHADOW_PLANAR_LOW
+}
+
+///////////ษออออออออออออป//////////////////////////////////////////
+///////////บ///HELIC2///บ//////////////////////////////////////////
+///////////ศออออออออออออผ//////////////////////////////////////////
+
+helic2_mini_green {
+	touch   TOUCH_PLAYER
+	model	"models\helics\helic2\helic2_mini.mdl"
+	skin	"models\helics\helic2\helic2_green2.tga"
+	shadow	SHADOW_PLANAR_HIGH
+	
+	health	180
+	enemy
+
+	score   180
+
+	attach abs	"vint_a3_red"	"tag_vint"
+	attach abs night "svet_far_helic" "tag_fara"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin	
+
+	script	"scripts\helics\helic2\bot1.scr"
+}
+
+////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////// helic_big1 //////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////
+
+helic_big1_green {
+	touch   TOUCH_PLAYER
+	model	"models\helics\helic_big1\heli_big1.mdl"
+	skin	"models\helics\helic_big1\heli_big1_green.tga"
+	shadow	SHADOW_PLANAR_HIGH
+
+	health	2200
+	enemy
+
+	score   2200
+
+	attach	"helic_redflare"	"tag_flash1"
+	attach	"helic_redflare"	"tag_flash2"
+
+	attach abs	"vint_a3_red_big"	"tag_vint1"
+	attach abs	"vint_a3_red_big"	"tag_vint2"
+
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin	
+
+	script	"scripts\helics\helic_big\helic_big1.scr"
+}
+
+helic_big1_desert {
+
+	touch   TOUCH_PLAYER
+	model	"models\helics\helic_big1\heli_big1.mdl"
+	skin	"models\helics\helic_big1\heli_big1_desert.tga"
+	shadow	SHADOW_PLANAR_HIGH
+
+	health	1700
+	enemy
+
+	score   1700
+
+	attach	"helic_redflare"	"tag_flash1"
+	attach	"helic_redflare"	"tag_flash2"
+
+	attach abs	"vint_a3_red_big"	"tag_vint1"
+	attach abs	"vint_a3_red_big"	"tag_vint2"
+
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin	
+	script	"scripts\helics\helic_big\helic_big1.scr"
+}
+
+////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////// helic_big2 //////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////
+
+helic_big2_green {
+	touch   TOUCH_PLAYER
+	model	"models\helics\helic_big2\heli_big2.mdl"
+	skin	"models\helics\helic_big2\heli_big2_green.tga"
+	shadow	SHADOW_PLANAR_HIGH
+
+	health	2500
+	enemy
+
+	score   2500
+
+	attach	"helic_redflare"	"tag_flare01"
+	attach	"helic_redflare"	"tag_flare02"
+
+	attach abs	"vint_a3_red_big"	"tag_vint01"
+	attach abs	"vint_a3_red_big"	"tag_vint02"
+
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin	
+	script	"scripts\helics\helic_big2\helic_big2.scr"
+}
+
+helic_big2_desert {
+	touch   TOUCH_PLAYER
+	model	"models\helics\helic_big2\heli_big2.mdl"
+	skin	"models\helics\helic_big2\heli_big2_desert.tga"
+	shadow	SHADOW_PLANAR_HIGH
+
+	health	2800
+	enemy
+
+	score   2800
+
+	attach	"helic_redflare"	"tag_flare01"
+	attach	"helic_redflare"	"tag_flare02"
+
+	attach abs	"vint_a3_red_big"	"tag_vint01"
+	attach abs	"vint_a3_red_big"	"tag_vint02"
+
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin	
+	script	"scripts\helics\helic_big2\helic_big2.scr"
+}
+
+////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////// small2 ////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////
+
+helic_small2_green {
+	touch   TOUCH_PLAYER
+	model	"models\helics\helic_small\helic_small2.mdl"
+	skin	"models\helics\helic_small\helic_small2_green.tga"
+	shadow	SHADOW_PLANAR_HIGH
+
+	envmode	ENV_GLITTER
+	envmap  "gfx\chrome3.tga"
+	
+	health	120
+	enemy
+
+	score   120
+
+	attach	"helic_redflare"	"tag_redflare01"
+	attach	"helic_redflare"	"tag_redflare02"
+	attach	abs "vint_small2"		"tag_stab"
+
+	attach abs night "svet_far_helic" "tag_fara"
+
+	attach abs	"vint_a3_red"	"tag_vint"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin	
+
+	script	"scripts\helics\small_2\small_2.scr"
+}
+
+
+helic_small2_blue {
+	touch   TOUCH_PLAYER
+	model	"models\helics\helic_small\helic_small2.mdl"
+	skin	"models\helics\helic_small\helic_small2_blue.tga"
+	shadow	SHADOW_PLANAR_HIGH
+
+	envmode	ENV_GLITTER
+	envmap  "gfx\chrome3.tga"
+	
+	health	200
+	enemy
+
+	score   200
+
+	attach	"helic_redflare"	"tag_redflare01"
+	attach	"helic_redflare"	"tag_redflare02"
+	attach	abs "vint_small2"		"tag_stab"
+
+	attach abs night "svet_far_helic" "tag_fara"
+
+	attach abs	"vint_a3_red"	"tag_vint"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin	
+
+	script	"scripts\helics\small_2\small_2.scr"
+}
+
+helic_small2_desert {
+	touch   TOUCH_PLAYER
+	model	"models\helics\helic_small\helic_small2.mdl"
+	skin	"models\helics\helic_small\helic_small2_desert.tga"
+	shadow	SHADOW_PLANAR_HIGH
+
+	envmode	ENV_GLITTER
+	envmap  "gfx\chrome3.tga"
+	
+	health	150
+	enemy
+
+	score   150
+
+	attach	"helic_redflare"	"tag_redflare01"
+	attach	"helic_redflare"	"tag_redflare02"
+	attach	abs "vint_small2"		"tag_stab"
+
+	attach abs night "svet_far_helic" "tag_fara"
+
+	attach abs	"vint_a3_red"	"tag_vint"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin	
+
+	script	"scripts\helics\small_2\small_2.scr"
+}
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////// small3 ////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////
+
+helic_small3_green {
+	touch   TOUCH_PLAYER
+	model	"models\helics\helic_small\helic_small3.mdl"
+	skin	"models\helics\helic_small\helic_small3_green.tga"
+	shadow	SHADOW_PLANAR_HIGH
+
+	envmode	ENV_GLITTER
+	envmap  "gfx\chrome3.tga"
+	
+	health	220
+	enemy
+
+	score   200
+
+	attach	"helic_redflare"	"tag_redflare01"
+	attach	"helic_redflare"	"tag_redflare02"
+	attach	abs "vint_small2"		"tag_stab"
+
+	attach abs night "svet_far_helic" "tag_fara"
+
+	attach abs	"vint_a3_red"	"tag_vint"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin	
+
+	script	"scripts\helics\small_3\small_3.scr"
+}
+
+
+helic_small3_yellow {
+	touch   TOUCH_PLAYER
+	model	"models\helics\helic_small\helic_small3.mdl"
+	skin	"models\helics\helic_small\helic_small3_yellow.tga"
+	shadow	SHADOW_PLANAR_HIGH
+
+	envmode	ENV_GLITTER
+	envmap  "gfx\chrome3.tga"
+	
+	health	250
+	enemy
+
+	score   200
+
+	attach	"helic_redflare"	"tag_redflare01"
+	attach	"helic_redflare"	"tag_redflare02"
+	attach	abs "vint_small2"		"tag_stab"
+
+	attach abs night "svet_far_helic" "tag_fara"
+
+	attach abs	"vint_a3_red"	"tag_vint"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin	
+
+	script	"scripts\helics\small_3\small_3.scr"
+}
+
+
+helic_small3_blue {
+	touch   TOUCH_PLAYER
+	model	"models\helics\helic_small\helic_small3.mdl"
+	skin	"models\helics\helic_small\helic_small3_blue.tga"
+	shadow	SHADOW_PLANAR_HIGH
+
+	envmode	ENV_GLITTER
+	envmap  "gfx\chrome3.tga"
+	
+	health	300
+	enemy
+
+	score   280
+
+	attach	"helic_redflare"	"tag_redflare01"
+	attach	"helic_redflare"	"tag_redflare02"
+	attach	abs "vint_small2"		"tag_stab"
+
+	attach abs night "svet_far_helic" "tag_fara"
+
+	attach abs	"vint_a3_red"	"tag_vint"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin	
+
+	script	"scripts\helics\small_3\small_3.scr"
+}
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////// tiger /////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////
+
+
+helic_tiger {
+	touch   TOUCH_PLAYER
+	model	"models\helics\helic_tiger\helic_tiger.mdl"
+	skin	"models\helics\helic_tiger\helic_tiger.tga"
+
+	shadow	SHADOW_PLANAR_HIGH
+	envmode	ENV_GLITTER
+	envmap  "gfx\chrome3.tga"
+	
+	health	1000
+	enemy
+
+	score   1000
+
+	attach abs	"vint_c4_red"	"tag_vint1"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin	
+
+	script	"scripts\helics\tiger\tiger.scr"
+}
+
+////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////// kamov /////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////
+
+kamov_black {
+	touch   TOUCH_PLAYER
+	model	"models\helics\kamov\kamov.mdl"
+	skin	"models\helics\kamov\kamov_black.tga"
+	shadow	SHADOW_PLANAR_HIGH
+	
+	health	900
+	enemy
+	score   900
+
+	attach abs	"vint_a4_red"	"tag_vint"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin
+	
+	script	"scripts\helics\kamov\kamov.scr"
+}
+
+kamov_snow {
+	touch   TOUCH_PLAYER
+	model	"models\helics\kamov\kamov.mdl"
+	skin	"models\helics\kamov\kamov_snow.tga"
+	shadow	SHADOW_PLANAR_HIGH
+	
+	health	700
+	enemy
+	score   700
+
+	attach abs	"vint_a4_red"	"tag_vint"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin
+	
+	script	"scripts\helics\kamov\kamov.scr"
+}
+
+kamov_green {
+	touch   TOUCH_PLAYER
+	model	"models\helics\kamov\kamov.mdl"
+	skin	"models\helics\kamov\kamov_green.tga"
+	shadow	SHADOW_PLANAR_HIGH
+	
+	health	600
+	enemy
+	score   600
+
+	attach abs	"vint_a4_red"	"tag_vint"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin
+	
+	script	"scripts\helics\kamov\kamov.scr"
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////// heli_cobra /////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////
+
+heli_cobra_green {
+	touch   TOUCH_PLAYER
+	model	"models\helics\cobra\cobra.mdl"
+	skin	"models\helics\cobra\cobra_green.tga"
+	shadow	SHADOW_PLANAR_HIGH
+	
+	health	800
+	enemy
+	score   800
+
+	attach abs	"vint_a4_red"	"tag_vint"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin
+	
+	script	"scripts\helics\heli_cobra\heli_cobra.scr"
+}
+
+
+heli_cobra_desert {
+	touch   TOUCH_PLAYER
+	model	"models\helics\cobra\cobra.mdl"
+	skin	"models\helics\cobra\cobra_desert.tga"
+	shadow	SHADOW_PLANAR_HIGH
+	
+	health	800
+	enemy
+	score   800
+
+	attach abs	"vint_a4_red"	"tag_vint"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin
+	
+	script	"scripts\helics\heli_cobra\heli_cobra.scr"
+}
+ 
+heli_cobra_jungle  {
+
+	touch   TOUCH_PLAYER
+	model	"models\helics\cobra\cobra.mdl"
+	skin	"models\helics\cobra\cobra_jungle.tga"
+	shadow	SHADOW_PLANAR_HIGH
+	
+	health	700
+	enemy
+	score   700
+
+	attach abs "vint_a4_red" "tag_vint"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin
+	
+	script	"scripts\helics\heli_cobra\heli_cobra.scr"
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////// heli_uh ////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////
+
+heli_uh_green  {
+
+	touch   TOUCH_PLAYER
+	model	"models\helics\uh\uh.mdl"
+	skin	"models\helics\uh\uh_green.tga"
+	shadow	SHADOW_PLANAR_HIGH
+	
+	health	350
+	enemy
+	score   350
+
+        attach 	"helic_redflare"	"tag_flare02"
+	attach abs	"vint_a4_red"	"tag_vint01"
+	
+        attach abs night   "svet_far_helic" "tag_fara02"
+
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin
+	
+	script	"scripts\helics\heli_uh\heli_uh.scr"
+}
+
+heli_uh_green2  {
+
+	touch   TOUCH_PLAYER
+	model	"models\helics\uh\uh.mdl"
+	skin	"models\helics\uh\uh_green2.tga"
+	shadow	SHADOW_PLANAR_HIGH
+	
+	health	450
+	enemy
+	score   450
+
+	attach	"helic_redflare"	"tag_flare01"
+        attach	"helic_redflare"	"tag_flare02"
+	attach abs	"vint_a4_red"	"tag_vint01"
+	
+        attach abs night   "svet_far_helic" "tag_fara02"
+
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin
+	
+	script	"scripts\helics\heli_uh\heli_uh.scr"
+}
+
+heli_uh_snow  {
+
+	touch   TOUCH_PLAYER
+	model	"models\helics\uh\uh.mdl"
+	skin	"models\helics\uh\uh_snow.tga"
+	shadow	SHADOW_PLANAR_HIGH
+	
+	health	600
+	enemy
+	score   600
+
+	attach	"helic_redflare"	"tag_flare01"
+        attach	"helic_redflare"	"tag_flare02"
+	attach abs	"vint_a4_red"	"tag_vint01"
+	
+        attach abs night "svet_far_helic" "tag_fara02"
+
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin
+	
+	script	"scripts\helics\heli_uh\heli_uh.scr"
+}
+
+heli_uh_snow2  {
+
+	touch   TOUCH_PLAYER
+	model	"models\helics\uh\uh.mdl"
+	skin	"models\helics\uh\uh_snow2.tga"
+	shadow	SHADOW_PLANAR_HIGH
+	
+	health	700
+	enemy
+	score   700
+
+	attach	"helic_redflare"	"tag_flare01"
+        attach	"helic_redflare"	"tag_flare02"
+	attach abs	"vint_a4_red"	"tag_vint01"
+	
+        attach abs night "svet_far_helic" "tag_fara02"
+
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin
+	
+	script	"scripts\helics\heli_uh\heli_uh.scr"
+}
+
+heli_uh_desert  {
+
+	touch   TOUCH_PLAYER
+	model	"models\helics\uh\uh.mdl"
+	skin	"models\helics\uh\uh_desert.tga"
+	shadow	SHADOW_PLANAR_HIGH
+	
+	health	400
+	enemy
+	score   400
+
+	attach	"helic_redflare"	"tag_flare01"
+        attach	"helic_redflare"	"tag_flare02"
+	attach abs	"vint_a4_red"	"tag_vint01"
+	
+        attach abs night "svet_far_helic" "tag_fara02"
+
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin
+	
+	script	"scripts\helics\heli_uh\heli_uh.scr"
+}
+
+////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////// mi_24 ///////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////
+
+mi_24_green {
+
+	touch   TOUCH_PLAYER
+	model	"models\helics\mi_24\mi_24.mdl"
+	skin	"models\helics\mi_24\mi_24_green.tga"
+	shadow	SHADOW_PLANAR_HIGH
+	
+	health	350
+	enemy
+	score   350
+
+	attach	"helic_redflare"	"tag_flare01"
+	attach	"helic_redflare"	"tag_flare02"
+	attach	"helic_redflare"	"tag_flare03"
+	attach abs	"vint_a4_red"	"tag_vint"
+        attach abs night "svet_far_helic" "tag_fara"
+
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin
+
+	script	"scripts\helics\helic_mi24\bot1.scr"
+}
+
+mi_24_blue {
+
+	touch   TOUCH_PLAYER
+	model	"models\helics\mi_24\mi_24.mdl"
+	skin	"models\helics\mi_24\mi_24_blue.tga"
+	shadow	SHADOW_PLANAR_HIGH
+	
+	health	550
+	enemy
+	score   550
+
+	attach	"helic_redflare"	"tag_flare01"
+	attach	"helic_redflare"	"tag_flare02"
+	attach	"helic_redflare"	"tag_flare03"
+	attach abs	"vint_a4_red"	"tag_vint"
+        attach abs night "svet_far_helic" "tag_fara"
+
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin
+
+	script	"scripts\helics\helic_mi24\bot1.scr"
+}
+
+mi_24_desert {
+
+	touch   TOUCH_PLAYER
+	model	"models\helics\mi_24\mi_24.mdl"
+	skin	"models\helics\mi_24\mi_24_desert.tga"
+	shadow	SHADOW_PLANAR_HIGH
+	
+	health	400
+	enemy
+	score   400
+
+	attach	"helic_redflare"	"tag_flare01"
+	attach	"helic_redflare"	"tag_flare02"
+	attach	"helic_redflare"	"tag_flare03"
+	attach abs	"vint_a4_red"	"tag_vint"
+        attach abs night "svet_far_helic" "tag_fara"
+
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin
+
+	script	"scripts\helics\helic_mi24\bot1.scr"
+}
+
+helic_tiger_2 {
+
+	touch   TOUCH_PLAYER
+	model	"models\helics\helic6\helic6.mdl"
+	skin	"models\helics\helic6\helic6.tga"
+	shadow	SHADOW_PLANAR_HIGH
+
+	health	300
+	enemy
+
+	score   300
+
+	attach abs night "svet_far_helic" "tag_fara"
+
+	attach abs	"vint_c4_red"	"tag_vint1"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin	
+	script	"scripts\helics\tiger_2\bot1.scr"
+}
+

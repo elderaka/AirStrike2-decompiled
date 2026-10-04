@@ -1,0 +1,689 @@
+plane_dead {
+	flag	FL_ONGROUND
+
+        model   "models/planes/plane_dead.mdl"
+        skin    "models/planes/plane_dead.tga"
+        shadow  SHADOW_PLANAR_LOW
+}
+
+
+///////////////////////////////////////////////////////////////////////////////
+/////////////////////////// F15 ///////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////
+
+plane_f15_sandhaki {
+	touch	TOUCH_PLAYER
+
+        health  700
+        enemy
+
+	score	1000
+
+        model   "models/planes/f15/plane_f15.mdl"
+        skin    "models/planes/f15/plane3_sand.tga"
+        shadow  SHADOW_PLANAR_LOW
+
+	attach  "helic_redflare" "tag_flare1"
+	attach  "helic_redflare" "tag_flare2"
+        attach abs night "svet_far" "tag_fara"
+        attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin
+	attach	PS_F15  "tag_smoke"
+
+        script  "scripts\planes\f15\plane.scr"
+} 
+
+plane_f15_blue {
+	touch	TOUCH_PLAYER
+
+        health  900
+        enemy
+
+	score	1400
+
+        model   "models/planes/f15/plane_f15.mdl"
+        skin    "models/planes/f15/plane3_blue.tga"
+        shadow  SHADOW_PLANAR_LOW
+
+	attach  "helic_redflare" "tag_flare1"
+	attach  "helic_redflare" "tag_flare2"
+        attach abs night "svet_far" "tag_fara"
+        attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin
+	attach	PS_F15  "tag_smoke"
+
+        script  "scripts\planes\f15\plane.scr"
+} 
+
+plane_f15_dark {
+	touch	TOUCH_PLAYER
+
+        health  1200
+        enemy
+
+	score	1700
+
+        model   "models/planes/f15/plane_f15.mdl"
+        skin    "models/planes/f15/plane3_dark.tga"
+        shadow  SHADOW_PLANAR_LOW
+
+	attach  "helic_redflare" "tag_flare1"
+	attach  "helic_redflare" "tag_flare2"
+        attach abs night "svet_far" "tag_fara"
+        attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin
+	attach	PS_F15  "tag_smoke"
+
+        script  "scripts\planes\f15\plane.scr"
+} 
+
+plane_f15_green {
+	touch	TOUCH_PLAYER
+
+        health  800
+        enemy
+
+	score	1200
+
+        model   "models/planes/f15/plane_f15.mdl"
+        skin    "models/planes/f15/plane3_green.tga"
+        shadow  SHADOW_PLANAR_LOW
+
+	attach  "helic_redflare" "tag_flare1"
+	attach  "helic_redflare" "tag_flare2"
+        attach abs night "svet_far" "tag_fara"
+        attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin
+	attach	PS_F15  "tag_smoke"
+
+        script  "scripts\planes\f15\plane.scr"
+} 
+
+plane_f15_darkgreen {
+	touch	TOUCH_PLAYER
+
+        health  1000
+        enemy
+
+	score	1500
+
+        model   "models/planes/f15/plane_f15.mdl"
+        skin    "models/planes/f15/plane3_dgreen.tga"
+        shadow  SHADOW_PLANAR_LOW
+
+	attach  "helic_redflare" "tag_flare1"
+	attach  "helic_redflare" "tag_flare2"
+        attach abs night "svet_far" "tag_fara"
+        attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin
+	attach	PS_F15  "tag_smoke"
+
+        script  "scripts\planes\f15\plane.scr"
+} 
+
+              
+///////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////// plane1 ///////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////
+
+plane1_sand {
+        health  600
+        enemy
+
+	score	1000
+
+        model   "models/planes/plane1/plane1.mdl"
+        skin    "models/planes/plane1/plane1_sand.tga"
+        shadow  SHADOW_PLANAR_LOW
+
+        attach abs night "svet_far" "tag_fara"
+        attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin
+
+        script  "scripts\planes\plane1\plane.scr"
+} 
+
+plane1_green {
+        health  700
+        enemy
+
+	score	1200
+
+        model   "models/planes/plane1/plane1.mdl"
+        skin    "models/planes/plane1/plane1_green.tga"
+        shadow  SHADOW_PLANAR_LOW
+
+        attach abs night "svet_far" "tag_fara"
+        attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin
+
+        script  "scripts\planes\plane1\plane.scr"
+} 
+
+plane1_blue {
+        health  1000
+        enemy
+
+	score	1500
+
+        model   "models/planes/plane1/plane1.mdl"
+        skin    "models/planes/plane1/plane1_blue.tga"
+        shadow  SHADOW_PLANAR_LOW
+
+        attach abs night "svet_far" "tag_fara"
+        attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin
+
+        script  "scripts\planes\plane1\plane.scr"
+} 
+
+plane1_winter {
+        health  900
+        enemy
+
+	score	1400
+
+        model   "models/planes/plane1/plane1.mdl"
+        skin    "models/planes/plane1/plane1_winter.tga"
+        shadow  SHADOW_PLANAR_LOW
+
+        attach abs night "svet_far" "tag_fara"
+        attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin
+
+        script  "scripts\planes\plane1\plane.scr"
+} 
+
+//////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////// plane2 ///////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
+
+plane2_vint {
+	model	"models/planes/plane2/plane2_vint.mdl"
+	skin	"models\helics\vints\vint_small.tga"
+	
+	blend	BLEND_ALPHA
+	rflag	RF_NOCULLING
+	rflag	RF_NODEPTHWRITE
+	sort	SORT_TRANS
+	script  "scripts\misc\plane2_vint.scr"
+}
+
+
+plane2_green {
+        health  250
+        enemy
+
+	score	350
+
+        model   "models/planes/plane2/plane2.mdl"
+        skin    "models/planes/plane2/plane2_green.tga"
+        shadow  SHADOW_PLANAR_LOW
+
+	attach  "helic_redflare" "tag_flare"
+        attach abs night "svet_far" "tag_fara"
+        attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin
+	attach abs "plane2_vint" "tag_vint"
+
+        script  "scripts\planes\plane2\plane.scr"
+} 
+
+plane2_sand {
+        health  150
+        enemy
+
+	score	250
+
+        model   "models/planes/plane2/plane2.mdl"
+        skin    "models/planes/plane2/plane2_sand.tga"
+        shadow  SHADOW_PLANAR_LOW
+
+	attach  "helic_redflare" "tag_flare"
+        attach abs night "svet_far" "tag_fara"
+        attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin
+	attach abs "plane2_vint" "tag_vint"
+
+        script  "scripts\planes\plane2\plane.scr"
+} 
+
+plane2_winter {
+        health  320
+        enemy
+
+	score	450
+
+        model   "models/planes/plane2/plane2.mdl"
+        skin    "models/planes/plane2/plane2_winter.tga"
+        shadow  SHADOW_PLANAR_LOW
+
+	attach  "helic_redflare" "tag_flare"
+        attach abs night "svet_far" "tag_fara"
+        attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin
+	attach abs "plane2_vint" "tag_vint"
+
+        script  "scripts\planes\plane2\plane.scr"
+} 
+
+plane2_red {
+        health  400
+        enemy
+
+	score	550
+
+        model   "models/planes/plane2/plane2.mdl"
+        skin    "models/planes/plane2/plane2_red.tga"
+        shadow  SHADOW_PLANAR_LOW
+
+	attach  "helic_redflare" "tag_flare"
+        attach abs night "svet_far" "tag_fara"
+        attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin
+	attach abs "plane2_vint" "tag_vint"
+
+        script  "scripts\planes\plane2\plane.scr"
+} 
+
+plane2_black {
+        health  500
+        enemy
+
+	score	650
+
+        model   "models/planes/plane2/plane2.mdl"
+        skin    "models/planes/plane2/plane2_black.tga"
+        shadow  SHADOW_PLANAR_LOW
+
+	attach  "helic_redflare" "tag_flare"
+        attach abs night "svet_far" "tag_fara"
+        attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin
+	attach abs "plane2_vint" "tag_vint"
+
+        script  "scripts\planes\plane2\plane.scr"
+} 
+
+/////////////////////////////////////////////////////////////////////////////////
+////////////////////////// plane_spacecutter ////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////
+
+plane_spacecutter {
+	touch	TOUCH_PLAYER
+
+        health  200
+        enemy
+
+	score	100
+
+        model   "models\planes\spacecutter\spacecutter.mdl"
+        skin    "models\planes\spacecutter\plane_spacecutter.tga"
+        shadow  SHADOW_PLANAR_LOW
+
+	attach  "redflare_small" "tag_flare1"
+	attach  "redflare_small" "tag_flare2"
+
+//        attach abs night "svet_far" "tag_fara"
+
+//        attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin
+//	attach	PS_F15  "tag_smoke"
+
+        script  "scripts\planes\plane_spacecutter.scr"
+} 
+
+
+///////////////////////////////////////////////////////////////
+
+plane_spacecutter_black {
+	touch	TOUCH_PLAYER
+
+
+        health  300
+        enemy
+
+	score	400
+
+        model   "models\planes\spacecutter\spacecutter.mdl"
+        skin    "models\planes\spacecutter\plane_spacecutter_black.tga"
+        shadow  SHADOW_PLANAR_LOW
+
+	attach  "redflare_small" "tag_flare1"
+	attach  "redflare_small" "tag_flare2"
+
+//        attach abs night "svet_far" "tag_fara"
+
+//        attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin
+//	attach	PS_F15  "tag_smoke"
+
+        script  "scripts\planes\plane_spacecutter_mine.scr"
+} 
+
+
+///////////////=========================/////////////////////
+
+plane_f15_menu {
+        health  340
+	enemy
+	score   450
+
+	flag    FL_TEMPORARY	
+
+        model   "models/planes/f15/plane_f15.mdl"
+        skin    "models/planes/f15/plane3_blue.tga"
+        shadow  SHADOW_PLANAR_LOW
+
+	attach  "helic_redflare" "tag_flare1"
+	attach  "helic_redflare" "tag_flare2"
+        attach abs night "svet_far" "tag_fara"
+        attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin
+	attach	PS_F15  "tag_smoke"
+
+        script  "scripts\planes\f15\plane_menu.scr"
+} 
+
+
+
+plane2_green_menu {
+        health  250
+        enemy
+
+	flag    FL_TEMPORARY	
+
+	score	350
+
+        model   "models/planes/plane2/plane2.mdl"
+        skin    "models/planes/plane2/plane2_green.tga"
+        shadow  SHADOW_PLANAR_LOW
+
+	attach  "helic_redflare" "tag_flare"
+        attach abs night "svet_far" "tag_fara"
+        attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin
+	attach abs "plane2_vint" "tag_vint"
+
+        script  "scripts\planes\plane2\plane_menu.scr"
+} 
+
+//////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////// MIG //////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+
+
+plane_mig_black {
+	touch	TOUCH_PLAYER
+
+        health  1200
+        enemy
+
+	score	1200
+
+        model   "models/planes/mig/mig.mdl"
+        skin    "models/planes/mig/mig_black.tga"
+        shadow  SHADOW_PLANAR_LOW
+
+	attach  "helic_redflare" "tag_flare1"
+	attach  "helic_redflare" "tag_flare2"
+        attach abs night "svet_far" "tag_fara"
+        attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin
+	attach	PS_F15  "tag_smoke"
+
+        script  "scripts\planes\mig\plane.scr"
+} 
+
+plane_mig_black1 {
+	touch	TOUCH_PLAYER
+
+        health  1500
+        enemy
+
+	score	1500
+
+        model   "models/planes/mig/mig.mdl"
+        skin    "models/planes/mig/mig_black1.tga"
+        shadow  SHADOW_PLANAR_LOW
+
+	attach  "helic_redflare" "tag_flare1"
+	attach  "helic_redflare" "tag_flare2"
+        attach abs night "svet_far" "tag_fara"
+        attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin
+	attach	PS_F15  "tag_smoke"
+
+        script  "scripts\planes\mig\plane.scr"
+} 
+
+plane_mig_green {
+	touch	TOUCH_PLAYER
+
+        health  600
+        enemy
+
+	score	600
+
+        model   "models/planes/mig/mig.mdl"
+        skin    "models/planes/mig/mig_green.tga"
+        shadow  SHADOW_PLANAR_LOW
+
+	attach  "helic_redflare" "tag_flare1"
+	attach  "helic_redflare" "tag_flare2"
+        attach abs night "svet_far" "tag_fara"
+        attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin
+	attach	PS_F15  "tag_smoke"
+
+        script  "scripts\planes\mig\plane.scr"
+} 
+
+///////////////ÚÄÄÄÄÄÄÄÄÄÄÄ¿///////////////////////////////////
+///////////////³/// plane_a³///////////////////////////////////
+///////////////ÀÄÄÄÄÄÄÄÄÄÄÄÙ///////////////////////////////////
+
+plane_a_blue {
+        health  1000
+        civilian
+
+
+        model   "models/planes/plane_a/plane_a.mdl"
+        skin    "models/planes/plane_a/plane_a_blue.tga"
+        shadow  SHADOW_PLANAR_LOW
+
+	envmode	ENV_GLITTER
+	envmap  "gfx\chrome3.tga"
+
+	attach  "helic_redflare" "tag_flare01"
+	attach  "helic_redflare" "tag_flare02"
+	attach  "whiteflare_small" "tag_flare03"
+	attach  "whiteflare_small" "tag_flare04"
+	attach  "helic_redflare" "tag_flare05"
+	attach  "helic_redflare" "tag_flare06"
+	attach  "helic_redflare" "tag_flare07"
+
+//        attach abs night "svet_far" "tag_fara"
+        attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin
+
+        script  "scripts\planes\plane_a\plane.scr"
+} 
+
+
+///////////////////////////////////////////////////////////////////////////////
+///////////////////////////////// Plane B52 ///////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////
+
+plane_b52_green {
+	touch	TOUCH_PLAYER
+
+        health  2000
+        enemy
+
+	score	2000
+
+        model   "models/planes/bomber/b52.mdl"
+        skin    "models/planes/bomber/b52_green.tga"
+        shadow  SHADOW_PLANAR_LOW
+
+	envmode	ENV_GLITTER
+	envmap  "gfx\chrome3.tga"
+
+	attach  "helic_redflare" "tag_flare01"
+	attach  "helic_redflare" "tag_flare02"
+	attach  "whiteflare_small" "tag_flare03"
+	attach  "helic_redflare" "tag_flare04"
+	attach  "helic_redflare" "tag_flare05"
+        attach abs night "svet_far" "tag_fara"
+        attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin
+
+	attach	PS_F15  "tag_jet01"
+	attach	PS_F15  "tag_jet02"
+	attach	PS_F15  "tag_jet03"
+	attach	PS_F15  "tag_jet04"
+
+        script  "scripts\planes\plane_b52\plane_b52.scr"
+}
+
+plane_b52_blue {
+	touch	TOUCH_PLAYER
+
+        health  2500
+        enemy
+
+	score	2500
+
+        model   "models/planes/bomber/b52.mdl"
+        skin    "models/planes/bomber/b52_blue.tga"
+        shadow  SHADOW_PLANAR_LOW
+
+	envmode	ENV_GLITTER
+	envmap  "gfx\chrome3.tga"
+
+	attach  "helic_redflare" "tag_flare01"
+	attach  "helic_redflare" "tag_flare02"
+	attach  "whiteflare_small" "tag_flare03"
+	attach  "helic_redflare" "tag_flare04"
+	attach  "helic_redflare" "tag_flare05"
+
+	attach	PS_F15  "tag_jet01"
+	attach	PS_F15  "tag_jet02"
+	attach	PS_F15  "tag_jet03"
+	attach	PS_F15  "tag_jet04"
+
+//        attach abs night "svet_far" "tag_fara"
+        attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin
+
+        script  "scripts\planes\plane_b52\plane_b52.scr"
+}
+
+
+/////////////////////////////////////////////////////////////////////////////////
+///////////////////////////// fighter ///////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////
+
+plane_fighter_green {
+	touch	TOUCH_PLAYER
+        health  1500
+        enemy
+
+	score	1500
+
+        model   "models/planes/fighter/fighter.mdl"
+        skin    "models/planes/fighter/fighter_green.tga"
+        shadow  SHADOW_PLANAR_LOW
+
+	envmode	ENV_GLITTER
+	envmap  "gfx\chrome3.tga"
+
+        script  "scripts\planes\fighter\fighter.scr"
+}
+
+plane_fighter_brown {
+	touch	TOUCH_PLAYER
+        health  1800
+        enemy
+
+	score	1800
+
+        model   "models/planes/fighter/fighter.mdl"
+        skin    "models/planes/fighter/fighter_brown.tga"
+        shadow  SHADOW_PLANAR_LOW
+
+	envmode	ENV_GLITTER
+	envmap  "gfx\chrome3.tga"
+
+        script  "scripts\planes\fighter\fighter.scr"
+}
+
+plane_fighter_desert_1 {
+	touch	TOUCH_PLAYER
+        health  1500
+        enemy
+
+	score	1500
+
+        model   "models/planes/fighter/fighter.mdl"
+        skin    "models/planes/fighter/fighter_desert_1.tga"
+        shadow  SHADOW_PLANAR_LOW
+
+	envmode	ENV_GLITTER
+	envmap  "gfx\chrome3.tga"
+
+        script  "scripts\planes\fighter\fighter.scr"
+}
+
+plane_fighter_desert_2 {
+	touch	TOUCH_PLAYER
+        health  1500
+        enemy
+
+	score	1500
+
+        model   "models/planes/fighter/fighter.mdl"
+        skin    "models/planes/fighter/fighter_desert_2.tga"
+        shadow  SHADOW_PLANAR_LOW
+
+	envmode	ENV_GLITTER
+	envmap  "gfx\chrome3.tga"
+
+        script  "scripts\planes\fighter\fighter.scr"
+}
+
+/////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////// plane_cargo /////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////
+
+plane_cargo_green {
+        health  400
+	civilian
+//	enemy
+
+//	score	400
+
+        model   "models/planes/cargo/cargo.mdl"
+        skin    "models/planes/cargo/cargo_green.tga"
+        shadow  SHADOW_PLANAR_LOW
+
+	envmode	ENV_GLITTER
+	envmap  "gfx\chrome3.tga"
+
+	attach  "helic_redflare" "tag_flare01"
+	attach  "helic_redflare" "tag_flare02"
+	attach  "whiteflare_small" "tag_flare03"
+	attach  "whiteflare_small" "tag_flare04"
+	attach  "whiteflare_small" "tag_flare05"
+	attach  "whiteflare_small" "tag_flare06"
+
+	attach	PS_F15  "tag_jet01"
+	attach	PS_F15  "tag_jet02"
+
+        script  "scripts\planes\plane_cargo\plane_cargo.scr"
+}
+
+plane_cargo_white {
+        health  400
+	civilian
+//	enemy
+
+//	score	400
+
+        model   "models/planes/cargo/cargo.mdl"
+        skin    "models/planes/cargo/cargo_white.tga"
+        shadow  SHADOW_PLANAR_LOW
+
+	envmode	ENV_GLITTER
+	envmap  "gfx\chrome3.tga"
+
+	attach  "helic_redflare" "tag_flare01"
+	attach  "helic_redflare" "tag_flare02"
+	attach  "whiteflare_small" "tag_flare03"
+	attach  "whiteflare_small" "tag_flare04"
+	attach  "whiteflare_small" "tag_flare05"
+	attach  "whiteflare_small" "tag_flare06"
+
+	attach	PS_F15  "tag_jet01"
+	attach	PS_F15  "tag_jet02"
+
+        script  "scripts\planes\plane_cargo\plane_cargo.scr"
+}
+ 

@@ -1,0 +1,45 @@
+entry=39 slots=18 functions=['random', 'movez', 'remove']
+0000 INDEX_ADDRESS      a=-1 b=14 c=0 flags=0x00
+0001 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+0002 PUSH               a=0 b=0 c=0 flags=0x80
+0003 PUSH               a=1 b=0 c=0 flags=0x00
+0004 CALL               a=-1 b=2 c=0 flags=0x00 external=random
+0005 POP                a=1 b=0 c=1 flags=0x00
+0006 POP                a=0 b=0 c=0 flags=0x80
+0007 MUL                a=1135869952 b=2 c=1 flags=0x01 a_float=360
+0008 MOVE               a=0 b=1 c=0 flags=0x82
+0009 INDEX_ADDRESS      a=-1 b=5 c=0 flags=0x00
+0010 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+0011 INDEX_ADDRESS      a=-2 b=5 c=1 flags=0x00
+0012 INDEX_ADDRESS      a=1 b=1 c=1 flags=0x00
+0013 ADD                a=1 b=1106247680 c=1 flags=0x12 b_float=30
+0014 MOVE               a=0 b=1 c=0 flags=0x82
+0015 YIELD              a=0 b=0 c=0 flags=0x00
+0016 INDEX_ADDRESS      a=-1 b=1 c=0 flags=0x00
+0017 GT                 a=0 b=1036831949 c=0 flags=0x12 b_float=0.1
+0018 JUMP_IF_NONZERO    a=0 b=6 c=0 flags=0x00
+0019 INDEX_ADDRESS      a=-1 b=1 c=2 flags=0x00
+0020 SUB                a=1056964608 b=2 c=1 flags=0x21 a_float=0.5
+0021 MUL                a=1 b=1073741824 c=1 flags=0x10 b_float=2
+0022 MOVE               a=16 b=1 c=0 flags=0x00
+0023 JUMP               a=4 b=0 c=0 flags=0x00
+0024 INDEX_ADDRESS      a=-1 b=1 c=1 flags=0x00
+0025 MUL                a=1 b=1082130432 c=1 flags=0x12 b_float=4
+0026 MOVE               a=16 b=1 c=0 flags=0x00
+0027 INDEX_ADDRESS      a=-1 b=28 c=0 flags=0x00
+0028 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+0029 MOVE               a=0 b=16 c=0 flags=0x82
+0030 INDEX_ADDRESS      a=-1 b=28 c=0 flags=0x00
+0031 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+0032 MOVE               a=0 b=16 c=0 flags=0x82
+0033 INDEX_ADDRESS      a=-1 b=28 c=0 flags=0x00
+0034 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0035 MOVE               a=0 b=16 c=0 flags=0x82
+0036 MOVE               a=0 b=1088421888 c=0 flags=0x10 b_float=7
+0037 CALL               a=-2 b=0 c=0 flags=0x00 external=movez
+0038 YIELD              a=0 b=0 c=0 flags=0x00
+0039 SET_WAIT           a=1050253722 b=0 c=0 flags=0x01 a_float=0.3
+0040 CALL_WAIT          a=16 b=0 c=0 flags=0x00
+0041 MOVE               a=0 b=-1 c=0 flags=0x00
+0042 CALL               a=-3 b=0 c=0 flags=0x00 external=remove
+0043 YIELD              a=0 b=0 c=0 flags=0x00

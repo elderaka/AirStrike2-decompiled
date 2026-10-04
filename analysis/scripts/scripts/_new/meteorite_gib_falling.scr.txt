@@ -1,0 +1,97 @@
+entry=46 slots=19 functions=['crandom', 'random', 'move', 'rotatex', 'rotatey', 'remove', 'TerrainHeight', 'create']
+0000 INDEX_ADDRESS      a=-1 b=17 c=0 flags=0x00
+0001 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+0002 PUSH               a=0 b=0 c=0 flags=0x80
+0003 PUSH               a=1 b=0 c=0 flags=0x00
+0004 CALL               a=-1 b=2 c=0 flags=0x00 external=crandom
+0005 POP                a=1 b=0 c=1 flags=0x00
+0006 POP                a=0 b=0 c=0 flags=0x80
+0007 MUL                a=1124859904 b=2 c=1 flags=0x01 a_float=140
+0008 MOVE               a=0 b=1 c=0 flags=0x82
+0009 INDEX_ADDRESS      a=-1 b=17 c=0 flags=0x00
+0010 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+0011 PUSH               a=0 b=0 c=0 flags=0x80
+0012 PUSH               a=1 b=0 c=0 flags=0x00
+0013 CALL               a=-1 b=2 c=0 flags=0x00 external=crandom
+0014 POP                a=1 b=0 c=1 flags=0x00
+0015 POP                a=0 b=0 c=0 flags=0x80
+0016 MUL                a=1124859904 b=2 c=1 flags=0x01 a_float=140
+0017 MOVE               a=0 b=1 c=0 flags=0x82
+0018 INDEX_ADDRESS      a=-1 b=17 c=0 flags=0x00
+0019 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0020 PUSH               a=0 b=0 c=0 flags=0x80
+0021 PUSH               a=1 b=0 c=0 flags=0x00
+0022 CALL               a=-2 b=2 c=0 flags=0x00 external=random
+0023 POP                a=1 b=0 c=1 flags=0x00
+0024 POP                a=0 b=0 c=0 flags=0x80
+0025 MUL                a=1119092736 b=2 c=1 flags=0x01 a_float=90
+0026 MOVE               a=0 b=1 c=0 flags=0x82
+0027 INDEX_ADDRESS      a=-1 b=14 c=0 flags=0x00
+0028 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+0029 PUSH               a=0 b=0 c=0 flags=0x80
+0030 PUSH               a=1 b=0 c=0 flags=0x00
+0031 CALL               a=-2 b=2 c=0 flags=0x00 external=random
+0032 POP                a=1 b=0 c=1 flags=0x00
+0033 POP                a=0 b=0 c=0 flags=0x80
+0034 MUL                a=1135869952 b=2 c=1 flags=0x01 a_float=360
+0035 MOVE               a=0 b=1 c=0 flags=0x82
+0036 INDEX_ADDRESS      a=-1 b=14 c=0 flags=0x00
+0037 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+0038 PUSH               a=0 b=0 c=0 flags=0x80
+0039 PUSH               a=1 b=0 c=0 flags=0x00
+0040 CALL               a=-2 b=2 c=0 flags=0x00 external=random
+0041 POP                a=1 b=0 c=1 flags=0x00
+0042 POP                a=0 b=0 c=0 flags=0x80
+0043 MUL                a=1135869952 b=2 c=1 flags=0x01 a_float=360
+0044 MOVE               a=0 b=1 c=0 flags=0x82
+0045 YIELD              a=0 b=0 c=0 flags=0x00
+0046 INDEX_ADDRESS      a=-1 b=17 c=0 flags=0x00
+0047 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0048 MUL                a=1128792064 b=-2 c=1 flags=0x01 a_float=200
+0049 SUB                a=0 b=1 c=0 flags=0x82
+0050 INDEX_ADDRESS      a=-1 b=17 c=0 flags=0x00
+0051 CALL               a=-3 b=0 c=0 flags=0x00 external=move
+0052 MOVE               a=0 b=1120403456 c=0 flags=0x10 b_float=100
+0053 CALL               a=-4 b=0 c=0 flags=0x00 external=rotatex
+0054 MOVE               a=0 b=1120403456 c=0 flags=0x10 b_float=100
+0055 CALL               a=-5 b=0 c=0 flags=0x00 external=rotatey
+0056 GT                 a=18 b=1065353216 c=0 flags=0x10 b_float=1
+0057 JUMP_IF_NONZERO    a=0 b=3 c=0 flags=0x00
+0058 MOVE               a=0 b=-1 c=0 flags=0x00
+0059 CALL               a=-6 b=0 c=0 flags=0x00 external=remove
+0060 PUSH               a=0 b=0 c=0 flags=0x00
+0061 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0062 INDEX_ADDRESS      a=1 b=0 c=1 flags=0x00
+0063 MOVE               a=0 b=1 c=0 flags=0x20
+0064 INDEX_ADDRESS      a=-1 b=5 c=2 flags=0x00
+0065 INDEX_ADDRESS      a=2 b=1 c=2 flags=0x00
+0066 MOVE               a=1 b=2 c=0 flags=0x20
+0067 CALL               a=-7 b=1 c=0 flags=0x00 external=TerrainHeight
+0068 POP                a=0 b=0 c=0 flags=0x00
+0069 MOVE               a=16 b=1 c=0 flags=0x00
+0070 INDEX_ADDRESS      a=-1 b=5 c=0 flags=0x00
+0071 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0072 GT                 a=0 b=16 c=0 flags=0x02
+0073 JUMP_IF_NONZERO    a=0 b=14 c=0 flags=0x00
+0074 INDEX_ADDRESS      a=-1 b=5 c=0 flags=0x00
+0075 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0076 GT                 a=0 b=-3 c=0 flags=0x02
+0077 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+0078 RETURN             a=0 b=0 c=0 flags=0x00
+0079 GT                 a=17 b=0 c=0 flags=0x10 b_float=0
+0080 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+0081 RETURN             a=0 b=0 c=0 flags=0x00
+0082 MOVE               a=17 b=1065353216 c=0 flags=0x10 b_float=1
+0083 MOVE               a=0 b=0 c=0 flags=0x10 b_float=0
+0084 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0085 CALL               a=-8 b=0 c=0 flags=0x00 external=create
+0086 JUMP               a=9 b=0 c=0 flags=0x00
+0087 ADD                a=16 b=1045220557 c=16 flags=0x10 b_float=0.2
+0088 INDEX_ADDRESS      a=-1 b=5 c=0 flags=0x00
+0089 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0090 MOVE               a=0 b=16 c=0 flags=0x82
+0091 INDEX_ADDRESS      a=-1 b=17 c=0 flags=0x00
+0092 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0093 MUL                a=0 b=-1102263091 c=0 flags=0x92 b_float=-0.2
+0094 ADD                a=18 b=1065353216 c=18 flags=0x10 b_float=1
+0095 YIELD              a=0 b=0 c=0 flags=0x00

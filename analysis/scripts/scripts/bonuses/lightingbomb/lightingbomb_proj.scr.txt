@@ -1,0 +1,8 @@
+entry=0 slots=16 functions=['rotatex', 'move', 'Lightning']
+0000 MOVE               a=0 b=1120403456 c=0 flags=0x10 b_float=100
+0001 CALL               a=-1 b=0 c=0 flags=0x00 external=rotatex
+0002 INDEX_ADDRESS      a=-1 b=17 c=0 flags=0x00
+0003 CALL               a=-2 b=0 c=0 flags=0x00 external=move
+0004 MOVE               a=0 b=1140457472 c=0 flags=0x10 b_float=500
+0005 CALL               a=-3 b=0 c=0 flags=0x00 external=Lightning
+0006 YIELD              a=0 b=0 c=0 flags=0x00

@@ -1,0 +1,279 @@
+
+
+Empty {
+	script "scripts\empty.scr"
+}
+
+
+stop_camera {
+	script	"scripts\stop.scr"
+}
+
+meteorite_flare2 {
+	type	TYPE_SPRITE
+	skin	"gfx\effects\gibflare.tga"
+	blend	BLEND_ADD
+	rflag	RF_NODEPTHWRITE
+
+	min	-100 -100 0.0 0.0
+	max	100 100 1.0 1.0	
+}
+
+meteorite_small_flare {
+	type	TYPE_SPRITE
+	skin	"gfx\effects\gibflare.tga"
+	blend	BLEND_ADD
+	rflag	RF_NODEPTHWRITE
+
+	min	-50 -50 0.0 0.0
+	max	50 50 1.0 1.0	
+}
+
+
+meteorite_gray {
+	touch	TOUCH_CIVILIAN
+	touch   TOUCH_PLAYER
+
+	flag FL_NONTARGET
+
+        health  500
+        enemy
+
+	model	"models\_new\meteorite1.mdl"
+	skin	"models\_new\meteorite.tga"
+	shadow	SHADOW_PROJECTED
+
+	attach  id "PS_FIRE" PS_METEORITE_FALLING "origin"
+	attach  id "PS_SMOKE" PS_METEORITE_FALLING_SMOKE "origin"
+
+	attach	"meteorite_flare2" "origin"
+
+	script	"scripts\_new\meteorite_falling.scr"
+}
+
+
+meteorite_gray_dead {
+        flag    FL_ONGROUND
+	model	"models\_new\meteorite1.mdl"
+	skin	"models\_new\meteorite.tga"
+}
+
+
+meteorite_gray_medium {
+	touch	TOUCH_CIVILIAN
+	touch   TOUCH_PLAYER
+	flag FL_NONTARGET
+
+        health  300
+        enemy
+	
+	model	"models\_new\meteorite1_medium.mdl"
+	skin	"models\_new\meteorite.tga"
+	shadow	SHADOW_PROJECTED
+
+	attach  id "PS_FIRE" PS_METEORITE_MEDIUM_FALLING "origin"
+	attach  id "PS_SMOKE" PS_METEORITE_MEDIUM_FALLING_SMOKE "origin"
+
+	attach	"meteorite_small_flare" "origin"
+
+	script	"scripts\_new\meteorite_medium_falling.scr"
+}
+
+
+meteorite_gray_medium_dead {
+        flag    FL_ONGROUND
+	model	"models\_new\meteorite1_medium.mdl"
+	skin	"models\_new\meteorite.tga"
+}
+
+
+meteorite_gray_gib1 {
+	model	"models\_new\meteorite1_gib.mdl"
+	skin	"models\_new\meteorite.tga"
+	shadow	SHADOW_PROJECTED
+
+//	attach  id "PS_FIRE" PS_METEORITE_MEDIUM_FALLING "origin"
+//	attach  id "PS_SMOKE" PS_METEORITE_MEDIUM_FALLING_SMOKE "origin"
+
+	script	"scripts\_new\meteorite_gib_falling.scr"
+}
+
+meteorite_gray_gib2 {
+	model	"models\_new\meteorite1_gib2.mdl"
+	skin	"models\_new\meteorite.tga"
+	shadow	SHADOW_PROJECTED
+
+//	attach  id "PS_FIRE" PS_METEORITE_MEDIUM_FALLING "origin"
+//	attach  id "PS_SMOKE" PS_METEORITE_MEDIUM_FALLING_SMOKE "origin"
+
+	script	"scripts\_new\meteorite_gib_falling.scr"
+}
+
+meteorite_gray_gib3 {
+	model	"models\_new\meteorite1_gib3.mdl"
+	skin	"models\_new\meteorite.tga"
+	shadow	SHADOW_PROJECTED
+
+//	attach  id "PS_FIRE" PS_METEORITE_MEDIUM_FALLING "origin"
+//	attach  id "PS_SMOKE" PS_METEORITE_MEDIUM_FALLING_SMOKE "origin"
+
+	script	"scripts\_new\meteorite_gib_falling.scr"
+}
+
+
+meteorite_gray_gib_m1 {
+	model	"models\_new\meteorite1_gib_m1.mdl"
+	skin	"models\_new\meteorite.tga"
+	shadow	SHADOW_PROJECTED
+
+	script	"scripts\_new\meteorite_gib_falling.scr"
+}
+
+meteorite_gray_gib_m2 {
+	model	"models\_new\meteorite1_gib_m2.mdl"
+	skin	"models\_new\meteorite.tga"
+	shadow	SHADOW_PROJECTED
+
+//	attach  id "PS_FIRE" PS_METEORITE_MEDIUM_FALLING "origin"
+//	attach  id "PS_SMOKE" PS_METEORITE_MEDIUM_FALLING_SMOKE "origin"
+
+	script	"scripts\_new\meteorite_gib_falling.scr"
+}
+
+
+/////effects///////
+
+
+expl_wave_meteorite {
+	model	"models\misc\sphere.mdl"
+	skin	"models\misc\hlanno.tga"
+        blend	BLEND_ADD
+	rflag	RF_NOLIGHTING
+	rflag	RF_NODEPTHWRITE
+	script	"scripts\effects\wave_meteorite.scr"
+}
+
+
+mark_big {
+	type	TYPE_MARK
+	skin	"gfx\mark.tga"
+	blend	BLEND_FILTER
+	min	-100 -100 0 0
+	max	100 100 1 1
+	script	"scripts\weapons\hit10.scr"
+}
+
+
+splash_big {
+	model	"models\misc\splash.mdl"
+	rflag	RF_NOLIGHTING
+	rflag	RF_NODEPTHWRITE
+	sort	SORT_ONGROUND
+	blend	BLEND_ADD
+	
+	script	"scripts\effects\splash_big.scr"
+}
+
+
+expl_meteorite_falled {
+	flag    FL_NODRAW
+	script	"scripts\effects\expl_meteorite_falled.scr"
+	attach  PS_EXPLOSION_SPARKS "origin"
+	attach  PS_EXPLOSION_METEORITE_SPARKS "origin"
+	attach  PS_EXPLOSION_METEORITE_SPARKS_RED "origin"
+}
+
+expl_meteorite {
+	flag    FL_NODRAW
+	script	"scripts\effects\expl_meteorite.scr"
+	attach  PS_EXPLOSION_METEORITE_SPARKS "origin"
+	attach  PS_EXPLOSION_METEORITE_SPARKS_RED "origin"
+}
+
+expl_meteorite_medium_falled {
+	flag    FL_NODRAW
+	script	"scripts\effects\expl_meteorite_medium_falled.scr"
+	attach  PS_EXPLOSION_METEORITE_SPARKS "origin"
+	attach  PS_EXPLOSION_METEORITE_SPARKS_RED "origin"
+}
+
+expl_meteorite_medium {
+	flag    FL_NODRAW
+	script	"scripts\effects\expl_meteorite_medium.scr"
+	attach  PS_EXPLOSION_METEORITE_SPARKS "origin"
+	attach  PS_EXPLOSION_METEORITE_SPARKS_RED "origin"
+}
+
+
+expl_ring_normalled {
+	model	"models\misc\ring.mdl"
+	skin	"models\misc\ring_fire.tga"
+	rflag	RF_NOLIGHTING
+	rflag	RF_NODEPTHTEST
+	sort	SORT_ONGROUND
+	blend	BLEND_ADD
+	
+	script	"scripts\effects\expl_ring_normalled.scr"
+}
+
+
+expl_ring_small_normalled {
+	model	"models\misc\ring.mdl"
+	skin	"models\misc\ring_fire.tga"
+	rflag	RF_NOLIGHTING
+	rflag	RF_NODEPTHTEST
+	sort	SORT_ONGROUND
+	blend	BLEND_ADD
+	
+	script	"scripts\effects\expl_ring_small_normalled.scr"
+}
+
+
+iceberg {
+	model	"models\_new\iceberg.mdl"
+	skin	"models\_new\iceberg.tga"
+
+	flag	FL_ONWATER
+
+	envmode	ENV_GLITTER
+	envmap  "gfx\chrome3.tga"
+
+	blend	BLEND_ADD
+	rflag	RF_NOCULLING
+
+
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+}
+
+ldina {
+	model	"models\_new\ldina.mdl"
+	skin	"models\_new\ldina.tga"
+
+	flag	FL_ONWATER
+
+	//envmode	ENV_GLITTER
+	//envmap  "gfx\chrome3.tga"
+
+	blend	BLEND_ADD
+	rflag	RF_NOCULLING
+
+
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+	rflag	RF_NOLIGHTING
+
+        
+}
+
+speed_up_N_A_R_K_O_M_A_N {
+	flag 	FL_NODRAW
+	flag    FL_TEMPORARY
+	script	"scripts\bonuslevel_spdup1.scr"
+}	
+
+bonus_level_speed_up {
+	flag 	FL_NODRAW
+	flag    FL_TEMPORARY
+	script	"scripts\bonuslevel_spdup.scr"
+}	

@@ -1,0 +1,21 @@
+entry=16 slots=16 functions=['create', 'deactivate', 'lRotateTo']
+0000 INDEX_ADDRESS      a=-1 b=24 c=0 flags=0x00
+0001 MOVE               a=0 b=1120403456 c=0 flags=0x92 b_float=100
+0002 YIELD              a=0 b=0 c=0 flags=0x00
+0003 INDEX_ADDRESS      a=-1 b=34 c=0 flags=0x00
+0004 GT                 a=0 b=0 c=0 flags=0x12 b_float=0
+0005 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+0006 RETURN             a=0 b=0 c=0 flags=0x00
+0007 MOVE               a=0 b=0 c=0 flags=0x10 b_float=0
+0008 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0009 CALL               a=-1 b=0 c=0 flags=0x00 external=create
+0010 INDEX_ADDRESS      a=-1 b=8 c=0 flags=0x00
+0011 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0012 SUB                a=0 b=-1013579776 c=0 flags=0x92 b_float=-300
+0013 MOVE               a=0 b=-1 c=0 flags=0x00
+0014 CALL               a=-2 b=0 c=0 flags=0x00 external=deactivate
+0015 YIELD              a=0 b=0 c=0 flags=0x00
+0016 MOVE               a=0 b=-2 c=0 flags=0x00
+0017 MOVE               a=1 b=1065353216 c=0 flags=0x10 b_float=1
+0018 CALL_WAIT          a=-3 b=0 c=0 flags=0x00 external=lRotateTo
+0019 YIELD              a=0 b=0 c=0 flags=0x00

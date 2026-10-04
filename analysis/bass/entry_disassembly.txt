@@ -1,0 +1,405 @@
+10040043: b800000410               mov eax, 0x10040000
+10040048: 669c                     pushf 
+1004004a: 60                       pushal 
+1004004b: 50                       push eax
+1004004c: 8bd8                     mov ebx, eax
+1004004e: 0300                     add eax, dword ptr [eax]
+10040050: 68943a0100               push 0x13a94
+10040055: 6a00                     push 0
+10040057: ff501c                   call dword ptr [eax + 0x1c]
+1004005a: 894308                   mov dword ptr [ebx + 8], eax
+1004005d: 6800000010               push 0x10000000
+10040062: 8b3c24                   mov edi, dword ptr [esp]
+10040065: 8b33                     mov esi, dword ptr [ebx]
+10040067: 6681c78007               add di, 0x780
+1004006c: 8d741e08                 lea esi, [esi + ebx + 8]
+10040070: 893b                     mov dword ptr [ebx], edi
+10040072: 53                       push ebx
+10040073: 8b5e10                   mov ebx, dword ptr [esi + 0x10]
+10040076: b880080000               mov eax, 0x880
+1004007b: 56                       push esi
+1004007c: 6a02                     push 2
+1004007e: 50                       push eax
+1004007f: 57                       push edi
+10040080: 6a11                     push 0x11
+10040082: 6a0a                     push 0xa
+10040084: 56                       push esi
+10040085: 6a04                     push 4
+10040087: 50                       push eax
+10040088: 57                       push edi
+10040089: ffd3                     call ebx
+1004008b: 83ee08                   sub esi, 8
+1004008e: 59                       pop ecx
+1004008f: f3a5                     rep movsd dword ptr es:[edi], dword ptr [esi]
+10040091: 59                       pop ecx
+10040092: 6683c758                 add di, 0x58
+10040096: 81c6e4000000             add esi, 0xe4
+1004009c: f3a5                     rep movsd dword ptr es:[edi], dword ptr [esi]
+1004009e: ffd3                     call ebx
+100400a0: 58                       pop eax
+100400a1: 8d9074010000             lea edx, [eax + 0x174]
+100400a7: 833a00                   cmp dword ptr [edx], 0
+100400aa: 0f840727feff             je 0x100227b7
+100400b0: 8b0a                     mov ecx, dword ptr [edx]
+100400b2: 83c214                   add edx, 0x14
+100400b5: 8b5af0                   mov ebx, dword ptr [edx - 0x10]
+100400b8: 85db                     test ebx, ebx
+100400ba: 74eb                     je 0x100400a7
+100400bc: 8b0424                   mov eax, dword ptr [esp]
+100400bf: 8d3401                   lea esi, [ecx + eax]
+100400c2: 8b6c2404                 mov ebp, dword ptr [esp + 4]
+100400c6: 8b6d08                   mov ebp, dword ptr [ebp + 8]
+100400c9: 8b4afc                   mov ecx, dword ptr [edx - 4]
+100400cc: 8bfd                     mov edi, ebp
+100400ce: 52                       push edx
+100400cf: f3a5                     rep movsd dword ptr es:[edi], dword ptr [esi]
+100400d1: 8bf5                     mov esi, ebp
+100400d3: 8b7af4                   mov edi, dword ptr [edx - 0xc]
+100400d6: 03f8                     add edi, eax
+100400d8: eb25                     jmp 0x100400ff
+100400da: 58                       pop eax
+100400db: 5a                       pop edx
+100400dc: 74c9                     je 0x100400a7
+100400de: e929ffffff               jmp 0x1004000c
+100400e3: 03d2                     add edx, edx
+100400e5: 7507                     jne 0x100400ee
+100400e7: 8b16                     mov edx, dword ptr [esi]
+100400e9: 83eefc                   sub esi, -4
+100400ec: 13d2                     adc edx, edx
+100400ee: c3                       ret 
+100400ef: 41                       inc ecx
+100400f0: e8eeffffff               call 0x100400e3
+100400f5: 13c9                     adc ecx, ecx
+100400f7: e8e7ffffff               call 0x100400e3
+100400fc: 72f2                     jb 0x100400f0
+100400fe: c3                       ret 
+100400ff: 6a00                     push 0
+10040101: 33d2                     xor edx, edx
+10040103: 33c9                     xor ecx, ecx
+10040105: a4                       movsb byte ptr es:[edi], byte ptr [esi]
+10040106: 305fff                   xor byte ptr [edi - 1], bl
+10040109: 4b                       dec ebx
+1004010a: 7ece                     jle 0x100400da
+1004010c: e8d2ffffff               call 0x100400e3
+10040111: 73f2                     jae 0x10040105
+10040113: 33ed                     xor ebp, ebp
+10040115: e8d5ffffff               call 0x100400ef
+1004011a: 83e903                   sub ecx, 3
+1004011d: 7306                     jae 0x10040125
+1004011f: 8b0424                   mov eax, dword ptr [esp]
+10040122: 41                       inc ecx
+10040123: eb27                     jmp 0x1004014c
+10040125: 8bc1                     mov eax, ecx
+10040127: b907000000               mov ecx, 7
+1004012c: e8b2ffffff               call 0x100400e3
+10040131: 13c0                     adc eax, eax
+10040133: 49                       dec ecx
+10040134: 75f6                     jne 0x1004012c
+10040136: 83f0ff                   xor eax, 0xffffffff
+10040139: 3d80f9ffff               cmp eax, 0xfffff980
+1004013e: 83d501                   adc ebp, 1
+10040141: 3d8081ffff               cmp eax, 0xffff8180
+10040146: 83d500                   adc ebp, 0
+10040149: 890424                   mov dword ptr [esp], eax
+1004014c: e892ffffff               call 0x100400e3
+10040151: 13c9                     adc ecx, ecx
+10040153: e88bffffff               call 0x100400e3
+10040158: 13c9                     adc ecx, ecx
+1004015a: 7508                     jne 0x10040164
+1004015c: e88effffff               call 0x100400ef
+10040161: 83c102                   add ecx, 2
+10040164: 03cd                     add ecx, ebp
+10040166: 56                       push esi
+10040167: 2bd9                     sub ebx, ecx
+10040169: 8d3438                   lea esi, [eax + edi]
+1004016c: f3a4                     rep movsb byte ptr es:[edi], byte ptr [esi]
+1004016e: 5e                       pop esi
+1004016f: eb99                     jmp 0x1004010a
+10040171: 8d4900                   lea ecx, [ecx]
+10040174: cb                       retf 
+10040175: 670100                   add dword ptr [bx + si], eax
+10040178: 1009                     adc byte ptr [ecx], cl
+1004017a: 0000                     add byte ptr [eax], al
+1004017c: 00e0                     add al, ah
+1004017e: 0300                     add eax, dword ptr [eax]
+10040180: e02d                     loopne 0x100401af
+10040182: 0000                     add byte ptr [eax], al
+10040184: ce                       into 
+10040185: 0100                     add dword ptr [eax], eax
+10040187: 007e54                   add byte ptr [esi + 0x54], bh
+1004018a: 0100                     add dword ptr [eax], eax
+1004018c: 2c3d                     sub al, 0x3d
+1004018e: 0000                     add byte ptr [eax], al
+10040190: 0030                     add byte ptr [eax], dh
+10040192: 0200                     add al, byte ptr [eax]
+10040194: a8c5                     test al, 0xc5
+10040196: 0200                     add al, byte ptr [eax]
+10040198: d404                     aam 4
+1004019a: 0000                     add byte ptr [eax], al
+1004019c: 93                       xchg ebx, eax
+1004019d: 4a                       dec edx
+1004019e: 0100                     add dword ptr [eax], eax
+100401a0: 07                       pop es
+100401a1: 1b00                     sbb eax, dword ptr [eax]
+100401a3: 0000                     add byte ptr [eax], al
+100401a5: 1002                     adc byte ptr [edx], al
+100401a7: 00f2                     add dl, dh
+100401a9: 0900                     or dword ptr [eax], eax
+100401ab: 007b02                   add byte ptr [ebx + 2], bh
+100401ae: 0000                     add byte ptr [eax], al
+100401b0: 0010                     add byte ptr [eax], dl
+100401b2: 0000                     add byte ptr [eax], al
+100401b4: 40                       inc eax
+100401b5: fc                       cld 
+100401b6: 0100                     add dword ptr [eax], eax
+100401b8: 0010                     add byte ptr [eax], dl
+100401ba: 0000                     add byte ptr [eax], al
+100401bc: 81070000a54e             add dword ptr [edi], 0x4ea50000
+100401c2: 0000                     add byte ptr [eax], al
+100401c4: 0000                     add byte ptr [eax], al
+100401c6: 0000                     add byte ptr [eax], al
+100401c8: 0000                     add byte ptr [eax], al
+100401ca: 0000                     add byte ptr [eax], al
+100401cc: 0000                     add byte ptr [eax], al
+100401ce: 0000                     add byte ptr [eax], al
+100401d0: 5c                       pop esp
+100401d1: 030400                   add eax, dword ptr [eax + eax]
+100401d4: 7c02                     jl 0x100401d8
+100401d6: 0400                     add al, 0
+100401d8: 0000                     add byte ptr [eax], al
+100401da: 0000                     add byte ptr [eax], al
+100401dc: 0000                     add byte ptr [eax], al
+100401de: 0000                     add byte ptr [eax], al
+100401e0: 0000                     add byte ptr [eax], al
+100401e2: 0000                     add byte ptr [eax], al
+100401e4: 66030400                 add ax, word ptr [eax + eax]
+100401e8: 8402                     test byte ptr [edx], al
+100401ea: 0400                     add al, 0
+100401ec: 0000                     add byte ptr [eax], al
+100401ee: 0000                     add byte ptr [eax], al
+100401f0: 0000                     add byte ptr [eax], al
+100401f2: 0000                     add byte ptr [eax], al
+100401f4: 0000                     add byte ptr [eax], al
+100401f6: 0000                     add byte ptr [eax], al
+100401f8: 7203                     jb 0x100401fd
+100401fa: 0400                     add al, 0
+100401fc: 5c                       pop esp
+100401fd: 020400                   add al, byte ptr [eax + eax]
+10040200: 0000                     add byte ptr [eax], al
+10040202: 0000                     add byte ptr [eax], al
+10040204: 0000                     add byte ptr [eax], al
+10040206: 0000                     add byte ptr [eax], al
+10040208: 0000                     add byte ptr [eax], al
+1004020a: 0000                     add byte ptr [eax], al
+1004020c: 7f03                     jg 0x10040211
+1004020e: 0400                     add al, 0
+10040210: 50                       push eax
+10040211: 020400                   add al, byte ptr [eax + eax]
+10040214: 0000                     add byte ptr [eax], al
+10040216: 0000                     add byte ptr [eax], al
+10040218: 0000                     add byte ptr [eax], al
+1004021a: 0000                     add byte ptr [eax], al
+1004021c: 0000                     add byte ptr [eax], al
+1004021e: 0000                     add byte ptr [eax], al
+10040220: 8a03                     mov al, byte ptr [ebx]
+10040222: 0400                     add al, 0
+10040224: 8c02                     mov word ptr [edx], es
+10040226: 0400                     add al, 0
+10040228: 0000                     add byte ptr [eax], al
+1004022a: 0000                     add byte ptr [eax], al
+1004022c: 0000                     add byte ptr [eax], al
+1004022e: 0000                     add byte ptr [eax], al
+10040230: 0000                     add byte ptr [eax], al
+10040232: 0000                     add byte ptr [eax], al
+10040234: 94                       xchg esp, eax
+10040235: 030400                   add eax, dword ptr [eax + eax]
+10040238: 94                       xchg esp, eax
+10040239: 020400                   add al, byte ptr [eax + eax]
+1004023c: 0000                     add byte ptr [eax], al
+1004023e: 0000                     add byte ptr [eax], al
+10040240: 0000                     add byte ptr [eax], al
+10040242: 0000                     add byte ptr [eax], al
+10040244: 0000                     add byte ptr [eax], al
+10040246: 0000                     add byte ptr [eax], al
+10040248: 0000                     add byte ptr [eax], al
+1004024a: 0000                     add byte ptr [eax], al
+1004024c: 0000                     add byte ptr [eax], al
+1004024e: 0000                     add byte ptr [eax], al
+10040250: 2a03                     sub al, byte ptr [ebx]
+10040252: 0400                     add al, 0
+10040254: 3803                     cmp byte ptr [ebx], al
+10040256: 0400                     add al, 0
+10040258: 0000                     add byte ptr [eax], al
+1004025a: 0000                     add byte ptr [eax], al
+1004025c: b8020400c6               mov eax, 0xc6000402
+10040261: 020400                   add al, byte ptr [eax + eax]
+10040264: d6                       salc 
+10040265: 020400                   add al, byte ptr [eax + eax]
+10040268: e8020400fa               call 0xa04066f
+1004026d: 020400                   add al, byte ptr [eax + eax]
+10040270: 0803                     or byte ptr [ebx], al
+10040272: 0400                     add al, 0
+10040274: 16                       push ss
+10040275: 030400                   add eax, dword ptr [eax + eax]
+10040278: 0000                     add byte ptr [eax], al
+1004027a: 0000                     add byte ptr [eax], al
+1004027c: 9c                       pushfd 
+1004027d: 020400                   add al, byte ptr [eax + eax]
+10040280: 0000                     add byte ptr [eax], al
+10040282: 0000                     add byte ptr [eax], al
+10040284: a802                     test al, 2
+10040286: 0400                     add al, 0
+10040288: 0000                     add byte ptr [eax], al
+1004028a: 0000                     add byte ptr [eax], al
+1004028c: 44                       inc esp
+1004028d: 030400                   add eax, dword ptr [eax + eax]
+10040290: 0000                     add byte ptr [eax], al
+10040292: 0000                     add byte ptr [eax], al
+10040294: 54                       push esp
+10040295: 030400                   add eax, dword ptr [eax + eax]
+10040298: 0000                     add byte ptr [eax], al
+1004029a: 0000                     add byte ptr [eax], al
+1004029c: 0000                     add byte ptr [eax], al
+1004029e: 6d                       insd dword ptr es:[edi], dx
+1004029f: 697865724f7065           imul edi, dword ptr [eax + 0x65], 0x65704f72
+100402a6: 6e                       outsb dx, byte ptr [esi]
+100402a7: 0000                     add byte ptr [eax], al
+100402a9: 006163                   add byte ptr [ecx + 0x63], ah
+100402ac: 6d                       insd dword ptr es:[edi], dx
+100402ad: 53                       push ebx
+100402ae: 7472                     je 0x10040322
+100402b0: 6561                     popal 
+100402b2: 6d                       insd dword ptr es:[edi], dx
+100402b3: 53                       push ebx
+100402b4: 697a6500000045           imul edi, dword ptr [edx + 0x65], 0x45000000
+100402bb: 7869                     js 0x10040326
+100402bd: 7450                     je 0x1004030f
+100402bf: 726f                     jb 0x10040330
+100402c1: 636573                   arpl word ptr [ebp + 0x73], sp
+100402c4: 7300                     jae 0x100402c6
+100402c6: 0000                     add byte ptr [eax], al
+100402c8: 4c                       dec esp
+100402c9: 6f                       outsd dx, dword ptr [esi]
+100402ca: 61                       popal 
+100402cb: 644c                     dec esp
+100402cd: 69627261727941           imul esp, dword ptr [edx + 0x72], 0x41797261
+100402d4: 0000                     add byte ptr [eax], al
+100402d6: 0000                     add byte ptr [eax], al
+100402d8: 47                       inc edi
+100402d9: 657450                   je 0x1004032c
+100402dc: 726f                     jb 0x1004034d
+100402de: 634164                   arpl word ptr [ecx + 0x64], ax
+100402e1: 647265                   jb 0x10040349
+100402e4: 7373                     jae 0x10040359
+100402e6: 0000                     add byte ptr [eax], al
+100402e8: 0000                     add byte ptr [eax], al
+100402ea: 56                       push esi
+100402eb: 69727475616c50           imul esi, dword ptr [edx + 0x74], 0x506c6175
+100402f2: 726f                     jb 0x10040363
+100402f4: 7465                     je 0x1004035b
+100402f6: 63740000                 arpl word ptr [eax + eax], si
+100402fa: 0000                     add byte ptr [eax], al
+100402fc: 47                       inc edi
+100402fd: 6c                       insb byte ptr es:[edi], dx
+100402fe: 6f                       outsd dx, dword ptr [esi]
+100402ff: 62616c                   bound esp, qword ptr [ecx + 0x6c]
+10040302: 41                       inc ecx
+10040303: 6c                       insb byte ptr es:[edi], dx
+10040304: 6c                       insb byte ptr es:[edi], dx
+10040305: 6f                       outsd dx, dword ptr [esi]
+10040306: 6300                     arpl word ptr [eax], ax
+10040308: 0000                     add byte ptr [eax], al
+1004030a: 47                       inc edi
+1004030b: 6c                       insb byte ptr es:[edi], dx
+1004030c: 6f                       outsd dx, dword ptr [esi]
+1004030d: 62616c                   bound esp, qword ptr [ecx + 0x6c]
+10040310: 46                       inc esi
+10040311: 7265                     jb 0x10040378
+10040313: 650000                   add byte ptr gs:[eax], al
+10040316: 0000                     add byte ptr [eax], al
+10040318: 47                       inc edi
+10040319: 65744d                   je 0x10040369
+1004031c: 6f                       outsd dx, dword ptr [esi]
+1004031d: 64756c                   jne 0x1004038c
+10040320: 6548                     dec eax
+10040322: 61                       popal 
+10040323: 6e                       outsb dx, byte ptr [esi]
+10040324: 646c                     insb byte ptr es:[edi], dx
+10040326: 6541                     inc ecx
+10040328: 0000                     add byte ptr [eax], al
+1004032a: 0000                     add byte ptr [eax], al
+1004032c: 4d                       dec ebp
+1004032d: 657373                   jae 0x100403a3
+10040330: 61                       popal 
+10040331: 676542                   inc edx
+10040334: 6f                       outsd dx, dword ptr [esi]
+10040335: 7841                     js 0x10040378
+10040337: 0000                     add byte ptr [eax], al
+10040339: 007773                   add byte ptr [edi + 0x73], dh
+1004033c: 7072                     jo 0x100403b0
+1004033e: 696e7466410000           imul ebp, dword ptr [esi + 0x74], 0x4166
+10040345: 00436f                   add byte ptr [ebx + 0x6f], al
+10040348: 49                       dec ecx
+10040349: 6e                       outsb dx, byte ptr [esi]
+1004034a: 697469616c697a65         imul esi, dword ptr [ecx + ebp*2 + 0x61], 0x657a696c
+10040352: 0000                     add byte ptr [eax], al
+10040354: 0000                     add byte ptr [eax], al
+10040356: 61                       popal 
+10040357: 746f                     je 0x100403c8
+10040359: 69000057494e             imul eax, dword ptr [eax], 0x4e495700
+1004035f: 4d                       dec ebp
+10040360: 4d                       dec ebp
+10040361: 2e646c                   insb byte ptr es:[edi], dx
+10040364: 6c                       insb byte ptr es:[edi], dx
+10040365: 004d53                   add byte ptr [ebp + 0x53], cl
+10040368: 41                       inc ecx
+10040369: 43                       inc ebx
+1004036a: 4d                       dec ebp
+1004036b: 3332                     xor esi, dword ptr [edx]
+1004036d: 2e646c                   insb byte ptr es:[edi], dx
+10040370: 6c                       insb byte ptr es:[edi], dx
+10040371: 004b45                   add byte ptr [ebx + 0x45], cl
+10040374: 52                       push edx
+10040375: 4e                       dec esi
+10040376: 45                       inc ebp
+10040377: 4c                       dec esp
+10040378: 3332                     xor esi, dword ptr [edx]
+1004037a: 2e646c                   insb byte ptr es:[edi], dx
+1004037d: 6c                       insb byte ptr es:[edi], dx
+1004037e: 005553                   add byte ptr [ebp + 0x53], dl
+10040381: 45                       inc ebp
+10040382: 52                       push edx
+10040383: 3332                     xor esi, dword ptr [edx]
+10040385: 2e646c                   insb byte ptr es:[edi], dx
+10040388: 6c                       insb byte ptr es:[edi], dx
+10040389: 006f6c                   add byte ptr [edi + 0x6c], ch
+1004038c: 653332                   xor esi, dword ptr gs:[edx]
+1004038f: 2e646c                   insb byte ptr es:[edi], dx
+10040392: 6c                       insb byte ptr es:[edi], dx
+10040393: 004d53                   add byte ptr [ebp + 0x53], cl
+10040396: 56                       push esi
+10040397: 43                       inc ebx
+10040398: 52                       push edx
+10040399: 54                       push esp
+1004039a: 2e646c                   insb byte ptr es:[edi], dx
+1004039d: 6c                       insb byte ptr es:[edi], dx
+1004039e: 0000                     add byte ptr [eax], al
+100403a0: 0000                     add byte ptr [eax], al
+100403a2: 0000                     add byte ptr [eax], al
+100403a4: 47                       inc edi
+100403a5: 3bf1                     cmp esi, ecx
+100403a7: 41                       inc ecx
+100403a8: 0000                     add byte ptr [eax], al
+100403aa: 0000                     add byte ptr [eax], al
+100403ac: 5d                       pop ebp
+100403ad: 0e                       push cs
+100403ae: 0400                     add al, 0
+100403b0: 0100                     add dword ptr [eax], eax
+100403b2: 0000                     add byte ptr [eax], al
+100403b4: 5c                       pop esp
+100403b5: 0000                     add byte ptr [eax], al
+100403b7: 005c0000                 add byte ptr [eax + eax], bl
+100403bb: 00c8                     add al, cl
+100403bd: 030400                   add eax, dword ptr [eax + eax]
+100403c0: 38050400a806             cmp byte ptr [0x6a80004], al
+100403c6: 0400                     add al, 0

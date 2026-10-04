@@ -1,0 +1,45 @@
+entry=17 slots=17 functions=['StartSound', 'create', 'remove', 'rotatez', 'movez', 'sin']
+0000 INDEX_ADDRESS      a=-1 b=5 c=0 flags=0x00
+0001 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0002 EQ_INT             a=0 b=0 c=0 flags=0x12 b_float=0
+0003 JUMP_IF_NONZERO    a=0 b=4 c=0 flags=0x00
+0004 INDEX_ADDRESS      a=-1 b=5 c=0 flags=0x00
+0005 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0006 MOVE               a=0 b=1120403456 c=0 flags=0x92 b_float=100
+0007 YIELD              a=0 b=0 c=0 flags=0x00
+0008 ADD                a=-2 b=1065353216 c=-2 flags=0x10 b_float=1
+0009 MOVE               a=0 b=0 c=0 flags=0x10 b_float=0
+0010 CALL               a=-1 b=0 c=0 flags=0x00 external=StartSound
+0011 MOVE               a=0 b=18 c=0 flags=0x10 b_float=2.52234e-44
+0012 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0013 CALL               a=-2 b=0 c=0 flags=0x00 external=create
+0014 MOVE               a=0 b=-1 c=0 flags=0x00
+0015 CALL               a=-3 b=0 c=0 flags=0x00 external=remove
+0016 YIELD              a=0 b=0 c=0 flags=0x00
+0017 MOVE               a=0 b=1123024896 c=0 flags=0x10 b_float=120
+0018 CALL               a=-4 b=0 c=0 flags=0x00 external=rotatez
+0019 JUMP_IF_NONZERO    a=16 b=9 c=0 flags=0x00
+0020 MOVE               a=0 b=1112014848 c=0 flags=0x10 b_float=50
+0021 CALL               a=-5 b=0 c=0 flags=0x00 external=movez
+0022 INDEX_ADDRESS      a=-1 b=5 c=0 flags=0x00
+0023 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0024 GE                 a=0 b=1120403456 c=0 flags=0x12 b_float=100
+0025 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+0026 MOVE               a=16 b=0 c=0 flags=0x10 b_float=0
+0027 RETURN             a=0 b=0 c=0 flags=0x00
+0028 INDEX_ADDRESS      a=-1 b=5 c=0 flags=0x00
+0029 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0030 PUSH               a=0 b=0 c=0 flags=0x80
+0031 PUSH               a=1 b=0 c=0 flags=0x00
+0032 PUSH               a=2 b=0 c=0 flags=0x00
+0033 INDEX_ADDRESS      a=-1 b=1 c=4 flags=0x00
+0034 MUL                a=1131413504 b=4 c=3 flags=0x21 a_float=240
+0035 MOVE               a=0 b=3 c=0 flags=0x00
+0036 CALL               a=-6 b=3 c=0 flags=0x00 external=sin
+0037 POP                a=2 b=0 c=2 flags=0x00
+0038 POP                a=1 b=0 c=1 flags=0x00
+0039 POP                a=0 b=0 c=0 flags=0x80
+0040 MUL                a=1088421888 b=3 c=2 flags=0x01 a_float=7
+0041 ADD                a=1120403456 b=2 c=1 flags=0x01 a_float=100
+0042 MOVE               a=0 b=1 c=0 flags=0x82
+0043 YIELD              a=0 b=0 c=0 flags=0x00

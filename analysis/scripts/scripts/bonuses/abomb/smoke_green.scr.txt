@@ -1,0 +1,36 @@
+entry=10 slots=17 functions=['random', 'remove', 'rotatez']
+0000 INDEX_ADDRESS      a=-1 b=14 c=0 flags=0x00
+0001 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0002 PUSH               a=0 b=0 c=0 flags=0x80
+0003 PUSH               a=1 b=0 c=0 flags=0x00
+0004 CALL               a=-1 b=2 c=0 flags=0x00 external=random
+0005 POP                a=1 b=0 c=1 flags=0x00
+0006 POP                a=0 b=0 c=0 flags=0x80
+0007 MUL                a=1135869952 b=2 c=1 flags=0x01 a_float=360
+0008 MOVE               a=0 b=1 c=0 flags=0x82
+0009 YIELD              a=0 b=0 c=0 flags=0x00
+0010 INDEX_ADDRESS      a=-1 b=1 c=0 flags=0x00
+0011 GT                 a=0 b=1097859072 c=0 flags=0x12 b_float=15
+0012 JUMP_IF_NONZERO    a=0 b=4 c=0 flags=0x00
+0013 MOVE               a=0 b=-1 c=0 flags=0x00
+0014 CALL               a=-2 b=0 c=0 flags=0x00 external=remove
+0015 RETURN             a=0 b=0 c=0 flags=0x00
+0016 INDEX_ADDRESS      a=-1 b=1 c=2 flags=0x00
+0017 DIV                a=2 b=1101004800 c=2 flags=0x12 b_float=20
+0018 SUB                a=1065353216 b=2 c=1 flags=0x01 a_float=1
+0019 MOVE               a=16 b=1 c=0 flags=0x00
+0020 INDEX_ADDRESS      a=-1 b=28 c=0 flags=0x00
+0021 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+0022 MOVE               a=0 b=16 c=0 flags=0x82
+0023 INDEX_ADDRESS      a=-1 b=28 c=0 flags=0x00
+0024 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+0025 MOVE               a=0 b=16 c=0 flags=0x82
+0026 INDEX_ADDRESS      a=-1 b=28 c=0 flags=0x00
+0027 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0028 MOVE               a=0 b=16 c=0 flags=0x82
+0029 INDEX_ADDRESS      a=-1 b=32 c=0 flags=0x00
+0030 ADD                a=1056964608 b=16 c=1 flags=0x01 a_float=0.5
+0031 MOVE               a=0 b=1 c=0 flags=0x82
+0032 MOVE               a=0 b=1114636288 c=0 flags=0x10 b_float=60
+0033 CALL               a=-3 b=0 c=0 flags=0x00 external=rotatez
+0034 YIELD              a=0 b=0 c=0 flags=0x00

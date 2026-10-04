@@ -1,0 +1,43 @@
+PS_BOSS2_FIRE {
+
+	blend_mode	BLEND_ADD
+	texture		"gfx\weapons\combust_flamefrower.tga" 4 2
+	rflag		RF_NODEPTHTEST
+
+	damage		TOUCH_PLAYER 6 2 0
+
+	emit_rate	80
+	
+	life_time	0.6
+
+	init_offset	0 0 0 0 0 0
+	init_size	3 1
+	init_frame	0 8
+	init_color	1 1 1 1
+        init_velocity   0 250 0 20 20 20
+	size 		14
+
+	fade_mode	FADE_LINEAR
+	accel		3 3 -20
+}
+
+PS_BOSS2_SMOKE {
+
+	blend_mode	BLEND_ADD
+	
+	texture		"gfx\smoke.tga" 4 2
+
+	emit_rate	40
+
+	life_time	0.3
+
+	init_offset	0 0 0 1 1 0
+	init_size	3 2
+	init_frame	0 2
+	init_color	1 1 1 1
+        init_velocity   0 -150 0  0 50 0
+	size 		30
+
+	fade_mode	FADE_LINEAR
+	accel		0 0 0
+}

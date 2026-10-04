@@ -1,0 +1,36 @@
+entry=27 slots=22 functions=['Shoot', 'sleep']
+0000 INDEX_ADDRESS      a=-1 b=8 c=0 flags=0x00
+0001 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0002 NEG                a=1106247680 b=0 c=1 flags=0x01 a_float=30
+0003 MOVE               a=0 b=1 c=0 flags=0x82
+0004 YIELD              a=0 b=0 c=0 flags=0x00
+0005 INDEX_ADDRESS      a=-1 b=8 c=0 flags=0x00
+0006 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0007 GE                 a=0 b=0 c=0 flags=0x12 b_float=0
+0008 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+0009 RETURN             a=0 b=0 c=0 flags=0x00
+0010 INDEX_ADDRESS      a=-1 b=8 c=0 flags=0x00
+0011 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0012 MUL                a=1109393408 b=-2 c=1 flags=0x01 a_float=40
+0013 ADD                a=0 b=1 c=0 flags=0x82
+0014 YIELD              a=0 b=0 c=0 flags=0x00
+0015 MOVE               a=17 b=0 c=0 flags=0x00
+0016 INDEX_ADDRESS      a=18 b=0 c=0 flags=0x00
+0017 MOVE               a=0 b=0 c=0 flags=0x92 b_float=0
+0018 INDEX_ADDRESS      a=18 b=1 c=0 flags=0x00
+0019 MOVE               a=0 b=-1082130432 c=0 flags=0x92 b_float=-1
+0020 INDEX_ADDRESS      a=18 b=2 c=0 flags=0x00
+0021 MOVE               a=0 b=0 c=0 flags=0x92 b_float=0
+0022 MOVE               a=0 b=0 c=0 flags=0x10 b_float=0
+0023 MOVE               a=1 b=17 c=0 flags=0x00
+0024 MOVE               a=2 b=18 c=0 flags=0x00
+0025 CALL               a=-1 b=0 c=0 flags=0x00 external=Shoot
+0026 YIELD              a=0 b=0 c=0 flags=0x00
+0027 JUMP_IF_NONZERO    a=16 b=3 c=0 flags=0x00
+0028 CALL_WAIT          a=5 b=0 c=0 flags=0x00
+0029 MOVE               a=16 b=0 c=0 flags=0x10 b_float=0
+0030 MOVE               a=0 b=16 c=0 flags=0x10 b_float=2.24208e-44
+0031 CALL               a=15 b=0 c=0 flags=0x00
+0032 SET_WAIT           a=1073741824 b=0 c=0 flags=0x01 a_float=2
+0033 CALL_WAIT          a=-2 b=0 c=0 flags=0x00 external=sleep
+0034 YIELD              a=0 b=0 c=0 flags=0x00

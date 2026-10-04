@@ -1,0 +1,53 @@
+entry=19 slots=17 functions=['G_AddMissiles', 'StartSound', 'create', 'remove', 'rotatez', 'movey', 'movez', 'sin']
+0000 INDEX_ADDRESS      a=-1 b=5 c=0 flags=0x00
+0001 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0002 EQ_INT             a=0 b=0 c=0 flags=0x12 b_float=0
+0003 JUMP_IF_NONZERO    a=0 b=4 c=0 flags=0x00
+0004 INDEX_ADDRESS      a=-1 b=5 c=0 flags=0x00
+0005 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0006 MOVE               a=0 b=1120403456 c=0 flags=0x92 b_float=100
+0007 YIELD              a=0 b=0 c=0 flags=0x00
+0008 MOVE               a=0 b=0 c=0 flags=0x10 b_float=0
+0009 MOVE               a=1 b=1101004800 c=0 flags=0x10 b_float=20
+0010 CALL               a=-1 b=0 c=0 flags=0x00 external=G_AddMissiles
+0011 MOVE               a=0 b=0 c=0 flags=0x10 b_float=0
+0012 CALL               a=-2 b=0 c=0 flags=0x00 external=StartSound
+0013 MOVE               a=0 b=22 c=0 flags=0x10 b_float=3.08286e-44
+0014 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0015 CALL               a=-3 b=0 c=0 flags=0x00 external=create
+0016 MOVE               a=0 b=-1 c=0 flags=0x00
+0017 CALL               a=-4 b=0 c=0 flags=0x00 external=remove
+0018 YIELD              a=0 b=0 c=0 flags=0x00
+0019 MOVE               a=0 b=1123024896 c=0 flags=0x10 b_float=120
+0020 CALL               a=-5 b=0 c=0 flags=0x00 external=rotatez
+0021 LT                 a=-2 b=1175232512 c=0 flags=0x10 b_float=9000
+0022 JUMP_IF_NONZERO    a=0 b=5 c=0 flags=0x00
+0023 INDEX_ADDRESS      a=-3 b=6 c=0 flags=0x00
+0024 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+0025 DIV                a=0 b=1077936128 c=0 flags=0x12 b_float=3
+0026 CALL               a=-6 b=0 c=0 flags=0x00 external=movey
+0027 JUMP_IF_NONZERO    a=16 b=9 c=0 flags=0x00
+0028 MOVE               a=0 b=1112014848 c=0 flags=0x10 b_float=50
+0029 CALL               a=-7 b=0 c=0 flags=0x00 external=movez
+0030 INDEX_ADDRESS      a=-1 b=5 c=0 flags=0x00
+0031 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0032 GE                 a=0 b=1120403456 c=0 flags=0x12 b_float=100
+0033 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+0034 MOVE               a=16 b=0 c=0 flags=0x10 b_float=0
+0035 RETURN             a=0 b=0 c=0 flags=0x00
+0036 INDEX_ADDRESS      a=-1 b=5 c=0 flags=0x00
+0037 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0038 PUSH               a=0 b=0 c=0 flags=0x80
+0039 PUSH               a=1 b=0 c=0 flags=0x00
+0040 PUSH               a=2 b=0 c=0 flags=0x00
+0041 INDEX_ADDRESS      a=-1 b=1 c=4 flags=0x00
+0042 MUL                a=1131413504 b=4 c=3 flags=0x21 a_float=240
+0043 MOVE               a=0 b=3 c=0 flags=0x00
+0044 CALL               a=-8 b=3 c=0 flags=0x00 external=sin
+0045 POP                a=2 b=0 c=2 flags=0x00
+0046 POP                a=1 b=0 c=1 flags=0x00
+0047 POP                a=0 b=0 c=0 flags=0x80
+0048 MUL                a=1088421888 b=3 c=2 flags=0x01 a_float=7
+0049 ADD                a=1120403456 b=2 c=1 flags=0x01 a_float=100
+0050 MOVE               a=0 b=1 c=0 flags=0x82
+0051 YIELD              a=0 b=0 c=0 flags=0x00

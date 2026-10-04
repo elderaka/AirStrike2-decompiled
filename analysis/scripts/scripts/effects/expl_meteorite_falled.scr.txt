@@ -1,0 +1,34 @@
+entry=0 slots=16 functions=['random', 'StartSound', 'TerraMorph', 'create', 'CameraQuake', 'sleep', 'remove']
+0000 CALL               a=-1 b=0 c=0 flags=0x00 external=random
+0001 LT                 a=0 b=1056964608 c=0 flags=0x10 b_float=0.5
+0002 JUMP_IF_NONZERO    a=0 b=4 c=0 flags=0x00
+0003 MOVE               a=0 b=0 c=0 flags=0x10 b_float=0
+0004 CALL               a=-2 b=0 c=0 flags=0x00 external=StartSound
+0005 JUMP               a=3 b=0 c=0 flags=0x00
+0006 MOVE               a=0 b=17 c=0 flags=0x10 b_float=2.38221e-44
+0007 CALL               a=-2 b=0 c=0 flags=0x00 external=StartSound
+0008 INDEX_ADDRESS      a=-1 b=5 c=0 flags=0x00
+0009 MOVE               a=1 b=34 c=0 flags=0x10 b_float=4.76441e-44
+0010 CALL               a=-3 b=0 c=0 flags=0x00 external=TerraMorph
+0011 MOVE               a=0 b=59 c=0 flags=0x10 b_float=8.26766e-44
+0012 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0013 CALL               a=-4 b=0 c=0 flags=0x00 external=create
+0014 MOVE               a=0 b=1056964608 c=0 flags=0x10 b_float=0.5
+0015 CALL               a=-5 b=0 c=0 flags=0x00 external=CameraQuake
+0016 MOVE               a=0 b=68 c=0 flags=0x10 b_float=9.52883e-44
+0017 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0018 CALL               a=-4 b=0 c=0 flags=0x00 external=create
+0019 MOVE               a=0 b=88 c=0 flags=0x10 b_float=1.23314e-43
+0020 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0021 CALL               a=-4 b=0 c=0 flags=0x00 external=create
+0022 MOVE               a=0 b=105 c=0 flags=0x10 b_float=1.47136e-43
+0023 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0024 CALL               a=-4 b=0 c=0 flags=0x00 external=create
+0025 SET_WAIT           a=1045220557 b=0 c=0 flags=0x01 a_float=0.2
+0026 CALL_WAIT          a=-6 b=0 c=0 flags=0x00 external=sleep
+0027 MOVE               a=0 b=131 c=0 flags=0x10 b_float=1.8357e-43
+0028 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0029 CALL               a=-4 b=0 c=0 flags=0x00 external=create
+0030 MOVE               a=0 b=-1 c=0 flags=0x00
+0031 CALL               a=-7 b=0 c=0 flags=0x00 external=remove
+0032 YIELD              a=0 b=0 c=0 flags=0x00

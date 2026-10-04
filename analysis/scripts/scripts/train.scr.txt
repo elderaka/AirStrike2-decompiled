@@ -1,0 +1,40 @@
+entry=29 slots=16 functions=['create', 'remove', 'MoveToNextWP', 'sleep', 'lMoveToNextWP', 'lRotateToNextWP']
+0000 INDEX_ADDRESS      a=-1 b=23 c=0 flags=0x00
+0001 MOVE               a=0 b=1117782016 c=0 flags=0x92 b_float=80
+0002 INDEX_ADDRESS      a=-1 b=5 c=0 flags=0x00
+0003 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0004 MOVE               a=0 b=-1039400960 c=0 flags=0x92 b_float=-35
+0005 YIELD              a=0 b=0 c=0 flags=0x00
+0006 INDEX_ADDRESS      a=-1 b=34 c=0 flags=0x00
+0007 GT                 a=0 b=0 c=0 flags=0x12 b_float=0
+0008 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+0009 RETURN             a=0 b=0 c=0 flags=0x00
+0010 MOVE               a=0 b=0 c=0 flags=0x10 b_float=0
+0011 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0012 CALL               a=-1 b=0 c=0 flags=0x00 external=create
+0013 MOVE               a=0 b=6 c=0 flags=0x10 b_float=8.40779e-45
+0014 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0015 CALL               a=-1 b=0 c=0 flags=0x00 external=create
+0016 MOVE               a=0 b=-1 c=0 flags=0x00
+0017 CALL               a=-2 b=0 c=0 flags=0x00 external=remove
+0018 YIELD              a=0 b=0 c=0 flags=0x00
+0019 INDEX_ADDRESS      a=-1 b=23 c=0 flags=0x00
+0020 GE                 a=0 b=1117782016 c=0 flags=0x12 b_float=80
+0021 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+0022 RETURN             a=0 b=0 c=0 flags=0x00
+0023 INDEX_ADDRESS      a=-1 b=23 c=0 flags=0x00
+0024 MUL                a=1112014848 b=-2 c=1 flags=0x01 a_float=50
+0025 ADD                a=0 b=1 c=0 flags=0x82
+0026 MOVE               a=0 b=0 c=0 flags=0x10 b_float=0
+0027 CALL               a=-3 b=0 c=0 flags=0x00 external=MoveToNextWP
+0028 YIELD              a=0 b=0 c=0 flags=0x00
+0029 INDEX_ADDRESS      a=-1 b=37 c=0 flags=0x00
+0030 GT                 a=0 b=0 c=0 flags=0x12 b_float=0
+0031 JUMP_IF_NONZERO    a=0 b=4 c=0 flags=0x00
+0032 INDEX_ADDRESS      a=-1 b=37 c=0 flags=0x00
+0033 SET_WAIT           a=0 b=0 c=0 flags=0x02
+0034 CALL_WAIT          a=-4 b=0 c=0 flags=0x00 external=sleep
+0035 MOVE               a=0 b=0 c=0 flags=0x10 b_float=0
+0036 CALL_WAIT          a=-5 b=0 c=0 flags=0x00 external=lMoveToNextWP
+0037 CALL_WAIT          a=-6 b=0 c=0 flags=0x00 external=lRotateToNextWP
+0038 YIELD              a=0 b=0 c=0 flags=0x00

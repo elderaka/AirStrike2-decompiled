@@ -1,0 +1,5754 @@
+00000050	ascii	This program must be run under Win32
+0000021f	ascii	`DATA
+00000270	ascii	.idata
+000002c0	ascii	.rdata
+000002e7	ascii	P.reloc
+0000030f	ascii	P.rsrc
+00000406	ascii	Boolean
+0000041b	ascii	False
+00000442	ascii	Integer
+00000482	ascii	Cardinal
+0000049a	ascii	Int64
+000004b6	ascii	String
+000004c2	ascii	WideString
+00000519	ascii	TObject$
+00000526	ascii	TObject
+00000538	ascii	System
+00000546	ascii	IInterface
+00000566	ascii	System
+0000060d	ascii	TInterfacedObject
+00000626	ascii	UTF8String4
+00000636	ascii	TDateTime
+00000966	ascii	YZ]_^[
+00000b5c	ascii	wE;\$
+00001c08	ascii	u,)- 
+00001de2	ascii	Uhq*@
+00001e7b	ascii	^[YY]
+000023d8	ascii	,$YXZ
+00002653	ascii	~KxI[)
+0000291c	ascii	BkU'9
+00002aac	ascii	SOFTWARE\Borland\Delphi\RTL
+00002ac8	ascii	FPUMaskValue
+00002cf3	ascii	_^[YY]
+00002f7d	ascii	PPRTj
+0000310b	ascii	YZXtp
+00003127	ascii	Ph4=@
+00003296	ascii	YZXtm1
+00003356	ascii	ZTUWVSPRTj
+00003432	ascii	t=HtN
+000035fd	ascii	_^[YY]
+00003625	ascii	UhYB@
+0000366d	ascii	_^[YY]
+00003858	ascii	SVWUQ
+00003932	ascii	Z]_^[
+00003b7c	ascii	t-Rf;
+00003b82	ascii	t f;J
+00003cd0	ascii	SVWRP
+00003d4f	ascii	Z_^[X
+00003efa	ascii	tVSVWU
+00003f5a	ascii	t1SVW
+00004144	ascii	t-Rf;
+0000414a	ascii	t f;J
+00004209	ascii	YZ]_^[
+00004810	ascii	USVW1
+00004f9c	ascii	kernel32.dll
+00004fac	ascii	GetLongPathNameA
+00005204	ascii	Software\Borland\Locales
+00005220	ascii	Software\Borland\Delphi\Locales
+000052f3	ascii	YZ_^[
+00005318	ascii	Uh7_@
+0000534f	ascii	_^[YY]
+000055c3	ascii	FFF;M
+000055d0	ascii	^[YY]
+000057c9	ascii	UhSd@
+00005916	ascii	Uhne@
+00005c41	ascii	Uhah@
+00005c8a	ascii	odSelected
+00005c95	ascii	odGrayed
+00005c9e	ascii	odDisabled
+00005ca9	ascii	odChecked
+00005cb3	ascii	odFocused
+00005cbd	ascii	odDefault
+00005cc7	ascii	odHotLight
+00005cd2	ascii	odInactive
+00005cdd	ascii	odNoAccel
+00005ce7	ascii	odNoFocusRect
+00005cf5	ascii	odReserved1
+00005d01	ascii	odReserved2
+00005d0d	ascii	odComboBoxEdit
+00005d1c	ascii	Windows
+00005d2a	ascii	TOwnerDrawState
+00006973	ascii	_^[Y]
+000069c9	ascii	_^[Y]
+00006a66	ascii	_^[Y]
+00006a70	ascii	Magellan MSWHEEL
+00006a84	ascii	MouseZ
+00006a8c	ascii	MSWHEEL_ROLLMSG
+00006a9c	ascii	MSH_WHEELSUPPORT_MSG
+00006ab4	ascii	MSH_SCROLL_LINES_MSG
+00006b09	ascii	Uh)w@
+00006e39	ascii	UhYz@
+00006e72	ascii	TFileName
+00006e82	ascii	TSearchRecX
+00006efb	ascii	ExceptionP{@
+00006f51	ascii	EAbort
+00006fa5	ascii	EHeapException
+00007001	ascii	EOutOfMemory
+0000705d	ascii	EInOutError
+000070b5	ascii	EExternal
+0000710d	ascii	EExternalException
+0000716d	ascii	EIntError
+000071c5	ascii	EDivByZero
+0000721d	ascii	ERangeErrort~@
+00007275	ascii	EIntOverflow
+000072d1	ascii	EMathError
+00007329	ascii	EInvalidOp
+00007381	ascii	EZeroDivide
+000073d9	ascii	EOverflow
+00007431	ascii	EUnderflow
+00007489	ascii	EInvalidPointer
+000074e5	ascii	EInvalidCast
+00007541	ascii	EConvertError
+0000759d	ascii	EAccessViolation
+000075fd	ascii	EPrivilege
+00007655	ascii	EStackOverflow
+000076b1	ascii	EControlC
+00007709	ascii	EVariantError
+00007765	ascii	EAssertionFailed
+000077c5	ascii	EAbstractError
+00007821	ascii	EIntfCastError
+0000787d	ascii	EOSError
+000078d5	ascii	ESafecallException
+0000794e	ascii	TFormatSettings
+000079da	ascii	SysUtils
+000079fe	ascii	SysUtils
+00007a61	ascii	TThreadLocalCounter
+00007b3c	ascii	$TMultiReadExclusiveWriteSynchronizer
+00007c0e	ascii	YZ_^[
+00007c5e	ascii	YZ_^[
+00007e25	ascii	SWSVj
+000081d8	ascii	False
+00008214	ascii	_^[Y]
+000083ae	ascii	$Z_^[
+000083da	ascii	$Z_^[
+00008410	ascii	^[YY]
+00008885	ascii	$Z_^[
+00008b94	ascii	<*t"<0r=<9w9i
+00008e69	ascii	_^[Y]
+00008eb5	ascii	_^[Y]
+000090d0	ascii	INFNAN
+0000921b	ascii	QS<$t
+00009249	ascii	$*@@@*$@@@$ *@@* $@@($*)@-$*@@$-*@@$*-@@(*$)@-*$@@*-$@@*$-@@-* $@-$ *@* $-@$ *-@$ -*@*- $@($ *)(* $)
+0000a132	ascii	t%HtIHtm
+0000a668	ascii	AM/PM
+0000a866	ascii	_^[YY]
+0000a93c	ascii	SVWUQ
+0000a987	ascii	$Z]_^[
+0000b57b	ascii	_^[Y]
+0000b589	ascii	QQQQQQSVW3
+0000b811	ascii	QQQQQSVW
+0000bc26	ascii	D$PPj
+0000bc7f	ascii	D$LPj
+0000bd54	ascii	_^[Y]
+0000be22	ascii	_^[YY]
+0000be86	ascii	TErrorRec
+0000bf06	ascii	TExceptRec
+0000c084	ascii	t<HtH
+0000c852	ascii	$YZ^[
+0000c8b2	ascii	$YZ^[
+0000ca24	ascii	SVWUQ
+0000ca59	ascii	Z]_^[
+0000cba1	ascii	$YZ]_^[
+0000cd0a	ascii	_^[Y]
+0000d18c	ascii	m/d/yy
+0000d19c	ascii	mmmm d, yyyy
+0000d1e4	ascii	 AMPM
+0000d1f4	ascii	AMPM 
+0000d210	ascii	:mm:ss
+0000d35c	ascii	kernel32.dll
+0000d36c	ascii	GetDiskFreeSpaceExA
+0000d4b7	ascii	YZ]_^[
+0000d6c8	ascii	YZ]_^[
+0000d745	ascii	;G$t@
+0000d7bc	ascii	;C$t4
+0000d8ac	ascii	_^[Y]
+0000e4cc	ascii	oleaut32.dll
+0000e4dc	ascii	VariantChangeTypeEx
+0000e4f0	ascii	VarNeg
+0000e4f8	ascii	VarNot
+0000e500	ascii	VarAdd
+0000e508	ascii	VarSub
+0000e510	ascii	VarMul
+0000e518	ascii	VarDiv
+0000e520	ascii	VarIdiv
+0000e528	ascii	VarMod
+0000e530	ascii	VarAnd
+0000e538	ascii	VarOr
+0000e540	ascii	VarXor
+0000e548	ascii	VarCmp
+0000e550	ascii	VarI4FromStr
+0000e560	ascii	VarR4FromStr
+0000e570	ascii	VarR8FromStr
+0000e580	ascii	VarDateFromStr
+0000e590	ascii	VarCyFromStr
+0000e5a0	ascii	VarBoolFromStr
+0000e5b0	ascii	VarBstrFromCy
+0000e5c0	ascii	VarBstrFromDate
+0000e5d0	ascii	VarBstrFromBool
+0000e6f9	ascii	TCustomVariantType
+0000e712	ascii	TCustomVariantType
+0000e72f	ascii	Variants
+0000e789	ascii	EVariantInvalidOpError
+0000e7ed	ascii	EVariantTypeCastError
+0000e851	ascii	EVariantOverflowError
+0000e8b5	ascii	EVariantInvalidArgError
+0000e919	ascii	EVariantBadVarTypeError|
+0000e97d	ascii	EVariantBadIndexError
+0000e9e1	ascii	EVariantArrayLockedError
+0000ea49	ascii	EVariantArrayCreateError
+0000eab1	ascii	EVariantNotImplError
+0000eb15	ascii	EVariantOutOfMemoryError
+0000eb7d	ascii	EVariantUnexpectedError
+0000ebe1	ascii	EVariantDispatchError
+0000ee84	ascii	t?Htb
+0000f9cc	ascii	SVWUQ
+0000fa31	ascii	Z]_^[
+0001023e	ascii	_^[YY]
+000102f5	ascii	_^[Y]
+0001039c	ascii	_^[Y]
+00010495	ascii	_^[Y]
+0001056e	ascii	_^[Y]
+00010656	ascii	_^[Y]
+00011fe4	ascii	Uh%,A
+000124c1	ascii	QQQQSV
+000124cd	ascii	Uhr1A
+00012596	ascii	Uh?2A
+000126e6	ascii	Uh%3A
+0001274c	ascii	Uha8A
+00012d3f	ascii	Uh~9A
+00012daa	ascii	UhD:A
+00012dd5	ascii	Uh':A
+000138b4	ascii	Empty
+000138d4	ascii	Smallint
+000138e8	ascii	Integer
+000138f8	ascii	Single
+00013908	ascii	Double
+00013918	ascii	Currency
+0001393c	ascii	OleStr
+0001394c	ascii	Dispatch
+00013960	ascii	Error
+00013970	ascii	Boolean
+00013980	ascii	Variant
+00013990	ascii	Unknown
+000139a0	ascii	Decimal
+000139bc	ascii	ShortInt
+000139f0	ascii	LongWord
+00013a04	ascii	Int64
+00013a26	ascii	Uh2GA
+00013b48	ascii	String
+00013b64	ascii	Array 
+00013b74	ascii	ByRef 
+00013bba	ascii	Variants
+00013bda	ascii	Uh%HA
+00013cb3	ascii	_^[YY]
+00013cf5	ascii	_^[Y]
+00013d00	ascii	SVWUQ
+00013d33	ascii	Z]_^[
+00013f1a	ascii	_^[Y]
+0001408d	ascii	Uh)MA
+00014239	ascii	UhYNA
+00014274	ascii	False
+000145bf	ascii	_^[Y]
+00014a1d	ascii	Uh^VA
+00014a76	ascii	tagEXCEPINFO 
+00014b16	ascii	TBiDiMode
+00014b2d	ascii	bdLeftToRight
+00014b3b	ascii	bdRightToLeft
+00014b49	ascii	bdRightToLeftNoAlign
+00014b5e	ascii	bdRightToLeftReadingOnly
+00014b77	ascii	Classes
+00014b96	ascii	ssShift
+00014b9e	ascii	ssAlt
+00014ba4	ascii	ssCtrl
+00014bab	ascii	ssLeft
+00014bb2	ascii	ssRight
+00014bba	ascii	ssMiddle
+00014bc3	ascii	ssDouble
+00014bcc	ascii	Classes
+00014bda	ascii	TShiftState
+00014bf2	ascii	THelpContext
+00014c0e	ascii	THelpType
+00014c25	ascii	htKeyword
+00014c2f	ascii	htContext
+00014c39	ascii	ClassesDXA
+00014c46	ascii	TShortCut
+00014c5e	ascii	TNotifyEvent
+00014c6e	ascii	Sender
+00014c75	ascii	TObject
+00014cd1	ascii	EStreamError
+00014d2d	ascii	EFileStreamError
+00014d8d	ascii	EFCreateError
+00014de9	ascii	EFOpenError@ZA
+00014e41	ascii	EFilerError
+00014e99	ascii	EReadError
+00014ef1	ascii	EWriteErrorH[A
+00014f49	ascii	EClassNotFound
+00014fa5	ascii	EResNotFound
+00015001	ascii	EListError
+00015059	ascii	EBitsError
+000150b1	ascii	EStringListError
+00015111	ascii	EComponentErrorl]A
+0001516d	ascii	EOutOfResources
+000151c9	ascii	EInvalidOperation
+00015239	ascii	TList
+0001528d	ascii	TThreadList
+000152e5	ascii	TBits
+00015353	ascii	TPersistent
+00015366	ascii	TPersistent8_A
+0001537c	ascii	Classes
+0001544b	ascii	TInterfacedPersistentd`A
+00015466	ascii	TInterfacedPersistent(`A
+00015486	ascii	Classes
+00015496	ascii	IStringsAdapter@
+000154bb	ascii	Classes
+000155a7	ascii	TStrings
+000155b6	ascii	TStrings
+000155c9	ascii	Classes
+000155da	ascii	TStringItem
+000156dd	ascii	TStringList
+000156ee	ascii	TStringListDbA
+00015704	ascii	Classes
+00015779	ascii	TStream
+000157e9	ascii	THandleStream
+00015861	ascii	TFileStream
+000158d5	ascii	TCustomMemoryStream4eA
+00015955	ascii	TMemoryStream
+000159cd	ascii	TResourceStream
+00015b69	ascii	TStreamAdapter
+00015bc5	ascii	TClassFinder
+00015c31	ascii	TFiler
+00015cbf	ascii	TReader
+00015d15	ascii	EThread iA
+00015d22	ascii	TComponentName4iA
+00015d36	ascii	IDesignerNotify@
+00015d5b	ascii	Classes
+00015f01	ascii	TComponent
+00015f12	ascii	TComponent\jA
+00015f27	ascii	Classes
+00015f4b	ascii	Name<
+00015fdd	ascii	TBasicActionLink
+0001608d	ascii	TBasicAction
+000160a2	ascii	TBasicAction<lA
+000160b9	ascii	Classes
+000160ca	ascii	TIdentMapEntry
+000161c1	ascii	TRegGroup
+00016219	ascii	TRegGroups
+00016288	ascii	YZ]_^[
+000162f5	ascii	_^[Y]
+00016374	ascii	_^[Y]
+000163bc	ascii	SVWUQ
+000163ec	ascii	u%CNu
+00016415	ascii	Z]_^[
+0001641c	ascii	SVWUQ
+00016458	ascii	$Z]_^[
+000165e4	ascii	SVWUQ
+00016627	ascii	Z]_^[
+00016700	ascii	SVWUQ
+0001673e	ascii	Z]_^[
+00016744	ascii	SVWUQ
+00016782	ascii	Z]_^[
+00016904	ascii	SVWUQ
+0001693e	ascii	$Z]_^[
+00016bd1	ascii	_^[YY]
+00016bf4	ascii	UhDxA
+00016cd6	ascii	Uh)yA
+00016d46	ascii	UhvyA
+00016e33	ascii	UhnzA
+00016ec9	ascii	TIntConst
+00016fac	ascii	_^[Y]
+00016fec	ascii	_^[Y]
+0001702e	ascii	_^[YY]
+0001713a	ascii	Uhh}A
+00017171	ascii	_^[Y]
+000179a8	ascii	SVWUQ
+00017a44	ascii	Z]_^[
+00017ee6	ascii	W<CNu
+0001807c	ascii	Strings
+000181cb	ascii	_^[Y]
+00018690	ascii	S$_^[Y]
+00018794	ascii	^[YY]
+00018844	ascii	_^[YY]
+0001884c	ascii	SVWUQ
+00018878	ascii	SdZ]_^[
+00018c7c	ascii	SVWUQ
+00018cd6	ascii	$Z]_^[
+00019238	ascii	S4_^[
+000194c6	ascii	^[YY]
+00019c6c	ascii	_^[Y]
+00019da3	ascii	TPropFixup
+00019e01	ascii	TPropIntfFixup
+0001a02c	ascii	Owner
+0001a302	ascii	_^[YY]
+0001a38a	ascii	_^[Y]
+0001a7f5	ascii	C0_^[
+0001a84d	ascii	u7EKu
+0001aa86	ascii	Classes
+0001aba5	ascii	_^[Y]
+0001b3e4	ascii	False
+0001b856	ascii	_^[YY]
+0001b8a5	ascii	QQQQ3
+0001bd2c	ascii	%s_%d
+0001c234	ascii	^[YY]
+0001ca3d	ascii	QQQQQQQS
+0001d400	ascii	SVWUQ
+0001d456	ascii	Z]_^[
+0001d4bf	ascii	_^[Y]
+0001d5c7	ascii	S _^[
+0001d5ec	ascii	SVWUQ
+0001d633	ascii	Z]_^[
+0001d6c1	ascii	YZ_^[
+0001d76c	ascii	SVWUQ
+0001d7b5	ascii	Z]_^[
+0001dac1	ascii	G0_^[
+0001db17	ascii	;CDt:
+0001db54	ascii	R0_^[]
+0001ddb7	ascii	_^[YY]
+0001e270	ascii	TPUtilWindow
+0001e2de	utf16	jjjjjj
+0001e4f1	ascii	EIniFileException
+0001e5bb	ascii	TCustomIniFile
+0001e666	utf16	A0B`B
+0001e671	ascii	TIniFile
+0001e7cf	ascii	_^[Y]
+0001eb3a	ascii	_^[Y]
+0001eb9a	ascii	_^[Y]
+0001ebfe	ascii	_^[Y]
+0001ec5e	ascii	_^[Y]
+0001f069	ascii	_^[YY]
+0001f367	ascii	Q8CNu
+0001f79a	ascii	TColor
+0001f7f9	ascii	EInvalidGraphicT
+0001f855	ascii	EInvalidGraphicOperation
+0001f876	ascii	TFontPitch
+0001f88e	ascii	fpDefault
+0001f898	ascii	fpVariable
+0001f8a3	ascii	fpFixed
+0001f8ab	ascii	Graphics
+0001f8ba	ascii	TFontName
+0001f8ca	ascii	TFontCharset
+0001f8e6	ascii	TFontStyle
+0001f8fe	ascii	fsBold
+0001f905	ascii	fsItalic
+0001f90e	ascii	fsUnderline
+0001f91a	ascii	fsStrikeOut
+0001f926	ascii	Graphics
+0001f936	ascii	TFontStyles
+0001f94e	ascii	TPenStyle
+0001f965	ascii	psSolid
+0001f96d	ascii	psDash
+0001f974	ascii	psDot
+0001f97a	ascii	psDashDot
+0001f984	ascii	psDashDotDot
+0001f991	ascii	psClear
+0001f999	ascii	psInsideFrame
+0001f9a7	ascii	Graphics
+0001f9b6	ascii	TPenMode
+0001f9cc	ascii	pmBlack
+0001f9d4	ascii	pmWhite
+0001f9dc	ascii	pmNop
+0001f9e2	ascii	pmNot
+0001f9e8	ascii	pmCopy
+0001f9ef	ascii	pmNotCopy
+0001f9f9	ascii	pmMergePenNot
+0001fa07	ascii	pmMaskPenNot
+0001fa14	ascii	pmMergeNotPen
+0001fa22	ascii	pmMaskNotPen
+0001fa2f	ascii	pmMerge
+0001fa37	ascii	pmNotMerge
+0001fa42	ascii	pmMask
+0001fa49	ascii	pmNotMask
+0001fa53	ascii	pmXor
+0001fa59	ascii	pmNotXor
+0001fa62	ascii	Graphics
+0001fa72	ascii	TBrushStyle
+0001fa8b	ascii	bsSolid
+0001fa93	ascii	bsClear
+0001fa9b	ascii	bsHorizontal
+0001faa8	ascii	bsVertical
+0001fab3	ascii	bsFDiagonal
+0001fabf	ascii	bsBDiagonal
+0001facb	ascii	bsCross
+0001fad3	ascii	bsDiagCross
+0001fadf	ascii	Graphics
+0001fb49	ascii	TGraphicsObject\
+0001fb5e	ascii	TGraphicsObject4
+0001fb78	ascii	Graphics
+0001fb8a	ascii	IChangeNotifier@
+0001fbaf	ascii	Graphics
+0001fc2f	ascii	TFont8
+0001fc3a	ascii	TFont
+0001fc4a	ascii	Graphics
+0001fc6f	ascii	Charset
+0001fc91	ascii	Color<
+0001fcb1	ascii	Height
+0001fcd2	ascii	Namep
+0001fcf1	ascii	Pitch<
+0001fd11	ascii	Size0
+0001fd30	ascii	Style
+0001fdad	ascii	Graphics
+0001fdd2	ascii	Color
+0001fdf2	ascii	ModeH
+0001fe11	ascii	Style<
+0001fe31	ascii	Width
+0001fe91	ascii	TBrush
+0001fe9e	ascii	TBrush
+0001feaf	ascii	Graphics
+0001fed4	ascii	Colorl
+0001fef4	ascii	Style
+0001ff61	ascii	TCanvasl
+0001ff6e	ascii	TCanvasH
+0001ff80	ascii	Graphics
+0001ffa5	ascii	Brush<
+0001ffc5	ascii	CopyMode4
+00020139	ascii	TGraphic
+0002014a	ascii	TGraphic
+0002015d	ascii	Graphics
+00020251	ascii	TPicture
+00020262	ascii	TPicture 
+00020275	ascii	Graphics
+000202d1	ascii	TSharedImage
+00020331	ascii	TMetafileImage
+000203f1	ascii	TMetafile
+00020402	ascii	TMetafile
+00020416	ascii	Graphics
+00020471	ascii	TBitmapImage
+0002053d	ascii	TBitmapH
+0002054a	ascii	TBitmap
+0002055c	ascii	Graphics
+000205b9	ascii	TIconImage
+00020675	ascii	TIcon
+00020682	ascii	TIcon
+00020692	ascii	Graphics
+000206fd	ascii	TResourceManager
+0002087a	ascii	^[YY]
+000209af	ascii	_^[YY]
+00020a21	ascii	^[YY]
+00020a9c	ascii	_^[YY]
+00020b48	ascii	^[YY]
+00020b58	ascii	clBlack
+00020b68	ascii	clMaroon
+00020b7c	ascii	clGreen
+00020b8c	ascii	clOlive
+00020b9c	ascii	clNavy
+00020bac	ascii	clPurple
+00020bc0	ascii	clTeal
+00020bd0	ascii	clGray
+00020be0	ascii	clSilver
+00020bf4	ascii	clRed
+00020c04	ascii	clLime
+00020c14	ascii	clYellow
+00020c28	ascii	clBlue
+00020c38	ascii	clFuchsia
+00020c4c	ascii	clAqua
+00020c5c	ascii	clWhite
+00020c6c	ascii	clMoneyGreen
+00020c84	ascii	clSkyBlue
+00020c98	ascii	clCream
+00020ca8	ascii	clMedGray
+00020cbc	ascii	clActiveBorder
+00020cd4	ascii	clActiveCaption
+00020cec	ascii	clAppWorkSpace
+00020d04	ascii	clBackground
+00020d1c	ascii	clBtnFace
+00020d30	ascii	clBtnHighlight
+00020d48	ascii	clBtnShadow
+00020d5c	ascii	clBtnText
+00020d70	ascii	clCaptionText
+00020d88	ascii	clDefault
+00020d9c	ascii	clGradientActiveCaption
+00020dbc	ascii	clGradientInactiveCaption
+00020de0	ascii	clGrayText
+00020df4	ascii	clHighlight
+00020e08	ascii	clHighlightText
+00020e20	ascii	clHotLight
+00020e34	ascii	clInactiveBorder
+00020e50	ascii	clInactiveCaption
+00020e6c	ascii	clInactiveCaptionText
+00020e8c	ascii	clInfoBk
+00020ea0	ascii	clInfoText
+00020eb4	ascii	clMenu
+00020ec4	ascii	clMenuBar
+00020ed8	ascii	clMenuHighlight
+00020ef0	ascii	clMenuText
+00020f04	ascii	clNone
+00020f14	ascii	clScrollBar
+00020f28	ascii	cl3DDkShadow
+00020f40	ascii	cl3DLight
+00020f54	ascii	clWindow
+00020f68	ascii	clWindowFrame
+00020f80	ascii	clWindowText
+00020ffc	ascii	ANSI_CHARSET
+00021014	ascii	DEFAULT_CHARSET
+0002102c	ascii	SYMBOL_CHARSET
+00021044	ascii	MAC_CHARSET
+00021058	ascii	SHIFTJIS_CHARSET
+00021074	ascii	HANGEUL_CHARSET
+0002108c	ascii	JOHAB_CHARSET
+000210a4	ascii	GB2312_CHARSET
+000210bc	ascii	CHINESEBIG5_CHARSET
+000210d8	ascii	GREEK_CHARSET
+000210f0	ascii	TURKISH_CHARSET
+00021108	ascii	HEBREW_CHARSET
+00021120	ascii	ARABIC_CHARSET
+00021138	ascii	BALTIC_CHARSET
+00021150	ascii	RUSSIAN_CHARSET
+00021168	ascii	THAI_CHARSET
+00021180	ascii	EASTEUROPE_CHARSET
+0002119c	ascii	OEM_CHARSET
+00021414	ascii	UhE B
+00021604	ascii	Default
+000218f8	ascii	Uh)%B
+00021b05	ascii	Uhl'B
+00021b1d	ascii	UhO'B
+00021f02	ascii	_^[Y]
+0002211e	ascii	$YZ^[
+00022729	ascii	Uhm3B
+000229ef	ascii	E$PVSj
+00022b8c	ascii	YZ_^[
+00022e8b	ascii	$Z_^[
+00022ef2	ascii	UhF<B
+00022f31	ascii	Uhc;B
+00022ff1	ascii	Uh&<B
+000230ed	ascii	_^[YY]
+000234dc	ascii	C ;C$s
+00023692	ascii	Uh@DB
+000239c7	ascii	Uh{FB
+000239ee	ascii	Uh^FB
+00023b3b	ascii	UhgGB
+00023b9a	ascii	TFileFormat
+00023c1d	ascii	TFileFormatsList
+00023c35	ascii	QQQQSV
+00023dc8	ascii	Uh3JB
+00024113	ascii	_^[Y]
+0002425c	ascii	UhOOB
+00024448	ascii	PhHNB
+00024451	ascii	Ph`OB
+00024690	ascii	3TjdP
+0002469a	ascii	kD$TdP
+00024780	ascii	3TjdP
+0002478a	ascii	kD$PdP
+000248ca	ascii	 EMFt
+000248e5	ascii	UhdUB
+00024b21	ascii	UhyWB
+00024bff	ascii	?TjdR
+00024c0a	ascii	D$LPkD$XdPV
+00024cef	ascii	?TjdR
+00024cfa	ascii	D$HPkD$TdPV
+00024d80	ascii	|$( EMFt
+00024f1f	ascii	^[YY]
+00024fb2	ascii	Uhc\B
+00024fe1	ascii	UhC\B
+0002518d	ascii	TBitmapCanvas
+000251a2	ascii	TBitmapCanvast]B
+000251ba	ascii	Graphics
+000251d9	ascii	Uhb^B
+00025210	ascii	Uh:^B
+0002560d	ascii	Uh[bB
+00025b7e	ascii	UhVhB
+00025dbf	ascii	UhwkB
+00025e52	ascii	Uh/kB
+0002626f	ascii	@pPV3
+000263c2	ascii	UhYpB
+00026b0e	ascii	UhKwB
+00026b59	ascii	_^[YY]
+00026bfd	ascii	Uh||B
+00026e3e	ascii	Uh_{B
+00026ebd	ascii	Uh3{B
+00027141	ascii	<$BMt
+0002735a	ascii	T]_^[
+0002736b	ascii	s(;~ t8
+000277d5	ascii	D$*Ph
+00027e3b	ascii	C(_^[Y]
+00027f48	ascii	\$4Vj
+00027f5c	ascii	SVWjH
+00028019	ascii	TPatternManagerSV
+0002814f	ascii	_^[YY]
+000285bd	ascii	TObjectList
+00028621	ascii	TOrderedList
+00028689	ascii	TStack
+00028a0c	ascii	^[YY]
+00028a1c	ascii	GetMonitorInfoA
+00028aa0	ascii	GetSystemMetrics
+00028b34	ascii	MonitorFromRect
+00028bc8	ascii	MonitorFromWindow
+00028c60	ascii	MonitorFromPoint
+00028cbe	ascii	>(r[j
+00028d30	ascii	GetMonitorInfo
+00028d40	ascii	DISPLAY
+00028d92	ascii	>(r[j
+00028e04	ascii	GetMonitorInfoA
+00028e14	ascii	DISPLAY
+00028e66	ascii	>(r[j
+00028ed8	ascii	GetMonitorInfoW
+00028ee8	ascii	DISPLAY
+0002900c	ascii	EnumDisplayMonitors
+00029080	ascii	USER32.DLL
+0002910a	ascii	IHelpSelector@
+0002912d	ascii	HelpIntfs
+00029142	ascii	IHelpSystem@
+00029163	ascii	HelpIntfs
+00029176	ascii	ICustomHelpViewer@
+0002919d	ascii	HelpIntfs
+000291b2	ascii	IExtendedHelpViewerp
+000291db	ascii	HelpIntfs
+000291ee	ascii	ISpecialWinHelpViewer
+00029219	ascii	HelpIntfs
+0002922e	ascii	IHelpManager@
+00029250	ascii	HelpIntfs
+000292ad	ascii	EHelpSystemException
+00029323	ascii	THelpViewerNode
+0002949b	ascii	THelpManager
+000297d7	ascii	R(FKu
+00029fb2	ascii	_^[Y]
+0002a338	ascii	comctl32.dll
+0002a348	ascii	InitializeFlatSB
+0002a35c	ascii	UninitializeFlatSB
+0002a370	ascii	FlatSB_GetScrollProp
+0002a388	ascii	FlatSB_SetScrollProp
+0002a3a0	ascii	FlatSB_EnableScrollBar
+0002a3b8	ascii	FlatSB_ShowScrollBar
+0002a3d0	ascii	FlatSB_GetScrollRange
+0002a3e8	ascii	FlatSB_GetScrollInfo
+0002a400	ascii	FlatSB_GetScrollPos
+0002a414	ascii	FlatSB_SetScrollPos
+0002a428	ascii	FlatSB_SetScrollInfo
+0002a440	ascii	FlatSB_SetScrollRange
+0002a4ed	ascii	TSynchroObject
+0002a551	ascii	TCriticalSection
+0002abc0	ascii	uxtheme.dll
+0002abcc	ascii	OpenThemeData
+0002abdc	ascii	CloseThemeData
+0002abec	ascii	DrawThemeBackground
+0002ac00	ascii	DrawThemeText
+0002ac10	ascii	GetThemeBackgroundContentRect
+0002ac30	ascii	GetThemePartSize
+0002ac44	ascii	GetThemeTextExtent
+0002ac58	ascii	GetThemeTextMetrics
+0002ac6c	ascii	GetThemeBackgroundRegion
+0002ac88	ascii	HitTestThemeBackground
+0002aca0	ascii	DrawThemeEdge
+0002acb0	ascii	DrawThemeIcon
+0002acc0	ascii	IsThemePartDefined
+0002acd4	ascii	IsThemeBackgroundPartiallyTransparent
+0002acfc	ascii	GetThemeColor
+0002ad0c	ascii	GetThemeMetric
+0002ad1c	ascii	GetThemeString
+0002ad2c	ascii	GetThemeBool
+0002ad3c	ascii	GetThemeInt
+0002ad48	ascii	GetThemeEnumValue
+0002ad5c	ascii	GetThemePosition
+0002ad70	ascii	GetThemeFont
+0002ad80	ascii	GetThemeRect
+0002ad90	ascii	GetThemeMargins
+0002ada0	ascii	GetThemeIntList
+0002adb0	ascii	GetThemePropertyOrigin
+0002adc8	ascii	SetWindowTheme
+0002add8	ascii	GetThemeFilename
+0002adec	ascii	GetThemeSysColor
+0002ae00	ascii	GetThemeSysColorBrush
+0002ae18	ascii	GetThemeSysBool
+0002ae28	ascii	GetThemeSysSize
+0002ae38	ascii	GetThemeSysFont
+0002ae48	ascii	GetThemeSysString
+0002ae5c	ascii	GetThemeSysInt
+0002ae6c	ascii	IsThemeActive
+0002ae7c	ascii	IsAppThemed
+0002ae88	ascii	GetWindowTheme
+0002ae98	ascii	EnableThemeDialogTexture
+0002aeb4	ascii	IsThemeDialogTextureEnabled
+0002aed0	ascii	GetThemeAppProperties
+0002aee8	ascii	SetThemeAppProperties
+0002af00	ascii	GetCurrentThemeName
+0002af14	ascii	GetThemeDocumentationProperty
+0002af34	ascii	DrawThemeParentBackground
+0002af50	ascii	EnableTheming
+0002b04d	ascii	TThemeServices
+0002b064	ascii	Theme manager  2001, 2002 Mike Lischke
+0002b08c	utf16	button
+0002b09c	utf16	clock
+0002b0a8	utf16	combobox
+0002b0c8	utf16	explorerbar
+0002b0e0	utf16	header
+0002b0f0	utf16	listview
+0002b11c	utf16	progress
+0002b130	utf16	rebar
+0002b13c	utf16	scrollbar
+0002b15c	utf16	startpanel
+0002b174	utf16	status
+0002b18c	utf16	taskband
+0002b1a0	utf16	taskbar
+0002b1b0	utf16	toolbar
+0002b1c0	utf16	tooltip
+0002b1d0	utf16	trackbar
+0002b1e4	utf16	traynotify
+0002b1fc	utf16	treeview
+0002b210	utf16	window
+0002b2a4	ascii	comctl32.dll
+0002b485	ascii	^[YY]
+0002b54c	ascii	 !"#$%D
+0002bc65	ascii	TTimer
+0002bc72	ascii	TTimer,
+0002bc83	ascii	ExtCtrls
+0002bca8	ascii	Enabled|
+0002bcca	ascii	IntervalXXA
+0002bced	ascii	OnTimerSV
+0002bde9	ascii	_^[Y]
+0002c319	ascii	TCommonDialog
+0002c32e	ascii	TCommonDialog
+0002c346	ascii	Dialogs
+0002c36a	ascii	Ctl3D
+0002c38a	ascii	HelpContextXXA
+0002c3b0	ascii	OnCloseXXA
+0002c3d2	ascii	OnShowSV
+0002c4f7	ascii	_^[Y]
+0002c674	ascii	Cancel
+0002c684	ascii	Abort
+0002c694	ascii	Retry
+0002c6a4	ascii	Ignore
+0002c6c0	ascii	NoToAll
+0002c6d0	ascii	YesToAll
+0002c750	ascii	commdlg_help
+0002c760	ascii	commdlg_FindReplace
+0002c774	ascii	WndProcPtr%.8X%.8X
+0002c94c	ascii	Delphi Picture
+0002c95c	ascii	Delphi Component
+0002ca49	ascii	THintActionX
+0002ca5a	ascii	THintAction
+0002ca70	ascii	StdActns
+0002ccab	ascii	TWinHelpViewer
+0002cd78	ascii	_^[YY]
+0002ced1	ascii	_^[YY]
+0002d080	ascii	IE(AL("%s",4),"AL(\"%0:s\",3)","JK(\"%1:s\",\"%0:s\")")
+0002d274	ascii	JumpID("","%s")
+0002d2ef	ascii	_^[YY]
+0002d37f	ascii	_^[Y]
+0002d38b	utf16	jjjjj
+0002d4d8	ascii	MS_WINHELP
+0002d534	ascii	#32770
+0002d836	ascii	TCursor
+0002d84e	ascii	TAlign
+0002d862	ascii	alNone
+0002d869	ascii	alTop
+0002d86f	ascii	alBottom
+0002d878	ascii	alLeft
+0002d87f	ascii	alRight
+0002d887	ascii	alClient
+0002d890	ascii	alCustom
+0002d899	ascii	Controls
+0002d915	ascii	TDragObject$
+0002d926	ascii	TDragObject
+0002d93c	ascii	Controls
+0002d9c1	ascii	TBaseDragControlObject
+0002d9de	ascii	TBaseDragControlObject
+0002d9ff	ascii	Controls
+0002da85	ascii	TDragControlObject
+0002db11	ascii	TDragControlObjectEx
+0002dbb1	ascii	TDragDockObject
+0002dbc6	ascii	TDragDockObjectt
+0002dbe0	ascii	Controls
+0002dc75	ascii	TDragDockObjectEx
+0002dced	ascii	TControlCanvas
+0002dd02	ascii	TControlCanvas
+0002dd1b	ascii	Controls
+0002ddf1	ascii	TControlActionLink
+0002de0a	ascii	TMouseButton
+0002de24	ascii	mbLeft
+0002de2b	ascii	mbRight
+0002de33	ascii	mbMiddle
+0002de3c	ascii	ControlsH
+0002de4a	ascii	TDragMode
+0002de61	ascii	dmManual
+0002de6a	ascii	dmAutomatic
+0002de76	ascii	Controls
+0002de86	ascii	TDragState
+0002de9e	ascii	dsDragEnter
+0002deaa	ascii	dsDragLeave
+0002deb6	ascii	dsDragMove
+0002dec1	ascii	Controls
+0002ded2	ascii	TDragKind
+0002dee9	ascii	dkDrag
+0002def0	ascii	dkDock
+0002def7	ascii	Controls
+0002df06	ascii	TCaption
+0002df16	ascii	TAnchorKind
+0002df2f	ascii	akLeft
+0002df36	ascii	akTop
+0002df3c	ascii	akRight
+0002df44	ascii	akBottom
+0002df4d	ascii	Controls
+0002df5e	ascii	TAnchors
+0002df72	ascii	TConstraintSize
+0002dfed	ascii	TSizeConstraints
+0002e006	ascii	TSizeConstraints
+0002e021	ascii	Controls
+0002e046	ascii	MaxHeightl
+0002e06a	ascii	MaxWidthl
+0002e08d	ascii	MinHeightl
+0002e0b1	ascii	MinWidth
+0002e0c2	ascii	TMouseEvent
+0002e0d1	ascii	Sender
+0002e0d8	ascii	TObject
+0002e0e1	ascii	Button
+0002e0e8	ascii	TMouseButton
+0002e0f6	ascii	Shift
+0002e0fc	ascii	TShiftState
+0002e10b	ascii	Integer
+0002e116	ascii	Integer
+0002e13a	ascii	TMouseMoveEvent
+0002e14d	ascii	Sender
+0002e154	ascii	TObject
+0002e15d	ascii	Shift
+0002e163	ascii	TShiftState
+0002e172	ascii	Integer
+0002e17d	ascii	Integer
+0002e19e	ascii	TKeyEvent
+0002e1ab	ascii	Sender
+0002e1b2	ascii	TObject
+0002e1c5	ascii	Shift
+0002e1cb	ascii	TShiftState
+0002e1ea	ascii	TKeyPressEvent
+0002e1fc	ascii	Sender
+0002e203	ascii	TObject
+0002e226	ascii	TDragOverEvent
+0002e238	ascii	Sender
+0002e23f	ascii	TObject
+0002e248	ascii	Source
+0002e24f	ascii	TObject
+0002e25a	ascii	Integer
+0002e265	ascii	Integer
+0002e26e	ascii	State
+0002e274	ascii	TDragState
+0002e280	ascii	Accept
+0002e287	ascii	Boolean
+0002e2ae	ascii	TDragDropEvent
+0002e2c0	ascii	Sender
+0002e2c7	ascii	TObject
+0002e2d0	ascii	Source
+0002e2d7	ascii	TObject
+0002e2e2	ascii	Integer
+0002e2ed	ascii	Integer
+0002e30e	ascii	TEndDragEvent
+0002e31f	ascii	Sender
+0002e326	ascii	TObject
+0002e32f	ascii	Target
+0002e336	ascii	TObject
+0002e341	ascii	Integer
+0002e34c	ascii	Integer
+0002e36a	ascii	TDockDropEvent
+0002e37c	ascii	Sender
+0002e383	ascii	TObject
+0002e38c	ascii	Source
+0002e393	ascii	TDragDockObject
+0002e3a6	ascii	Integer
+0002e3b1	ascii	Integer
+0002e3d2	ascii	TDockOverEvent
+0002e3e4	ascii	Sender
+0002e3eb	ascii	TObject
+0002e3f4	ascii	Source
+0002e3fb	ascii	TDragDockObject
+0002e40e	ascii	Integer
+0002e419	ascii	Integer
+0002e422	ascii	State
+0002e428	ascii	TDragState
+0002e434	ascii	Accept
+0002e43b	ascii	Boolean
+0002e462	ascii	TUnDockEvent
+0002e472	ascii	Sender
+0002e479	ascii	TObject
+0002e482	ascii	Client
+0002e489	ascii	TControl
+0002e493	ascii	NewTarget
+0002e49d	ascii	TWinControl
+0002e4aa	ascii	Allow
+0002e4b0	ascii	Boolean
+0002e4ce	ascii	TStartDockEvent
+0002e4e1	ascii	Sender
+0002e4e8	ascii	TObject
+0002e4f1	ascii	DragObject
+0002e4fc	ascii	TDragDockObject
+0002e51a	ascii	TGetSiteInfoEvent
+0002e52f	ascii	Sender
+0002e536	ascii	TObject
+0002e53f	ascii	DockClient
+0002e54a	ascii	TControl
+0002e554	ascii	InfluenceRect
+0002e562	ascii	TRect
+0002e569	ascii	MousePos
+0002e572	ascii	TPoint
+0002e57a	ascii	CanDock
+0002e582	ascii	Boolean
+0002e5a6	ascii	TCanResizeEvent
+0002e5b9	ascii	Sender
+0002e5c0	ascii	TObject
+0002e5c9	ascii	NewWidth
+0002e5d2	ascii	Integer
+0002e5db	ascii	NewHeight
+0002e5e5	ascii	Integer
+0002e5ee	ascii	Resize
+0002e5f5	ascii	Boolean
+0002e616	ascii	TConstrainedResizeEvent
+0002e631	ascii	Sender
+0002e638	ascii	TObject
+0002e641	ascii	MinWidth
+0002e64a	ascii	Integer
+0002e653	ascii	MinHeight
+0002e65d	ascii	Integer
+0002e666	ascii	MaxWidth
+0002e66f	ascii	Integer
+0002e678	ascii	MaxHeight
+0002e682	ascii	Integer
+0002e6a6	ascii	TMouseWheelEvent
+0002e6ba	ascii	Sender
+0002e6c1	ascii	TObject
+0002e6ca	ascii	Shift
+0002e6d0	ascii	TShiftState
+0002e6dd	ascii	WheelDelta
+0002e6e8	ascii	Integer
+0002e6f1	ascii	MousePos
+0002e6fa	ascii	TPoint
+0002e702	ascii	Handled
+0002e70a	ascii	Boolean
+0002e72e	ascii	TMouseWheelUpDownEvent
+0002e748	ascii	Sender
+0002e74f	ascii	TObject
+0002e758	ascii	Shift
+0002e75e	ascii	TShiftState
+0002e76b	ascii	MousePos
+0002e774	ascii	TPoint
+0002e77c	ascii	Handled
+0002e784	ascii	Boolean
+0002e7a2	ascii	TContextPopupEvent
+0002e7b8	ascii	Sender
+0002e7bf	ascii	TObject
+0002e7c8	ascii	MousePos
+0002e7d1	ascii	TPoint
+0002e7d9	ascii	Handled
+0002e7e1	ascii	Boolean
+0002eaaf	ascii	TControl
+0002eabe	ascii	TControlD
+0002ead1	ascii	Controls
+0002eaf6	ascii	Left<
+0002eb33	ascii	Width<
+0002eb53	ascii	Height0
+0002eb74	ascii	Cursor
+0002ebb4	ascii	HelpType
+0002ebd7	ascii	HelpKeyword
+0002ebfd	ascii	HelpContextT
+0002ecd1	ascii	TWinControlActionLink
+0002ecee	ascii	TImeName
+0002ecfe	ascii	TBorderWidth
+0002ed1a	ascii	IDockManager@
+0002ed3c	ascii	Controls
+0002f0ef	ascii	TWinControl
+0002f102	ascii	TWinControl
+0002f118	ascii	Controls
+0002f245	ascii	TCustomControl
+0002f25a	ascii	TCustomControlp
+0002f273	ascii	Controls
+0002f3c7	ascii	THintWindow
+0002f3da	ascii	THintWindow
+0002f3f0	ascii	Controls
+0002f48d	ascii	TDragImageList
+0002f4a2	ascii	TDragImageListH
+0002f4bb	ascii	Controls
+0002f559	ascii	TImageList
+0002f56a	ascii	TImageList
+0002f57f	ascii	Controls
+0002f5a4	ascii	BlendColor
+0002f5c9	ascii	BkColor<
+0002f5eb	ascii	AllocByH
+0002f60d	ascii	DrawingStyle<
+0002f634	ascii	Height
+0002f655	ascii	ImageType
+0002f679	ascii	MaskedXXA
+0002f69a	ascii	OnChange
+0002f6bd	ascii	ShareImages<
+0002f6e3	ascii	Width4
+0002f735	ascii	TDockZone
+0002f8ad	ascii	TDockTree
+0002f905	ascii	TMouse
+0002fa84	ascii	crDefault
+0002fa98	ascii	crArrow
+0002faa8	ascii	crCross
+0002fab8	ascii	crIBeam
+0002fac8	ascii	crSizeNESW
+0002fadc	ascii	crSizeNS
+0002faf0	ascii	crSizeNWSE
+0002fb04	ascii	crSizeWE
+0002fb18	ascii	crUpArrow
+0002fb2c	ascii	crHourGlass
+0002fb40	ascii	crDrag
+0002fb50	ascii	crNoDrop
+0002fb64	ascii	crHSplit
+0002fb78	ascii	crVSplit
+0002fb8c	ascii	crMultiDrag
+0002fba0	ascii	crSQLWait
+0002fbc4	ascii	crAppStart
+0002fbd8	ascii	crHelp
+0002fbe8	ascii	crHandPoint
+0002fbfc	ascii	crSizeAll
+0002fc10	ascii	crSize
+0002fd89	ascii	TSiteList
+0002fe4a	ascii	_^[YY]
+0002ffca	ascii	tPHt8
+000300f3	ascii	_^[Y]
+000301c1	ascii	S$_^[]
+000304c3	ascii	;B0t'
+000309a7	ascii	QSVW3
+000309f6	ascii	;B8t@
+00030a3e	ascii	_^[Y]
+00030bbd	ascii	CQ tA
+00030e7e	ascii	YZ_^[
+00031420	ascii	YZ]_^[
+00031499	ascii	YZ_^[
+000314b5	ascii	UhP!C
+000314f3	ascii	Uh)!C
+000317e0	ascii	t%Jt?Jt[
+000318ab	ascii	Uha%C
+0003197c	ascii	%s (%s)
+00031a1d	ascii	Z:Pjt
+00031e6e	ascii	YZ]_^[
+00031e91	ascii	$:Cat
+0003201b	ascii	u$;~|u
+0003210b	ascii	tr;s@u
+00032122	ascii	;CLtX3
+000323a9	ascii	Uh30C
+00032493	ascii	Qh_^[
+000325cf	ascii	Uh=2C
+00032672	ascii	YZ_^[
+0003269e	ascii	YZ_^[
+000328f4	ascii	V:P\t
+0003292e	ascii	GP t;
+000329a9	ascii	_^[YY]
+000329cb	ascii	CH+D$
+000329d6	ascii	CL+D$
+000329fe	ascii	;s0t=;
+00032a4b	ascii	:_Wt+
+00032d04	ascii	f;Pxt
+00032ef6	ascii	CP@t2
+000330cb	ascii	KHQRP
+00033e42	ascii	Ht7Ht
+00034030	ascii	IsControl
+0003417b	ascii	_^[YY]
+00034782	ascii	YZ_^[
+00034ac9	ascii	_^[YY]
+00034bc2	ascii	UhPXC
+00034c57	ascii	_^[Y]
+00034d45	ascii	8]_^[
+00034f19	ascii	,]_^[
+00034f4c	ascii	YZ_^[
+000350ac	ascii	^[YY]
+000351b8	ascii	UhP^C
+00035315	ascii	GD;FD
+00035333	ascii	G@;F@
+00035527	ascii	UhaaC
+0003583a	ascii	:_[up
+000359de	ascii	UhKfC
+00035ba8	ascii	+WH+W@
+00035fc4	ascii	SVWUQ
+00035ffe	ascii	Z]_^[
+000364e7	ascii	:GauOFKu
+0003653e	ascii	_^[Y]
+00036598	ascii	DesignSize
+0003660e	ascii	UhIrC
+000368f3	ascii	_^[YY]
+00036a35	ascii	_^[Y]
+00036c34	ascii	t2HtY
+00036f5c	ascii	@P@t%
+0003723e	ascii	 ]_^[
+00037a72	ascii	_^[Y]
+00037c1f	ascii	_^[Y]
+00037c7a	ascii	$Z_^[
+00037d2e	ascii	_^[YY]
+00037e93	ascii	_^[Y]
+0003802b	ascii	^[YY]
+0003805c	ascii	SVWUQ
+000380bb	ascii	Z]_^[
+00038144	ascii	SVWUQ
+000381a3	ascii	Z]_^[
+0003820c	ascii	SVWUQ
+0003826a	ascii	Z]_^[
+00038336	ascii	_^[YY]
+00038391	ascii	;XDt#
+000384d0	ascii	SVWUQ
+0003851f	ascii	Z]_^[
+000386dd	utf16	jjjjj
+000387f3	ascii	t&j7j
+000387f7	utf16	jjjjj
+00038915	ascii	YZ]_^[
+000389d9	ascii	YZ]_^[
+00038d0a	ascii	YZ]_^[
+00038d59	ascii	 t4VS
+000390d2	ascii	R|FOu
+00039583	ascii	YZ]_^[
+00039702	ascii	^[YY]
+000397cc	ascii	S8_^[]
+0003995c	ascii	+CH+E
+000399c0	ascii	+SL+U
+0003a7fd	ascii	_^[Y]
+0003aa04	ascii	f;Pht
+0003aaa0	ascii	_^[Y]
+0003aac3	ascii	t9;wlt4
+0003ab6d	ascii	YZ_^[
+0003b228	ascii	;Bdt*
+0003b252	ascii	;Bh|3
+0003b955	ascii	R|_^[
+0003ba2d	ascii	FLVhx
+0003bafd	ascii	_^[Y]
+0003bda6	ascii	Y_^[]
+0003c2ee	ascii	Y[YY]
+0003c671	ascii	t$;C8u
+0003c6a1	ascii	QQQQSVW
+0003c7d7	ascii	;Fdu;
+0003cb5e	ascii	^[YY]
+0003cbef	ascii	Q8FKu
+0003ccc8	ascii	;Xdt>
+0003cd80	ascii	t#;^dt
+0003cdff	ascii	YZ_^[
+0003d032	ascii	Y_^[]
+0003d082	ascii	^[YY]
+0003d20e	ascii	+W$;U
+0003d265	ascii	+G$;E
+0003d2b6	ascii	_^[Y]
+0003d3cb	ascii	BP_^[]
+0003db08	ascii	USER32
+0003db10	ascii	WINNLSEnableIME
+0003db20	ascii	imm32.dll
+0003db2c	ascii	ImmGetContext
+0003db3c	ascii	ImmReleaseContext
+0003db50	ascii	ImmGetConversionStatus
+0003db68	ascii	ImmSetConversionStatus
+0003db80	ascii	ImmSetOpenStatus
+0003db94	ascii	ImmSetCompositionWindow
+0003dbac	ascii	ImmSetCompositionFontA
+0003dbc4	ascii	ImmGetCompositionStringA
+0003dbe0	ascii	ImmIsIME
+0003dbec	ascii	ImmNotifyIME
+0003dceb	ascii	YZ_^[
+0003df1c	ascii	Delphi%.8X
+0003df30	ascii	ControlOfs%.8X%.8X
+0003df44	ascii	USER32
+0003df4c	ascii	AnimateWindow
+0003e115	ascii	TContainedAction
+0003e12e	ascii	TContainedAction
+0003e149	ascii	ActnList
+0003e16e	ascii	Category
+0003e217	ascii	TCustomActionList,
+0003e22e	ascii	TCustomActionList
+0003e24a	ascii	ActnList
+0003e339	ascii	TShortCutList
+0003e34e	ascii	TShortCutList
+0003e366	ascii	ActnList
+0003e441	ascii	TCustomAction
+0003e456	ascii	TCustomAction
+0003e46e	ascii	ActnList
+0003e53d	ascii	TActionLinkSV
+0003e85f	ascii	^[YY]
+0003e90b	ascii	u*;~8u
+0003e9a6	ascii	R0GNu
+0003e9e0	ascii	SVWUQ
+0003ea66	ascii	Z]_^[
+0003ed36	ascii	QLGNu
+0003ed4c	ascii	R0Z_^[
+0003edbf	ascii	QPFOu
+0003ee53	ascii	_^[Y]
+0003ee67	ascii	$:Cjt_
+0003eeb9	ascii	QTGNu
+0003eeca	ascii	R0Z_^[
+0003ef1e	ascii	Q`FOu
+0003ef33	ascii	R0]_^[
+0003ef47	ascii	$;Ctt?
+0003ef79	ascii	Q\GNu
+0003ef8a	ascii	R0Z_^[
+0003efd6	ascii	QhGNu
+0003efec	ascii	R0Z_^[
+0003f034	ascii	QlGNu
+0003f048	ascii	R0Z_^[
+0003f050	ascii	SVWQf
+0003f094	ascii	QpGNu
+0003f0aa	ascii	R0Z_^[
+0003f0f9	ascii	QtFOu
+0003f10a	ascii	R0]_^[
+0003f248	ascii	SVWUQ
+0003f282	ascii	$Z]_^[
+0003f33d	ascii	TChangeLinkL
+0003f34e	ascii	TDrawingStyle
+0003f369	ascii	dsFocus
+0003f371	ascii	dsSelected
+0003f37c	ascii	dsNormal
+0003f385	ascii	dsTransparent
+0003f393	ascii	ImgList
+0003f3a2	ascii	TImageType
+0003f3ba	ascii	itImage
+0003f3c2	ascii	itMask
+0003f3c9	ascii	ImgList
+0003f3d6	ascii	TImageIndex
+0003f485	ascii	TCustomImageList
+0003f49e	ascii	TCustomImageList8
+0003f4b9	ascii	ImgList
+0003f787	ascii	;V4t8
+0003f7cb	ascii	;V0t8
+0003f893	ascii	Rd_^[
+0003f8ec	ascii	s8VV3
+0003fd97	ascii	S0_^[]
+000400fa	ascii	R ;C0|
+00040106	ascii	R,;C4}!
+000401be	ascii	S`]_^[
+00040400	ascii	Bitmap
+00040a19	ascii	_^[Y]
+00040a28	ascii	comctl32.dll
+00040a38	ascii	comctl32.dll
+00040a48	ascii	ImageList_WriteEx
+00040b51	ascii	EMenuError
+00040b62	ascii	TMenuBreak
+00040b7a	ascii	mbNone
+00040b81	ascii	mbBreak
+00040b89	ascii	mbBarBreak
+00040b94	ascii	Menus
+00040ba2	ascii	TMenuChangeEvent
+00040bb6	ascii	Sender
+00040bbd	ascii	TObject
+00040bc6	ascii	Source
+00040bcd	ascii	TMenuItem
+00040bd8	ascii	Rebuild
+00040be0	ascii	Boolean
+00040bfa	ascii	TMenuDrawItemEvent
+00040c10	ascii	Sender
+00040c17	ascii	TObject
+00040c20	ascii	ACanvas
+00040c28	ascii	TCanvas
+00040c31	ascii	ARect
+00040c37	ascii	TRect
+00040c3e	ascii	Selected
+00040c47	ascii	Boolean
+00040c66	ascii	TAdvancedMenuDrawItemEvent
+00040c84	ascii	Sender
+00040c8b	ascii	TObject
+00040c94	ascii	ACanvas
+00040c9c	ascii	TCanvas
+00040ca5	ascii	ARect
+00040cab	ascii	TRect
+00040cb2	ascii	State
+00040cb8	ascii	TOwnerDrawState
+00040cde	ascii	TMenuMeasureItemEvent
+00040cf7	ascii	Sender
+00040cfe	ascii	TObject
+00040d07	ascii	ACanvas
+00040d0f	ascii	TCanvas
+00040d18	ascii	Width
+00040d1e	ascii	Integer
+00040d27	ascii	Height
+00040d2e	ascii	Integer
+00040d4e	ascii	TMenuItemAutoFlag
+00040d6d	ascii	maAutomatic
+00040d79	ascii	maManual
+00040d82	ascii	maParent
+00040d8b	ascii	Menus
+00040d96	ascii	TMenuAutoFlag
+00040db1	ascii	Menus
+00040e81	ascii	TMenuActionLink
+00040f6b	ascii	TMenuItemx
+00040f7a	ascii	TMenuItem
+00040f8e	ascii	Menus
+00040fb0	ascii	Action
+00040fd1	ascii	AutoCheckH
+00040ff5	ascii	AutoHotkeysH
+0004101b	ascii	AutoLineReductionD
+00041047	ascii	Bitmap\
+00041068	ascii	Break
+00041088	ascii	Caption
+000410aa	ascii	Checked
+000410cc	ascii	SubMenuImages
+000410f4	ascii	Default
+00041116	ascii	EnabledT
+00041138	ascii	GroupIndex
+0004115d	ascii	HelpContext
+000411a2	ascii	ImageIndex
+000411c7	ascii	RadioItem@XA
+000411eb	ascii	ShortCut
+0004120e	ascii	VisibleXXA
+00041230	ascii	OnClick
+00041252	ascii	OnDrawItem`
+00041277	ascii	OnAdvancedDrawItem
+000412a4	ascii	OnMeasureItem
+00041363	ascii	TMenul
+0004136e	ascii	TMenu
+0004137e	ascii	Menus
+000413a0	ascii	Items
+00041431	ascii	TMainMenu
+00041442	ascii	TMainMenu
+00041456	ascii	Menus
+00041478	ascii	AutoHotkeys
+0004149e	ascii	AutoLineReduction
+000414ca	ascii	AutoMerge
+000414ee	ascii	BiDiMode
+00041511	ascii	Images
+00041532	ascii	OwnerDraw
+00041556	ascii	ParentBiDiMode
+0004157f	ascii	OnChange
+0004158e	ascii	TPopupAlignment
+000415ab	ascii	paLeft
+000415b2	ascii	paRight
+000415ba	ascii	paCenter
+000415c3	ascii	Menus
+000415ce	ascii	TTrackButton
+000415e8	ascii	tbRightButton
+000415f6	ascii	tbLeftButton
+00041603	ascii	Menus
+0004160e	ascii	TMenuAnimations
+0004162b	ascii	maLeftToRight
+00041639	ascii	maRightToLeft
+00041647	ascii	maTopToBottom
+00041655	ascii	maBottomToTop
+00041663	ascii	maNone
+0004166a	ascii	Menus
+00041676	ascii	TMenuAnimation
+0004171d	ascii	TPopupMenu
+0004172e	ascii	TPopupMenu
+00041743	ascii	Menus
+00041765	ascii	Alignment
+00041789	ascii	AutoHotkeys
+000417af	ascii	AutoLineReduction
+000417db	ascii	AutoPopup
+000417ff	ascii	BiDiMode
+00041822	ascii	HelpContext
+00041848	ascii	Imagesp"D
+00041869	ascii	MenuAnimation
+00041891	ascii	OwnerDraw
+000418b5	ascii	ParentBiDiMode
+000418de	ascii	TrackButton
+00041904	ascii	OnChangeXXA
+00041927	ascii	OnPopup
+00041991	ascii	TPopupList
+000419f5	ascii	TMenuItemStack
+00041a0c	ascii	1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ
+00041d93	ascii	UhS*D
+00041e5c	ascii	_^[YY]
+000421ce	ascii	f;B`t
+000426e5	ascii	CPPVj
+0004295b	ascii	Q<]_^[
+00042964	ascii	SVWUQ
+0004298f	ascii	:X?s&
+000429b8	ascii	X?ENu
+000429be	ascii	Z]_^[
+00042a44	ascii	ShortCutText
+00042a6f	ascii	Uh88D
+000435b6	ascii	_^[Y]
+00043952	ascii	Uh:FD
+00043efe	ascii	_^[Y]
+00044332	ascii	P?:S?u
+0004434f	ascii	:^8tB
+000443a3	ascii	:^9tg
+0004440d	ascii	Q<_^[
+0004441b	ascii	:^?t1
+000444a4	ascii	f;P`t
+00044598	ascii	:]:tJ
+000445e5	ascii	Q<]_^[
+00044645	ascii	@?:F?v
+000446a8	ascii	Q<]_^[
+0004471d	ascii	Q<_^[
+000449ba	ascii	R@FKu
+00044eb1	ascii	W<CNu
+00045383	ascii	SpFOu
+0004566b	ascii	$YZ]_^[
+00045772	ascii	_^[Y]
+000458bc	ascii	_^[Y]
+000458f4	ascii	SVWUQ
+0004595b	ascii	Z]_^[
+00045bb6	ascii	_^[YY]
+00045f2c	ascii	UhtkD
+00046011	ascii	S0^[]
+0004640b	ascii	_^[Y]
+0004653c	ascii	_^[Y]
+00046568	ascii	Ih;J4u
+000465fb	ascii	_^[Y]
+00046619	ascii	Uh7wD
+000468c0	ascii	UhjuD
+000468dd	ascii	UhMuD
+00046a02	ascii	UhkvD
+00046d99	ascii	YZ]_^[
+00046eb7	ascii	S0_^[
+00047022	ascii	^[YY]
+000470c1	ascii	Uh }D
+000471ba	ascii	TScrollBarInc
+000471d6	ascii	TScrollBarStyle
+000471f3	ascii	ssRegular
+000471fd	ascii	ssFlat
+00047204	ascii	ssHotTrack
+0004720f	ascii	Forms`~D
+0004726d	ascii	TControlScrollBar
+00047286	ascii	TControlScrollBar`~D
+000472a2	ascii	Forms
+000472c4	ascii	ButtonSize
+000472e9	ascii	Color
+00047309	ascii	Incrementh
+0004732d	ascii	Margin
+0004734e	ascii	ParentColor<
+00047374	ascii	Position<
+00047397	ascii	Range
+000473b7	ascii	Smooth<
+000473f7	ascii	Style<
+00047417	ascii	ThumbSize
+0004743b	ascii	Tracking
+0004745e	ascii	Visible
+0004746e	ascii	TWindowState
+00047488	ascii	wsNormal
+00047491	ascii	wsMinimized
+0004749d	ascii	wsMaximized
+000474a9	ascii	Forms
+000475f7	ascii	TScrollingWinControl
+00047612	ascii	TScrollingWinControl
+00047631	ascii	Forms
+00047653	ascii	HorzScrollBar
+0004767b	ascii	VertScrollBar
+0004768e	ascii	TFormBorderStyle
+000476ac	ascii	bsNone
+000476b3	ascii	bsSingle
+000476bc	ascii	bsSizeable
+000476c7	ascii	bsDialog
+000476d0	ascii	bsToolWindow
+000476dd	ascii	bsSizeToolWin
+000476eb	ascii	Forms
+000476f6	ascii	IDesignerHook0iA
+00047719	ascii	Forms
+0004772a	ascii	IOleForm@
+00047748	ascii	Forms
+0004775a	ascii	TFormStyle
+00047772	ascii	fsNormal
+0004777b	ascii	fsMDIChild
+00047786	ascii	fsMDIForm
+00047790	ascii	fsStayOnTop
+0004779c	ascii	Forms
+000477aa	ascii	TBorderIcon
+000477c3	ascii	biSystemMenu
+000477d0	ascii	biMinimize
+000477db	ascii	biMaximize
+000477e6	ascii	biHelp
+000477ed	ascii	Forms
+000477fa	ascii	TBorderIcons
+00047812	ascii	TPosition
+00047829	ascii	poDesigned
+00047834	ascii	poDefault
+0004783e	ascii	poDefaultPosOnly
+0004784f	ascii	poDefaultSizeOnly
+00047861	ascii	poScreenCenter
+00047870	ascii	poDesktopCenter
+00047880	ascii	poMainFormCenter
+00047891	ascii	poOwnerFormCenter
+000478a3	ascii	Forms
+000478ae	ascii	TDefaultMonitor
+000478cb	ascii	dmDesktop
+000478d5	ascii	dmPrimary
+000478df	ascii	dmMainForm
+000478ea	ascii	dmActiveForm
+000478f7	ascii	Forms
+00047902	ascii	TPrintScale
+0004791b	ascii	poNone
+00047922	ascii	poProportional
+00047931	ascii	poPrintToFit
+0004793e	ascii	Forms
+0004794a	ascii	TCloseAction
+00047964	ascii	caNone
+0004796b	ascii	caHide
+00047972	ascii	caFree
+00047979	ascii	caMinimize
+00047984	ascii	Forms
+00047992	ascii	TCloseEvent
+000479a1	ascii	Sender
+000479a8	ascii	TObject
+000479b1	ascii	Action
+000479b8	ascii	TCloseAction
+000479d6	ascii	TCloseQueryEvent
+000479ea	ascii	Sender
+000479f1	ascii	TObject
+000479fa	ascii	CanClose
+00047a03	ascii	Boolean
+00047a1a	ascii	TShortCutEvent
+00047a30	ascii	TWMKey
+00047a38	ascii	Handled
+00047a40	ascii	Boolean
+00047a56	ascii	THelpEvent
+00047a64	ascii	Command
+00047a77	ascii	Integer
+00047a80	ascii	CallHelp
+00047a89	ascii	Boolean
+00047a91	ascii	Boolean
+00047d7f	ascii	TCustomForm
+00047d92	ascii	TCustomForm
+00047da8	ascii	Forms
+00047ef1	ascii	TForm
+00047efe	ascii	TForm
+00047f0e	ascii	FormsU
+00047f30	ascii	Action
+00047f51	ascii	ActiveControlH
+00047f79	ascii	Align
+00047f99	ascii	AlphaBlendT
+00047fbe	ascii	AlphaBlendValueX
+00047fe8	ascii	Anchors
+0004800a	ascii	AutoScroll
+0004802f	ascii	AutoSize
+00048052	ascii	BiDiMode
+00048075	ascii	BorderIcons
+0004809b	ascii	BorderStyle
+000480c1	ascii	BorderWidth
+000480e7	ascii	Caption<
+00048109	ascii	ClientHeight<
+00048130	ascii	ClientWidth
+00048156	ascii	Color
+00048176	ascii	TransparentColor
+000481a1	ascii	TransparentColorValue
+000481d1	ascii	Constraints
+000481f7	ascii	Ctl3D
+00048217	ascii	UseDockManager
+00048240	ascii	DefaultMonitor
+00048269	ascii	DockSite
+0004828c	ascii	DragKindD
+000482af	ascii	DragMode
+000482d2	ascii	Enabled
+000482f4	ascii	ParentFont4
+00048319	ascii	FontT
+00048338	ascii	FormStyle<
+0004835c	ascii	Height
+0004837d	ascii	HelpFile
+000483a0	ascii	HorzScrollBar|
+000483e7	ascii	KeyPreview< D
+0004842b	ascii	OldCreateOrdert
+00048454	ascii	ObjectMenuItem
+0004847d	ascii	ParentBiDiMode<
+000484a6	ascii	PixelsPerInch(#D
+000484ce	ascii	PopupMenu
+000484f2	ascii	Position
+00048515	ascii	PrintScale
+0004853a	ascii	Scaled
+0004855b	ascii	ScreenSnap
+00048580	ascii	ShowHint<
+000485a3	ascii	SnapBuffer
+000485c8	ascii	VertScrollBar
+000485f0	ascii	Visible<
+00048612	ascii	Widthh
+00048632	ascii	WindowStatet
+00048658	ascii	WindowMenuXXA
+0004867d	ascii	OnActivate
+000486a2	ascii	OnCanResizeXXA
+000486c8	ascii	OnClick
+000486ea	ascii	OnClose
+0004870c	ascii	OnCloseQuery
+00048733	ascii	OnConstrainedResize
+00048761	ascii	OnContextPopupXXA
+0004878a	ascii	OnCreateXXA
+000487ad	ascii	OnDblClickXXA
+000487d2	ascii	OnDestroyXXA
+000487f6	ascii	OnDeactivated
+0004881d	ascii	OnDockDrop
+00048842	ascii	OnDockOver
+00048867	ascii	OnDragDrop 
+0004888c	ascii	OnDragOver
+000488b1	ascii	OnEndDock
+000488d5	ascii	OnGetSiteInfoXXA
+000488fd	ascii	OnHideP
+0004891e	ascii	OnHelp
+0004893f	ascii	OnKeyDown
+00048963	ascii	OnKeyPress
+00048988	ascii	OnKeyUp
+000489aa	ascii	OnMouseDown4
+000489d0	ascii	OnMouseMove
+000489f6	ascii	OnMouseUp
+00048a1a	ascii	OnMouseWheel(
+00048a41	ascii	OnMouseWheelDown(
+00048a6c	ascii	OnMouseWheelUpXXA
+00048a95	ascii	OnPaintXXA
+00048ab7	ascii	OnResize
+00048ada	ascii	OnShortCutXXA
+00048aff	ascii	OnShow
+00048b20	ascii	OnStartDock\
+00048b46	ascii	OnUnDock
+00048cc9	ascii	TCustomDockForm
+00048cde	ascii	TCustomDockForm
+00048cf8	ascii	Forms
+00048d1a	ascii	PixelsPerInch
+00048d75	ascii	TMonitor
+00048e0f	ascii	TScreen
+00048e1e	ascii	TScreen
+00048e30	ascii	Forms
+00048e3e	ascii	THintInfo@
+00048f0f	ascii	TApplication
+00048f22	ascii	TApplication
+00048f39	ascii	Forms
+00048f8f	utf16	jjjjj
+00049144	ascii	;X0t@S
+00049276	ascii	t:GNu
+000493ff	ascii	^[YY]
+00049c2c	ascii	;S$t6
+00049d68	ascii	;S0t6
+0004a223	ascii	+WH+W@
+0004a573	ascii	 ]_^[
+0004ad6e	ascii	_^[Y]
+0004adcc	ascii	_^[Y]
+0004afc7	ascii	;B@t/
+0004b204	ascii	PixelsPerInch
+0004b21c	ascii	TextHeight
+0004b230	ascii	IgnoreFontProperty
+0004b56e	ascii	_^[YY]
+0004b7d9	ascii	S,_^[]
+0004c210	ascii	SVWUQ
+0004c2f0	ascii	$Z]_^[
+0004c74e	ascii	;Cpu'
+0004cd55	ascii	F(Z_^[
+0004cea0	ascii	MDICLIENT
+0004d13b	ascii	_^[Y]
+0004d43c	ascii	_^[YY]
+0004d586	ascii	;ADti
+0004d875	ascii	f#CTf
+0004dac6	utf16	jjjjj
+0004dcae	ascii	_^[Y]
+0004e850	utf16	jjjjj
+0004e8a9	utf16	jjjjj
+0004e915	ascii	_^[YY]
+0004eb0f	ascii	t"GNu
+0004eb35	ascii	$Z_^[
+0004ebca	ascii	_^[YY]
+0004efcc	ascii	_^[Y]
+0004f027	ascii	R@GNu
+0004f035	ascii	Y_^[]
+0004f121	ascii	_^[Y]
+0004f221	ascii	_^[Y]
+0004f6fa	ascii	_^[YY]
+0004f765	utf16	jjjjj
+0004fce0	ascii	Ch;Ctt
+0004fd03	ascii	Cd;Cpt
+0004fe93	ascii	YZ_^[
+0004ff27	ascii	C\_^[
+000500ec	ascii	System\CurrentControlSet\Control\Keyboard Layouts\%.8x
+00050124	ascii	layout text
+000501ff	ascii	f;sDtsf
+0005025c	ascii	PWj W
+00050279	ascii	CHYZ]_^[
+00050470	ascii	RD;PD
+0005048e	ascii	R@;P@
+000507a4	ascii	_^[YY]
+00050bc4	ascii	TApplication
+00050dc8	ascii	MAINICON
+00050f27	ascii	Shp E
+000510af	ascii	XD;PHu
+000510ea	ascii	sx;P`u
+0005111a	ascii	;B0uGj
+00051481	ascii	Uh''E
+00051b4c	ascii	vcltest3.dll
+00051b5c	ascii	RegisterAutomation
+00051bd6	ascii	t<j@j
+00051f24	ascii	SVWUQ
+00051f86	ascii	$Z]_^[
+0005212a	ascii	_^[Y]
+000522a8	ascii	Uh-/E
+000525fc	ascii	Uhe2E
+0005266e	ascii	_^[YY]
+000526f7	ascii	_^[YY]
+000527dc	ascii	;{HtK
+0005282e	ascii	YZ_^[
+0005284a	ascii	UhD5E
+00052a4b	ascii	Uhy6E
+00052ac0	utf16	jjjjj
+00052b62	ascii	Y_^[Y]
+00052c53	ascii	;^`u0
+00052d09	ascii	 ]_^[
+00052f9a	ascii	Uh5<E
+000534a0	ascii	YZ]_^[
+0005351c	ascii	User32.dll
+00053528	ascii	SetLayeredWindowAttributes
+00053614	ascii	TaskbarCreated
+00053629	ascii	UhIBE
+00053662	ascii	TJVCLAboutInfo
+0005367e	ascii	JVCLAbout
+00053688	ascii	JVCLVer
+00053745	ascii	TJvComponent
+0005375a	ascii	TJvComponent
+00053771	ascii	JvComponentBase
+0005379d	ascii	AboutJVCL
+00053ba0	ascii	$URL: https://jcl.svn.sourceforge.net:443/svnroot/jcl/tags/JCL-2.2-Build3845/jcl/source/common/JclResources.pas $
+00053c1c	ascii	$Revision: 3266 $
+00053c38	ascii	$Date: 2010-07-25 13:44:27 +0200 (dim. 25 juil. 2010) $
+00053c78	ascii	JCL\source\common
+00053d41	ascii	EJclError
+00053d99	ascii	EJclInternalError
+00053db2	ascii	TUCS4Array
+00053dcd	ascii	JclBase
+00053ddc	ascii	$URL: https://jcl.svn.sourceforge.net:443/svnroot/jcl/tags/JCL-2.2-Build3845/jcl/source/common/JclBase.pas $
+00053e54	ascii	$Revision: 3336 $
+00053e70	ascii	$Date: 2010-09-10 18:23:10 +0200 (ven. 10 sept. 2010) $
+00053eb0	ascii	JCL\source\common
+00053f05	ascii	UhAKE
+00054049	ascii	EOleError
+000540a1	ascii	EOleSysError
+00054117	ascii	EOleException
+0005412c	ascii	Apartment
+00054160	ascii	Neutral
+000541e9	ascii	UhgNE
+00054320	ascii	_^[Y]
+000543d0	ascii	ole32.dll
+000543dc	ascii	CoCreateInstanceEx
+000543f0	ascii	CoInitializeEx
+00054400	ascii	CoAddRefServerProcess
+00054418	ascii	CoReleaseServerProcess
+00054430	ascii	CoResumeClassObjects
+00054448	ascii	CoSuspendClassObjects
+00054465	ascii	QQQQQQQQSV
+00054475	ascii	UhPQE
+00054a98	ascii	UhIWE
+00054db1	ascii	Uh"ZE
+00054e8c	ascii	$URL: https://jcl.svn.sourceforge.net:443/svnroot/jcl/tags/JCL-2.2-Build3845/jcl/source/common/JclLogic.pas $
+00054f04	ascii	$Revision: 2921 $
+00054f20	ascii	$Date: 2009-08-09 15:08:29 +0200 (dim. 09 ao
+00054f4e	ascii	t 2009) $
+00054f60	ascii	JCL\source\common
+00054fe4	ascii	$URL: https://jcl.svn.sourceforge.net:443/svnroot/jcl/tags/JCL-2.2-Build3845/jcl/source/common/JclStringConversions.pas $
+00055068	ascii	$Revision: 2921 $
+00055084	ascii	$Date: 2009-08-09 15:08:29 +0200 (dim. 09 ao
+000550b2	ascii	t 2009) $
+000550c4	ascii	JCL\source\common
+00055146	ascii	TJclCharsetInfo
+00055170	ascii	ASMO-708
+00055184	ascii	DOS-720
+00055194	ascii	iso-8859-6
+000551a8	ascii	arabic
+000551b8	ascii	csISOLatinArabic
+000551d4	ascii	ECMA-114
+000551e8	ascii	ISO_8859-6
+000551fc	ascii	ISO_8859-6:1987
+00055214	ascii	iso-ir-127
+00055228	ascii	x-mac-arabic
+00055240	ascii	windows-1256
+00055258	ascii	cp1256
+00055268	ascii	ibm775
+00055278	ascii	CP500
+00055288	ascii	iso-8859-4
+0005529c	ascii	csISOLatin4
+000552b0	ascii	ISO_8859-4
+000552c4	ascii	ISO_8859-4:1988
+000552dc	ascii	iso-ir-110
+000552fc	ascii	latin4
+0005530c	ascii	windows-1257
+00055324	ascii	ibm852
+00055334	ascii	cp852
+00055344	ascii	iso-8859-2
+00055358	ascii	csISOLatin2
+0005536c	ascii	iso_8859-2
+00055380	ascii	iso_8859-2:1987
+00055398	ascii	iso8859-2
+000553ac	ascii	iso-ir-101
+000553cc	ascii	latin2
+000553dc	ascii	x-mac-ce
+000553f0	ascii	windows-1250
+00055408	ascii	x-cp1250
+0005541c	ascii	EUC-CN
+0005542c	ascii	x-euc-cn
+00055440	ascii	gb2312
+00055450	ascii	chinese
+00055460	ascii	CN-GB
+00055470	ascii	csGB2312
+00055484	ascii	csGB231280
+00055498	ascii	csISO58GB231280
+000554b0	ascii	GB_2312-80
+000554c4	ascii	GB231280
+000554d8	ascii	GB2312-80
+000554f8	ascii	iso-ir-58
+0005550c	ascii	hz-gb-2312
+00055520	ascii	x-mac-chinesesimp
+0005554c	ascii	cn-big5
+0005555c	ascii	csbig5
+0005556c	ascii	x-x-big5
+00055580	ascii	x-Chinese-CNS
+00055598	ascii	x-Chinese-Eten
+000555b0	ascii	x-mac-chinesetrad
+000555cc	ascii	cp866
+000555dc	ascii	ibm866
+000555ec	ascii	iso-8859-5
+00055600	ascii	csISOLatin5
+00055614	ascii	csISOLatinCyrillic
+00055630	ascii	cyrillic
+00055644	ascii	ISO_8859-5
+00055658	ascii	ISO_8859-5:1988
+00055670	ascii	iso-ir-144
+00055690	ascii	koi8-r
+000556a0	ascii	csKOI8R
+000556cc	ascii	koi8r
+000556dc	ascii	koi8-u
+000556ec	ascii	koi8-ru
+000556fc	ascii	x-mac-cyrillic
+00055714	ascii	windows-1251
+0005572c	ascii	x-cp1251
+00055740	ascii	x-Europa
+00055754	ascii	x-IA5-German
+0005576c	ascii	ibm737
+0005577c	ascii	iso-8859-7
+00055790	ascii	csISOLatinGreek
+000557a8	ascii	ECMA-118
+000557bc	ascii	ELOT_928
+000557d0	ascii	greek
+000557e0	ascii	greek8
+000557f0	ascii	ISO_8859-7
+00055804	ascii	ISO_8859-7:1987
+0005581c	ascii	iso-ir-126
+00055830	ascii	x-mac-greek
+00055844	ascii	windows-1253
+0005585c	ascii	ibm869
+0005586c	ascii	DOS-862
+0005587c	ascii	iso-8859-8-i
+00055894	ascii	logical
+000558a4	ascii	iso-8859-8
+000558b8	ascii	csISOLatinHebrew
+000558d4	ascii	hebrew
+000558e4	ascii	ISO_8859-8
+000558f8	ascii	ISO_8859-8:1988
+00055910	ascii	ISO-8859-8
+00055924	ascii	iso-ir-138
+00055938	ascii	visual
+00055948	ascii	x-mac-hebrew
+00055960	ascii	windows-1255
+00055978	ascii	ISO_8859-8-I
+00055990	ascii	x-EBCDIC-Arabic
+000559a8	ascii	x-EBCDIC-CyrillicRussian
+000559cc	ascii	x-EBCDIC-CyrillicSerbianBulgarian
+000559f8	ascii	x-EBCDIC-DenmarkNorway
+00055a18	ascii	x-ebcdic-denmarknorway-euro
+00055a3c	ascii	x-EBCDIC-FinlandSweden
+00055a5c	ascii	x-ebcdic-finlandsweden-euro
+00055a80	ascii	X-EBCDIC-France
+00055a98	ascii	x-ebcdic-france-euro
+00055ab8	ascii	x-EBCDIC-Germany
+00055ad4	ascii	x-ebcdic-germany-euro
+00055af4	ascii	x-EBCDIC-GreekModern
+00055b14	ascii	x-EBCDIC-Greek
+00055b2c	ascii	x-EBCDIC-Hebrew
+00055b44	ascii	x-EBCDIC-Icelandic
+00055b60	ascii	x-ebcdic-icelandic-euro
+00055b80	ascii	x-ebcdic-international-euro
+00055ba4	ascii	x-EBCDIC-Italy
+00055bbc	ascii	x-ebcdic-italy-euro
+00055bd8	ascii	x-EBCDIC-JapaneseAndKana
+00055bfc	ascii	x-EBCDIC-JapaneseAndJapaneseLatin
+00055c28	ascii	x-EBCDIC-JapaneseAndUSCanada
+00055c50	ascii	x-EBCDIC-JapaneseKatakana
+00055c74	ascii	x-EBCDIC-KoreanAndKoreanExtended
+00055ca0	ascii	x-EBCDIC-KoreanExtended
+00055cc0	ascii	CP870
+00055cd0	ascii	x-EBCDIC-SimplifiedChinese
+00055cf4	ascii	X-EBCDIC-Spain
+00055d0c	ascii	x-ebcdic-spain-euro
+00055d28	ascii	x-EBCDIC-Thai
+00055d40	ascii	x-EBCDIC-TraditionalChinese
+00055d64	ascii	CP1026
+00055d74	ascii	x-EBCDIC-Turkish
+00055d90	ascii	x-EBCDIC-UK
+00055da4	ascii	x-ebcdic-uk-euro
+00055dc0	ascii	ebcdic-cp-us
+00055dd8	ascii	x-ebcdic-cp-us-euro
+00055df4	ascii	ibm861
+00055e04	ascii	x-mac-icelandic
+00055e1c	ascii	Assamese
+00055e30	ascii	x-iscii-as
+00055e44	ascii	Bengali
+00055e54	ascii	x-iscii-be
+00055e68	ascii	Devanagari
+00055e7c	ascii	x-iscii-de
+00055e90	ascii	Gujarathi
+00055ea4	ascii	x-iscii-gu
+00055eb8	ascii	Kannada
+00055ec8	ascii	x-iscii-ka
+00055edc	ascii	Malayalam
+00055ef0	ascii	x-iscii-ma
+00055f04	ascii	Oriya
+00055f14	ascii	x-iscii-or
+00055f28	ascii	Panjabi
+00055f38	ascii	x-iscii-pa
+00055f4c	ascii	Tamil
+00055f5c	ascii	x-iscii-ta
+00055f70	ascii	Telugu
+00055f80	ascii	x-iscii-te
+00055f94	ascii	euc-jp
+00055fa4	ascii	csEUCPkdFmtJapanese
+00055fc0	ascii	Extended_UNIX_Code_Packed_Format_for_Japanese
+00055ff8	ascii	x-euc
+00056008	ascii	x-euc-jp
+0005601c	ascii	iso-2022-jp
+00056030	ascii	_iso-2022-jp$SIO
+0005604c	ascii	csISO2022JP
+00056060	ascii	_iso-2022-jp
+00056078	ascii	x-mac-japanese
+00056090	ascii	shift_jis
+000560a4	ascii	csShiftJIS
+000560b8	ascii	csWindows31J
+000560d0	ascii	ms_Kanji
+000560e4	ascii	shift-jis
+000560f8	ascii	x-ms-cp932
+0005610c	ascii	x-sjis
+0005611c	ascii	ks_c_5601-1987
+00056134	ascii	csKSC56011987
+0005614c	ascii	euc-kr
+0005615c	ascii	iso-ir-149
+00056170	ascii	korean
+00056180	ascii	ks_c_5601
+00056194	ascii	ks_c_5601_1987
+000561ac	ascii	ks_c_5601-1989
+000561c4	ascii	KSC_5601
+000561d8	ascii	KSC5601
+000561e8	ascii	csEUCKR
+000561f8	ascii	iso-2022-kr
+0005620c	ascii	csISO2022KR
+00056220	ascii	Johab
+00056230	ascii	x-mac-korean
+00056248	ascii	iso-8859-3
+0005625c	ascii	csISO
+0005626c	ascii	Latin3
+0005627c	ascii	ISO_8859-3
+00056290	ascii	ISO_8859-3:1988
+000562a8	ascii	iso-ir-109
+000562c8	ascii	latin3
+000562d8	ascii	iso-8859-15
+000562ec	ascii	Latin9
+000562fc	ascii	ISO_8859-15
+0005631c	ascii	latin9
+0005632c	ascii	x-IA5-Norwegian
+00056344	ascii	United
+00056354	ascii	States
+00056364	ascii	IBM437
+00056380	ascii	cp437
+00056390	ascii	csPC8
+000563a0	ascii	CodePage437
+000563b4	ascii	x-IA5-Swedish
+000563cc	ascii	windows-874
+000563e0	ascii	DOS-874
+000563f0	ascii	iso-8859-11
+00056404	ascii	TIS-620
+00056414	ascii	ibm857
+00056424	ascii	iso-8859-9
+00056438	ascii	Latin5
+00056448	ascii	ISO_8859-9
+0005645c	ascii	ISO_8859-9:1989
+00056474	ascii	iso-ir-148
+00056488	ascii	latin5
+00056498	ascii	x-mac-turkish
+000564b0	ascii	windows-1254
+000564c8	ascii	unicode
+000564d8	ascii	utf-16
+000564e8	ascii	unicodeFFFE
+000564fc	ascii	utf-7
+0005650c	ascii	csUnicode11UTF7
+00056524	ascii	unicode-1-1-utf-7
+00056540	ascii	x-unicode-2-0-utf-7
+0005655c	ascii	utf-8
+0005656c	ascii	unicode-1-1-utf-8
+00056588	ascii	unicode-2-0-utf-8
+000565a4	ascii	x-unicode-2-0-utf-8
+000565c0	ascii	us-ascii
+000565d4	ascii	ANSI_X3.4-1968
+000565ec	ascii	ANSI_X3.4-1986
+00056604	ascii	ascii
+00056614	ascii	cp367
+00056624	ascii	csASCII
+00056634	ascii	IBM367
+00056644	ascii	ISO_646.irv:1991
+00056660	ascii	ISO646-US
+00056674	ascii	iso-ir-6us
+00056688	ascii	windows-1258
+000566a0	ascii	ibm850
+000566b0	ascii	x-IA5
+000566c0	ascii	iso-8859-1
+000566d4	ascii	cp819
+000566e4	ascii	Latin1
+000566f4	ascii	ibm819
+00056704	ascii	iso_8859-1
+00056718	ascii	iso_8859-1:1987
+00056730	ascii	iso8859-1
+00056744	ascii	iso-ir-100
+00056764	ascii	latin1
+00056774	ascii	macintosh
+00056788	ascii	Windows-1252
+000567a0	ascii	iso-ir-6
+000567c0	ascii	x-ansi
+000567d0	ascii	$URL: https://jcl.svn.sourceforge.net:443/svnroot/jcl/tags/JCL-2.2-Build3845/jcl/source/common/JclCharsets.pas $
+0005684c	ascii	$Revision: 2892 $
+00056868	ascii	$Date: 2009-07-30 12:08:05 +0200 (jeu. 30 juil. 2009) $
+000568a8	ascii	JCL\source\common
+00056940	ascii	$URL: https://jcl.svn.sourceforge.net:443/svnroot/jcl/tags/JCL-2.2-Build3845/jcl/source/common/Jcl8087.pas $
+000569b8	ascii	$Revision: 2921 $
+000569d4	ascii	$Date: 2009-08-09 15:08:29 +0200 (dim. 09 ao
+00056a02	ascii	t 2009) $
+00056a14	ascii	JCL\source\common
+00056a41	ascii	Uh}vE
+00056b09	ascii	Uh)wE
+00056b41	ascii	UhawE
+00056bb4	ascii	$URL: https://jcl.svn.sourceforge.net:443/svnroot/jcl/tags/JCL-2.2-Build3845/jcl/source/common/JclIniFiles.pas $
+00056c30	ascii	$Revision: 2892 $
+00056c4c	ascii	$Date: 2009-07-30 12:08:05 +0200 (jeu. 30 juil. 2009) $
+00056c8c	ascii	JCL\source\common
+00056d0e	ascii	TAPMLineStatus
+00056d2a	ascii	alsOffline
+00056d35	ascii	alsOnline
+00056d3f	ascii	alsUnknown
+00056d4a	ascii	JclSysInfoXyE
+00056d5a	ascii	TAPMBatteryFlag
+00056d77	ascii	abfHigh
+00056d7f	ascii	abfLow
+00056d86	ascii	abfCritical
+00056d92	ascii	abfCharging
+00056d9e	ascii	abfNoBattery
+00056dab	ascii	abfUnknown
+00056db6	ascii	JclSysInfo
+00056dc6	ascii	TWindowsVersion
+00056de3	ascii	wvUnknown
+00056ded	ascii	wvWin95
+00056df5	ascii	wvWin95OSR2
+00056e01	ascii	wvWin98
+00056e09	ascii	wvWin98SE
+00056e13	ascii	wvWinME
+00056e1b	ascii	wvWinNT31
+00056e25	ascii	wvWinNT35
+00056e2f	ascii	wvWinNT351
+00056e3a	ascii	wvWinNT4
+00056e43	ascii	wvWin2000
+00056e4d	ascii	wvWinXP
+00056e55	ascii	wvWin2003
+00056e5f	ascii	wvWinXP64
+00056e69	ascii	wvWin2003R2
+00056e75	ascii	wvWinVista
+00056e80	ascii	wvWinServer2008
+00056e90	ascii	wvWin7
+00056e97	ascii	wvWinServer2008R2
+00056ea9	ascii	JclSysInfo
+00056eba	ascii	TNtProductType
+00056ed6	ascii	ptUnknown
+00056ee0	ascii	ptWorkStation
+00056eee	ascii	ptServer
+00056ef7	ascii	ptAdvancedServer
+00056f08	ascii	ptPersonal
+00056f13	ascii	ptProfessional
+00056f22	ascii	ptDatacenterServer
+00056f35	ascii	ptEnterprise
+00056f42	ascii	ptWebEdition
+00056f4f	ascii	JclSysInfo
+00056f62	ascii	TSSESupport
+00056f89	ascii	ssse3
+00056f8f	ascii	sse4A
+00056f95	ascii	sse4B
+00056fa4	ascii	JclSysInfo
+00056fb6	ascii	TSSESupports
+00056fd0	ascii	$URL: https://jcl.svn.sourceforge.net:443/svnroot/jcl/tags/JCL-2.2-Build3845/jcl/source/common/JclSysInfo.pas $
+00057048	ascii	$Revision: 3213 $
+00057064	ascii	$Date: 2010-03-22 19:46:17 +0100 (lun. 22 mars 2010) $
+000570a4	ascii	JCL\source\common
+000570c3	ascii	UhJ}E
+000571d0	ascii	_^[Y]
+00057208	ascii	SOFTWARE\Microsoft\Windows NT\CurrentVersion
+00057240	ascii	SOFTWARE\Microsoft\Windows\CurrentVersion
+00057290	ascii	CommonFilesDir
+000572a8	ascii	SOFTWARE\Microsoft\Windows\CurrentVersion
+00057334	ascii	ProgramFilesDir
+0005734c	ascii	SOFTWARE\Microsoft\Windows\CurrentVersion
+000575f8	ascii	RegisteredOrganization
+0005766c	ascii	RegisteredOwner
+000577b8	ascii	BIOSName
+000577cc	ascii	Enum\Root\*PNP0C01\0000
+00057883	ascii	_^[YY]
+0005792b	ascii	_^[YY]
+00057a44	ascii	SystemBiosDate
+00057a5c	ascii	HARDWARE\DESCRIPTION\System
+00057a80	ascii	BiosDate
+00057a94	ascii	Enum\Root\*PNP0C01\0000
+00057ab4	ascii	m/d/y
+00057ac4	ascii	y/m/d
+00057b1e	ascii	Pr3tp
+00057ba6	ascii	Ht=HtAH
+00057f98	ascii	ProductType
+00057fac	ascii	SYSTEM\CurrentControlSet\Control\ProductOptions
+00057fe4	ascii	WINNT
+00057ff4	ascii	SERVERNT
+00058008	ascii	LANMANNT
+000580e8	ascii	CSDVersion
+000580fc	ascii	SYSTEM\CurrentControlSet\Control\Windows
+00058598	ascii	opengl32.dll
+000585b0	ascii	glu32.dll
+000585bc	ascii	glGetString
+000585c8	ascii	glGetError
+000585d4	ascii	gluErrorString
+000585e4	ascii	wglCreateContext
+000585f8	ascii	wglDeleteContext
+0005860c	ascii	wglMakeCurrent
+00058624	ascii	ChoosePixelFormat
+00058640	ascii	SetPixelFormat
+00058658	ascii	wglCreateContext
+00058674	ascii	wglMakeCurrent
+000586c8	ascii	kernel32.dll
+000586d8	ascii	GetNativeSystemInfo
+00058764	ascii	SVWUQ
+000587d1	ascii	Z]_^[
+000595ac	ascii	Intel
+000595b8	ascii	Intel 486DX Processor
+000595e8	ascii	Intel 486SX Processor
+00059618	ascii	Intel DX2 Processor
+00059648	ascii	Intel 486 Processor
+00059678	ascii	Intel SX2 Processor
+000596a8	ascii	Write-Back Enhanced Intel DX2 Processor
+000596d8	ascii	Intel DX4 Processor
+00059708	ascii	Pentium
+00059738	ascii	Pentium Pro
+00059768	ascii	Pentium II
+00059798	ascii	Celeron
+000597c8	ascii	Pentium II Xeon
+000597f8	ascii	Pentium III Xeon
+00059828	ascii	Pentium III
+00059860	ascii	P6 (Model %d)
+00059870	ascii	Pentium 4
+00059fac	ascii	Am486(R) or Am5x86
+00059fdc	ascii	AMD-K5 (Model 0)
+0005a00c	ascii	AMD-K5 (Model 1)
+0005a03c	ascii	AMD-K5 (Model 2)
+0005a06c	ascii	AMD-K5 (Model 3)
+0005a09c	ascii	AMD-K6
+0005a0a3	ascii	 (Model 6)
+0005a0cc	ascii	AMD-K6
+0005a0d3	ascii	 (Model 7)
+0005a0fc	ascii	AMD-K6
+0005a103	ascii	-2 (Model 8)
+0005a12c	ascii	AMD-K6
+0005a133	ascii	-III (Model 9)
+0005a15c	ascii	AMD Athlon
+0005a167	ascii	 (Model 1)
+0005a18c	ascii	AMD Athlon
+0005a197	ascii	 (Model 2)
+0005a1bc	ascii	AMD Duron
+0005a1c6	ascii	 (Model 3)
+0005a1ec	ascii	AMD Athlon
+0005a1f7	ascii	 (Model 4)
+0005a21c	ascii	AMD Athlon
+0005a227	ascii	 XP (Model 6)
+0005a24c	ascii	AMD Duron
+0005a256	ascii	 (Model 7)
+0005a27c	ascii	AMD Athlon
+0005a287	ascii	 XP (Model 8)
+0005a2ac	ascii	AMD Athlon
+0005a2b7	ascii	 XP (Model 10)
+0005a2dc	ascii	Unknown AMD Chip
+0005a530	ascii	Cyrix
+0005a53c	ascii	Cyrix MediaGX
+0005a56c	ascii	Cyrix 6x86
+0005a59c	ascii	Cyrix GXm
+0005a5cc	ascii	6x86MX
+0005a604	ascii	%dx86
+0005ac80	ascii	Transmeta
+0005ac8c	ascii	Crusoe
+0005adf4	ascii	Unknown
+0005ae00	ascii	Unknown
+0005b09d	ascii	T$$+D$(
+0005b53c	ascii	kernel32.dll
+0005ba9e	ascii	TCharacterCategory
+0005babe	ascii	ccLetterUppercase
+0005bad0	ascii	ccLetterLowercase
+0005bae2	ascii	ccLetterTitlecase
+0005baf4	ascii	ccMarkNonSpacing
+0005bb05	ascii	ccMarkSpacingCombining
+0005bb1c	ascii	ccMarkEnclosing
+0005bb2c	ascii	ccNumberDecimalDigit
+0005bb41	ascii	ccNumberLetter
+0005bb50	ascii	ccNumberOther
+0005bb5e	ascii	ccSeparatorSpace
+0005bb6f	ascii	ccSeparatorLine
+0005bb7f	ascii	ccSeparatorParagraph
+0005bb94	ascii	ccOtherControl
+0005bba3	ascii	ccOtherFormat
+0005bbb1	ascii	ccOtherSurrogate
+0005bbc2	ascii	ccOtherPrivate
+0005bbd1	ascii	ccOtherUnassigned
+0005bbe3	ascii	ccLetterModifier
+0005bbf4	ascii	ccLetterOther
+0005bc02	ascii	ccPunctuationConnector
+0005bc19	ascii	ccPunctuationDash
+0005bc2b	ascii	ccPunctuationOpen
+0005bc3d	ascii	ccPunctuationClose
+0005bc50	ascii	ccPunctuationInitialQuote
+0005bc6a	ascii	ccPunctuationFinalQuote
+0005bc82	ascii	ccPunctuationOther
+0005bc95	ascii	ccSymbolMath
+0005bca2	ascii	ccSymbolCurrency
+0005bcb3	ascii	ccSymbolModifier
+0005bcc4	ascii	ccSymbolOther
+0005bcd2	ascii	ccLeftToRight
+0005bce0	ascii	ccLeftToRightEmbedding
+0005bcf7	ascii	ccLeftToRightOverride
+0005bd0d	ascii	ccRightToLeft
+0005bd1b	ascii	ccRightToLeftArabic
+0005bd2f	ascii	ccRightToLeftEmbedding
+0005bd46	ascii	ccRightToLeftOverride
+0005bd5c	ascii	ccPopDirectionalFormat
+0005bd73	ascii	ccEuropeanNumber
+0005bd84	ascii	ccEuropeanNumberSeparator
+0005bd9e	ascii	ccEuropeanNumberTerminator
+0005bdb9	ascii	ccArabicNumber
+0005bdc8	ascii	ccCommonNumberSeparator
+0005bde0	ascii	ccBoundaryNeutral
+0005bdf2	ascii	ccSegmentSeparator
+0005be05	ascii	ccWhiteSpace
+0005be12	ascii	ccOtherNeutrals
+0005be22	ascii	ccComposed
+0005be2d	ascii	ccNonBreaking
+0005be3b	ascii	ccSymmetric
+0005be47	ascii	ccHexDigit
+0005be52	ascii	ccQuotationMark
+0005be62	ascii	ccMirroring
+0005be6e	ascii	ccAssigned
+0005be79	ascii	ccASCIIHexDigit
+0005be89	ascii	ccBidiControl
+0005be97	ascii	ccDash
+0005be9e	ascii	ccDeprecated
+0005beab	ascii	ccDiacritic
+0005beb7	ascii	ccExtender
+0005bec2	ascii	ccHyphen
+0005becb	ascii	ccIdeographic
+0005bed9	ascii	ccIDSBinaryOperator
+0005beed	ascii	ccIDSTrinaryOperator
+0005bf02	ascii	ccJoinControl
+0005bf10	ascii	ccLogicalOrderException
+0005bf28	ascii	ccNonCharacterCodePoint
+0005bf40	ascii	ccOtherAlphabetic ccOtherDefaultIgnorableCodePoint
+0005bf73	ascii	ccOtherGraphemeExtend
+0005bf89	ascii	ccOtherIDContinue
+0005bf9b	ascii	ccOtherIDStart
+0005bfaa	ascii	ccOtherLowercase
+0005bfbb	ascii	ccOtherMath
+0005bfc7	ascii	ccOtherUppercase
+0005bfd8	ascii	ccPatternSyntax
+0005bfe8	ascii	ccPatternWhiteSpace
+0005bffc	ascii	ccRadical
+0005c006	ascii	ccSoftDotted
+0005c013	ascii	ccSTerm
+0005c01b	ascii	ccTerminalPunctuation
+0005c031	ascii	ccUnifiedIdeograph
+0005c044	ascii	ccVariationSelector
+0005c058	ascii	JclUnicode
+0005c06a	ascii	TCharacterCategories
+0005c08a	ascii	TUnicodeBlockData
+0005c0b4	ascii	No-block
+0005c0c8	ascii	Basic Latin
+0005c0dc	ascii	Latin-1 Supplement
+0005c0f8	ascii	Latin Extended-A
+0005c114	ascii	Latin Extended-B
+0005c130	ascii	IPA Extensions
+0005c148	ascii	Spacing Modifier Letters
+0005c16c	ascii	Combining Diacritical Marks
+0005c190	ascii	Greek and Coptic
+0005c1ac	ascii	Cyrillic
+0005c1c0	ascii	Cyrillic Supplement
+0005c1dc	ascii	Armenian
+0005c1f0	ascii	Hebrew
+0005c200	ascii	Arabic
+0005c210	ascii	Syriac
+0005c220	ascii	Arabic Supplement
+0005c23c	ascii	Thaana
+0005c258	ascii	Devanagari
+0005c26c	ascii	Bengali
+0005c27c	ascii	Gurmukhi
+0005c290	ascii	Gujarati
+0005c2a4	ascii	Oriya
+0005c2b4	ascii	Tamil
+0005c2c4	ascii	Telugu
+0005c2d4	ascii	Kannada
+0005c2e4	ascii	Malayalam
+0005c2f8	ascii	Sinhala
+0005c324	ascii	Tibetan
+0005c334	ascii	Myanmar
+0005c344	ascii	Georgian
+0005c358	ascii	Hangul Jamo
+0005c36c	ascii	Ethiopic
+0005c380	ascii	Ethiopic Supplement
+0005c39c	ascii	Cherokee
+0005c3b0	ascii	Unified Canadian Aboriginal Syllabics
+0005c3e0	ascii	Ogham
+0005c3f0	ascii	Runic
+0005c400	ascii	Tagalog
+0005c410	ascii	Hanunoo
+0005c420	ascii	Buhid
+0005c430	ascii	Tagbanwa
+0005c444	ascii	Khmer
+0005c454	ascii	Mongolian
+0005c468	ascii	Limbu
+0005c478	ascii	Tai Le
+0005c488	ascii	New Tai Lue
+0005c49c	ascii	Khmer Symbols
+0005c4b4	ascii	Buginese
+0005c4c8	ascii	Balinese
+0005c4dc	ascii	Phonetic Extensions
+0005c4f8	ascii	Phonetic Extensions Supplement
+0005c520	ascii	Combining Diacritical Marks Supplement
+0005c550	ascii	Latin Extended Additional
+0005c574	ascii	Greek Extended
+0005c58c	ascii	General Punctuation
+0005c5a8	ascii	Superscripts and Subscripts
+0005c5cc	ascii	Currency Symbols
+0005c5e8	ascii	Combining Diacritical Marks for Symbols
+0005c618	ascii	Letterlike Symbols
+0005c634	ascii	Number Forms
+0005c64c	ascii	Arrows
+0005c65c	ascii	Mathematical Operators
+0005c67c	ascii	Miscellaneous Technical
+0005c69c	ascii	Control Pictures
+0005c6b8	ascii	Optical Character Recognition
+0005c6e0	ascii	Enclosed Alphanumerics
+0005c700	ascii	Box Drawing
+0005c714	ascii	Block Elements
+0005c72c	ascii	Geometric Shapes
+0005c748	ascii	Miscellaneous Symbols
+0005c768	ascii	Dingbats
+0005c77c	ascii	Miscellaneous Mathematical Symbols-A
+0005c7ac	ascii	Supplemental Arrows-A
+0005c7cc	ascii	Braille Patterns
+0005c7e8	ascii	Supplemental Arrows-B
+0005c808	ascii	Miscellaneous Mathematical Symbols-B
+0005c838	ascii	Supplemental Mathematical Operators
+0005c864	ascii	Miscellaneous Symbols and Arrows
+0005c890	ascii	Glagolitic
+0005c8a4	ascii	Latin Extended-C
+0005c8c0	ascii	Coptic
+0005c8d0	ascii	Georgian Supplement
+0005c8ec	ascii	Tifinagh
+0005c900	ascii	Ethiopic Extended
+0005c91c	ascii	Supplemental Punctuation
+0005c940	ascii	CJK Radicals Supplement
+0005c960	ascii	Kangxi Radicals
+0005c978	ascii	Ideographic Description Characters
+0005c9a4	ascii	CJK Symbols and Punctuation
+0005c9c8	ascii	Hiragana
+0005c9dc	ascii	Katakana
+0005c9f0	ascii	Bopomofo
+0005ca04	ascii	Hangul Compatibility Jamo
+0005ca28	ascii	Kanbun
+0005ca38	ascii	Bopomofo Extended
+0005ca54	ascii	CJK Strokes
+0005ca68	ascii	Katakana Phonetic Extensions
+0005ca90	ascii	Enclosed CJK Letters and Months
+0005cab8	ascii	CJK Compatibility
+0005cad4	ascii	CJK Unified Ideographs Extension A
+0005cb00	ascii	Yijing Hexagram Symbols
+0005cb20	ascii	CJK Unified Ideographs
+0005cb40	ascii	Yi Syllables
+0005cb58	ascii	Yi Radicals
+0005cb6c	ascii	Modifier Tone Letters
+0005cb8c	ascii	Latin Extended-D
+0005cba8	ascii	Syloti Nagri
+0005cbc0	ascii	Phags-pa
+0005cbd4	ascii	Hangul Syllables
+0005cbf0	ascii	High Surrogates
+0005cc08	ascii	High Private Use Surrogates
+0005cc2c	ascii	Low Surrogates
+0005cc44	ascii	Private Use Area
+0005cc60	ascii	CJK Compatibility Ideographs
+0005cc88	ascii	Alphabetic Presentation Forms
+0005ccb0	ascii	Arabic Presentation Forms-A
+0005ccd4	ascii	Variation Selectors
+0005ccf0	ascii	Vertical Forms
+0005cd08	ascii	Combining Half Marks
+0005cd28	ascii	CJK Compatibility Forms
+0005cd48	ascii	Small Form Variants
+0005cd64	ascii	Arabic Presentation Forms-B
+0005cd88	ascii	Halfwidth and Fullwidth Forms
+0005cdb0	ascii	Specials
+0005cdc4	ascii	Linear B Syllabary
+0005cde0	ascii	Linear B Ideograms
+0005cdfc	ascii	Aegean Numbers
+0005ce14	ascii	Ancient Greek Numbers
+0005ce34	ascii	Old Italic
+0005ce48	ascii	Gothic
+0005ce58	ascii	Ugaritic
+0005ce6c	ascii	Old Persian
+0005ce80	ascii	Deseret
+0005ce90	ascii	Shavian
+0005cea0	ascii	Osmanya
+0005ceb0	ascii	Cypriot Syllabary
+0005cecc	ascii	Phoenician
+0005cee0	ascii	Kharoshthi
+0005cef4	ascii	Cuneiform
+0005cf08	ascii	Cuneiform Numbers and Punctuation
+0005cf34	ascii	Byzantine Musical Symbols
+0005cf58	ascii	Musical Symbols
+0005cf70	ascii	Ancient Greek Musical Notation
+0005cf98	ascii	Tai Xuan Jing Symbols
+0005cfb8	ascii	Counting Rod Numerals
+0005cfd8	ascii	Mathematical Alphanumeric Symbols
+0005d004	ascii	CJK Unified Ideographs Extension B
+0005d030	ascii	CJK Compatibility Ideographs Supplement
+0005d070	ascii	Variation Selectors Supplement
+0005d098	ascii	Supplementary Private Use Area-A
+0005d0c4	ascii	Supplementary Private Use Area-B
+0005d0f0	ascii	$URL: https://jcl.svn.sourceforge.net:443/svnroot/jcl/tags/JCL-2.2-Build3845/jcl/source/common/JclUnicode.pas $
+0005d168	ascii	$Revision: 3256 $
+0005d184	ascii	$Date: 2010-05-28 23:11:15 +0200 (ven. 28 mai 2010) $
+0005d1c4	ascii	JCL\source\common
+0005d1f2	ascii	JclUnicode
+0005d202	ascii	TCategoriesArray
+0005d223	ascii	JclUnicode
+0005d236	ascii	TCase
+0005d262	ascii	JclUnicodep
+0005d272	ascii	TCaseArray
+0005d28d	ascii	JclUnicode
+0005d29e	ascii	TDecomposition
+0005d2d6	ascii	JclUnicode
+0005d2e6	ascii	TDecompositions
+0005d306	ascii	JclUnicode
+0005d32a	ascii	JclUnicode8
+0005d33a	ascii	TClassArray
+0005d356	ascii	JclUnicoded
+0005d37a	ascii	JclUnicode
+0005d39e	ascii	JclUnicode
+0005d3c2	ascii	JclUnicode
+0005d3d2	ascii	TComposition
+0005d40a	ascii	JclUnicodeU
+0005d754	ascii	$URL: https://jcl.svn.sourceforge.net:443/svnroot/jcl/tags/JCL-2.2-Build3845/jcl/source/common/JclWideStrings.pas $
+0005d7d0	ascii	$Revision: 3139 $
+0005d7ec	ascii	$Date: 2010-01-25 13:19:13 +0100 (lun. 25 janv. 2010) $
+0005d82c	ascii	JCL\source\common
+0005d866	ascii	9f;2t
+0005d8b2	ascii	$YZ_^
+0005d96d	ascii	EJclRegistryError
+0005d986	ascii	TRootKey
+0005d9b0	ascii	HKEY_CLASSES_ROOT
+0005d9c8	utf16	HKEY_CLASSES_ROOT
+0005d9f4	ascii	HKEY_CURRENT_USER
+0005da0c	utf16	HKEY_CURRENT_USER
+0005da38	ascii	HKEY_LOCAL_MACHINE
+0005da50	utf16	HKEY_LOCAL_MACHINE
+0005da80	ascii	HKEY_USERS
+0005da90	utf16	HKEY_USERS
+0005dab0	ascii	HKEY_PERFORMANCE_DATA
+0005dacc	utf16	HKEY_PERFORMANCE_DATA
+0005db00	ascii	HKEY_CURRENT_CONFIG
+0005db18	utf16	HKEY_CURRENT_CONFIG
+0005db48	ascii	HKEY_DYN_DATA
+0005db5c	utf16	HKEY_DYN_DATA
+0005dc60	ascii	$URL: https://jcl.svn.sourceforge.net:443/svnroot/jcl/tags/JCL-2.2-Build3845/jcl/source/windows/JclRegistry.pas $
+0005dcdc	ascii	$Revision: 3321 $
+0005dcf8	ascii	$Date: 2010-09-01 21:48:55 +0200 (mer. 01 sept. 2010) $
+0005dd38	ascii	JCL\source\windows
+0005de94	ascii	HKEY_CLASSES_ROOT
+0005deb0	ascii	HKEY_CURRENT_USER
+0005decc	ascii	HKEY_LOCAL_MACHINE
+0005dee8	ascii	HKEY_USERS
+0005defc	ascii	HKEY_PERFORMANCE_DATA
+0005df1c	ascii	HKEY_CURRENT_CONFIG
+0005df38	ascii	HKEY_DYN_DATA
+0005df50	ascii	$%.8x
+0005e3b1	ascii	_^[YY]
+0005e4ae	ascii	_^[YY]
+0005e555	ascii	_^[YY]
+0005e9ef	utf16	jjjjj
+0005ec98	ascii	_^[YY]
+0005ee17	ascii	_^[Y]
+0005f1db	ascii	TJclDispatcherObject
+0005f241	ascii	TJclCriticalSection
+0005f2a1	ascii	TJclMutex
+0005f2f9	ascii	EJclMutexError
+0005f310	ascii	$URL: https://jcl.svn.sourceforge.net:443/svnroot/jcl/tags/JCL-2.2-Build3845/jcl/source/common/JclSynch.pas $
+0005f388	ascii	$Revision: 2984 $
+0005f3a4	ascii	$Date: 2009-09-02 13:56:05 +0200 (mer. 02 sept. 2009) $
+0005f3e4	ascii	JCL\source\common
+0005f577	ascii	_^[YY]
+0005f604	ascii	$URL: https://jcl.svn.sourceforge.net:443/svnroot/jcl/tags/JCL-2.2-Build3845/jcl/source/common/JclMath.pas $
+0005f67c	ascii	$Revision: 3070 $
+0005f698	ascii	$Date: 2009-11-05 17:51:58 +0100 (jeu. 05 nov. 2009) $
+0005f6d8	ascii	JCL\source\common
+0005f6f4	ascii	%g + %gi
+0005f708	ascii	%g e^%gi
+0005f798	ascii	$URL: https://jcl.svn.sourceforge.net:443/svnroot/jcl/tags/JCL-2.2-Build3845/jcl/source/common/JclStreams.pas $
+0005f810	ascii	$Revision: 3160 $
+0005f82c	ascii	$Date: 2010-02-02 21:05:46 +0100 (mar. 02 f
+0005f859	ascii	vr. 2010) $
+0005f870	ascii	JCL\source\common
+0005f8f4	ascii	$URL: https://jcl.svn.sourceforge.net:443/svnroot/jcl/tags/JCL-2.2-Build3845/jcl/source/common/JclAnsiStrings.pas $
+0005f970	ascii	$Revision: 3321 $
+0005f98c	ascii	$Date: 2010-09-01 21:48:55 +0200 (mer. 01 sept. 2010) $
+0005f9cc	ascii	JCL\source\common
+0005fb38	ascii	$URL: https://jcl.svn.sourceforge.net:443/svnroot/jcl/tags/JCL-2.2-Build3845/jcl/source/common/JclStrings.pas $
+0005fbb0	ascii	$Revision: 3321 $
+0005fbcc	ascii	$Date: 2010-09-01 21:48:55 +0200 (mer. 01 sept. 2010) $
+0005fc0c	ascii	JCL\source\common
+0005fd5c	ascii	false
+0005fe00	ascii	$URL: https://jcl.svn.sourceforge.net:443/svnroot/jcl/tags/JCL-2.2-Build3845/jcl/source/windows/JclShell.pas $
+0005fe78	ascii	$Revision: 3179 $
+0005fe94	ascii	$Date: 2010-02-05 13:18:47 +0100 (ven. 05 f
+0005fec1	ascii	vr. 2010) $
+0005fed8	ascii	JCL\source\windows
+0005ffd8	ascii	$URL: https://jcl.svn.sourceforge.net:443/svnroot/jcl/tags/JCL-2.2-Build3845/jcl/source/windows/JclSecurity.pas $
+00060054	ascii	$Revision: 3097 $
+00060070	ascii	$Date: 2009-12-21 23:14:47 +0100 (lun. 21 d
+0006009d	ascii	c. 2009) $
+000600b0	ascii	JCL\source\windows
+00060134	ascii	$URL: https://jcl.svn.sourceforge.net:443/svnroot/jcl/tags/JCL-2.2-Build3845/jcl/source/common/JclDateTime.pas $
+000601b0	ascii	$Revision: 2921 $
+000601cc	ascii	$Date: 2009-08-09 15:08:29 +0200 (dim. 09 ao
+000601fa	ascii	t 2009) $
+0006020c	ascii	JCL\source\common
+000602d5	ascii	EJclFileVersionInfoError
+00060309	ascii	JclFileUtils
+00060331	ascii	JclFileUtils
+000603af	ascii	TJclFileVersionInfo
+000603cc	ascii	$URL: https://jcl.svn.sourceforge.net:443/svnroot/jcl/tags/JCL-2.2-Build3845/jcl/source/common/JclFileUtils.pas $
+00060448	ascii	$Revision: 3321 $
+00060464	ascii	$Date: 2010-09-01 21:48:55 +0200 (mer. 01 sept. 2010) $
+000604a4	ascii	JCL\source\common
+000605f8	ascii	kernel32.dll
+00060684	ascii	GetLongPathNameA
+0006073c	ascii	Comments
+00060750	ascii	CompanyName
+00060764	ascii	FileDescription
+0006077c	ascii	FileVersion
+00060790	ascii	InternalName
+000607a8	ascii	LegalCopyright
+000607c0	ascii	LegalTradeMarks
+000607d8	ascii	OriginalFilename
+000607f4	ascii	ProductName
+00060808	ascii	ProductVersion
+00060820	ascii	SpecialBuild
+00060838	ascii	PrivateBuild
+000608ce	ascii	_^[YY]
+00060b42	ascii	_^[YY]
+00060f6c	ascii	$%.*x
+00060f7c	ascii	%s=%s
+00061010	ascii	Translation
+0006118c	ascii	VS_VERSION_INFO
+000611a4	ascii	StringFileInfo
+000611bc	ascii	VarFileInfo
+000612d8	ascii	$URL: https://jcl.svn.sourceforge.net:443/svnroot/jcl/tags/JCL-2.2-Build3845/jcl/source/windows/JclConsole.pas $
+00061354	ascii	$Revision: 2993 $
+00061370	ascii	$Date: 2009-09-12 12:57:33 +0200 (sam. 12 sept. 2009) $
+000613b0	ascii	JCL\source\windows
+00061479	ascii	ESharedMemError
+00061521	ascii	TJclIntfCriticalSection
+00061540	ascii	$URL: https://jcl.svn.sourceforge.net:443/svnroot/jcl/tags/JCL-2.2-Build3845/jcl/source/common/JclSysUtils.pas $
+000615bc	ascii	$Revision: 3321 $
+000615d8	ascii	$Date: 2010-09-01 21:48:55 +0200 (mer. 01 sept. 2010) $
+00061618	ascii	JCL\source\common
+00061642	ascii	TMMFHandleListItem
+00061841	ascii	Uh\$F
+00061a08	ascii	UhF&F
+00061c3e	ascii	TUnitVersionInfo
+00061ccd	ascii	TUnitVersion
+00061d29	ascii	TUnitVersioningModule
+00061d95	ascii	TUnitVersioning
+00061dac	ascii	$URL: https://jcl.svn.sourceforge.net:443/svnroot/jcl/tags/JCL-2.2-Build3845/jcl/source/common/JclUnitVersioning.pas $
+00061e2c	ascii	$Revision: 3188 $
+00061e48	ascii	$Date: 2010-02-11 13:14:06 +0100 (jeu. 11 f
+00061e75	ascii	vr. 2010) $
+00061e8c	ascii	JCL\source\common
+00062050	ascii	SVWUQ
+000620c7	ascii	Z]_^[
+00062145	ascii	QQQQS3
+00062318	ascii	MutexNPA_UnitVersioning_
+0006233c	ascii	ShmNPA_UnitVersioning_
+00062445	ascii	Uh|0F
+00062503	ascii	EJclWin32Error
+0006251c	ascii	$URL: https://jcl.svn.sourceforge.net:443/svnroot/jcl/tags/JCL-2.2-Build3845/jcl/source/windows/JclWin32.pas $
+00062594	ascii	$Revision: 3276 $
+000625b0	ascii	$Date: 2010-08-02 21:27:59 +0200 (lun. 02 ao
+000625de	ascii	t 2010) $
+000625f0	ascii	JCL\source\windows
+00062810	ascii	Netbios
+00062820	ascii	netapi32.dll
+00062860	ascii	GlobalMemoryStatusEx
+00062880	ascii	kernel32.dll
+00062955	ascii	ERegistryException
+000629c7	ascii	TRegistryS
+00062b8e	ascii	Uh}8F
+00062caf	ascii	Uh6:F
+00062ed4	ascii	Uht;F
+00062f50	ascii	Q8FKu
+00062f84	ascii	SVWUQ
+00062fcd	ascii	Z]_^[
+00062ffc	ascii	SVWUQ
+0006306c	ascii	Z]_^[
+00063105	ascii	Uh<=F
+00063155	ascii	Uhu=F
+00063330	ascii	MAPI32.DLL
+00063479	ascii	TConversion
+0006348a	ascii	TConversionFormat
+000634f1	ascii	Uh[AF
+00063959	ascii	EJVCLException
+0006396e	ascii	TDefColorItem
+0006399c	ascii	clBlack
+000639ac	ascii	clMaroon
+000639c0	ascii	clGreen
+000639d0	ascii	clOlive
+000639e0	ascii	clNavy
+000639f0	ascii	clPurple
+00063a04	ascii	clTeal
+00063a14	ascii	clGray
+00063a24	ascii	clSilver
+00063a38	ascii	clRed
+00063a48	ascii	clLime
+00063a58	ascii	clYellow
+00063a6c	ascii	clBlue
+00063a7c	ascii	clFuchsia
+00063a90	ascii	clAqua
+00063aa0	ascii	clWhite
+00063ab0	ascii	clMoneyGreen
+00063ac8	ascii	clSkyBlue
+00063adc	ascii	clCream
+00063aec	ascii	clMedGray
+00063b00	ascii	clBlack
+00063b10	ascii	clBrown
+00063b20	ascii	clOliveGreen
+00063b38	ascii	clDarkGreen
+00063b4c	ascii	clDarkTeal
+00063b60	ascii	clDarkBlue
+00063b74	ascii	clIndigo
+00063b88	ascii	clGray80
+00063b9c	ascii	clDarkRed
+00063bb0	ascii	clOrange
+00063bc4	ascii	clDarkYellow
+00063bdc	ascii	clGreen
+00063bec	ascii	clTeal
+00063bfc	ascii	clBlue
+00063c0c	ascii	clBlueGray
+00063c20	ascii	clGray50
+00063c34	ascii	clRed
+00063c44	ascii	clLightOrange
+00063c5c	ascii	clLime
+00063c6c	ascii	clSeaGreen
+00063c80	ascii	clAqua
+00063c90	ascii	clLightBlue
+00063ca4	ascii	clViolet
+00063cb8	ascii	clGray40
+00063ccc	ascii	clPink
+00063cdc	ascii	clGold
+00063cec	ascii	clYellow
+00063d00	ascii	clBrightGreen
+00063d18	ascii	clTurquoise
+00063d2c	ascii	clSkyBlue
+00063d40	ascii	clPlum
+00063d50	ascii	clGray25
+00063d64	ascii	clRose
+00063d74	ascii	clTan
+00063d84	ascii	clLightYellow
+00063d9c	ascii	clLightGreen
+00063db4	ascii	clLightTurquoise
+00063dd0	ascii	clPaleBlue
+00063de4	ascii	clLavender
+00063df8	ascii	clWhite
+00063e08	ascii	clScrollBar
+00063e1c	ascii	clBackground
+00063e34	ascii	clActiveCaption
+00063e4c	ascii	clInactiveCaption
+00063e68	ascii	clMenu
+00063e78	ascii	clWindow
+00063e8c	ascii	clWindowFrame
+00063ea4	ascii	clMenuText
+00063eb8	ascii	clWindowText
+00063ed0	ascii	clCaptionText
+00063ee8	ascii	clActiveBorder
+00063f00	ascii	clInactiveBorder
+00063f1c	ascii	clAppWorkSpace
+00063f34	ascii	clHighlight
+00063f48	ascii	clHighlightText
+00063f60	ascii	clBtnFace
+00063f74	ascii	clBtnShadow
+00063f88	ascii	clGrayText
+00063f9c	ascii	clBtnText
+00063fb0	ascii	clInactiveCaptionText
+00063fd0	ascii	clBtnHighlight
+00063fe8	ascii	cl3DDkShadow
+00064000	ascii	cl3DLight
+00064014	ascii	clInfoText
+00064028	ascii	clInfoBk
+0006403c	ascii	clGradientActiveCaption
+0006405c	ascii	clGradientInactiveCaption
+00064080	ascii	clHotLight
+00064094	ascii	clMenuBar
+000640a8	ascii	clMenuHighlight
+00064415	ascii	Uh5PF
+00064471	ascii	+--+-+
+000646b8	ascii	$URL: https://jcl.svn.sourceforge.net:443/svnroot/jcl/tags/JCL-2.2-Build3845/jcl/source/common/JclRTTI.pas $
+00064730	ascii	$Revision: 3193 $
+0006474c	ascii	$Date: 2010-02-18 22:40:40 +0100 (jeu. 18 f
+00064779	ascii	vr. 2010) $
+00064790	ascii	JCL\source\common
+00064837	ascii	UhuTF
+0006490d	ascii	_^[Y]
+00064919	ascii	UhdUF
+000649a4	ascii	$URL: https://jcl.svn.sourceforge.net:443/svnroot/jcl/tags/JCL-2.2-Build3845/jcl/source/common/JclMime.pas $
+00064a1c	ascii	$Revision: 2921 $
+00064a38	ascii	$Date: 2009-08-09 15:08:29 +0200 (dim. 09 ao
+00064a66	ascii	t 2009) $
+00064a78	ascii	JCL\source\common
+00064b34	ascii	ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+00064b80	ascii	ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789$-_@.&+-!*"'(),;/#?:
+00064bc4	ascii	0123456789ABCDEF
+00064c4d	ascii	UhmXF
+00064cd1	ascii	TJPEGData
+00064d8d	ascii	TJPEGImage
+00064d9e	ascii	TJPEGImage(YF
+00064ead	ascii	EJPEG
+00064edc	ascii	Uh1[F
+0006541e	ascii	_^[Y]
+0006550e	ascii	Uh$dF
+00065efe	ascii	S\_^[]
+00066101	ascii	S`_^[Y]
+0006613b	ascii	UhrmF
+00066183	ascii	;w8tF
+0006697d	ascii	Z]_^[
+00066b9a	ascii	FD_^[Y]
+00066c02	ascii	FH_^[Y]
+00066d99	ascii	Z]_^[
+0006728e	ascii	YZ_^[
+00067375	ascii	C @|F
+000674f4	ascii	T;{$|
+0006757c	ascii	T;{$|
+000677e6	ascii	YZ]_^[
+00067c91	ascii	$Z_^[
+00067ee5	ascii	;K4w/
+00067f1f	ascii	;K4w,
+00067f55	ascii	;K4w,
+00067fed	ascii	T;{$|
+00068034	ascii	T;{$|
+00068a67	ascii	L]_^[
+00068cf3	ascii	4]_^[
+00068f61	ascii	D$$PU
+0006928b	ascii	A;K$|
+00069dda	ascii	P]_^[
+0006a69c	ascii	_^[Y]
+0006a8c7	ascii	0;C$|
+0006a976	ascii	K,;K(u
+0006ac2a	ascii	T$$;L$
+0006ac7d	ascii	Jx;L$
+0006aca1	ascii	0]_^[
+0006af14	ascii	$;Zx|
+0006af1a	ascii	YZ_^[
+0006b476	ascii	Z]_^[
+0006b4a2	ascii	t&ItZ
+0006b737	ascii	D$$;T$
+0006b74b	ascii	L$ ;\$
+0006b7b5	ascii	L$,;T$
+0006b7c9	ascii	L$(;\$
+0006b83e	ascii	L$0;T$
+0006b8b3	ascii	L$4;T$
+0006b922	ascii	L$8;T$
+0006b991	ascii	L$<;T$
+0006ba34	ascii	D$D;T$
+0006ba48	ascii	L$@;\$
+0006bc17	ascii	D$,;L$
+0006bc2f	ascii	T$(;\$
+0006bc90	ascii	l$$B;
+0006bcfe	ascii	0]_^[
+0006c7c6	ascii	Z]_^[
+0006c9b6	ascii	T;s$|
+0006caf8	ascii	P$;T$
+0006cb06	ascii	$]_^[
+0006cbf4	ascii	P$;T$
+0006ccb7	ascii	P$;T$
+0006cda0	ascii	K4_^[YY]
+0006cdf3	ascii	rMtsJ
+0006ce24	ascii	C4;CH
+0006ce90	ascii	C4;CHr3
+0006ceca	ascii	_^[YY]
+0006cfc3	ascii	$;F$|
+0006d1ba	ascii	D$ ;CH}4
+0006d1c8	ascii	;t$(}(
+0006d1cf	ascii	D$,PW
+0006d1ed	ascii	{$F;t$(|
+0006d20c	ascii	L$ ;K8|
+0006d634	ascii	A$;D$
+0006d8d8	ascii	L$$Qj
+0006d922	ascii	D$$Pj
+0006da35	ascii	D$ H;D$
+0006dd20	ascii	D$p+D$x+
+0006df13	ascii	P$;T$
+0006e073	ascii	Jt\Jt;
+0006e2bb	ascii	_^[Y]
+0006e463	ascii	A(;D$
+0006e499	ascii	t-Itk
+0006e54a	ascii	D$,@G
+0006e597	ascii	A$;D$
+0006e5a5	ascii	0]_^[
+0006e619	ascii	$;V$|
+0006e61f	ascii	Z]_^[
+0006ec20	ascii	u+;L$
+00070150	ascii	T;C$|
+000709a2	ascii	YZ]_^[
+00070c08	ascii	_^[Y]
+00070e54	ascii	 ]_^[
+00071044	ascii	EKG;|$
+000711eb	ascii	Z]_^[
+000711f4	ascii	SVWUQ
+00071301	ascii	Z]_^[
+0007139c	ascii	YZ]_^[
+00071a3e	ascii	_^[Y]
+00071cb7	ascii	_^[Y]
+00071dbf	ascii	_^[Y]
+0007232e	ascii	B;S8|
+00072730	ascii	$Z_^[
+00072eb9	ascii	T;{8|
+0007316c	ascii	SVWUQ
+0007318f	ascii	T;{8|
+000731ce	ascii	T;{8|
+0007323e	ascii	Z]_^[
+000732fb	ascii	Z]_^[
+00073505	ascii	T;{8|
+0007357e	ascii	T;{8|
+00073fd9	ascii	_^[YY]
+0007405c	ascii	$;C8|
+00074062	ascii	Z]_^[
+000740d2	ascii	_^[Y]
+00074147	ascii	N4)F0
+00074208	ascii	T;{8|
+000742be	ascii	P ;S0uP3
+00074321	ascii	S4)C0
+00074333	ascii	K4;K<}53
+00074370	ascii	C4;C<uV
+000744e7	ascii	P8;T$
+000744fc	ascii	SVWUQ
+00074596	ascii	$;C8|
+0007459c	ascii	Z]_^[
+0007460e	ascii	OtAOt 
+00074743	ascii	;KH}x
+0007477a	ascii	C4;D$$~u
+000747f1	ascii	9;C4|
+0007498a	ascii	D$ ;D$$
+00074a13	ascii	D$ ;D$$
+00074af7	ascii	A8;D$
+00074d5e	ascii	F8;D$
+00074d9c	ascii	P@YZ]_^[
+00075161	ascii	_^[YY]
+00075405	ascii	K<;K(u
+0007540d	ascii	C8;C$t
+00075659	ascii	_^[Y]
+00075d4e	ascii	YZ]_^[
+00075ef5	ascii	A8;D$
+000769a0	ascii	Z]_^[
+000772db	ascii	?SVWU
+00077a73	ascii	,]_^[
+00077f2f	ascii	,]_^[
+000780b8	ascii	AboutJVCL
+000780cc	ascii	AppStorage
+000780e0	ascii	AppStoragePath
+000780f8	ascii	AutoLoad
+0007810c	ascii	ClearBeforeLoad
+00078140	ascii	Enabled
+00078150	ascii	ReadOnly
+00078164	ascii	DeleteBeforeStore
+00078180	ascii	IgnoreLastLoadTime
+0007819c	ascii	IgnoreProperties
+000781b8	ascii	OnBeforeLoadProperties
+000781d8	ascii	OnAfterLoadProperties
+000781f8	ascii	OnBeforeStoreProperties
+00078218	ascii	OnAfterStoreProperties
+00078238	ascii	SynchronizeLoadProperties
+0007825c	ascii	SynchronizeStoreProperties
+000783b5	ascii	TJvPoint
+000783c6	ascii	TJvPoint
+000783d9	ascii	JvJVCLUtils
+00078479	ascii	TJvRect
+00078486	ascii	TJvRectl
+00078498	ascii	JvJVCLUtils
+000784c0	ascii	Left<
+000784fd	ascii	Right<
+0007851d	ascii	Bottom
+000785bc	ascii	Cancel
+000785cc	ascii	Abort
+000785dc	ascii	Retry
+000785ec	ascii	Ignore
+00078608	ascii	NoToAll
+00078618	ascii	YesToAll
+00078634	ascii	TPUtilWindowEx
+00078728	utf16	jjjjjj
+00078a42	ascii	THtmlCode
+00078a6c	ascii	&amp;
+00078a88	ascii	&quot;
+00078aa4	ascii	&reg;
+00078ac0	ascii	&copy;
+00078adc	ascii	&trade;
+00078af8	ascii	&euro;
+00078b14	ascii	&nbsp;
+00078bfd	ascii	EJVCLComputerInfoEx\
+00078c69	ascii	TJvReadOnlyInfo|
+00078c7e	ascii	TJvReadOnlyInfo\
+00078c98	ascii	JvComputerInfoEx
+00078d05	ascii	TJvWriteableInfo
+00078d1e	ascii	TJvWriteableInfo
+00078d39	ascii	JvComputerInfoEx
+00078da5	ascii	TJvAPMInfo
+00078db6	ascii	TJvAPMInfo
+00078dcb	ascii	JvComputerInfoEx
+00078df8	ascii	LineStatusTyE
+00078e1d	ascii	BatteryFlag<
+00078e43	ascii	BatteryLifePercent|
+00078e70	ascii	BatteryLifeTime|
+00078e9a	ascii	BatteryFullLifeTime
+00078f09	ascii	TJvOSVersionInfo
+00078f22	ascii	TJvOSVersionInfo
+00078f3d	ascii	JvComputerInfoEx
+00078f6a	ascii	OSVersion
+00078f8e	ascii	ProductType
+00078fb4	ascii	ProductID
+00078fd8	ascii	ProductName|
+00078ffe	ascii	ServicePackVersion|
+0007902b	ascii	VersionBuild|
+00079052	ascii	VersionMajor|
+00079079	ascii	VersionMinor
+000790a0	ascii	VersionCSDString
+000790b6	ascii	TJvCPUType
+000790ce	ascii	cpuUnknown
+000790d9	ascii	cpuIntel
+000790e2	ascii	cpuCyrix
+000790eb	ascii	cpuAMD
+000790f2	ascii	cpuCrusoe
+000790fc	ascii	JvComputerInfoExX
+00079165	ascii	TJvCPUInfo
+00079176	ascii	TJvCPUInfoX
+0007918b	ascii	JvComputerInfoEx
+000791b8	ascii	HasInstruction
+0007921d	ascii	IsFDIVOK
+00079240	ascii	HasCacheInfo
+00079267	ascii	HasExtendedInfo
+00079291	ascii	CPUTypeT
+000792b3	ascii	FamilyT
+000792d4	ascii	ModelT
+000792f4	ascii	Stepping
+00079317	ascii	VendorIDString
+00079340	ascii	Manufacturer
+00079367	ascii	Name<
+00079386	ascii	ProcessorCount
+000793af	ascii	Is64Bits
+000793d2	ascii	ExMMX
+000793f2	ascii	_3DNow
+00079413	ascii	Ex3DNow|
+00079435	ascii	L1DataCache|
+0007945b	ascii	L1CodeCache|
+00079481	ascii	L2Cache|
+000794a3	ascii	L3Cache
+000794c5	ascii	RawFreq
+000794e7	ascii	NormFreq
+0007950a	ascii	DEPCapableT
+0007952f	ascii	PhysicalCoreT
+00079556	ascii	LogicalCore
+0007957c	ascii	HyperThreadingTechnology
+000795ed	ascii	TJvBIOSInfo
+000795fe	ascii	TJvBIOSInfo
+00079614	ascii	JvComputerInfoEx
+00079660	ascii	Copyright
+00079684	ascii	ExtendedInfo0
+00079709	ascii	TJvSystemFolders
+00079722	ascii	TJvSystemFolders
+0007973d	ascii	JvComputerInfoEx
+0007976a	ascii	TrailingPathDelimiter
+0007979a	ascii	CommonFiles
+000797c0	ascii	Current
+000797e2	ascii	ProgramFiles
+00079809	ascii	Windows
+0007982b	ascii	System
+0007986b	ascii	Desktop
+0007988d	ascii	Programs
+000798b0	ascii	Personal
+000798d3	ascii	Favorites
+000798f7	ascii	Startup
+00079919	ascii	Recent
+0007993a	ascii	SendTo
+0007995b	ascii	StartMenu
+0007997f	ascii	DesktopDirectory
+000799aa	ascii	Nethood
+000799cc	ascii	Fonts
+000799ec	ascii	CommonStartmenu
+00079a16	ascii	CommonPrograms
+00079a3f	ascii	CommonStartup
+00079a67	ascii	CommonDesktopDirectory
+00079a98	ascii	CommonAppData
+00079ac0	ascii	AppData
+00079ae2	ascii	Printhood
+00079b06	ascii	CommonFavorites
+00079b30	ascii	Templates
+00079b54	ascii	InternetCache
+00079b7c	ascii	Cookies
+00079b9e	ascii	History
+00079bc0	ascii	Profile
+00079c21	ascii	TJvMemInfo
+00079c32	ascii	TJvMemInfo
+00079c47	ascii	JvComputerInfoEx
+00079c74	ascii	MaxAppAddress<
+00079c9c	ascii	MinAppAddress
+00079cc4	ascii	MemoryLoad
+00079ce9	ascii	SwapFileSize<
+00079d10	ascii	SwapFileUsage
+00079d38	ascii	TotalPhysicalMemory
+00079d66	ascii	FreePhysicalMemory
+00079d93	ascii	TotalPageFileMemory
+00079dc1	ascii	FreePageFileMemory
+00079dee	ascii	TotalVirtualMemory
+00079e1b	ascii	FreeVirtualMemoryx
+00079e85	ascii	TJvKeyInfo
+00079e96	ascii	TJvKeyInfox
+00079eab	ascii	JvComputerInfoEx
+00079ed8	ascii	NumLock
+00079efa	ascii	ScrollLock
+00079f1f	ascii	CapsLock
+00079f81	ascii	TJvIdentification
+00079f9a	ascii	TJvIdentificationt
+00079fb6	ascii	JvComputerInfoEx
+00079fe3	ascii	IPAddress
+0007a007	ascii	LocalComputerName
+0007a033	ascii	LocalUserName
+0007a05b	ascii	LocalWorkgroup
+0007a084	ascii	DomainName
+0007a0a9	ascii	RegisteredCompany
+0007a0d5	ascii	RegisteredOwner
+0007a0ff	ascii	Comment
+0007a11f	ascii	dmGrayScale
+0007a12b	ascii	dmInterlaced
+0007a138	ascii	JvComputerInfoExL
+0007a14e	ascii	TJvDisplayFlags
+0007a1bd	ascii	TJvScreenInfo
+0007a1d2	ascii	TJvScreenInfo
+0007a1ea	ascii	JvComputerInfoEx
+0007a217	ascii	BitsPerPixelH
+0007a23e	ascii	Flags|
+0007a25e	ascii	Width|
+0007a27e	ascii	Height|
+0007a2fd	ascii	TJvAppVersions
+0007a312	ascii	TJvAppVersions
+0007a32b	ascii	JvComputerInfoEx
+0007a358	ascii	DirectX
+0007a37a	ascii	OpenGL
+0007a3d7	ascii	InternetExplorer
+0007a3ff	ascii	diDocked
+0007a408	ascii	diUndocked
+0007a413	ascii	diUserSupplied
+0007a422	ascii	diUserDocked
+0007a42f	ascii	diUserUndocked
+0007a43e	ascii	JvComputerInfoEx
+0007a456	ascii	TJvHWDockInfo
+0007a4c1	ascii	TJvHardwareProfile
+0007a4da	ascii	TJvHardwareProfile
+0007a4f7	ascii	JvComputerInfoEx
+0007a543	ascii	NameP
+0007a562	ascii	DockInfo
+0007a572	ascii	TJvWallpaperStyle
+0007a591	ascii	wsCenter
+0007a59a	ascii	wsUnused
+0007a5a3	ascii	wsStretch
+0007a5ad	ascii	JvComputerInfoEx
+0007a619	ascii	TJvMiscInfo(
+0007a62a	ascii	TJvMiscInfo
+0007a640	ascii	JvComputerInfoEx
+0007a66d	ascii	TimeRunning
+0007a693	ascii	TimeRunningAsString
+0007a6c1	ascii	Online
+0007a6e2	ascii	ScreenSaver<
+0007a708	ascii	DVDRegion
+0007a72c	ascii	NetBIOS
+0007a74e	ascii	WallpaperTiled
+0007a777	ascii	Wallpaperl
+0007a79b	ascii	WallpaperStyle
+0007a7c4	ascii	Pattern
+0007a7e6	ascii	ColorSchemes
+0007a80d	ascii	CurrentColorScheme
+0007a83a	ascii	Versions
+0007a85d	ascii	HardwareProfilep
+0007a872	ascii	TJvCleanBoot
+0007a88c	ascii	cbNormal
+0007a895	ascii	cbFailSafe
+0007a8a0	ascii	cbFailSafeNetwork
+0007a8b2	ascii	JvComputerInfoEx
+0007a8db	ascii	waDown
+0007a8e2	ascii	waLeft
+0007a8e9	ascii	waRight
+0007a8f6	ascii	waBottomLeft
+0007a903	ascii	waBottomRight
+0007a911	ascii	waHide
+0007a918	ascii	waTopLeft
+0007a922	ascii	waTopRight
+0007a92d	ascii	JvComputerInfoEx
+0007a946	ascii	TJvWindowsArrange
+0007a9b5	ascii	TJvMetricsInfo
+0007a9ca	ascii	TJvMetricsInfo
+0007a9e3	ascii	JvComputerInfoExR
+0007aa10	ascii	Arrangel
+0007aa32	ascii	CleanBoot<
+0007aa56	ascii	MouseButtons<
+0007aa7d	ascii	BorderWidth<
+0007aaa3	ascii	BorderHeight<
+0007aaca	ascii	CursorWidth<
+0007aaf0	ascii	CursorHeight|
+0007ab17	ascii	CaretBlinkTime<
+0007ab40	ascii	CaretX<
+0007ab61	ascii	CaretY<
+0007ab82	ascii	CursorX<
+0007aba4	ascii	CursorY<
+0007abc6	ascii	CodePageANSI<
+0007abed	ascii	CodePageOEM<
+0007ac13	ascii	DialogBaseUnits<
+0007ac3d	ascii	DialogFrameWidth<
+0007ac68	ascii	DialogFrameHeight<
+0007ac94	ascii	DoubleClickWidth<
+0007acbf	ascii	DoubleClickHeight<
+0007aceb	ascii	DoubleClickTime<
+0007ad15	ascii	DragWidth<
+0007ad39	ascii	DragHeight<
+0007ad5e	ascii	EdgeWidth<
+0007ad82	ascii	EdgeHeight<
+0007ada7	ascii	FixedFrameWidth<
+0007add1	ascii	FixedFrameHeight<
+0007adfc	ascii	FrameWidth<
+0007ae21	ascii	FrameHeight<
+0007ae47	ascii	ScreenClientWidth<
+0007ae73	ascii	ScreenClientHeight<
+0007aea0	ascii	ScreenWidth<
+0007aec6	ascii	ScreenHeight<
+0007aeed	ascii	ScrollArrowWidth<
+0007af18	ascii	ScrollArrowHeight<
+0007af44	ascii	ScrollThumbWidth<
+0007af6f	ascii	ScrollThumbHeight<
+0007af9b	ascii	ScrollWidth<
+0007afc1	ascii	ScrollHeight<
+0007afe8	ascii	IconWidth<
+0007b00c	ascii	IconHeight<
+0007b031	ascii	SmallIconWidth<
+0007b05a	ascii	SmallIconHeight<
+0007b084	ascii	IconSpacingWidth<
+0007b0af	ascii	IconSpacingHeight<
+0007b0db	ascii	MaximizedWindowWidth<
+0007b10a	ascii	MaximizedWindowHeight<
+0007b13a	ascii	MinimizedWindowWidth<
+0007b169	ascii	MinimizedWindowHeight<
+0007b199	ascii	MaxDragWindowWidth<
+0007b1c6	ascii	MaxDragWindowHeight<
+0007b1f4	ascii	MinDragWindowWidth<
+0007b221	ascii	MinDragWindowHeight<
+0007b24f	ascii	MinWindowWidth<
+0007b278	ascii	MinWindowHeight<
+0007b2a2	ascii	MenuCheckWidth<
+0007b2cb	ascii	MenuCheckHeight<
+0007b2f5	ascii	MenuButtonWidth<
+0007b31f	ascii	MenuButtonHeight<
+0007b34a	ascii	MinimizedWindowSpacingWidth<
+0007b380	ascii	MinimizedWindowSpacingHeight<
+0007b3b7	ascii	CaptionButtonWidth<
+0007b3e4	ascii	CaptionButtonheight<
+0007b412	ascii	ResizeBorderWidth<
+0007b43e	ascii	ResizeBorderHeight<
+0007b46b	ascii	SmallCaptionButtonWidth<
+0007b49d	ascii	SmallCaptionButtonHeight<
+0007b4d0	ascii	WindowCaptionHeight<
+0007b4fe	ascii	SmallWindowCaptionHeight<
+0007b531	ascii	KanjiWindowHeight<
+0007b55d	ascii	MenuItemHeight
+0007b586	ascii	DBCSEnabled
+0007b5ac	ascii	Debug
+0007b5cc	ascii	MenuRightAligned
+0007b5f7	ascii	MidEastEnabled
+0007b620	ascii	MousePresent
+0007b647	ascii	MouseWheelPresent
+0007b673	ascii	Networked
+0007b697	ascii	PenWindows
+0007b6bc	ascii	Secure
+0007b6dd	ascii	ShowSounds
+0007b702	ascii	SlowMachine
+0007b728	ascii	MouseButtonsSwapped
+0007b753	ascii	atfOnOffFeedback
+0007b764	ascii	atfTimeOutOn
+0007b771	ascii	JvComputerInfoEx
+0007b78a	ascii	TJvAccessTimeOutFlags
+0007b7fd	ascii	TJvAccessTimeOut
+0007b816	ascii	TJvAccessTimeOut
+0007b831	ascii	JvComputerInfoEx
+0007b85e	ascii	TimeOutMS
+0007b882	ascii	Flags
+0007b89f	ascii	fkfAvailable
+0007b8ac	ascii	fkfClickOn
+0007b8b7	ascii	fkfFilterKeysOn
+0007b8c7	ascii	fkfHotkeyActive
+0007b8d7	ascii	fkfHotkeySound
+0007b8e6	ascii	fkfConfirmHotkey
+0007b8f7	ascii	fkfIndicator
+0007b904	ascii	JvComputerInfoEx
+0007b91a	ascii	TJvFilterKeyFlags
+0007b989	ascii	TJvFilterKeys
+0007b99e	ascii	TJvFilterKeys|
+0007b9b6	ascii	JvComputerInfoEx
+0007b9e3	ascii	Flags|
+0007ba03	ascii	WaitMSec|
+0007ba26	ascii	DelayMSec|
+0007ba4a	ascii	RepeatMSec|
+0007ba6f	ascii	BounceMSec
+0007ba93	ascii	hcfAvailable
+0007baa0	ascii	hcfConfirmHotKey
+0007bab1	ascii	hcfHighContrastOn
+0007bac3	ascii	hcfHotkeyActive
+0007bad3	ascii	hcfHotkeyAvailable
+0007bae6	ascii	hcfHotkeySound
+0007baf5	ascii	hcfIndicator
+0007bb02	ascii	JvComputerInfoEx
+0007bb1a	ascii	TJvHighContrastFlags
+0007bb8d	ascii	TJvHighContrast
+0007bba2	ascii	TJvHighContrast
+0007bbbc	ascii	JvComputerInfoEx
+0007bbe9	ascii	Flags
+0007bc09	ascii	DefaultScheme
+0007bc71	ascii	TJvIconMetrics
+0007bc86	ascii	TJvIconMetricsd
+0007bc9f	ascii	JvComputerInfoEx
+0007bccc	ascii	VertSpacing<
+0007bcf2	ascii	HorzSpacing
+0007bd18	ascii	TitleWrap4
+0007bd99	ascii	TJvMinimizedMetrics
+0007bdb2	ascii	TJvMinimizedMetrics
+0007bdd0	ascii	JvComputerInfoEx
+0007bdfd	ascii	Width<
+0007be1d	ascii	HorzGap<
+0007be3f	ascii	VertGap@
+0007be61	ascii	Arrangel
+0007be7f	ascii	mkfAvailable
+0007be8c	ascii	mkfConfirmHotKey
+0007be9d	ascii	mkfHotkeyActive
+0007bead	ascii	mkfHotkeySound
+0007bebc	ascii	mkfIndicator
+0007bec9	ascii	mkfMouseKeysOn
+0007bed8	ascii	mkfModifiers
+0007bee5	ascii	mkfReplaceNumbers
+0007bef7	ascii	JvComputerInfoEx
+0007bf0e	ascii	TJvMouseKeysFlags
+0007bf7d	ascii	TJvMouseKeys
+0007bf92	ascii	TJvMouseKeysp
+0007bfa9	ascii	JvComputerInfoEx
+0007bfd6	ascii	Flags|
+0007bff6	ascii	MaxSpeed|
+0007c019	ascii	TimeToMaxSpeed|
+0007c042	ascii	CtrlSpeed
+0007c0a5	ascii	TJvNonClientMetrics
+0007c0be	ascii	TJvNonClientMetrics
+0007c0dc	ascii	JvComputerInfoEx
+0007c109	ascii	BorderWidth<
+0007c12f	ascii	ScrollWidth<
+0007c155	ascii	ScrollHeight<
+0007c17c	ascii	CaptionWidth<
+0007c1a3	ascii	CaptionHeight4
+0007c1cb	ascii	CaptionFont<
+0007c1f1	ascii	SmallCaptionWidth<
+0007c21d	ascii	SmallCaptionHeight4
+0007c24a	ascii	SmallCaptionFont<
+0007c275	ascii	MenuWidth<
+0007c299	ascii	MenuHeight4
+0007c2be	ascii	MenuFont4
+0007c2e1	ascii	StatusFont4
+0007c306	ascii	MessageFont
+0007c32b	ascii	serkfAvailable
+0007c33a	ascii	serkfIndicator
+0007c349	ascii	serkfSerialKeysOn
+0007c35b	ascii	JvComputerInfoEx
+0007c372	ascii	TJvSerialKeysFlags
+0007c392	ascii	TJvSerialKeysPortState
+0007c3b6	ascii	psSerialKeysIgnored
+0007c3ca	ascii	psSerialKeysAware
+0007c3dc	ascii	psSerialKeysAlways
+0007c3ef	ascii	JvComputerInfoEx
+0007c459	ascii	TJvSerialKeys
+0007c46e	ascii	TJvSerialKeysL
+0007c486	ascii	JvComputerInfoEx
+0007c4b3	ascii	Activel
+0007c4d4	ascii	Flags
+0007c4f4	ascii	ActivePort
+0007c519	ascii	Port|
+0007c538	ascii	BaudRate
+0007c55b	ascii	PortStateh
+0007c57b	ascii	ssfAvailable
+0007c588	ascii	ssfSoundSentryOn
+0007c599	ascii	ssfIndicator
+0007c5a6	ascii	JvComputerInfoEx
+0007c5be	ascii	TJvSoundSentryFlags
+0007c5de	ascii	TJvSoundSentryTextEffect
+0007c604	ascii	sstfNone
+0007c60d	ascii	sstfChars
+0007c617	ascii	sstfBorder
+0007c622	ascii	sstfDisplay
+0007c62e	ascii	JvComputerInfoEx
+0007c646	ascii	TJvSoundSentryGrafEffect
+0007c66c	ascii	ssgfNone
+0007c675	ascii	ssgfDisplay
+0007c681	ascii	JvComputerInfoEx
+0007c69a	ascii	TJvSoundSentryWindowsEffect
+0007c6c3	ascii	sswfNone
+0007c6cc	ascii	sswfTitle
+0007c6d6	ascii	sswfWindow
+0007c6e1	ascii	sswfDisplay
+0007c6ed	ascii	sswfCustom
+0007c6f8	ascii	JvComputerInfoExT
+0007c761	ascii	TJvSoundSentry
+0007c776	ascii	TJvSoundSentryT
+0007c78f	ascii	JvComputerInfoEx
+0007c7bc	ascii	Flags
+0007c7dc	ascii	TextEffect|
+0007c801	ascii	TextEffectMSec
+0007c82a	ascii	TextEffectColor@
+0007c854	ascii	GrafEffect|
+0007c879	ascii	GrafEffectMSec
+0007c8a2	ascii	GrafEffectColor
+0007c8cc	ascii	WindowsEffect|
+0007c8f4	ascii	WindowsEffectMSec
+0007c920	ascii	WindowsEffectDLL4
+0007c947	ascii	skfStickyKeysOn
+0007c957	ascii	skfAvailable
+0007c964	ascii	skfHotkeyActive
+0007c974	ascii	skfConfirmHotkey
+0007c985	ascii	skfHotkeySound
+0007c994	ascii	skfIndicator
+0007c9a1	ascii	skfAudibleFeedback
+0007c9b4	ascii	skfTriState
+0007c9c0	ascii	skfTwoKeysOff
+0007c9ce	ascii	skfLeftAltLatched
+0007c9e0	ascii	skfLeftCtrlLatched
+0007c9f3	ascii	skfLeftShiftLatched
+0007ca07	ascii	skfRightAltLatched
+0007ca1a	ascii	skfRightCtrlLatched
+0007ca2e	ascii	skfRightShiftLatched
+0007ca43	ascii	skfLeftWinLatched
+0007ca55	ascii	skfRightWinLatched
+0007ca68	ascii	skfLeftAltLocked
+0007ca79	ascii	skfLeftCtrlLocked
+0007ca8b	ascii	skfLeftShiftLocked
+0007ca9e	ascii	skfRightAltLocked
+0007cab0	ascii	skfRightCtrlLocked
+0007cac3	ascii	skfRightShiftLocked
+0007cad7	ascii	skfLeftWinLocked
+0007cae8	ascii	skfRightWinLocked
+0007cafa	ascii	JvComputerInfoEx
+0007cb12	ascii	TJvStickyKeysFlags
+0007cb43	ascii	tkfAvailable
+0007cb50	ascii	tkfConfirmHotkey
+0007cb61	ascii	tkfHotkeyActive
+0007cb71	ascii	tkfHotkeySound
+0007cb80	ascii	tkfToggleKeysOn
+0007cb90	ascii	JvComputerInfoEx
+0007cba6	ascii	TJvToggleKeysFlags
+0007cbc6	ascii	TJvFontSmoothingType
+0007cbe8	ascii	fstStandard
+0007cbf4	ascii	fstClearType
+0007cc01	ascii	fstDocking
+0007cc0c	ascii	JvComputerInfoEx 
+0007cc36	ascii	JvComputerInfoEx
+0007ccb3	ascii	TJvSystemParametersInfo
+0007ccd2	ascii	TJvSystemParametersInfo
+0007ccf4	ascii	JvComputerInfoExN
+0007cd21	ascii	AccessTimeOut
+0007cd49	ascii	Animation
+0007cd6d	ascii	Beep<
+0007cd8c	ascii	BorderMultiplier<
+0007cdb7	ascii	DefaultInputLanguage
+0007cde6	ascii	DragFullWindows
+0007ce10	ascii	FilterKeys
+0007ce35	ascii	FontSmoothing<
+0007ce5d	ascii	GridGranularity
+0007ce87	ascii	HighContrast
+0007ceae	ascii	IconMetrics4
+0007ced4	ascii	IconTitleFont
+0007cefc	ascii	IconTitleWrap<
+0007cf24	ascii	KeyboardDelay
+0007cf4c	ascii	KeyboardPreferred<
+0007cf78	ascii	KeyboardSpeed
+0007cfa0	ascii	KeyboardLayoutName
+0007cfcd	ascii	LowPowerActive<
+0007cff6	ascii	LowPowerTimeOut
+0007d020	ascii	MenuLeftAligned
+0007d04a	ascii	MinimizedMetrics<
+0007d075	ascii	MouseSpeed<
+0007d09a	ascii	MouseThreshold1<
+0007d0c4	ascii	MouseThreshold2<
+0007d0ee	ascii	MouseHoverHeight<
+0007d119	ascii	MouseHoverTime<
+0007d142	ascii	MouseHoverWidth
+0007d16c	ascii	MouseKeys<
+0007d190	ascii	MouseTrails
+0007d1b6	ascii	NonClientMetrics
+0007d1e1	ascii	PowerOffActive<
+0007d20a	ascii	PowerOffTimeout
+0007d234	ascii	ScreenReader
+0007d25b	ascii	ScreenSaverActive<
+0007d287	ascii	ScreenSaveTimeOuth
+0007d2b3	ascii	SerialKeys
+0007d2d8	ascii	ShowSounds
+0007d2fd	ascii	SnapToDefaultButtonp
+0007d32b	ascii	SoundSentry
+0007d351	ascii	StickyKeys
+0007d376	ascii	ToggleKeys<
+0007d39b	ascii	WheelScrollLines
+0007d3c6	ascii	WindowsExtensions
+0007d3f2	ascii	WorkArea
+0007d415	ascii	ScreenSaverRunning<
+0007d442	ascii	FocusBorderHeight<
+0007d46e	ascii	FocusBorderWidth
+0007d499	ascii	MouseClickLock<
+0007d4c2	ascii	MouseClickLockTime
+0007d4ef	ascii	MouseSonar
+0007d514	ascii	MouseVanish
+0007d53a	ascii	DeskWallpaper
+0007d562	ascii	DropShadow
+0007d587	ascii	FlatMenu<
+0007d5aa	ascii	FontSmoothingContrast
+0007d5da	ascii	FontSmoothingType<
+0007d606	ascii	MenuShowDelay
+0007d62e	ascii	ShowIMEUI
+0007d652	ascii	ActiveWindowTracking
+0007d681	ascii	MenuAnimation
+0007d6a9	ascii	ComboboxAnimation
+0007d6d5	ascii	ListboxSmoothScrolling
+0007d706	ascii	GradientCaptions
+0007d731	ascii	MenuUnderLines
+0007d75a	ascii	ActiveWindowTrackZOrder
+0007d78c	ascii	HotTracking
+0007d7b2	ascii	MenuFade
+0007d7d5	ascii	SelectionFade
+0007d7fd	ascii	ToolTipAnimation
+0007d828	ascii	ToolTipFade
+0007d84e	ascii	CursorShadow
+0007d875	ascii	UIEffects<
+0007d899	ascii	ForegroundLockTimeOut<
+0007d8c9	ascii	ActiveWindowTrackTimeOut<
+0007d8fc	ascii	ForegroundFlashCount<
+0007d92b	ascii	CaretWidth<
+0007d950	ascii	IconHorizontalSpacing<
+0007d980	ascii	IconVerticalSpacing
+0007d9ed	ascii	TJvSystemColorsInfo
+0007da06	ascii	TJvSystemColorsInfo
+0007da24	ascii	JvComputerInfoEx
+0007da51	ascii	Color3DHighlight
+0007da7c	ascii	Color3DLight
+0007daa3	ascii	Color3DShadow
+0007dacb	ascii	Color3DDarkShadow
+0007daf7	ascii	Color3DFace
+0007db1d	ascii	ColorActiveBorder
+0007db49	ascii	ColorActiveCaption
+0007db76	ascii	ColorAppWorkspace
+0007dba2	ascii	ColorBackground
+0007dbcc	ascii	ColorBtnFace
+0007dbf3	ascii	ColorBtnText
+0007dc1a	ascii	ColorCaptionText
+0007dc45	ascii	ColorGrayText
+0007dc6d	ascii	ColorHighlight
+0007dc96	ascii	ColorHighlightText
+0007dcc3	ascii	ColorInactiveBorder
+0007dcf1	ascii	ColorInactiveCaption
+0007dd20	ascii	ColorInactiveCaptionText
+0007dd53	ascii	ColorInfoBk
+0007dd79	ascii	ColorInfoText
+0007dda1	ascii	ColorMenu
+0007ddc5	ascii	ColorMenuText
+0007dded	ascii	ColorScrollBar
+0007de16	ascii	ColorWindow
+0007de3c	ascii	ColorWindowFrame
+0007de67	ascii	ColorWindowText
+0007de91	ascii	ColorHotLight
+0007deb9	ascii	ColorGradientActiveCaption
+0007deee	ascii	ColorGradientInactiveCaption
+0007df25	ascii	ColorMenuHighlight
+0007df52	ascii	ColorMenuBar
+0007df66	ascii	TJvExeType
+0007df7e	ascii	etNone
+0007df85	ascii	etMSDos
+0007df8d	ascii	etWin16
+0007df95	ascii	etWin32
+0007df9d	ascii	etConsole
+0007dfa7	ascii	JvComputerInfoEx
+0007dfbe	ascii	TJvIconModifier
+0007dfdb	ascii	imNormal
+0007dfe4	ascii	imOverlay
+0007dfee	ascii	imSelected
+0007dff9	ascii	imOpen
+0007e000	ascii	imShellSize
+0007e00c	ascii	imSmall
+0007e014	ascii	JvComputerInfoEx(
+0007e02a	ascii	TJvIconModifiers
+0007e0ab	ascii	TJvFileInfo
+0007e0be	ascii	TJvFileInfo
+0007e0d4	ascii	JvComputerInfoEx
+0007e101	ascii	FileName$
+0007e124	ascii	Modifiers<
+0007e148	ascii	IconIndex
+0007e16c	ascii	DisplayName`
+0007e192	ascii	ExeType
+0007e1b4	ascii	AttrString
+0007e1d9	ascii	IconLocation
+0007e200	ascii	TypeString|
+0007e232	ascii	TJvDriveChangeEvent
+0007e249	ascii	Sender
+0007e250	ascii	TObject
+0007e259	ascii	Drive
+0007e272	ascii	TJvCompactingEvent
+0007e288	ascii	Sender
+0007e28f	ascii	TObject
+0007e298	ascii	Ratio
+0007e29e	ascii	Integer
+0007e2b6	ascii	TJvPowerBroadcastEvent
+0007e2d0	ascii	Sender
+0007e2d7	ascii	TObject
+0007e2e0	ascii	Event
+0007e2e6	ascii	Integer
+0007e2f4	ascii	Integer
+0007e30e	ascii	TJvDeviceChangeEvent
+0007e326	ascii	Sender
+0007e32d	ascii	TObject
+0007e336	ascii	Event
+0007e33c	ascii	Cardinal
+0007e34b	ascii	Pointer
+0007e366	ascii	TJvDevModeChangeEvent
+0007e37f	ascii	Sender
+0007e386	ascii	TObject
+0007e38f	ascii	Device
+0007e396	ascii	String
+0007e3ae	ascii	TJvDisplayChangeEvent
+0007e3c7	ascii	Sender
+0007e3ce	ascii	TObject
+0007e3d7	ascii	BitsPerPixel
+0007e3e4	ascii	Integer
+0007e3ed	ascii	ScreenWidth
+0007e3f9	ascii	Integer
+0007e402	ascii	ScreenHeight
+0007e40f	ascii	Integer
+0007e42e	ascii	TJvSettingChangeEvent
+0007e447	ascii	Sender
+0007e44e	ascii	TObject
+0007e45c	ascii	Integer
+0007e465	ascii	Section
+0007e46d	ascii	String
+0007e486	ascii	TJvSpoolerChangeEvent
+0007e49f	ascii	Sender
+0007e4a6	ascii	TObject
+0007e4af	ascii	JobStatus
+0007e4b9	ascii	Integer
+0007e4c2	ascii	JobsLeft
+0007e4cb	ascii	Integer
+0007e4e6	ascii	TJvPaletteChangeEvent
+0007e4ff	ascii	Sender
+0007e506	ascii	TObject
+0007e513	ascii	Cardinal
+0007e5f1	ascii	TJvComputerInfoEx
+0007e60a	ascii	TJvComputerInfoExp
+0007e626	ascii	JvComputerInfoEx
+0007e690	ascii	Colorsp
+0007e6cf	ascii	FileInfo
+0007e6f2	ascii	Folders
+0007e714	ascii	Identification
+0007e73d	ascii	Keyboard,
+0007e760	ascii	Memory
+0007e781	ascii	Metrics$
+0007e7df	ascii	ReadOnly
+0007e802	ascii	Screen
+0007e823	ascii	System,
+0007e844	ascii	OnDeviceAdded,
+0007e86c	ascii	OnDeviceRemoved(
+0007e896	ascii	OnSettingChangel
+0007e8c0	ascii	OnCompacting
+0007e8e7	ascii	OnPowerBroadcastXXA
+0007e912	ascii	OnUserChanged
+0007e93a	ascii	OnDeviceChange`
+0007e963	ascii	OnDeviceModeChange
+0007e990	ascii	OnDisplayChangeXXA
+0007e9ba	ascii	OnTimeChangeXXA
+0007e9e1	ascii	OnFontChangeXXA
+0007ea08	ascii	OnSysColorChange
+0007ea33	ascii	OnSpoolerStatusChange
+0007ea63	ascii	OnPaletteChanging
+0007ea8f	ascii	OnPaletteChanged
+0007eb3a	ascii	_^[Y]
+0007eda9	ascii	_^[Y]
+0007ee0a	ascii	_^[Y]
+0007ee72	ascii	_^[YY]
+0007ef8c	ascii	Software\Microsoft\Windows NT\CurrentVersion
+0007efc4	ascii	Software\Microsoft\Windows\CurrentVersion
+0007f05c	ascii	ProductID
+0007f0c4	ascii	ProductName
+0007f7bb	ascii	_^[Y]
+0007f950	ascii	^[YY]
+0007fc70	ascii	srvcomment
+0007fc84	ascii	SYSTEM\CurrentControlSet\Services\lanmanserver\parameters
+0007fcc8	ascii	Comment
+0007fcd8	ascii	System\CurrentControlSet\Services\VxD\VNETSUP
+0007fdb8	ascii	netapi32.dll
+0007fdc8	ascii	NetWkstaGetInfo
+0007fdd8	ascii	NetApiBufferFree
+0007fecc	ascii	Workgroup
+0007fee0	ascii	System\CurrentControlSet\Services\Vxd\VNETSUP
+0007ff94	ascii	srvcomment
+0007ffa8	ascii	SYSTEM\CurrentControlSet\Services\lanmanserver\parameters
+0007ffec	ascii	Comment
+0007fffc	ascii	System\CurrentControlSet\Services\VxD\VNETSUP
+000800f4	ascii	RegisteredOrganization
+00080180	ascii	RegisteredOwner
+000802ec	ascii	;t$ht
+00080344	ascii	;t$xt
+0008039c	ascii	;t$pt
+000803f4	ascii	;t$lt
+00080485	ascii	;t$ut
+00080538	ascii	Version
+00080548	ascii	\SOFTWARE\Microsoft\DataAccess
+000805cc	ascii	DLLPATH
+000805dc	ascii	\SOFTWARE\Borland\Database Engine
+00080605	ascii	QQQQQSV
+00080700	ascii	idapi32.dll
+00080714	ascii	bdeadmin.exe
+00080748	ascii	Version
+00080758	ascii	\SOFTWARE\Microsoft\Internet Explorer
+00080818	ascii	Version
+00080828	ascii	\SOFTWARE\Microsoft\DirectX
+00080997	ascii	^[YY]
+000809a8	ascii	advapi32.dll
+000809b8	ascii	GetCurrentHwProfileA
+00080ad8	ascii	\Control Panel\Appearance\Schemes
+00080b20	ascii	Color Schemes
+00080b38	ascii	\Control Panel\Current
+00080bb0	ascii	DVD_Region
+00080c60	ascii	wininet.dll
+00080c6c	ascii	InternetGetConnectedState
+00080cd4	ascii	Pattern
+00080ce4	ascii	\Control Panel\Desktop
+00080d6c	ascii	SCRNSAVE.EXE
+00080d84	ascii	\Control Panel\Desktop
+00080e64	ascii	%d %s
+00080eb0	ascii	Wallpaper
+00080ec4	ascii	\Control Panel\Desktop
+00080f50	ascii	WallpaperStyle
+00080f68	ascii	\Control Panel\Desktop
+00080ff8	ascii	TileWallpaper
+00081010	ascii	\Control Panel\Desktop
+00081068	ascii	Color Schemes
+00081080	ascii	\Control Panel\Current
+000810ec	ascii	Pattern
+000810fc	ascii	\Control Panel\Desktop
+0008114c	ascii	SCRSAVE.EXE
+00081160	ascii	\Control Panel\Desktop
+000811cc	ascii	Wallpaper
+000811e0	ascii	\Control Panel\Desktop
+00081278	ascii	WallpaperStyle
+00081290	ascii	\Control Panel\Desktop
+00081324	ascii	TileWallpaper
+0008133c	ascii	\Control Panel\Desktop
+00081789	ascii	;t$,t
+000817c1	ascii	;t$$t
+000818b5	ascii	;t$(t
+000818ed	ascii	;t$ t
+000819eb	ascii	UhD&H
+00081b97	ascii	SjLj-
+00081c71	ascii	PjLj.
+000826a9	ascii	;t$Xt
+000826dd	ascii	;t$Tt
+000829df	ascii	Uh86H
+00082b27	ascii	Sj0j@
+00082d1d	ascii	Pj0jA
+00082dda	ascii	;D$ t
+00082e07	ascii	Uh`:H
+00082e82	ascii	;t$$t
+000844d0	ascii	Pj<j"
+00084a20	ascii	UhTVH
+00084b41	ascii	QQQQQQSV
+00084b4d	ascii	Uh3XH
+00084cdc	ascii	Uh(YH
+00084ea5	ascii	0hp\H
+00085070	ascii	\DefaultIcon
+000850d1	ascii	UhH]H
+000851a3	ascii	Uhm^H
+0008534b	ascii	Vh4dH
+000859e7	ascii	_^[Y]
+000859fd	ascii	UhDfH
+00085d28	ascii	\Opera\Opera\operaprefs.ini
+00085d4c	ascii	Home URL
+00085d60	ascii	User Prefs
+00085f00	ascii	\Local Settings\Application Data\Google\Chrome\User Data\Default\Preferences
+00085f58	ascii	"homepage":
+00085f6c	ascii	"homepage": "%s",
+00086012	ascii	UhLoH
+000863a8	ascii	\Mozilla\Firefox\Profiles
+000863cc	ascii	user.js
+000863dc	ascii	user_pref("startup.homepage_override_url",
+00086410	ascii	user_pref("startup.homepage_override_url", "%s");
+0008644c	ascii	user_pref("browser.startup.homepage",
+0008647c	ascii	user_pref("browser.startup.homepage", "%s");
+000864b4	ascii	prefs.js
+00086ab5	ascii	UhBwH
+00086c64	ascii	Error
+00086c6c	ascii	Runtime error     at 00000000
+00086c8c	ascii	0123456789ABCDEF
+00086ff4	ascii	0123456789ABCDEF
+000870b8	ascii	Tahoma
+0008841c	ascii	GenuineIntelCyrixInsteadAuthenticAMDGenuineTMx86CentaurHauls
+00089e8b	ascii	sAmTb
+00089e98	ascii	BKbhTb~XBK!;
+00089ebd	ascii	A!;I2
+0008a2df	ascii	%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+0008a395	ascii	&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+0008a42b	ascii	sAmTb
+0008a438	ascii	BKbhTb~XBK!;
+0008a45d	ascii	A!;I2
+0008b6e0	ascii	kernel32.dll
+0008b6f0	ascii	DeleteCriticalSection
+0008b708	ascii	LeaveCriticalSection
+0008b720	ascii	EnterCriticalSection
+0008b738	ascii	InitializeCriticalSection
+0008b754	ascii	VirtualFree
+0008b762	ascii	VirtualAlloc
+0008b772	ascii	LocalFree
+0008b77e	ascii	LocalAlloc
+0008b78c	ascii	GetVersion
+0008b79a	ascii	GetCurrentThreadId
+0008b7b0	ascii	InterlockedDecrement
+0008b7c8	ascii	InterlockedIncrement
+0008b7e0	ascii	VirtualQuery
+0008b7f0	ascii	WideCharToMultiByte
+0008b806	ascii	SetCurrentDirectoryA
+0008b81e	ascii	MultiByteToWideChar
+0008b834	ascii	lstrlenA
+0008b840	ascii	lstrcpynA
+0008b84c	ascii	LoadLibraryExA
+0008b85e	ascii	GetThreadLocale
+0008b870	ascii	GetStartupInfoA
+0008b882	ascii	GetProcAddress
+0008b894	ascii	GetModuleHandleA
+0008b8a8	ascii	GetModuleFileNameA
+0008b8be	ascii	GetLocaleInfoA
+0008b8d0	ascii	GetCurrentDirectoryA
+0008b8e8	ascii	GetCommandLineA
+0008b8fa	ascii	FreeLibrary
+0008b908	ascii	FindFirstFileA
+0008b91a	ascii	FindClose
+0008b926	ascii	ExitProcess
+0008b934	ascii	WriteFile
+0008b940	ascii	UnhandledExceptionFilter
+0008b95c	ascii	RtlUnwind
+0008b968	ascii	RaiseException
+0008b97a	ascii	GetStdHandle
+0008b988	ascii	user32.dll
+0008b996	ascii	GetKeyboardType
+0008b9a8	ascii	LoadStringA
+0008b9b6	ascii	MessageBoxA
+0008b9c4	ascii	CharNextA
+0008b9ce	ascii	advapi32.dll
+0008b9de	ascii	RegQueryValueExA
+0008b9f2	ascii	RegOpenKeyExA
+0008ba02	ascii	RegCloseKey
+0008ba0e	ascii	oleaut32.dll
+0008ba1e	ascii	SysFreeString
+0008ba2e	ascii	SysReAllocStringLen
+0008ba44	ascii	SysAllocStringLen
+0008ba56	ascii	kernel32.dll
+0008ba66	ascii	TlsSetValue
+0008ba74	ascii	TlsGetValue
+0008ba82	ascii	LocalAlloc
+0008ba90	ascii	GetModuleHandleA
+0008baa2	ascii	advapi32.dll
+0008bab2	ascii	RegSetValueExW
+0008bac4	ascii	RegSetValueExA
+0008bad6	ascii	RegQueryValueExW
+0008baea	ascii	RegQueryValueExA
+0008bafe	ascii	RegQueryInfoKeyA
+0008bb12	ascii	RegOpenKeyExW
+0008bb22	ascii	RegOpenKeyExA
+0008bb32	ascii	RegFlushKey
+0008bb40	ascii	RegEnumValueA
+0008bb50	ascii	RegCreateKeyExA
+0008bb62	ascii	RegCloseKey
+0008bb70	ascii	OpenProcessToken
+0008bb84	ascii	LookupAccountSidA
+0008bb98	ascii	GetUserNameA
+0008bba8	ascii	GetTokenInformation
+0008bbbc	ascii	kernel32.dll
+0008bbcc	ascii	lstrlenW
+0008bbd8	ascii	lstrlenA
+0008bbe4	ascii	lstrcpyA
+0008bbf0	ascii	WritePrivateProfileStringA
+0008bc0e	ascii	WriteFile
+0008bc1a	ascii	WideCharToMultiByte
+0008bc30	ascii	WaitForSingleObject
+0008bc46	ascii	VirtualQuery
+0008bc56	ascii	VirtualAlloc
+0008bc66	ascii	UnmapViewOfFile
+0008bc78	ascii	Sleep
+0008bc80	ascii	SizeofResource
+0008bc92	ascii	SetThreadPriority
+0008bca6	ascii	SetThreadLocale
+0008bcb8	ascii	SetFilePointer
+0008bcca	ascii	SetEvent
+0008bcd6	ascii	SetErrorMode
+0008bce6	ascii	SetEndOfFile
+0008bcf6	ascii	SetCurrentDirectoryA
+0008bd0e	ascii	SetComputerNameA
+0008bd22	ascii	ResetEvent
+0008bd30	ascii	ReleaseMutex
+0008bd40	ascii	ReadFile
+0008bd4c	ascii	QueryPerformanceFrequency
+0008bd68	ascii	QueryPerformanceCounter
+0008bd82	ascii	OpenFileMappingA
+0008bd96	ascii	MultiByteToWideChar
+0008bdac	ascii	MulDiv
+0008bdb6	ascii	MapViewOfFile
+0008bdc6	ascii	LockResource
+0008bdd6	ascii	LoadResource
+0008bde6	ascii	LoadLibraryA
+0008bdf6	ascii	LeaveCriticalSection
+0008be0e	ascii	IsBadReadPtr
+0008be1e	ascii	InitializeCriticalSection
+0008be3a	ascii	GlobalUnlock
+0008be4a	ascii	GlobalReAlloc
+0008be5a	ascii	GlobalHandle
+0008be6a	ascii	GlobalLock
+0008be78	ascii	GlobalFree
+0008be86	ascii	GlobalFindAtomA
+0008be98	ascii	GlobalDeleteAtom
+0008beac	ascii	GlobalAlloc
+0008beba	ascii	GlobalAddAtomA
+0008becc	ascii	GetWindowsDirectoryA
+0008bee4	ascii	GetVersionExA
+0008bef4	ascii	GetVersion
+0008bf02	ascii	GetTickCount
+0008bf12	ascii	GetThreadPriority
+0008bf26	ascii	GetThreadLocale
+0008bf38	ascii	GetSystemPowerStatus
+0008bf50	ascii	GetSystemInfo
+0008bf60	ascii	GetSystemDirectoryA
+0008bf76	ascii	GetStringTypeExA
+0008bf8a	ascii	GetStdHandle
+0008bf9a	ascii	GetProcAddress
+0008bfac	ascii	GetPrivateProfileStringA
+0008bfc8	ascii	GetOEMCP
+0008bfd4	ascii	GetModuleHandleA
+0008bfe8	ascii	GetModuleFileNameA
+0008bffe	ascii	GetLocaleInfoA
+0008c010	ascii	GetLocalTime
+0008c020	ascii	GetLastError
+0008c030	ascii	GetFullPathNameA
+0008c044	ascii	GetFileAttributesA
+0008c05a	ascii	GetEnvironmentVariableA
+0008c074	ascii	GetDiskFreeSpaceA
+0008c088	ascii	GetDateFormatA
+0008c09a	ascii	GetCurrentThreadId
+0008c0b0	ascii	GetCurrentThread
+0008c0c4	ascii	GetCurrentProcessId
+0008c0da	ascii	GetCurrentProcess
+0008c0ee	ascii	GetCurrentDirectoryA
+0008c106	ascii	GetComputerNameA
+0008c11a	ascii	GetCPInfo
+0008c126	ascii	GetACP
+0008c130	ascii	FreeResource
+0008c140	ascii	InterlockedExchange
+0008c156	ascii	InterlockedCompareExchange
+0008c174	ascii	FreeLibrary
+0008c182	ascii	FormatMessageA
+0008c194	ascii	FindResourceA
+0008c1a4	ascii	FindNextFileA
+0008c1b4	ascii	FindFirstFileA
+0008c1c6	ascii	FindClose
+0008c1d2	ascii	FileTimeToLocalFileTime
+0008c1ec	ascii	FileTimeToDosDateTime
+0008c204	ascii	ExpandEnvironmentStringsA
+0008c220	ascii	EnumCalendarInfoA
+0008c234	ascii	EnterCriticalSection
+0008c24c	ascii	DeleteCriticalSection
+0008c264	ascii	CreateThread
+0008c274	ascii	CreateFileMappingA
+0008c28a	ascii	CreateFileA
+0008c298	ascii	CreateEventA
+0008c2a8	ascii	CompareStringW
+0008c2ba	ascii	CompareStringA
+0008c2cc	ascii	CloseHandle
+0008c2d8	ascii	version.dll
+0008c2e6	ascii	VerQueryValueA
+0008c2f8	ascii	GetFileVersionInfoSizeA
+0008c312	ascii	GetFileVersionInfoA
+0008c326	ascii	gdi32.dll
+0008c332	ascii	UnrealizeObject
+0008c344	ascii	StretchBlt
+0008c352	ascii	SetWindowOrgEx
+0008c364	ascii	SetWinMetaFileBits
+0008c37a	ascii	SetViewportOrgEx
+0008c38e	ascii	SetTextColor
+0008c39e	ascii	SetStretchBltMode
+0008c3b2	ascii	SetROP2
+0008c3bc	ascii	SetPixelFormat
+0008c3ce	ascii	SetPixel
+0008c3da	ascii	SetEnhMetaFileBits
+0008c3f0	ascii	SetDIBColorTable
+0008c404	ascii	SetBrushOrgEx
+0008c414	ascii	SetBkMode
+0008c420	ascii	SetBkColor
+0008c42e	ascii	SelectPalette
+0008c43e	ascii	SelectObject
+0008c44e	ascii	SaveDC
+0008c458	ascii	RestoreDC
+0008c464	ascii	RectVisible
+0008c472	ascii	RealizePalette
+0008c484	ascii	PlayEnhMetaFile
+0008c496	ascii	PatBlt
+0008c4a0	ascii	MoveToEx
+0008c4ac	ascii	MaskBlt
+0008c4b6	ascii	LineTo
+0008c4c0	ascii	IntersectClipRect
+0008c4d4	ascii	GetWindowOrgEx
+0008c4e6	ascii	GetWinMetaFileBits
+0008c4fc	ascii	GetTextMetricsA
+0008c50e	ascii	GetTextExtentPoint32A
+0008c526	ascii	GetSystemPaletteEntries
+0008c540	ascii	GetStockObject
+0008c552	ascii	GetPixel
+0008c55e	ascii	GetPaletteEntries
+0008c572	ascii	GetObjectA
+0008c580	ascii	GetEnhMetaFilePaletteEntries
+0008c5a0	ascii	GetEnhMetaFileHeader
+0008c5b8	ascii	GetEnhMetaFileBits
+0008c5ce	ascii	GetDeviceCaps
+0008c5de	ascii	GetDIBits
+0008c5ea	ascii	GetDIBColorTable
+0008c5fe	ascii	GetDCOrgEx
+0008c60c	ascii	GetCurrentPositionEx
+0008c624	ascii	GetClipBox
+0008c632	ascii	GetBrushOrgEx
+0008c642	ascii	GetBitmapBits
+0008c652	ascii	GdiFlush
+0008c65e	ascii	ExcludeClipRect
+0008c670	ascii	DeleteObject
+0008c680	ascii	DeleteEnhMetaFile
+0008c694	ascii	DeleteDC
+0008c6a0	ascii	CreateSolidBrush
+0008c6b4	ascii	CreatePenIndirect
+0008c6c8	ascii	CreatePalette
+0008c6d8	ascii	CreateHalftonePalette
+0008c6f0	ascii	CreateFontIndirectA
+0008c706	ascii	CreateDIBitmap
+0008c718	ascii	CreateDIBSection
+0008c72c	ascii	CreateCompatibleDC
+0008c742	ascii	CreateCompatibleBitmap
+0008c75c	ascii	CreateBrushIndirect
+0008c772	ascii	CreateBitmap
+0008c782	ascii	CopyEnhMetaFileA
+0008c796	ascii	ChoosePixelFormat
+0008c7aa	ascii	BitBlt
+0008c7b2	ascii	user32.dll
+0008c7c0	ascii	CreateWindowExA
+0008c7d2	ascii	WindowFromPoint
+0008c7e4	ascii	WinHelpA
+0008c7f0	ascii	WaitMessage
+0008c7fe	ascii	UpdateWindow
+0008c80e	ascii	UnregisterClassA
+0008c822	ascii	UnhookWindowsHookEx
+0008c838	ascii	TranslateMessage
+0008c84c	ascii	TranslateMDISysAccel
+0008c864	ascii	TrackPopupMenu
+0008c876	ascii	SystemParametersInfoA
+0008c88e	ascii	ShowWindow
+0008c89c	ascii	ShowScrollBar
+0008c8ac	ascii	ShowOwnedPopups
+0008c8be	ascii	ShowCursor
+0008c8cc	ascii	SetWindowsHookExA
+0008c8e0	ascii	SetWindowPos
+0008c8f0	ascii	SetWindowPlacement
+0008c906	ascii	SetWindowLongA
+0008c918	ascii	SetTimer
+0008c924	ascii	SetSysColors
+0008c934	ascii	SetScrollRange
+0008c946	ascii	SetScrollPos
+0008c956	ascii	SetScrollInfo
+0008c966	ascii	SetRect
+0008c970	ascii	SetPropA
+0008c97c	ascii	SetParent
+0008c988	ascii	SetMenuItemInfoA
+0008c99c	ascii	SetMenu
+0008c9a6	ascii	SetKeyboardState
+0008c9ba	ascii	SetForegroundWindow
+0008c9d0	ascii	SetFocus
+0008c9dc	ascii	SetCursorPos
+0008c9ec	ascii	SetCursor
+0008c9f8	ascii	SetClassLongA
+0008ca08	ascii	SetCaretPos
+0008ca16	ascii	SetCaretBlinkTime
+0008ca2a	ascii	SetCapture
+0008ca38	ascii	SetActiveWindow
+0008ca4a	ascii	SendMessageA
+0008ca5a	ascii	ScrollWindow
+0008ca6a	ascii	ScreenToClient
+0008ca7c	ascii	RemovePropA
+0008ca8a	ascii	RemoveMenu
+0008ca98	ascii	ReleaseDC
+0008caa4	ascii	ReleaseCapture
+0008cab6	ascii	RegisterWindowMessageA
+0008cad0	ascii	RegisterClipboardFormatA
+0008caec	ascii	RegisterClassA
+0008cafe	ascii	RedrawWindow
+0008cb0e	ascii	PtInRect
+0008cb1a	ascii	PostQuitMessage
+0008cb2c	ascii	PostMessageA
+0008cb3c	ascii	PeekMessageA
+0008cb4c	ascii	OffsetRect
+0008cb5a	ascii	OemToCharA
+0008cb68	ascii	MessageBoxA
+0008cb76	ascii	MapWindowPoints
+0008cb88	ascii	MapVirtualKeyA
+0008cb9a	ascii	LoadStringA
+0008cba8	ascii	LoadKeyboardLayoutA
+0008cbbe	ascii	LoadIconA
+0008cbca	ascii	LoadCursorA
+0008cbd8	ascii	LoadBitmapA
+0008cbe6	ascii	KillTimer
+0008cbf2	ascii	IsZoomed
+0008cbfe	ascii	IsWindowVisible
+0008cc10	ascii	IsWindowEnabled
+0008cc22	ascii	IsWindow
+0008cc2e	ascii	IsRectEmpty
+0008cc3c	ascii	IsIconic
+0008cc48	ascii	IsDialogMessageA
+0008cc5c	ascii	IsChild
+0008cc66	ascii	InvalidateRect
+0008cc78	ascii	IntersectRect
+0008cc88	ascii	InsertMenuItemA
+0008cc9a	ascii	InsertMenuA
+0008cca8	ascii	InflateRect
+0008ccb6	ascii	GetWindowThreadProcessId
+0008ccd2	ascii	GetWindowTextA
+0008cce4	ascii	GetWindowRect
+0008ccf4	ascii	GetWindowPlacement
+0008cd0a	ascii	GetWindowLongA
+0008cd1c	ascii	GetWindowDC
+0008cd2a	ascii	GetTopWindow
+0008cd3a	ascii	GetSystemMetrics
+0008cd4e	ascii	GetSystemMenu
+0008cd5e	ascii	GetSysColorBrush
+0008cd72	ascii	GetSysColor
+0008cd80	ascii	GetSubMenu
+0008cd8e	ascii	GetScrollRange
+0008cda0	ascii	GetScrollPos
+0008cdb0	ascii	GetScrollInfo
+0008cdc0	ascii	GetPropA
+0008cdcc	ascii	GetParent
+0008cdd8	ascii	GetWindow
+0008cde4	ascii	GetMenuStringA
+0008cdf6	ascii	GetMenuState
+0008ce06	ascii	GetMenuItemInfoA
+0008ce1a	ascii	GetMenuItemID
+0008ce2a	ascii	GetMenuItemCount
+0008ce3e	ascii	GetMenu
+0008ce48	ascii	GetLastActivePopup
+0008ce5e	ascii	GetKeyboardState
+0008ce72	ascii	GetKeyboardLayoutNameA
+0008ce8c	ascii	GetKeyboardLayoutList
+0008cea4	ascii	GetKeyboardLayout
+0008ceb8	ascii	GetKeyState
+0008cec6	ascii	GetKeyNameTextA
+0008ced8	ascii	GetIconInfo
+0008cee6	ascii	GetForegroundWindow
+0008cefc	ascii	GetFocus
+0008cf08	ascii	GetDoubleClickTime
+0008cf1e	ascii	GetDialogBaseUnits
+0008cf34	ascii	GetDesktopWindow
+0008cf48	ascii	GetDCEx
+0008cf52	ascii	GetDC
+0008cf5a	ascii	GetCursorPos
+0008cf6a	ascii	GetCursor
+0008cf76	ascii	GetClipboardData
+0008cf8a	ascii	GetClientRect
+0008cf9a	ascii	GetClassNameA
+0008cfaa	ascii	GetClassInfoA
+0008cfba	ascii	GetCaretPos
+0008cfc8	ascii	GetCaretBlinkTime
+0008cfdc	ascii	GetCapture
+0008cfea	ascii	GetActiveWindow
+0008cffc	ascii	FrameRect
+0008d008	ascii	FindWindowA
+0008d016	ascii	FillRect
+0008d022	ascii	EqualRect
+0008d02e	ascii	EnumWindows
+0008d03c	ascii	EnumThreadWindows
+0008d050	ascii	EnumDisplaySettingsA
+0008d068	ascii	EndPaint
+0008d074	ascii	EnableWindow
+0008d084	ascii	EnableScrollBar
+0008d096	ascii	EnableMenuItem
+0008d0a8	ascii	DrawTextA
+0008d0b4	ascii	DrawMenuBar
+0008d0c2	ascii	DrawIconEx
+0008d0d0	ascii	DrawIcon
+0008d0dc	ascii	DrawFrameControl
+0008d0f0	ascii	DrawEdge
+0008d0fc	ascii	DispatchMessageA
+0008d110	ascii	DestroyWindow
+0008d120	ascii	DestroyMenu
+0008d12e	ascii	DestroyIcon
+0008d13c	ascii	DestroyCursor
+0008d14c	ascii	DeleteMenu
+0008d15a	ascii	DefWindowProcA
+0008d16c	ascii	DefMDIChildProcA
+0008d180	ascii	DefFrameProcA
+0008d190	ascii	CreatePopupMenu
+0008d1a2	ascii	CreateMenu
+0008d1b0	ascii	CreateIcon
+0008d1be	ascii	ClientToScreen
+0008d1d0	ascii	CheckMenuItem
+0008d1e0	ascii	ChangeDisplaySettingsA
+0008d1fa	ascii	CallWindowProcA
+0008d20c	ascii	CallNextHookEx
+0008d21e	ascii	BeginPaint
+0008d22c	ascii	CharNextA
+0008d238	ascii	CharLowerBuffA
+0008d24a	ascii	CharLowerA
+0008d258	ascii	CharUpperBuffA
+0008d26a	ascii	CharToOemA
+0008d278	ascii	AdjustWindowRectEx
+0008d28e	ascii	ActivateKeyboardLayout
+0008d2a6	ascii	kernel32.dll
+0008d2b6	ascii	Sleep
+0008d2bc	ascii	oleaut32.dll
+0008d2cc	ascii	SafeArrayPtrOfIndex
+0008d2e2	ascii	SafeArrayGetUBound
+0008d2f8	ascii	SafeArrayGetLBound
+0008d30e	ascii	SafeArrayCreate
+0008d320	ascii	VariantChangeType
+0008d334	ascii	VariantCopy
+0008d342	ascii	VariantClear
+0008d352	ascii	VariantInit
+0008d35e	ascii	ole32.dll
+0008d36a	ascii	CoTaskMemFree
+0008d37a	ascii	CoUninitialize
+0008d38c	ascii	CoInitialize
+0008d39a	ascii	oleaut32.dll
+0008d3aa	ascii	GetErrorInfo
+0008d3ba	ascii	SysFreeString
+0008d3c8	ascii	comctl32.dll
+0008d3d8	ascii	ImageList_SetIconSize
+0008d3f0	ascii	ImageList_GetIconSize
+0008d408	ascii	ImageList_Write
+0008d41a	ascii	ImageList_Read
+0008d42c	ascii	ImageList_GetDragImage
+0008d446	ascii	ImageList_DragShowNolock
+0008d462	ascii	ImageList_SetDragCursorImage
+0008d482	ascii	ImageList_DragMove
+0008d498	ascii	ImageList_DragLeave
+0008d4ae	ascii	ImageList_DragEnter
+0008d4c4	ascii	ImageList_EndDrag
+0008d4d8	ascii	ImageList_BeginDrag
+0008d4ee	ascii	ImageList_Remove
+0008d502	ascii	ImageList_DrawEx
+0008d516	ascii	ImageList_Draw
+0008d528	ascii	ImageList_GetBkColor
+0008d540	ascii	ImageList_SetBkColor
+0008d558	ascii	ImageList_ReplaceIcon
+0008d570	ascii	ImageList_Add
+0008d580	ascii	ImageList_SetImageCount
+0008d59a	ascii	ImageList_GetImageCount
+0008d5b4	ascii	ImageList_Destroy
+0008d5c8	ascii	ImageList_Create
+0008d5da	ascii	shell32.dll
+0008d5e8	ascii	SHGetFileInfoA
+0008d5f8	ascii	shell32.dll
+0008d606	ascii	SHGetSpecialFolderLocation
+0008d624	ascii	SHGetPathFromIDListA
+0008d63c	ascii	SHGetDesktopFolder
+0008d650	ascii	wsock32.dll
+0008d65e	ascii	WSACleanup
+0008d66c	ascii	WSAStartup
+0008d67a	ascii	gethostname
+0008d688	ascii	gethostbyname
+0008d698	ascii	inet_ntoa
+0008d6a2	ascii	kernel32.dll
+0008d6b2	ascii	GetVersionExA
+0008d6c2	ascii	CreateMutexA
+0008da0b	ascii	0(0<0T0h0|0
+0008da2f	ascii	1 1-1@1
+0008da55	ascii	2 202B2J2R2Z2b2j2r2z2
+0008da91	ascii	3"3*323:3B3J3R3Z3b3
+0008dacd	ascii	839B9b9
+0008dae7	ascii	<.<4<B<W<p<v<
+0008db0d	ascii	=)=3===G=Z=h=~=
+0008db29	ascii	=F>g>q>
+0008db33	ascii	>(?H?l?
+0008db47	ascii	011=1z1
+0008db5d	ascii	182@2
+0008db73	ascii	4!4;4a4m4u4
+0008db83	ascii	4/585H5P5V5_5f5k5t5
+0008dba7	ascii	6$6,6M6\6l6
+0008dbbd	ascii	6"7V7{7
+0008dbd1	ascii	8%8+8
+0008dbf3	ascii	9Y:_:g:
+0008dc27	ascii	333D3`3x3
+0008dc37	ascii	6-6C6a6w6
+0008dc4b	ascii	:Z;n;v;
+0008dc5d	ascii	<"<6<@<S<
+0008dc6f	ascii	<)=0=R=
+0008dc77	ascii	=5>D>M>v>
+0008dc87	ascii	>'?k?w?
+0008dc9f	ascii	1(1\1d1o1
+0008dcad	ascii	2'2v2z2
+0008dcc1	ascii	2D3L3x3
+0008dcdb	ascii	4/494>4^4c4
+0008dcf3	ascii	595F5
+0008dd08	ascii	.070>1G1}9
+0008dd19	ascii	<,<F<
+0008dd21	ascii	<c>m>
+0008dd2f	ascii	?Z?a?u?
+0008dd4d	ascii	3F4o4
+0008dd77	ascii	6(616=6G6n6
+0008dd91	ascii	6%767;7T7d7u7
+0008ddb3	ascii	7C8O8\8n8t8
+0008ddbf	ascii	8$9:9B9J9R9Z9b9j9r9z9
+0008ddfb	ascii	:":*:2:::B:J:R:Z:b:j:r:z:
+0008de3b	ascii	;";*;2;:;B;J;R;Z;b;j;r;z;
+0008de7b	ascii	<"<*<2<:<B<J<R<Z<b<j<r<z<
+0008debb	ascii	="=*=2=:=B=J=R=Z=b=j=r=z=
+0008defb	ascii	>">*>2>:>B>J>R>Z>b>j>r>z>
+0008df3b	ascii	?"?*?2?:?B?J?R?Z?b?j?r?z?
+0008df83	ascii	0"0*020:0B0J0R0Z0b0j0r0z0
+0008dfc3	ascii	1"1*121:1B1J1R1Z1b1j1r1z1
+0008e003	ascii	2"2*222:2B2J2R2Z2b2j2r2z2
+0008e043	ascii	3"3*323:3B3J3R3Z3b3j3r3z3
+0008e083	ascii	4"4*424:4B4J4R4Z4b4j4
+0008e0af	ascii	7$767<7D7L7T7\7d7l7t7|7
+0008e0ed	ascii	8$8,848<8D8L8T8\8d8l8t8|8
+0008e12d	ascii	9$9,949<9D9L9T9\9d9l9t9|9
+0008e16d	ascii	:$:,:;:G:T:f:l:|:
+0008e19b	ascii	;$;,;0;4;8;<;@;D;H;L;X;x;
+0008e1dd	ascii	<0<8<<<@<D<H<L<P<T<X<h<
+0008e21d	ascii	= =@=H=L=P=T=X=\=`=d=h=x=
+0008e25f	ascii	>(>H>P>T>X>\>`>d>h>l>p>
+0008e29d	ascii	? ?$?4?T?\?`?d?h?l?p?t?x?|?
+0008e2e3	ascii	0 0$0(0,0<0\0d0h0l0p0t0x0|0
+0008e31d	ascii	1 1$1(1,1014181<1P1p1x1|1
+0008e35b	ascii	2(2024282<2@2D2H2L2P2d2
+0008e39d	ascii	383@3D3H3L3P3T3X3\3`3x3
+0008e3dd	ascii	404P4X4\4`4d4h4l4p4t4x4
+0008e413	ascii	5)505A5H5e5m5u5}5
+0008e43f	ascii	646<6@6D6H6L6P6T6X6\6
+0008e46d	ascii	7 7$7(7,7074787
+0008e481	ascii	=Q=a=l=y=~=
+0008e495	ascii	=>>Q>]>t>
+0008e4a5	ascii	>=?E?
+0008e4cf	ascii	8!8%8)8-8185898=8A8
+0008e503	ascii	>F?[?
+0008e517	ascii	1|2-3G3Q3
+0008e523	ascii	4;6s7^8
+0008e56f	ascii	=C>Y>o>V?j?
+0008e588	ascii	60W0h0
+0008e595	ascii	0/1^1r1
+0008e5b3	ascii	5N5S5
+0008e5bb	ascii	6/6B6J6
+0008e5d3	ascii	8%8*8<8
+0008e5e7	ascii	9%:3:
+0008e603	ascii	>">4>
+0008e627	ascii	2.2S2
+0008e635	ascii	3*3<3f3z3
+0008e645	ascii	3!4A4i4
+0008e64f	ascii	5!5.5G5V5o5
+0008e667	ascii	7,757
+0008e66f	ascii	7A8\8e8
+0008e68f	ascii	;7;?;M;
+0008e69f	ascii	;N<U<
+0008e6a5	ascii	<'=A=P=
+0008e6ad	ascii	>$>q>
+0008e6b9	ascii	?D?S?b?~?
+0008e6ed	ascii	0!0'020:0C0O0U0]0f0r0w0
+0008e71b	ascii	1"1*121R1
+0008e72b	ascii	2J2j2
+0008e735	ascii	2%3C3
+0008e747	ascii	535G5
+0008e75d	ascii	969@9J9\9q9|9
+0008e77d	ascii	:;:X:j:
+0008e78d	ascii	;%;@;S;f;o;
+0008e7a7	ascii	<'<5<I<g<
+0008e7bf	ascii	='=/=L=Y=
+0008e7c9	ascii	>0>h>o>~>
+0008e7d9	ascii	>&?6?A?G?O?T?
+0008e7f0	ascii	p1>4W4
+0008e7fd	ascii	5(5L5P5T5X5\5`5d5h5l5p5t5x5|5
+0008e869	ascii	6 6$6(6,60686<6D6H6P6T6\6`6h6l6t6x6
+0008e8c1	ascii	7 7(7,74787@7D7L7P7X7\7d7h7p7t7|7
+0008e915	ascii	8+868J8U8_8j8t8
+0008e945	ascii	9&909:9D9N9X9b9l9v9
+0008e96b	ascii	:":*:2:
+0008e979	ascii	;8;E;n;
+0008e989	ascii	<F<|<
+0008e995	ascii	==={=
+0008e99f	ascii	>_>~>
+0008e9bb	ascii	?#?)?.?9???D?O?U?Z?e?k?p?{?
+0008ea0b	ascii	0 0+01060A0G0L0W0]0b0m0s0x0
+0008ea41	ascii	2B2F2J2b2p2t2
+0008ea81	ascii	3$3(3<3\3d3h3l3p3t3x3|3
+0008eab3	ascii	4$4,4044484<4@4D4H4L4h4
+0008eaf3	ascii	505P5X5\5`5d5h5l5p5t5x5
+0008eb23	ascii	6$6(6,6064686<6@6D6d6
+0008eb61	ascii	707P7X7\7`7d7h7l7p7t7x7
+0008eb93	ascii	858g8
+0008eba3	ascii	9%9W9
+0008ebc1	ascii	;.;E;T;k;z;
+0008ebd9	ascii	;,<;<R<
+0008ebe5	ascii	=M=[=j=
+0008ec01	ascii	3(4M4t4
+0008ec0f	ascii	515~5
+0008ec15	ascii	5y6}6
+0008ec49	ascii	849j9
+0008ec53	ascii	:+:/:3:7:;:?:C:G:K:O:S:W:[:_:c:g:k:o:s:w:{:
+0008ec83	ascii	;O<S<W<[<_<c<g<k<o<s<w<{<
+0008ecb5	ascii	>(?T?
+0008ed0f	ascii	474R4
+0008ed2f	ascii	5#5'5+5/53575;5?5C5\5
+0008ed4d	ascii	7#7'7+7/73777;7?7C7G7K7O7S7W7[7_7c7g7
+0008ed7b	ascii	9":;:S:
+0008eda9	ascii	;";&;5;r;
+0008ede5	ascii	=)=@=W=
+0008edf3	ascii	>*?C?\?
+0008ee23	ascii	0 0$0(0,000D0
+0008ee5d	ascii	2V2^3b3f3j3n3r3v3z3~3
+0008ee97	ascii	5<6~6
+0008ee9f	ascii	6074787<7@7D7H7L7P7T7X7\7`7d7h7l7p7t7x7|7
+0008eee1	ascii	9#9'9+9/93979;9?9C9G9K9O9}:
+0008ef37	ascii	='=9=
+0008ef9b	ascii	2-2e2~2
+0008efa7	ascii	3N3j3n3r3v3z3~3
+0008eff1	ascii	6#6'6+6/63676;6?6C6G6
+0008f011	ascii	9A9Z9q9
+0008f01d	ascii	:7:m:
+0008f05f	ascii	=!=%=)=-=1=5=9===A=E=I=M=Q=U=Y=-?
+0008f099	ascii	1(6G6_6w6
+0008f0bb	ascii	8N9[9v9|9
+0008f0d7	ascii	;;;J;W;b;u;
+0008f0eb	ascii	<#</<9<?<I<T<^<h<z<
+0008f127	ascii	=$=4=<=D=L=T=\=d=l=t=|=
+0008f165	ascii	>$>,>;>G>T>f>
+0008f18d	ascii	3!3%3)3w3
+0008f1a1	ascii	324S4W4[4_4c4g4
+0008f1b3	ascii	6+626<6G6Y6j6p6
+0008f1e9	ascii	8 8@8X8}8
+0008f217	ascii	9 9$9(9@9`9h9l9p9t9x9|9
+0008f24f	ascii	: :$:(:,:0:4:8:<:L:l:t:x:|:
+0008f28f	ascii	;$;(;,;0;4;8;<;@;D;X;x;
+0008f2cf	ascii	<,<4<8<<<@<D<H<L<P<T<d<
+0008f30f	ascii	= =@=H=L=P=T=X=\=`=d=h=|=
+0008f34d	ascii	> >$>(>,>0>4>@>`>h>l>p>t>x>|>
+0008f393	ascii	? ?$?(?,?0?4?8?<?@?J?N?`?q?u?
+0008f3d9	ascii	0 0$0(0,00040B0`0{0
+0008f411	ascii	1 1$1(1,1014181<1@1D1H1L1P1T1X1\1`1d1h1l1p1t1x1|1
+0008f45d	ascii	2 2$2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2p2t2x2|2
+0008f4c3	ascii	30383<3@3D3H3L3P3T3X3\3`3d3h3l3p3t3
+0008f50d	ascii	4 4$4(4,4044484<4@4D4H4L4P4T4X4\4l4
+0008f55d	ascii	5 5$5(5,5054585<5@5D5H5L5P5d5
+0008f5c3	ascii	7 7$7(7,7074787<7@7D7H7L7P7T7X7\7`7d7x7
+0008f613	ascii	8 8$8(8,888D8X8`8d8h8l8p8t8x8|8
+0008f661	ascii	909E9
+0008f67d	ascii	: :,:0:8:<:@:D:H:L:P:T:X:\:`:d:h:l:p:t:x:|:
+0008f6d3	ascii	; ;0;O;p;
+0008f70b	ascii	< <$<(<,<0<4<8<<<@<D<H<L<P<T<X<\<`<d<h<l<p<t<x<|<
+0008f775	ascii	>&?5?D?
+0008f78b	ascii	0O2f2m2-3
+0008f79f	ascii	6/6<6M6X6k6
+0008f7b1	ascii	6d7q7
+0008f7bd	ascii	8 878X8e8r8
+0008f7d9	ascii	9;9H9U9g9l9
+0008f7f7	ascii	:(:5:@:M:_:d:|:
+0008f81b	ascii	;(;G;V;
+0008f825	ascii	;><H<R<[<k<z<
+0008f83f	ascii	=,=<=[=
+0008f853	ascii	?2?9?S?
+0008f87f	ascii	3)4r4
+0008f891	ascii	6H7w7
+0008f89b	ascii	7%8y8
+0008f8af	ascii	;?;X;
+0008f8b7	ascii	;J<S<a<
+0008f8d3	ascii	?B?]?
+0008f90b	ascii	5C5U5r5
+0008f915	ascii	5/6V6
+0008f91f	ascii	7-7d7
+0008f929	ascii	839i9
+0008f941	ascii	=A>i?p?
+0008f95d	ascii	0&1-1
+0008f965	ascii	2G2W2w2
+0008f96d	ascii	30474
+0008f98b	ascii	889D9X9`9d9h9l9p9t9x9|9
+0008f9c3	ascii	:>;q;
+0008f9e1	ascii	>#>(>B>G>q>}>
+0008f9f5	ascii	? ?/?t?y?
+0008fa19	ascii	2e2j2
+0008fa21	ascii	203d3
+0008fa27	ascii	3^455<5t5
+0008fa33	ascii	5S6l6
+0008fa63	ascii	>4?;?M?Q?U?Y?]?a?
+0008fa85	ascii	0-1G1
+0008fa91	ascii	1'2L2Z2s2
+0008fab5	ascii	6/6T6X6\6`6d6h6l6p6t6x6|6
+0008fae1	ascii	9[9s9
+0008fae9	ascii	9Q:d:
+0008faf9	ascii	<#<=<w<
+0008fb03	ascii	=2=9=
+0008fb09	ascii	= >O>
+0008fb0f	ascii	>@?c?
+0008fb1c	ascii	B0c0g0k0o0s0w0{0
+0008fb55	ascii	263=3T3
+0008fb75	ascii	6N6v6z6~6
+0008fbad	ascii	:R:f:
+0008fbc3	ascii	;-;V;r;y;
+0008fbd5	ascii	<!</<n<s<
+0008fbe7	ascii	=W>D?O?
+0008fc07	ascii	1n2u2
+0008fc19	ascii	99:h:
+0008fc29	ascii	=6=;=M=
+0008fc37	ascii	=.>b>j>
+0008fc53	ascii	>J?g?s?z?
+0008fc79	ascii	0#000<0O0[0e0l0v0}0
+0008fca9	ascii	1$1,1014181<1@1D1H1L1P1T1X1\1`1d1h1l1p1t1x1|1
+0008fd05	ascii	2 2$2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2
+0008fd2f	ascii	2+3J3
+0008fd39	ascii	4N4w4{4
+0008fd47	ascii	5/535;5T5
+0008fd5b	ascii	6E6v6
+0008fd69	ascii	6&7V7
+0008fd85	ascii	9%:q:
+0008fd8d	ascii	:(;_;T<[<
+0008fd9b	ascii	<(=E=b=
+0008fda7	ascii	=9>V>s>
+0008fdb5	ascii	>*?v?
+0008fded	ascii	1$1,141<1D1L1T1\1d1l1t1|1
+0008fe2d	ascii	2$2,242<2D2L2T2\2d2l2t2|2
+0008fe6d	ascii	3$3,343<3D3L3T3c3o3|3
+0008fe9d	ascii	4(4044484<4@4D4H4L4P4p4
+0008febd	ascii	405B5H5`5
+0008fedd	ascii	7 7$7(7,7074787<7D7X7m7q7
+0008ff1d	ascii	8*848?8C8T8X8\8v8~8
+0008ff4d	ascii	989H9X9`9d9h9l9p9t9x9|9
+0008ff87	ascii	:8:H:X:`:d:h:l:p:t:x:|:
+0008ffbd	ascii	;$;(;,;0;4;8;<;@;D;H;L;P;T;X;\;h;u;y;
+0008ffef	ascii	;J<N<R<V<Z<r<
+00090041	ascii	= =$=(=,=4=D=R=V=
+0009007b	ascii	> >$>(>,>:>H>L>\>j>n>
+000900b7	ascii	? ?$?(?,?@?P?`?h?l?p?t?x?|?
+00090117	ascii	0 0@0H0L0P0T0X0\0`0d0h0l0
+00090171	ascii	1 1$1(1,1014181D1Q1U1h1
+000901bd	ascii	2 2$2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2p2|2
+00090239	ascii	>&?C?[?l?
+00090251	ascii	0&080|0
+0009025b	ascii	011B1
+0009026b	ascii	3&4C4[4l4
+00090293	ascii	707B7_7
+000902a1	ascii	7j8w8
+000902c5	ascii	<8<E<g<
+000902cf	ascii	<L=Y=
+000902dd	ascii	=?>u>
+00090301	ascii	1>1X1p1
+0009031d	ascii	2+3]3
+00090329	ascii	465f5
+00090337	ascii	9(9K9c9z9
+00090341	ascii	:3;U;
+00090349	ascii	<6<!=
+0009037f	ascii	5Q6n6
+00090389	ascii	6+7=7Z7
+000903b3	ascii	8O8e8n8{8
+000903d5	ascii	9&:^:
+000903dd	ascii	;n;x;
+00090408	ascii	J0S0a0K1
+00090421	ascii	7#7F7k7
+00090437	ascii	;3<S<
+0009043d	ascii	<(=8=H=P=T=X=\=`=d=h=l=p=t=x=|=
+0009046d	ascii	>->S>X>
+00090493	ascii	252g3
+0009049b	ascii	546B6x6
+000904a3	ascii	7H8f8
+000904ad	ascii	9T:!;R;
+000904b7	ascii	;A<[<h<
+000904c1	ascii	<W=c=
+000904e1	ascii	2D4s4
+000904f1	ascii	7<7A7
+00090501	ascii	:":@:
+00090535	ascii	7c7+8
+0009053f	ascii	8(989
+00090555	ascii	;-;b;q;v;
+0009057f	ascii	<8=i=y=z>
+0009058f	ascii	?#?.?8?B?Q?[?e?o?y?
+000905c5	ascii	0*0;0K0U0`0j0u0
+000905ef	ascii	0/1;1H1Z1`1
+00090631	ascii	202P2X2\2`2d2h2l2p2t2x2|2
+00090653	ascii	4$464>4F4N4V4^4f4n4v4
+00090689	ascii	5 525S5h5q5~5
+000906a5	ascii	556=6C6O6V6
+000906bd	ascii	7T7\7b7n7v7
+000906d1	ascii	8,8>8
+000906e5	ascii	9Y9a9g9s9{9
+000906f5	ascii	9-:5:;:G:O:
+0009070d	ascii	;+;P;[;!<+<1<5<;<?<E<I<O<S<Y<]<c<g<m<q<w<{<
+0009074b	ascii	=<=M=p=
+0009075b	ascii	>(>:>`>
+000907b9	ascii	0'04080@0T0\0`0d0h0l0p0t0x0|0
+000907eb	ascii	111\1f1p1x1
+000907fd	ascii	2k2z2
+00090809	ascii	3.3@3
+0009080f	ascii	3G4W4
+00090815	ascii	5K5R5i5
+0009081f	ascii	5(6I6R6
+00090827	ascii	6$7+7a7|8
+00090835	ascii	8)9K9s9|9
+00090843	ascii	95:T:w:
+00090865	ascii	=.=;=G=N=`=r=}=
+00090889	ascii	>&>+>9>B>G>L>Z>c>h>m>{>
+000908c5	ascii	? ?)?.?
+000908d4	ascii	_0k0x0
+000908f9	ascii	1$1(1,1014181<1@1D1H1L1
+00090913	ascii	2$262@2M2Y2b2h2u2
+0009094f	ascii	3!3(3/363=3D3K3R3Y3`3g3n3u3|3
+0009098f	ascii	4 4.4C4P4U4b4g4t4y4
+000909c5	ascii	5(5-5:5?5L5Q5^5c5p5u5
+000909fd	ascii	6$6)666;6H6M6Z6_6l6q6~6
+00090a35	ascii	7 7%72777D7I7V7[7h7m7z7
+00090a53	ascii	7b;k;u;
+00090a6f	ascii	< <$<(<,<0<4<8<<<@<D<H<">,>4>9>d>
+00090aa1	ascii	0Z0}0
+00090aa9	ascii	0R1V1Z1^1b1f1j1n1r1v1z1~1
+00090b03	ascii	6 626?6K6X6j6r6
+00090b29	ascii	7'737@7R7Z7b7j7w7
+00090b5b	ascii	8 8$8(8,8084888<8@8D8H8L8P8T8X8`8l8x8|8
+00090b95	ascii	9<:K:b:
+00090bb1	ascii	; ;(;0;8;@;H;P;X;`;h;p;x;
+00090bf1	ascii	< <(<0<8<D<H<L<P<T<X<\<`<d<h<l<p<t<x<|<
+00090c67	ascii	= =$=(=,=0=4=8=<=@=D=H=L=P=T=X=\=`=d=h=l=p=t=x=|=
+00090cc5	ascii	>#>(>;>G>T>f>l>|>
+00090d15	ascii	?(?;???O?o?
+00090d4f	ascii	303E3
+00090d85	ascii	4 4(4,44484G4S4\4e4p4{4
+00090db3	ascii	5"5-525=5D5w5
+00090df3	ascii	6 6$6(6,6064686<6@6D6T6e6i6z6
+00090e41	ascii	888D8H8P8d8l8p8t8x8|8
+00090e67	ascii	9 9+989_9
+00090e77	ascii	9":R:^:h:x:
+00090e9b	ascii	=#=<=T=
+00090ec5	ascii	1K1s1
+00090ed3	ascii	3>3c3o3v3
+00090ef5	ascii	4!404H4]4
+00090f25	ascii	5 51555H5h5p5t5x5|5
+00090f5f	ascii	6,64686<6@6D6H6L6P6T6X6\6`6d6h6l6p6t6x6|6
+00090fb5	ascii	7(7H7P7T7X7\7`7d7h7l7p7t7x7|7
+00090ff9	ascii	8 8$8(8,8084888<8@8D8H8L8P8T8X8\8`8d8h8l8p8
+0009104d	ascii	9(9H9P9T9X9\9`9d9h9l9p9t9x9|9
+000910a5	ascii	:D:\:
+000910b5	ascii	;*;X;g;l;
+000910e5	ascii	<+<3<O<W<r<z<
+000910f9	ascii	="=&=*=.=4=
+00091133	ascii	?T?X?\?`?d?
+00091150	ascii	C0G0K0O0S0W0\0
+00091191	ascii	3"3(3
+000911ab	ascii	4 4$4(4,4044484<4@4D4H4L4P4T4X4\4`4d4h4l4p4t4x4|4
+00091257	ascii	6"6&6*6.62666:6>6B6F6J6N6R6V6Z6^6b6f6j6n6r6v6z6~6
+000912ad	ascii	7 787@7Y7a7z7
+000912cb	ascii	8(8084888<8@8D8H8L8P8T8X8\8`8d8h8l8p8t8x8|8
+00091323	ascii	9&9H9T9X9d9h9p9t9x9|9
+00091387	ascii	: :$:(:,:0:4:8:<:@:D:H:L:P:T:X:f:n:J;N;R;V;Z;^;b;f;j;n;r;v;z;~;
+00091415	ascii	<"<&<*<.<2<6<:<><B<F<J<N<R<V<Z<^<b<f<j<n<r<v<z<~<
+00091481	ascii	=$=4=@=D=L=P=T=X=\=`=d=h=l=p=t=x=|=
+000914f3	ascii	> >$>(>,>0>4>8>@>T>h>l>
+0009154d	ascii	? ?$?(?,?0?4?8?<?@?D?H?L?P?T?X?\?`?d?h?l?p?t?x?|?
+000915af	ascii	0$0(0,0004080<0@0D0H0L0P0T0X0\0`0d0h0l0p0t0x0|0
+00091607	ascii	1 1$1(1,1014181<1@1D1H1L1P1T1d1t1x1
+00091639	ascii	2!2:2^2
+00091653	ascii	3 3$3(3,303
+00091679	ascii	4(44484T4\4`4d4h4l4p4t4x4|4
+000916c1	ascii	5#5j5r5
+000916d3	ascii	6+646X6i6
+000916dd	ascii	8+8B8
+000916ef	ascii	9,9L9T9X9\9`9d9h9l9p9t9x9|9
+00091715	ascii	<,<Y<h<
+00091725	ascii	=S=W>
+00091767	ascii	4.5p5}5
+00091777	ascii	5N6V6c6j6x6
+0009179d	ascii	7%707H7T7d7u7
+000917bb	ascii	8&898O8j8v8~8
+000917d5	ascii	8"9'919;9A9J9W9\9f9l9t9
+000917f1	ascii	: :&:0:6:>:L:Q:]:g:m:u:
+00091815	ascii	;7;E;T;
+0009181d	ascii	;1<N<d<l<z<
+0009183d	ascii	=$=)=4=<=B=_=j=s=
+00091859	ascii	>">/>7>C>P>W>]>e>{>
+00091885	ascii	?&?-?3?;?A?O?U?c?i?w?
+000918b1	ascii	1A1F1c1s1
+000918c1	ascii	1\2k2
+000918d5	ascii	405L5
+000918e1	ascii	6?6w6z7
+000918eb	ascii	7`8j8~8
+00091927	ascii	3g3W4]4
+00091933	ascii	4#5[5
+00091943	ascii	:C:R:
+0009194d	ascii	<2=J=b=~=
+00091963	ascii	=4>=>^>
+00091979	ascii	3+3:3
+0009199b	ascii	?@?h?
+000919a8	ascii	X1c1q1
+000919c3	ascii	7C8s;
+000919cf	ascii	<,<M<
+000919d9	ascii	=C>v>
+00091a17	ascii	3#3'3+3/333J4S4O5
+00091a31	ascii	6C7S7
+00091a37	ascii	7*8B8
+00091a49	ascii	<S=o=
+00091a53	ascii	>L>^>
+00091a69	ascii	0*1e1n1|1
+00091a91	ascii	7K9S9f95:
+00091ac5	ascii	6'6^6
+00091b2b	ascii	4>5D5
+00091b37	ascii	818K8
+00091b41	ascii	;$<I<k<|<
+00091b55	ascii	>??i?
+00091b7b	ascii	3!3&3X3
+00091b85	ascii	5.5=5W5
+00091b95	ascii	8#9P:
+00091bbf	ascii	4 5>5s5
+00091bc9	ascii	616Z6
+00091bd1	ascii	9(;L;
+00091be1	ascii	?9?Q?
+00091bf1	ascii	0$0A0
+00091c13	ascii	6J7|7
+00091c1b	ascii	7?8v8
+00091c69	ascii	6"6'6,676<6A6L6Q6V6a6f6k6v6{6
+00091ca7	ascii	8#8W8e8|8
+00091cc7	ascii	9*939?9D9O9Z9e9p9{9
+00091ce9	ascii	:!:+:<:A:Q:X:b:n:x:
+00091d13	ascii	:c;o;v;
+00091d33	ascii	<#<.<3<E<T<`<d<p<t<|<
+00091d85	ascii	=(=>=B=S=[=_=x=
+00091dcf	ascii	>(>?>C>T>d>t>|>
+00091e2d	ascii	? ?$?(?,?0?4?H?[?_?p?|?
+00091e91	ascii	0"0*080<0P0c0g0x0
+00091ee3	ascii	1 1$1(1,1014181
+00091f13	ascii	7,7@7T7h7S8#9x9
+00091f55	ascii	? ?$?(?,?0?8?H?d?
+00091f81	ascii	0 0$0(0,0004080<0@0D0H0L0P0T0X0\0`0d0h0l0p0t0x0
+00091fbf	ascii	2@2\2
+00091fcb	ascii	4!505Z5
+00092003	ascii	= =7=
+00092011	ascii	?3?q?
+00092020	ascii	70G0v0
+0009202b	ascii	0 152b2
+00092043	ascii	4%4G4N4%5-575=5H5X5c5n5~5
+00092073	ascii	7$7,7074787<7@7D7H7L7\7u7
+00092095	ascii	7O8S8[8`8
+000920a5	ascii	869:9>9B9H9h9
+000920d9	ascii	: :$:(:,:0:4:8:<:@:D:H:L:P:T:X:\:`:d:h:l:p:t:x:|:
+00092147	ascii	; ;.;6;N;R;V;Z;^;b;f;t;
+00092171	ascii	<,<0<4<M<U<m<u<y<
+00092197	ascii	=%=B=N=h=t=
+000921b9	ascii	>!>7>\>
+000921ed	ascii	? ?$?(?,?0?4?8?F?V?Z?^?h?s?w?
+00092243	ascii	0 0$0(0,0<0K0O0]0a0e0
+0009226f	ascii	1;1C1d1
+0009227f	ascii	2&2p2
+000922bf	ascii	3(383<3J3n3r3v3
+000922e1	ascii	4-454N4v4~4
+000922f5	ascii	505P5X5\5`5d5h5l5p5t5x5|5
+00092331	ascii	5z6-7
+00092353	ascii	9A:r:
+000923b3	ascii	5!6,6q6
+000923bd	ascii	6Q7+8
+000923e3	ascii	2A5T5*6
+000923f1	ascii	:M;W;a;t;~;
+00092431	ascii	4<5s5
+00092445	ascii	;Q;|;
+0009248f	ascii	2 343
+0009249f	ascii	5*697
+000924a7	ascii	8,8U8b8
+000924b9	ascii	;.;[;
+000924e3	ascii	2J3_3
+000924e9	ascii	4 4,4;4U4
+000924f9	ascii	4.5]5
+00092507	ascii	6O6{6
+0009250d	ascii	6*7V7
+0009251f	ascii	8T9j9~9
+00092537	ascii	<,<0<4<8<<<@<D<H<L<P<T<X<\<`<d<h<l<p<t<x<|<
+00092591	ascii	=.=6=@=J=U=Z=e=j=t=
+000925b7	ascii	>$>4><>@>D>H>L>P>T>X>\>`>d>h>
+000925e7	ascii	?3?;?Y?a?|?
+0009260d	ascii	0 0C0K0h0
+00092643	ascii	1 1$1(1,1014181<1@1D1H1L1P1T1X1\1`1d1h1l1p1t1x1|1
+000926a9	ascii	2&2*282@2`2h2
+000926bd	ascii	3$323T3m3
+000926d9	ascii	5D5_5
+000926eb	ascii	6L6P6
+00092727	ascii	7 7$7(7,7074787<7@7D7H7L7P7T7X7\7`7d7h7l7p7t7x7|7
+000927df	ascii	9"9&9*9.92969:9>9B9F9J9N9R9V9Z9^9b9f9j9n9r9v9z9
+0009283d	ascii	: :$:(:,:0:4:8:<:@:D:H:L:P:T:X:\:`:d:h:l:p:t:x:|:
+000928af	ascii	;6;>;B;^;f;~;
+000928cf	ascii	<7<C<Z<b<f<
+000928f9	ascii	=!=;=C=G=[=c=
+00092917	ascii	>%>1>N>V>q>
+00092933	ascii	?%?)?A?I?M?b?
+00092961	ascii	090A0E0b0
+00092981	ascii	1#1'1+1@1e1m1q1
+000929a7	ascii	2#2=2E2I2b2n2
+000929c5	ascii	3F3o3{3
+000929d9	ascii	4'4L4X4q4}4
+000929ed	ascii	5$505H5T5m5y5
+00092a07	ascii	5&6Q6z6
+00092a1b	ascii	7+7P7`7l7p7x7|7
+00092a79	ascii	8 8$8(8,8084888<8@8D8H8L8P8T8X8\8`8d8h8l8p8t8x8|8
+00092acf	ascii	9(9H9P9T9X9\9`9d9h9l9p9
+00092b1b	ascii	:%:):8:O:X:d:h:x:
+00092b63	ascii	;.;2;B;Q;
+00092b79	ascii	<<<E<M<T<\<j<w<
+00092b91	ascii	<9=@=k=t=|=
+00092baf	ascii	=$>C>Y>}>
+00092bcd	ascii	0C0n0}0
+00092bdb	ascii	1R2[2
+00092bf7	ascii	7?8E879U9{9
+00092c03	ascii	99:J:{:
+00092c11	ascii	;\<j<
+00092c1d	ascii	={>C?
+00092c45	ascii	5@5R5i5
+00092c67	ascii	7/8>8
+00092c77	ascii	96:O:
+00092c7f	ascii	:3;l;s;
+00092c8b	ascii	;+=w=
+00092cb3	ascii	3*393P344
+00092cc7	ascii	5!6P6
+00092cd5	ascii	6+7W7t7
+00092cdf	ascii	9X:e;
+00092ce9	ascii	;\=r=
+00092d0f	ascii	1=2c2
+00092d19	ascii	4)4I4T4o4
+00092d2b	ascii	5+5I5\5
+00092d3b	ascii	6!646F6c6v6
+00092d69	ascii	8P9w9#:.:F:
+00092d7b	ascii	;/;f;
+00092d95	ascii	> >.>6>E>X>x>
+00092db7	ascii	0,0`1p1
+00092dcb	ascii	3V3{3X4o4
+00092def	ascii	=%=:=L=
+00092e09	ascii	0<0e0
+00092e1d	ascii	1P2l2
+00092e27	ascii	3I3|3
+00092e39	ascii	5X5c5}5
+00092e4f	ascii	8(878U8
+00092e5d	ascii	9*9G9O9W9f9q9
+00092e89	ascii	;(;-;G;
+00092ea4	ascii	F0U0r0
+00092ead	ascii	1R2+4
+00092eb7	ascii	5-666;6D6\6k6z6
+00092ed3	ascii	6 707@7
+00092edd	ascii	8/8;8G8S8_8k8
+00092eeb	ascii	8<9T9{9
+00092ef9	ascii	9I;c;
+00092f07	ascii	<W=j=r=
+00092f39	ascii	2!414q4
+00092f53	ascii	6;6M6W6n6}6
+00092f79	ascii	7*777
+00092f85	ascii	8 8)848F8
+00092fa3	ascii	:&:f:
+00092fad	ascii	;);6;;;D;J;Y;^;c;u;
+00092fd3	ascii	=,=L=x=
+00092fe1	ascii	?1?X?e?l?
+00093001	ascii	1 1$1(1,1014181<1@1D1H1L1P1T1X1\1`1d1O4p4_5
+0009306b	ascii	2%3\3r3L4
+00093079	ascii	525Z5r5
+00093081	ascii	536M6l6
+000930a3	ascii	;(<q<
+000930c9	ascii	1V1_1e1x1|1
+000930eb	ascii	2+272D2V2\2y2
+0009311d	ascii	3 3$3(3,3034383<3@3T3f3j3
+0009314f	ascii	4 4(40484@4H4P4X4`4h4p4x4
+0009318f	ascii	5 5(50585@5H5P5X5`5h5p5x5
+000931cf	ascii	6 6(60686@6H6P6X6`6h6p6x6
+0009320f	ascii	7 7(70787@7H7P7X7`7h7p7x7
+00093245	ascii	9 9$9(9,9094989<9L9l9t9x9|9
+0009327b	ascii	;$;*;<;N;[;`;s;
+000932a3	ascii	<$<(<,<0<4<8<<<@<D<T<t<|<
+000932f1	ascii	>3?^?n?y?~?
+0009331b	ascii	1)1y1
+00093345	ascii	777+8
+0009336d	ascii	869?9E9N9V9_9i9n9y9
+0009339b	ascii	:.:;:A:H:N:S:Y:`:j:q:v:|:{;
+000933d1	ascii	=&=.=3=@=]=
+000933f5	ascii	5&5+5C6O6V6`6f6x6
+00093421	ascii	7$767C7O7\7n7{7
+00093449	ascii	9%9T9r9
+00093457	ascii	:\;v;
+00093469	ascii	=s>x>
+0009348b	ascii	252L2
+00093493	ascii	253e3
+000934a1	ascii	4(4o4
+000934ad	ascii	5J5W5c5o5t5
+000934cb	ascii	7,7;7V7k7z7
+000934f9	ascii	;,;A;V;u;*<7<A<}<
+0009350d	ascii	<==Y=`=w=
+0009351b	ascii	>+>D>U>f>w>
+0009352f	ascii	?G?_?
+0009354b	ascii	1-1`1
+00093563	ascii	5-:@:I:S:
+0009356d	ascii	<?=C=G=K=O=S=W=[=_=c=k=
+00093593	ascii	>,>0>4>8><>@>D>H>L>P>T>X>\>d>x>
+000935bd	ascii	?1?[?o?
+000935d9	ascii	0'0M0~0
+00093615	ascii	9&9:9N9d9
+0009363d	ascii	:(:9:J:[:n:
+0009364b	ascii	:};&?9?B?L?
+0009366b	ascii	1"2+252Z4p4
+0009367f	ascii	9,9L9l9
+00093697	ascii	:O;Y;
+000936a5	ascii	<.?6?C?J?_?
+000936df	ascii	0"0&0*0.02060:0>0B0F0Q0]0i0u0
+0009371f	ascii	1#1X1\1d1h1p1t1|1
+00093765	ascii	2$2(20242<2@2H2L2T2X2`2d2l2p2x2|2
+000937b9	ascii	3 3$3,30383<3D3H3P3T3\3`3h3l3t3x3
+0009380f	ascii	4 4(4,44484@4D4L4P4X4\4d4h4p4t4|4
+00093865	ascii	5$5(50545<5@5H5L5T5X5`5d5l5p5x5|5
+000938b9	ascii	6'636:6I6O6a6r6z6
+000938ed	ascii	>0>C>H>U>]>l>
+0009390f	ascii	?%?4?I?Q?`?
+00093931	ascii	0$0k0
+0009394f	ascii	2-232=2C2M2S2]2h2r2}2
+0009397d	ascii	3$3)3;3
+00093995	ascii	5 5@5H5L5P5T5X5\5`5d5h5
+000939b1	ascii	5m9}9
+000939d1	ascii	:':5:C:Q:_:{:m;
+000939eb	ascii	<4<h<
+000939f7	ascii	<$=+=B=w=
+00093a09	ascii	>K>k>s>
+00093a51	ascii	6*757
+00093aad	ascii	="=,=7=I=Z=b=l=q=|=
+00093adf	ascii	> >$>(>,>0>4>8><>T>t>|>
+00093b3b	ascii	3'3.383B3L3R3d3v3~3
+00093b63	ascii	5!6+6
+00093b7b	ascii	7 7%7.8a8k8
+00093b87	ascii	8!949H9{9
+00093ba3	ascii	9g;s;z;
+00093bc9	ascii	='>3>:>D>J>\>n>v>{>
+00093bf5	ascii	?@?L?`?h?l?p?t?x?|?
+00093c2b	ascii	2&20262l2
+00093c49	ascii	6.768
+00093c4f	ascii	8:9q9
+00093c5f	ascii	;.<;<M<
+00093c6b	ascii	=L=S=j=
+00093c73	ascii	=E>[>g>n>x>
+00093ca7	ascii	0,0L0T0X0\0`0d0h0l0p0t0
+00093cdd	ascii	1<2\2k2t2~2
+00093cf1	ascii	3"393
+00093cfb	ascii	3C4v4
+00093d09	ascii	5k5|5
+00093d33	ascii	8$8)8.888V8^8f8n8v8
+00093d6d	ascii	9 9$9@9`9h9l9p9t9x9|9
+00093d95	ascii	<N=Z=j=
+00093db1	ascii	>%>+>5>?>D>J>R>\>f>l>z>
+00093ddb	ascii	>\?e?q?|?
+00093e00	ascii	G0S0_0e0w0
+00093e2b	ascii	2v2}2
+00093e45	ascii	34494>4M4
+00093e65	ascii	5(5054585<5@5D5H5L5P5h5t5
+00093e99	ascii	7F8p8
+00093eb9	ascii	=%=7=J=W=c=p=
+00093edd	ascii	>$>(>0>4><>@>H>L>T>X>`>d>l>p>x>|>
+00093f13	ascii	?"?C?O?W?_?j?|?
+00093f43	ascii	0$0D0L0P0T0X0\0`0d0h0l0p0t0
+00093f6b	ascii	1#1.141>1D1V1f1s1
+00093f95	ascii	2$2,242<2D2L2T2\2d2l2t2|2
+00093fd5	ascii	3$3,343<3D3L3T3\3d3l3t3|3
+00094015	ascii	4$4,444<4D4L4T4\4d4l4t4|4
+0009404b	ascii	5,54585<5@5D5H5L5P5T5h5
+00094077	ascii	=,=0=4=8=<=@=D=H=L=P=T=X=\=`=d=h=l=p=t=x=|=
+000940f1	ascii	> >$>(>,>0>4>8><>@>D>H>L>P>T>X>\>`>d>h>l>p>t>x>|>
+00094171	ascii	? ?$?(?,?0?4?8?<?@?D?H?L?P?T?X?\?`?d?h?l?p?t?x?|?
+000941ef	ascii	0#000B0
+000941fd	ascii	2'222<2G2Q2\2f2q2{2
+00094217	ascii	4*494f4k4
+00094229	ascii	5'5.5=5G5M5_5r5|5
+00094265	ascii	8*80888@8O8[8h8z8
+000942a1	ascii	9 9$9(9,9094989<9@9D9H9L9P9T9X9\9`9d9h9l9p9t9x9|9
+00094307	ascii	=9>k>~>
+00094321	ascii	1.1^1(282"3w3
+00094339	ascii	676E6
+00094347	ascii	9:;[;
+00094353	ascii	<==K=e=
+00094379	ascii	2G4S4:?F?M?T?[?b?i?p?w?~?
+0009439f	ascii	4:5A5H5O5Q6X6_6f6m6
+000943cb	ascii	5 8)8C8
+000943d3	ascii	:$=?>
+000943e1	ascii	7&7I8R8_8
+00094407	ascii	5!5H5^5
+0009440f	ascii	5@6H:
+00094449	ascii	;T<]<
+0009445f	ascii	<I<P<
+0009447f	ascii	0 1.1
+00094485	ascii	177A7
+0009448d	ascii	888D8q8
+000944c0	ascii	F0J0N0R0V0Z0^0b0f0
+000944ff	ascii	555J5
+0009451d	ascii	:+;/;3;7;;;?;C;
+0009455c	ascii	h:o:v:6;
+00094570	ascii	/1B1R1.2L2j2
+00094597	ascii	?P?W?g?
+000945b5	ascii	8b8w8
+000945cf	ascii	>(>/>8>?>
+000945f1	ascii	6!9T<
+000945ff	ascii	=5>?>Q>g>
+00094619	ascii	3K7U;
+00094639	ascii	< <2<s<
+00094661	ascii	?#?/?C?V?\?l?|?
+0009469f	ascii	0 000@0H0L0P0T0X0\0`0d0h0l0p0t0
+000946e7	ascii	353=3p3
+00094701	ascii	4#4/4C4K4z4
+0009470f	ascii	5"5/5
+00094715	ascii	5<6S6[6/7;7B7L7V7a7k7v7
+00094749	ascii	8 80888<8@8D8H8L8P8T8X8\8`8d8x8
+0009478b	ascii	9.929L9\9l9t9x9|9
+000947bf	ascii	:(:,:0:U:Y:]:
+000947f1	ascii	;2;6;O;S;W;s;w;{;
+00094819	ascii	<7<;<?<^<b<f<
+00094833	ascii	=,=4=8=<=@=D=H=L=P=T=X=\=`=p=
+0009486b	ascii	>%>)>->L>P>T>v>z>~>
+00094895	ascii	?%?)?-?L?P?T?k?o?s?
+000948cd	ascii	0"0@0D0H0f0j0n0
+000948f9	ascii	1;1?1C1a1e1i1
+00094929	ascii	2&2*2.2E2I2M2i2m2q2
+00094961	ascii	32363O3
+00094985	ascii	4145494P4T4X4r4v4z4
+000949b1	ascii	5#5'5@5D5H5d5h5l5
+000949d9	ascii	6$6(6,6L6P6T6}6
+00094a03	ascii	797=7A7a7e7i7
+00094a39	ascii	8,8<8@8Y8]8a8
+00094a5f	ascii	9!9%9K9O9S9x9|9
+00094a81	ascii	:,:<:L:T:X:\:`:d:h:l:p:t:x:|:
+00094ab7	ascii	;(;8;H;P;T;X;\;`;d;h;l;p;t;x;|;
+00094aeb	ascii	< <@<D<H<i<m<q<
+00094b0f	ascii	=H=^=d=t=
+00094b3d	ascii	>#>'>+>C>G>K>c>g>k>
+00094b75	ascii	? ?$?=?A?E?_?c?g?
+00094ba4	ascii	P0d0h0x0
+00094bd1	ascii	1(1,101G1K1O1l1
+00094bff	ascii	2$25292R2V2Z2x2|2
+00094c29	ascii	33373;3\3`3d3
+00094c4f	ascii	4#4'4B4F4J4l4
+00094c61	ascii	4@5X5\5l5|5
+00094c95	ascii	6;6?6C6b6f6j6
+00094cb9	ascii	7%7)7-7F7J7N7g7k7o7
+00094ce3	ascii	8"8&8*8M8Q8U8y8}8
+00094d09	ascii	9"9&9C9G9K9g9k9o9
+00094d31	ascii	:,:0:4:X:\:`:
+00094d55	ascii	;);-;1;T;X;\;
+00094d7f	ascii	<?<C<G<i<m<q<
+00094d9f	ascii	=#='=N=R=V=~=
+00094dc1	ascii	>4>8><>]>a>e>
+00094de5	ascii	?/?3?7?e?i?m?
+00094e0c	ascii	#0'0+0P0T0X0
+00094e2f	ascii	1B1F1J1k1o1s1
+00094e53	ascii	2,20242X2\2`2|2
+00094e7d	ascii	3<3N3
+00094ea5	ascii	4&4*4C4G4K4g4k4o4
+00094ebb	ascii	5,505@5P5X5\5`5d5h5l5p5t5x5|5
+00094ef3	ascii	6/63676T6X6\6|6
+00094f05	ascii	7/747D7T7\7`7d7h7l7p7t7x7|7
+00094f39	ascii	8(888@8D8H8L8P8T8X8\8`8d8h8l8
+00094f6d	ascii	9!9%9)9@9P9`9h9l9p9t9x9|9
+00094fa3	ascii	:$:(:,:F:J:N:h:z:
+00094fb5	ascii	; ;$;4;D;L;P;T;X;\;`;d;h;l;p;t;x;
+00094fed	ascii	<'<+</<L<\<l<t<x<|<
+00095023	ascii	=:=>=B=a=e=i=
+00095047	ascii	>/>3>7>Z>^>b>~>
+0009506d	ascii	?&?l?
+00095083	ascii	0 0(0,0004080<0@0D0H0L0P0T0h0{0
+000950bd	ascii	1!1%1@1D1H1d1v1
+000950d3	ascii	1@2g2
+000950df	ascii	3(3034383<3@3D3H3L3P3T3X3\3p3
+00095117	ascii	494=4A4^4b4f4
+0009513b	ascii	505B5
+00095141	ascii	7%7,7>7
+00095151	ascii	8H8T8X8h8p8t8x8|8
+0009517f	ascii	9.92969R9V9Z9q9u9y9
+000951a7	ascii	:":B:F:J:l:p:t:
+000951cd	ascii	;1;5;9;];a;e;
+000951f1	ascii	</<3<7<Z<^<b<
+00095215	ascii	='=+=/=Q=U=Y=u=y=}=
+0009523d	ascii	>!>@>D>H>l>p>t>
+00095263	ascii	?6?:?>?[?_?c?
+00095291	ascii	0'0+0/0S0W0[0~0
+000952b7	ascii	1#1'1G1K1O1l1p1t1
+000952df	ascii	272;2?2f2j2n2
+00095303	ascii	3?3C3G3q3u3y3
+00095327	ascii	43474;4Z4^4b4~4
+0009534b	ascii	55595=5e5i5m5
+0009537b	ascii	666:6>6a6e6i6
+0009539f	ascii	7.72767[7_7c7
+000953c3	ascii	8*8.828R8V8Z8{8
+000953e7	ascii	989<9@9^9b9f9
+0009540b	ascii	:!:%:):L:P:T:v:z:~:
+0009542f	ascii	;7;;;?;`;y;
+0009543d	ascii	;$<;<@<L<P<`<h<l<p<t<x<|<
+00095471	ascii	=-=1=5=Q=U=Y=w={=
+00095499	ascii	>,>d>h>l>
+000954af	ascii	?S?W?`?
+000954c9	ascii	0#0(0t0x0|0
+000954df	ascii	1 1$141@1D1L1P1T1X1\1`1d1h1l1p1t1x1|1
+00095533	ascii	282<2@2V2Z2^2u2y2}2
+0009555d	ascii	3"3&3*3E3I3M3f3j3n3
+0009558b	ascii	4)4Q4{4
+00095599	ascii	5H5u5
+000955a5	ascii	6H6t6
+000955ad	ascii	6&7S7
+000955b9	ascii	8'859K9x9
+000955c7	ascii	9/:[:\;h;v;
+000955d3	ascii	<%<<<t<
+000955f5	ascii	3+3R3~3
+00095601	ascii	3#4J4s4
+0009560f	ascii	475~5
+00095619	ascii	7,898>8R8W8V9c9m9s9{9
+00095641	ascii	:#:H:T:l:q:
+0009564d	ascii	:*;8;C;M;Y;d;n;A<
+00095667	ascii	=$=>=^=
+00095685	ascii	1 1t1
+00095691	ascii	292h2
+0009569d	ascii	2+303
+000956ab	ascii	4>5T5_5
+000956b3	ascii	5=6_6o6z6
+000956c1	ascii	7Z7r7
+000956e3	ascii	9+:=:x:
+00095703	ascii	;2<A<K<
+00095711	ascii	=%=/=
+0009571f	ascii	>3>8>X>
+00095743	ascii	2c4B5
+0009574f	ascii	6K7W8
+0009575d	ascii	=v>J?
+000957a3	ascii	<,<L<l<
+000957d9	ascii	5"6G6O7y7
+000957eb	ascii	8!8Z8
+000957fd	ascii	:W:g:
+00095811	ascii	<&=8=
+00095817	ascii	=8>X>
+0009581d	ascii	>7?D?M?
+00095839	ascii	1-1X1x1
+00095847	ascii	2<2_2
+0009585f	ascii	8&848C8k8}8
+00095883	ascii	:X:y:
+00095897	ascii	<!<0<
+000958a3	ascii	=C=x=
+000958ad	ascii	=3>T>
+000958b9	ascii	?7?\?
+000958e5	ascii	3 3$3(3,3034383<3@3D3H3L3P3T3X3\3`3d3h3l3p3t3x3|3
+00095965	ascii	4 4$4(4,4044484<4@4D4H4L4P4T4X4\4`4d4h4l4p4t4x4|4
+000959e5	ascii	5 5$5(5,5054585<5@5D5H5L5P5T5X5\5`5d5h5l5p5t5x5|5
+00095a65	ascii	6 6$6(6,6064686<6@6D6H6L6P6T6X6\6`6d6h6l6p6t6x6|6
+00095ab3	ascii	7#757
+00095ac0	ascii	<0@0D0,14181\1`1
+00095b1b	ascii	2T2\2d2l2t2|2
+00095b47	ascii	2<3@3D3H3L3P3T3X3\3`3d3h3l3p3t3x3|3
+00095b8f	ascii	5 5(50585@5H5P5X5`5h5p5x5
+00095bcf	ascii	6 6(60686@6H6P6X6`6h6p6x6
+00095c75	ascii	:(:0:8:@:H:P:X:`:h:p:x:
+00095ca1	ascii	:l;X<H=h=
+00095cd5	ascii	>$>,>4><>D>L>T>\>d>l>t>|>
+00095d15	ascii	?$?,?4?<?D?L?T?\?d?l?t?|?
+00095d5f	ascii	0$0,040<0D0L0T0\0d0l0t0|0
+00095d9f	ascii	1$1,141<1D1L1T1\1d1l1t1|1
+00095ddf	ascii	2$2,242<2D2L2T2\2d2l2t2|2
+00095e1f	ascii	3$3,343<3D3L3T3\3d3l3t3|3
+00095e5f	ascii	4$4,444<4D4L4T4\4d4l4t4|4
+00095e9f	ascii	5$5,545<5D5L5T5\5d5l5t5|5
+00095edf	ascii	6$6,646<6D6L6T6\6d6l6t6|6
+00095f1f	ascii	7$7,747<7D7L7T7\7d7l7t7|7
+00095f4f	ascii	7h8|8
+00095f63	ascii	909D9X9l9
+00095f7b	ascii	: :4:H:\:p:
+00095f95	ascii	;$;8;L;`;t;
+00095faf	ascii	<(<<<P<d<x<
+00095fc9	ascii	=,=@=T=h=|=
+00095fe3	ascii	>0>D>X>l>
+00095ffb	ascii	? ?4?H?\?p?
+0009601d	ascii	0$080L0\0`0d0h0
+00096041	ascii	1$101<1H1T1`1l1x1
+0009606b	ascii	2 2,282D2P2\2h2t2
+00096097	ascii	3(343@3L3X3d3p3|3
+000960c1	ascii	4$404<4H4T4`4l4x4
+000960eb	ascii	5 5,585D5P5\5h5t5
+00096117	ascii	6(646@6L6X6d6p6|6
+00096141	ascii	7$707<7H7T7`7l7x7
+00096175	ascii	8(848@8L8X8d8p8|8
+000961a5	ascii	9 9$9(9,90949D9H9L9P9`9d9h9l9x9|9
+00096201	ascii	: :$:0:4:8:<:T:X:\:`:d:h:
+0009624d	ascii	;$;0;<;H;T;`;l;x;
+00096277	ascii	< <,<8<D<P<\<h<t<
+000962a3	ascii	=(=4=@=L=X=d=p=|=
+000962cd	ascii	>$>0><>H>T>`>l>x>
+000962f7	ascii	? ?,?4?8?<?@?D?H?L?P?T?X?\?`?d?h?l?p?t?x?|?
+00096371	ascii	9 9$9(9,9094989<9@9D9l9p9t9x9|9
+000963bf	ascii	: :$:(:,:0:4:8:<:@:D:H:L:P:T:X:\:`:d:h:l:p:t:x:|:
+0009643f	ascii	; ;$;(;,;0;4;8;<;@;D;H;L;P;T;X;\;`;d;h;l;p;t;x;|;
+000964bf	ascii	< <$<(<,<0<4<8<<<@<D<H<L<P<T<X<\<`<d<h<l<p<t<x<|<
+0009653f	ascii	= =$=(=,=0=4=8=<=@=D=H=L=P=T=X=\=`=d=h=l=p=t=x=|=
+000965bf	ascii	> >$>(>,>0>4>8><>@>D>H>L>P>T>X>\>`>d>h>l>p>t>x>|>
+0009663f	ascii	? ?$?(?,?0?4?8?<?@?D?H?L?P?T?X?\?`?d?h?l?p?t?x?|?
+000966c7	ascii	0 0$0(0,0004080<0@0D0H0L0P0T0X0\0`0d0h0l0p0t0x0|0
+00096747	ascii	1 1$1(1,1014181<1@1D1H1L1P1T1X1\1`1d1h1l1p1t1x1|1
+0009760a	utf16	UNICODEDATA
+0009762c	utf16	CATEGORIES
+00097642	utf16	COMBINING
+00097656	utf16	COMPOSITION
+0009766e	utf16	DECOMPOSITION
+0009768a	utf16	NUMBERS
+0009769a	utf16	BBABORT
+000976aa	utf16	BBALL
+000976b6	utf16	BBCANCEL
+000976c8	utf16	BBCLOSE
+000976d8	utf16	BBHELP
+000976e6	utf16	BBIGNORE
+0009770c	utf16	BBRETRY
+0009771c	utf16	BBYES
+00097728	utf16	PREVIEWGLYPH
+00097742	utf16	DLGTEMPLATE
+0009775a	utf16	DVCLAL
+00097768	utf16	PACKAGEINFO
+00097780	utf16	JVDRAGCURSOR
+0009779a	utf16	JVHANDCURSOR
+000977b4	utf16	MAINICON
+000bfa20	ascii	333333333333333333
+000bfa37	ascii	33333333?333333
+000bfa55	ascii	33?33
+000bfab3	ascii	33338
+000bfac7	ascii	33333
+000bfacd	ascii	33833
+000bfadb	ascii	333338
+000bfaef	ascii	33333833
+000bfb03	ascii	33333
+000bfb18	ascii	333838
+000bfb4c	ascii	3333339
+000bfb60	ascii	3333333333333338
+000bfb74	ascii	333333333333333333
+000bfbf0	ascii	334C33333338
+000bfbfd	ascii	33333
+000bfc04	ascii	33B$3333333
+000bfc18	ascii	34""C33333833
+000bfc2c	ascii	3B""$33333
+000bfc40	ascii	4"*""C3338
+000bfc58	ascii	"C3338
+000bfc68	ascii	:*"*"$3338
+000bfc81	ascii	"C338
+000bfc93	ascii	"*"$33
+000bfca4	ascii	"*:"$
+000bfcbc	ascii	"J"$3
+000bfccc	ascii	:33:"$
+000bfcd3	ascii	"C8338
+000bfce5	ascii	"J"C3333
+000bfcf4	ascii	3333:"$
+000bfcfc	ascii	#33338
+000bfd08	ascii	33333
+000bfd0e	ascii	"J333333
+000bfd1c	ascii	33333:"$3333338
+000bfd30	ascii	333333
+000bfd37	ascii	$3333333
+000bfd44	ascii	333333:"33333338
+000bfd58	ascii	3333333
+000bfd60	ascii	33333333
+000bfdd4	ascii	333333333333333333
+000bfdeb	ascii	33333333?333333
+000bfe09	ascii	33?33
+000bfe67	ascii	33338
+000bfe7b	ascii	33333
+000bfe81	ascii	33833
+000bfe8f	ascii	333338
+000bfea3	ascii	33333833
+000bfeb7	ascii	33333
+000bfecc	ascii	333838
+000bff00	ascii	3333339
+000bff14	ascii	3333333333333338
+000bff28	ascii	333333333333333333
+000c00a8	ascii	33DDDDD3333
+000c00bc	ascii	33333333333
+000c00d6	ascii	333333?
+000c00ea	ascii	333333
+000c00fe	ascii	333333
+000c0174	ascii	3333f3333333?
+000c0188	ascii	3336Dc3333338
+000c019c	ascii	333>fC333333
+000c01b5	ascii	c333333
+000c01c4	ascii	3333333333338
+000c01d8	ascii	3333Dc3333333
+000c01ec	ascii	3336fC3333338
+000c0200	ascii	333>fC333333
+000c0214	ascii	333>fd333333
+000c022d	ascii	fC33333
+000c023c	ascii	3333>fd333338
+000c0250	ascii	334C3
+000c0256	ascii	fC333?3
+000c0264	ascii	33fd3>fC333
+000c027b	ascii	fDFfC338
+000c028c	ascii	33>ffffc338
+000c02a4	ascii	fff3333
+000c02ad	ascii	33833
+000c02bb	ascii	33338
+000c02c8	ascii	3333333333338
+000c0344	ascii	4DF334DC33
+000c035b	ascii	333*C33
+000c036f	ascii	c33*C333
+000c0379	ascii	338?3
+000c039b	ascii	33338?383
+000c03ac	ascii	F*F333383
+000c03c0	ascii	"$c33333
+000c03d5	ascii	"dc3333833
+000c03e9	ascii	CjC338
+000c03fd	ascii	CjC338
+000c0411	ascii	D*C33383
+000c0427	ascii	33333
+000c0434	ascii	3332*
+000c043a	ascii	C33333833?33
+000c0448	ascii	3333"
+000c044e	ascii	3333333
+000c045c	ascii	3334JC33333338?333
+000c0475	ascii	C3333333
+000c0489	ascii	C3333333
+000c0498	ascii	3333fc33333338
+000c0514	ascii	333333333333?
+000c052e	ascii	33333?
+000c065a	ascii	333333
+000c0668	ascii	333333333333333333
+000c06e4	ascii	333333333333333333
+000c06f8	ascii	333333333333
+000c0705	ascii	33333
+000c070c	ascii	334C33333338
+000c0719	ascii	33333
+000c0720	ascii	33B$3333333
+000c0734	ascii	34""C33333833
+000c0748	ascii	3B""$33333
+000c075c	ascii	4"*""C3338
+000c0774	ascii	"C3338
+000c0784	ascii	:*3:"$3338
+000c079d	ascii	"C333
+000c07ac	ascii	3333:"$3333338
+000c07c0	ascii	33333
+000c07c6	ascii	"C333333
+000c07d4	ascii	33333:"$3333338
+000c07e8	ascii	333333
+000c07ef	ascii	"C333333
+000c07fc	ascii	333333:"C3333338
+000c0810	ascii	3333333
+000c0818	ascii	#3333333
+000c0824	ascii	3333333:3333333383
+000c0838	ascii	333333333333333333
+000c08b4	ascii	333DDD33333?
+000c08c8	ascii	2C4"""D338
+000c08dc	ascii	2$B""""C38
+000c0918	ascii	2""333:"C8
+000c0923	ascii	83338
+000c092c	ascii	2""#33:DC8
+000c0944	ascii	333338
+000c094d	ascii	33333
+000c0954	ascii	333333333333333
+000c0968	ascii	333333DDD3
+000c097c	ascii	:DC33:""$8
+000c0990	ascii	:"C333
+000c09a6	ascii	$334B"$3
+000c09ba	ascii	"DDB""$3
+000c09cc	ascii	3:"""""
+000c09fa	ascii	333333
+000c0a08	ascii	333333333333333333
+000c0a84	ascii	333333333333333333
+000c0a98	ascii	333333333333
+000c0aa5	ascii	33333
+000c0aac	ascii	334C33333338
+000c0ab9	ascii	33333
+000c0ac0	ascii	33B$3333333
+000c0ad4	ascii	34""C33333833
+000c0ae8	ascii	3B""$33333
+000c0afc	ascii	4"*""C3338
+000c0b14	ascii	"C3338
+000c0b24	ascii	:*3:"$3338
+000c0b3d	ascii	"C333
+000c0b4c	ascii	3333:"$3333338
+000c0b60	ascii	33333
+000c0b66	ascii	"C333333
+000c0b74	ascii	33333:"$3333338
+000c0b88	ascii	333333
+000c0b8f	ascii	"C333333
+000c0b9c	ascii	333333:"C3333338
+000c0bb0	ascii	3333333
+000c0bb8	ascii	#3333333
+000c0bc4	ascii	3333333:3333333383
+000c0bd8	ascii	333333333333333333
+000c0c54	ascii	33333333
+000c0d4e	ascii	33331
+000c0d6d	ascii	33333
+000c0d8e	ascii	33331
+000c0db3	ascii	Gggfv@
+000c0dc3	ascii	&vvggd
+000c0dd3	ascii	wwgbvt
+000c0de1	ascii	1wwwr"gf@
+000c0df1	ascii	1wwwr"vv@
+000c0e03	ascii	wr""gf@
+000c0e13	ascii	wr""&f@
+000c0e23	ascii	ww"w""@
+000c0e34	ascii	wr'""@
+000c0e52	ascii	1rwr"
+000c0ecd	ascii	3333;
+000c0edd	ascii	33333
+000c0fd6	utf16	MS Sans Serif
+000c1012	utf16	Highlight 3D elements
+000c103e	utf16	Tooltip text
+000c1058	utf16	Tooltip background
+000c107e	utf16	Gradient Active Caption
+000c10ae	utf16	Gradient Inactive Caption
+000c10e2	utf16	Hot Light
+000c10f6	utf16	Menu Bar
+000c1108	utf16	Menu Highlight&Cannot change the size of a JPEG image
+000c1174	utf16	JPEG error #%d
+000c1192	utf16	JPEG Image File
+000c11d2	utf16	Window frame
+000c11ec	utf16	Menu text
+000c1200	utf16	Window text
+000c1218	utf16	Active window title bar text
+000c1252	utf16	Active window border
+000c127c	utf16	Inactive window border
+000c12aa	utf16	Application workspace
+000c12d6	utf16	Selection background
+000c1300	utf16	Selection text
+000c131e	utf16	Button face
+000c1336	utf16	Button shadow
+000c1352	utf16	Dimmed text
+000c136a	utf16	Button text
+000c1382	utf16	Inactive window title bar text
+000c13c0	utf16	Button highlight
+000c13e2	utf16	Dark shadow 3D elements
+000c1432	utf16	Turquoise
+000c1450	utf16	Gray 25%
+000c1474	utf16	Light Yellow
+000c148e	utf16	Light Green
+000c14a6	utf16	Light Turquoise
+000c14c6	utf16	Pale Blue
+000c14da	utf16	Lavender
+000c14ec	utf16	Scrollbar
+000c1500	utf16	Desktop background
+000c1526	utf16	Active window title bar
+000c1556	utf16	Inactive window title bar
+000c158a	utf16	Menu background
+000c15aa	utf16	Window background
+000c15ee	utf16	Dark Blue
+000c1602	utf16	Indigo
+000c1610	utf16	Gray 80%
+000c1622	utf16	Dark Red
+000c1634	utf16	Orange
+000c1642	utf16	Dark Yellow
+000c165a	utf16	Blue Gray
+000c166e	utf16	Gray 50%
+000c1680	utf16	Light Orange
+000c169a	utf16	Sea Green
+000c16ae	utf16	Light Blue
+000c16c4	utf16	Violet
+000c16d2	utf16	Gray 40%
+000c16f8	utf16	Bright Green
+000c1732	utf16	Silver
+000c1752	utf16	Yellow
+000c176a	utf16	Fuchsia
+000c1784	utf16	White
+000c1790	utf16	Money green
+000c17a8	utf16	Sky blue
+000c17ba	utf16	Cream
+000c17c6	utf16	Medium gray
+000c17de	utf16	Brown
+000c17ea	utf16	Olive Green
+000c1802	utf16	Dark Green
+000c1818	utf16	Dark Teal
+000c184c	utf16	.This value is read-only and cannot be changed.
+000c18ac	utf16	%s file
+000c18d4	utf16	Black
+000c18e0	utf16	Maroon
+000c18ee	utf16	Green
+000c18fa	utf16	Olive green
+000c1912	utf16	Navy blue
+000c1926	utf16	Purple
+000c1968	utf16	D3rd-level cache: 24 MByte, 24-way set associative, 64 byte line size
+000c19f4	utf16	64-Byte Prefetching
+000c1a1c	utf16	128-Byte PrefetchingeCPUID leaf 2 does not report cache descriptor information, use CPUID leaf 4 to query cache parameters
+000c1b12	utf16	Unknown AMD (Model %d)
+000c1b40	utf16	GetOpenGLVersion: %s failed
+000c1b80	utf16	Invalid MMF name "%s"*The MMF named "%s" cannot be created empty
+000c1c02	utf16	Win32 error: %s (%u)%s%s
+000c1c34	utf16	Library not found: %s
+000c1c60	utf16	Function not found: %s.%s
+000c1c94	utf16	OLE error %.8x.Method '%s' not supported by automation object/Variant does not reference an automation object7Dispatch methods do not support more than 64 parameters
+000c1e00	utf16	EData TLB: 4 KByte and 4 MByte pages, 4-way set associative, 8 entriesCShared 2nd-Level TLB: 4 KByte pages, 4-way associative, 512 entriesD3rd-level cache: 512 KByte, 4-way set associative, 64 byte line sizeB3rd-level cache: 1 MByte, 4-way set associative, 64 byte line sizeB3rd-level cache: 2 MByte, 4-way set associative, 64 byte line sizeB3rd-level cache: 1 MByte, 8-way set associative, 64 byte line sizeB3rd-level cache: 2 MByte, 8-way set associative, 64 byte line sizeB3rd-level cache: 4 MByte, 8-way set associative, 64 byte line sizeE3rd-level cache: 1.5 MByte, 12-way set associative, 64 byte line sizeC3rd-level cache: 3 MByte, 12-way set associative, 64 byte line sizeC3rd-level cache: 6 MByte, 12-way set associative, 64 byte line sizeC3rd-level cache: 2 MByte, 16-way set associative, 64 byte line sizeC3rd-level cache: 4 MByte, 16-way set associative, 64 byte line sizeC3rd-level cache: 8 MByte, 16-way set associative, 64 byte line sizeD3rd-level cache: 12 MByte, 24-way set associative, 64 byte line sizeD3rd-level cache: 18 MByte, 24-way set associative, 64 byte line size
+000c26a4	utf16	X2nd-level cache: 1 MBytes, 8-way set associative, 64 bytes line size, 2 lines per sectorC2nd-level cache: 2 MBytes, 8-way set associative, 64 byte line sizeE2nd-level cache: 512 KBytes, 2-way set associative, 64 byte line sizeE2nd-level cache: 512 KBytes, 8-way set associative, 64 byte line sizeA2nd-level cache: 256 KBytes, 8-way associative, 32 byte line sizeA2nd-level cache: 512 KBytes, 8-way associative, 32 byte line size?2nd-level cache: 1 MBytes, 8-way associative, 32 byte line size?2nd-level cache: 2 MBytes, 8-way associative, 32 byte line sizeD2nd-level cache: 512 KByte, 4-way set associative, 64 byte line sizeB2nd-level cache: 1 MByte, 8-way set associative, 64 byte line sizeBInstruction TLB: 4 KByte pages, 4-way set associative, 128 entriesSInstruction TLB: 2 MByte pages, 4-way, 8 entries or 4 MByte pages, 4-way, 4 entriesAInstruction TLB: 4 KByte pages, 4-way set associative, 64 entries;Data TLB: 4 KByte pages, 4-way set associative, 128 entries<Data TLB1: 4 KByte pages, 4-way set associative, 256 entries;Data TLB1: 4 KByte pages, 4-way set associative, 64 entries
+000c2f4c	utf16	FData TLB0: 2 MByte or 4 MByte pages, 4-way set associative, 32 entries/Data TLB: 4 KByte and 4 MByte pages, 64 Entries0Data TLB: 4 KByte and 4 MByte pages, 128 Entries0Data TLB: 4 KByte and 4 MByte pages, 256 EntriesH1st-level data cache: 16 KByte, 8-way set associative, 64 byte line sizeH1st-level data cache: 8 KBytes, 4-way set associative, 64 byte line sizeI1st-level data cache: 16 KBytes, 4-way set associative, 64 byte line sizeI1st-level data cache: 32 KBytes, 4-way set associative, 64 byte line size,Trace cache: 12 K-Ops, 8-way set associative,Trace cache: 16 K-Ops, 8-way set associative,Trace cache: 32 K-Ops, 8-way set associative,Trace cache: 64 K-Ops, 8-way set associativeD2nd-level cache: 1 MBytes, 4-way set associative, 64 bytes line sizeZ2nd-level cache: 128 KBytes, 8-way set associative, 64 bytes line size, 2 lines per sectorZ2nd-level cache: 256 KBytes, 8-way set associative, 64 bytes line size, 2 lines per sectorZ2nd-level cache: 512 KBytes, 8-way set associative, 64 bytes line size, 2 lines per sector
+000c3780	utf16	C3rd-level cache: 8 MBytes, 4-way set associative, 64 byte line sizeB3rd-level cache: 8 MByte, 8-way set associative, 64 byte line sizeD2nd-level cache: 4 MBytes, 16-way set associative, 64 byte line sizeB3rd-level cache: 6MByte, 12-way set associative, 64 byte line sizeB3rd-level cache: 8MByte, 16-way set associative, 64 byte line sizeC3rd-level cache: 12MByte, 12-way set associative, 64 byte line sizeC3rd-level cache: 16MByte, 16-way set associative, 64 byte line sizeB2nd-level cache: 6MByte, 24-way set associative, 64 byte line size*Instruction TLB: 4 KByte pages, 32 EntriesAInstruction TLB: 4 KByte and 2 MByte or 4 MByte pages, 64 EntriesBInstruction TLB: 4 KByte and 2 MByte or 4 MByte pages, 128 EntriesBInstruction TLB: 4 KByte and 2 MByte or 4 MByte pages, 256 EntriesGInstruction TLB: 2-MByte or 4-MByte pages, fully associative, 7 entries;Data TLB0: 4 MByte pages, 4-way set associative, 16 entries7Data TLB0: 4 KByte pages, 4-way associative, 16 entries7Data TLB0: 4 KByte pages, fully associative, 16 entries
+000c3fa8	utf16	W3rd level cache: 4 MBytes, 8-way set associative, 64 byte line size, 2 lines per sectorI1st level data cache: 32 KBytes, 8-way set associative, 64 byte line sizeP1st level instruction cache: 32 KBytes, 8-way set associative, 64 byte line sizeU2nd-level cache: 128 KBytes, 4-way set associative, sectored cache, 64-byte line sizeU2nd-level cache: 192 KBytes, 6-way set associative, sectored cache, 64-byte line sizeU2nd-level cache: 128 KBytes, 2-way set associative, sectored cache, 64-byte line sizeU2nd-level cache: 256 KBytes, 4-way set associative, sectored cache, 64-byte line sizeU2nd-level cache: 384 KBytes, 6-way set associative, sectored cache, 64-byte line sizeU2nd-level cache: 512 KBytes, 4-way set associative, sectored cache, 64-byte line sizeXNo 2nd-level cache or, if processor contains a valid 2nd-level cache, no 3rd-level cacheE2nd-level cache: 128 KBytes, 4-way set associative, 32 byte line sizeE2nd-level cache: 256 KBytes, 4-way set associative, 32 byte line sizeE2nd-level cache: 512 KBytes, 4-way set associative, 32 byte line sizeC2nd-level cache: 1 MBytes, 4-way set associative, 32 byte line sizeC2nd-level cache: 2 MBytes, 4-way set associative, 32 byte line sizeC3rd-level cache: 4 MBytes, 4-way set associative, 64 byte line size
+000c49a4	utf16	@Instruction TLB: 4 MByte pages, 4-way set associative, 2 entries:Data TLB: 4 KByte pages, 4-way set associative, 64 entries9Data TLB: 4 MByte pages, 4-way set associative, 8 entries;Data TLB1: 4 MByte pages, 4-way set associative, 32 entriesO1st level instruction cache: 8 KBytes, 4-way set associative, 32 byte line sizeP1st level instruction cache: 16 KBytes, 4-way set associative, 32 byte line sizeP1st level instruction cache: 32 KBytes, 4-way set associative, 64 byte line sizeH1st level data cache: 8 KBytes, 2-way set associative, 32 byte line size@Instruction TLB: 4 MByte pages, 4-way set associative, 4 entriesI1st level data cache: 16 KBytes, 4-way set associative, 32 byte line sizeI1st level data cache: 16 KBytes, 4-way set associative, 64 byte line sizeI1st level data cache: 24 KBytes, 6-way set associative, 64 byte line sizeE2nd level cache: 256 KBytes, 8-way set associative, 64 byte line sizeY3rd level cache: 512 KBytes, 4-way set associative, 64 byte line size, 2 lines per sectorW3rd level cache: 1 MBytes, 8-way set associative, 64 byte line size, 2 lines per sectorW3rd level cache: 2 MBytes, 8-way set associative, 64 byte line size, 2 lines per sector
+000c52fe	utf16	3D Light
+000c5310	utf16	Window Background
+000c5334	utf16	Window Frame
+000c534e	utf16	Window Text
+000c5366	utf16	No help keyword specified.(Failed to get ANSI replacement character$File contains no version information
+000c5438	utf16	The file %s does not exist#Unable to open key "%s\%s" for read$Unable to open key "%s\%s" for write0Unable to open key "%s\%s" and access value "%s"#"%s\%s\%s" is of wrong kind or size
+000c55aa	utf16	"%s" does not match RootKey
+000c55e2	utf16	Failed to create mutex
+000c5610	utf16	Null descriptorAInstruction TLB: 4 KByte pages, 4-way set associative, 32 entries
+000c56d6	utf16	Button Text
+000c56ee	utf16	Caption Text
+000c5708	utf16	Default
+000c5718	utf16	Gray Text
+000c572c	utf16	Highlight Background
+000c5756	utf16	Highlight Text
+000c5774	utf16	Inactive Border
+000c5794	utf16	Inactive Caption
+000c57b6	utf16	Inactive Caption Text
+000c57e2	utf16	Info Background
+000c5802	utf16	Info Text
+000c5816	utf16	Menu Background
+000c5836	utf16	Menu Text
+000c5854	utf16	Scroll Bar
+000c586a	utf16	3D Dark Shadow
+000c58aa	utf16	Yellow
+000c58c2	utf16	Fuchsia
+000c58dc	utf16	White
+000c58e8	utf16	Money Green
+000c5900	utf16	Sky Blue
+000c5912	utf16	Cream
+000c591e	utf16	Medium Gray
+000c5936	utf16	Active Border
+000c5952	utf16	Active Caption
+000c5970	utf16	Application Workspace
+000c599c	utf16	Background
+000c59b2	utf16	Button Face
+000c59ca	utf16	Button Highlight
+000c59ec	utf16	Button Shadow
+000c5a2a	utf16	 - Dock zone has no control"Unable to find a Table of Contents
+000c5aa8	utf16	No help found for %s#No context-sensitive help installed$No topic-based help system installed
+000c5b64	utf16	Black
+000c5b70	utf16	Maroon
+000c5b7e	utf16	Green
+000c5b8a	utf16	Olive
+000c5ba0	utf16	Purple
+000c5bc2	utf16	Silver
+000c5c24	utf16	Right
+000c5c4a	utf16	Shift+
+000c5c58	utf16	Ctrl+
+000c5c64	utf16	Alt+ Clipboard does not support Icons/Menu '%s' is already being used by another form
+000c5d10	utf16	Docked control must have a name%Error removing control from dock tree
+000c5d9c	utf16	 - Dock zone not found
+000c5df0	utf16	Cancel
+000c5dfe	utf16	&Help
+000c5e0a	utf16	&Abort
+000c5e18	utf16	&Retry
+000c5e26	utf16	&Ignore
+000c5e40	utf16	N&o to All
+000c5e56	utf16	Yes to &All
+000c5e88	utf16	Enter
+000c5e94	utf16	Space
+000c5ed6	utf16	&Close
+000c5ee4	utf16	&Ignore
+000c5ef4	utf16	&Retry
+000c5f02	utf16	Abort
+000c5f18	utf16	Cannot drag a form
+000c5f3e	utf16	Metafiles
+000c5f52	utf16	Enhanced Metafiles
+000c5f78	utf16	Icons
+000c5f84	utf16	Bitmaps
+000c5f94	utf16	Warning
+000c5fa4	utf16	Error
+000c5fb0	utf16	Information
+000c5fc8	utf16	Confirm
+000c6008	utf16	!Control '%s' has no parent window
+000c604e	utf16	Cannot hide an MDI Child Form)Cannot change Visible in OnShow or OnHide"Cannot make a visible window modal
+000c6124	utf16	Menu index out of range
+000c6154	utf16	Menu inserted twice
+000c617c	utf16	Sub-menu is not in menu
+000c61ac	utf16	Not enough timers available@GroupIndex cannot be less than a previous menu item's GroupIndex5Cannot create form. No MDI forms are currently active*A control cannot have itself as its parent
+000c632e	utf16	Cancel
+000c634e	utf16	&Help
+000c637a	utf16	Icon image is not valid
+000c63aa	utf16	Metafile is not valid
+000c63d6	utf16	Invalid pixel format
+000c6400	utf16	Scan line index out of range!Cannot change the size of an icon
+000c647e	utf16	Unsupported clipboard format
+000c64b8	utf16	Out of system resources
+000c64e8	utf16	Canvas does not allow drawing
+000c6524	utf16	Invalid image size
+000c654a	utf16	Invalid ImageList
+000c656e	utf16	Invalid ImageList Index)Failed to read ImageList data from stream(Failed to write ImageList data to stream$Error creating window device context
+000c668e	utf16	Error creating window class+Cannot focus a disabled or invisible window
+000c673e	utf16	Invalid data type for '%s' List capacity out of bounds (%d)
+000c67b6	utf16	List count out of bounds (%d)
+000c67f2	utf16	List index out of bounds (%d)+Out of memory while expanding memory stream
+000c6886	utf16	Error reading %s%s%s: %s
+000c68b8	utf16	Stream read error
+000c68dc	utf16	Property is read-only
+000c6908	utf16	Failed to get data for '%s'
+000c6940	utf16	Resource %s not found
+000c696c	utf16	%s.Seek not implemented$Operation not allowed on sorted list$%s not in a class registration group
+000c6a30	utf16	Property %s does not exist
+000c6a66	utf16	Stream write error
+000c6a8c	utf16	Bitmap image is not valid
+000c6ae2	utf16	Cannot assign a %s to a %s
+000c6b18	utf16	Bits index out of range*Can't write to a read-only resource streamECheckSynchronize called from thread $%x, which is NOT the main thread
+000c6c2a	utf16	Class %s not found
+000c6c50	utf16	A class named %s already exists%List does not allow duplicates ($0%x)#A component named %s already exists%String list does not allow duplicates
+000c6d70	utf16	Cannot create file "%s". %s
+000c6da8	utf16	Cannot open file "%s". %s
+000c6ddc	utf16	Unable to write to %s
+000c6e08	utf16	Invalid stream format$''%s'' is not a valid component name
+000c6e7e	utf16	Invalid property path
+000c6eaa	utf16	Invalid property value
+000c6efa	utf16	December
+000c6f44	utf16	Sunday
+000c6f52	utf16	Monday
+000c6f60	utf16	Tuesday
+000c6f70	utf16	Wednesday
+000c6f84	utf16	Thursday
+000c6f96	utf16	Friday
+000c6fa4	utf16	Saturday
+000c6fb6	utf16	Ancestor for '%s' not found
+000c7036	utf16	January
+000c7046	utf16	February
+000c7058	utf16	March
+000c7064	utf16	April
+000c708c	utf16	August
+000c709a	utf16	September
+000c70ae	utf16	October
+000c70be	utf16	November
+000c70f2	utf16	External exception %x
+000c711e	utf16	Assertion failed
+000c7140	utf16	Interface not supported
+000c7170	utf16	Exception in safecall method
+000c71aa	utf16	%s (%s, line %d)
+000c71cc	utf16	Abstract Error?Access violation at address %p in module '%s'. %s of address %p
+000c726a	utf16	System Error.  Code: %d.
+000c72a4	utf16	A call to an OS function failed
+000c733c	utf16	"Variant method calls not supported
+000c738e	utf16	Write$Error creating variant or safe array)Variant or safe array index out of bounds
+000c7438	utf16	Variant or safe array is locked
+000c7478	utf16	Invalid variant type conversion
+000c74b8	utf16	Invalid variant operation%Invalid variant operation (%s%.8x)
+000c7532	utf16	%s5Could not convert variant of type (%s) into type (%s)=Overflow while converting variant of type (%s) into type (%s)
+000c7620	utf16	Variant overflow
+000c7642	utf16	Invalid argument
+000c7664	utf16	Invalid variant type
+000c768e	utf16	Operation not supported
+000c76be	utf16	Unexpected variant error
+000c7712	utf16	Integer overflow Invalid floating point operation
+000c7776	utf16	Floating point division by zero
+000c77b6	utf16	Floating point overflow
+000c77e6	utf16	Floating point underflow
+000c7818	utf16	Invalid pointer operation
+000c784c	utf16	Invalid class typecast0Access violation at address %p. %s of address %p
+000c78dc	utf16	Access violation
+000c78fe	utf16	Stack overflow
+000c791c	utf16	Control-C hit
+000c7938	utf16	Privileged instruction(Exception %s in module %s at %p.
+000c79b8	utf16	Application Error1Format '%s' invalid or incompatible with argument
+000c7a40	utf16	No argument for format '%s'
+000c7a98	utf16	!'%s' is not a valid integer value('%s' is not a valid floating point value
+000c7b30	utf16	'%s' is not a valid date
+000c7b62	utf16	'%s' is not a valid time!'%s' is not a valid date and time
+000c7bd8	utf16	Out of memory
+000c7bf4	utf16	I/O error %d
+000c7c0e	utf16	File not found
+000c7c2c	utf16	Invalid filename
+000c7c4e	utf16	Too many open files
+000c7c76	utf16	File access denied
+000c7c9c	utf16	Read beyond end of file
+000c7ccc	utf16	Disk full
+000c7ce0	utf16	Invalid numeric input
+000c7d0c	utf16	Division by zero
+000c7d2e	utf16	Range check error
+000c7d8d	ascii	HXbrowserLite
+000c7d9d	ascii	JvComputerInfoEx
+000c7daf	ascii	?WinInet
+000c7dba	ascii	System
+000c7dc3	ascii	SysInit
+000c7dcc	ascii	KWindows
+000c7dd6	ascii	UTypes
+000c7dde	ascii	8Registry
+000c7de9	ascii	"RTLConsts
+000c7df5	ascii	^Classes
+000c7e00	ascii	SysConst
+000c7e0a	ascii	3Messages
+000c7e16	ascii	SysUtils
+000c7e20	ascii	CVariants
+000c7e2b	ascii	$VarUtils
+000c7e36	ascii	QTypInfo
+000c7e40	ascii	sActiveX
+000c7e4b	ascii	IniFiles
+000c7e56	ascii	JclShell
+000c7e61	ascii	CommCtrl
+000c7e6b	ascii	*ShellAPI
+000c7e76	ascii	JJclFileUtils
+000c7e8c	ascii	FComObj
+000c7e95	ascii	qComConst
+000c7ea0	ascii	(ShlObj
+000c7eaa	ascii	RegStr
+000c7eb3	ascii	UrlMon
+000c7ebb	ascii	AJclSysInfo
+000c7ec9	ascii	WinSock
+000c7eda	ascii	TlHelp32
+000c7ee5	ascii	PsAPI
+000c7eed	ascii	JclRegistry
+000c7efa	ascii	AAccCtrl
+000c7f04	ascii	WJclSysUtils
+000c7f12	ascii	4JclConsole
+000c7f20	ascii	JclResources
+000c7f2e	ascii	gJclUnitVersioning
+000c7f43	ascii	JclSynch
+000c7f4e	ascii	JclLogic
+000c7f58	ascii	]JclBase
+000c7f62	ascii	gJclStrings
+000c7f6f	ascii	#JclStreams
+000c7f7c	ascii	vJclCharsets
+000c7f8a	ascii	kJclMath
+000c7f95	ascii	Jcl8087
+000c7f9f	ascii	Contnrs
+000c7fa9	ascii	JclStringConversions
+000c7fc0	ascii	JclAnsiStrings
+000c7fd1	ascii	JclWideStrings
+000c7fe2	ascii	JclUnicode
+000c7fee	ascii	(JclWin32
+000c7ffa	ascii	SyncObjs
+000c8004	ascii	2JclIniFiles
+000c8013	ascii	JclSecurity
+000c8021	ascii	JclDateTime
+000c802e	ascii	(JvJCLUtils
+000c803b	ascii	GMMSystem
+000c8047	ascii	Consts
+000c804f	ascii	+Graphics
+000c805b	ascii	Clipbrd
+000c8065	ascii	Forms
+000c806d	ascii	Printers
+000c8077	ascii	WWinSpool
+000c8083	ascii	FlatSB
+000c808c	ascii	StdActns
+000c8096	ascii	YStrUtils
+000c80a1	ascii	&Controls
+000c80ac	ascii	5Themes
+000c80b5	ascii	CUxTheme
+000c80c0	ascii	MultiMon
+000c80ca	ascii	vMenus
+000c80d3	ascii	ImgList
+000c80dc	ascii	EActnList
+000c80ed	ascii	dStdCtrls
+000c80f9	ascii	Dialogs
+000c8103	ascii	ExtCtrls
+000c810d	ascii	IDlgs
+000c8114	ascii	3CommDlg
+000c811f	ascii	WinHelpViewer
+000c812e	ascii	RHelpIntfs
+000c813b	ascii	JvTypes
+000c8145	ascii	JvConsts
+000c8150	ascii	JvResources
+000c815d	ascii	wJvJVCLUtils
+000c816b	ascii	Rjpeg
+000c8173	ascii	JConsts
+000c817c	ascii	.JvProgressUtils
+000c818e	ascii	nComCtrls
+000c819a	ascii	ComStrs
+000c81a4	ascii	ExtActns
+000c81ae	ascii	0Mapi
+000c81b6	ascii	ExtDlgs
+000c81c0	ascii	Buttons
+000c81ca	ascii	RichEdit
+000c81d5	ascii	ToolWin
+000c81df	ascii	ListActns
+000c81ea	ascii	XGrids
+000c81f9	ascii	5MaskUtils
+000c8205	ascii	-JvAppStorage
+000c8215	ascii	JclRTTI
+000c821f	ascii	JclMime
+000c8229	ascii	JvPropertyStore
+000c823a	ascii	SJvStrings
+000c8247	ascii	JvComponentBase
+000c8259	ascii	JVCLVer
+000c8263	ascii	JvPropertyStoreEditorIntf
+000c827f	ascii	JvTranslateString
+000c8293	ascii	uXbrowserFunc

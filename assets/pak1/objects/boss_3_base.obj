@@ -1,0 +1,85 @@
+
+boss_3_base 
+{
+	flag    FL_ONGROUND
+
+	flag    FL_TEMPORARY
+
+	model   "models\bosses\boss_3_base\base.mdl"
+	skin    "models\bosses\boss_3_base\base.tga"
+	shadow  SHADOW_PROJECTED
+
+	script	"scripts\bosses\boss_3_base\boss3_base.scr"
+
+}
+
+
+
+turret_1 {
+	enemy
+	health 7000
+	flag FL_TEMPORARY
+
+	model   "models\bosses\boss_3_base\turret_1.mdl"
+	skin    "models\bosses\boss_3_base\bashni.tga"
+
+	attach abs "turret_1_gun" "tag_turret_1_gun"
+
+	script	"scripts\bosses\boss_3_base\boss3_turret_1.scr"
+}
+
+turret_2 {
+	enemy
+	health 7000
+	flag FL_TEMPORARY
+
+	model   "models\bosses\boss_3_base\turret_2.mdl"
+	skin    "models\bosses\boss_3_base\bashni.tga"
+
+	attach abs "turret_2_gun" "tag_turret_2_gun"
+
+	script	"scripts\bosses\boss_3_base\boss3_turret_2.scr"
+}
+
+turret_1_gun {
+
+	model   "models\bosses\boss_3_base\turret_1_gun.mdl"
+	skin    "models\bosses\boss_3_base\bashni.tga"
+
+	script	"scripts\bosses\boss_3_base\boss3_gun_1.scr"
+}
+
+turret_2_gun {
+
+	model   "models\bosses\boss_3_base\turret_2_gun.mdl"
+	skin    "models\bosses\boss_3_base\bashni.tga"
+
+	script	"scripts\bosses\boss_3_base\boss3_gun_2.scr"
+}
+
+rocketnica {
+	flag 	FL_TEMPORARY
+
+	model   "models\bosses\boss_3_base\rocketnica.mdl"
+	skin    "models\bosses\boss_3_base\bashni.tga"
+
+	script	"scripts\bosses\boss_3_base\boss3_rocketnica.scr"
+}
+
+boss_3_sphere {
+	enemy
+	health 25000
+	flag FL_TEMPORARY
+
+	score	50000
+
+	envmap	"gfx\envmap4.tga"
+	envmode	ENV_GLITTER
+
+	model   "models\bosses\boss_3_base\sphere.mdl"
+	skin    "models\bosses\boss_3_base\bashni.tga"
+
+	script	"scripts\bosses\boss_3_base\boss3_sphere.scr"
+}
+
+

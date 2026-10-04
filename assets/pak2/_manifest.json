@@ -1,0 +1,329 @@
+{
+  "archive": "work/payload/app/data/pak2.apk",
+  "sha256": "bc29cf7375e5557f3e9e19278e5318e77324d3f32d57f64116387712050c6175",
+  "version_bits": "0x3f800000",
+  "tag": "0x9999",
+  "table_offset": 5950270,
+  "count": 45,
+  "extensions": {
+    ".mo3": 5,
+    ".wav": 40
+  },
+  "entries": [
+    {
+      "name": "music/track01.mo3",
+      "offset": 1040,
+      "size": 851924,
+      "flags": 0,
+      "sha256": "f82b204950c38a690a318ae96ce947cc42e011b61fa4e231b9c7a6d699a8b8ee"
+    },
+    {
+      "name": "music/track03.mo3",
+      "offset": 852964,
+      "size": 912053,
+      "flags": 0,
+      "sha256": "739313e462369fd0eb0b6f3169e5c5c9fdb3d22f78903d70b5b77010962cc282"
+    },
+    {
+      "name": "music/track02.mo3",
+      "offset": 1765017,
+      "size": 677913,
+      "flags": 0,
+      "sha256": "121dc66c965ac84f47731ffc950d723ed91331ef8c48edcfd11ee78afe5f82b6"
+    },
+    {
+      "name": "music/track05.mo3",
+      "offset": 2442930,
+      "size": 911229,
+      "flags": 0,
+      "sha256": "fa02e38eba6fe7ca919a2e52d89578cf13fde2093c98db22d2d2612989c75ccf"
+    },
+    {
+      "name": "music/track04.mo3",
+      "offset": 3354159,
+      "size": 795573,
+      "flags": 0,
+      "sha256": "987efc81d6abd5459f3cbf0ee18eba554742cb7f1051f4f0692000334d7098af"
+    },
+    {
+      "name": "sounds/expl3.wav",
+      "offset": 4149732,
+      "size": 99218,
+      "flags": 0,
+      "sha256": "b67b184a3c9fe79f58cb222b19142c2b4e5a088196e46be3fa6431ad0d787d1a"
+    },
+    {
+      "name": "sounds/expl2.wav",
+      "offset": 4248950,
+      "size": 86932,
+      "flags": 0,
+      "sha256": "74cc881be9bd10bc993855146772a68f20b8ef9174ca48dca1b3c3f7df8feb9b"
+    },
+    {
+      "name": "sounds/laser.wav",
+      "offset": 4335882,
+      "size": 9428,
+      "flags": 0,
+      "sha256": "2e196c3dc26d399785c676d411146e74af9d8f99cad403be0e01373aca20656c"
+    },
+    {
+      "name": "sounds/expl1.wav",
+      "offset": 4345310,
+      "size": 63098,
+      "flags": 0,
+      "sha256": "e9516b54739d3863b9b3a63ed0c4774b905511eea07d138760767066ab17ae97"
+    },
+    {
+      "name": "sounds/cannon.wav",
+      "offset": 4408408,
+      "size": 24106,
+      "flags": 0,
+      "sha256": "767108d650654a328a7cf4d3f30d37deebc1cbe6acd03cb07e52648ec1e2a444"
+    },
+    {
+      "name": "sounds/missile.wav",
+      "offset": 4432514,
+      "size": 11042,
+      "flags": 0,
+      "sha256": "d8ade08ed915c36586bb499536dee738db67884bb452cd7e1acdc3e97215c69a"
+    },
+    {
+      "name": "sounds/plasmagun2.wav",
+      "offset": 4443556,
+      "size": 10870,
+      "flags": 0,
+      "sha256": "a20aa8b32d3fd6e20271656a1b3518c129594f14b5ec01b543893c0f9c956720"
+    },
+    {
+      "name": "sounds/plasmagun.wav",
+      "offset": 4454426,
+      "size": 9202,
+      "flags": 0,
+      "sha256": "5c3da95fccb955f867c9c663034307c055c159344e5155ff8bd4ecab001cd694"
+    },
+    {
+      "name": "sounds/impulsegun.wav",
+      "offset": 4463628,
+      "size": 5648,
+      "flags": 0,
+      "sha256": "dd3dde199b3065ab231a4f4c247041df1d0bf974f41a781915cec018b277946e"
+    },
+    {
+      "name": "sounds/uzi.wav",
+      "offset": 4469276,
+      "size": 3978,
+      "flags": 0,
+      "sha256": "178493149aadc6b6df0aa2263107de0b97bc77aef0061360f75520da39dedcf6"
+    },
+    {
+      "name": "sounds/biglaser.wav",
+      "offset": 4473254,
+      "size": 30490,
+      "flags": 0,
+      "sha256": "8893e3d716ab0147a21f98828fdbb0191351349248344a515e681c92e823ca97"
+    },
+    {
+      "name": "sounds/bomb.wav",
+      "offset": 4503744,
+      "size": 137196,
+      "flags": 0,
+      "sha256": "9be024ab5505b347b973cfd68750796e315f68e397506659b1bc2d4cc9a58ae6"
+    },
+    {
+      "name": "sounds/bpg.wav",
+      "offset": 4640940,
+      "size": 21366,
+      "flags": 0,
+      "sha256": "5602624a2c7f2da745a8f3e7429d6bf0419ca2f361a5802e35572524cd6cf543"
+    },
+    {
+      "name": "sounds/gorox.wav",
+      "offset": 4662306,
+      "size": 2956,
+      "flags": 0,
+      "sha256": "f3bd8b1219207b56dcbd6c4104a5ad2819a3d954ffa317a9b10b85a4b1d4d0bd"
+    },
+    {
+      "name": "sounds/i_ammo.wav",
+      "offset": 4665262,
+      "size": 16384,
+      "flags": 0,
+      "sha256": "874fbe4ff9bccade8a71e52f21c4b413493dbf56a46b088017c6ff126bd73c30"
+    },
+    {
+      "name": "sounds/i_armor.wav",
+      "offset": 4681646,
+      "size": 19484,
+      "flags": 0,
+      "sha256": "505f3c1cb5f4ec0cd7ace425989024ac3cd98613291ae06b81d57efe165c9367"
+    },
+    {
+      "name": "sounds/i_help.wav",
+      "offset": 4701130,
+      "size": 70114,
+      "flags": 0,
+      "sha256": "4e489259d0b4458abd13005942c70ddbf2c889da28826295722fef0e07219c7c"
+    },
+    {
+      "name": "sounds/i_life.wav",
+      "offset": 4771244,
+      "size": 39420,
+      "flags": 0,
+      "sha256": "1e1cc42c3eb500cfc227b3690720c9bbd6e28ecd134cb2af48ebd0975c2dfe5e"
+    },
+    {
+      "name": "sounds/i_missiles.wav",
+      "offset": 4810664,
+      "size": 31304,
+      "flags": 0,
+      "sha256": "05c52cc3ecd6c279ff091c3ba79bd6a28c734be10ddea44db403f12dfa81ca93"
+    },
+    {
+      "name": "sounds/i_points.wav",
+      "offset": 4841968,
+      "size": 21178,
+      "flags": 0,
+      "sha256": "1ae50908d0458b5f04a18f65678238b264971c832c1eb9ad7d55ce03a8a0f212"
+    },
+    {
+      "name": "sounds/i_powerup.wav",
+      "offset": 4863146,
+      "size": 33574,
+      "flags": 0,
+      "sha256": "2d7a24ca9e0fda390bb19e4938078ac3261679214dba5c85c8e1e94d6c290d52"
+    },
+    {
+      "name": "sounds/i_star.wav",
+      "offset": 4896720,
+      "size": 35972,
+      "flags": 0,
+      "sha256": "cb4bb624b5c3e971b94ad1e04caf712f2fab9650f457846cfb1380398c06b6cc"
+    },
+    {
+      "name": "sounds/meteorite.wav",
+      "offset": 4932692,
+      "size": 36422,
+      "flags": 0,
+      "sha256": "a424e6acf0541af7573f3771949e5c6e67ec8739da2d46791407eb2200bd9134"
+    },
+    {
+      "name": "sounds/wavegun.wav",
+      "offset": 4969114,
+      "size": 31794,
+      "flags": 0,
+      "sha256": "6b8b6a48e5dc52d8dd71f6f789b5eda7db5ffb2e904a73f70200fc35b6163740"
+    },
+    {
+      "name": "sounds/boss2_gun.wav",
+      "offset": 5000908,
+      "size": 26350,
+      "flags": 0,
+      "sha256": "552a487cc49c1b0d413cf6e48460d3916fc205311aac000f8efb547369f17a20"
+    },
+    {
+      "name": "sounds/i_shield.wav",
+      "offset": 5027258,
+      "size": 3050,
+      "flags": 0,
+      "sha256": "ee84a091b64d3da6f81e288fe8685074d6dfaa314094ccdd115b226612878e64"
+    },
+    {
+      "name": "sounds/i_speedup.wav",
+      "offset": 5030308,
+      "size": 4562,
+      "flags": 0,
+      "sha256": "2e4d2357e345ef5b2225a6db14daec62e962d29ec92dc813b50d9d16c6583792"
+    },
+    {
+      "name": "sounds/type.wav",
+      "offset": 5034870,
+      "size": 2052,
+      "flags": 0,
+      "sha256": "26b2fb7c5bfa3b975af34939e23352c45c011bca99216b05aa9d091aafe6740d"
+    },
+    {
+      "name": "sounds/abomb_expl.wav",
+      "offset": 5036922,
+      "size": 78110,
+      "flags": 0,
+      "sha256": "b3f43bd01a3d5697cbe1ff3f3839552f45f103f554e019f339e3dd89eaeaf166"
+    },
+    {
+      "name": "sounds/cheat.wav",
+      "offset": 5115032,
+      "size": 109986,
+      "flags": 0,
+      "sha256": "4b3b6b8457312d2c0550d9342ac9a59b9c8232aee047b0d737442115790c48a6"
+    },
+    {
+      "name": "sounds/menu1.wav",
+      "offset": 5225018,
+      "size": 12288,
+      "flags": 0,
+      "sha256": "e40f3d1b726c2433852c10438e5556fa045c98aa9e331fa5bcb9a11009f85b1c"
+    },
+    {
+      "name": "sounds/menu2.wav",
+      "offset": 5237306,
+      "size": 6404,
+      "flags": 0,
+      "sha256": "38356348eb1e5bc8dde9caf6738a3a32cde23602a30904d0c2b13d67f6f346ce"
+    },
+    {
+      "name": "sounds/bomber.wav",
+      "offset": 5243710,
+      "size": 296160,
+      "flags": 0,
+      "sha256": "a4f648c2f3f5ebc7676fc8f7114b701448fc2c9afe3e346e7ebb47dd5f539c06"
+    },
+    {
+      "name": "sounds/boss1_luk.wav",
+      "offset": 5539870,
+      "size": 87604,
+      "flags": 0,
+      "sha256": "68cb198d5b6a600bed7af313e21700b6fa39ddf78e42e1a365502b1bd8f60a49"
+    },
+    {
+      "name": "sounds/boss1_popadanie.wav",
+      "offset": 5627474,
+      "size": 34870,
+      "flags": 0,
+      "sha256": "31cda4682c02cf68fe74dfbbc5df025bcff7576a124b63f0206dfd457a4fb536"
+    },
+    {
+      "name": "sounds/boss1_raket.wav",
+      "offset": 5662344,
+      "size": 57984,
+      "flags": 0,
+      "sha256": "3724d7685fc8a26671b14a99a9a2939e10628a5c2d58430c5e9484f9bd197442"
+    },
+    {
+      "name": "sounds/boss1_start.wav",
+      "offset": 5720328,
+      "size": 109566,
+      "flags": 0,
+      "sha256": "c275cd40a91f2cae5a4ede1d0c829ee2e1592fc5dc8f1ea02011f97a0a8911ac"
+    },
+    {
+      "name": "sounds/lightinggun.wav",
+      "offset": 5829894,
+      "size": 19070,
+      "flags": 0,
+      "sha256": "0469c9ef063ec6bf6a79db69c0f0c808c12b2aa20c18226783d022c5e7872197"
+    },
+    {
+      "name": "sounds/missilegun.wav",
+      "offset": 5848964,
+      "size": 10060,
+      "flags": 0,
+      "sha256": "b53212264d37b0f4a26e388ccc7d953eae5dd792c3f47ddd3d9fd5ae889d23ea"
+    },
+    {
+      "name": "sounds/satellitestrike.wav",
+      "offset": 5859024,
+      "size": 91246,
+      "flags": 0,
+      "sha256": "316996b703712f514effd36ec075d5a8c5079d6a16bbd6b34698598256472ff0"
+    }
+  ]
+}

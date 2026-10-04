@@ -1,0 +1,225 @@
+
+////////////////////////////////////////////////////////////////////
+/////////////////////// rocketlauncher_green ///////////////////////
+////////////////////////////////////////////////////////////////////
+
+svet_redflasher {
+	model   "models/misc/svet_far.mdl"
+        skin    "models/misc/svet_far_red.tga"
+        blend   BLEND_ADD
+	rflag   RF_NOCULLING
+        rflag   RF_NODEPTHWRITE
+
+	light_dir 400 1.1 0 0 0 1 -0.2 100
+} 
+
+rocketlauncher_green_flasher {
+        model   "models\rocketlauncher_mobil\rocketlauncher_flasher.mdl"
+        skin    "models\rocketlauncher_mobil\raketnitsa.tga"
+
+        attach abs "svet_redflasher" "tag_light"
+
+        envmap  "gfx\envmap3.tga"
+        envmode ENV_GLITTER
+
+        script  "scripts\rocketlauncher\rl_flasher.scr"
+}
+
+rocketlauncher_green_rocketblock {
+        model   "models\rocketlauncher_mobil\rocketlauncher_rocketblock.mdl"
+        skin    "models\rocketlauncher_mobil\raketnitsa.tga"
+
+        script  "scripts\rocketlauncher\rl_rocketblock.scr"
+}
+
+rocketlauncher_green_rocketsholders {
+        model   "models\rocketlauncher_mobil\rocketlauncher_holders.mdl"
+        skin    "models\rocketlauncher_mobil\raketnitsa.tga"
+
+        envmap  "gfx\envmap3.tga"
+        envmode ENV_GLITTER
+
+        script  "scripts\rocketlauncher\rl_holders.scr"
+}
+
+rocketlauncher_green_rocketbase {
+        model   "models\rocketlauncher_mobil\rocketlauncher_rocketbase.mdl"
+        skin    "models\rocketlauncher_mobil\raketnitsa.tga"
+
+        attach abs "rocketlauncher_green_rocketsholders" "tag_rocketsholder"
+        attach abs id "GUNS" "rocketlauncher_green_rocketblock" "tag_rocketblock"
+
+        script  "scripts\rocketlauncher\rl_rocketbase.scr"
+}
+
+
+rocketlauncher_mobile_green {
+        health  1000
+        flag    FL_ONGROUND_NORMAL
+        enemy
+
+	score	1500
+
+	skid_mark  12 0 10 "gfx/marks/tankmark1.tga"
+	skid_mark -12 0 10 "gfx/marks/tankmark1.tga"
+
+        model   "models\rocketlauncher_mobil\rocketlauncher.mdl"
+        skin    "models\rocketlauncher_mobil\raketnitsa.tga"
+        shadow  SHADOW_PLANAR_LOW
+
+	attach  "helic_redflare"        "tag_flare1"
+	attach  "helic_redflare"        "tag_flare2"
+
+        attach abs id "ROCKETBASE" "rocketlauncher_green_rocketbase" "tag_rocketbase"
+        attach abs "rocketlauncher_green_flasher" "tag_flasher"
+
+        attach abs night "svet_far" "tag_fara1"
+        attach abs night "svet_far_wol" "tag_fara2"
+        attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+        script  "scripts\rocketlauncher\rl.scr"
+}
+
+///////////////////////////////////////////////////////////////////
+////////////////////////rocketlauncher_lgreen////////////////////////
+///////////////////////////////////////////////////////////////////
+
+
+rocketlauncher_lgreen_flasher {
+        model   "models\rocketlauncher_mobil\rocketlauncher_flasher.mdl"
+        skin    "models\rocketlauncher_mobil\raketnitsa_lgreen.tga"
+
+        attach abs "svet_redflasher" "tag_light"
+
+        envmap  "gfx\envmap3.tga"
+        envmode ENV_GLITTER
+
+        script  "scripts\rocketlauncher\rl_flasher.scr"
+}
+
+rocketlauncher_lgreen_rocketblock {
+        model   "models\rocketlauncher_mobil\rocketlauncher_rocketblock.mdl"
+        skin    "models\rocketlauncher_mobil\raketnitsa_lgreen.tga"
+
+        script  "scripts\rocketlauncher\rl_rocketblock.scr"
+}
+
+rocketlauncher_lgreen_rocketsholders {
+        model   "models\rocketlauncher_mobil\rocketlauncher_holders.mdl"
+        skin    "models\rocketlauncher_mobil\raketnitsa_lgreen.tga"
+
+        envmap  "gfx\envmap3.tga"
+        envmode ENV_GLITTER
+
+        script  "scripts\rocketlauncher\rl_holders.scr"
+}
+
+rocketlauncher_lgreen_rocketbase {
+        model   "models\rocketlauncher_mobil\rocketlauncher_rocketbase.mdl"
+        skin    "models\rocketlauncher_mobil\raketnitsa_lgreen.tga"
+
+        attach abs "rocketlauncher_lgreen_rocketsholders" "tag_rocketsholder"
+        attach abs id "GUNS" "rocketlauncher_lgreen_rocketblock" "tag_rocketblock"
+
+        script  "scripts\rocketlauncher\rl_rocketbase.scr"
+}
+
+
+rocketlauncher_mobile_lgreen {
+        health  1700
+        flag    FL_ONGROUND_NORMAL
+        enemy
+
+	score	2200
+
+	skid_mark  12 0 10 "gfx/marks/tankmark1.tga"
+	skid_mark -12 0 10 "gfx/marks/tankmark1.tga"
+
+        model   "models\rocketlauncher_mobil\rocketlauncher.mdl"
+        skin    "models\rocketlauncher_mobil\raketnitsa_lgreen.tga"
+        shadow  SHADOW_PLANAR_LOW
+
+	attach  "helic_redflare"        "tag_flare1"
+	attach  "helic_redflare"        "tag_flare2"
+
+        attach abs id "ROCKETBASE" "rocketlauncher_lgreen_rocketbase" "tag_rocketbase"
+        attach abs "rocketlauncher_lgreen_flasher" "tag_flasher"
+
+        attach abs night "svet_far" "tag_fara1"
+        attach abs night "svet_far_wol" "tag_fara2"
+        attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+        script  "scripts\rocketlauncher\rl.scr"
+} 
+
+///////////////////////////////////////////////////////////////////
+////////////////////////rocketlauncher_winter////////////////////////
+///////////////////////////////////////////////////////////////////
+
+
+rocketlauncher_winter_flasher {
+        model   "models\rocketlauncher_mobil\rocketlauncher_flasher.mdl"
+        skin    "models\rocketlauncher_mobil\raketnitsa_winter.tga"
+
+        attach abs "svet_redflasher" "tag_light"
+
+        envmap  "gfx\envmap3.tga"
+        envmode ENV_GLITTER
+
+        script  "scripts\rocketlauncher\rl_flasher.scr"
+}
+
+rocketlauncher_winter_rocketblock {
+        model   "models\rocketlauncher_mobil\rocketlauncher_rocketblock.mdl"
+        skin    "models\rocketlauncher_mobil\raketnitsa_winter.tga"
+
+        script  "scripts\rocketlauncher\rl_rocketblock.scr"
+}
+
+rocketlauncher_winter_rocketsholders {
+        model   "models\rocketlauncher_mobil\rocketlauncher_holders.mdl"
+        skin    "models\rocketlauncher_mobil\raketnitsa_winter.tga"
+
+        envmap  "gfx\envmap3.tga"
+        envmode ENV_GLITTER
+
+        script  "scripts\rocketlauncher\rl_holders.scr"
+}
+
+rocketlauncher_winter_rocketbase {
+        model   "models\rocketlauncher_mobil\rocketlauncher_rocketbase.mdl"
+        skin    "models\rocketlauncher_mobil\raketnitsa_winter.tga"
+
+        attach abs "rocketlauncher_winter_rocketsholders" "tag_rocketsholder"
+        attach abs id "GUNS" "rocketlauncher_winter_rocketblock" "tag_rocketblock"
+
+        script  "scripts\rocketlauncher\rl_rocketbase.scr"
+}
+
+rocketlauncher_mobile_winter {
+        health  1400
+        flag    FL_ONGROUND_NORMAL
+        enemy
+
+	score	2000
+
+	skid_mark  12 0 10 "gfx/marks/tankmark1.tga"
+	skid_mark -12 0 10 "gfx/marks/tankmark1.tga"
+
+        model   "models\rocketlauncher_mobil\rocketlauncher.mdl"
+        skin    "models\rocketlauncher_mobil\raketnitsa_winter.tga"
+        shadow  SHADOW_PLANAR_LOW
+
+	attach  "helic_redflare"        "tag_flare1"
+	attach  "helic_redflare"        "tag_flare2"
+
+        attach abs id "ROCKETBASE" "rocketlauncher_winter_rocketbase" "tag_rocketbase"
+        attach abs "rocketlauncher_winter_flasher" "tag_flasher"
+
+        attach abs night "svet_far" "tag_fara1"
+        attach abs night "svet_far_wol" "tag_fara2"
+        attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+        script  "scripts\rocketlauncher\rl.scr"
+} 
+

@@ -1,0 +1,12 @@
+entry=7 slots=16 functions=['RotateTo', 'lRotateTo']
+0000 MOVE               a=0 b=-1 c=0 flags=0x00
+0001 MOVE               a=1 b=1065353216 c=0 flags=0x10 b_float=1
+0002 CALL               a=-1 b=0 c=0 flags=0x00 external=RotateTo
+0003 YIELD              a=0 b=0 c=0 flags=0x00
+0004 INDEX_ADDRESS      a=-2 b=24 c=0 flags=0x00
+0005 MOVE               a=0 b=1120403456 c=0 flags=0x92 b_float=100
+0006 YIELD              a=0 b=0 c=0 flags=0x00
+0007 MOVE               a=0 b=-1 c=0 flags=0x00
+0008 MOVE               a=1 b=1065353216 c=0 flags=0x10 b_float=1
+0009 CALL_WAIT          a=-2 b=0 c=0 flags=0x00 external=lRotateTo
+0010 YIELD              a=0 b=0 c=0 flags=0x00

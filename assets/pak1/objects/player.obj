@@ -1,0 +1,790 @@
+
+p_expl1 {
+	flag    FL_NODRAW
+	script	"scripts\effects\p_expl1.scr"
+	attach  PS_EXPLOSION_SPARKS "origin"
+}
+
+p_expl_wave {
+	model	"models\misc\sphere.mdl"
+	skin	"models\misc\hlanno.tga"
+        blend	BLEND_ADD
+	rflag	RF_NOLIGHTING
+	rflag	RF_NODEPTHWRITE
+	script	"scripts\effects\p_wave.scr"
+}
+
+
+p_speedup {
+	flag	FL_TEMPORARY
+	flag	FL_NODRAW
+	script	"scripts\player\common\p_speedup.scr"
+}
+
+p_speeddown {
+	flag	FL_TEMPORARY
+	flag	FL_NODRAW
+	script	"scripts\player\common\p_speeddown.scr"
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////// player1 //////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////
+
+bomber_bomb {
+	flag FL_TEMPORARY
+
+	model	"models\mapobjects\barrel\barrel1.mdl"
+	skin	"models\mapobjects\misc\misc.tga"
+
+	script	"scripts\player\bomber_bomb.scr"
+}
+                                              
+player_bomber 
+{
+        health  1000
+        civilian
+
+
+        model   "models/planes/plane_a/plane_a.mdl"
+        skin    "models/planes/plane_a/plane_a_blue.tga"
+        shadow  SHADOW_PLANAR_LOW
+
+	envmode	ENV_GLITTER
+	envmap  "gfx\chrome3.tga"
+
+	attach  "helic_redflare" "tag_flare01"
+	attach  "helic_redflare" "tag_flare02"
+	attach  "whiteflare_small" "tag_flare03"
+	attach  "whiteflare_small" "tag_flare04"
+	attach  "helic_redflare" "tag_flare05"
+	attach  "helic_redflare" "tag_flare06"
+	attach  "helic_redflare" "tag_flare07"
+
+//        attach abs night "svet_far" "tag_fara"
+        attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin
+
+	script	"scripts\player\bomber.scr"
+}
+
+player1_moln {
+
+	flag	FL_TEMPORARY
+	model	"models\helics\player1\player1_shield.mdl"
+	skin	"gfx\black.tga"
+
+	envmap	"gfx\effects\moln.tga"
+	envmode	ENV_QUAD
+
+	rflag	RF_NOLIGHTING
+	blend	BLEND_ADD
+	script	"scripts\player\common\p_moln.scr"
+}
+
+player1_shield {
+
+        flag    FL_TEMPORARY
+	model	"models\helics\player1\player1_shield.mdl"
+        skin    "gfx\black.tga"
+
+        envmap  "gfx\effects\shield.tga"
+        envmode ENV_QUAD
+
+        rflag   RF_NOLIGHTING
+        blend   BLEND_ADD
+	script	"scripts\player\common\p_shield.scr"
+}
+
+player1_rshield {
+
+        flag    FL_TEMPORARY
+	model	"models\helics\player1\player1_shield.mdl"
+        skin    "gfx\black.tga"
+
+        envmap  "gfx\effects\shield.tga"
+        envmode ENV_QUAD
+
+        rflag   RF_NOLIGHTING
+        blend   BLEND_ADD
+	script	"scripts\player\common\p_rshield.scr"
+}
+
+player1_kabina {
+
+	model	"models\helics\player1\player1_kabina.mdl"
+	skin	"models\helics\player1\player1_kabina.tga"
+	envmap	"gfx\chrome2.tga"
+	envmode	ENV_GLITTER
+        blend   BLEND_ALPHA
+}
+
+player_1 {
+
+	player
+
+	health	500
+	speed	1.0
+
+	flag	FL_TEMPORARY
+                 
+	model	"models\helics\player1\player1_base.mdl"
+	skin	"models\helics\player1\player1.tga"
+
+	envmap	"gfx\envmap4.tga"
+	envmode	ENV_GLITTER
+
+	shadow	SHADOW_PLANAR_PROJECTED_HIGH
+	attach abs night  "svet_far_helic" "tag_fara"
+	attach	"helic_redflare" "tag_flare01"
+	attach	"helic_redflare" "tag_flare02"
+	attach	"helic_redflare" "tag_flare03"
+	attach	"whiteflare_small" "tag_flare04"
+	attach	"whiteflare_small" "tag_flare05"
+
+	attach abs "player1_kabina" "tag_kabina"
+
+	attach abs "player1_vint" "tag_vint1"
+	attach abs "player1_vint_small" "tag_vint02"
+
+	attach id "FLAMETHROWER"  "flamefrower_proj" "tag_fire01"
+	attach id "FLAMETHROWER2" "flamefrower2_proj" "tag_fire01"
+	attach id "FLAMETHROWER3" "flamefrower3_proj" "tag_fire01"
+
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin
+	attach id "CAMPFIRE_ALMOSTDEAD2" "PS_CAMPFIRE_HELIC_ALMOSTDEAD_LARGE" origin
+
+	script	"scripts\player\player1\player1.scr"
+}
+
+player1_vint {
+
+	model	"models\helics\player1\player1_vint.mdl"
+	skin	"models\helics\player1\vint_blue.tga"
+	
+	blend	BLEND_ALPHA
+	rflag	RF_NOCULLING
+	rflag	RF_NODEPTHWRITE
+	sort	SORT_TRANS
+	script	"scripts\player\player1\player1_vint.scr"
+}
+
+player1_vint_small {
+
+	model	"models\helics\vints\vint_small.mdl"
+	skin	"models\helics\vints\vint_small.tga"
+	
+	blend	BLEND_ALPHA
+	rflag	RF_NOCULLING
+	rflag	RF_NODEPTHWRITE
+	sort	SORT_TRANS
+
+	script	"scripts\player\player1\player1_vint_small.scr"
+}
+
+
+
+
+////////////////////////////////////////////////////////////////////////
+/////////////////////////////// player2 ////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+
+player2_kabina {
+
+	model	"models\helics\player2\player2_kabina.mdl"
+	skin	"models\helics\player2\kabina.tga"
+	envmap	"gfx\chrome2.tga"
+	envmode	ENV_GLITTER
+        blend   BLEND_ALPHA
+}
+
+player2_vint {
+
+	model	"models\helics\player2\player2_vint.mdl"
+	skin	"models\helics\player2\vint.tga"
+	
+	blend	BLEND_ALPHA
+	rflag	RF_NOCULLING
+	rflag	RF_NODEPTHWRITE
+	sort	SORT_TRANS
+	script  "scripts\player\player2\player2_vint.scr"
+}
+
+player2_vint_1 {
+
+	model	"models\helics\player2\player2_vint.mdl"
+	skin	"models\helics\player2\vint.tga"
+	
+	blend	BLEND_ALPHA
+	rflag	RF_NOCULLING
+	rflag	RF_NODEPTHWRITE
+	sort	SORT_TRANS
+	script  "scripts\player\player2\player2_vint_1.scr"
+}
+
+player2_rshield {
+
+        flag    FL_TEMPORARY
+	model	"models\helics\player2\player2_shield.mdl"
+        skin    "gfx\black.tga"
+
+        envmap  "gfx\effects\shield.tga"
+        envmode ENV_QUAD
+
+        rflag   RF_NOLIGHTING
+        blend   BLEND_ADD
+	script	"scripts\player\common\p_rshield.scr"
+}
+
+player2_shield {
+
+        flag    FL_TEMPORARY
+	model	"models\helics\player2\player2_shield.mdl"
+        skin    "gfx\black.tga"
+
+        envmap  "gfx\effects\shield.tga"
+        envmode ENV_QUAD
+
+        rflag   RF_NOLIGHTING
+        blend   BLEND_ADD
+	script	"scripts\player\common\p_rshield.scr"
+}
+
+player2_moln {
+
+        flag    FL_TEMPORARY
+	model	"models\helics\player2\player2_shield.mdl"
+        skin    "gfx\black.tga"
+
+	envmap	"gfx\effects\moln.tga"
+	envmode	ENV_QUAD
+
+        rflag   RF_NOLIGHTING
+        blend   BLEND_ADD
+	script	"scripts\player\common\p_moln.scr"
+}
+
+player_2 {
+	player
+
+	health	400
+	speed	1.25
+
+	flag	FL_TEMPORARY
+
+	model	"models\helics\player2\player2_base.mdl"
+	skin	"models\helics\player2\player2.tga"
+
+	shadow	SHADOW_PLANAR_PROJECTED_HIGH
+
+	attach abs night  "svet_far_helic" "tag_fara"
+	attach	"helic_redflare" "tag_flare01"
+	attach	"helic_redflare" "tag_flare02"
+	attach	"whiteflare_small" "tag_flare03"
+	attach	"whiteflare_small" "tag_flare04"
+	attach	"whiteflare_small" "tag_flare05"
+
+	attach abs "player2_kabina" "tag_kabina"
+
+	attach abs "player2_vint" "tag_vint01"
+	attach abs "player2_vint_1" "tag_vint01_1"
+
+	attach id "FLAMETHROWER"  "flamefrower_proj" "tag_fire01"
+	attach id "FLAMETHROWER2" "flamefrower2_proj" "tag_fire01"
+	attach id "FLAMETHROWER3" "flamefrower3_proj" "tag_fire01"
+
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin
+	attach id "CAMPFIRE_ALMOSTDEAD2" "PS_CAMPFIRE_HELIC_ALMOSTDEAD_LARGE" origin
+
+	script	"scripts\player\player2\player2.scr"
+}
+
+
+////////////////////////////////////////////////////////////////////////
+/////////////////////////////// player3 ////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+
+player3_rshield {
+
+        flag    FL_TEMPORARY
+                        
+	model	"models\helics\player3\player3_shield.mdl"
+        skin    "gfx\black.tga"
+
+        envmap  "gfx\effects\shield.tga"
+        envmode ENV_QUAD
+
+        rflag   RF_NOLIGHTING
+        blend   BLEND_ADD
+	script	"scripts\player\common\p_rshield.scr"
+}
+
+player3_shield {
+
+	flag    FL_TEMPORARY
+	model	"models\helics\player3\player3_shield.mdl"
+	skin    "gfx\black.tga"
+
+	envmap  "gfx\effects\shield.tga"
+	envmode ENV_QUAD
+
+	rflag   RF_NOLIGHTING
+	blend   BLEND_ADD
+	script	"scripts\player\common\p_shield.scr"
+}
+
+player3_moln {
+
+	flag    FL_TEMPORARY
+	model	"models\helics\player3\player3_shield.mdl"
+	skin    "gfx\black.tga"
+
+	envmap	"gfx\effects\moln.tga"
+	envmode	ENV_QUAD
+
+	rflag   RF_NOLIGHTING
+	blend   BLEND_ADD
+	script	"scripts\player\common\p_moln.scr"
+}
+
+
+player3_kabina {
+
+	model	"models\helics\player3\player3_kabina.mdl"
+	skin	"models\helics\player3\kabina.tga"
+	envmap	"gfx\chrome2.tga"
+	envmode	ENV_GLITTER
+	blend   BLEND_ALPHA
+}
+
+player_3 {
+
+	health	300
+	speed	1.4
+
+	player
+	flag	FL_TEMPORARY
+
+	model	"models\helics\player3\player3.mdl"
+	skin	"models\helics\player3\player3.tga"
+
+	shadow	SHADOW_PLANAR_PROJECTED_HIGH
+
+	attach abs night  "svet_far_helic" "tag_fara"
+	attach	"helic_redflare" "tag_flare01"
+	attach	"helic_redflare" "tag_flare02"
+	attach	"whiteflare_small" "tag_flare03"
+	attach	"whiteflare_small" "tag_flare04"
+	attach	"whiteflare_small" "tag_flare05"
+
+	attach abs "player3_kabina" "tag_kabina"
+
+	attach abs "player3_vint" "tag_vint01"
+	attach abs "player3_vint_small" "tag_vint02"
+
+	attach id "FLAMETHROWER"  "flamefrower_proj" "tag_fire01"
+	attach id "FLAMETHROWER2" "flamefrower2_proj" "tag_fire01"
+	attach id "FLAMETHROWER3" "flamefrower3_proj" "tag_fire01"
+
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin
+	attach id "CAMPFIRE_ALMOSTDEAD2" "PS_CAMPFIRE_HELIC_ALMOSTDEAD_LARGE" origin
+
+	script	"scripts\player\player3\player3.scr"
+}
+
+player3_vint {
+
+	model	"models\helics\player3\player3_vint.mdl"
+	skin	"models\helics\player3\vint.tga"
+	
+	blend	BLEND_ALPHA
+	rflag	RF_NOCULLING
+	rflag	RF_NODEPTHWRITE
+	sort	SORT_TRANS
+	script  "scripts\player\player3\player3_vint.scr"
+}
+
+player3_vint_small {
+
+	model	"models\helics\vints\vint_small.mdl"
+	skin	"models\helics\vints\vint_small.tga"
+	
+	blend	BLEND_ALPHA
+	rflag	RF_NOCULLING
+	rflag	RF_NODEPTHWRITE
+	sort	SORT_TRANS
+
+	script	"scripts\player\player3\player3_vint_small.scr"
+}
+
+
+///////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////// player4 //////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////
+
+player4_moln {
+
+	flag	FL_TEMPORARY
+	model	"models\helics\player1\player1_shield.mdl"
+	skin	"gfx\black.tga"
+
+	envmap	"gfx\effects\moln.tga"
+	envmode	ENV_QUAD
+
+	rflag	RF_NOLIGHTING
+	blend	BLEND_ADD
+	script	"scripts\player\common\p_moln.scr"
+}
+
+player4_shield {
+
+        flag    FL_TEMPORARY
+	model	"models\helics\player1\player1_shield.mdl"
+        skin    "gfx\black.tga"
+
+        envmap  "gfx\effects\shield.tga"
+        envmode ENV_QUAD
+
+        rflag   RF_NOLIGHTING
+        blend   BLEND_ADD
+	script	"scripts\player\common\p_shield.scr"
+}
+
+player4_rshield {
+
+        flag    FL_TEMPORARY
+	model	"models\helics\player1\player1_shield.mdl"
+        skin    "gfx\black.tga"
+
+        envmap  "gfx\effects\shield.tga"
+        envmode ENV_QUAD
+
+        rflag   RF_NOLIGHTING
+        blend   BLEND_ADD
+	script	"scripts\player\common\p_rshield.scr"
+}
+
+player4_kabina {
+
+	model	"models\helics\player1\player1_kabina.mdl"
+	skin	"models\helics\player1\player1_kabina.tga"
+	envmap	"gfx\chrome2.tga"
+	envmode	ENV_GLITTER
+        blend   BLEND_ALPHA
+}
+
+//p_com_kabina {
+
+//	model	"models\helics\player1\player1_kabina.mdl"
+//	skin	"models\helics\player1\player1_kabina.tga"
+//	envmap	"gfx\chrome2.tga"
+//	envmode	ENV_GLITTER
+//        blend   BLEND_ALPHA
+//}
+
+player_4 {
+
+	player
+
+	health	600
+	speed	0.85
+
+	flag	FL_TEMPORARY
+                 
+	model	"models\helics\player1\player1_base.mdl"
+	skin	"models\helics\player1\player4.tga"
+
+	envmap	"gfx\envmap4.tga"
+	envmode	ENV_GLITTER
+
+	shadow	SHADOW_PLANAR_PROJECTED_HIGH
+	attach abs night  "svet_far_helic" "tag_fara"
+	attach	"helic_redflare" "tag_flare01"
+	attach	"helic_redflare" "tag_flare02"
+	attach	"helic_redflare" "tag_flare03"
+	attach	"whiteflare_small" "tag_flare04"
+	attach	"whiteflare_small" "tag_flare05"
+
+	attach abs "player4_kabina" "tag_kabina"
+
+	attach abs "player4_vint" "tag_vint1"
+	attach abs "player4_vint_small" "tag_vint02"
+
+	attach id "FLAMETHROWER"  "flamefrower_proj" "tag_fire01"
+	attach id "FLAMETHROWER2" "flamefrower2_proj" "tag_fire01"
+	attach id "FLAMETHROWER3" "flamefrower3_proj" "tag_fire01"
+
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin
+	attach id "CAMPFIRE_ALMOSTDEAD2" "PS_CAMPFIRE_HELIC_ALMOSTDEAD_LARGE" origin
+
+	script	"scripts\player\player1\player1.scr"
+}
+
+player4_vint {
+
+	model	"models\helics\player1\player1_vint.mdl"
+	skin	"models\helics\player1\vint_blue.tga"
+	
+	blend	BLEND_ALPHA
+	rflag	RF_NOCULLING
+	rflag	RF_NODEPTHWRITE
+	sort	SORT_TRANS
+	script	"scripts\player\player4\player4_vint.scr"
+}
+
+player4_vint_small {
+
+	model	"models\helics\vints\vint_small.mdl"
+	skin	"models\helics\vints\vint_small.tga"
+	
+	blend	BLEND_ALPHA
+	rflag	RF_NOCULLING
+	rflag	RF_NODEPTHWRITE
+	sort	SORT_TRANS
+
+	script	"scripts\player\player4\player4_vint_small.scr"
+}
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////// player5 //////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////
+
+player5_moln {
+
+	flag	FL_TEMPORARY
+	model	"models\helics\player1\player1_shield.mdl"
+	skin	"gfx\black.tga"
+
+	envmap	"gfx\effects\moln.tga"
+	envmode	ENV_QUAD
+
+	rflag	RF_NOLIGHTING
+	blend	BLEND_ADD
+	script	"scripts\player\common\p_moln.scr"
+}
+
+player5_shield {
+
+        flag    FL_TEMPORARY
+	model	"models\helics\player1\player1_shield.mdl"
+        skin    "gfx\black.tga"
+
+        envmap  "gfx\effects\shield.tga"
+        envmode ENV_QUAD
+
+        rflag   RF_NOLIGHTING
+        blend   BLEND_ADD
+	script	"scripts\player\common\p_shield.scr"
+}
+
+player5_rshield {
+
+        flag    FL_TEMPORARY
+	model	"models\helics\player1\player1_shield.mdl"
+        skin    "gfx\black.tga"
+
+        envmap  "gfx\effects\shield.tga"
+        envmode ENV_QUAD
+
+        rflag   RF_NOLIGHTING
+        blend   BLEND_ADD
+	script	"scripts\player\common\p_rshield.scr"
+}
+
+player5_kabina {
+
+	model	"models\helics\player1\player1_kabina.mdl"
+	skin	"models\helics\player1\player1_kabina.tga"
+	envmap	"gfx\chrome2.tga"
+	envmode	ENV_GLITTER
+        blend   BLEND_ALPHA
+}
+
+//p_com_kabina {
+
+//	model	"models\helics\player1\player1_kabina.mdl"
+//	skin	"models\helics\player1\player1_kabina.tga"
+//	envmap	"gfx\chrome2.tga"
+//	envmode	ENV_GLITTER
+//        blend   BLEND_ALPHA
+//}
+
+player_5 {
+
+	player
+
+	health	800
+	speed	0.7
+
+	flag	FL_TEMPORARY
+                 
+	model	"models\helics\player1\player1_base.mdl"
+	skin	"models\helics\player1\player5.tga"
+
+	envmap	"gfx\envmap4.tga"
+	envmode	ENV_GLITTER
+
+	shadow	SHADOW_PLANAR_PROJECTED_HIGH
+	attach abs night  "svet_far_helic" "tag_fara"
+	attach	"helic_redflare" "tag_flare01"
+	attach	"helic_redflare" "tag_flare02"
+	attach	"helic_redflare" "tag_flare03"
+	attach	"whiteflare_small" "tag_flare04"
+	attach	"whiteflare_small" "tag_flare05"
+
+	attach abs "player5_kabina" "tag_kabina"
+
+	attach abs "player5_vint" "tag_vint1"
+	attach abs "player5_vint_small" "tag_vint02"
+
+	attach id "FLAMETHROWER"  "flamefrower_proj" "tag_fire01"
+	attach id "FLAMETHROWER2" "flamefrower2_proj" "tag_fire01"
+	attach id "FLAMETHROWER3" "flamefrower3_proj" "tag_fire01"
+
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin
+	attach id "CAMPFIRE_ALMOSTDEAD2" "PS_CAMPFIRE_HELIC_ALMOSTDEAD_LARGE" origin
+
+	script	"scripts\player\player5\player5.scr"
+}
+
+player5_vint {
+
+	model	"models\helics\player1\player1_vint.mdl"
+	skin	"models\helics\player1\vint_blue.tga"
+	
+	blend	BLEND_ALPHA
+	rflag	RF_NOCULLING
+	rflag	RF_NODEPTHWRITE
+	sort	SORT_TRANS
+	script	"scripts\player\player5\player5_vint.scr"
+}
+
+player5_vint_small {
+
+	model	"models\helics\vints\vint_small.mdl"
+	skin	"models\helics\vints\vint_small.tga"
+	
+	blend	BLEND_ALPHA
+	rflag	RF_NOCULLING
+	rflag	RF_NODEPTHWRITE
+	sort	SORT_TRANS
+
+	script	"scripts\player\player5\player5_vint_small.scr"
+}
+
+////////////////////////////////////////////////////////////////////////
+/////////////////////////////// player6 ////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+
+player6_kabina {
+
+	model	"models\helics\player2\player2_kabina.mdl"
+	skin	"models\helics\player2\kabina.tga"
+	envmap	"gfx\chrome2.tga"
+	envmode	ENV_GLITTER
+        blend   BLEND_ALPHA
+}
+
+player6_vint {
+
+	model	"models\helics\player2\player2_vint.mdl"
+	skin	"models\helics\player2\vint.tga"
+	
+	blend	BLEND_ALPHA
+	rflag	RF_NOCULLING
+	rflag	RF_NODEPTHWRITE
+	sort	SORT_TRANS
+	script  "scripts\player\player6\player6_vint.scr"
+}
+
+player6_vint_1 {
+
+	model	"models\helics\player2\player2_vint.mdl"
+	skin	"models\helics\player2\vint.tga"
+	
+	blend	BLEND_ALPHA
+	rflag	RF_NOCULLING
+	rflag	RF_NODEPTHWRITE
+	sort	SORT_TRANS
+	script  "scripts\player\player6\player6_vint_1.scr"
+}
+
+player6_rshield {
+
+        flag    FL_TEMPORARY
+	model	"models\helics\player2\player2_shield.mdl"
+        skin    "gfx\black.tga"
+
+        envmap  "gfx\effects\shield.tga"
+        envmode ENV_QUAD
+
+        rflag   RF_NOLIGHTING
+        blend   BLEND_ADD
+	script	"scripts\player\common\p_rshield.scr"
+}
+
+player6_shield {
+
+        flag    FL_TEMPORARY
+	model	"models\helics\player2\player2_shield.mdl"
+        skin    "gfx\black.tga"
+
+        envmap  "gfx\effects\shield.tga"
+        envmode ENV_QUAD
+
+        rflag   RF_NOLIGHTING
+        blend   BLEND_ADD
+	script	"scripts\player\common\p_rshield.scr"
+}
+
+player6_moln {
+
+        flag    FL_TEMPORARY
+	model	"models\helics\player2\player2_shield.mdl"
+        skin    "gfx\black.tga"
+
+	envmap	"gfx\effects\moln.tga"
+	envmode	ENV_QUAD
+
+        rflag   RF_NOLIGHTING
+        blend   BLEND_ADD
+	script	"scripts\player\common\p_moln.scr"
+}
+
+player_6 {
+	player
+
+	health	600
+	speed	1.2
+
+	flag	FL_TEMPORARY
+
+	model	"models\helics\player2\player2_base.mdl"
+	skin	"models\helics\player2\player6.tga"
+
+	shadow	SHADOW_PLANAR_PROJECTED_HIGH
+
+	attach abs night  "svet_far_helic" "tag_fara"
+	attach	"helic_redflare" "tag_flare01"
+	attach	"helic_redflare" "tag_flare02"
+	attach	"whiteflare_small" "tag_flare03"
+	attach	"whiteflare_small" "tag_flare04"
+	attach	"whiteflare_small" "tag_flare05"
+
+	attach abs "player6_kabina" "tag_kabina"
+
+	attach abs "player6_vint" "tag_vint01"
+	attach abs "player6_vint_1" "tag_vint01_1"
+
+	attach id "FLAMETHROWER"  "flamefrower_proj" "tag_fire01"
+	attach id "FLAMETHROWER2" "flamefrower2_proj" "tag_fire01"
+	attach id "FLAMETHROWER3" "flamefrower3_proj" "tag_fire01"
+
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin
+	attach id "CAMPFIRE_ALMOSTDEAD2" "PS_CAMPFIRE_HELIC_ALMOSTDEAD_LARGE" origin
+
+	script	"scripts\player\player6\player6.scr"
+}
+
+

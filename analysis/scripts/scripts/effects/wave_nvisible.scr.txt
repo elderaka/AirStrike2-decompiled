@@ -1,0 +1,24 @@
+entry=18 slots=20 functions=['RadialDamage', 'remove']
+0000 DIV                a=18 b=1058642330 c=1 flags=0x10 b_float=0.6
+0001 MOVE               a=16 b=1 c=0 flags=0x00
+0002 MUL                a=16 b=1082130432 c=1 flags=0x10 b_float=4
+0003 ADD                a=1 b=1073741824 c=1 flags=0x10 b_float=2
+0004 MOVE               a=16 b=1 c=0 flags=0x00
+0005 INDEX_ADDRESS      a=-1 b=32 c=0 flags=0x00
+0006 MOVE               a=0 b=16 c=0 flags=0x82
+0007 MUL                a=16 b=1103626240 c=1 flags=0x10 b_float=25
+0008 MOVE               a=19 b=1 c=0 flags=0x00
+0009 INDEX_ADDRESS      a=-1 b=5 c=0 flags=0x00
+0010 MOVE               a=1 b=19 c=0 flags=0x00
+0011 MOVE               a=2 b=1109393408 c=0 flags=0x10 b_float=40
+0012 CALL               a=-1 b=0 c=0 flags=0x00 external=RadialDamage
+0013 ADD                a=18 b=-2 c=18 flags=0x00
+0014 YIELD              a=0 b=0 c=0 flags=0x00
+0015 INDEX_ADDRESS      a=-1 b=32 c=0 flags=0x00
+0016 MOVE               a=0 b=1065353216 c=0 flags=0x92 b_float=1
+0017 YIELD              a=0 b=0 c=0 flags=0x00
+0018 SET_WAIT           a=1058642330 b=0 c=0 flags=0x01 a_float=0.6
+0019 CALL_WAIT          a=0 b=0 c=0 flags=0x00
+0020 MOVE               a=0 b=-1 c=0 flags=0x00
+0021 CALL               a=-2 b=0 c=0 flags=0x00 external=remove
+0022 YIELD              a=0 b=0 c=0 flags=0x00

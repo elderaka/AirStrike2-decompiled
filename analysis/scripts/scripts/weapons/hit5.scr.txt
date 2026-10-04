@@ -1,0 +1,6 @@
+entry=0 slots=16 functions=['sleep', 'remove']
+0000 SET_WAIT           a=1084227584 b=0 c=0 flags=0x01 a_float=5
+0001 CALL_WAIT          a=-1 b=0 c=0 flags=0x00 external=sleep
+0002 MOVE               a=0 b=-1 c=0 flags=0x00
+0003 CALL               a=-2 b=0 c=0 flags=0x00 external=remove
+0004 YIELD              a=0 b=0 c=0 flags=0x00

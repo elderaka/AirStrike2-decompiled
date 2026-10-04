@@ -1,0 +1,40 @@
+entry=21 slots=21 functions=['vec_sub', 'Shoot', 'RotateTo', 'lRotateTo', 'sleep']
+0000 MOVE               a=16 b=0 c=0 flags=0x00
+0001 INDEX_ADDRESS      a=-1 b=5 c=0 flags=0x00
+0002 INDEX_ADDRESS      a=-2 b=5 c=1 flags=0x00
+0003 MOVE               a=2 b=17 c=0 flags=0x00
+0004 CALL               a=-1 b=0 c=0 flags=0x00 external=vec_sub
+0005 INDEX_ADDRESS      a=17 b=1 c=0 flags=0x00
+0006 ADD                a=0 b=1107296256 c=0 flags=0x92 b_float=32
+0007 INDEX_ADDRESS      a=17 b=2 c=0 flags=0x00
+0008 ADD                a=0 b=1107296256 c=0 flags=0x92 b_float=32
+0009 MOVE               a=0 b=0 c=0 flags=0x10 b_float=0
+0010 MOVE               a=1 b=16 c=0 flags=0x00
+0011 MOVE               a=2 b=17 c=0 flags=0x00
+0012 CALL               a=-2 b=0 c=0 flags=0x00 external=Shoot
+0013 YIELD              a=0 b=0 c=0 flags=0x00
+0014 MOVE               a=0 b=-1 c=0 flags=0x00
+0015 MOVE               a=1 b=1065353216 c=0 flags=0x10 b_float=1
+0016 CALL               a=-3 b=0 c=0 flags=0x00 external=RotateTo
+0017 YIELD              a=0 b=0 c=0 flags=0x00
+0018 INDEX_ADDRESS      a=-2 b=24 c=0 flags=0x00
+0019 MOVE               a=0 b=1120403456 c=0 flags=0x92 b_float=100
+0020 YIELD              a=0 b=0 c=0 flags=0x00
+0021 MOVE               a=0 b=-1 c=0 flags=0x00
+0022 MOVE               a=1 b=1065353216 c=0 flags=0x10 b_float=1
+0023 CALL_WAIT          a=-4 b=0 c=0 flags=0x00 external=lRotateTo
+0024 MOVE               a=0 b=23 c=0 flags=0x10 b_float=3.22299e-44
+0025 CALL               a=0 b=0 c=0 flags=0x00
+0026 SET_WAIT           a=1041865114 b=0 c=0 flags=0x01 a_float=0.15
+0027 CALL_WAIT          a=14 b=0 c=0 flags=0x00
+0028 MOVE               a=0 b=31 c=0 flags=0x10 b_float=4.34403e-44
+0029 CALL               a=0 b=0 c=0 flags=0x00
+0030 SET_WAIT           a=1041865114 b=0 c=0 flags=0x01 a_float=0.15
+0031 CALL_WAIT          a=14 b=0 c=0 flags=0x00
+0032 MOVE               a=0 b=39 c=0 flags=0x10 b_float=5.46506e-44
+0033 CALL               a=0 b=0 c=0 flags=0x00
+0034 SET_WAIT           a=1041865114 b=0 c=0 flags=0x01 a_float=0.15
+0035 CALL_WAIT          a=14 b=0 c=0 flags=0x00
+0036 SET_WAIT           a=1060320051 b=0 c=0 flags=0x01 a_float=0.7
+0037 CALL_WAIT          a=-5 b=0 c=0 flags=0x00 external=sleep
+0038 YIELD              a=0 b=0 c=0 flags=0x00

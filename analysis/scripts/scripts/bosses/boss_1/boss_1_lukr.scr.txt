@@ -1,0 +1,31 @@
+entry=20 slots=16 functions=['create', 'sleep']
+0000 INDEX_ADDRESS      a=-1 b=14 c=0 flags=0x00
+0001 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+0002 MUL                a=1109393408 b=-2 c=1 flags=0x01 a_float=40
+0003 ADD                a=0 b=1 c=0 flags=0x82
+0004 INDEX_ADDRESS      a=-1 b=14 c=0 flags=0x00
+0005 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+0006 GE                 a=0 b=1119092736 c=0 flags=0x12 b_float=90
+0007 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+0008 RETURN             a=0 b=0 c=0 flags=0x00
+0009 YIELD              a=0 b=0 c=0 flags=0x00
+0010 INDEX_ADDRESS      a=-1 b=14 c=0 flags=0x00
+0011 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+0012 MUL                a=1109393408 b=-2 c=1 flags=0x01 a_float=40
+0013 SUB                a=0 b=1 c=0 flags=0x82
+0014 INDEX_ADDRESS      a=-1 b=14 c=0 flags=0x00
+0015 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+0016 LE                 a=0 b=0 c=0 flags=0x12 b_float=0
+0017 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+0018 RETURN             a=0 b=0 c=0 flags=0x00
+0019 YIELD              a=0 b=0 c=0 flags=0x00
+0020 CALL_WAIT          a=0 b=0 c=0 flags=0x00
+0021 MOVE               a=0 b=0 c=0 flags=0x10 b_float=0
+0022 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0023 CALL               a=-1 b=0 c=0 flags=0x00 external=create
+0024 SET_WAIT           a=1073741824 b=0 c=0 flags=0x01 a_float=2
+0025 CALL_WAIT          a=-2 b=0 c=0 flags=0x00 external=sleep
+0026 CALL_WAIT          a=10 b=0 c=0 flags=0x00
+0027 SET_WAIT           a=1069547520 b=0 c=0 flags=0x01 a_float=1.5
+0028 CALL_WAIT          a=-2 b=0 c=0 flags=0x00 external=sleep
+0029 YIELD              a=0 b=0 c=0 flags=0x00

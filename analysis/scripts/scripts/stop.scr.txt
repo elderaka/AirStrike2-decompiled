@@ -1,0 +1,4 @@
+entry=0 slots=16 functions=[]
+0000 INDEX_ADDRESS      a=-1 b=9 c=0 flags=0x00
+0001 MOVE               a=0 b=0 c=0 flags=0x92 b_float=0
+0002 YIELD              a=0 b=0 c=0 flags=0x00

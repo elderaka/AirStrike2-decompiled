@@ -1,0 +1,147 @@
+
+cutter_small_guns_blue_turret_intr {
+        model   "models\ships\cutter_small_guns\cutter_small_guns_turret.mdl"
+        skin    "models\ships\cutter_small_guns\cutter_small_guns_blue.tga"
+
+        attach   "cutter_small_guns_blue_gun_intr" "tag_gun"
+        attach abs  "svet_far" "tag_gun"
+	
+	script	"scripts\ships\cutter_small_guns\cutter_small_guns_turret.scr"
+}
+
+cutter_small_guns_blue_gun_intr {
+        model   "models\ships\cutter_small_guns\cutter_small_guns_gun.mdl"
+        skin    "models\ships\cutter_small_guns\cutter_small_guns_blue.tga"
+}
+
+cutter_intro {
+        health  500
+        enemy
+	
+	flag	FL_ONWATER
+        flag    FL_TEMPORARY
+
+	score	400
+
+        model   "models\ships\cutter_small_guns\cutter_small_guns.mdl"
+        skin    "models\ships\cutter_small_guns\cutter_small_guns_blue.tga"
+
+        attach  "cutter_small_guns_blue_turret_intr" "tag_turret"
+        attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+        attach  "whiteflare_small" "tag_flare03"
+        attach  "whiteflare_small" "tag_flare01"
+        attach  "whiteflare_small" "tag_flare02"
+        attach  "whiteflare_small" "tag_flare04"
+        attach  "helic_redflare" "tag_flare05"
+
+	attach abs id "SPLASHES" PS_SHIP_SPLASHES "tag_splash"
+
+	script	"scripts\ships\cutter_small_guns\cutter_small_guns.scr"
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+heli_uh_intro  {
+
+	model	"models\helics\uh\uh.mdl"
+	skin	"models\helics\uh\uh_snow.tga"
+	shadow	SHADOW_PLANAR_HIGH
+        flag    FL_TEMPORARY
+	
+	health	600
+	enemy
+	score   600
+
+	attach	"helic_redflare"	"tag_flare01"
+        attach	"helic_redflare"	"tag_flare02"
+	attach   abs	"vint_a4_red"	"tag_vint01"
+	
+        attach abs "svet_far_helic" "tag_fara02"
+
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin
+	
+	script	"scripts\helics\heli_uh\heli_uh_intro.scr"
+
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+uaz_snow_wh_int {
+
+	rflag   RF_NOCULLING
+
+	model	"models\jeeps\uaz\uaz_wh.mdl"
+	skin	"models\jeeps\uaz\uaz_snow.tga"
+
+	script	"scripts\jeeps\uaz\uaz_wheel.scr"
+}
+
+uaz_snow_gun_int {
+
+	model	"models\jeeps\uaz\uaz_gun.mdl"
+	skin	"models\jeeps\uaz\uaz_snow.tga"
+}
+
+uaz_snow_turret_int {
+
+	model	"models\jeeps\uaz\uaz_turret.mdl"
+	skin	"models\jeeps\uaz\uaz_snow.tga"
+
+	attach	abs   "uaz_snow_gun_int" "tag_gun"	
+
+	script	"scripts\jeeps\uaz\uaz_turret.scr"
+}
+
+uaz_snow_intro {
+
+	health	60
+	flag    FL_ONGROUND_NORMAL
+	shadow	SHADOW_PLANAR_LOW
+	enemy
+	score 60
+        flag    FL_TEMPORARY	
+
+	model	"models\jeeps\uaz\uaz.mdl"
+	skin	"models\jeeps\uaz\uaz_snow.tga"
+
+	skid_mark  11 16 6 "gfx/marks/jeepmark1.tga"
+	skid_mark -11 16 6 "gfx/marks/jeepmark1.tga"
+
+	attach	abs "uaz_snow_turret_int" "tag_turret"	
+	attach	abs "uaz_snow_wh_int" "tag_wh01"	
+	attach	abs "uaz_snow_wh_int" "tag_wh02"	
+
+	attach abs  "svet_far" "tag_fara01"
+	attach abs  "svet_far_wol" "tag_fara02"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+	script	"scripts\jeeps\uaz\uaz.scr"
+
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+plane_cargo_green_intro {
+        
+        health  400
+        enemy
+        flag    FL_TEMPORARY	
+	score	400
+
+        model   "models/planes/cargo/cargo.mdl"
+        skin    "models/planes/cargo/cargo_green.tga"
+        shadow  SHADOW_PLANAR_LOW
+
+	envmode	ENV_GLITTER
+	envmap  "gfx\chrome3.tga"
+
+	attach  "helic_redflare" "tag_flare01"
+	attach  "helic_redflare" "tag_flare02"
+	attach  "whiteflare_small" "tag_flare03"
+	attach  "whiteflare_small" "tag_flare04"
+	attach  "whiteflare_small" "tag_flare05"
+	attach  "whiteflare_small" "tag_flare06"
+
+	attach	PS_F15  "tag_jet01"
+	attach	PS_F15  "tag_jet02"
+
+        script  "scripts\planes\plane_cargo\plane_cargo.scr"
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

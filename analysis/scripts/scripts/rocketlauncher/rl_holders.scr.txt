@@ -1,0 +1,14 @@
+entry=6 slots=16 functions=['rotatex', 'deactivate']
+0000 MOVE               a=0 b=1101004800 c=0 flags=0x10 b_float=20
+0001 CALL               a=-1 b=0 c=0 flags=0x00 external=rotatex
+0002 YIELD              a=0 b=0 c=0 flags=0x00
+0003 MOVE               a=0 b=-1046478848 c=0 flags=0x10 b_float=-20
+0004 CALL               a=-1 b=0 c=0 flags=0x00 external=rotatex
+0005 YIELD              a=0 b=0 c=0 flags=0x00
+0006 SET_WAIT           a=1073741824 b=0 c=0 flags=0x01 a_float=2
+0007 CALL_WAIT          a=0 b=0 c=0 flags=0x00
+0008 SET_WAIT           a=1073741824 b=0 c=0 flags=0x01 a_float=2
+0009 CALL_WAIT          a=3 b=0 c=0 flags=0x00
+0010 MOVE               a=0 b=-1 c=0 flags=0x00
+0011 CALL               a=-2 b=0 c=0 flags=0x00 external=deactivate
+0012 YIELD              a=0 b=0 c=0 flags=0x00

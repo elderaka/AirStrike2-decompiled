@@ -1,0 +1,13 @@
+entry=3 slots=16 functions=['lRotateTo', 'AttachCallback']
+0000 INDEX_ADDRESS      a=-1 b=24 c=0 flags=0x00
+0001 MOVE               a=0 b=1117782016 c=0 flags=0x92 b_float=80
+0002 YIELD              a=0 b=0 c=0 flags=0x00
+0003 MOVE               a=0 b=-2 c=0 flags=0x00
+0004 MOVE               a=1 b=1065353216 c=0 flags=0x10 b_float=1
+0005 CALL_WAIT          a=-1 b=0 c=0 flags=0x00 external=lRotateTo
+0006 MOVE               a=0 b=0 c=0 flags=0x10 b_float=0
+0007 MOVE               a=1 b=1065353216 c=0 flags=0x10 b_float=1
+0008 MOVE               a=2 b=1065353216 c=0 flags=0x10 b_float=1
+0009 MOVE               a=3 b=1065353216 c=0 flags=0x10 b_float=1
+0010 CALL               a=-2 b=0 c=0 flags=0x00 external=AttachCallback
+0011 YIELD              a=0 b=0 c=0 flags=0x00

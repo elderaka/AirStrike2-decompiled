@@ -1,0 +1,678 @@
+{
+  "interpreter_va": "0x4268f0",
+  "dispatch_table_va": "0x426e90",
+  "functions": [
+    {
+      "name": "debug",
+      "handler_va": "0x401040"
+    },
+    {
+      "name": "RespawnPlayer",
+      "handler_va": "0x429830"
+    },
+    {
+      "name": "EndLevel",
+      "handler_va": "0x40e290"
+    },
+    {
+      "name": "GameOver",
+      "handler_va": "0x4109c0"
+    },
+    {
+      "name": "random",
+      "handler_va": "0x427070"
+    },
+    {
+      "name": "crandom",
+      "handler_va": "0x427090"
+    },
+    {
+      "name": "sin",
+      "handler_va": "0x4270c0"
+    },
+    {
+      "name": "cos",
+      "handler_va": "0x4270e0"
+    },
+    {
+      "name": "tan",
+      "handler_va": "0x427100"
+    },
+    {
+      "name": "atan",
+      "handler_va": "0x427120"
+    },
+    {
+      "name": "atan2",
+      "handler_va": "0x427150"
+    },
+    {
+      "name": "abs",
+      "handler_va": "0x427190"
+    },
+    {
+      "name": "min",
+      "handler_va": "0x4271c0"
+    },
+    {
+      "name": "max",
+      "handler_va": "0x427200"
+    },
+    {
+      "name": "lerp",
+      "handler_va": "0x427240"
+    },
+    {
+      "name": "copysign",
+      "handler_va": "0x427260"
+    },
+    {
+      "name": "floor",
+      "handler_va": "0x427290"
+    },
+    {
+      "name": "floor2",
+      "handler_va": "0x4272c0"
+    },
+    {
+      "name": "fmod",
+      "handler_va": "0x4272f0"
+    },
+    {
+      "name": "vec_copy",
+      "handler_va": "0x427310"
+    },
+    {
+      "name": "vec_add",
+      "handler_va": "0x427330"
+    },
+    {
+      "name": "vec_sub",
+      "handler_va": "0x427360"
+    },
+    {
+      "name": "vec_ma",
+      "handler_va": "0x427390"
+    },
+    {
+      "name": "vec_length",
+      "handler_va": "0x4273f0"
+    },
+    {
+      "name": "vec_norm",
+      "handler_va": "0x427440"
+    },
+    {
+      "name": "vec_scale",
+      "handler_va": "0x427460"
+    },
+    {
+      "name": "vec_setlen",
+      "handler_va": "0x427490"
+    },
+    {
+      "name": "vec_toyaw",
+      "handler_va": "0x4274b0"
+    },
+    {
+      "name": "vec_toangles",
+      "handler_va": "0x427540"
+    },
+    {
+      "name": "ClearAxis",
+      "handler_va": "0x427560"
+    },
+    {
+      "name": "AnglesToAxis",
+      "handler_va": "0x427590"
+    },
+    {
+      "name": "create",
+      "handler_va": "0x4275b0"
+    },
+    {
+      "name": "remove",
+      "handler_va": "0x4277a0"
+    },
+    {
+      "name": "activate",
+      "handler_va": "0x4277c0"
+    },
+    {
+      "name": "deactivate",
+      "handler_va": "0x4277e0"
+    },
+    {
+      "name": "getentity",
+      "handler_va": "0x427800"
+    },
+    {
+      "name": "setskin",
+      "handler_va": "0x427820"
+    },
+    {
+      "name": "callback",
+      "handler_va": "0x427d20"
+    },
+    {
+      "name": "AttachEntity",
+      "handler_va": "0x427850"
+    },
+    {
+      "name": "DetachEntity",
+      "handler_va": "0x4278c0"
+    },
+    {
+      "name": "AttachActivate",
+      "handler_va": "0x427930"
+    },
+    {
+      "name": "AttachDeactivate",
+      "handler_va": "0x4279f0"
+    },
+    {
+      "name": "AttachCallback",
+      "handler_va": "0x427ab0"
+    },
+    {
+      "name": "ParentCallback",
+      "handler_va": "0x427c40"
+    },
+    {
+      "name": "move",
+      "handler_va": "0x427e00"
+    },
+    {
+      "name": "movex",
+      "handler_va": "0x427e50"
+    },
+    {
+      "name": "movey",
+      "handler_va": "0x427e70"
+    },
+    {
+      "name": "movez",
+      "handler_va": "0x427e90"
+    },
+    {
+      "name": "rotate",
+      "handler_va": "0x427eb0"
+    },
+    {
+      "name": "rotatex",
+      "handler_va": "0x427f00"
+    },
+    {
+      "name": "rotatey",
+      "handler_va": "0x427f20"
+    },
+    {
+      "name": "rotatez",
+      "handler_va": "0x427f40"
+    },
+    {
+      "name": "sleep",
+      "handler_va": "0x427f60"
+    },
+    {
+      "name": "Shoot",
+      "handler_va": "0x427f70"
+    },
+    {
+      "name": "Damage",
+      "handler_va": "0x428410"
+    },
+    {
+      "name": "RadialDamage",
+      "handler_va": "0x428490"
+    },
+    {
+      "name": "RadialDamagePlayer",
+      "handler_va": "0x428620"
+    },
+    {
+      "name": "RotateTo",
+      "handler_va": "0x428790"
+    },
+    {
+      "name": "lRotateTo",
+      "handler_va": "0x428790"
+    },
+    {
+      "name": "RotateToClamp",
+      "handler_va": "0x428a00"
+    },
+    {
+      "name": "lRotateToClamp",
+      "handler_va": "0x428a00"
+    },
+    {
+      "name": "MoveToNextWP",
+      "handler_va": "0x428aa0"
+    },
+    {
+      "name": "lMoveToNextWP",
+      "handler_va": "0x428aa0"
+    },
+    {
+      "name": "RotateToNextWP",
+      "handler_va": "0x428ad0"
+    },
+    {
+      "name": "lRotateToNextWP",
+      "handler_va": "0x428ad0"
+    },
+    {
+      "name": "GetWaypointDelay",
+      "handler_va": "0x428af0"
+    },
+    {
+      "name": "TerrainHeight",
+      "handler_va": "0x428b30"
+    },
+    {
+      "name": "WaterHeight",
+      "handler_va": "0x428b60"
+    },
+    {
+      "name": "PlaceLight",
+      "handler_va": "0x428b90"
+    },
+    {
+      "name": "CameraQuake",
+      "handler_va": "0x428c00"
+    },
+    {
+      "name": "LockTarget",
+      "handler_va": "0x428bb0"
+    },
+    {
+      "name": "IsValidTarget",
+      "handler_va": "0x428bd0"
+    },
+    {
+      "name": "StartSound",
+      "handler_va": "0x428cc0"
+    },
+    {
+      "name": "StartLoopingSound",
+      "handler_va": "0x428d40"
+    },
+    {
+      "name": "StopLoopingSound",
+      "handler_va": "0x428d10"
+    },
+    {
+      "name": "TraceLine",
+      "handler_va": "0x428db0"
+    },
+    {
+      "name": "TraceLineDamage",
+      "handler_va": "0x428f60"
+    },
+    {
+      "name": "Lightning",
+      "handler_va": "0x4290f0"
+    },
+    {
+      "name": "PushPlayer",
+      "handler_va": "0x429280"
+    },
+    {
+      "name": "G_AddPowerUp",
+      "handler_va": "0x429330"
+    },
+    {
+      "name": "G_UsePowerUp",
+      "handler_va": "0x429400"
+    },
+    {
+      "name": "G_GetPowerUp",
+      "handler_va": "0x4293e0"
+    },
+    {
+      "name": "G_SetPowerUpCount",
+      "handler_va": "0x429430"
+    },
+    {
+      "name": "G_AddMissiles",
+      "handler_va": "0x4294a0"
+    },
+    {
+      "name": "G_UseMissile",
+      "handler_va": "0x429570"
+    },
+    {
+      "name": "G_GetMissiles",
+      "handler_va": "0x429550"
+    },
+    {
+      "name": "G_GetUpgrade",
+      "handler_va": "0x4295a0"
+    },
+    {
+      "name": "G_SetUpgrade",
+      "handler_va": "0x429610"
+    },
+    {
+      "name": "ShowTutorialHint",
+      "handler_va": "0x429690"
+    },
+    {
+      "name": "PlayerFreezeHealth",
+      "handler_va": "0x4296b0"
+    },
+    {
+      "name": "PlayerDisableAction",
+      "handler_va": "0x429740"
+    },
+    {
+      "name": "FreezeHealth",
+      "handler_va": "0x429710"
+    },
+    {
+      "name": "SetFlag",
+      "handler_va": "0x4297a0"
+    },
+    {
+      "name": "ClearFlag",
+      "handler_va": "0x4297d0"
+    },
+    {
+      "name": "SetModel",
+      "handler_va": "0x429800"
+    },
+    {
+      "name": "TerraMorph",
+      "handler_va": "0x429870"
+    },
+    {
+      "name": "IsMultiplayer",
+      "handler_va": "0x429890"
+    },
+    {
+      "name": "IsPlayerInGame",
+      "handler_va": "0x4298c0"
+    },
+    {
+      "name": "GetMapPosOfs",
+      "handler_va": "0x429900"
+    },
+    {
+      "name": "GetPlayerAccel",
+      "handler_va": "0x429920"
+    },
+    {
+      "name": "GetPlayersDistance",
+      "handler_va": "0x429980"
+    }
+  ],
+  "definitions": [
+    {
+      "name": "self",
+      "selector0_va": "0x21c4700",
+      "selector1_va": "0x21c4700"
+    },
+    {
+      "name": "other",
+      "selector0_va": "0x21c46f4",
+      "selector1_va": "0x21c46f4"
+    },
+    {
+      "name": "cb_msg",
+      "selector0_va": "0x21c46fc",
+      "selector1_va": "0x21c46fc"
+    },
+    {
+      "name": "cb_parm1",
+      "selector0_va": "0x21c46f8",
+      "selector1_va": "0x21c46f8"
+    },
+    {
+      "name": "cb_parm2",
+      "selector0_va": "0x21c4708",
+      "selector1_va": "0x21c4708"
+    },
+    {
+      "name": "player",
+      "selector0_va": "0x21c46e8",
+      "selector1_va": "0x21c46ec"
+    },
+    {
+      "name": "player1",
+      "selector0_va": "0x21c46e8",
+      "selector1_va": "0x21c46e8"
+    },
+    {
+      "name": "player2",
+      "selector0_va": "0x21c46ec",
+      "selector1_va": "0x21c46e8"
+    },
+    {
+      "name": "p_action",
+      "selector0_va": "0x208a6ac",
+      "selector1_va": "0x208a810"
+    },
+    {
+      "name": "p_maxHealth",
+      "selector0_va": "0x208a6b0",
+      "selector1_va": "0x208a814"
+    },
+    {
+      "name": "p_scores",
+      "selector0_va": "0x208a6b4",
+      "selector1_va": "0x208a818"
+    },
+    {
+      "name": "p_lives",
+      "selector0_va": "0x208a6bc",
+      "selector1_va": "0x208a820"
+    },
+    {
+      "name": "p_stars",
+      "selector0_va": "0x208a6c0",
+      "selector1_va": "0x208a824"
+    },
+    {
+      "name": "p_speedfactor",
+      "selector0_va": "0x208a6d0",
+      "selector1_va": "0x208a834"
+    },
+    {
+      "name": "p_counter1",
+      "selector0_va": "0x208a6c4",
+      "selector1_va": "0x208a828"
+    },
+    {
+      "name": "p_counter2",
+      "selector0_va": "0x208a6c8",
+      "selector1_va": "0x208a82c"
+    },
+    {
+      "name": "p_counter3",
+      "selector0_va": "0x208a6cc",
+      "selector1_va": "0x208a830"
+    },
+    {
+      "name": "p_weapon",
+      "selector0_va": "0x208a6d4",
+      "selector1_va": "0x208a838"
+    },
+    {
+      "name": "l_night",
+      "selector0_va": "0x486bcc",
+      "selector1_va": "0x486bcc"
+    },
+    {
+      "name": "l_water",
+      "selector0_va": "0x507dcc",
+      "selector1_va": "0x507dcc"
+    },
+    {
+      "name": "l_waterlevel",
+      "selector0_va": "0x507dd4",
+      "selector1_va": "0x507dd4"
+    },
+    {
+      "name": "frametime",
+      "selector0_va": "0x464480",
+      "selector1_va": "0x464480"
+    },
+    {
+      "name": "time",
+      "selector0_va": "0x464484",
+      "selector1_va": "0x464484"
+    },
+    {
+      "name": "camera",
+      "selector0_va": "0x462268",
+      "selector1_va": "0x462268"
+    },
+    {
+      "name": "cameramode",
+      "selector0_va": "0x46226c",
+      "selector1_va": "0x46226c"
+    },
+    {
+      "name": "g_map_pos",
+      "selector0_va": "0x507dec",
+      "selector1_va": "0x507dec"
+    },
+    {
+      "name": "g_damage_factor",
+      "selector0_va": "0x46285c",
+      "selector1_va": "0x46285c"
+    },
+    {
+      "name": "g_health_factor",
+      "selector0_va": "0x462860",
+      "selector1_va": "0x462860"
+    }
+  ],
+  "opcode_handlers": [
+    {
+      "opcode": 0,
+      "va": "0x426d9f"
+    },
+    {
+      "opcode": 1,
+      "va": "0x426a0f"
+    },
+    {
+      "opcode": 2,
+      "va": "0x426a1d"
+    },
+    {
+      "opcode": 3,
+      "va": "0x426a2b"
+    },
+    {
+      "opcode": 4,
+      "va": "0x426a39"
+    },
+    {
+      "opcode": 5,
+      "va": "0x426a47"
+    },
+    {
+      "opcode": 6,
+      "va": "0x426a6f"
+    },
+    {
+      "opcode": 7,
+      "va": "0x426a97"
+    },
+    {
+      "opcode": 8,
+      "va": "0x426acf"
+    },
+    {
+      "opcode": 9,
+      "va": "0x426b07"
+    },
+    {
+      "opcode": 10,
+      "va": "0x426b34"
+    },
+    {
+      "opcode": 11,
+      "va": "0x426b61"
+    },
+    {
+      "opcode": 12,
+      "va": "0x426b8c"
+    },
+    {
+      "opcode": 13,
+      "va": "0x426bb7"
+    },
+    {
+      "opcode": 14,
+      "va": "0x426bdf"
+    },
+    {
+      "opcode": 15,
+      "va": "0x426c07"
+    },
+    {
+      "opcode": 16,
+      "va": "0x426c28"
+    },
+    {
+      "opcode": 17,
+      "va": "0x426c33"
+    },
+    {
+      "opcode": 18,
+      "va": "0x426c3b"
+    },
+    {
+      "opcode": 19,
+      "va": "0x426c6b"
+    },
+    {
+      "opcode": 20,
+      "va": "0x426c8d"
+    },
+    {
+      "opcode": 21,
+      "va": "0x426ca4"
+    },
+    {
+      "opcode": 22,
+      "va": "0x426c46"
+    },
+    {
+      "opcode": 23,
+      "va": "0x426c46"
+    },
+    {
+      "opcode": 24,
+      "va": "0x426db5"
+    },
+    {
+      "opcode": 25,
+      "va": "0x426cbf"
+    },
+    {
+      "opcode": 26,
+      "va": "0x426ce0"
+    },
+    {
+      "opcode": 27,
+      "va": "0x426d01"
+    },
+    {
+      "opcode": 28,
+      "va": "0x426d15"
+    },
+    {
+      "opcode": 29,
+      "va": "0x426dcc"
+    },
+    {
+      "opcode": 30,
+      "va": "0x426d90"
+    }
+  ]
+}

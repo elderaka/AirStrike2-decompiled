@@ -1,0 +1,41 @@
+PS_RLBIG_FIRE {
+	blend_mode	BLEND_ADD
+	
+	texture		"gfx\smoke.tga" 4 2
+
+	emit_rate	100
+
+	life_time	0.5
+
+	init_offset	0 0 0 1 1 0
+	init_size	15 5
+	init_frame	0 2
+	init_color	1 1 1 1
+        init_velocity   0 0 -150 0 50
+	size 		-5
+
+	fade_mode	FADE_LINEAR
+	accel		0 0 0
+}
+
+PS_RLBIG_STARTUP_SMOKE {
+	texture		"gfx\smoke.tga" 4 2
+	blend_mode	BLEND_ADD
+	
+	coords		COORD_CILINDER
+
+//	emit_mode	EMIT_ONCE
+	emit_rate	40
+
+	life_time	3
+
+	init_offset	0 0 0 360 1 5
+	init_size	5 1
+	init_frame	0 2
+	init_color	1 1 1 1
+        init_velocity   0 15 0 0 10 3
+	size 		15
+	accel		0 10 0
+
+	fade_mode	FADE_LINEAR
+}

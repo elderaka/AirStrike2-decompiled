@@ -1,0 +1,271 @@
+////////////////////////ruins////////////////////////
+
+barricad_old1 {
+	model	"models\mapobjects\ruins\barricad_old1.mdl"
+	skin	"models\mapobjects\ruins\ruins.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+}
+
+barricad_old2 {
+	model	"models\mapobjects\ruins\barricad_old2.mdl"
+	skin	"models\mapobjects\ruins\ruins.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+}
+
+barricad_old3 {
+	model	"models\mapobjects\ruins\barricad_old3.mdl"
+	skin	"models\mapobjects\ruins\ruins.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+}
+
+vishka_old {
+	model	"models\mapobjects\ruins\vishka_old.mdl"
+	skin	"models\mapobjects\ruins\ruins.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+}
+
+ruins1 {
+	model	"models\mapobjects\ruins\ruins1.mdl"
+	skin	"models\mapobjects\ruins\ruins.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+}
+
+ruins2 {
+	model	"models\mapobjects\ruins\ruins2.mdl"
+	skin	"models\mapobjects\ruins\ruins.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+}
+
+ruins3 {
+	model	"models\mapobjects\ruins\ruins3.mdl"
+	skin	"models\mapobjects\ruins\ruins.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+}
+
+ruins5 {
+	model	"models\mapobjects\ruins\ruins5.mdl"
+	skin	"models\mapobjects\ruins\ruins.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+}
+
+ruins6 {
+	model	"models\mapobjects\ruins\ruins6.mdl"
+	skin	"models\mapobjects\ruins\ruins.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+}
+
+ruins7 {
+	model	"models\mapobjects\ruins\ruins7.mdl"
+	skin	"models\mapobjects\ruins\ruins.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+}
+
+ruins9 {
+	model	"models\mapobjects\ruins\ruins9.mdl"
+	skin	"models\mapobjects\ruins\ruins.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+}
+
+/////////////остаются после взрыва/////////////////
+
+ruins_small {
+	model	"models\mapobjects\ruins\ruins_small.mdl"
+	skin	"models\mapobjects\ruins\ruins.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+}
+
+ruins_big {
+	model	"models\mapobjects\ruins\ruins_big.mdl"
+	skin	"models\mapobjects\ruins\ruins.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+	attach  "PS_BIG_FLAME"  origin
+}
+
+/////////////////////////////////////////////////////////
+
+
+ruin_dom_1 {
+	model	"models\mapobjects\ruins\ruin_dom\ruin_dom_1.mdl"
+	skin    "models\mapobjects\ruins\ruin_dom\pepelishe_2.tga"
+
+        rflag   RF_NOCULLING
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+}
+
+ruin_dom_2 {
+	model	"models\mapobjects\ruins\ruin_dom\ruin_dom_2.mdl"
+	skin    "models\mapobjects\ruins\ruin_dom\pepelishe_2.tga"
+
+        rflag   RF_NOCULLING
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+}
+
+ruin_dom_3 {
+	model	"models\mapobjects\ruins\ruin_dom\ruin_dom_3.mdl"
+	skin    "models\mapobjects\ruins\ruin_dom\pepelishe_2.tga"
+
+        rflag   RF_NOCULLING
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+}
+
+ruin_dom_4 {
+	model	"models\mapobjects\ruins\ruin_dom\ruin_dom_4.mdl"
+	skin    "models\mapobjects\ruins\ruin_dom\pepelishe.tga"
+
+        rflag   RF_NOCULLING
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+}
+
+ruin_dom_5 {
+	model	"models\mapobjects\ruins\ruin_dom\ruin_dom_5.mdl"
+	skin    "models\mapobjects\ruins\ruin_dom\pepelishe_2.tga"
+
+        rflag   RF_NOCULLING
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+}
+
+ruin_dom_6 {
+	model	"models\mapobjects\ruins\ruin_dom\ruin_dom_6.mdl"
+	skin    "models\mapobjects\ruins\ruin_dom\pepelishe_2.tga"
+
+        rflag   RF_NOCULLING
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+}
+
+ruin_dom_7 {
+	model	"models\mapobjects\ruins\ruin_dom\ruin_dom_7.mdl"
+	skin    "models\mapobjects\ruins\ruin_dom\pepelishe_2.tga"
+
+        rflag   RF_NOCULLING
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+}
+
+ruin_dom_8 {
+	model	"models\mapobjects\ruins\ruin_dom\ruin_dom_8.mdl"
+	skin    "models\mapobjects\ruins\ruin_dom\pepelishe_2.tga"
+
+        rflag   RF_NOCULLING
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+}
+
+
+//////////////////////////////////////////////////////////
+
+stroika {
+
+	model	"models\mapobjects\ruins\stroika\stroika.mdl"
+	skin    "models\mapobjects\ruins\stroika\stroika.tga"
+
+	shadow	SHADOW_PROJECTED
+        rflag   RF_NOCULLING
+	flag    FL_ONGROUND_NORMAL
+}
+
+stroika_01 {
+
+	model	"models\mapobjects\ruins\stroika\stroika_01.mdl"
+	skin    "models\mapobjects\ruins\stroika\stroika.tga"
+
+	shadow	SHADOW_PROJECTED
+        rflag   RF_NOCULLING
+	flag    FL_ONGROUND_NORMAL
+	attach  PS_BARREL_FIRE  "tag_fire"
+
+}
+
+
+ruin_dom__4 {
+	model	"models\mapobjects\ruins\ruin_dom\ruin_dom__4.mdl"
+	skin    "models\mapobjects\ruins\ruin_dom\pepelishe.tga"
+
+        rflag   RF_NOCULLING
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+}
+
+ruin_dom_9 {
+	model	"models\mapobjects\ruins\ruin_dom\ruin_dom_9.mdl"
+	skin    "models\mapobjects\ruins\ruin_dom\pepelishe_2.tga"
+
+        rflag   RF_NOCULLING
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+}
+
+ruins1_1 {
+                 
+	model	"models\mapobjects\ruins\ruins1_1.mdl"
+	skin    "models\mapobjects\ruins\ruin_dom\pepelishe_2.tga"
+
+        rflag   RF_NOCULLING
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+}
+
+sinogoga_dead {
+
+        shadow	SHADOW_PROJECTED
+        flag    FL_ONGROUND
+
+	model	"models\mapobjects\houses\sinogoga\sinogoga_dead.mdl"
+	skin    "models\mapobjects\ruins\ruin_dom\pepelishe_2.tga"
+        rflag   RF_NOCULLING
+}
+
+factory_x_dead {
+
+        shadow	SHADOW_PROJECTED
+        flag    FL_ONGROUND
+
+	model	"models\mapobjects\ruins\factory_x_dead.mdl"
+	skin    "models\mapobjects\ruins\ruin_dom\pepelishe_2.tga"
+        rflag   RF_NOCULLING
+}
+
+factory_med_dead {
+
+        shadow	SHADOW_PROJECTED
+        flag    FL_ONGROUND
+
+	model	"models\mapobjects\ruins\factory_med_dead.mdl"
+	skin    "models\mapobjects\ruins\ruin_dom\pepelishe_2.tga"
+}
+
+ruin_dom__8 {
+	model	"models\mapobjects\ruins\ruin_dom\ruin_dom__8.mdl"
+	skin    "models\mapobjects\ruins\ruin_dom\pepelishe.tga"
+
+        rflag   RF_NOCULLING
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+}
+
+ruin_dom__3 {
+	model	"models\mapobjects\ruins\ruin_dom\ruin_dom__3.mdl"
+	skin    "models\mapobjects\ruins\ruin_dom\pepelishe.tga"
+
+        rflag   RF_NOCULLING
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+}

@@ -1,0 +1,39 @@
+entry=31 slots=16 functions=['crandom', 'random', 'move']
+0000 INDEX_ADDRESS      a=-1 b=17 c=0 flags=0x00
+0001 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+0002 PUSH               a=0 b=0 c=0 flags=0x80
+0003 PUSH               a=1 b=0 c=0 flags=0x00
+0004 CALL               a=-1 b=2 c=0 flags=0x00 external=crandom
+0005 POP                a=1 b=0 c=1 flags=0x00
+0006 POP                a=0 b=0 c=0 flags=0x80
+0007 MUL                a=1112014848 b=2 c=1 flags=0x01 a_float=50
+0008 MOVE               a=0 b=1 c=0 flags=0x82
+0009 INDEX_ADDRESS      a=-1 b=17 c=0 flags=0x00
+0010 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+0011 PUSH               a=0 b=0 c=0 flags=0x80
+0012 PUSH               a=1 b=0 c=0 flags=0x00
+0013 CALL               a=-1 b=2 c=0 flags=0x00 external=crandom
+0014 POP                a=1 b=0 c=1 flags=0x00
+0015 POP                a=0 b=0 c=0 flags=0x80
+0016 MUL                a=1112014848 b=2 c=1 flags=0x01 a_float=50
+0017 MOVE               a=0 b=1 c=0 flags=0x82
+0018 INDEX_ADDRESS      a=-1 b=17 c=0 flags=0x00
+0019 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0020 PUSH               a=0 b=0 c=0 flags=0x80
+0021 PUSH               a=1 b=0 c=0 flags=0x00
+0022 PUSH               a=2 b=0 c=0 flags=0x00
+0023 CALL               a=-2 b=3 c=0 flags=0x00 external=random
+0024 POP                a=2 b=0 c=2 flags=0x00
+0025 POP                a=1 b=0 c=1 flags=0x00
+0026 POP                a=0 b=0 c=0 flags=0x80
+0027 MUL                a=1109393408 b=3 c=2 flags=0x01 a_float=40
+0028 ADD                a=1112014848 b=2 c=1 flags=0x01 a_float=50
+0029 MOVE               a=0 b=1 c=0 flags=0x82
+0030 YIELD              a=0 b=0 c=0 flags=0x00
+0031 INDEX_ADDRESS      a=-1 b=17 c=0 flags=0x00
+0032 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0033 MUL                a=1120403456 b=-2 c=1 flags=0x01 a_float=100
+0034 SUB                a=0 b=1 c=0 flags=0x82
+0035 INDEX_ADDRESS      a=-1 b=17 c=0 flags=0x00
+0036 CALL               a=-3 b=0 c=0 flags=0x00 external=move
+0037 YIELD              a=0 b=0 c=0 flags=0x00

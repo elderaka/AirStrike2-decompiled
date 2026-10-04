@@ -1,0 +1,10 @@
+
+
+helic_fire {
+	model	"models\helics\helic_dead.mdl"
+	skin	"models\helics\helic_dead.tga"
+        shadow  SHADOW_PLANAR_LOW
+        flag    FL_ONGROUND_NORMAL
+
+	attach "koster" "origin"
+}

@@ -1,0 +1,41 @@
+entry=-1 slots=16 functions=['create', 'remove']
+0000 INDEX_ADDRESS      a=-1 b=34 c=0 flags=0x00
+0001 GT                 a=0 b=0 c=0 flags=0x12 b_float=0
+0002 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+0003 RETURN             a=0 b=0 c=0 flags=0x00
+0004 MOVE               a=0 b=0 c=0 flags=0x10 b_float=0
+0005 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0006 CALL               a=-1 b=0 c=0 flags=0x00 external=create
+0007 MOVE               a=0 b=6 c=0 flags=0x10 b_float=8.40779e-45
+0008 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0009 CALL               a=-1 b=0 c=0 flags=0x00 external=create
+0010 MOVE               a=0 b=17 c=0 flags=0x10 b_float=2.38221e-44
+0011 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0012 CALL               a=-1 b=0 c=0 flags=0x00 external=create
+0013 MOVE               a=0 b=29 c=0 flags=0x10 b_float=4.06377e-44
+0014 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0015 CALL               a=-1 b=0 c=0 flags=0x00 external=create
+0016 MOVE               a=0 b=41 c=0 flags=0x10 b_float=5.74532e-44
+0017 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0018 CALL               a=-1 b=0 c=0 flags=0x00 external=create
+0019 MOVE               a=0 b=53 c=0 flags=0x10 b_float=7.42688e-44
+0020 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0021 CALL               a=-1 b=0 c=0 flags=0x00 external=create
+0022 MOVE               a=0 b=65 c=0 flags=0x10 b_float=9.10844e-44
+0023 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0024 CALL               a=-1 b=0 c=0 flags=0x00 external=create
+0025 MOVE               a=0 b=77 c=0 flags=0x10 b_float=1.079e-43
+0026 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0027 CALL               a=-1 b=0 c=0 flags=0x00 external=create
+0028 MOVE               a=0 b=91 c=0 flags=0x10 b_float=1.27518e-43
+0029 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0030 CALL               a=-1 b=0 c=0 flags=0x00 external=create
+0031 MOVE               a=0 b=105 c=0 flags=0x10 b_float=1.47136e-43
+0032 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0033 CALL               a=-1 b=0 c=0 flags=0x00 external=create
+0034 MOVE               a=0 b=119 c=0 flags=0x10 b_float=1.66755e-43
+0035 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0036 CALL               a=-1 b=0 c=0 flags=0x00 external=create
+0037 MOVE               a=0 b=-1 c=0 flags=0x00
+0038 CALL               a=-2 b=0 c=0 flags=0x00 external=remove
+0039 YIELD              a=0 b=0 c=0 flags=0x00

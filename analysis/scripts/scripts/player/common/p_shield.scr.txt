@@ -1,0 +1,74 @@
+entry=17 slots=21 functions=['PlayerFreezeHealth', 'AttachEntity', 'G_SetPowerUpCount', 'remove', 'PlaceLight']
+0000 MOVE               a=0 b=1065353216 c=0 flags=0x10 b_float=1
+0001 CALL               a=-1 b=0 c=0 flags=0x00 external=PlayerFreezeHealth
+0002 INDEX_ADDRESS      a=-1 b=14 c=0 flags=0x00
+0003 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+0004 MOVE               a=0 b=0 c=0 flags=0x92 b_float=0
+0005 INDEX_ADDRESS      a=-1 b=14 c=0 flags=0x00
+0006 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+0007 MOVE               a=0 b=0 c=0 flags=0x92 b_float=0
+0008 INDEX_ADDRESS      a=-1 b=14 c=0 flags=0x00
+0009 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0010 MOVE               a=0 b=0 c=0 flags=0x92 b_float=0
+0011 MOVE               a=0 b=-1 c=0 flags=0x00
+0012 MOVE               a=1 b=-2 c=0 flags=0x00
+0013 MOVE               a=2 b=0 c=0 flags=0x10 b_float=0
+0014 MOVE               a=3 b=1065353216 c=0 flags=0x10 b_float=1
+0015 CALL               a=-2 b=0 c=0 flags=0x00 external=AttachEntity
+0016 YIELD              a=0 b=0 c=0 flags=0x00
+0017 MOVE               a=0 b=1091567616 c=0 flags=0x10 b_float=9
+0018 INDEX_ADDRESS      a=-1 b=1 c=2 flags=0x00
+0019 SUB                a=1101004800 b=2 c=1 flags=0x21 a_float=20
+0020 CALL               a=-3 b=0 c=0 flags=0x00 external=G_SetPowerUpCount
+0021 INDEX_ADDRESS      a=-1 b=1 c=0 flags=0x00
+0022 GE                 a=0 b=1101004800 c=0 flags=0x12 b_float=20
+0023 JUMP_IF_NONZERO    a=0 b=6 c=0 flags=0x00
+0024 MOVE               a=0 b=0 c=0 flags=0x10 b_float=0
+0025 CALL               a=-1 b=0 c=0 flags=0x00 external=PlayerFreezeHealth
+0026 MOVE               a=0 b=-1 c=0 flags=0x00
+0027 CALL               a=-4 b=0 c=0 flags=0x00 external=remove
+0028 RETURN             a=0 b=0 c=0 flags=0x00
+0029 INDEX_ADDRESS      a=-1 b=1 c=0 flags=0x00
+0030 LT                 a=0 b=1077936128 c=0 flags=0x12 b_float=3
+0031 JUMP_IF_NONZERO    a=0 b=13 c=0 flags=0x00
+0032 INDEX_ADDRESS      a=-1 b=1 c=1 flags=0x00
+0033 DIV                a=1 b=1077936128 c=1 flags=0x12 b_float=3
+0034 MOVE               a=20 b=1 c=0 flags=0x00
+0035 INDEX_ADDRESS      a=-1 b=28 c=0 flags=0x00
+0036 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+0037 MOVE               a=0 b=20 c=0 flags=0x82
+0038 INDEX_ADDRESS      a=-1 b=28 c=0 flags=0x00
+0039 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+0040 MOVE               a=0 b=20 c=0 flags=0x82
+0041 INDEX_ADDRESS      a=-1 b=28 c=0 flags=0x00
+0042 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0043 MOVE               a=0 b=20 c=0 flags=0x82
+0044 INDEX_ADDRESS      a=-1 b=1 c=0 flags=0x00
+0045 GT                 a=0 b=1099431936 c=0 flags=0x12 b_float=17
+0046 JUMP_IF_NONZERO    a=0 b=14 c=0 flags=0x00
+0047 INDEX_ADDRESS      a=-1 b=1 c=2 flags=0x00
+0048 SUB                a=1101004800 b=2 c=1 flags=0x21 a_float=20
+0049 DIV                a=1 b=1077936128 c=1 flags=0x10 b_float=3
+0050 MOVE               a=20 b=1 c=0 flags=0x00
+0051 INDEX_ADDRESS      a=-1 b=28 c=0 flags=0x00
+0052 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+0053 MOVE               a=0 b=20 c=0 flags=0x82
+0054 INDEX_ADDRESS      a=-1 b=28 c=0 flags=0x00
+0055 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+0056 MOVE               a=0 b=20 c=0 flags=0x82
+0057 INDEX_ADDRESS      a=-1 b=28 c=0 flags=0x00
+0058 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0059 MOVE               a=0 b=20 c=0 flags=0x82
+0060 INDEX_ADDRESS      a=16 b=0 c=0 flags=0x00
+0061 MUL                a=1073741824 b=20 c=1 flags=0x01 a_float=2
+0062 MOVE               a=0 b=1 c=0 flags=0x82
+0063 INDEX_ADDRESS      a=16 b=1 c=0 flags=0x00
+0064 MUL                a=1069547520 b=20 c=1 flags=0x01 a_float=1.5
+0065 MOVE               a=0 b=1 c=0 flags=0x82
+0066 INDEX_ADDRESS      a=16 b=2 c=0 flags=0x00
+0067 MOVE               a=0 b=0 c=0 flags=0x92 b_float=0
+0068 INDEX_ADDRESS      a=-1 b=5 c=0 flags=0x00
+0069 MOVE               a=1 b=16 c=0 flags=0x00
+0070 MOVE               a=2 b=1128792064 c=0 flags=0x10 b_float=200
+0071 CALL               a=-5 b=0 c=0 flags=0x00 external=PlaceLight
+0072 YIELD              a=0 b=0 c=0 flags=0x00

@@ -1,0 +1,8 @@
+entry=4 slots=16 functions=['movey']
+0000 INDEX_ADDRESS      a=-1 b=5 c=0 flags=0x00
+0001 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0002 MOVE               a=0 b=1112014848 c=0 flags=0x92 b_float=50
+0003 YIELD              a=0 b=0 c=0 flags=0x00
+0004 MOVE               a=0 b=1108082688 c=0 flags=0x10 b_float=35
+0005 CALL               a=-1 b=0 c=0 flags=0x00 external=movey
+0006 YIELD              a=0 b=0 c=0 flags=0x00

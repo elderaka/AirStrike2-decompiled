@@ -1,0 +1,49 @@
+{
+  "archives": {
+    "pak0": {
+      "count": 1609,
+      "flags": {
+        "0": 1609
+      },
+      "extensions": {
+        ".tga": 761,
+        ".mdl": 847,
+        ".max": 1
+      }
+    },
+    "pak1": {
+      "count": 705,
+      "flags": {
+        "0": 652,
+        "1": 53
+      },
+      "extensions": {
+        ".hsc": 21,
+        ".txt": 1,
+        ".obj": 39,
+        ".ps": 9,
+        ".wpn": 4,
+        ".scr": 630,
+        ".sc": 1
+      }
+    },
+    "pak2": {
+      "count": 45,
+      "flags": {
+        "0": 45
+      },
+      "extensions": {
+        ".mo3": 5,
+        ".wav": 40
+      }
+    }
+  },
+  "checks": {
+    "tga_images_decoded": 761,
+    "wav_riff_headers": 40,
+    "mo3_headers": 5,
+    "rcsl_script_headers": 630,
+    "readable_level_and_weapon_definitions": true,
+    "files_size_and_sha256_verified": 2359
+  }
+}

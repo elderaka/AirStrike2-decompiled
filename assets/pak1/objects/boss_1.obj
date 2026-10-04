@@ -1,0 +1,277 @@
+
+boss_1_helic {
+	touch   TOUCH_PLAYER
+	model	"models\helics\helic_small\helic_small3.mdl"
+	skin	"models\helics\helic_small\helic_small3_yellow.tga"
+	shadow	SHADOW_PLANAR_HIGH
+
+	envmode	ENV_GLITTER
+	envmap  "gfx\chrome3.tga"
+	
+	health	250
+	enemy
+
+	score   200
+
+	attach	"helic_redflare"	"tag_redflare01"
+	attach	"helic_redflare"	"tag_redflare02"
+	attach	abs "vint_small2"		"tag_stab"
+
+	attach abs night "svet_far_helic" "tag_fara"
+
+	attach abs	"vint_a3_red"	"tag_vint"
+	attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_HELIC_ALMOSTDEAD" origin	
+
+	script	"scripts\bosses\boss_1\boss_1_helic.scr"
+}
+
+boss_1 {
+	flag    FL_ONGROUND_NORMAL
+
+	flag    FL_TEMPORARY
+
+        model   "models\bosses\boss_1\boss_1_base.mdl"
+        skin    "models\bosses\boss_1\boss_1_base.tga"
+
+
+        attach abs id "COVER" "boss_1_bashnya" "tag_bashnya"
+
+        attach abs "boss_1_wh" "tag_wh"
+        attach abs "boss_1_wh02" "tag_wh02"
+        attach abs "boss_1_wh02" "tag_wh03"
+        attach abs "boss_1_wh02" "tag_wh04"
+
+	attach id "TURRET1" "boss_1_turret_small" "tag_turret_small01"
+	attach id "TURRET2" "boss_1_turret_small" "tag_turret_small02"
+
+	script	"scripts\bosses\boss_1\boss_1_base.scr"
+}
+
+
+
+boss_1_wh {
+        model   "models\bosses\boss_1\boss_1_wh.mdl"
+        skin    "models\bosses\boss_1\boss_1_base.tga"
+
+	script	"scripts\bosses\boss_1\boss_1_wheel.scr"
+}
+
+
+boss_1_wh02 {
+        model   "models\bosses\boss_1\boss_1_wh02.mdl"
+        skin    "models\bosses\boss_1\boss_1_base.tga"
+
+	script	"scripts\bosses\boss_1\boss_1_wheel.scr"
+}
+
+
+ 
+boss_1_turret_small {
+
+        model   "models\bosses\boss_1\boss_1_turret_small.mdl"
+        skin    "models\bosses\boss_1\boss_1_base.tga"
+
+	script	"scripts\bosses\boss_1\boss_1_turret_small.scr"
+}
+
+
+
+boss_1_bashnya {
+
+        model   "models\bosses\boss_1\boss_1_bashnya.mdl"
+        skin    "models\bosses\boss_1\boss_1_bashnya.tga"
+
+//        attach abs "boss_1_bashnya_kabina" "tag_kabina"
+        attach abs id "LUK1" "boss_1_bashnya_luk_l" "tag_luk_l"
+        attach abs id "LUK2" "boss_1_bashnya_luk_r" "tag_luk_r"
+        attach abs "boss_1_bashnya_hrom" "tag_hrom"
+        attach abs "boss_1_bashnya_turret" "tag_bashnya_turret"
+        attach id "GUN1" abs "boss_1_bashnya_guns_l" "tag_bashnya_guns_l"
+        attach id "GUN2" abs "boss_1_bashnya_guns_r" "tag_bashnya_guns_r"
+
+	attach abs   "svet_far_helic" "tag_fara01"
+	attach abs   "svet_far_helic" "tag_fara02"
+	attach abs   "svet_far_helic" "tag_fara03"
+	attach abs   "svet_far_helic" "tag_fara04"
+
+	script	"scripts\bosses\boss_1\boss_1_bashnya.scr"
+}
+
+
+
+boss_1_bashnya_guns_base_l {
+
+        model   "models\bosses\boss_1\boss_1_bashnya_guns_base_l.mdl"
+        skin    "models\bosses\boss_1\boss_1_bashnya.tga"
+
+}
+
+
+boss_1_bashnya_guns_l {
+
+        model   "models\bosses\boss_1\boss_1_bashnya_guns_l.mdl"
+        skin    "models\bosses\boss_1\boss_1_bashnya.tga"
+	envmap	"gfx\envmap3.tga"
+	envmode	ENV_GLITTER
+
+        attach abs "boss_1_bashnya_guns_base_l" "tag_gunbase_l"
+
+	script	"scripts\bosses\boss_1\boss_1_bashnya_guns.scr"
+
+}
+
+
+boss_1_bashnya_guns_base_r {
+
+        model   "models\bosses\boss_1\boss_1_bashnya_guns_base_r.mdl"
+        skin    "models\bosses\boss_1\boss_1_bashnya.tga"
+
+}
+
+
+boss_1_bashnya_guns_r {
+
+        model   "models\bosses\boss_1\boss_1_bashnya_guns_r.mdl"
+        skin    "models\bosses\boss_1\boss_1_bashnya.tga"
+	envmap	"gfx\envmap3.tga"
+	envmode	ENV_GLITTER
+
+        attach abs "boss_1_bashnya_guns_base_r" "tag_gunbase_r"
+
+	script	"scripts\bosses\boss_1\boss_1_bashnya_guns.scr"
+
+}
+
+boss_1_bashnya_hrom {
+
+        model   "models\bosses\boss_1\boss_1_bashnya_hrom.mdl"
+        skin    "models\bosses\boss_1\boss_1_bashnya.tga"
+	envmap	"gfx\envmap3.tga"
+	envmode	ENV_GLITTER
+	rflag	RF_NOLIGHTING
+
+	script	"scripts\bosses\boss_1\boss_1_chrome.scr"
+
+}
+
+boss_1_bashnya_kabina {
+
+	health 30000
+	enemy
+
+	flag 	FL_TEMPORARY
+
+        model   "models\bosses\boss_1\boss_1_bashnya_kabina.mdl"
+        skin    "models\bosses\boss_1\boss_1_bashnya.tga"
+	envmap	"gfx\envmap3.tga"
+	envmode	ENV_GLITTER
+
+	script	"scripts\bosses\boss_1\boss_1_kabina.scr"
+}
+
+
+boss_1_bashnya_luk_l {
+	rflag	RF_NOCULLING
+        model   "models\bosses\boss_1\boss_1_bashnya_luk_l.mdl"
+        skin    "models\bosses\boss_1\boss_1_bashnya.tga"
+	script	"scripts\bosses\boss_1\boss_1_lukl.scr"
+}
+
+boss_1_bashnya_luk_r {
+	rflag	RF_NOCULLING
+        model   "models\bosses\boss_1\boss_1_bashnya_luk_r.mdl"
+        skin    "models\bosses\boss_1\boss_1_bashnya.tga"
+	script	"scripts\bosses\boss_1\boss_1_lukr.scr"
+}
+
+boss_1_bashnya_turret {
+
+        model   "models\bosses\boss_1\boss_1_bashnya_turret.mdl"
+        skin    "models\bosses\boss_1\boss_1_bashnya.tga"
+
+        attach abs "boss_1_bashnya_rocket" "tag_bashnya_rocket"
+
+	attach abs   "svet_far_helic" "tag_fara05"
+
+	script	"scripts\bosses\boss_1\boss_1_bashnya_turret.scr"
+}
+
+boss_1_bashnya_rocket {
+
+        model   "models\bosses\boss_1\boss_1_bashnya_rocket.mdl"
+        skin    "models\bosses\boss_1\boss_1_bashnya.tga"
+
+	script	"scripts\bosses\boss_1\boss_1_bashnya_rockets.scr"
+
+}
+
+boss_1_rapidgun_proj {
+	touch	TOUCH_PLAYER
+
+        damage  13
+
+	type    TYPE_SPRITE
+	skin    "models/weapons/sharik_green.tga"
+	blend   BLEND_ADD
+
+	frames  1 1
+	min     -10 -10   0 0
+	max     10 10     1 1
+
+	attach  PS_FBALL_BIG_RED   "origin"
+
+	script	"scripts\weapons_enemy\fball_big\fball.scr"
+}
+
+boss_1_rapidgun_flash {
+	model	"models\weapons_enemy\mgun\flash.mdl"
+	skin	"models\weapons\impulse\igun_flash.tga"
+	blend	BLEND_ADD
+	flag	FL_TEMPORARY
+
+	rflag	RF_NOCULLING
+	rflag	RF_NODEPTHWRITE
+	rflag	RF_NOLIGHTING
+	sort	SORT_EFFECT
+
+	attach	"boss_1_rapidgun_flash2" "origin"
+
+	script	"scripts\weapons\laser\flash.scr"
+}
+
+boss_1_rapidgun_flash2 {
+	type    TYPE_SPRITE
+	skin    "models\weapons\plasma\bpg_flash.tga"
+	blend   BLEND_ADD
+
+	flag    FL_TEMPORARY
+
+	min     -55 -55   0 0
+	max     55 55     1 1
+
+	script  "scripts\weapons\laser\flash.scr"
+}
+
+
+boss1_expl_big {
+	flag    FL_NODRAW
+	attach  PS_EXPLOSION_SPARKS "origin"
+	attach  PS_EXPLOSION_LAND_SPARKS_BIG "origin"
+	script	"scripts\bosses\boss_1\boss_1_expl_big.scr"
+}
+
+boss1_expl {
+	flag	FL_TEMPORARY
+	type	TYPE_SPRITE
+
+	skin	"gfx\weapons\expl_missile.tga"
+	blend	BLEND_ADD
+	
+	rflag	RF_NODEPTHTEST
+
+	frames	2 1
+	min	-35 -35  0 0
+	max	35 35    0.5 1	
+
+	script	"scripts\bosses\boss_1\boss_1_expl.scr"
+}

@@ -1,0 +1,24 @@
+///////////////////////////////tera_blast/////////////////////////////////////////////////////
+
+terra_blast_spark
+{
+	flag    FL_NODRAW
+	attach	PS_TERRABLAST "origin"
+	//attach	PS_EXPLOSION_FIRE "origin"
+	//attach	campfire_light "origin"
+        script	"scripts\experemental\terra_blast.scr"
+}
+
+
+terra_blast 
+{
+	flag    FL_NODRAW
+	//attach	PS_TERRABLAST "origin"
+	attach	PS_EXPLOSION_FIRE "origin"
+	attach	campfire_light "origin"
+        
+        script	"scripts\experemental\terra_blast.scr"
+        
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////

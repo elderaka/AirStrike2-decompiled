@@ -1,0 +1,33 @@
+entry=24 slots=25 functions=['vec_sub', 'Shoot', 'create', 'RotateTo', 'lRotateTo']
+0000 MOVE               a=20 b=0 c=0 flags=0x00
+0001 INDEX_ADDRESS      a=-1 b=5 c=0 flags=0x00
+0002 INDEX_ADDRESS      a=-2 b=5 c=1 flags=0x00
+0003 MOVE               a=2 b=21 c=0 flags=0x00
+0004 CALL               a=-1 b=0 c=0 flags=0x00 external=vec_sub
+0005 INDEX_ADDRESS      a=21 b=1 c=0 flags=0x00
+0006 ADD                a=0 b=1092616192 c=0 flags=0x92 b_float=10
+0007 INDEX_ADDRESS      a=21 b=2 c=0 flags=0x00
+0008 ADD                a=0 b=1092616192 c=0 flags=0x92 b_float=10
+0009 MOVE               a=0 b=0 c=0 flags=0x10 b_float=0
+0010 MOVE               a=1 b=20 c=0 flags=0x00
+0011 MOVE               a=2 b=21 c=0 flags=0x00
+0012 CALL               a=-2 b=0 c=0 flags=0x00 external=Shoot
+0013 MOVE               a=0 b=17 c=0 flags=0x10 b_float=2.38221e-44
+0014 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0015 CALL               a=-3 b=0 c=0 flags=0x00 external=create
+0016 YIELD              a=0 b=0 c=0 flags=0x00
+0017 MOVE               a=0 b=-1 c=0 flags=0x00
+0018 MOVE               a=1 b=1077936128 c=0 flags=0x10 b_float=3
+0019 CALL               a=-4 b=0 c=0 flags=0x00 external=RotateTo
+0020 YIELD              a=0 b=0 c=0 flags=0x00
+0021 INDEX_ADDRESS      a=-2 b=24 c=0 flags=0x00
+0022 MOVE               a=0 b=1112014848 c=0 flags=0x92 b_float=50
+0023 YIELD              a=0 b=0 c=0 flags=0x00
+0024 MOVE               a=0 b=-1 c=0 flags=0x00
+0025 MOVE               a=1 b=1077936128 c=0 flags=0x10 b_float=3
+0026 CALL_WAIT          a=-5 b=0 c=0 flags=0x00 external=lRotateTo
+0027 MOVE               a=0 b=34 c=0 flags=0x10 b_float=4.76441e-44
+0028 CALL               a=0 b=0 c=0 flags=0x00
+0029 SET_WAIT           a=1069547520 b=0 c=0 flags=0x01 a_float=1.5
+0030 CALL_WAIT          a=17 b=0 c=0 flags=0x00
+0031 YIELD              a=0 b=0 c=0 flags=0x00

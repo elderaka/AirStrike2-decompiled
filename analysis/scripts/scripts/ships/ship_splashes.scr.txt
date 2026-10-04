@@ -1,0 +1,14 @@
+entry=0 slots=17 functions=['sleep', 'create', 'vec_copy']
+0000 SET_WAIT           a=1045220557 b=0 c=0 flags=0x01 a_float=0.2
+0001 CALL_WAIT          a=-1 b=0 c=0 flags=0x00 external=sleep
+0002 PUSH               a=0 b=0 c=0 flags=0x00
+0003 MOVE               a=0 b=0 c=0 flags=0x10 b_float=0
+0004 INDEX_ADDRESS      a=-1 b=5 c=2 flags=0x00
+0005 MOVE               a=1 b=2 c=0 flags=0x00
+0006 CALL               a=-2 b=1 c=0 flags=0x00 external=create
+0007 POP                a=0 b=0 c=0 flags=0x00
+0008 MOVE               a=16 b=1 c=0 flags=0x00
+0009 INDEX_ADDRESS      a=-1 b=14 c=0 flags=0x00
+0010 INDEX_ADDRESS      a=16 b=14 c=1 flags=0x00
+0011 CALL               a=-3 b=0 c=0 flags=0x00 external=vec_copy
+0012 YIELD              a=0 b=0 c=0 flags=0x00

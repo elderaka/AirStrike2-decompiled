@@ -1,0 +1,57 @@
+entry=50 slots=30 functions=['create', 'remove', 'Damage', 'RotateTo', 'AnglesToAxis', 'vec_copy', 'vec_scale', 'move', 'movez']
+0000 INDEX_ADDRESS      a=-1 b=14 c=0 flags=0x00
+0001 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+0002 MOVE               a=0 b=-1028390912 c=0 flags=0x92 b_float=-90
+0003 INDEX_ADDRESS      a=-1 b=14 c=0 flags=0x00
+0004 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0005 MOVE               a=0 b=1127481344 c=0 flags=0x92 b_float=180
+0006 INDEX_ADDRESS      a=-1 b=24 c=0 flags=0x00
+0007 MOVE               a=0 b=1124859904 c=0 flags=0x92 b_float=140
+0008 YIELD              a=0 b=0 c=0 flags=0x00
+0009 INDEX_ADDRESS      a=-1 b=34 c=0 flags=0x00
+0010 GT                 a=0 b=0 c=0 flags=0x12 b_float=0
+0011 JUMP_IF_NONZERO    a=0 b=2 c=0 flags=0x00
+0012 RETURN             a=0 b=0 c=0 flags=0x00
+0013 MOVE               a=0 b=0 c=0 flags=0x10 b_float=0
+0014 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0015 CALL               a=-1 b=0 c=0 flags=0x00 external=create
+0016 MOVE               a=0 b=-1 c=0 flags=0x00
+0017 CALL               a=-2 b=0 c=0 flags=0x00 external=remove
+0018 YIELD              a=0 b=0 c=0 flags=0x00
+0019 MOVE               a=0 b=-2 c=0 flags=0x00
+0020 INDEX_ADDRESS      a=-1 b=35 c=1 flags=0x00
+0021 MOVE               a=1 b=1 c=0 flags=0x20
+0022 CALL               a=-3 b=0 c=0 flags=0x00 external=Damage
+0023 MOVE               a=0 b=17 c=0 flags=0x10 b_float=2.38221e-44
+0024 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0025 CALL               a=-1 b=0 c=0 flags=0x00 external=create
+0026 MOVE               a=0 b=-1 c=0 flags=0x00
+0027 CALL               a=-2 b=0 c=0 flags=0x00 external=remove
+0028 YIELD              a=0 b=0 c=0 flags=0x00
+0029 MOVE               a=0 b=-3 c=0 flags=0x00
+0030 MOVE               a=1 b=1077936128 c=0 flags=0x10 b_float=3
+0031 CALL               a=-4 b=0 c=0 flags=0x00 external=RotateTo
+0032 INDEX_ADDRESS      a=-1 b=14 c=0 flags=0x00
+0033 MOVE               a=1 b=20 c=0 flags=0x00
+0034 CALL               a=-5 b=0 c=0 flags=0x00 external=AnglesToAxis
+0035 INDEX_ADDRESS      a=20 b=3 c=0 flags=0x00
+0036 MOVE               a=1 b=16 c=0 flags=0x00
+0037 CALL               a=-6 b=0 c=0 flags=0x00 external=vec_copy
+0038 MOVE               a=0 b=16 c=0 flags=0x00
+0039 MOVE               a=1 b=1123024896 c=0 flags=0x10 b_float=120
+0040 CALL               a=-7 b=0 c=0 flags=0x00 external=vec_scale
+0041 MOVE               a=0 b=16 c=0 flags=0x00
+0042 CALL               a=-8 b=0 c=0 flags=0x00 external=move
+0043 YIELD              a=0 b=0 c=0 flags=0x00
+0044 MOVE               a=0 b=1123024896 c=0 flags=0x10 b_float=120
+0045 CALL               a=-9 b=0 c=0 flags=0x00 external=movez
+0046 YIELD              a=0 b=0 c=0 flags=0x00
+0047 MOVE               a=0 b=16 c=0 flags=0x00
+0048 CALL               a=-8 b=0 c=0 flags=0x00 external=move
+0049 YIELD              a=0 b=0 c=0 flags=0x00
+0050 SET_WAIT           a=1060320051 b=0 c=0 flags=0x01 a_float=0.7
+0051 CALL_WAIT          a=44 b=0 c=0 flags=0x00
+0052 SET_WAIT           a=1077936128 b=0 c=0 flags=0x01 a_float=3
+0053 CALL_WAIT          a=29 b=0 c=0 flags=0x00
+0054 CALL_WAIT          a=47 b=0 c=0 flags=0x00
+0055 YIELD              a=0 b=0 c=0 flags=0x00

@@ -1,0 +1,33 @@
+
+big_clouds {
+	type	TYPE_HSPRITE
+	flag	FL_TEMPORARY
+	skin	"gfx\clouds\clouds1.tga"
+	blend	BLEND_ALPHA
+	sort	SORT_EFFECT
+	min	-128 -128 0 0
+	max	128 128 1 1
+	script	"scripts/effects/clouds.scr"
+}
+
+big_clouds2 {
+	type	TYPE_HSPRITE
+	flag	FL_TEMPORARY
+	skin	"gfx\clouds\clouds1.tga"
+	blend	BLEND_ALPHA
+	sort	SORT_EFFECT
+	min	-128 -128 0 0
+	max	128 128 1 1
+	script	"scripts/effects/clouds.scr"
+}
+
+big_clouds3 {
+	type	TYPE_HSPRITE
+	flag	FL_TEMPORARY
+	skin	"gfx\clouds\clouds1.tga"
+	blend	BLEND_ALPHA
+	sort	SORT_EFFECT
+	min	-128 -128 0 0
+	max	128 128 1 1
+	script	"scripts/effects/clouds.scr"
+}

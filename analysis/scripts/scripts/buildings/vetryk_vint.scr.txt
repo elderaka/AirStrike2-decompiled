@@ -1,0 +1,4 @@
+entry=0 slots=16 functions=['rotatey']
+0000 MOVE               a=0 b=1125515264 c=0 flags=0x10 b_float=150
+0001 CALL               a=-1 b=0 c=0 flags=0x00 external=rotatey
+0002 YIELD              a=0 b=0 c=0 flags=0x00

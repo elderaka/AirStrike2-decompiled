@@ -1,0 +1,299 @@
+
+rlbig_falling_rocket_expl {
+	flag    FL_NODRAW
+        script  "scripts\rocket_launcher_big\expl.scr"
+	attach	PS_EXPLOSION_ABOMB_FIRE_FLASH "origin"
+	attach  PS_EXPLOSION_SPARKS "origin"
+}
+
+rlbig_falling_rocket_expl_wave
+{
+	model	"models\misc\sphere.mdl"
+	skin	"models\misc\hlanno.tga"
+        blend	BLEND_ADD
+	rflag	RF_NOLIGHTING
+	rflag	RF_NODEPTHWRITE
+        script  "scripts\rocket_launcher_big\wave.scr"
+}
+
+rlbig_falling_rocket
+{
+	flag	FL_TEMPORARY
+        model   "models\rocket_launcher_big\rocket_launcher_big_rocket.mdl"
+        skin    "models\rocket_launcher_big\rocket_launcher_big_green.tga"
+
+        script  "scripts\rocket_launcher_big\rocket_falling.scr"
+
+	attach  id "FIRE" "PS_RLBIG_FIRE" "tag_jet"
+}
+
+///////////////////////////////////////////////////////////////////////////////
+////////////////////////////// rocket_launcher_big ////////////////////////////
+///////////////////////////////////////////////////////////////////////////////
+
+
+rocket_launcher_big_startup_smoke {
+	flag    FL_TEMPORARY
+
+	sort	SORT_EFFECT
+
+	attach  PS_RLBIG_STARTUP_SMOKE "origin"
+
+        script  "scripts\rocket_launcher_big\smoke.scr"
+}
+
+rocket_launcher_big_dead {
+
+        model   "models\rocket_launcher_big\rocket_launcher_big_dead.mdl"
+        skin    "models\rocket_launcher_big\rocket_launcher_big_dead.tga"
+
+
+	attach id "CAMPFIRE" "campfire" "origin"
+	attach id "CAMPFIRE_SMALL" "campfire_small" "origin"
+
+} 
+
+////////////////////////rocket_launcher_big_green//////////////////////////
+
+rocket_launcher_big_green_wr {
+        model   "models\rocket_launcher_big\rocket_launcher_big_wr.mdl"
+        skin    "models\rocket_launcher_big\rocket_launcher_big_green.tga"
+
+        script  "scripts\rocket_launcher_big\j_wheel.scr"
+}
+
+rocket_launcher_big_green_wl {
+        model   "models\rocket_launcher_big\rocket_launcher_big_wl.mdl"
+        skin    "models\rocket_launcher_big\rocket_launcher_big_green.tga"
+
+        script  "scripts\rocket_launcher_big\j_wheel.scr"
+}
+
+
+rocket_launcher_big_green_rocket 
+{
+        model   "models\rocket_launcher_big\rocket_launcher_big_rocket.mdl"
+        skin    "models\rocket_launcher_big\rocket_launcher_big_green.tga"
+
+        script  "scripts\rocket_launcher_big\rocket.scr"
+
+	attach  id "FIRE" "PS_RLBIG_FIRE" "tag_jet"
+}
+
+rocket_launcher_big_green {
+        health  1400
+        flag    FL_ONGROUND_NORMAL
+        enemy
+
+	score	2000
+
+	skid_mark  15 30 15 "gfx/marks/jeepmark1.tga"
+	skid_mark -15 30 15 "gfx/marks/jeepmark1.tga"
+
+        model   "models\rocket_launcher_big\rocket_launcher_big.mdl"
+        skin    "models\rocket_launcher_big\rocket_launcher_big_green.tga"
+        shadow  SHADOW_PLANAR_LOW
+
+	attach  "helic_redflare"        "tag_flare01"
+	attach  "helic_redflare"        "tag_flare02"
+        attach  "helic_redflare"        "tag_flare03"
+        attach  "helic_redflare"        "tag_flare04"
+
+        attach abs id "W1" "rocket_launcher_big_green_wl" "tag_wheel01"
+        attach abs id "W2"   "rocket_launcher_big_green_wl" "tag_wheel02"
+        attach abs id "W3"   "rocket_launcher_big_green_wl" "tag_wheel03"
+                         
+        attach abs id "W4"   "rocket_launcher_big_green_wr" "tag_wheel04"
+        attach abs id "W5"   "rocket_launcher_big_green_wr" "tag_wheel05"
+        attach abs id "W6"   "rocket_launcher_big_green_wr" "tag_wheel06"
+        
+        attach abs id "ROCKET" "rocket_launcher_big_green_rocket" "tag_rocket"
+      
+        attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+        script  "scripts\rocket_launcher_big\rl.scr"
+}
+
+///////////////////////////////////////////////////////////////////////////////
+////////////////////////////// rocket_launcher_big ////////////////////////////
+///////////////////////////////////////////////////////////////////////////////
+
+rocket_launcher_big_snow_wr {
+        model   "models\rocket_launcher_big\rocket_launcher_big_wr.mdl"
+        skin    "models\rocket_launcher_big\rocket_launcher_big_snow.tga"
+
+        script  "scripts\rocket_launcher_big\j_wheel.scr"
+}
+
+rocket_launcher_big_snow_wl {
+        model   "models\rocket_launcher_big\rocket_launcher_big_wl.mdl"
+        skin    "models\rocket_launcher_big\rocket_launcher_big_snow.tga"
+
+        script  "scripts\rocket_launcher_big\j_wheel.scr"
+}
+
+
+rocket_launcher_big_snow_rocket {
+        model   "models\rocket_launcher_big\rocket_launcher_big_rocket.mdl"
+        skin    "models\rocket_launcher_big\rocket_launcher_big_snow.tga"
+
+	attach  id "FIRE" "PS_RLBIG_FIRE" "tag_jet"
+        script  "scripts\rocket_launcher_big\rocket.scr"
+}
+
+rocket_launcher_big_snow {
+        health  1400
+        flag    FL_ONGROUND_NORMAL
+        enemy
+
+	score	2000
+
+	skid_mark  15 30 15 "gfx/marks/jeepmark1.tga"
+	skid_mark -15 30 15 "gfx/marks/jeepmark1.tga"
+
+        model   "models\rocket_launcher_big\rocket_launcher_big.mdl"
+        skin    "models\rocket_launcher_big\rocket_launcher_big_snow.tga"
+        shadow  SHADOW_PLANAR_LOW
+
+	attach  "helic_redflare"        "tag_flare01"
+	attach  "helic_redflare"        "tag_flare02"
+        attach  "helic_redflare"        "tag_flare03"
+        attach  "helic_redflare"        "tag_flare04"
+
+        attach abs id "W1" "rocket_launcher_big_green_wl" "tag_wheel01"
+        attach abs id "W2"   "rocket_launcher_big_green_wl" "tag_wheel02"
+        attach abs id "W3"   "rocket_launcher_big_green_wl" "tag_wheel03"
+                         
+        attach abs id "W4"   "rocket_launcher_big_green_wr" "tag_wheel04"
+        attach abs id "W5"   "rocket_launcher_big_green_wr" "tag_wheel05"
+        attach abs id "W6"   "rocket_launcher_big_green_wr" "tag_wheel06"
+        
+        attach abs id "ROCKET" "rocket_launcher_big_green_rocket" "tag_rocket"
+      
+//        attach abs night "svet_far" "tag_fara01"
+//        attach abs night "svet_far_wol" "tag_fara02"
+        attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+        script  "scripts\rocket_launcher_big\rl.scr"
+}
+
+////////////////////////rocket_launcher_big_green_1//////////////////////////
+
+rocket_launcher_big_green_1_wr {
+        model   "models\rocket_launcher_big\rocket_launcher_big_wr.mdl"
+        skin    "models\rocket_launcher_big\rocket_launcher_big_green_1.tga"
+
+        script  "scripts\rocket_launcher_big\j_wheel.scr"
+}
+
+rocket_launcher_big_green_1_wl {
+        model   "models\rocket_launcher_big\rocket_launcher_big_wl.mdl"
+        skin    "models\rocket_launcher_big\rocket_launcher_big_green_1.tga"
+
+        script  "scripts\rocket_launcher_big\j_wheel.scr"
+}
+
+
+rocket_launcher_big_green_1_rocket {
+        model   "models\rocket_launcher_big\rocket_launcher_big_rocket.mdl"
+        skin    "models\rocket_launcher_big\rocket_launcher_big_green_1.tga"
+
+	attach  id "FIRE" "PS_RLBIG_FIRE" "tag_jet"
+        script  "scripts\rocket_launcher_big\rocket.scr"
+}
+
+rocket_launcher_big_green_1 {
+        health  1400
+        flag    FL_ONGROUND_NORMAL
+        enemy
+
+	score	2000
+
+	skid_mark  15 30 15 "gfx/marks/jeepmark1.tga"
+	skid_mark -15 30 15 "gfx/marks/jeepmark1.tga"
+
+        model   "models\rocket_launcher_big\rocket_launcher_big.mdl"
+        skin    "models\rocket_launcher_big\rocket_launcher_big_green_1.tga"
+        shadow  SHADOW_PLANAR_LOW
+
+	attach  "helic_redflare"        "tag_flare01"
+	attach  "helic_redflare"        "tag_flare02"
+        attach  "helic_redflare"        "tag_flare03"
+        attach  "helic_redflare"        "tag_flare04"
+
+        attach abs id "W1" "rocket_launcher_big_green_wl" "tag_wheel01"
+        attach abs id "W2"   "rocket_launcher_big_green_wl" "tag_wheel02"
+        attach abs id "W3"   "rocket_launcher_big_green_wl" "tag_wheel03"
+                         
+        attach abs id "W4"   "rocket_launcher_big_green_wr" "tag_wheel04"
+        attach abs id "W5"   "rocket_launcher_big_green_wr" "tag_wheel05"
+        attach abs id "W6"   "rocket_launcher_big_green_wr" "tag_wheel06"
+        
+        attach abs id "ROCKET" "rocket_launcher_big_green_rocket" "tag_rocket"
+      
+//        attach abs night "svet_far" "tag_fara01"
+//        attach abs night "svet_far_wol" "tag_fara02"
+        attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+        script  "scripts\rocket_launcher_big\rl.scr"
+}
+
+////////////////////////rocket_launcher_big_desert//////////////////////////
+
+rocket_launcher_big_desert_wr {
+        model   "models\rocket_launcher_big\rocket_launcher_big_wr.mdl"
+        skin    "models\rocket_launcher_big\rocket_launcher_big_desert.tga"
+
+        script  "scripts\rocket_launcher_big\j_wheel.scr"
+}
+
+rocket_launcher_big_desert_wl {
+        model   "models\rocket_launcher_big\rocket_launcher_big_wl.mdl"
+        skin    "models\rocket_launcher_big\rocket_launcher_big_desert.tga"
+
+        script  "scripts\rocket_launcher_big\j_wheel.scr"
+}
+
+rocket_launcher_big_desert_rocket {
+        model   "models\rocket_launcher_big\rocket_launcher_big_rocket.mdl"
+        skin    "models\rocket_launcher_big\rocket_launcher_big_desert.tga"
+
+	attach  id "FIRE" "PS_RLBIG_FIRE" "tag_jet"
+        script  "scripts\rocket_launcher_big\rocket.scr"
+}
+
+rocket_launcher_big_desert {
+        health  1400
+        flag    FL_ONGROUND_NORMAL
+        enemy
+
+	score	2000
+
+	skid_mark  15 30 15 "gfx/marks/jeepmark1.tga"
+	skid_mark -15 30 15 "gfx/marks/jeepmark1.tga"
+
+        model   "models\rocket_launcher_big\rocket_launcher_big.mdl"
+        skin    "models\rocket_launcher_big\rocket_launcher_big_desert.tga"
+        shadow  SHADOW_PLANAR_LOW
+
+	attach  "helic_redflare"        "tag_flare01"
+	attach  "helic_redflare"        "tag_flare02"
+        attach  "helic_redflare"        "tag_flare03"
+        attach  "helic_redflare"        "tag_flare04"
+
+        attach abs id "W1" "rocket_launcher_big_green_wl" "tag_wheel01"
+        attach abs id "W2"   "rocket_launcher_big_green_wl" "tag_wheel02"
+        attach abs id "W3"   "rocket_launcher_big_green_wl" "tag_wheel03"
+                         
+        attach abs id "W4"   "rocket_launcher_big_green_wr" "tag_wheel04"
+        attach abs id "W5"   "rocket_launcher_big_green_wr" "tag_wheel05"
+        attach abs id "W6"   "rocket_launcher_big_green_wr" "tag_wheel06"
+        
+        attach abs id "ROCKET" "rocket_launcher_big_green_rocket" "tag_rocket"
+      
+//        attach abs night "svet_far" "tag_fara01"
+//        attach abs night "svet_far_wol" "tag_fara02"
+        attach id "CAMPFIRE_ALMOSTDEAD" "PS_CAMPFIRE_ALMOSTDEAD" origin
+
+        script  "scripts\rocket_launcher_big\rl.scr"
+}

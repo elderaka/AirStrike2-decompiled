@@ -1,0 +1,35 @@
+entry=0 slots=16 functions=['StartSound', 'CameraQuake', 'create', 'sleep', 'TerraMorph', 'remove']
+0000 MOVE               a=0 b=0 c=0 flags=0x10 b_float=0
+0001 CALL               a=-1 b=0 c=0 flags=0x00 external=StartSound
+0002 MOVE               a=0 b=1065353216 c=0 flags=0x10 b_float=1
+0003 CALL               a=-2 b=0 c=0 flags=0x00 external=CameraQuake
+0004 MOVE               a=0 b=22 c=0 flags=0x10 b_float=3.08286e-44
+0005 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0006 CALL               a=-3 b=0 c=0 flags=0x00 external=create
+0007 MOVE               a=0 b=39 c=0 flags=0x10 b_float=5.46506e-44
+0008 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0009 CALL               a=-3 b=0 c=0 flags=0x00 external=create
+0010 SET_WAIT           a=1050253722 b=0 c=0 flags=0x01 a_float=0.3
+0011 CALL_WAIT          a=-4 b=0 c=0 flags=0x00 external=sleep
+0012 MOVE               a=0 b=1065353216 c=0 flags=0x10 b_float=1
+0013 CALL               a=-2 b=0 c=0 flags=0x00 external=CameraQuake
+0014 MOVE               a=0 b=49 c=0 flags=0x10 b_float=6.86636e-44
+0015 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0016 CALL               a=-3 b=0 c=0 flags=0x00 external=create
+0017 MOVE               a=0 b=80 c=0 flags=0x10 b_float=1.12104e-43
+0018 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0019 CALL               a=-3 b=0 c=0 flags=0x00 external=create
+0020 SET_WAIT           a=1050253722 b=0 c=0 flags=0x01 a_float=0.3
+0021 CALL_WAIT          a=-4 b=0 c=0 flags=0x00 external=sleep
+0022 INDEX_ADDRESS      a=-1 b=5 c=0 flags=0x00
+0023 MOVE               a=1 b=90 c=0 flags=0x10 b_float=1.26117e-43
+0024 CALL               a=-5 b=0 c=0 flags=0x00 external=TerraMorph
+0025 MOVE               a=0 b=113 c=0 flags=0x10 b_float=1.58347e-43
+0026 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0027 CALL               a=-3 b=0 c=0 flags=0x00 external=create
+0028 MOVE               a=0 b=118 c=0 flags=0x10 b_float=1.65353e-43
+0029 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0030 CALL               a=-3 b=0 c=0 flags=0x00 external=create
+0031 MOVE               a=0 b=-1 c=0 flags=0x00
+0032 CALL               a=-6 b=0 c=0 flags=0x00 external=remove
+0033 YIELD              a=0 b=0 c=0 flags=0x00

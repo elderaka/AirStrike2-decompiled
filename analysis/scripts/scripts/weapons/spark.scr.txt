@@ -1,0 +1,4 @@
+entry=0 slots=16 functions=['move']
+0000 INDEX_ADDRESS      a=-1 b=17 c=0 flags=0x00
+0001 CALL               a=-1 b=0 c=0 flags=0x00 external=move
+0002 YIELD              a=0 b=0 c=0 flags=0x00

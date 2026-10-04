@@ -1,0 +1,64 @@
+entry=20 slots=27 functions=['AttachDeactivate', 'AttachActivate', 'AnglesToAxis']
+0000 INDEX_ADDRESS      a=-1 b=14 c=0 flags=0x00
+0001 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+0002 MOVE               a=0 b=0 c=0 flags=0x92 b_float=0
+0003 INDEX_ADDRESS      a=-1 b=14 c=0 flags=0x00
+0004 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+0005 MOVE               a=0 b=0 c=0 flags=0x92 b_float=0
+0006 INDEX_ADDRESS      a=-1 b=14 c=0 flags=0x00
+0007 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0008 MOVE               a=0 b=0 c=0 flags=0x92 b_float=0
+0009 INDEX_ADDRESS      a=-1 b=17 c=0 flags=0x00
+0010 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+0011 MOVE               a=0 b=1109393408 c=0 flags=0x92 b_float=40
+0012 INDEX_ADDRESS      a=-1 b=5 c=0 flags=0x00
+0013 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0014 ADD                a=0 b=1106247680 c=0 flags=0x92 b_float=30
+0015 MOVE               a=0 b=0 c=0 flags=0x10 b_float=0
+0016 CALL               a=-1 b=0 c=0 flags=0x00 external=AttachDeactivate
+0017 MOVE               a=0 b=20 c=0 flags=0x10 b_float=2.8026e-44
+0018 CALL               a=-1 b=0 c=0 flags=0x00 external=AttachDeactivate
+0019 YIELD              a=0 b=0 c=0 flags=0x00
+0020 INDEX_ADDRESS      a=-1 b=17 c=0 flags=0x00
+0021 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+0022 MUL                a=1120403456 b=-2 c=1 flags=0x01 a_float=100
+0023 ADD                a=0 b=1 c=0 flags=0x82
+0024 INDEX_ADDRESS      a=-1 b=17 c=0 flags=0x00
+0025 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+0026 GT                 a=0 b=1132593152 c=0 flags=0x12 b_float=260
+0027 JUMP_IF_NONZERO    a=0 b=14 c=0 flags=0x00
+0028 NOT_INT            a=26 b=0 c=0 flags=0x00
+0029 JUMP_IF_NONZERO    a=0 b=4 c=0 flags=0x00
+0030 MOVE               a=0 b=31 c=0 flags=0x10 b_float=4.34403e-44
+0031 CALL               a=-2 b=0 c=0 flags=0x00 external=AttachActivate
+0032 MOVE               a=26 b=1065353216 c=0 flags=0x10 b_float=1
+0033 INDEX_ADDRESS      a=-1 b=14 c=0 flags=0x00
+0034 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+0035 GT                 a=0 b=-1036779520 c=0 flags=0x12 b_float=-45
+0036 JUMP_IF_NONZERO    a=0 b=5 c=0 flags=0x00
+0037 INDEX_ADDRESS      a=-1 b=14 c=0 flags=0x00
+0038 INDEX_ADDRESS      a=0 b=0 c=0 flags=0x00
+0039 MUL                a=1106247680 b=-2 c=1 flags=0x01 a_float=30
+0040 SUB                a=0 b=1 c=0 flags=0x82
+0041 INDEX_ADDRESS      a=-1 b=14 c=0 flags=0x00
+0042 MOVE               a=1 b=16 c=0 flags=0x00
+0043 CALL               a=-3 b=0 c=0 flags=0x00 external=AnglesToAxis
+0044 INDEX_ADDRESS      a=-1 b=5 c=0 flags=0x00
+0045 INDEX_ADDRESS      a=0 b=1 c=0 flags=0x00
+0046 INDEX_ADDRESS      a=-1 b=17 c=1 flags=0x00
+0047 INDEX_ADDRESS      a=1 b=1 c=1 flags=0x00
+0048 INDEX_ADDRESS      a=16 b=3 c=2 flags=0x00
+0049 INDEX_ADDRESS      a=2 b=1 c=2 flags=0x00
+0050 MUL                a=1 b=2 c=1 flags=0x22
+0051 MUL                a=1 b=-2 c=1 flags=0x00
+0052 ADD                a=0 b=1 c=0 flags=0x82
+0053 INDEX_ADDRESS      a=-1 b=5 c=0 flags=0x00
+0054 INDEX_ADDRESS      a=0 b=2 c=0 flags=0x00
+0055 INDEX_ADDRESS      a=-1 b=17 c=1 flags=0x00
+0056 INDEX_ADDRESS      a=1 b=1 c=1 flags=0x00
+0057 INDEX_ADDRESS      a=16 b=3 c=2 flags=0x00
+0058 INDEX_ADDRESS      a=2 b=2 c=2 flags=0x00
+0059 MUL                a=1 b=2 c=1 flags=0x22
+0060 MUL                a=1 b=-2 c=1 flags=0x00
+0061 ADD                a=0 b=1 c=0 flags=0x82
+0062 YIELD              a=0 b=0 c=0 flags=0x00

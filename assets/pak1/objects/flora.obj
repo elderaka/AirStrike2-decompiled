@@ -1,0 +1,871 @@
+// =============================================================================
+//
+// PALMS
+//
+// =============================================================================
+
+palm {
+	model	"models\mapobjects\palms\palm.mdl"
+	skin	"models\mapobjects\palms\palm.tga"
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PROJECTED
+	sort	SORT_TRANS
+	rflag 	RF_NOCULLING
+	flag    FL_ONGROUND
+}
+
+palm2 {
+	model	"models\mapobjects\palms\palm2.mdl"
+	skin	"models\mapobjects\palms\palm.tga"
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PROJECTED
+	sort	SORT_TRANS
+	rflag 	RF_NOCULLING
+	flag    FL_ONGROUND
+}
+
+palm3 {
+	model	"models\mapobjects\palms\palm_iva.mdl"
+	skin	"models\mapobjects\palms\palm_big.tga"
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PROJECTED
+	sort	SORT_TRANS
+	rflag 	RF_NOCULLING
+	flag    FL_ONGROUND
+}
+
+palm_small {
+	model	"models\mapobjects\palms\palm_small.mdl"
+	skin	"models\mapobjects\palms\palm.tga"
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PROJECTED
+	sort	SORT_TRANS
+	rflag 	RF_NOCULLING
+	flag    FL_ONGROUND
+}
+
+palm_iva_small {
+	model	"models\mapobjects\palms\palm_small.mdl"
+	skin	"models\mapobjects\palms\palm_iva.tga"
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PROJECTED
+	sort	SORT_TRANS
+	rflag 	RF_NOCULLING
+	flag    FL_ONGROUND
+}
+
+palm_iva {
+	model	"models\mapobjects\palms\palm_iva.mdl"
+	skin	"models\mapobjects\palms\palm_iva.tga"
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PROJECTED
+	sort	SORT_TRANS
+	rflag 	RF_NOCULLING
+	flag    FL_ONGROUND
+}
+
+palm_big {
+	model	"models\mapobjects\palms\palm_big.mdl"
+	skin	"models\mapobjects\palms\palm_iva.tga"
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PROJECTED
+	sort	SORT_TRANS
+	rflag 	RF_NOCULLING
+	flag    FL_ONGROUND
+}
+
+palm_twice {
+	model	"models\mapobjects\palms\palm_tw.mdl"
+	skin	"models\mapobjects\palms\palm.tga"
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PROJECTED
+	sort	SORT_TRANS
+	rflag 	RF_NOCULLING
+	flag    FL_ONGROUND
+}
+
+palm_new {
+	model	"models\mapobjects\trees\palm\palm.mdl"
+	skin	"models\mapobjects\trees\palm\palm.tga"
+	
+	shadow	SHADOW_PROJECTED
+	
+        blend   BLEND_ALPHA
+        rflag   RF_NOCULLING
+        sort    SORT_TRANS
+        
+        flag    FL_ONGROUND
+	script	"scripts\mapobjects\tree\tree.scr"
+}
+
+palm_new02 {
+	model	"models\mapobjects\trees\palm\palm_new02.mdl"
+	skin	"models\mapobjects\trees\palm\palm.tga"
+	
+	shadow	SHADOW_PROJECTED
+	
+        blend   BLEND_ALPHA
+        rflag   RF_NOCULLING
+        sort    SORT_TRANS
+        
+        flag    FL_ONGROUND
+	script	"scripts\mapobjects\tree\tree.scr"
+}
+
+palm_new03 {
+	model	"models\mapobjects\trees\palm\palm_new03.mdl"
+	skin	"models\mapobjects\trees\palm\palm.tga"
+	
+	shadow	SHADOW_PROJECTED
+	
+        blend   BLEND_ALPHA
+        rflag   RF_NOCULLING
+        sort    SORT_TRANS
+        
+        flag    FL_ONGROUND
+	script	"scripts\mapobjects\tree\tree.scr"
+}
+
+// =============================================================================
+//
+// TREES
+//
+// =============================================================================
+
+Tree {
+	civilian
+	health	10
+
+	model	"models\mapobjects\trees\tree.mdl"
+	skin	"models\mapobjects\trees\tree.tga"
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PROJECTED
+	sort	SORT_TRANS
+	rflag 	RF_NOCULLING
+	flag    FL_ONGROUND
+	script	"scripts\mapobjects\tree\tree.scr"
+}
+
+Tree_redleafs {
+	civilian
+	health	10
+
+	model	"models\mapobjects\trees\tree.mdl"
+	skin	"models\mapobjects\trees\tree_redleafs.tga"
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PROJECTED
+	sort	SORT_TRANS
+	rflag 	RF_NOCULLING
+	flag    FL_ONGROUND
+	script	"scripts\mapobjects\tree\tree.scr"
+}
+
+Tree_sosna {
+	civilian
+	health	10
+
+	model	"models\mapobjects\trees\tree2.mdl"
+	skin	"models\mapobjects\trees\tree.tga"
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PROJECTED
+	sort	SORT_TRANS
+	rflag 	RF_NOCULLING
+	flag    FL_ONGROUND
+	script	"scripts\mapobjects\tree\tree.scr"
+}
+
+Tree_sosna2 {
+	civilian
+	health	10
+
+	model	"models\mapobjects\trees\tree3.mdl"
+	skin	"models\mapobjects\trees\tree.tga"
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PROJECTED
+	sort	SORT_TRANS
+	rflag 	RF_NOCULLING
+	flag    FL_ONGROUND
+	script	"scripts\mapobjects\tree\tree.scr"
+}
+
+Tree_sosna_forest {
+	civilian
+	health	10
+
+	model	"models\mapobjects\trees\tree4.mdl"
+	skin	"models\mapobjects\trees\tree.tga"
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PROJECTED
+	sort	SORT_TRANS
+	rflag 	RF_NOCULLING
+	flag    FL_ONGROUND
+
+	script	"scripts\mapobjects\tree\tree.scr"
+}
+
+
+Tree_sosna_redleafs {
+	civilian
+	health	10
+
+	model	"models\mapobjects\trees\tree3.mdl"
+	skin	"models\mapobjects\trees\tree_redleafs.tga"
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PROJECTED
+	sort	SORT_TRANS
+	rflag 	RF_NOCULLING
+	flag    FL_ONGROUND
+	script	"scripts\mapobjects\tree\tree.scr"
+}
+
+
+Tree_sosna_without_leafs {
+	civilian
+	health	10
+
+	model	"models\mapobjects\trees\tree3.mdl"
+	skin	"models\mapobjects\trees\tree_woleafs.tga"
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PROJECTED
+	sort	SORT_TRANS
+	rflag 	RF_NOCULLING
+	flag    FL_ONGROUND
+	script	"scripts\mapobjects\tree\tree.scr"
+}
+
+tree_sosna_big {
+	civilian
+	health	10
+
+	model	"models\mapobjects\trees\sosna\sosna_big.mdl"
+	skin	"models\mapobjects\trees\tree.tga"
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PROJECTED
+	sort	SORT_TRANS
+	rflag 	RF_NOCULLING
+	flag    FL_ONGROUND
+	script	"scripts\mapobjects\tree\tree.scr"
+}
+
+tree_sosna_big_without_leafs {
+	civilian
+	health	10
+
+	model	"models\mapobjects\trees\sosna\sosna_big.mdl"
+	skin	"models\mapobjects\trees\tree_woleafs.tga"
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PROJECTED
+	sort	SORT_TRANS
+	rflag 	RF_NOCULLING
+	flag    FL_ONGROUND
+	script	"scripts\mapobjects\tree\tree.scr"
+}
+
+
+Tree_without_leafs {
+	civilian
+	health	10
+
+	model	"models\mapobjects\trees\tree.mdl"
+	skin	"models\mapobjects\trees\tree_woleafs.tga"
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PROJECTED
+	sort	SORT_TRANS
+	rflag 	RF_NOCULLING
+	flag    FL_ONGROUND
+	script	"scripts\mapobjects\tree\tree.scr"
+}
+
+
+Tree_big {
+	civilian
+	health	10
+
+	model	"models\mapobjects\trees\tree_big.mdl"
+	skin	"models\mapobjects\trees\tree.tga"
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PROJECTED
+	sort	SORT_TRANS
+	rflag 	RF_NOCULLING
+	flag    FL_ONGROUND
+	script	"scripts\mapobjects\tree\tree.scr"
+}
+
+
+Tree_big_green {
+	civilian
+	health	10
+
+	model	"models\mapobjects\trees\tree_big.mdl"
+	skin	"models\mapobjects\trees\tree_green.tga"
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PROJECTED
+	sort	SORT_TRANS
+	rflag 	RF_NOCULLING
+	flag    FL_ONGROUND
+	script	"scripts\mapobjects\tree\tree.scr"
+}
+
+bereza_green {
+	civilian
+	health	10
+
+	model	"models\mapobjects\trees\bereza\bereza.mdl"
+	skin	"models\mapobjects\trees\bereza\bereza_green.tga"
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PROJECTED
+	sort	SORT_TRANS
+	rflag 	RF_NOCULLING
+	flag    FL_ONGROUND
+	script	"scripts\mapobjects\tree\tree.scr"
+}
+
+bereza_red {
+	civilian
+	health	10
+
+	model	"models\mapobjects\trees\bereza\bereza.mdl"
+	skin	"models\mapobjects\trees\bereza\bereza_red.tga"
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PROJECTED
+	sort	SORT_TRANS
+	rflag 	RF_NOCULLING
+	flag    FL_ONGROUND
+	script	"scripts\mapobjects\tree\tree.scr"
+}
+
+bereza_w_leafs {
+	civilian
+	health	10
+
+	model	"models\mapobjects\trees\bereza\bereza.mdl"
+	skin	"models\mapobjects\trees\bereza\bereza_w_leafs.tga"
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PROJECTED
+	sort	SORT_TRANS
+	rflag 	RF_NOCULLING
+	flag    FL_ONGROUND
+	script	"scripts\mapobjects\tree\tree.scr"
+}
+
+bereza_big_green {
+	civilian
+	health	10
+
+	model	"models\mapobjects\trees\bereza\bereza_big.mdl"
+	skin	"models\mapobjects\trees\bereza\bereza_green.tga"
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PROJECTED
+	sort	SORT_TRANS
+	rflag 	RF_NOCULLING
+	flag    FL_ONGROUND
+	script	"scripts\mapobjects\tree\tree.scr"
+}
+
+bereza_big_red {
+	civilian
+	health	10
+
+	model	"models\mapobjects\trees\bereza\bereza_big.mdl"
+	skin	"models\mapobjects\trees\bereza\bereza_red.tga"
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PROJECTED
+	sort	SORT_TRANS
+	rflag 	RF_NOCULLING
+	flag    FL_ONGROUND
+	script	"scripts\mapobjects\tree\tree.scr"
+}
+
+bereza_big_w_leafs {
+	civilian
+	health	10
+
+	model	"models\mapobjects\trees\bereza\bereza_big.mdl"
+	skin	"models\mapobjects\trees\bereza\bereza_w_leafs.tga"
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PROJECTED
+	sort	SORT_TRANS
+	rflag 	RF_NOCULLING
+	flag    FL_ONGROUND
+	script	"scripts\mapobjects\tree\tree.scr"
+}
+
+bereza01_green {
+	civilian
+	health	10
+
+	model	"models\mapobjects\trees\bereza\bereza01.mdl"
+	skin	"models\mapobjects\trees\bereza\tree_bereza.tga"
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PROJECTED
+	sort	SORT_TRANS
+	rflag 	RF_NOCULLING
+	flag    FL_ONGROUND
+	script	"scripts\mapobjects\tree\tree.scr"
+}
+
+tree_new_01 {
+	civilian
+	health	10
+
+	model	"models\mapobjects\trees\tree_new_01.mdl"
+	skin	"models\mapobjects\trees\tree_new_01.tga"
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PROJECTED
+	sort	SORT_TRANS
+	rflag 	RF_NOCULLING
+	flag    FL_ONGROUND
+	script	"scripts\mapobjects\tree\tree.scr"
+}
+
+tree_new_02_green {
+	civilian
+	health	10
+
+	model	"models\mapobjects\trees\tree_new_02.mdl"
+	skin	"models\mapobjects\trees\tree_redleafs.tga"
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PROJECTED
+	sort	SORT_TRANS
+	rflag 	RF_NOCULLING
+	flag    FL_ONGROUND
+	script	"scripts\mapobjects\tree\tree.scr"
+}
+
+tree_new_02_w_l {
+	civilian
+	health	10
+
+	model	"models\mapobjects\trees\tree_new_02.mdl"
+	skin	"models\mapobjects\trees\tree_woleafs.tga"
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PROJECTED
+	sort	SORT_TRANS
+	rflag 	RF_NOCULLING
+	flag    FL_ONGROUND
+	script	"scripts\mapobjects\tree\tree.scr"
+}
+
+kust_new_01 {
+	model	"models\mapobjects\trees\kust_new_01.mdl"
+	skin	"models\mapobjects\trees\tree_new_01.tga"
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PROJECTED
+	sort	SORT_TRANS
+	rflag 	RF_NOCULLING
+	flag    FL_ONGROUND
+}
+
+kust_new_02 {
+	model	"models\mapobjects\trees\kust_new_02.mdl"
+	skin	"models\mapobjects\trees\tree_w_l.tga"
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PROJECTED
+	sort	SORT_TRANS
+	rflag 	RF_NOCULLING
+	flag    FL_ONGROUND
+}
+
+// =============================================================================
+//
+// ELKA
+//
+// =============================================================================
+
+elka_snow {
+	model	"models\mapobjects\elka\elka.mdl"
+	skin	"models\mapobjects\elka\elka.tga"
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PROJECTED
+	sort	SORT_TRANS
+	rflag 	RF_NOCULLING
+	flag    FL_ONGROUND
+}
+
+elka {
+	model	"models\mapobjects\elka\elka.mdl"
+	skin	"models\mapobjects\elka\elka2.tga"
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PROJECTED
+	sort	SORT_TRANS
+	rflag 	RF_NOCULLING
+	flag    FL_ONGROUND
+}
+
+elka_blue {
+	model	"models\mapobjects\elka\elka.mdl"
+	skin	"models\mapobjects\elka\elka3.tga"
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PROJECTED
+	sort	SORT_TRANS
+	rflag 	RF_NOCULLING
+	flag    FL_ONGROUND
+}
+
+
+// =============================================================================
+//
+// BUSHES
+//
+// =============================================================================
+
+bush_big_green2 {
+	model	"models\mapobjects\bushs\bush_big_green2.mdl"
+	skin	"models\mapobjects\bushs\bush.tga"
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PLANAR
+	sort	SORT_TRANS
+	flag    FL_ONGROUND_NORMAL
+}
+
+bush_big_sand {
+	model	"models\mapobjects\bushs\bush_big_sand.mdl"
+	skin	"models\mapobjects\bushs\bush.tga"
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PLANAR
+	sort	SORT_TRANS
+	flag    FL_ONGROUND_NORMAL
+}
+
+
+bush_medium_green {
+	model	"models\mapobjects\bushs\bush_medium_green.mdl"
+	skin	"models\mapobjects\bushs\bush.tga"
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PLANAR
+	sort	SORT_TRANS
+	flag    FL_ONGROUND_NORMAL
+}
+
+bush_medium_green2 {
+	model	"models\mapobjects\bushs\bush_medium_green2.mdl"
+	skin	"models\mapobjects\bushs\bush.tga"
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PLANAR
+	sort	SORT_TRANS
+	flag    FL_ONGROUND_NORMAL
+}
+
+bush_medium_sand2  {
+	model	"models\mapobjects\bushs\bush_medium_sand2.mdl"
+	skin	"models\mapobjects\bushs\bush.tga"
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PLANAR
+	sort	SORT_TRANS
+	flag    FL_ONGROUND_NORMAL
+}
+
+
+bush_small_green {
+	model	"models\mapobjects\bushs\bush_small_green.mdl"
+	skin	"models\mapobjects\bushs\bush.tga"
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PLANAR
+	sort	SORT_TRANS
+	flag    FL_ONGROUND_NORMAL
+}
+
+bush_small_green2 {
+	model	"models\mapobjects\bushs\bush_small_green2.mdl"
+	skin	"models\mapobjects\bushs\bush.tga"
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PLANAR
+	sort	SORT_TRANS
+	flag    FL_ONGROUND_NORMAL
+}
+
+bush_small_sand {
+	model	"models\mapobjects\bushs\bush_small_sand.mdl"
+	skin	"models\mapobjects\bushs\bush.tga"
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PLANAR
+	sort	SORT_TRANS
+	flag    FL_ONGROUND_NORMAL
+}
+
+bush_small_sand2 {
+	model	"models\mapobjects\bushs\bush_small_sand2.mdl"
+	skin	"models\mapobjects\bushs\bush.tga"
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PLANAR
+	sort	SORT_TRANS
+	flag    FL_ONGROUND_NORMAL
+}
+
+bush_new {
+
+	model	"models\mapobjects\bushs\bush_new.mdl"
+	skin	"models\mapobjects\bushs\bush_new03.tga"
+
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PLANAR
+	sort	SORT_TRANS
+	flag    FL_ONGROUND_NORMAL
+}
+
+bush_new02 {
+
+	model	"models\mapobjects\bushs\bush_new02.mdl"
+	skin	"models\mapobjects\bushs\bush_new02.tga"
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PLANAR
+	sort	SORT_TRANS
+	flag    FL_ONGROUND_NORMAL
+}
+
+bush_new03 {
+
+	model	"models\mapobjects\bushs\bush_new03.mdl"
+	skin	"models\mapobjects\bushs\bush.tga"
+	blend	BLEND_ALPHA
+	shadow	SHADOW_PLANAR
+	sort	SORT_TRANS
+	flag    FL_ONGROUND_NORMAL
+}
+
+/////////////////////////////////////////
+//////////////////cactuses///////////////
+/////////////////////////////////////////
+
+cactus1 {
+	model	"models\mapobjects\cactus\cactus1.mdl"
+	skin	"models\mapobjects\cactus\cactus.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+}
+
+cactus2 {
+	model	"models\mapobjects\cactus\cactus2.mdl"
+	skin	"models\mapobjects\cactus\cactus.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+}
+
+cactus3 {
+	model	"models\mapobjects\cactus\cactus3.mdl"
+	skin	"models\mapobjects\cactus\cactus.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+}
+
+cactus4 {
+	model	"models\mapobjects\cactus\cactus4.mdl"
+	skin	"models\mapobjects\cactus\cactus.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+}
+
+cactus_big {
+	model	"models\mapobjects\cactus\cactus_big.mdl"
+	skin	"models\mapobjects\cactus\cactus.tga"
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND
+}
+
+kuvshinka {
+	model	"models\mapobjects\water\kuvshinka.mdl"
+	skin	"models\mapobjects\water\kuvshinka.tga"
+	blend	BLEND_ALPHA
+	flag	FL_ONWATER
+	sort	SORT_TRANS
+	script  "scripts\misc\kuvsh.scr"
+}
+
+kuvshinka2 {
+	model	"models\mapobjects\water\kuvshinka2.mdl"
+	skin	"models\mapobjects\water\kuvshinka.tga"
+	flag	FL_ONWATER
+	blend	BLEND_ALPHA
+	sort	SORT_TRANS
+	script  "scripts\misc\kuvsh.scr"
+}
+
+grass {
+	model	"models\mapobjects\water\grass.mdl"
+	skin	"models\mapobjects\water\grass2.tga"
+	blend	BLEND_ALPHA
+	sort	SORT_TRANS
+	shadow	SHADOW_PROJECTED
+	rflag 	RF_NOCULLING
+	rflag	RF_NOLIGHTING
+	flag    FL_ONGROUND
+	script	"scripts\mapobjects\tree\grass.scr"
+}
+
+grass2 {
+	model	"models\mapobjects\water\grass2.mdl"
+	skin	"models\mapobjects\water\grass2_rty.tga"
+	blend	BLEND_ALPHA
+	sort	SORT_TRANS
+	shadow	SHADOW_PROJECTED
+	rflag 	RF_NOCULLING
+	rflag	RF_NOLIGHTING
+	flag    FL_ONGROUND
+	script	"scripts\mapobjects\tree\grass.scr"
+}
+
+podsolnuh {
+	model	"models\mapobjects\trees\podsolnuh.mdl"
+	skin	"models\mapobjects\trees\podsolnuh.tga"
+	blend	BLEND_ALPHA
+	sort	SORT_TRANS
+	shadow	SHADOW_PROJECTED
+	flag    FL_ONGROUND_NORMAL
+}
+
+penek_01 {
+	model	"models\mapobjects\trees\penek.mdl"
+	skin	"models\mapobjects\brevna\brevna.tga"
+	rflag 	RF_NOCULLING
+	flag    FL_ONGROUND_NORMAL
+}
+
+penek_02 {
+	model	"models\mapobjects\trees\penek_02.mdl"
+	skin	"models\mapobjects\brevna\brevna.tga"
+	rflag 	RF_NOCULLING
+	flag    FL_ONGROUND_NORMAL
+}
+
+
+
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////// L E D ///////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+
+iceberg01 {
+	envmap	"gfx\envmap3.tga"
+	envmode	ENV_GLITTER
+	model	"models\mapobjects\led\iceberg01.mdl"
+	skin	"models\mapobjects\led\ice.tga"
+	flag	FL_ONWATER
+	script	"scripts\nature\iseberg.scr"
+}
+
+iceberg01_1 {
+	envmap	"gfx\envmap3.tga"
+	envmode	ENV_GLITTER
+	model	"models\mapobjects\led\iceberg01.mdl"
+	skin	"models\mapobjects\led\ice2.tga"
+	flag	FL_ONWATER
+	script	"scripts\nature\iseberg.scr"
+}
+
+iceberg02 {
+	envmap	"gfx\envmap3.tga"
+	envmode	ENV_GLITTER
+	model	"models\mapobjects\led\iceberg02.mdl"
+	skin	"models\mapobjects\led\ice.tga"
+	flag	FL_ONWATER
+	script	"scripts\nature\iseberg.scr"
+}
+
+
+iceberg02_1 {
+	envmap	"gfx\envmap3.tga"
+	envmode	ENV_GLITTER
+	model	"models\mapobjects\led\iceberg02.mdl"
+	skin	"models\mapobjects\led\ice2.tga"
+	flag	FL_ONWATER
+	script	"scripts\nature\iseberg.scr"
+}
+
+
+iceberg03 {
+	envmap	"gfx\envmap3.tga"
+	envmode	ENV_GLITTER
+	model	"models\mapobjects\led\iceberg03.mdl"
+	skin	"models\mapobjects\led\ice.tga"
+	flag	FL_ONWATER
+	script	"scripts\nature\iseberg.scr"
+}
+
+iceberg03_1 {
+	envmap	"gfx\envmap3.tga"
+	envmode	ENV_GLITTER
+	model	"models\mapobjects\led\iceberg03.mdl"
+	skin	"models\mapobjects\led\ice2.tga"
+	flag	FL_ONWATER
+	script	"scripts\nature\iseberg.scr"
+}
+
+ldina01 {
+	model	"models\mapobjects\led\ldina01.mdl"
+	skin	"models\mapobjects\led\ice.tga"
+	blend	BLEND_ADD
+	rflag	RF_NOCULLING
+	rflag	RF_NODEPTHWRITE
+	flag	FL_ONWATER
+	script	"scripts\nature\iseberg.scr"
+}
+
+ldina01_1 {
+	model	"models\mapobjects\led\ldina01.mdl"
+	skin	"models\mapobjects\led\ice2.tga"
+	blend	BLEND_ADD
+	rflag	RF_NOCULLING
+	rflag	RF_NODEPTHWRITE
+	flag	FL_ONWATER
+	script	"scripts\nature\iseberg.scr"
+}
+
+ldina02 {
+	model	"models\mapobjects\led\ldina02.mdl"
+	skin	"models\mapobjects\led\ice.tga"
+	blend	BLEND_ADD
+	rflag	RF_NOCULLING
+	rflag	RF_NODEPTHWRITE
+	flag	FL_ONWATER
+	script	"scripts\nature\iseberg.scr"
+}
+
+ldina02_1 {
+	model	"models\mapobjects\led\ldina02.mdl"
+	skin	"models\mapobjects\led\ice2.tga"
+	blend	BLEND_ADD
+	rflag	RF_NOCULLING
+	rflag	RF_NODEPTHWRITE
+	flag	FL_ONWATER
+
+}
+
+ldina03 {
+	model	"models\mapobjects\led\ldina03.mdl"
+	skin	"models\mapobjects\led\ice.tga"
+	blend	BLEND_ADD
+	rflag	RF_NOCULLING
+	rflag	RF_NODEPTHWRITE
+	flag	FL_ONWATER
+	script	"scripts\nature\iseberg.scr"
+}
+
+ldina03_1 {
+	model	"models\mapobjects\led\ldina04.mdl"
+	skin	"models\mapobjects\led\ice2.tga"
+	blend	BLEND_ADD
+	rflag	RF_NOCULLING
+	rflag	RF_NODEPTHWRITE
+	flag	FL_ONWATER
+	script	"scripts\nature\iseberg.scr"
+}
+
+ldina04 {
+	model	"models\mapobjects\led\ldina04.mdl"
+	skin	"models\mapobjects\led\ice.tga"
+	blend	BLEND_ADD
+	rflag	RF_NOCULLING
+	rflag	RF_NODEPTHWRITE
+	flag	FL_ONWATER
+	script	"scripts\nature\iseberg.scr"
+}
+
+ldina04_1 {
+
+	model	"models\mapobjects\led\ldina04.mdl"
+	skin	"models\mapobjects\led\ice2.tga"
+	blend	BLEND_ADD
+	rflag	RF_NOCULLING
+	rflag	RF_NODEPTHWRITE
+	flag	FL_ONWATER
+	script	"scripts\nature\iseberg.scr"
+}

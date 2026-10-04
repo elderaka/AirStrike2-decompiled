@@ -1,0 +1,64 @@
+entry=27 slots=23 functions=['RotateToClamp', 'vec_sub', 'Shoot']
+0000 INDEX_ADDRESS      a=-1 b=24 c=0 flags=0x00
+0001 MOVE               a=0 b=1117782016 c=0 flags=0x92 b_float=80
+0002 MOVE               a=17 b=0 c=0 flags=0x10 b_float=0
+0003 YIELD              a=0 b=0 c=0 flags=0x00
+0004 JUMP_IF_NONZERO    a=-2 b=2 c=0 flags=0x00
+0005 MOVE               a=17 b=1065353216 c=0 flags=0x10 b_float=1
+0006 YIELD              a=0 b=0 c=0 flags=0x00
+0007 MOVE               a=0 b=-3 c=0 flags=0x00
+0008 MOVE               a=1 b=1073741824 c=0 flags=0x10 b_float=2
+0009 MOVE               a=2 b=1101004800 c=0 flags=0x10 b_float=20
+0010 MOVE               a=3 b=-1032847360 c=0 flags=0x10 b_float=-60
+0011 CALL               a=-1 b=0 c=0 flags=0x00 external=RotateToClamp
+0012 YIELD              a=0 b=0 c=0 flags=0x00
+0013 MOVE               a=18 b=0 c=0 flags=0x00
+0014 INDEX_ADDRESS      a=-3 b=5 c=0 flags=0x00
+0015 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0016 MOVE               a=2 b=19 c=0 flags=0x00
+0017 CALL               a=-2 b=0 c=0 flags=0x00 external=vec_sub
+0018 INDEX_ADDRESS      a=19 b=1 c=0 flags=0x00
+0019 ADD                a=0 b=1107296256 c=0 flags=0x92 b_float=32
+0020 INDEX_ADDRESS      a=19 b=2 c=0 flags=0x00
+0021 ADD                a=0 b=1107296256 c=0 flags=0x92 b_float=32
+0022 MOVE               a=0 b=0 c=0 flags=0x10 b_float=0
+0023 MOVE               a=1 b=18 c=0 flags=0x00
+0024 MOVE               a=2 b=19 c=0 flags=0x00
+0025 CALL               a=-3 b=0 c=0 flags=0x00 external=Shoot
+0026 YIELD              a=0 b=0 c=0 flags=0x00
+0027 MOVE               a=0 b=-3 c=0 flags=0x00
+0028 MOVE               a=1 b=1073741824 c=0 flags=0x10 b_float=2
+0029 MOVE               a=2 b=1101004800 c=0 flags=0x10 b_float=20
+0030 MOVE               a=3 b=-1032847360 c=0 flags=0x10 b_float=-60
+0031 CALL               a=-1 b=0 c=0 flags=0x00 external=RotateToClamp
+0032 JUMP_IF_NONZERO    a=17 b=30 c=0 flags=0x00
+0033 MOVE               a=0 b=18 c=0 flags=0x10 b_float=2.52234e-44
+0034 CALL               a=13 b=0 c=0 flags=0x00
+0035 SET_WAIT           a=1036831949 b=0 c=0 flags=0x01 a_float=0.1
+0036 CALL_WAIT          a=7 b=0 c=0 flags=0x00
+0037 MOVE               a=0 b=27 c=0 flags=0x10 b_float=3.78351e-44
+0038 CALL               a=13 b=0 c=0 flags=0x00
+0039 SET_WAIT           a=1036831949 b=0 c=0 flags=0x01 a_float=0.1
+0040 CALL_WAIT          a=7 b=0 c=0 flags=0x00
+0041 MOVE               a=0 b=36 c=0 flags=0x10 b_float=5.04467e-44
+0042 CALL               a=13 b=0 c=0 flags=0x00
+0043 SET_WAIT           a=1036831949 b=0 c=0 flags=0x01 a_float=0.1
+0044 CALL_WAIT          a=7 b=0 c=0 flags=0x00
+0045 MOVE               a=0 b=45 c=0 flags=0x10 b_float=6.30584e-44
+0046 CALL               a=13 b=0 c=0 flags=0x00
+0047 SET_WAIT           a=1036831949 b=0 c=0 flags=0x01 a_float=0.1
+0048 CALL_WAIT          a=7 b=0 c=0 flags=0x00
+0049 MOVE               a=0 b=54 c=0 flags=0x10 b_float=7.56701e-44
+0050 CALL               a=13 b=0 c=0 flags=0x00
+0051 SET_WAIT           a=1036831949 b=0 c=0 flags=0x01 a_float=0.1
+0052 CALL_WAIT          a=7 b=0 c=0 flags=0x00
+0053 MOVE               a=0 b=63 c=0 flags=0x10 b_float=8.82818e-44
+0054 CALL               a=13 b=0 c=0 flags=0x00
+0055 SET_WAIT           a=1036831949 b=0 c=0 flags=0x01 a_float=0.1
+0056 CALL_WAIT          a=7 b=0 c=0 flags=0x00
+0057 MOVE               a=0 b=72 c=0 flags=0x10 b_float=1.00893e-43
+0058 CALL               a=13 b=0 c=0 flags=0x00
+0059 SET_WAIT           a=1065353216 b=0 c=0 flags=0x01 a_float=1
+0060 CALL_WAIT          a=7 b=0 c=0 flags=0x00
+0061 MOVE               a=17 b=0 c=0 flags=0x10 b_float=0
+0062 YIELD              a=0 b=0 c=0 flags=0x00

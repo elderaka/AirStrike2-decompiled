@@ -1,0 +1,309 @@
+{
+  "source": "work\\payload\\app\\game.exe",
+  "size": 57344,
+  "sha256": "70934ce32cef37bf25d7a207110b2760242e634b227c56f9a97a858cba19f16a",
+  "machine": "0x14c",
+  "timestamp": 1338811109,
+  "linker": [
+    6,
+    0
+  ],
+  "image_base": "0x400000",
+  "entry_rva": "0x3bef",
+  "subsystem": 2,
+  "sections": [
+    {
+      "name": ".text",
+      "rva": "0x1000",
+      "virtual_size": 34462,
+      "raw_offset": 4096,
+      "raw_size": 36864,
+      "characteristics": "0x60000020",
+      "entropy": 6.3313899231691915
+    },
+    {
+      "name": ".rdata",
+      "rva": "0xa000",
+      "virtual_size": 6478,
+      "raw_offset": 40960,
+      "raw_size": 8192,
+      "characteristics": "0x40000040",
+      "entropy": 3.649761148580911
+    },
+    {
+      "name": ".data",
+      "rva": "0xc000",
+      "virtual_size": 9960,
+      "raw_offset": 49152,
+      "raw_size": 4096,
+      "characteristics": "0xc0000040",
+      "entropy": 2.8486679393740606
+    },
+    {
+      "name": ".rsrc",
+      "rva": "0xf000",
+      "virtual_size": 2396,
+      "raw_offset": 53248,
+      "raw_size": 4096,
+      "characteristics": "0x40000040",
+      "entropy": 3.6980361403025266
+    }
+  ],
+  "imports": {
+    "KERNEL32.dll": [
+      {
+        "name": "GetExitCodeProcess",
+        "iat_va": "0x40a000"
+      },
+      {
+        "name": "CreateProcessA",
+        "iat_va": "0x40a004"
+      },
+      {
+        "name": "GetStringTypeW",
+        "iat_va": "0x40a008"
+      },
+      {
+        "name": "GetStringTypeA",
+        "iat_va": "0x40a00c"
+      },
+      {
+        "name": "MultiByteToWideChar",
+        "iat_va": "0x40a010"
+      },
+      {
+        "name": "GetModuleHandleA",
+        "iat_va": "0x40a014"
+      },
+      {
+        "name": "GetStartupInfoA",
+        "iat_va": "0x40a018"
+      },
+      {
+        "name": "GetCommandLineA",
+        "iat_va": "0x40a01c"
+      },
+      {
+        "name": "GetVersion",
+        "iat_va": "0x40a020"
+      },
+      {
+        "name": "ExitProcess",
+        "iat_va": "0x40a024"
+      },
+      {
+        "name": "RtlUnwind",
+        "iat_va": "0x40a028"
+      },
+      {
+        "name": "RaiseException",
+        "iat_va": "0x40a02c"
+      },
+      {
+        "name": "HeapFree",
+        "iat_va": "0x40a030"
+      },
+      {
+        "name": "TerminateProcess",
+        "iat_va": "0x40a034"
+      },
+      {
+        "name": "GetCurrentProcess",
+        "iat_va": "0x40a038"
+      },
+      {
+        "name": "HeapReAlloc",
+        "iat_va": "0x40a03c"
+      },
+      {
+        "name": "HeapAlloc",
+        "iat_va": "0x40a040"
+      },
+      {
+        "name": "HeapSize",
+        "iat_va": "0x40a044"
+      },
+      {
+        "name": "UnhandledExceptionFilter",
+        "iat_va": "0x40a048"
+      },
+      {
+        "name": "GetModuleFileNameA",
+        "iat_va": "0x40a04c"
+      },
+      {
+        "name": "FreeEnvironmentStringsA",
+        "iat_va": "0x40a050"
+      },
+      {
+        "name": "FreeEnvironmentStringsW",
+        "iat_va": "0x40a054"
+      },
+      {
+        "name": "WideCharToMultiByte",
+        "iat_va": "0x40a058"
+      },
+      {
+        "name": "GetEnvironmentStrings",
+        "iat_va": "0x40a05c"
+      },
+      {
+        "name": "GetEnvironmentStringsW",
+        "iat_va": "0x40a060"
+      },
+      {
+        "name": "SetHandleCount",
+        "iat_va": "0x40a064"
+      },
+      {
+        "name": "GetStdHandle",
+        "iat_va": "0x40a068"
+      },
+      {
+        "name": "GetFileType",
+        "iat_va": "0x40a06c"
+      },
+      {
+        "name": "HeapDestroy",
+        "iat_va": "0x40a070"
+      },
+      {
+        "name": "HeapCreate",
+        "iat_va": "0x40a074"
+      },
+      {
+        "name": "VirtualFree",
+        "iat_va": "0x40a078"
+      },
+      {
+        "name": "WriteFile",
+        "iat_va": "0x40a07c"
+      },
+      {
+        "name": "GetLastError",
+        "iat_va": "0x40a080"
+      },
+      {
+        "name": "SetFilePointer",
+        "iat_va": "0x40a084"
+      },
+      {
+        "name": "FlushFileBuffers",
+        "iat_va": "0x40a088"
+      },
+      {
+        "name": "CloseHandle",
+        "iat_va": "0x40a08c"
+      },
+      {
+        "name": "SetUnhandledExceptionFilter",
+        "iat_va": "0x40a090"
+      },
+      {
+        "name": "VirtualAlloc",
+        "iat_va": "0x40a094"
+      },
+      {
+        "name": "IsBadWritePtr",
+        "iat_va": "0x40a098"
+      },
+      {
+        "name": "GetCPInfo",
+        "iat_va": "0x40a09c"
+      },
+      {
+        "name": "GetACP",
+        "iat_va": "0x40a0a0"
+      },
+      {
+        "name": "GetOEMCP",
+        "iat_va": "0x40a0a4"
+      },
+      {
+        "name": "GetProcAddress",
+        "iat_va": "0x40a0a8"
+      },
+      {
+        "name": "LoadLibraryA",
+        "iat_va": "0x40a0ac"
+      },
+      {
+        "name": "IsBadReadPtr",
+        "iat_va": "0x40a0b0"
+      },
+      {
+        "name": "IsBadCodePtr",
+        "iat_va": "0x40a0b4"
+      },
+      {
+        "name": "ReadFile",
+        "iat_va": "0x40a0b8"
+      },
+      {
+        "name": "SetStdHandle",
+        "iat_va": "0x40a0bc"
+      },
+      {
+        "name": "LCMapStringA",
+        "iat_va": "0x40a0c0"
+      },
+      {
+        "name": "LCMapStringW",
+        "iat_va": "0x40a0c4"
+      }
+    ],
+    "SHELL32.dll": [
+      {
+        "name": "ShellExecuteA",
+        "iat_va": "0x40a0cc"
+      }
+    ]
+  },
+  "resources": [
+    {
+      "path": [
+        "3",
+        "1",
+        "1049"
+      ],
+      "rva": "0xf0a0",
+      "size": 2216,
+      "file": "resource_3_1_1049.bin"
+    },
+    {
+      "path": [
+        "14",
+        "101",
+        "1049"
+      ],
+      "rva": "0xf948",
+      "size": 20,
+      "file": "resource_14_101_1049.bin"
+    }
+  ],
+  "warnings": [],
+  "overlay": {
+    "offset": null,
+    "size": 0,
+    "prefix_hex": ""
+  },
+  "directories": [
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_IMPORT",
+      "rva": "0xb4b0",
+      "size": 60
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_RESOURCE",
+      "rva": "0xf000",
+      "size": 2396
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_IAT",
+      "rva": "0xa000",
+      "size": 212
+    }
+  ],
+  "version_info": "None",
+  "debug": []
+}

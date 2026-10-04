@@ -1,0 +1,95 @@
+{
+  "header_words": [
+    1280525138,
+    16,
+    0,
+    2,
+    0,
+    0,
+    16,
+    0,
+    5,
+    -1,
+    0,
+    -1,
+    -1,
+    -1
+  ],
+  "version": 16,
+  "cached_resource_count": 0,
+  "slot_count": 16,
+  "entry_pc": 0,
+  "functions": [],
+  "definitions": [
+    "self",
+    "l_waterlevel"
+  ],
+  "chunks": {
+    "DEFS": {
+      "file_offset": 64,
+      "size": 20
+    },
+    "DATA": {
+      "file_offset": 92,
+      "size": 0
+    },
+    "CODE": {
+      "file_offset": 100,
+      "size": 70
+    }
+  },
+  "initializers": [],
+  "instructions": [
+    {
+      "pc": 0,
+      "file_offset": 100,
+      "opcode": 18,
+      "name": "INDEX_ADDRESS",
+      "flags": 0,
+      "a": -1,
+      "b": 5,
+      "c": 0
+    },
+    {
+      "pc": 1,
+      "file_offset": 114,
+      "opcode": 18,
+      "name": "INDEX_ADDRESS",
+      "flags": 0,
+      "a": 0,
+      "b": 2,
+      "c": 0
+    },
+    {
+      "pc": 2,
+      "file_offset": 128,
+      "opcode": 3,
+      "name": "ADD",
+      "flags": 16,
+      "a": -2,
+      "b": 1073741824,
+      "c": 1,
+      "b_immediate": 2.0
+    },
+    {
+      "pc": 3,
+      "file_offset": 142,
+      "opcode": 17,
+      "name": "MOVE",
+      "flags": 130,
+      "a": 0,
+      "b": 1,
+      "c": 0
+    },
+    {
+      "pc": 4,
+      "file_offset": 156,
+      "opcode": 0,
+      "name": "YIELD",
+      "flags": 0,
+      "a": 0,
+      "b": 0,
+      "c": 0
+    }
+  ]
+}

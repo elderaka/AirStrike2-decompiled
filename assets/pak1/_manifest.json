@@ -1,0 +1,4954 @@
+{
+  "archive": "work/payload/app/data/pak1.apk",
+  "sha256": "858f176fd875f7c84439fb2398b1d37d1292afb708f0b63c0f2faa96efe46952",
+  "version_bits": "0x3f800000",
+  "tag": "0x9999",
+  "table_offset": 2406315,
+  "count": 705,
+  "extensions": {
+    ".hsc": 21,
+    ".txt": 1,
+    ".obj": 39,
+    ".ps": 9,
+    ".wpn": 4,
+    ".scr": 630,
+    ".sc": 1
+  },
+  "entries": [
+    {
+      "name": "maps/level4.hsc",
+      "offset": 1040,
+      "size": 49589,
+      "flags": 0,
+      "sha256": "b8453fe171b4dae728ce940ba721be6bf31f5ae358bd70ebbaddc9c847e669f4"
+    },
+    {
+      "name": "maps/level8.hsc",
+      "offset": 50629,
+      "size": 43364,
+      "flags": 0,
+      "sha256": "d57d066b90d9997f56344abff9ad3c8165e4d42d5cd168df163ec6bcad1c7570"
+    },
+    {
+      "name": "maps/intro1.hsc",
+      "offset": 93993,
+      "size": 18648,
+      "flags": 0,
+      "sha256": "686c7d7fd6180a9a398db2ee7b0142a3f8240af0bde3338ced2fb0d0ec08aac5"
+    },
+    {
+      "name": "maps/intro2.hsc",
+      "offset": 112641,
+      "size": 34111,
+      "flags": 0,
+      "sha256": "9764d0867f8e7e834ee6f2a9e1f0965045f23a88de004c213e03086d1ec1d0d1"
+    },
+    {
+      "name": "maps/level14.hsc",
+      "offset": 146752,
+      "size": 46739,
+      "flags": 0,
+      "sha256": "97735ef7b96b32492101a54553409fd797e6d588acc47a33d73975bed0f5e88a"
+    },
+    {
+      "name": "maps/level3.hsc",
+      "offset": 193491,
+      "size": 50354,
+      "flags": 0,
+      "sha256": "dec5b07543ed1b9116d3dd88c25cceca0b8f842116bc3cb7c79270ef22229375"
+    },
+    {
+      "name": "maps/level5.hsc",
+      "offset": 243845,
+      "size": 48349,
+      "flags": 0,
+      "sha256": "29470ac8bb409568d8886831a095c2a7063038b43c61d8ed5cee90a081fa7d2c"
+    },
+    {
+      "name": "maps/bonus_level.hsc",
+      "offset": 292194,
+      "size": 48774,
+      "flags": 0,
+      "sha256": "933462589c0c827f2b41e71b44f5e1b3bf82c5561160b9847d30ccab12714320"
+    },
+    {
+      "name": "maps/level9.hsc",
+      "offset": 340968,
+      "size": 43150,
+      "flags": 0,
+      "sha256": "bdf7900eb0c5c57d6b614b2f50eb7e1a5c390a8914e4dd1a72509fbe512da8bf"
+    },
+    {
+      "name": "maps/level10.hsc",
+      "offset": 384118,
+      "size": 47497,
+      "flags": 0,
+      "sha256": "44e131812f36446a5cea0cf2a807aac1066bcdf666a32bc91482ec32a54e7c06"
+    },
+    {
+      "name": "maps/level_boss2.hsc",
+      "offset": 431615,
+      "size": 42419,
+      "flags": 0,
+      "sha256": "acbc426e81980c4fed87571a19bcfcd4f48e3fa0ab13e537b99d8790bee0eb59"
+    },
+    {
+      "name": "maps/level11.hsc",
+      "offset": 474034,
+      "size": 49367,
+      "flags": 0,
+      "sha256": "b40b3059aa9b182702003af152d5c0cfe1e3cefdb2db7830aba7d7eb67a7ffe9"
+    },
+    {
+      "name": "maps/level15.hsc",
+      "offset": 523401,
+      "size": 48386,
+      "flags": 0,
+      "sha256": "c09b8d8b637b744c199a02e474137213ff798a697fe01eb3b6fd8be409e801ed"
+    },
+    {
+      "name": "maps/bonus_level2.hsc",
+      "offset": 571787,
+      "size": 42654,
+      "flags": 0,
+      "sha256": "dfb97cea1cc1738a70fb9a9b37a5032d4988f87376a88ac0d713baebebe1a5e1"
+    },
+    {
+      "name": "maps/level16.hsc",
+      "offset": 614441,
+      "size": 51539,
+      "flags": 0,
+      "sha256": "e92c9b071a35c5ce6866c35ddc5c20d5ecb30530bd8a16cf0ebafa4334c74a66"
+    },
+    {
+      "name": "maps/level2.hsc",
+      "offset": 665980,
+      "size": 49184,
+      "flags": 0,
+      "sha256": "54edaf57eab104bfa08c4da373aa97089de30713006185ff925949bcfbb3ecf4"
+    },
+    {
+      "name": "maps/level17.hsc",
+      "offset": 715164,
+      "size": 46942,
+      "flags": 0,
+      "sha256": "e35d843f2a7432269952d0da62de140644111d9783a19b404e999d1997a19b11"
+    },
+    {
+      "name": "maps/level1_tutor.hsc",
+      "offset": 762106,
+      "size": 47884,
+      "flags": 0,
+      "sha256": "f06e6bb1343e724055f7cc9b556607c3bef904166e1b8c2f96d29419819843d1"
+    },
+    {
+      "name": "maps/level_konion.hsc",
+      "offset": 809990,
+      "size": 32796,
+      "flags": 0,
+      "sha256": "bca6590b9935953e8843a3a7618ec93efb5e94e94ff7ea6afaee08d5ea233bc4"
+    },
+    {
+      "name": "maps/levels.txt",
+      "offset": 842786,
+      "size": 12454,
+      "flags": 1,
+      "sha256": "f70ec2eedb3910b1d43cd8112d10925054ae209deca672a162a0a145acfea9fa"
+    },
+    {
+      "name": "maps/level_boss3.hsc",
+      "offset": 855240,
+      "size": 46607,
+      "flags": 0,
+      "sha256": "baccaef12fd847a98d82693b61c1fb2e9fe30d91c46a5a5e16f6d881dc7e9732"
+    },
+    {
+      "name": "maps/level_boss1.hsc",
+      "offset": 901847,
+      "size": 45085,
+      "flags": 0,
+      "sha256": "6e7a760f7856e9d55cc4959d4b8299580f49c1e2d139d1da32ef3f0018bbba72"
+    },
+    {
+      "name": "objects/btrs.obj",
+      "offset": 946932,
+      "size": 17251,
+      "flags": 1,
+      "sha256": "bc4a0ccd5386f78e2f90a3d8b6763af5767ee143924243281a0a54d7453b4d3d"
+    },
+    {
+      "name": "objects/buggy.obj",
+      "offset": 964183,
+      "size": 1365,
+      "flags": 1,
+      "sha256": "efeae9fb4d8e7a15039a06fd56e14f8aeb6dc66fa48d6d431541b3fb76c055cd"
+    },
+    {
+      "name": "objects/cannons.obj",
+      "offset": 965548,
+      "size": 27545,
+      "flags": 1,
+      "sha256": "78b03cc6144e2b37e2056f4cfea6322c53d0ad343bb105652ffc2ba81808c025"
+    },
+    {
+      "name": "objects/desert_builds.obj",
+      "offset": 993093,
+      "size": 401,
+      "flags": 1,
+      "sha256": "975001a575b35970b06b3755a92c26f96c4a270f0da4b39e1a4cc7000742959f"
+    },
+    {
+      "name": "objects/effects2.obj",
+      "offset": 993494,
+      "size": 620,
+      "flags": 1,
+      "sha256": "4776a0056b97f48fb9608d10c554de85f3481874084f0563344efb34d9eecaa0"
+    },
+    {
+      "name": "objects/helics.obj",
+      "offset": 994114,
+      "size": 19876,
+      "flags": 1,
+      "sha256": "f6edafc3e14fd4b5127732f51d88a50626384f34ca9fc73eeb1064e5edcd13bb"
+    },
+    {
+      "name": "objects/items.obj",
+      "offset": 1013990,
+      "size": 14431,
+      "flags": 1,
+      "sha256": "81923501317f070e2184e4529db9317a68d9de70728eb9544957be1bb57fddf2"
+    },
+    {
+      "name": "objects/jeeps.obj",
+      "offset": 1028421,
+      "size": 44432,
+      "flags": 1,
+      "sha256": "5c16bdce6c4c31978d1938c629108b6bf96b929fe2e263a551b0728f7e4fde8a"
+    },
+    {
+      "name": "objects/nature.obj",
+      "offset": 1072853,
+      "size": 813,
+      "flags": 1,
+      "sha256": "8f83c83d3464fc5198d6899b5bf6cecfc5e5c25a21a47f5eee2b206af0bbaed1"
+    },
+    {
+      "name": "objects/planes.obj",
+      "offset": 1073666,
+      "size": 18265,
+      "flags": 1,
+      "sha256": "d606d298265e6fed65e1c0569a0779ebaad28897d17cf389e6fc194e0e6d3473"
+    },
+    {
+      "name": "objects/rocketlauncher.obj",
+      "offset": 1091931,
+      "size": 7464,
+      "flags": 1,
+      "sha256": "1ba005e62dd16988153afa3eb290851e1131cdb0076c20745cab3221bb772c47"
+    },
+    {
+      "name": "objects/ruins.obj",
+      "offset": 1099395,
+      "size": 6477,
+      "flags": 1,
+      "sha256": "98ef9ae21f7b73c079f5f7d02d6167b97558094c25c29c5b2336ccdcaad61ba6"
+    },
+    {
+      "name": "objects/ships.obj",
+      "offset": 1105872,
+      "size": 21838,
+      "flags": 1,
+      "sha256": "7cc5247a6d87786b9873f9d4eba26cdd573a62ab9537d98b29a0e7590a874832"
+    },
+    {
+      "name": "objects/tanks.obj",
+      "offset": 1127710,
+      "size": 35698,
+      "flags": 1,
+      "sha256": "4122c6e90f7830fec2308bf7dc474fe1bec8f4855fae805f03393f78a9050702"
+    },
+    {
+      "name": "objects/teera_balst.obj",
+      "offset": 1163408,
+      "size": 620,
+      "flags": 1,
+      "sha256": "6117ebd4c85ad9faf8972e21c81839c031d866cbb3609feba4d58f169046d90e"
+    },
+    {
+      "name": "objects/transport.obj",
+      "offset": 1164028,
+      "size": 24264,
+      "flags": 1,
+      "sha256": "328adff67c42dd7e0099634a48e94a29b1e168c462769c3bf42da1d07feb3cad"
+    },
+    {
+      "name": "objects/weapons_enemy.obj",
+      "offset": 1188292,
+      "size": 23769,
+      "flags": 1,
+      "sha256": "e8b04620a7f4305a24c73b1f5f807f38894f59e3cc9b67700ae901fc85289143"
+    },
+    {
+      "name": "objects/weapons_enemy_missiles.obj",
+      "offset": 1212061,
+      "size": 3924,
+      "flags": 1,
+      "sha256": "de6a1f4bfd5fdcfd29d046d2e76aa84d7a48abc5eaf58c7b91c0f3045715200a"
+    },
+    {
+      "name": "objects/zabors.obj",
+      "offset": 1215985,
+      "size": 4041,
+      "flags": 1,
+      "sha256": "c4a8d0d5a3676a736a833924e4ebbf0f8883ce58b056546a43c6ffe84ed32b1f"
+    },
+    {
+      "name": "objects/_new.obj",
+      "offset": 1220026,
+      "size": 5746,
+      "flags": 1,
+      "sha256": "1c0ff6ea2b89a84e0c5ac1d6c565f172cdc64b1157b72730fa0db427720b4c5b"
+    },
+    {
+      "name": "objects/buildings.obj",
+      "offset": 1225772,
+      "size": 41427,
+      "flags": 1,
+      "sha256": "593c1875b1ce2dc7fe1978f786e2b7a58b5b099f1495579b79d5d026f9aada72"
+    },
+    {
+      "name": "objects/mapobjects.obj",
+      "offset": 1267199,
+      "size": 49084,
+      "flags": 1,
+      "sha256": "5f0d4d2c66fb9db2d80c3b5dd2c234376915b3c3f1c4f3a00f9e5b5e3f63c910"
+    },
+    {
+      "name": "objects/flora.obj",
+      "offset": 1316283,
+      "size": 19259,
+      "flags": 1,
+      "sha256": "da6ca53632c59f07448cf5d31c63e438b510486646800d6aaddce76f18098c2d"
+    },
+    {
+      "name": "objects/weapons.obj",
+      "offset": 1335542,
+      "size": 30794,
+      "flags": 1,
+      "sha256": "5635be0c526d17c152397906509bd5fd3a7ce1807eeba0a6b1516e989a44e8f7"
+    },
+    {
+      "name": "objects/effects.obj",
+      "offset": 1366336,
+      "size": 14030,
+      "flags": 1,
+      "sha256": "a8390d2138cc25fca1be944bfcec18a8849a49c58776cce6ad400a1c0a0a738b"
+    },
+    {
+      "name": "objects/misc.obj",
+      "offset": 1380366,
+      "size": 3447,
+      "flags": 1,
+      "sha256": "a2c3d853955e8919def18782855246538f667846eefe6de9e4f0c678d68fceee"
+    },
+    {
+      "name": "objects/avianos.obj",
+      "offset": 1383813,
+      "size": 2776,
+      "flags": 1,
+      "sha256": "1a00208a81960fb50dbaf7f5003c4e4606fd6edd6fe09798a2ada446548cf599"
+    },
+    {
+      "name": "objects/chinook.obj",
+      "offset": 1386589,
+      "size": 1630,
+      "flags": 1,
+      "sha256": "f40141faf2ca9ca8f3eac0ac3de5930c4791a87690d33b7107572ef4a3a9de93"
+    },
+    {
+      "name": "objects/m113.obj",
+      "offset": 1388219,
+      "size": 3492,
+      "flags": 1,
+      "sha256": "8f63d57d8b8baf46cff512dc60ef31fdb15ad0c2cb6fb2b837f6b88c5c197916"
+    },
+    {
+      "name": "objects/tyagach.obj",
+      "offset": 1391711,
+      "size": 2754,
+      "flags": 1,
+      "sha256": "0413e8edd363ef6209eece6ed40fc3d2f34b430a3ac360bf65178c0a9cd7f5df"
+    },
+    {
+      "name": "objects/intro01.obj",
+      "offset": 1394465,
+      "size": 4255,
+      "flags": 1,
+      "sha256": "e3fd09f61ade50130263796fad3540ebd8f2fce473ca946ec92b2d6d0cd822ef"
+    },
+    {
+      "name": "objects/player.obj",
+      "offset": 1398720,
+      "size": 19197,
+      "flags": 1,
+      "sha256": "a2fab5df10a1e532de8356c221a2722fb786ec15ab7fc1796ee74eb24f6bf71a"
+    },
+    {
+      "name": "objects/boss_1.obj",
+      "offset": 1417917,
+      "size": 6590,
+      "flags": 1,
+      "sha256": "5dc82f0faf13137b3a870d2dccac6b73f351fad67b081ea6d8eaf4406835e644"
+    },
+    {
+      "name": "objects/boss_2.obj",
+      "offset": 1424507,
+      "size": 4793,
+      "flags": 1,
+      "sha256": "271a18fecb3c5eca908ba216a5c1122ab09f05d8c24aed2f862179f3298cb483"
+    },
+    {
+      "name": "objects/rlbig.obj",
+      "offset": 1429300,
+      "size": 10745,
+      "flags": 1,
+      "sha256": "8cfee972646e0ffd4b3f1232a6573239b365c5aee8e7dfd6c58ef9d1095de594"
+    },
+    {
+      "name": "objects/boss_3_base.obj",
+      "offset": 1440045,
+      "size": 1655,
+      "flags": 1,
+      "sha256": "55bc21117213f5c464dd0d4298cd4bcb0fee16c1e94dbae96ff4ad7c03e3f6b3"
+    },
+    {
+      "name": "objects/boss_3_helic.obj",
+      "offset": 1441700,
+      "size": 2224,
+      "flags": 1,
+      "sha256": "1c2e671c3128a08ec94ba970097676a642ef9499e02e49907dc5102a6265f1b0"
+    },
+    {
+      "name": "objects/boss_3_train.obj",
+      "offset": 1443924,
+      "size": 7197,
+      "flags": 1,
+      "sha256": "09aaea3a205a4d392b3b0895e84a731937f54d99193b7d33de0a3ac0e361654d"
+    },
+    {
+      "name": "objects/intro02.obj",
+      "offset": 1451121,
+      "size": 198,
+      "flags": 1,
+      "sha256": "a73475b9818ef873f45b4a336ae0ececfd578f995bc29551dabdcbfef6e26a38"
+    },
+    {
+      "name": "particles/water.ps",
+      "offset": 1451319,
+      "size": 321,
+      "flags": 1,
+      "sha256": "b02f78b649a480bbc5e276caacffe501c10dfb90efe3a060d813b825e00de1b3"
+    },
+    {
+      "name": "particles/_new.ps",
+      "offset": 1451640,
+      "size": 2815,
+      "flags": 1,
+      "sha256": "247fab6a422ec28c8dde95f9909ffea2de93c58ec619313dcd278a344dc6f891"
+    },
+    {
+      "name": "particles/weapons.ps",
+      "offset": 1454455,
+      "size": 9917,
+      "flags": 1,
+      "sha256": "304fb1710a75bba5bfc78c22002ab4665ea03e4c9f5d417a0b2d7bebc5a6f632"
+    },
+    {
+      "name": "particles/weapons_enemy.ps",
+      "offset": 1464372,
+      "size": 1791,
+      "flags": 1,
+      "sha256": "9f41d50ba6de2bf436cc6d93c5fcaa3f51c93dca1b456fddf8cc53bd72065aff"
+    },
+    {
+      "name": "particles/weather.ps",
+      "offset": 1466163,
+      "size": 2334,
+      "flags": 1,
+      "sha256": "36067c7cf73ed573d42d2a9628baa2e2d3e50cea9211aa45c1051e02b00acb1e"
+    },
+    {
+      "name": "particles/explosions.ps",
+      "offset": 1468497,
+      "size": 7288,
+      "flags": 1,
+      "sha256": "205d5ecdda61c19d278967c95d70dec2a25e07d12dc0d63a5a33d7f4f3a72e65"
+    },
+    {
+      "name": "particles/rlbig.ps",
+      "offset": 1475785,
+      "size": 635,
+      "flags": 1,
+      "sha256": "01b8c785f2bf8369c463c3686349645264b7411aae2614c770c7fdeabf80a575"
+    },
+    {
+      "name": "particles/particles.ps",
+      "offset": 1476420,
+      "size": 13995,
+      "flags": 1,
+      "sha256": "6525eb1cb97640461dda227e4583f901c1782b8dcf0b673298c2f9d967aa2460"
+    },
+    {
+      "name": "particles/boss2.ps",
+      "offset": 1490415,
+      "size": 662,
+      "flags": 1,
+      "sha256": "1769670c1bad2517b597c07b18810affefdf113a7376687d0dc3f52736a079f2"
+    },
+    {
+      "name": "weapons/e_missiles.wpn",
+      "offset": 1491077,
+      "size": 1024,
+      "flags": 1,
+      "sha256": "f3d27dc5a81bdd8e38d4f8626b5a253393872e8994d616623b488d25a06a7841"
+    },
+    {
+      "name": "weapons/e_weapons.wpn",
+      "offset": 1492101,
+      "size": 3138,
+      "flags": 1,
+      "sha256": "15b9ba56f5ff3bef6c476788888a13085d775131e520eef043cf4b321e788137"
+    },
+    {
+      "name": "weapons/enemies.wpn",
+      "offset": 1495239,
+      "size": 92,
+      "flags": 1,
+      "sha256": "feb1882410204444569835089be5b1d2e622783a1b4d8d16d0c1372a073096d6"
+    },
+    {
+      "name": "weapons/player.wpn",
+      "offset": 1495331,
+      "size": 3438,
+      "flags": 1,
+      "sha256": "3e06d9834f96fbfa3e903ba5e7523bcad6ff56633b4b761959b633bb7df1277b"
+    },
+    {
+      "name": "scripts/snow.scr",
+      "offset": 1498769,
+      "size": 199,
+      "flags": 0,
+      "sha256": "daa543ac47865e658c61a30e79e5e0cc1a0513477fb82cb92e5c471360a1ff54"
+    },
+    {
+      "name": "scripts/item_shell.scr",
+      "offset": 1498968,
+      "size": 421,
+      "flags": 0,
+      "sha256": "cf5375b002c461350af382fd2414da3e48d1828e7140922970ebfb91b58ae698"
+    },
+    {
+      "name": "scripts/radar.scr",
+      "offset": 1499389,
+      "size": 131,
+      "flags": 0,
+      "sha256": "183eb94d591a8a599ddc007aa529fcdf62d3bb6cfe13fe0ef73e6b535ab14cf8"
+    },
+    {
+      "name": "scripts/train.scr",
+      "offset": 1499520,
+      "size": 774,
+      "flags": 0,
+      "sha256": "df3435b31a39adb4a81a7734537f7f1694d4bdaa147d94f07ba01d39154922a9"
+    },
+    {
+      "name": "scripts/dead.scr",
+      "offset": 1500294,
+      "size": 2357,
+      "flags": 0,
+      "sha256": "38469f4eb66e8cfad3119272f23da2ffc41dcc08ec953f39809f1883b937536a"
+    },
+    {
+      "name": "scripts/dead2.scr",
+      "offset": 1502651,
+      "size": 2357,
+      "flags": 0,
+      "sha256": "cd9d1af69323c6044f486384a457329a281572cc6cb4e5510b5f277ca4604c7c"
+    },
+    {
+      "name": "scripts/snow_constant.scr",
+      "offset": 1505008,
+      "size": 142,
+      "flags": 0,
+      "sha256": "477f237cb2a9453134edff6dbbbcb335e192c3a88dd03f927e729fdacb9efe27"
+    },
+    {
+      "name": "scripts/test_particles.scr",
+      "offset": 1505150,
+      "size": 3440,
+      "flags": 0,
+      "sha256": "e38185206d112c8bde652d71210a588905a0ff9b19b9e461f5b7026ed4075b72"
+    },
+    {
+      "name": "scripts/test.scr",
+      "offset": 1508590,
+      "size": 1461,
+      "flags": 0,
+      "sha256": "cef0691140e137c4642af0e991a857c00883016e7748c555656c5a2989c6772b"
+    },
+    {
+      "name": "scripts/bonuslevel_spdup1.scr",
+      "offset": 1510051,
+      "size": 707,
+      "flags": 0,
+      "sha256": "57144bcfbb1a42538366b35f6748bedcfc38119cd800d507477fb92d70fb57b7"
+    },
+    {
+      "name": "scripts/bonuslevel_spdup.scr",
+      "offset": 1510758,
+      "size": 707,
+      "flags": 0,
+      "sha256": "744de84a6b98bb6d1aba043a9ad118618b9f4b25d8085ad466d7245978a8a1ae"
+    },
+    {
+      "name": "scripts/stop.scr",
+      "offset": 1511465,
+      "size": 130,
+      "flags": 0,
+      "sha256": "ae7d243273a2770141065d0442ddf47df786bbb05fe8a3942893929cea04112a"
+    },
+    {
+      "name": "scripts/empty.scr",
+      "offset": 1511595,
+      "size": 144,
+      "flags": 0,
+      "sha256": "abedcc7d1fc9426daadc9129c5031668d6deaef14c44579a75ff6cf72b86fd39"
+    },
+    {
+      "name": "scripts/eol.scr",
+      "offset": 1511739,
+      "size": 1969,
+      "flags": 0,
+      "sha256": "99b238f90eb491d2f0825dc86720b4b8e2999449f9f1f57f97a54cf573044a77"
+    },
+    {
+      "name": "scripts/weapons/hit.scr",
+      "offset": 1513708,
+      "size": 179,
+      "flags": 0,
+      "sha256": "e2a7deb0d1d8ee727c75b88f4f6acc7273da4555af6c8b179cb3f3f95dadbc12"
+    },
+    {
+      "name": "scripts/weapons/hit10.scr",
+      "offset": 1513887,
+      "size": 179,
+      "flags": 0,
+      "sha256": "65d98b718764493d5b77bfaff8f0474a8d683f3091e7d834939bf658eb220d82"
+    },
+    {
+      "name": "scripts/weapons/hit4.scr",
+      "offset": 1514066,
+      "size": 179,
+      "flags": 0,
+      "sha256": "8a5a65eaeb1b2f86d60c92ead9783f9bf6e580fd1ceb1791d1166f1e89aac8d3"
+    },
+    {
+      "name": "scripts/weapons/hit5.scr",
+      "offset": 1514245,
+      "size": 179,
+      "flags": 0,
+      "sha256": "8383ef567b02f4ee20515bf0b2522e9be9427fd0fdb5d94038ab5e1a26f3d287"
+    },
+    {
+      "name": "scripts/weapons/spark.scr",
+      "offset": 1514424,
+      "size": 142,
+      "flags": 0,
+      "sha256": "559491210b6308029bd88aa5bb41086d2a81d8e35e83de1f10c7d835feb9f73b"
+    },
+    {
+      "name": "scripts/weapons/mgun/mgun1_proj.scr",
+      "offset": 1514566,
+      "size": 330,
+      "flags": 0,
+      "sha256": "1f5afd42293c96078c41879f6beb016bc71aca00ea2df95d4e0322dd07cfc3ba"
+    },
+    {
+      "name": "scripts/weapons/mgun/mgun_proj.scr",
+      "offset": 1514896,
+      "size": 358,
+      "flags": 0,
+      "sha256": "89a467f9e41e1945598f707f9d28f5d8a18bdda0e013e6471f87c10876176909"
+    },
+    {
+      "name": "scripts/weapons/mgun/mgun_flash.scr",
+      "offset": 1515254,
+      "size": 733,
+      "flags": 0,
+      "sha256": "5ca42f39d21d2bf0ddb2193de461fe29b5cd2c778a5010e4a127eddbcac29a31"
+    },
+    {
+      "name": "scripts/weapons/mgun/mgun_trasser.scr",
+      "offset": 1515987,
+      "size": 741,
+      "flags": 0,
+      "sha256": "cbd7032fc68154a27e34104e42dfba73612b55f070e251daea033f4b74d80d9f"
+    },
+    {
+      "name": "scripts/weapons/missile/p_missile.scr",
+      "offset": 1516728,
+      "size": 470,
+      "flags": 0,
+      "sha256": "4531b8a5f197c313d7bf50f3d56fe12ab6b07af2c023aafbcc2bc7e44ddd4b8d"
+    },
+    {
+      "name": "scripts/weapons/missile/p_heatmis.scr",
+      "offset": 1517198,
+      "size": 1813,
+      "flags": 0,
+      "sha256": "a7de78a98f4c01fbab4733e97dc4ce4c8e7a1f7938ab752dd91a97dc6094c52e"
+    },
+    {
+      "name": "scripts/weapons/missile/p_heatmis_big.scr",
+      "offset": 1519011,
+      "size": 796,
+      "flags": 0,
+      "sha256": "8ebcd068aa12411afaa85b5ae1d908e60c7d5788d8b8c266dca04dc887b05d74"
+    },
+    {
+      "name": "scripts/weapons/missile/p_missile_big.scr",
+      "offset": 1519807,
+      "size": 474,
+      "flags": 0,
+      "sha256": "bbe273a0394b7cb5772611935e04175f8a4e481eca7f5e7c77fe85e1de008103"
+    },
+    {
+      "name": "scripts/weapons/missile/missile_heat_big_ground.scr",
+      "offset": 1520281,
+      "size": 1033,
+      "flags": 0,
+      "sha256": "6a2ef4797519fb6614a36e2273d2cd8b7e41fa9f635ace0e523a2f1d855978f2"
+    },
+    {
+      "name": "scripts/weapons/missile/p_missile_mad.scr",
+      "offset": 1521314,
+      "size": 1273,
+      "flags": 0,
+      "sha256": "769a6754ea45e67fbcc0eb68068db46ba441690b43eb05d953fadec472e0f114"
+    },
+    {
+      "name": "scripts/weapons/missile/p_missile_bonus_big.scr",
+      "offset": 1522587,
+      "size": 398,
+      "flags": 0,
+      "sha256": "e6b1b3aaab56a22954781d6ec9e42badfc3c04b4941e5ac41a1b5467a80562f0"
+    },
+    {
+      "name": "scripts/weapons/impulse/igun_proj.scr",
+      "offset": 1522985,
+      "size": 333,
+      "flags": 0,
+      "sha256": "ecbd8290a1bac21df824f05b82b28d119865c5830dc568333b8afd14ca817069"
+    },
+    {
+      "name": "scripts/weapons/impulse/igun_flash.scr",
+      "offset": 1523318,
+      "size": 733,
+      "flags": 0,
+      "sha256": "d00e407e68cf35705c1aec58f25c10acad15405dadeb4694b5799ea3c29d718b"
+    },
+    {
+      "name": "scripts/weapons/laser/laser_proj.scr",
+      "offset": 1524051,
+      "size": 338,
+      "flags": 0,
+      "sha256": "b7f31bcc51dc3757b71485b47261bdcae2837b873135510988f2926aa80e1eff"
+    },
+    {
+      "name": "scripts/weapons/laser/biglaser_proj.scr",
+      "offset": 1524389,
+      "size": 614,
+      "flags": 0,
+      "sha256": "62c9b8e40d20d72891f85197e9cd1a9c91758f65a117d7abe27e35afa6bad87f"
+    },
+    {
+      "name": "scripts/weapons/laser/plasma_flash.scr",
+      "offset": 1525003,
+      "size": 733,
+      "flags": 0,
+      "sha256": "850a1dfc4398aec32c2116e56b8927b4472d6ea4f3f67c761141e59fc4d28ebe"
+    },
+    {
+      "name": "scripts/weapons/laser/flash.scr",
+      "offset": 1525736,
+      "size": 733,
+      "flags": 0,
+      "sha256": "e3da0036274df402dc4fc31437309229d32d585b2b86a12e4a1e56824abd6f1f"
+    },
+    {
+      "name": "scripts/weapons/plasmagun/plasmagun_proj.scr",
+      "offset": 1526469,
+      "size": 372,
+      "flags": 0,
+      "sha256": "9306ccb63f873230656f1d4140b36dcc67c54fa8f0c3f93302f38a1db841ebe7"
+    },
+    {
+      "name": "scripts/weapons/plasmagun/plasma_flash.scr",
+      "offset": 1526841,
+      "size": 327,
+      "flags": 0,
+      "sha256": "77df111f68d649d191e36a27c1f2b640f83fd5d41614d89461a1d03aad8b5685"
+    },
+    {
+      "name": "scripts/weapons/meteorite/meteorite_proj.scr",
+      "offset": 1527168,
+      "size": 448,
+      "flags": 0,
+      "sha256": "927d5271bce48f0f4ff554f0a3540b750c91481ec6a857005c1f13da77448e88"
+    },
+    {
+      "name": "scripts/weapons/gorox/gorox_proj.scr",
+      "offset": 1527616,
+      "size": 776,
+      "flags": 0,
+      "sha256": "fca0d534b549060a79c64ac7b62589954380b711d7be4db8028e45a9662756ba"
+    },
+    {
+      "name": "scripts/weapons/bpg/bpg_proj.scr",
+      "offset": 1528392,
+      "size": 329,
+      "flags": 0,
+      "sha256": "bb1c70d6009e33ccf4ffc96c80f627cbc5a620e894abe55b2a98f51c541faada"
+    },
+    {
+      "name": "scripts/weapons/wavegun/wavegun_proj.scr",
+      "offset": 1528721,
+      "size": 653,
+      "flags": 0,
+      "sha256": "48fafc4a74b2da9799a827c45b0f9672cdc8f795a41084adca8ac5accc81d279"
+    },
+    {
+      "name": "scripts/weapons/wavegun/wavegun_small2_proj.scr",
+      "offset": 1529374,
+      "size": 432,
+      "flags": 0,
+      "sha256": "2d6e7cb35360971b6283702a6cf994c7edc9ea5f19b7b4d0cf2b3aa4e067ce46"
+    },
+    {
+      "name": "scripts/weapons/wavegun/wavegun_small1_proj.scr",
+      "offset": 1529806,
+      "size": 432,
+      "flags": 0,
+      "sha256": "4759170ace19e076a5263184e59eddd96ecb713f954e94788343153689de0de9"
+    },
+    {
+      "name": "scripts/weapons/wavegun/wavegun_proj2.scr",
+      "offset": 1530238,
+      "size": 487,
+      "flags": 0,
+      "sha256": "988a5689b412b5b8acfe428dfaa80a39816404e3351423b781fdb75cb2c0ae85"
+    },
+    {
+      "name": "scripts/weapons/satellite/satellite.scr",
+      "offset": 1530725,
+      "size": 701,
+      "flags": 0,
+      "sha256": "e381ce4006a8de366566551649f5816d2706f4cc71d29997fe3e173d09cc8114"
+    },
+    {
+      "name": "scripts/weapons/satellite/satellite2.scr",
+      "offset": 1531426,
+      "size": 701,
+      "flags": 0,
+      "sha256": "81df0adb766285e39f1b7d6bc28eff69739368f80a4daa6f930bddc54a91e3ac"
+    },
+    {
+      "name": "scripts/weapons/satellite/fball.scr",
+      "offset": 1532127,
+      "size": 335,
+      "flags": 0,
+      "sha256": "2d5b516ae504004de8085efea0a04498c967710c4b8fa799d99e9bd5fec39df9"
+    },
+    {
+      "name": "scripts/weapons/satellite/satellite_laser.scr",
+      "offset": 1532462,
+      "size": 817,
+      "flags": 0,
+      "sha256": "8ac5d0446aa69c0d0141d04de800efa5a1b4a67e0af9dec53978cc1846c8a88f"
+    },
+    {
+      "name": "scripts/weapons/satellite/satellite_laser2.scr",
+      "offset": 1533279,
+      "size": 817,
+      "flags": 0,
+      "sha256": "f0d0d505de4ae4f453905ef8e80db2aa60791159aec5081f1c0318d3f8772458"
+    },
+    {
+      "name": "scripts/weapons/satellite/satellite_laser_gun.scr",
+      "offset": 1534096,
+      "size": 338,
+      "flags": 0,
+      "sha256": "b7f31bcc51dc3757b71485b47261bdcae2837b873135510988f2926aa80e1eff"
+    },
+    {
+      "name": "scripts/weapons/fireball/fireball.scr",
+      "offset": 1534434,
+      "size": 366,
+      "flags": 0,
+      "sha256": "d536980f9dbb4aa2b17e252d9309cb8db1e9136a9438904d078533a6cf4f7833"
+    },
+    {
+      "name": "scripts/weapons/fireball/fireball2.scr",
+      "offset": 1534800,
+      "size": 376,
+      "flags": 0,
+      "sha256": "88f2b2b414aa70ec986f690148a7e77f89a40601767636664d7bbdf2028c192a"
+    },
+    {
+      "name": "scripts/weapons/missilegun/misgun_proj.scr",
+      "offset": 1535176,
+      "size": 1825,
+      "flags": 0,
+      "sha256": "e860bb0f6cfa24ad9c2b380c93ec28ac0d7e47b237298f500aa2abac657d7238"
+    },
+    {
+      "name": "scripts/weapons/missilegun/misgun_proj2.scr",
+      "offset": 1537001,
+      "size": 1825,
+      "flags": 0,
+      "sha256": "e5f12f114f224f1e9b2fc60a43bce96a0ab5a078df262f25bc3e816e80864390"
+    },
+    {
+      "name": "scripts/weapons/lightinggun/lightinggun_proj.scr",
+      "offset": 1538826,
+      "size": 468,
+      "flags": 0,
+      "sha256": "3c478adf2ac6cb6c00a4e4273f9e52b37c85e08842951ad764324faa56592a27"
+    },
+    {
+      "name": "scripts/effects/expl_abomb_light.scr",
+      "offset": 1539294,
+      "size": 1370,
+      "flags": 0,
+      "sha256": "f6be230e112a8ccfa2b2b04519f62edbbe1eb2d7a7dd92f7f65b3282e8fa2271"
+    },
+    {
+      "name": "scripts/effects/expl1_air_small.scr",
+      "offset": 1540664,
+      "size": 480,
+      "flags": 0,
+      "sha256": "c87499c00177e0b073f01cc72ce0e27712f1acfe067184c218fbd544eb8647f4"
+    },
+    {
+      "name": "scripts/effects/p_expl1.scr",
+      "offset": 1541144,
+      "size": 1157,
+      "flags": 0,
+      "sha256": "f30e532a652fdedae81cf09aa81b7cd9c260c69b29aca43577414204ee1de5bc"
+    },
+    {
+      "name": "scripts/effects/p_wave.scr",
+      "offset": 1542301,
+      "size": 729,
+      "flags": 0,
+      "sha256": "4070b3673aebbe2afc19e75409167f8cc86a305fd54b278cef92853c59cdf344"
+    },
+    {
+      "name": "scripts/effects/boss_tank_expl1.scr",
+      "offset": 1543030,
+      "size": 1099,
+      "flags": 0,
+      "sha256": "c251d839f7352faf85ec33d831b9a6df87d7f7c0f4a069b93a149229a6b6e973"
+    },
+    {
+      "name": "scripts/effects/expl_ring_normalled.scr",
+      "offset": 1544129,
+      "size": 718,
+      "flags": 0,
+      "sha256": "98dfebcc87768f6be8cbffee629ee98b2af3e811adf97f6c9c278dcf576d8ddd"
+    },
+    {
+      "name": "scripts/effects/expl_ring_small_normalled.scr",
+      "offset": 1544847,
+      "size": 718,
+      "flags": 0,
+      "sha256": "435b172f6fcc52b6de063feb6ee3cd0defea602fddefbdd1424edf5f92186630"
+    },
+    {
+      "name": "scripts/effects/splash_big.scr",
+      "offset": 1545565,
+      "size": 802,
+      "flags": 0,
+      "sha256": "043112b6d671e81fb385339939010260a11f6476a57a67c5a4219ed4ee083258"
+    },
+    {
+      "name": "scripts/effects/wave_meteorite.scr",
+      "offset": 1546367,
+      "size": 729,
+      "flags": 0,
+      "sha256": "580f201abf4a27b52050bc50d476fa3d2ac8b49d9192cd3a9ee6759947a397e0"
+    },
+    {
+      "name": "scripts/effects/gib_air.scr",
+      "offset": 1547096,
+      "size": 2523,
+      "flags": 0,
+      "sha256": "8486b327d20515efc8747005caf3eeeeba0454e83c03d56034cf08e2e51d02e8"
+    },
+    {
+      "name": "scripts/effects/gib_koleso.scr",
+      "offset": 1549619,
+      "size": 2603,
+      "flags": 0,
+      "sha256": "20dfca3c76c5b9c6c29ef98c1db083f9d86839a170bf45718b780add30784980"
+    },
+    {
+      "name": "scripts/effects/gib_doska.scr",
+      "offset": 1552222,
+      "size": 2603,
+      "flags": 0,
+      "sha256": "20dfca3c76c5b9c6c29ef98c1db083f9d86839a170bf45718b780add30784980"
+    },
+    {
+      "name": "scripts/effects/campfire.scr",
+      "offset": 1554825,
+      "size": 724,
+      "flags": 0,
+      "sha256": "f11602e749b757b799a6f8a736dba19fd2eec7cd1d917c6bedc2a3a85a608df7"
+    },
+    {
+      "name": "scripts/effects/campfire_small.scr",
+      "offset": 1555549,
+      "size": 724,
+      "flags": 0,
+      "sha256": "9e72c0d7b93bdb10a86345ff4efd9542ec74372d86a0a06a45280a4e096be11d"
+    },
+    {
+      "name": "scripts/effects/expl_ring.scr",
+      "offset": 1556273,
+      "size": 620,
+      "flags": 0,
+      "sha256": "4dd971a1b7dad14d658be562c82fcca8118c4261f1a015046d7b7322717aabf0"
+    },
+    {
+      "name": "scripts/effects/expl_ring_small.scr",
+      "offset": 1556893,
+      "size": 620,
+      "flags": 0,
+      "sha256": "fa306a08311e51d4d32c0bcc3fdd5f66d8db82050326553d112ab6e88ce61af7"
+    },
+    {
+      "name": "scripts/effects/expl1_air.scr",
+      "offset": 1557513,
+      "size": 973,
+      "flags": 0,
+      "sha256": "998d24ae65930efdd1711e6f2aa77e95254442ce536b62d137b28cc9e8380519"
+    },
+    {
+      "name": "scripts/effects/expl1_helic.scr",
+      "offset": 1558486,
+      "size": 982,
+      "flags": 0,
+      "sha256": "c9a3780ba0ff999ede50c30280899eca11d738d648d54629abedb56e592c6205"
+    },
+    {
+      "name": "scripts/effects/expl_ring_small2.scr",
+      "offset": 1559468,
+      "size": 620,
+      "flags": 0,
+      "sha256": "db4e5e2bc119bc53878613e4ce55b8a832187bc34e1dfbe1586a9cf0b1e6c5a9"
+    },
+    {
+      "name": "scripts/effects/expl1light.scr",
+      "offset": 1560088,
+      "size": 1370,
+      "flags": 0,
+      "sha256": "aada19ecf41a58e3ddfc226b652202e2159c7dfe62c69d36aac73825419b2052"
+    },
+    {
+      "name": "scripts/effects/gib.scr",
+      "offset": 1561458,
+      "size": 2523,
+      "flags": 0,
+      "sha256": "dfaf9d1166ad104f4d05f597ae1d48700905c50e3f94ebeb6b28740a79bb0cce"
+    },
+    {
+      "name": "scripts/effects/gib_big.scr",
+      "offset": 1563981,
+      "size": 2509,
+      "flags": 0,
+      "sha256": "ada9cc2c100cc9da5a124a61400d8040c2a9e06bdf700527119a7adb47607aff"
+    },
+    {
+      "name": "scripts/effects/gib_spark.scr",
+      "offset": 1566490,
+      "size": 660,
+      "flags": 0,
+      "sha256": "37c2774c69aec11b9b1973ffbe30b34bb357dd768a999c7521f72805d4528e1d"
+    },
+    {
+      "name": "scripts/effects/hit.scr",
+      "offset": 1567150,
+      "size": 277,
+      "flags": 0,
+      "sha256": "3ed76a7f17bf9dea1ca3198d674d1d92234a7c76644c1483803b898df659cf19"
+    },
+    {
+      "name": "scripts/effects/scorenum.scr",
+      "offset": 1567427,
+      "size": 403,
+      "flags": 0,
+      "sha256": "4c8a09562aca49142a8e9e3d35b53cbff8f405348022a6d36cbbdb6a7df9719f"
+    },
+    {
+      "name": "scripts/effects/splash.scr",
+      "offset": 1567830,
+      "size": 802,
+      "flags": 0,
+      "sha256": "b385220879ad38150155bc588a8e7d75f7ea19597576e9a7c36fd93ec992d95f"
+    },
+    {
+      "name": "scripts/effects/clouds.scr",
+      "offset": 1568632,
+      "size": 550,
+      "flags": 0,
+      "sha256": "29b603692aa4cc3ee222ceeca9d0351e68627fb0a3dc1c008091401fe78d1a69"
+    },
+    {
+      "name": "scripts/effects/wave_big.scr",
+      "offset": 1569182,
+      "size": 729,
+      "flags": 0,
+      "sha256": "89232e223adc358c14b5aa1929ccf6c46f313c2e1b80494e8646cdbcc3af165d"
+    },
+    {
+      "name": "scripts/effects/wave.scr",
+      "offset": 1569911,
+      "size": 729,
+      "flags": 0,
+      "sha256": "0ba78b4aaf708e6a0c8e37caa0c6fbb9c2da2f0d76681d8b7667e1624c4309d3"
+    },
+    {
+      "name": "scripts/effects/expl_small.scr",
+      "offset": 1570640,
+      "size": 300,
+      "flags": 0,
+      "sha256": "e3e5cf73d6866903b16a70763ba04a461358d13cda497b3c21543622b69a0d4a"
+    },
+    {
+      "name": "scripts/effects/wave_nvisible.scr",
+      "offset": 1570940,
+      "size": 449,
+      "flags": 0,
+      "sha256": "6b8ae21f7c73367d0f63eed20e31ad75ca10a41f2145570170775dc3236e1db7"
+    },
+    {
+      "name": "scripts/effects/expl_meteorite.scr",
+      "offset": 1571389,
+      "size": 975,
+      "flags": 0,
+      "sha256": "6e2b33dac877a073a02e36a9c672fc66622fc81ccf12e4893de2aa135f22f329"
+    },
+    {
+      "name": "scripts/effects/expl_abomb.scr",
+      "offset": 1572364,
+      "size": 974,
+      "flags": 0,
+      "sha256": "b708e04b79a9044867946efdfd476a0d0c3e59436e7ec14b5949b72fa2aeb71f"
+    },
+    {
+      "name": "scripts/effects/expl_meteorite_medium_falled.scr",
+      "offset": 1573338,
+      "size": 903,
+      "flags": 0,
+      "sha256": "ea73c896ae6171070d4bd83f18099107b0b8c21e6e9a3d389b9158a30f5147c6"
+    },
+    {
+      "name": "scripts/effects/expl_big.scr",
+      "offset": 1574241,
+      "size": 1250,
+      "flags": 0,
+      "sha256": "8991cfe108d955896ab6080d317b50bf6a7403e7c9f097d5032ba90be2deec48"
+    },
+    {
+      "name": "scripts/effects/expl_medium.scr",
+      "offset": 1575491,
+      "size": 1113,
+      "flags": 0,
+      "sha256": "cda93c251f3feac5d5b02b0cc15df3976f79aaf3b3bf60b35413b677762ea758"
+    },
+    {
+      "name": "scripts/effects/expl_meteorite_falled.scr",
+      "offset": 1576604,
+      "size": 945,
+      "flags": 0,
+      "sha256": "deb8a0f4b2e73811abed431248d9f9547069e4bfe03c314168864f2250d6b0ff"
+    },
+    {
+      "name": "scripts/effects/expl_meteorite_medium.scr",
+      "offset": 1577549,
+      "size": 896,
+      "flags": 0,
+      "sha256": "bdc8191e62b6aeda2e8cd6add9ea5300fd3b24dea504aa96ceb63f11dc6f65b0"
+    },
+    {
+      "name": "scripts/effects/expl1.scr",
+      "offset": 1578445,
+      "size": 1153,
+      "flags": 0,
+      "sha256": "ac17f64149c3ed09bd7940260d6cb45f68252c0927bf9be891c216904d42670c"
+    },
+    {
+      "name": "scripts/effects/expl1_kolesa.scr",
+      "offset": 1579598,
+      "size": 1219,
+      "flags": 0,
+      "sha256": "872b5de557fb89df32e056dd7011da59a0e779d792c3ba8913400337f69332c4"
+    },
+    {
+      "name": "scripts/effects/expl2.scr",
+      "offset": 1580817,
+      "size": 999,
+      "flags": 0,
+      "sha256": "83b8260bc688917fe57caada8e03a994a63897b9d4e48bf6a793e427a713f4e3"
+    },
+    {
+      "name": "scripts/effects/expl2_kolesa.scr",
+      "offset": 1581816,
+      "size": 1060,
+      "flags": 0,
+      "sha256": "48ad47ef6ef1d2d1085c9d5c3b7f06e9d4e9dfb51fe376b2f7d625cba33054e6"
+    },
+    {
+      "name": "scripts/effects/expl3.scr",
+      "offset": 1582876,
+      "size": 1043,
+      "flags": 0,
+      "sha256": "73aa4755c3866482e9e969939b90fa4d8c7248bb579c8289d68b19e78e4eb0c8"
+    },
+    {
+      "name": "scripts/effects/static_obj_expl_big.scr",
+      "offset": 1583919,
+      "size": 319,
+      "flags": 0,
+      "sha256": "610279a5660c2c32f8540ed9e62a90bc3c6210afaab059b6a5a5fcc2774adbd9"
+    },
+    {
+      "name": "scripts/effects/static_obj_expl_medium.scr",
+      "offset": 1584238,
+      "size": 324,
+      "flags": 0,
+      "sha256": "0cb794dfca7e012f9c2f522cc47022ccebf55da1c235f49ef2b2e3ac4d701b85"
+    },
+    {
+      "name": "scripts/effects/static_obj_expl_small.scr",
+      "offset": 1584562,
+      "size": 269,
+      "flags": 0,
+      "sha256": "aadc84d6fe78d31f5bcfeb59ccb84911fee9c1f47c9ef73081eeb9f56a5f7358"
+    },
+    {
+      "name": "scripts/effects/expl_lighting_light.scr",
+      "offset": 1584831,
+      "size": 1370,
+      "flags": 0,
+      "sha256": "04e72e22e6a2281b7bb627d27d43f064cf481ed780f5be0ca487857cbd633e34"
+    },
+    {
+      "name": "scripts/effects/expl_house/expl_doski.scr",
+      "offset": 1586201,
+      "size": 1034,
+      "flags": 0,
+      "sha256": "e6c0732586d65c2ab2602c46ae49267e73c25ca793bb82ffaf5700261643c4e6"
+    },
+    {
+      "name": "scripts/effects/expl_house/expl_big.scr",
+      "offset": 1587235,
+      "size": 1398,
+      "flags": 0,
+      "sha256": "93ab3545c81dba17eeb93debf9e756233976c548c9a53f3729cf079d7ff5c93f"
+    },
+    {
+      "name": "scripts/effects/expl_house/expl_big1.scr",
+      "offset": 1588633,
+      "size": 811,
+      "flags": 0,
+      "sha256": "fed814de6ccc8f0d54cbd1422cced3ce19bbddfde5a858c8c524ba0f86a31feb"
+    },
+    {
+      "name": "scripts/effects/expl_house/expl_small.scr",
+      "offset": 1589444,
+      "size": 963,
+      "flags": 0,
+      "sha256": "2e4ef21f9fcbb49264befd36b82e7f6ecf4b122a052385c7874a2ed572b38679"
+    },
+    {
+      "name": "scripts/effects/expl_house/expl_medium1.scr",
+      "offset": 1590407,
+      "size": 1193,
+      "flags": 0,
+      "sha256": "b5c6133398422a2a73ff317fe7aaf42d9fdf87674525c197f8ed6670d867aa73"
+    },
+    {
+      "name": "scripts/effects/expl_house/expl_sinogoga.scr",
+      "offset": 1591600,
+      "size": 1400,
+      "flags": 0,
+      "sha256": "6d655599fa6eeb3e48879b32375551b728eebb1f4312828f21327f1ce6ac1d52"
+    },
+    {
+      "name": "scripts/effects/expl_house/expl_factory.scr",
+      "offset": 1593000,
+      "size": 815,
+      "flags": 0,
+      "sha256": "9b2029055a318181e05d31e84b74548953762491f4d247ce138471394c8625ea"
+    },
+    {
+      "name": "scripts/effects/expl_house/expl_factory1.scr",
+      "offset": 1593815,
+      "size": 817,
+      "flags": 0,
+      "sha256": "300ebdb80b52c2ee8053f6f6cf7897597a9763f95cafcee3ca697b8564125fff"
+    },
+    {
+      "name": "scripts/effects/expl_house/expl_big2.scr",
+      "offset": 1594632,
+      "size": 1398,
+      "flags": 0,
+      "sha256": "762b3b9eaa79bcfed24257b0a154d69a1256bac5cba9138bf41536b2e8d41836"
+    },
+    {
+      "name": "scripts/effects/expl_house/expl_benzokolonka.scr",
+      "offset": 1596030,
+      "size": 1404,
+      "flags": 0,
+      "sha256": "ec955ee468eb5ff4a17a4abd7fa5c4a76a10811c9633b27f21e76223a07df841"
+    },
+    {
+      "name": "scripts/effects/expl_house/expl_medium2.scr",
+      "offset": 1597434,
+      "size": 1194,
+      "flags": 0,
+      "sha256": "4b96f392135f56da6c7a3e31d6d0d68f360df09a10f6af846c7fa811b4efe557"
+    },
+    {
+      "name": "scripts/effects/expl_house/expl_medium5.scr",
+      "offset": 1598628,
+      "size": 1290,
+      "flags": 0,
+      "sha256": "edd395aa8c7537f01399dce7702d5234723b630c6ccb5e48dc3d883054330e2c"
+    },
+    {
+      "name": "scripts/effects/expl_house/expl_big3.scr",
+      "offset": 1599918,
+      "size": 1181,
+      "flags": 0,
+      "sha256": "ba82850445b75789ae5ebc14f7be41aa2d0082824fa17ffd4a3c9675022947fa"
+    },
+    {
+      "name": "scripts/effects/expl_house/expl_big4.scr",
+      "offset": 1601099,
+      "size": 1181,
+      "flags": 0,
+      "sha256": "0b67c9a630829c6d3bf297cd63f5aeb42e6ac4772cfb6a72366aea0b5185ffd0"
+    },
+    {
+      "name": "scripts/effects/expl_house/expl_medium.scr",
+      "offset": 1602280,
+      "size": 1191,
+      "flags": 0,
+      "sha256": "5f88b1dc68c58ad27728f44bb11111c7540bd02b05ec64a2e40c5ab1965be0b6"
+    },
+    {
+      "name": "scripts/helics/helic_kamikadze.scr",
+      "offset": 1603471,
+      "size": 3238,
+      "flags": 0,
+      "sha256": "539c0230c89d38d6a9add6d4a62135481c04c1cb4d665342073454f23f94b9f3"
+    },
+    {
+      "name": "scripts/helics/vint180.scr",
+      "offset": 1606709,
+      "size": 131,
+      "flags": 0,
+      "sha256": "b64617f1a527ec1efda524a1695db260d6486b38198de00fcf909ffe32893d24"
+    },
+    {
+      "name": "scripts/helics/vint270.scr",
+      "offset": 1606840,
+      "size": 131,
+      "flags": 0,
+      "sha256": "e54acd7284e57c6c480c723939d6f94fb42ec5d5948317158099e9d181a487ca"
+    },
+    {
+      "name": "scripts/helics/vint270i.scr",
+      "offset": 1606971,
+      "size": 131,
+      "flags": 0,
+      "sha256": "9cc55ddabee9b66bb1ee885f21ca900cd5c4664b209a277e30da296bfa494232"
+    },
+    {
+      "name": "scripts/helics/vint270small.scr",
+      "offset": 1607102,
+      "size": 131,
+      "flags": 0,
+      "sha256": "07b9886baba5e8273a4bdc065ff37902b5e76ee8f7cf56572d5b42d8f7ad8684"
+    },
+    {
+      "name": "scripts/helics/helic2/bot1.scr",
+      "offset": 1607233,
+      "size": 4920,
+      "flags": 0,
+      "sha256": "651d2f645e939cd154639b7117d47d12878e811c0299c56940c994c31bf7d6ef"
+    },
+    {
+      "name": "scripts/helics/helic2/bot3.scr",
+      "offset": 1612153,
+      "size": 5448,
+      "flags": 0,
+      "sha256": "bef44799d50ea5dca9d2ccc8b31d25be073fff2d9916e2c2c7956a9614b970df"
+    },
+    {
+      "name": "scripts/helics/helic1/bot1.scr",
+      "offset": 1617601,
+      "size": 4958,
+      "flags": 0,
+      "sha256": "02acf9983261baf8a055ead790a923cf34888b7dd15cd95131468e2b2adfd655"
+    },
+    {
+      "name": "scripts/helics/helic1/bot4.scr",
+      "offset": 1622559,
+      "size": 2212,
+      "flags": 0,
+      "sha256": "c695f09ada54e78fe47b06902b84b96a6dcd3874c4c052d74c30fbb258b44023"
+    },
+    {
+      "name": "scripts/helics/helic1/bot3.scr",
+      "offset": 1624771,
+      "size": 5486,
+      "flags": 0,
+      "sha256": "578fb7f5f227ffc0f55ac34d00f97c708571897031fee7a9f0a79ea2dae06cc7"
+    },
+    {
+      "name": "scripts/helics/helic2_1/bot1.scr",
+      "offset": 1630257,
+      "size": 4998,
+      "flags": 0,
+      "sha256": "1943e27c9ba275d1c68ba67e40c23e05161ebc72449cf48d6f341a15d90dd712"
+    },
+    {
+      "name": "scripts/helics/helic2_1/bot4.scr",
+      "offset": 1635255,
+      "size": 2238,
+      "flags": 0,
+      "sha256": "5f6541350b1d344b456127ba757013671ce154782f5b5fb537be2e1f44906290"
+    },
+    {
+      "name": "scripts/helics/helic3/bot1.scr",
+      "offset": 1637493,
+      "size": 4779,
+      "flags": 0,
+      "sha256": "cfa175a1f130edffcd1cb0b879bcc7cb0b65cc9bf9a4b3ff464415eb13afba51"
+    },
+    {
+      "name": "scripts/helics/helic3/bot3.scr",
+      "offset": 1642272,
+      "size": 5307,
+      "flags": 0,
+      "sha256": "403e6827942872061f965903c4b4b1dafe38b60a9526c9ce50a33f29e9d495db"
+    },
+    {
+      "name": "scripts/helics/helic3_big/bot1.scr",
+      "offset": 1647579,
+      "size": 5178,
+      "flags": 0,
+      "sha256": "8da7dd3977103b1a368af36d9668140d148a758956a38c2ea3b65af04f1b2f16"
+    },
+    {
+      "name": "scripts/helics/helic3_big/bot3.scr",
+      "offset": 1652757,
+      "size": 5706,
+      "flags": 0,
+      "sha256": "a96887f168de0f72bcb7ff26d1a46966bacedbe194e146eeba40df9baf91d804"
+    },
+    {
+      "name": "scripts/helics/helic4/bot1.scr",
+      "offset": 1658463,
+      "size": 4964,
+      "flags": 0,
+      "sha256": "62a66e3665b0a5b611397287be71ea16970bef1125fd3203811a331c8b6f9af5"
+    },
+    {
+      "name": "scripts/helics/helic4/bot4.scr",
+      "offset": 1663427,
+      "size": 2218,
+      "flags": 0,
+      "sha256": "5aeebb65962286851455e716283dbfd0fff66849664c21c30a03ec0b8b7667a3"
+    },
+    {
+      "name": "scripts/helics/helic4/bot3.scr",
+      "offset": 1665645,
+      "size": 5492,
+      "flags": 0,
+      "sha256": "a44b6724496587f4e1a0f3fcf815ed7cf6ce97f9cf1e310c7b198721a56d1980"
+    },
+    {
+      "name": "scripts/helics/helic5/bot1.scr",
+      "offset": 1671137,
+      "size": 4691,
+      "flags": 0,
+      "sha256": "7cf00c654b112047d3aee7414d23d3d9b2ae48e772cfe1cfd8bd9da2996d1d07"
+    },
+    {
+      "name": "scripts/helics/helic5/bot4.scr",
+      "offset": 1675828,
+      "size": 2356,
+      "flags": 0,
+      "sha256": "b1dcc9fe0f9b472b935c408b0db72adaea2fba56d54e4e07781c8d43f19da2ab"
+    },
+    {
+      "name": "scripts/helics/helic5/bot3.scr",
+      "offset": 1678184,
+      "size": 5184,
+      "flags": 0,
+      "sha256": "31028512d5016a76d47d435761cf87f1846ece27d30a1e80120fb638d83c4ad8"
+    },
+    {
+      "name": "scripts/helics/helic_big/bot1.scr",
+      "offset": 1683368,
+      "size": 5810,
+      "flags": 0,
+      "sha256": "30892d87e00f2d6c1d44a5161dcac40973b49545bc5f059b71acb4fed1ab7af5"
+    },
+    {
+      "name": "scripts/helics/helic_big/bot3.scr",
+      "offset": 1689178,
+      "size": 6001,
+      "flags": 0,
+      "sha256": "b7518a20d75c9de0584724f146e3d23e7e8c6a5d19970620f5fd0ae65d99b26f"
+    },
+    {
+      "name": "scripts/helics/helic_big/helic_big1.scr",
+      "offset": 1695179,
+      "size": 5431,
+      "flags": 0,
+      "sha256": "5780407a118c2c28b24c17abd3555b4a43f7c4f3cca3d7d09ca1af11ee19d0d4"
+    },
+    {
+      "name": "scripts/helics/helic_big2/bot1.scr",
+      "offset": 1700610,
+      "size": 5920,
+      "flags": 0,
+      "sha256": "4dbdb91bf434f1871b90d6190be42d5e2cdc5b443ef460d819bf3195cbb9bb01"
+    },
+    {
+      "name": "scripts/helics/helic_big2/bot3.scr",
+      "offset": 1706530,
+      "size": 6623,
+      "flags": 0,
+      "sha256": "f02b0a6acad533680436ee50c8ccd0bf3b7eff90ade8811bc452e179ccdcfde9"
+    },
+    {
+      "name": "scripts/helics/helic_big2/helic_big2.scr",
+      "offset": 1713153,
+      "size": 6053,
+      "flags": 0,
+      "sha256": "aef33b7fc6041105e406a69e293cabeb412ec11137a22c024d18c9e49340edb7"
+    },
+    {
+      "name": "scripts/helics/heli_chinook/bot5.scr",
+      "offset": 1719206,
+      "size": 1024,
+      "flags": 0,
+      "sha256": "afdfbe8dc6026e44edb3adfb4b2004561a601d3896bc0ae98168a66cd16d585f"
+    },
+    {
+      "name": "scripts/helics/heli_chinook/jeep.scr",
+      "offset": 1720230,
+      "size": 1956,
+      "flags": 0,
+      "sha256": "e6150c984119c8e153ea1d635979c280fede628ae3c6d37dc34710b0e5218900"
+    },
+    {
+      "name": "scripts/helics/helic_mi24/bot1.scr",
+      "offset": 1722186,
+      "size": 4966,
+      "flags": 0,
+      "sha256": "2e507885823b9339f41d3fbe28d7a7fb0892eb70f524a97443361a01b52b6f7b"
+    },
+    {
+      "name": "scripts/helics/helic_mi24/bot3.scr",
+      "offset": 1727152,
+      "size": 5536,
+      "flags": 0,
+      "sha256": "639b64f53f181cb8bea5f6b784c3681d541abd9357212cf0943fbe7501c31746"
+    },
+    {
+      "name": "scripts/helics/helic_mi24/bot4.scr",
+      "offset": 1732688,
+      "size": 2350,
+      "flags": 0,
+      "sha256": "5c58d028d6e12936e10f72e4f82554ad7e4f5ac5ffd76cad690a2549f52ea2c1"
+    },
+    {
+      "name": "scripts/helics/heli_uh/heli_uh.scr",
+      "offset": 1735038,
+      "size": 4925,
+      "flags": 0,
+      "sha256": "daf6895c143e0cd27f1b9e2f4c31156e4cef7043d6e5b5f5ce39ed57d3dca88d"
+    },
+    {
+      "name": "scripts/helics/heli_uh/bot3.scr",
+      "offset": 1739963,
+      "size": 5495,
+      "flags": 0,
+      "sha256": "fcc5fbc6092f401dd122329ea7976dd372c6e1cd8d250401b823afb630a372a7"
+    },
+    {
+      "name": "scripts/helics/heli_uh/heli_uh_intro.scr",
+      "offset": 1745458,
+      "size": 337,
+      "flags": 0,
+      "sha256": "1501a6083566e3d8c1614e0d222bb2c6ff2c0355fbe16458bfb745479c9a176b"
+    },
+    {
+      "name": "scripts/helics/heli_cobra/heli_cobra.scr",
+      "offset": 1745795,
+      "size": 5771,
+      "flags": 0,
+      "sha256": "20375735b6191380c9773a33be09ead69cd0c3b9e37df263c2de96dea5185d55"
+    },
+    {
+      "name": "scripts/helics/heli_cobra/bot3.scr",
+      "offset": 1751566,
+      "size": 6341,
+      "flags": 0,
+      "sha256": "2795840d9f3ae319ba424ddd7a35e035c857ae9217463fd30f78c5f96f876901"
+    },
+    {
+      "name": "scripts/helics/kamov/kamov.scr",
+      "offset": 1757907,
+      "size": 5445,
+      "flags": 0,
+      "sha256": "de72c0792ceda3387c87f8b3cc2dda9ad6b0f025af4c80ecbc07c1b8b555b475"
+    },
+    {
+      "name": "scripts/helics/kamov/bot3.scr",
+      "offset": 1763352,
+      "size": 6025,
+      "flags": 0,
+      "sha256": "b2af00fcfa6a4c3753d59148e1a3382ce0f14576fcc6e5149909e0227ae85f8f"
+    },
+    {
+      "name": "scripts/helics/kamov/bot4.scr",
+      "offset": 1769377,
+      "size": 2745,
+      "flags": 0,
+      "sha256": "a730bb039afadedf72a7472c4987add63cb077b51442a1b1c37c1e7d7a85b663"
+    },
+    {
+      "name": "scripts/helics/tiger/tiger.scr",
+      "offset": 1772122,
+      "size": 5712,
+      "flags": 0,
+      "sha256": "84c276ad271924f1326d7bc503172c53e405a92fb536fa525fa3a9da4f525cae"
+    },
+    {
+      "name": "scripts/helics/tiger/bot3.scr",
+      "offset": 1777834,
+      "size": 6352,
+      "flags": 0,
+      "sha256": "d5674fc0664df03f8724f00d3e3ecd589aeeda8f81f72aca86943e7c8c68baae"
+    },
+    {
+      "name": "scripts/helics/small_2/small_2.scr",
+      "offset": 1784186,
+      "size": 5018,
+      "flags": 0,
+      "sha256": "9bc0ce83d09cd1ff86464c292958cddb1072ef9c3b1313ede013bd65c43978e5"
+    },
+    {
+      "name": "scripts/helics/small_2/bot3.scr",
+      "offset": 1789204,
+      "size": 5588,
+      "flags": 0,
+      "sha256": "52d4ae0e5b866d8bdd7fbd4f4b9477c0e109106163e4c80124e2a1b09673ec41"
+    },
+    {
+      "name": "scripts/helics/small_2/bot4.scr",
+      "offset": 1794792,
+      "size": 2354,
+      "flags": 0,
+      "sha256": "4731846cc9370bec4a2e4518459b92a651affbee5e1109bc566335d4b4f05a05"
+    },
+    {
+      "name": "scripts/helics/small_3/small_3.scr",
+      "offset": 1797146,
+      "size": 4920,
+      "flags": 0,
+      "sha256": "651d2f645e939cd154639b7117d47d12878e811c0299c56940c994c31bf7d6ef"
+    },
+    {
+      "name": "scripts/helics/small_3/bot3.scr",
+      "offset": 1802066,
+      "size": 5490,
+      "flags": 0,
+      "sha256": "82d26dd39eddedd9072951e753277c67d47aa2db936897b6c85646a79f66d807"
+    },
+    {
+      "name": "scripts/helics/small_3/bot4.scr",
+      "offset": 1807556,
+      "size": 2356,
+      "flags": 0,
+      "sha256": "b1dcc9fe0f9b472b935c408b0db72adaea2fba56d54e4e07781c8d43f19da2ab"
+    },
+    {
+      "name": "scripts/helics/tiger_2/bot1.scr",
+      "offset": 1809912,
+      "size": 5615,
+      "flags": 0,
+      "sha256": "305a7d107562aed04dae578745d93009167ce3fcb2cde99697b3bc85a1390779"
+    },
+    {
+      "name": "scripts/helics/tiger_2/bot3.scr",
+      "offset": 1815527,
+      "size": 6185,
+      "flags": 0,
+      "sha256": "1c0e51d0704fe2bb6da28cc8be98cf70ec67f50d53963187633cd0e2bf36c819"
+    },
+    {
+      "name": "scripts/barrel/balon_gaz.scr",
+      "offset": 1821712,
+      "size": 452,
+      "flags": 0,
+      "sha256": "8c10e5e16fb00a02fd8492e38907aff3205ec12a1dda492934841b8508911e88"
+    },
+    {
+      "name": "scripts/barrel/barrel_benzin.scr",
+      "offset": 1822164,
+      "size": 374,
+      "flags": 0,
+      "sha256": "50eb2c4c64db44ad3895faab83f5af13802fe566950bfdd70acbfabe926994f1"
+    },
+    {
+      "name": "scripts/barrel/barrel_benzin_dead.scr",
+      "offset": 1822538,
+      "size": 1461,
+      "flags": 0,
+      "sha256": "cef0691140e137c4642af0e991a857c00883016e7748c555656c5a2989c6772b"
+    },
+    {
+      "name": "scripts/barrel/expl_barrel.scr",
+      "offset": 1823999,
+      "size": 360,
+      "flags": 0,
+      "sha256": "1c4d3b1187f69de7a5215f8aed72bbaaefbe6c0cef949bb561685fb0c01e7695"
+    },
+    {
+      "name": "scripts/barrel/balon_gaz_dead.scr",
+      "offset": 1824359,
+      "size": 280,
+      "flags": 0,
+      "sha256": "8214ebb1e134f12dc723bf70ff6a6db25501bafd410870489b965c3e5ff9f15d"
+    },
+    {
+      "name": "scripts/barrel/bochka.scr",
+      "offset": 1824639,
+      "size": 364,
+      "flags": 0,
+      "sha256": "0524e0cd042a851b770bfa7c646492584e031cbdc3b2da600f08188f55b404d7"
+    },
+    {
+      "name": "scripts/barrel/bochka02.scr",
+      "offset": 1825003,
+      "size": 364,
+      "flags": 0,
+      "sha256": "6bc6bd7dc027e5063a7bac43886aee102916913c393747a5380fc05f33e73409"
+    },
+    {
+      "name": "scripts/misc/kuvsh.scr",
+      "offset": 1825367,
+      "size": 170,
+      "flags": 0,
+      "sha256": "a14e34e6c61b862c1c0a274fd6ea8720d17f32d516e90e0086b3ad7a24d1510f"
+    },
+    {
+      "name": "scripts/misc/plane2_vint.scr",
+      "offset": 1825537,
+      "size": 131,
+      "flags": 0,
+      "sha256": "02e7cc5471d0205b6f4b458dc5fe4563cee6d8c448c50c7b0a41c0e6e2f77352"
+    },
+    {
+      "name": "scripts/misc/shlagbaum.scr",
+      "offset": 1825668,
+      "size": 334,
+      "flags": 0,
+      "sha256": "0ecf92104a0b496dca8376bec7bbafa8e3e2c2b91adac745ca9c97a3be674217"
+    },
+    {
+      "name": "scripts/misc/windmill_lopasti.scr",
+      "offset": 1826002,
+      "size": 131,
+      "flags": 0,
+      "sha256": "70abce368f3c96397da12087486b5518ab3a55d76d738929df38f07bc972e524"
+    },
+    {
+      "name": "scripts/misc/laser_bar.scr",
+      "offset": 1826133,
+      "size": 364,
+      "flags": 0,
+      "sha256": "2c17802e01d5113ed3b33e1b1284c94f67a480a719a1d0a74246e3795500888d"
+    },
+    {
+      "name": "scripts/misc/laser_bar_lasers.scr",
+      "offset": 1826497,
+      "size": 200,
+      "flags": 0,
+      "sha256": "2a04d16bea4efa2009f40303d24a9e4d2ea40bc752280a3aa183110adf279255"
+    },
+    {
+      "name": "scripts/misc/laser_bar_toggle.scr",
+      "offset": 1826697,
+      "size": 488,
+      "flags": 0,
+      "sha256": "2dacf0e6c9e1cfe4a1932853d8ee4ca8fa52d92c7d7bd810e21cb05b9ad07ba1"
+    },
+    {
+      "name": "scripts/misc/abomb_ground.scr",
+      "offset": 1827185,
+      "size": 323,
+      "flags": 0,
+      "sha256": "f16afc12479f4ad01c352266d2310874fb1017798748482ee8f51ec07485e50d"
+    },
+    {
+      "name": "scripts/misc/ammo_box.scr",
+      "offset": 1827508,
+      "size": 264,
+      "flags": 0,
+      "sha256": "9ba082f35516bbeeb823b6fe69a5b60f47d4068d090f392d1bfdfc50bed4e480"
+    },
+    {
+      "name": "scripts/misc/lighting_nature.scr",
+      "offset": 1827772,
+      "size": 1334,
+      "flags": 0,
+      "sha256": "cbc5dcce813bc80ddc282fac19586b7d2a5de19dfaeaa2c5649faaa091fa7241"
+    },
+    {
+      "name": "scripts/misc/ammo_box_cargo.scr",
+      "offset": 1829106,
+      "size": 1103,
+      "flags": 0,
+      "sha256": "5c82700b567e1cdd94ab5407df068bc70bc275c1732089adbbcc5d99e23c7368"
+    },
+    {
+      "name": "scripts/cannons/cannon_laser.scr",
+      "offset": 1830209,
+      "size": 661,
+      "flags": 0,
+      "sha256": "197f2d4916d1fdf84e074b6e37a0f7ab0bcf6372a452e427faec1cf6d5307159"
+    },
+    {
+      "name": "scripts/cannons/cannon_lighting.scr",
+      "offset": 1830870,
+      "size": 724,
+      "flags": 0,
+      "sha256": "08a2197d5ecae6110d9715de508ee2fdf68976433eeee85fb2522ddbf2a3c940"
+    },
+    {
+      "name": "scripts/cannons/cannonbase.scr",
+      "offset": 1831594,
+      "size": 348,
+      "flags": 0,
+      "sha256": "6fd044bf260bedb749dc5d8b6309572c62f1e645d1248af8022670dfbbec68a1"
+    },
+    {
+      "name": "scripts/cannons/rocketlaucher.scr",
+      "offset": 1831942,
+      "size": 532,
+      "flags": 0,
+      "sha256": "2e780d48e95ffc62d1772ea9b1a03a294a1e91ed4b22a4ee1978a89050fd6a34"
+    },
+    {
+      "name": "scripts/cannons/rocketlaucher_left.scr",
+      "offset": 1832474,
+      "size": 306,
+      "flags": 0,
+      "sha256": "fd1e5df40a19d5b174f6fee6b6ef7d54ac9c1f9c07b9cc11f4a0569e4216ad17"
+    },
+    {
+      "name": "scripts/cannons/rocketlaucher_right.scr",
+      "offset": 1832780,
+      "size": 306,
+      "flags": 0,
+      "sha256": "476c94ea72f66cbd6c05c8461f066966e33ecb728151046587fbe58a79740b47"
+    },
+    {
+      "name": "scripts/cannons/bmg/bmg_mh.scr",
+      "offset": 1833086,
+      "size": 312,
+      "flags": 0,
+      "sha256": "6dc229fe11c1c351bc1e5964cb84e72c63341dbee75c4db2bb9a7469a36ddb5b"
+    },
+    {
+      "name": "scripts/cannons/bmg/bmg_gun.scr",
+      "offset": 1833398,
+      "size": 131,
+      "flags": 0,
+      "sha256": "a9de0956e133c6f8b276d289a194568760ec6e460693c0184c0982fbee519bc5"
+    },
+    {
+      "name": "scripts/cannons/bmg/bmg_holder.scr",
+      "offset": 1833529,
+      "size": 1120,
+      "flags": 0,
+      "sha256": "ffa20504f13eb8cec4a95cefa27360f4ce93161f37368b5a2cf2eb4cdd7d3c27"
+    },
+    {
+      "name": "scripts/cannons/cannon_big/cannonbase.scr",
+      "offset": 1834649,
+      "size": 422,
+      "flags": 0,
+      "sha256": "c498fda15acfc898c861ad033319620b94672096038b68047f442d500de1009e"
+    },
+    {
+      "name": "scripts/cannons/cannon_big/c_turret.scr",
+      "offset": 1835071,
+      "size": 310,
+      "flags": 0,
+      "sha256": "6ecc1c9af910413e78ca36ce767969310e3935f74c6b7af75e3b19a2a218e0a7"
+    },
+    {
+      "name": "scripts/cannons/cannon_big/c_guns.scr",
+      "offset": 1835381,
+      "size": 1112,
+      "flags": 0,
+      "sha256": "949d48bb4cb652f02e7aef7131163a409fedabd15a3872d3dc576a49ab4985b5"
+    },
+    {
+      "name": "scripts/cannons/cannon_plasma/cannon_plasma.scr",
+      "offset": 1836493,
+      "size": 310,
+      "flags": 0,
+      "sha256": "6f7a6771fb4d8d65286be26994986c73c2f548929022e06e0ba9ff8d372df0f8"
+    },
+    {
+      "name": "scripts/cannons/cannon_plasma/cannon_plasma_gun.scr",
+      "offset": 1836803,
+      "size": 1444,
+      "flags": 0,
+      "sha256": "454a594c80a8aac4dbdbfcf6fd74ac58bd900f3100f128412c22f664ed037c83"
+    },
+    {
+      "name": "scripts/cannons/cannon1/cannon.scr",
+      "offset": 1838247,
+      "size": 810,
+      "flags": 0,
+      "sha256": "3c5b78ccdbd5cd7b9a3170cf0958fc0a052408f52c4943e3737bbf82670f1771"
+    },
+    {
+      "name": "scripts/cannons/cannon1/cannon3.scr",
+      "offset": 1839057,
+      "size": 755,
+      "flags": 0,
+      "sha256": "773ab44e21e0ce7b1d9bb54d7b1d490c2311a53f57331c659688ca83e7fa8350"
+    },
+    {
+      "name": "scripts/cannons/cannon2/cannon2.scr",
+      "offset": 1839812,
+      "size": 310,
+      "flags": 0,
+      "sha256": "6f7a6771fb4d8d65286be26994986c73c2f548929022e06e0ba9ff8d372df0f8"
+    },
+    {
+      "name": "scripts/cannons/cannon2/cannon2_guns.scr",
+      "offset": 1840122,
+      "size": 1211,
+      "flags": 0,
+      "sha256": "fd215dc1db9b2492b2d08c104fe0514f27e611c92fca47af7c51a718ea05dfdc"
+    },
+    {
+      "name": "scripts/cannons/cannon2/cannon2_big_guns.scr",
+      "offset": 1841333,
+      "size": 1216,
+      "flags": 0,
+      "sha256": "136299b62f630f2869fe1da383f3e63cc72d96b93c384d4b275539a2a30413f7"
+    },
+    {
+      "name": "scripts/cannons/cannon4_big/cannon4_big_guns.scr",
+      "offset": 1842549,
+      "size": 1238,
+      "flags": 0,
+      "sha256": "4b9674e169401be4ebbb3b0a1b8a56802e232d7d7a00d78ef21f88a530ace38f"
+    },
+    {
+      "name": "scripts/cannons/cannon4_big/cannon4_big_turret.scr",
+      "offset": 1843787,
+      "size": 310,
+      "flags": 0,
+      "sha256": "6ecc1c9af910413e78ca36ce767969310e3935f74c6b7af75e3b19a2a218e0a7"
+    },
+    {
+      "name": "scripts/cannons/cannon4_big/cannonbase.scr",
+      "offset": 1844097,
+      "size": 348,
+      "flags": 0,
+      "sha256": "6fd044bf260bedb749dc5d8b6309572c62f1e645d1248af8022670dfbbec68a1"
+    },
+    {
+      "name": "scripts/cannons/cannon_3way/cannonbase.scr",
+      "offset": 1844445,
+      "size": 348,
+      "flags": 0,
+      "sha256": "6fd044bf260bedb749dc5d8b6309572c62f1e645d1248af8022670dfbbec68a1"
+    },
+    {
+      "name": "scripts/cannons/cannon_3way/cannon_3way_guns.scr",
+      "offset": 1844793,
+      "size": 1129,
+      "flags": 0,
+      "sha256": "c0efe171d7bdd39d931661fa46b9b700c1fc7187c5aad7d3dedb6bc794826e9f"
+    },
+    {
+      "name": "scripts/cannons/cannon_3way/cannon_3way_turret.scr",
+      "offset": 1845922,
+      "size": 310,
+      "flags": 0,
+      "sha256": "6f7a6771fb4d8d65286be26994986c73c2f548929022e06e0ba9ff8d372df0f8"
+    },
+    {
+      "name": "scripts/cannons/machine_gun_x2/machine_gun_x2_base.scr",
+      "offset": 1846232,
+      "size": 348,
+      "flags": 0,
+      "sha256": "6fd044bf260bedb749dc5d8b6309572c62f1e645d1248af8022670dfbbec68a1"
+    },
+    {
+      "name": "scripts/cannons/machine_gun_x2/machine_gun_x2_turret.scr",
+      "offset": 1846580,
+      "size": 277,
+      "flags": 0,
+      "sha256": "e612078a0d24cfc19ab24768003ace0a35dd0a1120de2846f948ba7ed8dae26e"
+    },
+    {
+      "name": "scripts/cannons/machine_gun_x2/machine_gun_x2_guns.scr",
+      "offset": 1846857,
+      "size": 943,
+      "flags": 0,
+      "sha256": "6c03552cf840453b9c41f09586db7b4b094deef4fcacec5ad11d6c483c0dffb6"
+    },
+    {
+      "name": "scripts/cannons/rocket_launcher/rocket_launcher.scr",
+      "offset": 1847800,
+      "size": 348,
+      "flags": 0,
+      "sha256": "6fd044bf260bedb749dc5d8b6309572c62f1e645d1248af8022670dfbbec68a1"
+    },
+    {
+      "name": "scripts/cannons/rocket_launcher/rocket_launcher_turret.scr",
+      "offset": 1848148,
+      "size": 277,
+      "flags": 0,
+      "sha256": "e612078a0d24cfc19ab24768003ace0a35dd0a1120de2846f948ba7ed8dae26e"
+    },
+    {
+      "name": "scripts/cannons/rocket_launcher/rocket_launcher_gun.scr",
+      "offset": 1848425,
+      "size": 1128,
+      "flags": 0,
+      "sha256": "4d815c946a4e29d1b9565b87e92d47a6ddb2f8c39436ac5bcde596ccf09381da"
+    },
+    {
+      "name": "scripts/cannons/cannon10/cannon10.scr",
+      "offset": 1849553,
+      "size": 348,
+      "flags": 0,
+      "sha256": "6fd044bf260bedb749dc5d8b6309572c62f1e645d1248af8022670dfbbec68a1"
+    },
+    {
+      "name": "scripts/cannons/cannon10/cannon10_gun.scr",
+      "offset": 1849901,
+      "size": 1122,
+      "flags": 0,
+      "sha256": "a85c3f2b8de8113296f1ba729ddf5cfb4c82583710b35c187016741396320708"
+    },
+    {
+      "name": "scripts/cannons/cannon10/cannon10_turret.scr",
+      "offset": 1851023,
+      "size": 310,
+      "flags": 0,
+      "sha256": "6ecc1c9af910413e78ca36ce767969310e3935f74c6b7af75e3b19a2a218e0a7"
+    },
+    {
+      "name": "scripts/items/flare.scr",
+      "offset": 1851333,
+      "size": 229,
+      "flags": 0,
+      "sha256": "117f1adea7ee37374203a0f7e66f066bd94326c839302b3e177df99eccc87790"
+    },
+    {
+      "name": "scripts/items/i_armor100.scr",
+      "offset": 1851562,
+      "size": 830,
+      "flags": 0,
+      "sha256": "cd092ab7b62885b5111528505d98933e6bfdab750e1c4f3a61e0cedd960b1567"
+    },
+    {
+      "name": "scripts/items/i_armor50.scr",
+      "offset": 1852392,
+      "size": 830,
+      "flags": 0,
+      "sha256": "785a17d6e03ef168f6d19fb4a2dc74e2de6a7dff27726a11a5f05a5b4cec3a8f"
+    },
+    {
+      "name": "scripts/items/i_life.scr",
+      "offset": 1853222,
+      "size": 816,
+      "flags": 0,
+      "sha256": "b4d821a21c059c9cb329a8b60022ac8c796f9c6c2f46136f4b1176b59287bcbf"
+    },
+    {
+      "name": "scripts/items/i_pts10k.scr",
+      "offset": 1854038,
+      "size": 819,
+      "flags": 0,
+      "sha256": "9513d7c74456991dbdfbb607583fb65443c64c1b44627ff5c3dec11faa8b7b2a"
+    },
+    {
+      "name": "scripts/items/i_pts5k.scr",
+      "offset": 1854857,
+      "size": 819,
+      "flags": 0,
+      "sha256": "84f3be1d21184fd042f9463bd8a9cf0647770bab2b4305dbdfc2ef839e54377f"
+    },
+    {
+      "name": "scripts/items/i_satellite.scr",
+      "offset": 1855676,
+      "size": 848,
+      "flags": 0,
+      "sha256": "e73dda0e0da33b5fb0e10f135a7a15607cb0c52895ab3c421e15bbe17687968f"
+    },
+    {
+      "name": "scripts/items/i_satellite_laser.scr",
+      "offset": 1856524,
+      "size": 860,
+      "flags": 0,
+      "sha256": "bcb378cfc7f0d1fe93df9a61c70ba9b59d8069dfb09d756ed8724bd160828d23"
+    },
+    {
+      "name": "scripts/items/i_shield.scr",
+      "offset": 1857384,
+      "size": 883,
+      "flags": 0,
+      "sha256": "6586eb4073674333dcbc4c33155a7b441ac24d9fbbb711850a241dae0d1013cc"
+    },
+    {
+      "name": "scripts/items/i_spddown.scr",
+      "offset": 1858267,
+      "size": 860,
+      "flags": 0,
+      "sha256": "184c51c80fc477ccb4d29e9b8e16056de350f07ed40ec09fca8d8a573e7d35bd"
+    },
+    {
+      "name": "scripts/items/i_spdup.scr",
+      "offset": 1859127,
+      "size": 856,
+      "flags": 0,
+      "sha256": "babf5bb67b19796f77a5462e8f6f8d63909795a76e6c02792c95d6cc8035012e"
+    },
+    {
+      "name": "scripts/items/star.scr",
+      "offset": 1859983,
+      "size": 1251,
+      "flags": 0,
+      "sha256": "437dc0a43be4385dc21e18cfcebffd2922319d22ed1c8f3253ba2b593f66014e"
+    },
+    {
+      "name": "scripts/items/ammo/i_biglaser.scr",
+      "offset": 1861234,
+      "size": 1262,
+      "flags": 0,
+      "sha256": "8ff03738a6f939727a1be9e3cbd6bc2854fa72868b097c8a20f50006fa9dbff5"
+    },
+    {
+      "name": "scripts/items/ammo/i_flamefrower.scr",
+      "offset": 1862496,
+      "size": 1223,
+      "flags": 0,
+      "sha256": "abdedc70f32e22ac7bbe16ab7f786da6aebfb4c71a6e7cb0f4292d6dfb0ce24c"
+    },
+    {
+      "name": "scripts/items/ammo/i_igun.scr",
+      "offset": 1863719,
+      "size": 1251,
+      "flags": 0,
+      "sha256": "f1cbb45b44287529f26653133c4ddeb6d91542f3d066cc13099f67e4427a57db"
+    },
+    {
+      "name": "scripts/items/ammo/i_laser.scr",
+      "offset": 1864970,
+      "size": 1262,
+      "flags": 0,
+      "sha256": "fe4c2d6a3e77cc56e35938eec0bafe18f5f139ce3e1019a5f20801d17eb7ee0c"
+    },
+    {
+      "name": "scripts/items/ammo/i_lightinggun.scr",
+      "offset": 1866232,
+      "size": 1262,
+      "flags": 0,
+      "sha256": "0bc5807a8abbc75c8f96c68f5b59d16e0fdbc31ec192217fbe21f7b3e39121bf"
+    },
+    {
+      "name": "scripts/items/ammo/i_mgun.scr",
+      "offset": 1867494,
+      "size": 1262,
+      "flags": 0,
+      "sha256": "c34a3c397b4090260a9e8336d58762436086b290df7d32d5fe406b74d86fe14b"
+    },
+    {
+      "name": "scripts/items/ammo/i_missilegun.scr",
+      "offset": 1868756,
+      "size": 1262,
+      "flags": 0,
+      "sha256": "b3841ad97612f7160b2691b6c70c73286a5323dd0402868d11f6e7dad7771695"
+    },
+    {
+      "name": "scripts/items/ammo/i_plasmagun.scr",
+      "offset": 1870018,
+      "size": 1262,
+      "flags": 0,
+      "sha256": "1bac505a0c0d741df863d061ad3240cfff30c5b7bbf0dcda7968175d56ebbfbc"
+    },
+    {
+      "name": "scripts/items/ammo/i_wavegun.scr",
+      "offset": 1871280,
+      "size": 1262,
+      "flags": 0,
+      "sha256": "add18ed4523cc82cd0daabab90eaf8aadc1ad5fabd6ccb78908859039e54a37d"
+    },
+    {
+      "name": "scripts/items/bombs/i_lightingb.scr",
+      "offset": 1872542,
+      "size": 962,
+      "flags": 0,
+      "sha256": "b7265c470a641df66312402c617d30916e720051844a91628ae0689fbd8ee404"
+    },
+    {
+      "name": "scripts/items/bombs/i_lightingb_proj.scr",
+      "offset": 1873504,
+      "size": 131,
+      "flags": 0,
+      "sha256": "7e16c85960602e30b25bad04196124853b3f3d011e0fa396801e31884af50362"
+    },
+    {
+      "name": "scripts/items/bombs/i_lightingb_plane.scr",
+      "offset": 1873635,
+      "size": 884,
+      "flags": 0,
+      "sha256": "5e39d8ed76077f808ed1624dd84a795dec15db9e6588eebd1f9e326f798c3bf2"
+    },
+    {
+      "name": "scripts/items/bombs/i_clustbomb.scr",
+      "offset": 1874519,
+      "size": 962,
+      "flags": 0,
+      "sha256": "dfe4477b39e4c1bc3d13e10b195dfb96ce9356caed7ed25df9c6061a2b24ee3f"
+    },
+    {
+      "name": "scripts/items/bombs/i_abomb.scr",
+      "offset": 1875481,
+      "size": 962,
+      "flags": 0,
+      "sha256": "dd19ae1c3c49eafc100c0aab5c3e86dfa4f76263ec489741da0b53b59f880a0a"
+    },
+    {
+      "name": "scripts/items/bombs/i_rocketbomb.scr",
+      "offset": 1876443,
+      "size": 962,
+      "flags": 0,
+      "sha256": "4d7d75df4c308808e761ad7a676a3a00170a298aeb3c226f7d12c5220bbd3481"
+    },
+    {
+      "name": "scripts/items/missiles/i_misheat.scr",
+      "offset": 1877405,
+      "size": 964,
+      "flags": 0,
+      "sha256": "ad837f10d8f9f28774565e4a8cbad5960a5016a0ec4d9f22f13f2cc7941c4338"
+    },
+    {
+      "name": "scripts/items/missiles/i_misheat_big.scr",
+      "offset": 1878369,
+      "size": 964,
+      "flags": 0,
+      "sha256": "55703dcb57c0084511158b2cb2865d1a9a90780ec8076f582a20837d582c8a7e"
+    },
+    {
+      "name": "scripts/items/missiles/i_mis_big.scr",
+      "offset": 1879333,
+      "size": 964,
+      "flags": 0,
+      "sha256": "d83cc5fd39e2c37361e77cccaba017e151f9a1a03e99ceb26818e759f3c4a5b4"
+    },
+    {
+      "name": "scripts/items/missiles/i_mis.scr",
+      "offset": 1880297,
+      "size": 964,
+      "flags": 0,
+      "sha256": "849dd45a3212890045bad7ccf2f85c5ef16e5647611f05e15368ff1649d4b164"
+    },
+    {
+      "name": "scripts/items/missiles/i_mis_mad.scr",
+      "offset": 1881261,
+      "size": 964,
+      "flags": 0,
+      "sha256": "6412d3ad275c0b537f58f85a55e58b5f7a9215cf69be0164fc0098a01da000ae"
+    },
+    {
+      "name": "scripts/items/help/i_help_missiles.scr",
+      "offset": 1882225,
+      "size": 995,
+      "flags": 0,
+      "sha256": "ec7abb24a0ddfada766df557f1f2a08c80cf84580264d16cc6bafa00a4eef796"
+    },
+    {
+      "name": "scripts/items/help/i_help_weapon.scr",
+      "offset": 1883220,
+      "size": 1018,
+      "flags": 0,
+      "sha256": "f8591bef81cfd790412f70d3d514b67055bea51653ce6f6c2171de2bde89021d"
+    },
+    {
+      "name": "scripts/items/help/i_help_weapon2.scr",
+      "offset": 1884238,
+      "size": 919,
+      "flags": 0,
+      "sha256": "94ed76b0132eb7da9eb19c02c7583ab0a956cbc72599d8713616eb7962cba2ce"
+    },
+    {
+      "name": "scripts/items/help/i_help_score.scr",
+      "offset": 1885157,
+      "size": 994,
+      "flags": 0,
+      "sha256": "d8f73fd70d0f699ad84d9738d477559ede196e6e095f972203bee05a8d06e924"
+    },
+    {
+      "name": "scripts/items/help/i_help_missiles2.scr",
+      "offset": 1886151,
+      "size": 952,
+      "flags": 0,
+      "sha256": "908f1db24a9da271b16ce96532e3d0c4a22bfeb5d15f893aed04850c3c27c7cf"
+    },
+    {
+      "name": "scripts/items/help/i_help_ammobox.scr",
+      "offset": 1887103,
+      "size": 967,
+      "flags": 0,
+      "sha256": "e2230bb02a9672f8b829635cdb77d7169f9b9b18cb767fc68fd7e5903f800ef8"
+    },
+    {
+      "name": "scripts/items/help/i_help_weapons3.scr",
+      "offset": 1888070,
+      "size": 947,
+      "flags": 0,
+      "sha256": "9221ed3db90a13f9f74ed2d8b02bce2945e022993ed23a6f834ddcd73c6dff80"
+    },
+    {
+      "name": "scripts/items/help/i_help_star.scr",
+      "offset": 1889017,
+      "size": 919,
+      "flags": 0,
+      "sha256": "80153005f605b8ce3be1302618a39b6592165c38f1888b44587a6c74167d5240"
+    },
+    {
+      "name": "scripts/items/help/i_help_life.scr",
+      "offset": 1889936,
+      "size": 965,
+      "flags": 0,
+      "sha256": "642be38f6580938d0231bca7fdea06e0e55666479515b7138fef6f0a5485ee5e"
+    },
+    {
+      "name": "scripts/items/help/i_help_powerup.scr",
+      "offset": 1890901,
+      "size": 970,
+      "flags": 0,
+      "sha256": "19b0fd35f66acb594ddaf5bf73b74826be2b48d0edb8e4045eb287cff238901b"
+    },
+    {
+      "name": "scripts/items/bonuses/i_lightingb.scr",
+      "offset": 1891871,
+      "size": 962,
+      "flags": 0,
+      "sha256": "b7265c470a641df66312402c617d30916e720051844a91628ae0689fbd8ee404"
+    },
+    {
+      "name": "scripts/items/bonuses/i_lightingb_proj.scr",
+      "offset": 1892833,
+      "size": 131,
+      "flags": 0,
+      "sha256": "7e16c85960602e30b25bad04196124853b3f3d011e0fa396801e31884af50362"
+    },
+    {
+      "name": "scripts/items/bonuses/i_lightingb_plane.scr",
+      "offset": 1892964,
+      "size": 884,
+      "flags": 0,
+      "sha256": "5e39d8ed76077f808ed1624dd84a795dec15db9e6588eebd1f9e326f798c3bf2"
+    },
+    {
+      "name": "scripts/items/bonuses/i_clustbomb.scr",
+      "offset": 1893848,
+      "size": 962,
+      "flags": 0,
+      "sha256": "dfe4477b39e4c1bc3d13e10b195dfb96ce9356caed7ed25df9c6061a2b24ee3f"
+    },
+    {
+      "name": "scripts/items/bonuses/i_abomb.scr",
+      "offset": 1894810,
+      "size": 962,
+      "flags": 0,
+      "sha256": "dd19ae1c3c49eafc100c0aab5c3e86dfa4f76263ec489741da0b53b59f880a0a"
+    },
+    {
+      "name": "scripts/items/bonuses/i_rocketbomb.scr",
+      "offset": 1895772,
+      "size": 962,
+      "flags": 0,
+      "sha256": "4d7d75df4c308808e761ad7a676a3a00170a298aeb3c226f7d12c5220bbd3481"
+    },
+    {
+      "name": "scripts/items/bonuses/i_annihilator.scr",
+      "offset": 1896734,
+      "size": 962,
+      "flags": 0,
+      "sha256": "c9cdb2b9f4af7896d1f919861b0ddc2430816ff35fdc55a2537872ba861b3163"
+    },
+    {
+      "name": "scripts/items/bonuses/i_satellitestrike.scr",
+      "offset": 1897696,
+      "size": 962,
+      "flags": 0,
+      "sha256": "63877bb58de0e44f79f44b05845876ca850df1a9df49f8879397e26d9aebffed"
+    },
+    {
+      "name": "scripts/items/bonuses/i_bomber.scr",
+      "offset": 1898658,
+      "size": 962,
+      "flags": 0,
+      "sha256": "0a4cda9758c23f2c7b728d36adb2936a4babb6ce78d22517d503572a871a0b70"
+    },
+    {
+      "name": "scripts/player/bomber.scr",
+      "offset": 1899620,
+      "size": 1120,
+      "flags": 0,
+      "sha256": "238c322bd4f3b0119303df12540870e2683d4cb3c0f0c2c3ed9dfe84652f9149"
+    },
+    {
+      "name": "scripts/player/bomber_bomb.scr",
+      "offset": 1900740,
+      "size": 755,
+      "flags": 0,
+      "sha256": "c292255e6c1d359a155fa282c19a2b33f31ac54d5e9388911dd303d61f8f66a6"
+    },
+    {
+      "name": "scripts/player/player1/player1_vint.scr",
+      "offset": 1901495,
+      "size": 131,
+      "flags": 0,
+      "sha256": "e54acd7284e57c6c480c723939d6f94fb42ec5d5948317158099e9d181a487ca"
+    },
+    {
+      "name": "scripts/player/player1/player1_vint_small.scr",
+      "offset": 1901626,
+      "size": 131,
+      "flags": 0,
+      "sha256": "07b9886baba5e8273a4bdc065ff37902b5e76ee8f7cf56572d5b42d8f7ad8684"
+    },
+    {
+      "name": "scripts/player/player1/player1.scr",
+      "offset": 1901757,
+      "size": 30827,
+      "flags": 0,
+      "sha256": "c010fce46cf68fe9d5f305e9eae06ce33ae84c90ba79067160d76c189d2f2001"
+    },
+    {
+      "name": "scripts/player/player2/player2_vint.scr",
+      "offset": 1932584,
+      "size": 131,
+      "flags": 0,
+      "sha256": "3ba838269d99acda84e12d5660c993107a1e24aad6bcf062c38c0453b8144370"
+    },
+    {
+      "name": "scripts/player/player2/player2_vint_1.scr",
+      "offset": 1932715,
+      "size": 131,
+      "flags": 0,
+      "sha256": "f3acd8f88c8fe729a45822198e19ce426d8842f0a9ab059c6766fc4acd981338"
+    },
+    {
+      "name": "scripts/player/player2/player2.scr",
+      "offset": 1932846,
+      "size": 30849,
+      "flags": 0,
+      "sha256": "fd864492c946a9f48a7d38c5748931713e9ab9f9fe0c1780836a9fa86eb455fe"
+    },
+    {
+      "name": "scripts/player/player3/player3_vint.scr",
+      "offset": 1963695,
+      "size": 131,
+      "flags": 0,
+      "sha256": "3ba838269d99acda84e12d5660c993107a1e24aad6bcf062c38c0453b8144370"
+    },
+    {
+      "name": "scripts/player/player3/player3_vint_small.scr",
+      "offset": 1963826,
+      "size": 131,
+      "flags": 0,
+      "sha256": "07b9886baba5e8273a4bdc065ff37902b5e76ee8f7cf56572d5b42d8f7ad8684"
+    },
+    {
+      "name": "scripts/player/player3/player3.scr",
+      "offset": 1963957,
+      "size": 30834,
+      "flags": 0,
+      "sha256": "015ec6ac637d4b8396244bb18af7cfe94ac227f8168c6a0787577bb7df36c93e"
+    },
+    {
+      "name": "scripts/player/common/p_moln.scr",
+      "offset": 1994791,
+      "size": 1174,
+      "flags": 0,
+      "sha256": "bf8d75e9167b2be62fe4ce74a9dd2ea77962556fd64ed4578610f46ac0abb487"
+    },
+    {
+      "name": "scripts/player/common/p_rshield.scr",
+      "offset": 1995965,
+      "size": 1069,
+      "flags": 0,
+      "sha256": "a62f16cf5e179b18e25e869438d5d9c17c5cd7238410aa2b1ce3a84d457f777b"
+    },
+    {
+      "name": "scripts/player/common/p_shield.scr",
+      "offset": 1997034,
+      "size": 1220,
+      "flags": 0,
+      "sha256": "a3c6c5258e33798ed0a9a878be1c82e9236750e071745f188ef1be7943f238ca"
+    },
+    {
+      "name": "scripts/player/common/p_speeddown.scr",
+      "offset": 1998254,
+      "size": 782,
+      "flags": 0,
+      "sha256": "619419ba6ac88fdedfcb40b93a95c11eb7915c41c5c6419c7854c4103b4dfa47"
+    },
+    {
+      "name": "scripts/player/common/p_speedup.scr",
+      "offset": 1999036,
+      "size": 733,
+      "flags": 0,
+      "sha256": "c5b86df24a00f0acd92ecdffb8054c3c384d4bfb6e145297b85848def83c8754"
+    },
+    {
+      "name": "scripts/player/player4/player4_vint.scr",
+      "offset": 1999769,
+      "size": 131,
+      "flags": 0,
+      "sha256": "e54acd7284e57c6c480c723939d6f94fb42ec5d5948317158099e9d181a487ca"
+    },
+    {
+      "name": "scripts/player/player4/player4_vint_small.scr",
+      "offset": 1999900,
+      "size": 131,
+      "flags": 0,
+      "sha256": "07b9886baba5e8273a4bdc065ff37902b5e76ee8f7cf56572d5b42d8f7ad8684"
+    },
+    {
+      "name": "scripts/player/player4/player4.scr",
+      "offset": 2000031,
+      "size": 30827,
+      "flags": 0,
+      "sha256": "f8dd8eac6c0ebc6dd6832f01ce31d5a8b5d0cc1d8b67b2a14522494e7ff25935"
+    },
+    {
+      "name": "scripts/player/player5/player5_vint.scr",
+      "offset": 2030858,
+      "size": 131,
+      "flags": 0,
+      "sha256": "e54acd7284e57c6c480c723939d6f94fb42ec5d5948317158099e9d181a487ca"
+    },
+    {
+      "name": "scripts/player/player5/player5_vint_small.scr",
+      "offset": 2030989,
+      "size": 131,
+      "flags": 0,
+      "sha256": "07b9886baba5e8273a4bdc065ff37902b5e76ee8f7cf56572d5b42d8f7ad8684"
+    },
+    {
+      "name": "scripts/player/player5/player5.scr",
+      "offset": 2031120,
+      "size": 30827,
+      "flags": 0,
+      "sha256": "6f52b15b00ff2719e19142287d61b08dd69d4f76675ad5e52b08aee514d65f02"
+    },
+    {
+      "name": "scripts/player/player6/player6_vint.scr",
+      "offset": 2061947,
+      "size": 131,
+      "flags": 0,
+      "sha256": "3ba838269d99acda84e12d5660c993107a1e24aad6bcf062c38c0453b8144370"
+    },
+    {
+      "name": "scripts/player/player6/player6_vint_1.scr",
+      "offset": 2062078,
+      "size": 131,
+      "flags": 0,
+      "sha256": "f3acd8f88c8fe729a45822198e19ce426d8842f0a9ab059c6766fc4acd981338"
+    },
+    {
+      "name": "scripts/player/player6/player6.scr",
+      "offset": 2062209,
+      "size": 30849,
+      "flags": 0,
+      "sha256": "7b884e694905ac47c8a15aac47bb5ba205061ee47f8cdec8236e93ca8f59e615"
+    },
+    {
+      "name": "scripts/bonuses/lightingbomb/lightingbomb_plane.scr",
+      "offset": 2093058,
+      "size": 1048,
+      "flags": 0,
+      "sha256": "91adef7ae28f1926ddccb9ebf8164c7ae448e9c8a53ad8553c373811c90d8218"
+    },
+    {
+      "name": "scripts/bonuses/lightingbomb/lightingbomb_proj.scr",
+      "offset": 2094106,
+      "size": 218,
+      "flags": 0,
+      "sha256": "8bcd07b18cf7036e36c5eab03e88e71bd8e363ab3ab84debb5cc5fc0b7385c06"
+    },
+    {
+      "name": "scripts/bonuses/clusterbomb/clusterbomb_proj.scr",
+      "offset": 2094324,
+      "size": 1146,
+      "flags": 0,
+      "sha256": "74ce226e64f32729afc42eba17097b5925b447c0153e4e304782d83e8c3896a1"
+    },
+    {
+      "name": "scripts/bonuses/clusterbomb/clusterbomb_small.scr",
+      "offset": 2095470,
+      "size": 1589,
+      "flags": 0,
+      "sha256": "14b20cf564a64c8163d8aec89ff3927e1cd51ee8a036bd2beabf1ca56138dea9"
+    },
+    {
+      "name": "scripts/bonuses/abomb/abomb_proj.scr",
+      "offset": 2097059,
+      "size": 2219,
+      "flags": 0,
+      "sha256": "dfe62ca817d6fdff919aa73eb68b75544d8e03bdf76e0ea6c5e067c662b83a8f"
+    },
+    {
+      "name": "scripts/bonuses/abomb/smoke_green.scr",
+      "offset": 2099278,
+      "size": 609,
+      "flags": 0,
+      "sha256": "3fb0cb3ad71e85b243cb22ef78ba5e8de60ede373f080ddae3c386ac8eb070a7"
+    },
+    {
+      "name": "scripts/bonuses/rocketbomb/p_rb.scr",
+      "offset": 2099887,
+      "size": 357,
+      "flags": 0,
+      "sha256": "d5235f5d561d5168e04e7cb734a1c2b083f06a98e2cb3cec76baa08626c3b5fa"
+    },
+    {
+      "name": "scripts/bonuses/satellite_strike/satellite_strike.scr",
+      "offset": 2100244,
+      "size": 1459,
+      "flags": 0,
+      "sha256": "1cdd93c5fe63de7ad51a14ffe0f323486ff7e668b4028e5c8c900b84b660f5ab"
+    },
+    {
+      "name": "scripts/ships/ship.scr",
+      "offset": 2101703,
+      "size": 1090,
+      "flags": 0,
+      "sha256": "f64f0cc67f528ae0571c3fd42f243541bf1bd57452059ef6a9d4742a1284cafb"
+    },
+    {
+      "name": "scripts/ships/ship_cannon.scr",
+      "offset": 2102793,
+      "size": 723,
+      "flags": 0,
+      "sha256": "85667923edbe31d1f5a3d49c931a348e7a8ac5bc3874a83a359a71953cb398ad"
+    },
+    {
+      "name": "scripts/ships/ship_splash.scr",
+      "offset": 2103516,
+      "size": 452,
+      "flags": 0,
+      "sha256": "9b4e64f703291cb64a037a2febaf38216275675efe62bca72dfde7cf40613772"
+    },
+    {
+      "name": "scripts/ships/ship_splashes.scr",
+      "offset": 2103968,
+      "size": 343,
+      "flags": 0,
+      "sha256": "41f1248dc42e947e850c295506ffa82bed2bc0ce2079769fd9e51db358a3ef9f"
+    },
+    {
+      "name": "scripts/ships/ship_dead.scr",
+      "offset": 2104311,
+      "size": 408,
+      "flags": 0,
+      "sha256": "4900e179792e6773c445cd289df47922660ea1bc69eb4564fc6aab331c3a0423"
+    },
+    {
+      "name": "scripts/ships/ship_big_helic/ship_big_helic.scr",
+      "offset": 2104719,
+      "size": 1104,
+      "flags": 0,
+      "sha256": "85ea386abd92b184a75d031d369898877b4f9b99a2592ccd8a9f4b7657e454cb"
+    },
+    {
+      "name": "scripts/ships/ship_big/ship_big.scr",
+      "offset": 2105823,
+      "size": 1096,
+      "flags": 0,
+      "sha256": "3d2166d9f0ff5767707202cdcff6a658ecdebbc8239cefc1b7e7be76ea4ec25a"
+    },
+    {
+      "name": "scripts/ships/cutter_small_guns/t_turret.scr",
+      "offset": 2106919,
+      "size": 310,
+      "flags": 0,
+      "sha256": "6f7a6771fb4d8d65286be26994986c73c2f548929022e06e0ba9ff8d372df0f8"
+    },
+    {
+      "name": "scripts/ships/cutter_small_guns/t_gun.scr",
+      "offset": 2107229,
+      "size": 1751,
+      "flags": 0,
+      "sha256": "f81ddc68e7683240e157057ab872cacaecaccdb9208bc8fa5311b8f626f12a1e"
+    },
+    {
+      "name": "scripts/ships/cutter_small_guns/cutter_small_guns.scr",
+      "offset": 2108980,
+      "size": 1120,
+      "flags": 0,
+      "sha256": "d305c706b8a6b2f553456af84197626c85ed4a30269c9c955835d2387fe45fe4"
+    },
+    {
+      "name": "scripts/ships/cutter_small_guns/cutter_small_guns_guns.scr",
+      "offset": 2110100,
+      "size": 959,
+      "flags": 0,
+      "sha256": "a0fb1c625b8dd80ce0e036518e01bf9b6278953df0256214c17ea8ca34fc268b"
+    },
+    {
+      "name": "scripts/ships/cutter_small_guns/cutter_small_guns_turret.scr",
+      "offset": 2111059,
+      "size": 310,
+      "flags": 0,
+      "sha256": "6f7a6771fb4d8d65286be26994986c73c2f548929022e06e0ba9ff8d372df0f8"
+    },
+    {
+      "name": "scripts/ships/avianos/avianos.scr",
+      "offset": 2111369,
+      "size": 2664,
+      "flags": 0,
+      "sha256": "97f5a8aedd5fd4f6575e0c571c42a007087947a79dd2ff53589e448e344ce545"
+    },
+    {
+      "name": "scripts/ships/avianos/avianos_turret.scr",
+      "offset": 2114033,
+      "size": 310,
+      "flags": 0,
+      "sha256": "6f7a6771fb4d8d65286be26994986c73c2f548929022e06e0ba9ff8d372df0f8"
+    },
+    {
+      "name": "scripts/ships/avianos/avianos_radar.scr",
+      "offset": 2114343,
+      "size": 131,
+      "flags": 0,
+      "sha256": "e9919741fda8fb0099d8b712f9621c25077619ac3962587db66aa0a444c1e868"
+    },
+    {
+      "name": "scripts/ships/avianos/avianos_guns.scr",
+      "offset": 2114474,
+      "size": 954,
+      "flags": 0,
+      "sha256": "973a56c40beee90e2bae95ef33ccd9f2576af2a6d6c5f1394feb719a29cc5126"
+    },
+    {
+      "name": "scripts/ships/avianos/plane.scr",
+      "offset": 2115428,
+      "size": 1101,
+      "flags": 0,
+      "sha256": "c6789b25f8e3cda616a600789a64c31a8515d7a43294ed25ec9585a41b6948d4"
+    },
+    {
+      "name": "scripts/ships/rocket_boat/helic.scr",
+      "offset": 2116529,
+      "size": 5549,
+      "flags": 0,
+      "sha256": "121a99c153322e7ff491d3844753edbff7e770877e9b5c6bc8c13a9a813cd0ab"
+    },
+    {
+      "name": "scripts/ships/rocket_boat/rocket_boat.scr",
+      "offset": 2122078,
+      "size": 4051,
+      "flags": 0,
+      "sha256": "fb446d91c95df2e3c6afee5d624486be5a33d81a6d96780eb065a0d889a6496f"
+    },
+    {
+      "name": "scripts/ships/rocket_boat/rocket_boat_guns.scr",
+      "offset": 2126129,
+      "size": 886,
+      "flags": 0,
+      "sha256": "b8153863e2c2d17b464d8406cac033195384e231f177d12600ba4bd3e4b2235a"
+    },
+    {
+      "name": "scripts/ships/rocket_boat/rocket_boat_radar.scr",
+      "offset": 2127015,
+      "size": 131,
+      "flags": 0,
+      "sha256": "e9919741fda8fb0099d8b712f9621c25077619ac3962587db66aa0a444c1e868"
+    },
+    {
+      "name": "scripts/ships/rocket_boat/rocket_boat_turret.scr",
+      "offset": 2127146,
+      "size": 310,
+      "flags": 0,
+      "sha256": "6f7a6771fb4d8d65286be26994986c73c2f548929022e06e0ba9ff8d372df0f8"
+    },
+    {
+      "name": "scripts/ships/ship_destroyer/ship_destroyer.scr",
+      "offset": 2127456,
+      "size": 1121,
+      "flags": 0,
+      "sha256": "3033c49c292ce8a082916d6f0ca2aeedc411e8da2e9ac3f2e79739cd656c02a1"
+    },
+    {
+      "name": "scripts/ships/ship_destroyer/ship_destroyer_cannon.scr",
+      "offset": 2128577,
+      "size": 310,
+      "flags": 0,
+      "sha256": "6f7a6771fb4d8d65286be26994986c73c2f548929022e06e0ba9ff8d372df0f8"
+    },
+    {
+      "name": "scripts/ships/ship_destroyer/ship_destroyer_guns.scr",
+      "offset": 2128887,
+      "size": 954,
+      "flags": 0,
+      "sha256": "973a56c40beee90e2bae95ef33ccd9f2576af2a6d6c5f1394feb719a29cc5126"
+    },
+    {
+      "name": "scripts/ships/ship_destroyer/ship_destroyer_radar.scr",
+      "offset": 2129841,
+      "size": 131,
+      "flags": 0,
+      "sha256": "e9919741fda8fb0099d8b712f9621c25077619ac3962587db66aa0a444c1e868"
+    },
+    {
+      "name": "scripts/ships/lodka/lodka.scr",
+      "offset": 2129972,
+      "size": 1090,
+      "flags": 0,
+      "sha256": "e66149b9c0ca803fa77f16c4c827609dd389cf419d1633c1022858c1192eadcb"
+    },
+    {
+      "name": "scripts/ships/lodka/lodka_turret.scr",
+      "offset": 2131062,
+      "size": 310,
+      "flags": 0,
+      "sha256": "6f7a6771fb4d8d65286be26994986c73c2f548929022e06e0ba9ff8d372df0f8"
+    },
+    {
+      "name": "scripts/ships/lodka/lodka_gun.scr",
+      "offset": 2131372,
+      "size": 962,
+      "flags": 0,
+      "sha256": "a96c3d78a0d0fd6b3747952d88df19d434cf51493ccc0114d4e4c49b18befb6f"
+    },
+    {
+      "name": "scripts/ships/lodka/lodka_vint.scr",
+      "offset": 2132334,
+      "size": 131,
+      "flags": 0,
+      "sha256": "a9de0956e133c6f8b276d289a194568760ec6e460693c0184c0982fbee519bc5"
+    },
+    {
+      "name": "scripts/ships/apl/apl.scr",
+      "offset": 2132465,
+      "size": 3173,
+      "flags": 0,
+      "sha256": "9111704b62a88064ac12d97b2545cc022e651d4304ae1c391049a36c17c717ff"
+    },
+    {
+      "name": "scripts/tanks/tank_big_rockets.scr",
+      "offset": 2135638,
+      "size": 877,
+      "flags": 0,
+      "sha256": "99ce77bf698c6de38f9d11d65296c5e7b456cd6c162eb707cb70b1d4af51c8cc"
+    },
+    {
+      "name": "scripts/tanks/t_big_guns.scr",
+      "offset": 2136515,
+      "size": 1129,
+      "flags": 0,
+      "sha256": "ca8f3247c3d467a775cec907339dc7e1bd0c6b8a0d963a6ad5c8ab1a08ea6ea1"
+    },
+    {
+      "name": "scripts/tanks/t_flame_turret.scr",
+      "offset": 2137644,
+      "size": 571,
+      "flags": 0,
+      "sha256": "8f56eb8b3aa4f4a9ac61aa3593a4cdaf9aaf4f3d14261c4e9be6a9c841accdec"
+    },
+    {
+      "name": "scripts/tanks/t_turret.scr",
+      "offset": 2138215,
+      "size": 310,
+      "flags": 0,
+      "sha256": "6f7a6771fb4d8d65286be26994986c73c2f548929022e06e0ba9ff8d372df0f8"
+    },
+    {
+      "name": "scripts/tanks/tank.scr",
+      "offset": 2138525,
+      "size": 852,
+      "flags": 0,
+      "sha256": "7b15abd401e34b6d2c561cbbdbbd31acde143e23f24794c005c35efdfa3602b2"
+    },
+    {
+      "name": "scripts/tanks/tank_big_almostdead.scr",
+      "offset": 2139377,
+      "size": 319,
+      "flags": 0,
+      "sha256": "320d8e5609ec84029973a82febeac14c75bf303bc21caa55512cd26abe3bd4c4"
+    },
+    {
+      "name": "scripts/tanks/tank_flame.scr",
+      "offset": 2139696,
+      "size": 1108,
+      "flags": 0,
+      "sha256": "397f5c6c50da818005f553534434b3f21f828a6c6cff655585f607fe2e55a5d4"
+    },
+    {
+      "name": "scripts/tanks/tank_mini/t_gun.scr",
+      "offset": 2140804,
+      "size": 1050,
+      "flags": 0,
+      "sha256": "9afcdc66e5abeb462dabe1b4d60b841555c7c7d8ae999f1149ccf9f38951ec47"
+    },
+    {
+      "name": "scripts/tanks/tank_mini/t_turret.scr",
+      "offset": 2141854,
+      "size": 310,
+      "flags": 0,
+      "sha256": "6ecc1c9af910413e78ca36ce767969310e3935f74c6b7af75e3b19a2a218e0a7"
+    },
+    {
+      "name": "scripts/tanks/tank_mini/tank.scr",
+      "offset": 2142164,
+      "size": 1195,
+      "flags": 0,
+      "sha256": "b3f5d969388643cf38bf3b4368fa6731a77c4709e6d2a3d06f7307fb6539e81f"
+    },
+    {
+      "name": "scripts/tanks/tank_small/tank.scr",
+      "offset": 2143359,
+      "size": 1195,
+      "flags": 0,
+      "sha256": "3af21e44be0676130f23de0e24e34383e37a9c828777aa24a133bb0d5008180c"
+    },
+    {
+      "name": "scripts/tanks/tank_small/t_turret.scr",
+      "offset": 2144554,
+      "size": 310,
+      "flags": 0,
+      "sha256": "6f7a6771fb4d8d65286be26994986c73c2f548929022e06e0ba9ff8d372df0f8"
+    },
+    {
+      "name": "scripts/tanks/tank_small/t_gun.scr",
+      "offset": 2144864,
+      "size": 1751,
+      "flags": 0,
+      "sha256": "f81ddc68e7683240e157057ab872cacaecaccdb9208bc8fa5311b8f626f12a1e"
+    },
+    {
+      "name": "scripts/tanks/tank_medium/tank.scr",
+      "offset": 2146615,
+      "size": 1195,
+      "flags": 0,
+      "sha256": "fb9cd9868c452a2adaf0d82479e71479a7d10055366710b31924ecba798130c0"
+    },
+    {
+      "name": "scripts/tanks/tank_medium/t_turret.scr",
+      "offset": 2147810,
+      "size": 310,
+      "flags": 0,
+      "sha256": "6ecc1c9af910413e78ca36ce767969310e3935f74c6b7af75e3b19a2a218e0a7"
+    },
+    {
+      "name": "scripts/tanks/tank_medium/t_gun.scr",
+      "offset": 2148120,
+      "size": 1616,
+      "flags": 0,
+      "sha256": "ed879d697a7c4d3a54f185b8d3801e995d17d4f6c53ddab257e7cc6f09cd6d16"
+    },
+    {
+      "name": "scripts/tanks/tank_zsu/tank_zsu.scr",
+      "offset": 2149736,
+      "size": 1195,
+      "flags": 0,
+      "sha256": "3af21e44be0676130f23de0e24e34383e37a9c828777aa24a133bb0d5008180c"
+    },
+    {
+      "name": "scripts/tanks/tank_zsu/tank_zsu_turret.scr",
+      "offset": 2150931,
+      "size": 310,
+      "flags": 0,
+      "sha256": "6f7a6771fb4d8d65286be26994986c73c2f548929022e06e0ba9ff8d372df0f8"
+    },
+    {
+      "name": "scripts/tanks/tank_zsu/tank_zsu_guns.scr",
+      "offset": 2151241,
+      "size": 1208,
+      "flags": 0,
+      "sha256": "3f49ff48cb49d53011d3d73d417dad2e36f37e5fe36d976b7781a44b0d5b5d73"
+    },
+    {
+      "name": "scripts/tanks/tank_big/tank_big.scr",
+      "offset": 2152449,
+      "size": 852,
+      "flags": 0,
+      "sha256": "7b15abd401e34b6d2c561cbbdbbd31acde143e23f24794c005c35efdfa3602b2"
+    },
+    {
+      "name": "scripts/tanks/tank_big/tank_big_guns.scr",
+      "offset": 2153301,
+      "size": 1129,
+      "flags": 0,
+      "sha256": "ca8f3247c3d467a775cec907339dc7e1bd0c6b8a0d963a6ad5c8ab1a08ea6ea1"
+    },
+    {
+      "name": "scripts/tanks/tank_big/tank_big_turret.scr",
+      "offset": 2154430,
+      "size": 310,
+      "flags": 0,
+      "sha256": "6f7a6771fb4d8d65286be26994986c73c2f548929022e06e0ba9ff8d372df0f8"
+    },
+    {
+      "name": "scripts/tanks/tank_small_shilka/tank_small_shilka.scr",
+      "offset": 2154740,
+      "size": 863,
+      "flags": 0,
+      "sha256": "2545a3992e76898c955756d7e5c30245607c353d05e401ae7c1837058444b961"
+    },
+    {
+      "name": "scripts/tanks/tank_small_shilka/tank_small_shilka_guns.scr",
+      "offset": 2155603,
+      "size": 1624,
+      "flags": 0,
+      "sha256": "8b897a802bce83ef84392b2fb3c79a42b9e399372954633b461b8a16b31121b7"
+    },
+    {
+      "name": "scripts/tanks/tank_small_shilka/tank_small_shilka_turret.scr",
+      "offset": 2157227,
+      "size": 310,
+      "flags": 0,
+      "sha256": "6f7a6771fb4d8d65286be26994986c73c2f548929022e06e0ba9ff8d372df0f8"
+    },
+    {
+      "name": "scripts/tanks/tank_medium_x/tank_medium_x.scr",
+      "offset": 2157537,
+      "size": 859,
+      "flags": 0,
+      "sha256": "f6b9b3020d0f76586ed6aa7d60dae97f699dc2f9607c7d0157f03d4681745579"
+    },
+    {
+      "name": "scripts/tanks/tank_medium_x/tank_medium_x_turret.scr",
+      "offset": 2158396,
+      "size": 310,
+      "flags": 0,
+      "sha256": "6f7a6771fb4d8d65286be26994986c73c2f548929022e06e0ba9ff8d372df0f8"
+    },
+    {
+      "name": "scripts/tanks/tank_medium_x/tank_medium_x_guns.scr",
+      "offset": 2158706,
+      "size": 1287,
+      "flags": 0,
+      "sha256": "35b518d8b9ec72ccbc77d35f08ab879fe5a76b09530c634c65af9980bdc212ce"
+    },
+    {
+      "name": "scripts/tanks/tank_small_wheels/tank_small_wheels.scr",
+      "offset": 2159993,
+      "size": 1371,
+      "flags": 0,
+      "sha256": "600a328b82e0468cd92648df912db902dd450c96b6d648f67b691567cde046b0"
+    },
+    {
+      "name": "scripts/tanks/tank_small_wheels/tank_small_wheels_turret.scr",
+      "offset": 2161364,
+      "size": 310,
+      "flags": 0,
+      "sha256": "6f7a6771fb4d8d65286be26994986c73c2f548929022e06e0ba9ff8d372df0f8"
+    },
+    {
+      "name": "scripts/tanks/tank_small_wheels/tank_small_wheels_guns.scr",
+      "offset": 2161674,
+      "size": 1751,
+      "flags": 0,
+      "sha256": "f81ddc68e7683240e157057ab872cacaecaccdb9208bc8fa5311b8f626f12a1e"
+    },
+    {
+      "name": "scripts/tanks/tank_small_wheels/tank_small_wheels_wheels.scr",
+      "offset": 2163425,
+      "size": 482,
+      "flags": 0,
+      "sha256": "d7f02b2c7941b771200492c92eae382bae4bcc3e5c1020655b46e06d0d0b8edc"
+    },
+    {
+      "name": "scripts/tanks/sherman/sherman.scr",
+      "offset": 2163907,
+      "size": 842,
+      "flags": 0,
+      "sha256": "a0498fa98d19aaf8004ec9ed6e480fab2b13fb98014f4d5df696f84afd87f913"
+    },
+    {
+      "name": "scripts/tanks/sherman/sherman_turret.scr",
+      "offset": 2164749,
+      "size": 310,
+      "flags": 0,
+      "sha256": "6f7a6771fb4d8d65286be26994986c73c2f548929022e06e0ba9ff8d372df0f8"
+    },
+    {
+      "name": "scripts/tanks/sherman/sherman_gun.scr",
+      "offset": 2165059,
+      "size": 1128,
+      "flags": 0,
+      "sha256": "d5b26fc7e80192c04dbdf116e3b45bfdbee8170148f5049799d54e862aa11753"
+    },
+    {
+      "name": "scripts/tanks/sau/sau.scr",
+      "offset": 2166187,
+      "size": 852,
+      "flags": 0,
+      "sha256": "7b15abd401e34b6d2c561cbbdbbd31acde143e23f24794c005c35efdfa3602b2"
+    },
+    {
+      "name": "scripts/tanks/sau/sau_gun.scr",
+      "offset": 2167039,
+      "size": 1129,
+      "flags": 0,
+      "sha256": "bb84466b3c53e57bc0b9ad189e5a8fd5751b3d7da5f50748598e05ffb18ca0af"
+    },
+    {
+      "name": "scripts/tanks/sau/sau_turret.scr",
+      "offset": 2168168,
+      "size": 310,
+      "flags": 0,
+      "sha256": "6f7a6771fb4d8d65286be26994986c73c2f548929022e06e0ba9ff8d372df0f8"
+    },
+    {
+      "name": "scripts/tanks/sau/sau_wheel.scr",
+      "offset": 2168478,
+      "size": 482,
+      "flags": 0,
+      "sha256": "d7f02b2c7941b771200492c92eae382bae4bcc3e5c1020655b46e06d0d0b8edc"
+    },
+    {
+      "name": "scripts/tanks/m113/m113.scr",
+      "offset": 2168960,
+      "size": 1125,
+      "flags": 0,
+      "sha256": "d218260e6b81baab7fd53d43ea81a317a2a0c68f1e7874bed6dd2ffe9fb34886"
+    },
+    {
+      "name": "scripts/tanks/m113/m113_gun.scr",
+      "offset": 2170085,
+      "size": 1295,
+      "flags": 0,
+      "sha256": "8c0c309dd6bd03e881d1a82190ac4be9f78280d9ef116e20b6a24b217d9b3c8f"
+    },
+    {
+      "name": "scripts/tanks/m113/m113_turret.scr",
+      "offset": 2171380,
+      "size": 310,
+      "flags": 0,
+      "sha256": "6f7a6771fb4d8d65286be26994986c73c2f548929022e06e0ba9ff8d372df0f8"
+    },
+    {
+      "name": "scripts/tanks/m113/doors.scr",
+      "offset": 2171690,
+      "size": 596,
+      "flags": 0,
+      "sha256": "09e347f61c28494d72c487ae8e273d4d6dc1354ec064077e7c2acb0fa59238eb"
+    },
+    {
+      "name": "scripts/tanks/m113/jeep.scr",
+      "offset": 2172286,
+      "size": 2222,
+      "flags": 0,
+      "sha256": "6976bc2051cdfa469b74297581984a6fe042378b3340586cc7aae856d95a0cef"
+    },
+    {
+      "name": "scripts/tanks/bt_2/bt_2.scr",
+      "offset": 2174508,
+      "size": 842,
+      "flags": 0,
+      "sha256": "a0498fa98d19aaf8004ec9ed6e480fab2b13fb98014f4d5df696f84afd87f913"
+    },
+    {
+      "name": "scripts/tanks/bt_2/bt_2_gun.scr",
+      "offset": 2175350,
+      "size": 1212,
+      "flags": 0,
+      "sha256": "067db7c0b4842058b8cffb05027f3e1b8f47284585800b9a8d1230d1066a21b4"
+    },
+    {
+      "name": "scripts/tanks/bt_2/bt_2_turret.scr",
+      "offset": 2176562,
+      "size": 310,
+      "flags": 0,
+      "sha256": "6f7a6771fb4d8d65286be26994986c73c2f548929022e06e0ba9ff8d372df0f8"
+    },
+    {
+      "name": "scripts/tanks/big_rockets/big_rockets.scr",
+      "offset": 2176872,
+      "size": 851,
+      "flags": 0,
+      "sha256": "3179df5572ac66b87c555ba740043f9c6817d96a04e65d242e6fdfbd6a623c4c"
+    },
+    {
+      "name": "scripts/tanks/big_rockets/big_rockets_gun.scr",
+      "offset": 2177723,
+      "size": 1213,
+      "flags": 0,
+      "sha256": "69b3f0fc526ab5547cafd20f61188e4112a93a6451712f45490cc5e9a05c3f49"
+    },
+    {
+      "name": "scripts/tanks/big_rockets/big_rockets_turret.scr",
+      "offset": 2178936,
+      "size": 310,
+      "flags": 0,
+      "sha256": "6f7a6771fb4d8d65286be26994986c73c2f548929022e06e0ba9ff8d372df0f8"
+    },
+    {
+      "name": "scripts/tanks/big_rockets/big_rockets_guns.scr",
+      "offset": 2179246,
+      "size": 1114,
+      "flags": 0,
+      "sha256": "d8dcd7ac0739ad70cfc510d631e3af65fe35fe42910b53a9e226aa83f670e10e"
+    },
+    {
+      "name": "scripts/tanks/tank_medium2/t_gun.scr",
+      "offset": 2180360,
+      "size": 1089,
+      "flags": 0,
+      "sha256": "e51f7f106530cde40d92f509ad50f56e193f26bfb512f8ec51c0a150be352054"
+    },
+    {
+      "name": "scripts/tanks/tank_medium2/t_turret.scr",
+      "offset": 2181449,
+      "size": 310,
+      "flags": 0,
+      "sha256": "6ecc1c9af910413e78ca36ce767969310e3935f74c6b7af75e3b19a2a218e0a7"
+    },
+    {
+      "name": "scripts/tanks/tank_medium2/tank.scr",
+      "offset": 2181759,
+      "size": 1195,
+      "flags": 0,
+      "sha256": "fb9cd9868c452a2adaf0d82479e71479a7d10055366710b31924ecba798130c0"
+    },
+    {
+      "name": "scripts/jeeps/jeep/jeep.scr",
+      "offset": 2182954,
+      "size": 1371,
+      "flags": 0,
+      "sha256": "600a328b82e0468cd92648df912db902dd450c96b6d648f67b691567cde046b0"
+    },
+    {
+      "name": "scripts/jeeps/jeep/j_cannon.scr",
+      "offset": 2184325,
+      "size": 631,
+      "flags": 0,
+      "sha256": "40cde745823f5ad9e09cac525bc7c602dd76a4b23df1ed9b183ab7f2236ac345"
+    },
+    {
+      "name": "scripts/jeeps/jeep/j_cannon2.scr",
+      "offset": 2184956,
+      "size": 630,
+      "flags": 0,
+      "sha256": "f46f546d8e030621bef31e64c40400bcbd4e5097d1f619a7c3ab14a0d77ab0c2"
+    },
+    {
+      "name": "scripts/jeeps/jeep_army/jeep.scr",
+      "offset": 2185586,
+      "size": 1371,
+      "flags": 0,
+      "sha256": "2c81a3e8fb9934e6982770169dbea583faeaffa52ccae709159ae3def27759b2"
+    },
+    {
+      "name": "scripts/jeeps/jeep_army/j_cannon.scr",
+      "offset": 2186957,
+      "size": 784,
+      "flags": 0,
+      "sha256": "72a804b4b935c3ecd30d568ccdc8fc124e4e5379605adfe9f07ccf540924ae3f"
+    },
+    {
+      "name": "scripts/jeeps/jeep_army/j_cannon2.scr",
+      "offset": 2187741,
+      "size": 652,
+      "flags": 0,
+      "sha256": "65ea3d5a3f1afe44509e506c8ee38b7f4fc6a355013a144d13f4c571def70b38"
+    },
+    {
+      "name": "scripts/jeeps/jeep_army2/j_cannon.scr",
+      "offset": 2188393,
+      "size": 310,
+      "flags": 0,
+      "sha256": "6f7a6771fb4d8d65286be26994986c73c2f548929022e06e0ba9ff8d372df0f8"
+    },
+    {
+      "name": "scripts/jeeps/jeep_army2/j_cannon2.scr",
+      "offset": 2188703,
+      "size": 310,
+      "flags": 0,
+      "sha256": "6f7a6771fb4d8d65286be26994986c73c2f548929022e06e0ba9ff8d372df0f8"
+    },
+    {
+      "name": "scripts/jeeps/jeep_army2/jeep.scr",
+      "offset": 2189013,
+      "size": 1371,
+      "flags": 0,
+      "sha256": "40a07389c9de35a96fa3ebe69735007cc23d28710f320842adc4b77e0ef41b21"
+    },
+    {
+      "name": "scripts/jeeps/jeep_army2/j_gun2.scr",
+      "offset": 2190384,
+      "size": 735,
+      "flags": 0,
+      "sha256": "992363464ebb10772c157963ea03c05b9aa9630451649f41893a025cdce95abb"
+    },
+    {
+      "name": "scripts/jeeps/jeep_army2/j_gun.scr",
+      "offset": 2191119,
+      "size": 827,
+      "flags": 0,
+      "sha256": "6332aa88cfb04171a531aaaaa8d5a090ae6807de6686ed5516673b947fa4ed62"
+    },
+    {
+      "name": "scripts/jeeps/jeep_army2/jeep_bridge.scr",
+      "offset": 2191946,
+      "size": 1224,
+      "flags": 0,
+      "sha256": "853d1318d286811681edba13996f78f0087fee2b06186118056afaa3b5852d39"
+    },
+    {
+      "name": "scripts/jeeps/jeep_bug/j_wheel_fast.scr",
+      "offset": 2193170,
+      "size": 131,
+      "flags": 0,
+      "sha256": "d29f339d1800bcd692469f86aeea3062efaa2526dc7bad91d730ae6e896d3c1e"
+    },
+    {
+      "name": "scripts/jeeps/jeep_bug/jeep.scr",
+      "offset": 2193301,
+      "size": 1371,
+      "flags": 0,
+      "sha256": "b74d53c26bc098d77feafdfe045b7c7391d93f880b3996243d34cebbca2d7b8e"
+    },
+    {
+      "name": "scripts/jeeps/jeep_bug/j_cannon.scr",
+      "offset": 2194672,
+      "size": 310,
+      "flags": 0,
+      "sha256": "6f7a6771fb4d8d65286be26994986c73c2f548929022e06e0ba9ff8d372df0f8"
+    },
+    {
+      "name": "scripts/jeeps/jeep_bug/j_guns.scr",
+      "offset": 2194982,
+      "size": 797,
+      "flags": 0,
+      "sha256": "a555885ad3a099454eaa87894352074663f79cfe708d81ada49ff41cbcbf61ec"
+    },
+    {
+      "name": "scripts/jeeps/jeep_bug_big/jeep.scr",
+      "offset": 2195779,
+      "size": 1105,
+      "flags": 0,
+      "sha256": "803920649baf560f5e747ccc05c0a7a548a212fb2620cb3f89700c326215e247"
+    },
+    {
+      "name": "scripts/jeeps/jeep_bug_big/j_wheel.scr",
+      "offset": 2196884,
+      "size": 482,
+      "flags": 0,
+      "sha256": "d7f02b2c7941b771200492c92eae382bae4bcc3e5c1020655b46e06d0d0b8edc"
+    },
+    {
+      "name": "scripts/jeeps/jeep_bug_big/j_guns.scr",
+      "offset": 2197366,
+      "size": 1128,
+      "flags": 0,
+      "sha256": "136fbcf9d804e8fb863180d5f846189c8925109411cbbf2727474bdce0110cb3"
+    },
+    {
+      "name": "scripts/jeeps/jeep_bug_big/j_cannon.scr",
+      "offset": 2198494,
+      "size": 310,
+      "flags": 0,
+      "sha256": "6f7a6771fb4d8d65286be26994986c73c2f548929022e06e0ba9ff8d372df0f8"
+    },
+    {
+      "name": "scripts/jeeps/jeep_bron/jeep.scr",
+      "offset": 2198804,
+      "size": 1105,
+      "flags": 0,
+      "sha256": "9468eaa8c786162d58d0016a476d6cc2665645a47cbd47f0306c76ae5c0da4f9"
+    },
+    {
+      "name": "scripts/jeeps/jeep_bron/j_cannon.scr",
+      "offset": 2199909,
+      "size": 1061,
+      "flags": 0,
+      "sha256": "a650f361ed880e4723b8feabe4053810becbd32f18574b90bed2767119587e26"
+    },
+    {
+      "name": "scripts/jeeps/jeep_big6/jeep_big6.scr",
+      "offset": 2200970,
+      "size": 1116,
+      "flags": 0,
+      "sha256": "43e6560e601170ecb642241ea4fdb28556fc41296ad4e6d685df7c7df6047866"
+    },
+    {
+      "name": "scripts/jeeps/jeep_big6/jeep_big6_guns.scr",
+      "offset": 2202086,
+      "size": 1287,
+      "flags": 0,
+      "sha256": "688107f0c5dc8936592be35c286a9f9fdecf43855646ee6898459f2932d57f36"
+    },
+    {
+      "name": "scripts/jeeps/jeep_big6/jeep_big6_turret.scr",
+      "offset": 2203373,
+      "size": 310,
+      "flags": 0,
+      "sha256": "6f7a6771fb4d8d65286be26994986c73c2f548929022e06e0ba9ff8d372df0f8"
+    },
+    {
+      "name": "scripts/jeeps/jeep_big6/jeep_big6_wheel.scr",
+      "offset": 2203683,
+      "size": 482,
+      "flags": 0,
+      "sha256": "d7f02b2c7941b771200492c92eae382bae4bcc3e5c1020655b46e06d0d0b8edc"
+    },
+    {
+      "name": "scripts/jeeps/jeep_big6/jeep_big6_dead.scr",
+      "offset": 2204165,
+      "size": 2357,
+      "flags": 0,
+      "sha256": "38469f4eb66e8cfad3119272f23da2ffc41dcc08ec953f39809f1883b937536a"
+    },
+    {
+      "name": "scripts/jeeps/jeep_helic/jeep_helic.scr",
+      "offset": 2206522,
+      "size": 987,
+      "flags": 0,
+      "sha256": "66dc90b9ba9549140a59e8c7d72c912b2961c5d0488095ed9f9dd870408c906a"
+    },
+    {
+      "name": "scripts/jeeps/jeep_helic/jeep_helic_guns.scr",
+      "offset": 2207509,
+      "size": 1471,
+      "flags": 0,
+      "sha256": "1234ac10bee08986a7f46a27c0ad21bc78a834e6d70adff9982d0271d3e238f1"
+    },
+    {
+      "name": "scripts/jeeps/jeep_helic/jeep_helic_turret.scr",
+      "offset": 2208980,
+      "size": 310,
+      "flags": 0,
+      "sha256": "6f7a6771fb4d8d65286be26994986c73c2f548929022e06e0ba9ff8d372df0f8"
+    },
+    {
+      "name": "scripts/jeeps/jeep_helic/jeep_helic_wheel.scr",
+      "offset": 2209290,
+      "size": 482,
+      "flags": 0,
+      "sha256": "d7f02b2c7941b771200492c92eae382bae4bcc3e5c1020655b46e06d0d0b8edc"
+    },
+    {
+      "name": "scripts/jeeps/jeep_small_rocket/jeep_small_rocket.scr",
+      "offset": 2209772,
+      "size": 1105,
+      "flags": 0,
+      "sha256": "803920649baf560f5e747ccc05c0a7a548a212fb2620cb3f89700c326215e247"
+    },
+    {
+      "name": "scripts/jeeps/jeep_small_rocket/jeep_small_rocket_wheel.scr",
+      "offset": 2210877,
+      "size": 482,
+      "flags": 0,
+      "sha256": "d7f02b2c7941b771200492c92eae382bae4bcc3e5c1020655b46e06d0d0b8edc"
+    },
+    {
+      "name": "scripts/jeeps/jeep_small_rocket/jeep_small_rocket_turret.scr",
+      "offset": 2211359,
+      "size": 310,
+      "flags": 0,
+      "sha256": "6f7a6771fb4d8d65286be26994986c73c2f548929022e06e0ba9ff8d372df0f8"
+    },
+    {
+      "name": "scripts/jeeps/jeep_small_rocket/jeep_small_rocket_guns.scr",
+      "offset": 2211669,
+      "size": 1177,
+      "flags": 0,
+      "sha256": "93fc564d745f487158bd20701d4823d81267c467fc354acf70e304d57b9d9076"
+    },
+    {
+      "name": "scripts/jeeps/jeep_medium_bug/jeep_medium_bug_wheel.scr",
+      "offset": 2212846,
+      "size": 482,
+      "flags": 0,
+      "sha256": "d7f02b2c7941b771200492c92eae382bae4bcc3e5c1020655b46e06d0d0b8edc"
+    },
+    {
+      "name": "scripts/jeeps/jeep_medium_bug/jeep_medium_bug_turret.scr",
+      "offset": 2213328,
+      "size": 310,
+      "flags": 0,
+      "sha256": "6f7a6771fb4d8d65286be26994986c73c2f548929022e06e0ba9ff8d372df0f8"
+    },
+    {
+      "name": "scripts/jeeps/jeep_medium_bug/jeep_medium_bug_guns.scr",
+      "offset": 2213638,
+      "size": 1110,
+      "flags": 0,
+      "sha256": "b49b0a82fc31dbf8485a4272a4804c10c10b87988d7532ccac9f5c9e7af6e12c"
+    },
+    {
+      "name": "scripts/jeeps/jeep_medium_bug/jeep_medium_bug.scr",
+      "offset": 2214748,
+      "size": 1105,
+      "flags": 0,
+      "sha256": "803920649baf560f5e747ccc05c0a7a548a212fb2620cb3f89700c326215e247"
+    },
+    {
+      "name": "scripts/jeeps/jeep_vsmall/jeep_vsmall.scr",
+      "offset": 2215853,
+      "size": 987,
+      "flags": 0,
+      "sha256": "66dc90b9ba9549140a59e8c7d72c912b2961c5d0488095ed9f9dd870408c906a"
+    },
+    {
+      "name": "scripts/jeeps/jeep_vsmall/jeep_vsmall_wheel.scr",
+      "offset": 2216840,
+      "size": 482,
+      "flags": 0,
+      "sha256": "d7f02b2c7941b771200492c92eae382bae4bcc3e5c1020655b46e06d0d0b8edc"
+    },
+    {
+      "name": "scripts/jeeps/jeep_vsmall/jeep_vsmall_turret.scr",
+      "offset": 2217322,
+      "size": 310,
+      "flags": 0,
+      "sha256": "6f7a6771fb4d8d65286be26994986c73c2f548929022e06e0ba9ff8d372df0f8"
+    },
+    {
+      "name": "scripts/jeeps/jeep_vsmall/jeep_vsmall_guns.scr",
+      "offset": 2217632,
+      "size": 1442,
+      "flags": 0,
+      "sha256": "c6dfb0dd125b2b1d6ab88102cd1ea19ef28c193280f44edf28ae9676477c018f"
+    },
+    {
+      "name": "scripts/jeeps/luas/luas.scr",
+      "offset": 2219074,
+      "size": 1117,
+      "flags": 0,
+      "sha256": "6799fff8081ee38414bdacd9e843abfa1cf29515b9bc416fd987d3df1d3b2e35"
+    },
+    {
+      "name": "scripts/jeeps/luas/luas_turret.scr",
+      "offset": 2220191,
+      "size": 310,
+      "flags": 0,
+      "sha256": "6f7a6771fb4d8d65286be26994986c73c2f548929022e06e0ba9ff8d372df0f8"
+    },
+    {
+      "name": "scripts/jeeps/luas/luas_gun.scr",
+      "offset": 2220501,
+      "size": 1339,
+      "flags": 0,
+      "sha256": "708d22664b6cf305f5ef4c7a53081ebb3dc49c1e339be9f6ec3fdf9da5840a58"
+    },
+    {
+      "name": "scripts/jeeps/luas/luas_wheel.scr",
+      "offset": 2221840,
+      "size": 482,
+      "flags": 0,
+      "sha256": "d7f02b2c7941b771200492c92eae382bae4bcc3e5c1020655b46e06d0d0b8edc"
+    },
+    {
+      "name": "scripts/jeeps/jeep_medium/jeep_medium.scr",
+      "offset": 2222322,
+      "size": 1044,
+      "flags": 0,
+      "sha256": "6e617ee6742155e9638161af2f319effaf0b83bf1e1800fbb8d24f6e40220086"
+    },
+    {
+      "name": "scripts/jeeps/jeep_medium/jeep_medium_guns.scr",
+      "offset": 2223366,
+      "size": 1210,
+      "flags": 0,
+      "sha256": "42ed0b68d968a9ed6e5171f4a5921e99e7e77a04c932482faa8ae63f1a4a7430"
+    },
+    {
+      "name": "scripts/jeeps/jeep_medium/jeep_medium_cannon.scr",
+      "offset": 2224576,
+      "size": 310,
+      "flags": 0,
+      "sha256": "6f7a6771fb4d8d65286be26994986c73c2f548929022e06e0ba9ff8d372df0f8"
+    },
+    {
+      "name": "scripts/jeeps/uaz/uaz.scr",
+      "offset": 2224886,
+      "size": 1109,
+      "flags": 0,
+      "sha256": "5cef33addf92a7fb3bfa4a0eca1c59497d2cf9b1c918123b3884c2c4e54a911b"
+    },
+    {
+      "name": "scripts/jeeps/uaz/uaz_turret.scr",
+      "offset": 2225995,
+      "size": 310,
+      "flags": 0,
+      "sha256": "6f7a6771fb4d8d65286be26994986c73c2f548929022e06e0ba9ff8d372df0f8"
+    },
+    {
+      "name": "scripts/jeeps/uaz/uaz_gun.scr",
+      "offset": 2226305,
+      "size": 1361,
+      "flags": 0,
+      "sha256": "77c33fdf933d3b67844795f764790abbd82b38b6b40f78166bb8c1c0a3540aa2"
+    },
+    {
+      "name": "scripts/jeeps/uaz/uaz_wheel.scr",
+      "offset": 2227666,
+      "size": 482,
+      "flags": 0,
+      "sha256": "d7f02b2c7941b771200492c92eae382bae4bcc3e5c1020655b46e06d0d0b8edc"
+    },
+    {
+      "name": "scripts/nature/storm_spice.scr",
+      "offset": 2228148,
+      "size": 565,
+      "flags": 0,
+      "sha256": "8dd58a6b3fe7d4f32bf664df7efd485b5557e7e67c0ecb5cf7427f111617d924"
+    },
+    {
+      "name": "scripts/nature/iseberg.scr",
+      "offset": 2228713,
+      "size": 1109,
+      "flags": 0,
+      "sha256": "b4bb6344aa05214225ee248bb744e2b03d17f49fbd360e17fc9efcda096b634d"
+    },
+    {
+      "name": "scripts/planes/plane_spacecutter.scr",
+      "offset": 2229822,
+      "size": 861,
+      "flags": 0,
+      "sha256": "4cbbabbf5fe9a535ffd3a11e230e6d5fad0a63d77bb9a249899cfb5361ff4448"
+    },
+    {
+      "name": "scripts/planes/plane_spacecutter_mine.scr",
+      "offset": 2230683,
+      "size": 1292,
+      "flags": 0,
+      "sha256": "2fffb815446c1dde3cb603bbbe8049898a532ae98bb8f99242f2556106877c9c"
+    },
+    {
+      "name": "scripts/planes/plane1/plane.scr",
+      "offset": 2231975,
+      "size": 2182,
+      "flags": 0,
+      "sha256": "d0a8542ee5f710eb29b1288270ef57c2fca4e3de093581e0c12dc1af67678170"
+    },
+    {
+      "name": "scripts/planes/plane2/plane.scr",
+      "offset": 2234157,
+      "size": 1738,
+      "flags": 0,
+      "sha256": "2f397682ed5dbebf57e4c03d369ccb9cbb17f8c010a6db8b16301daffa3a872f"
+    },
+    {
+      "name": "scripts/planes/plane2/plane_menu.scr",
+      "offset": 2235895,
+      "size": 1418,
+      "flags": 0,
+      "sha256": "f4a1abc80795f45daa975a2707ea3af6764d5e875578b6f91f4b7fa02925915b"
+    },
+    {
+      "name": "scripts/planes/f15/plane.scr",
+      "offset": 2237313,
+      "size": 1211,
+      "flags": 0,
+      "sha256": "c0cd007e11ebdf383f4a450a4b2aaed282b799b87323ba546f869078c74eec94"
+    },
+    {
+      "name": "scripts/planes/f15/plane_menu.scr",
+      "offset": 2238524,
+      "size": 1081,
+      "flags": 0,
+      "sha256": "d7d93d03dea090ea6560eb71fb048f32dea70fadde3293c808efd2798a66b58f"
+    },
+    {
+      "name": "scripts/planes/plane_a/plane.scr",
+      "offset": 2239605,
+      "size": 1728,
+      "flags": 0,
+      "sha256": "e39aa71514fca367428db1b4bd97ef3921198bce1b4df14fec9f008fdd2e90ac"
+    },
+    {
+      "name": "scripts/planes/plane_b52/plane_b52.scr",
+      "offset": 2241333,
+      "size": 1243,
+      "flags": 0,
+      "sha256": "255e85c2db0afa9fdd6ab86c421ec86eaf166b13d19e0965b59bab19bf82706d"
+    },
+    {
+      "name": "scripts/planes/fighter/fighter.scr",
+      "offset": 2242576,
+      "size": 1994,
+      "flags": 0,
+      "sha256": "f4e9197887ef52ea21510f2244ae94773ae96d093db693f9a89d06bb31ad7ddd"
+    },
+    {
+      "name": "scripts/planes/plane_cargo/plane_cargo.scr",
+      "offset": 2244570,
+      "size": 1026,
+      "flags": 0,
+      "sha256": "b94fac56f92c77d4496b6d713b5bfafd06e5574ea86b64f80c3eb9f7a3a981d8"
+    },
+    {
+      "name": "scripts/planes/mig/plane.scr",
+      "offset": 2245596,
+      "size": 1211,
+      "flags": 0,
+      "sha256": "31019ef826b7c111d45fafad517e8f5dd491406dda8f54d698f1248372a4c3ab"
+    },
+    {
+      "name": "scripts/rocketlauncher/rl.scr",
+      "offset": 2246807,
+      "size": 1042,
+      "flags": 0,
+      "sha256": "fe641830e0083580887885cafd483810d27a73d6c0d68220ec0e21e88a34a19d"
+    },
+    {
+      "name": "scripts/rocketlauncher/rl_flasher.scr",
+      "offset": 2247849,
+      "size": 131,
+      "flags": 0,
+      "sha256": "e9919741fda8fb0099d8b712f9621c25077619ac3962587db66aa0a444c1e868"
+    },
+    {
+      "name": "scripts/rocketlauncher/rl_holders.scr",
+      "offset": 2247980,
+      "size": 297,
+      "flags": 0,
+      "sha256": "44d7b54fd9790c7b796446a12ae98ca8499a6fd427aae9db4b2cb00e5db896c9"
+    },
+    {
+      "name": "scripts/rocketlauncher/rl_rocketblock.scr",
+      "offset": 2248277,
+      "size": 1754,
+      "flags": 0,
+      "sha256": "8f15241638b30a5fda201d5cfaae5c663829cae1dd34275a25c705eec2b9f0f0"
+    },
+    {
+      "name": "scripts/rocketlauncher/rl_rocketbase.scr",
+      "offset": 2250031,
+      "size": 310,
+      "flags": 0,
+      "sha256": "6ecc1c9af910413e78ca36ce767969310e3935f74c6b7af75e3b19a2a218e0a7"
+    },
+    {
+      "name": "scripts/mapobjects/koper_baba.scr",
+      "offset": 2250341,
+      "size": 351,
+      "flags": 0,
+      "sha256": "acd629eca62c69dc7f012dd357d730cebaa2891ffa77db774a19fecd90020774"
+    },
+    {
+      "name": "scripts/mapobjects/baken.scr",
+      "offset": 2250692,
+      "size": 323,
+      "flags": 0,
+      "sha256": "a217e7aa05a16d94ea4998672cb133f886cfc12db9284b4f02d55d305659fce7"
+    },
+    {
+      "name": "scripts/mapobjects/oilpump/op_kach.scr",
+      "offset": 2251015,
+      "size": 281,
+      "flags": 0,
+      "sha256": "adf0b1f108fea9516852e536ed962331316ca6e42fddda86d1addf5699826af1"
+    },
+    {
+      "name": "scripts/mapobjects/tree/tree.scr",
+      "offset": 2251296,
+      "size": 3330,
+      "flags": 0,
+      "sha256": "0c7e05855c75c059ee69d545aef6d60cb0977064bc904889d9ab417ebb87375c"
+    },
+    {
+      "name": "scripts/mapobjects/tree/grass.scr",
+      "offset": 2254626,
+      "size": 997,
+      "flags": 0,
+      "sha256": "cabaa0f9cb9c3f5787d435fb4583133f8dc9774959e8e3fed9788d41bb6ce9ff"
+    },
+    {
+      "name": "scripts/mapobjects/kran/kran.scr",
+      "offset": 2255623,
+      "size": 582,
+      "flags": 0,
+      "sha256": "1f89613c4dd415f64caf43f9e069dd049bf57afdcbd1737e532681a1fd4fe1bc"
+    },
+    {
+      "name": "scripts/mapobjects/kran/kran02.scr",
+      "offset": 2256205,
+      "size": 582,
+      "flags": 0,
+      "sha256": "1f89613c4dd415f64caf43f9e069dd049bf57afdcbd1737e532681a1fd4fe1bc"
+    },
+    {
+      "name": "scripts/buildings/angar_leftdoor.scr",
+      "offset": 2256787,
+      "size": 306,
+      "flags": 0,
+      "sha256": "a6331ad08e24402eb4133817c72a643af32a5eea9800704818e83128e6af847f"
+    },
+    {
+      "name": "scripts/buildings/angar_rightdoor.scr",
+      "offset": 2257093,
+      "size": 306,
+      "flags": 0,
+      "sha256": "d8c615161321642b3293ccc3c0b958ae3aabdd8af004d47ba0e10fcbef07972d"
+    },
+    {
+      "name": "scripts/buildings/angar.scr",
+      "offset": 2257399,
+      "size": 1271,
+      "flags": 0,
+      "sha256": "4a73d0c7e98d837bf1b147ec68ce81d7613026b0e1eb93bf37528a0b19ecf971"
+    },
+    {
+      "name": "scripts/buildings/vetryk_vint.scr",
+      "offset": 2258670,
+      "size": 131,
+      "flags": 0,
+      "sha256": "21de836145309bd4b6fa4e707a4a4bdf8bcffef7c861d24c7f4826fab52933ae"
+    },
+    {
+      "name": "scripts/buildings/kolhoz.scr",
+      "offset": 2258801,
+      "size": 1363,
+      "flags": 0,
+      "sha256": "063892f6a1879b6ee432f3b62cf79b68f77072e9b72d6a0d93ba6281cbe7f511"
+    },
+    {
+      "name": "scripts/buildings/stolb_provoda.scr",
+      "offset": 2260164,
+      "size": 806,
+      "flags": 0,
+      "sha256": "595ffbcb9c9bde87590eedfa05f2139ae5a0bd6a44287ebe770bd62adc1159ad"
+    },
+    {
+      "name": "scripts/buildings/lep_provoda.scr",
+      "offset": 2260970,
+      "size": 806,
+      "flags": 0,
+      "sha256": "32f6f774107fe74286f1ad24ed34ba423bf298092fb1b037c972ce41d3698e7c"
+    },
+    {
+      "name": "scripts/buildings/mayak.scr",
+      "offset": 2261776,
+      "size": 131,
+      "flags": 0,
+      "sha256": "f0c9c33f07815395d1d6d1db450fb2de39f0f850d911e809e449dad379f656d2"
+    },
+    {
+      "name": "scripts/weapons_enemy/e_missile.scr",
+      "offset": 2261907,
+      "size": 357,
+      "flags": 0,
+      "sha256": "d5235f5d561d5168e04e7cb734a1c2b083f06a98e2cb3cec76baa08626c3b5fa"
+    },
+    {
+      "name": "scripts/weapons_enemy/e_missile_big.scr",
+      "offset": 2262264,
+      "size": 365,
+      "flags": 0,
+      "sha256": "ded847ba738e892c3eaea505765bafca6e409878b15f79b5b18c6ec2dec2d1ba"
+    },
+    {
+      "name": "scripts/weapons_enemy/e_missile_heat.scr",
+      "offset": 2262629,
+      "size": 734,
+      "flags": 0,
+      "sha256": "dd4eb74d397461a571f03ba92765f879e16ef4049440f6de23a35648f1fe9e2f"
+    },
+    {
+      "name": "scripts/weapons_enemy/e_missile_heat_small.scr",
+      "offset": 2263363,
+      "size": 357,
+      "flags": 0,
+      "sha256": "d5235f5d561d5168e04e7cb734a1c2b083f06a98e2cb3cec76baa08626c3b5fa"
+    },
+    {
+      "name": "scripts/weapons_enemy/e_missile_small.scr",
+      "offset": 2263720,
+      "size": 394,
+      "flags": 0,
+      "sha256": "bf8d115a22783e8430631403d2819ce210d33219c9fb6d7610444a9a08611be0"
+    },
+    {
+      "name": "scripts/weapons_enemy/flash.scr",
+      "offset": 2264114,
+      "size": 733,
+      "flags": 0,
+      "sha256": "d7bb576e1fcc715a337a73bcb030ae2a0e20979c8636b1295446c714875857b0"
+    },
+    {
+      "name": "scripts/weapons_enemy/hit.scr",
+      "offset": 2264847,
+      "size": 747,
+      "flags": 0,
+      "sha256": "b46ac762f1df7592cf7772a268d028da37dfdaef378d843f6b2581692ae017e5"
+    },
+    {
+      "name": "scripts/weapons_enemy/hit_z.scr",
+      "offset": 2265594,
+      "size": 613,
+      "flags": 0,
+      "sha256": "947296b3986b70b163c8d20106d8c10dfa6927cefa2a8f659550f6b08412cb90"
+    },
+    {
+      "name": "scripts/weapons_enemy/hit2.scr",
+      "offset": 2266207,
+      "size": 747,
+      "flags": 0,
+      "sha256": "b4fdcdbba28d39c674f10863548a0340be1b51a7ee56f537647bdd988792cc84"
+    },
+    {
+      "name": "scripts/weapons_enemy/hit3.scr",
+      "offset": 2266954,
+      "size": 747,
+      "flags": 0,
+      "sha256": "52718783860d8e3505aca729d5febd5ff2060d669c6e32cd310703ad3092fb5c"
+    },
+    {
+      "name": "scripts/weapons_enemy/impulse/igun_proj.scr",
+      "offset": 2267701,
+      "size": 335,
+      "flags": 0,
+      "sha256": "8a8718f667ed907e606277fc69e73b5e461c133a8598d44d07cdcd5896f38cac"
+    },
+    {
+      "name": "scripts/weapons_enemy/impulse/igun_flash.scr",
+      "offset": 2268036,
+      "size": 439,
+      "flags": 0,
+      "sha256": "f63e3123407f44602fa1f8104e967d81f95c19758e661f8def32dc9103f03150"
+    },
+    {
+      "name": "scripts/weapons_enemy/laser/laser_proj.scr",
+      "offset": 2268475,
+      "size": 333,
+      "flags": 0,
+      "sha256": "f0c813f6b01382378f2a5aeb8ff913dad9dd2d70263017668c4b73f0466948c9"
+    },
+    {
+      "name": "scripts/weapons_enemy/laser/laser_flash.scr",
+      "offset": 2268808,
+      "size": 439,
+      "flags": 0,
+      "sha256": "e3d35195d54b80dea7454a01e88c89980b5a6f7d363b32bee51976cda1e2b80d"
+    },
+    {
+      "name": "scripts/weapons_enemy/laser/laser_orange_small_proj.scr",
+      "offset": 2269247,
+      "size": 346,
+      "flags": 0,
+      "sha256": "99f9a07b122f47fff481886b62d5c28c0c145d81d8a896f5e4e48af71cd7f9ff"
+    },
+    {
+      "name": "scripts/weapons_enemy/laser/laser_blue_small_proj.scr",
+      "offset": 2269593,
+      "size": 344,
+      "flags": 0,
+      "sha256": "f45c100f8c32302135fb0608a41535fa21dd82cf7590c14db62a2f18686a7d80"
+    },
+    {
+      "name": "scripts/weapons_enemy/laser/laser_red_proj.scr",
+      "offset": 2269937,
+      "size": 337,
+      "flags": 0,
+      "sha256": "96f84d9c846113ba23ed5b88ee8f1ae93051162650558063352d57a7ade1baac"
+    },
+    {
+      "name": "scripts/weapons_enemy/laser/flash_blue.scr",
+      "offset": 2270274,
+      "size": 439,
+      "flags": 0,
+      "sha256": "3c9addd14ef5b57590cc6c629cf8af5ec78d554affd9008e6060c0bcb1320563"
+    },
+    {
+      "name": "scripts/weapons_enemy/laser/flash_orange.scr",
+      "offset": 2270713,
+      "size": 439,
+      "flags": 0,
+      "sha256": "b560601ae2f46c1fc7e27327396a0d43e9e153a1fc5f14697db1fdf99937050f"
+    },
+    {
+      "name": "scripts/weapons_enemy/laser/flash_red.scr",
+      "offset": 2271152,
+      "size": 439,
+      "flags": 0,
+      "sha256": "e3d35195d54b80dea7454a01e88c89980b5a6f7d363b32bee51976cda1e2b80d"
+    },
+    {
+      "name": "scripts/weapons_enemy/laser/flash_mag.scr",
+      "offset": 2271591,
+      "size": 439,
+      "flags": 0,
+      "sha256": "10503b1de0a8fc0b692c3fefbe8e891d7628beab5425a2d647008d8c54550675"
+    },
+    {
+      "name": "scripts/weapons_enemy/laser/hit_orange.scr",
+      "offset": 2272030,
+      "size": 901,
+      "flags": 0,
+      "sha256": "2ad7d86d94ca76e63df9ce6d1024c1cb1a5c5d414dd58d1cfaefb4aa5dc1b497"
+    },
+    {
+      "name": "scripts/weapons_enemy/laser/biglaser_proj.scr",
+      "offset": 2272931,
+      "size": 551,
+      "flags": 0,
+      "sha256": "300b4d73fe56cf11bf67752f3e8dc1c77133721191941f20900ed64e5556f3cc"
+    },
+    {
+      "name": "scripts/weapons_enemy/laser/laser_green_proj.scr",
+      "offset": 2273482,
+      "size": 339,
+      "flags": 0,
+      "sha256": "5974c037804ed60fafdd2eb7a2b03e66f4d7e3254d8068d8d4198ff08dafa4ff"
+    },
+    {
+      "name": "scripts/weapons_enemy/mgun/mgun_proj.scr",
+      "offset": 2273821,
+      "size": 332,
+      "flags": 0,
+      "sha256": "c3174f2f3a39441c3c3b39d4927f5288a6ce24f547ec1bc1f35f17dcde6d9faa"
+    },
+    {
+      "name": "scripts/weapons_enemy/mgun/mgun_flash.scr",
+      "offset": 2274153,
+      "size": 327,
+      "flags": 0,
+      "sha256": "1839c1887920d4936cbbf2fbc929496a75c4318efde30b8a64c3d155ea71699f"
+    },
+    {
+      "name": "scripts/weapons_enemy/mgun/mgun_blue_proj.scr",
+      "offset": 2274480,
+      "size": 337,
+      "flags": 0,
+      "sha256": "70d724e8b00dce7ac5ad11c2608eb7ebba58d84a0497e1a5641d742df1d54886"
+    },
+    {
+      "name": "scripts/weapons_enemy/fball/fball.scr",
+      "offset": 2274817,
+      "size": 333,
+      "flags": 0,
+      "sha256": "4672f71fa05108b935fefac497b77ba62b3b89f9408e992d460e368d9e87fac5"
+    },
+    {
+      "name": "scripts/weapons_enemy/fball/fball_red.scr",
+      "offset": 2275150,
+      "size": 374,
+      "flags": 0,
+      "sha256": "a7449114b3a84f5c5a3c454ed9e968a93120fd646cd7149e7cd91db1d0d40ad0"
+    },
+    {
+      "name": "scripts/weapons_enemy/fball/fball_blue_small.scr",
+      "offset": 2275524,
+      "size": 381,
+      "flags": 0,
+      "sha256": "d92c9a6453af6d75b6f3c2a8797937aebd914d5d96c6d5cb3a68e4efcd59a2cc"
+    },
+    {
+      "name": "scripts/weapons_enemy/fball/fball_red_small.scr",
+      "offset": 2275905,
+      "size": 380,
+      "flags": 0,
+      "sha256": "59e933c490846c6512c78d30a50cbede2e5cf71ea753b6b01e1bcdc6e61ae3c5"
+    },
+    {
+      "name": "scripts/weapons_enemy/fball/fball_mag.scr",
+      "offset": 2276285,
+      "size": 374,
+      "flags": 0,
+      "sha256": "2b3c67f33f7e99c14a3399c808efb5435ba20e51d682a533c0d916b2cf8f72fd"
+    },
+    {
+      "name": "scripts/weapons_enemy/fball/fball_green.scr",
+      "offset": 2276659,
+      "size": 376,
+      "flags": 0,
+      "sha256": "32d0dae0c56167f78b64889870d3ff39fef09ea8cc09ab8170275d7b270572ba"
+    },
+    {
+      "name": "scripts/weapons_enemy/fball/bfg/lightingbomb_proj.scr",
+      "offset": 2277035,
+      "size": 458,
+      "flags": 0,
+      "sha256": "8a13561a830a5ae9d2812ce23a063df281ade2f15034609e990fdf9f51e20ed9"
+    },
+    {
+      "name": "scripts/weapons_enemy/mortyr/mortyr.scr",
+      "offset": 2277493,
+      "size": 367,
+      "flags": 0,
+      "sha256": "886759b6aebad3a5c78469c0119e88d74f67d3413ca67ee332ba94d8f0bbbfc7"
+    },
+    {
+      "name": "scripts/weapons_enemy/mortyr/mortyr_mag_small.scr",
+      "offset": 2277860,
+      "size": 450,
+      "flags": 0,
+      "sha256": "2d8ec21a0758d6a649cdd10771f38138c07b615e84a8bf67dc71d75a70419f20"
+    },
+    {
+      "name": "scripts/weapons_enemy/mortyr/hit.scr",
+      "offset": 2278310,
+      "size": 733,
+      "flags": 0,
+      "sha256": "d7bb576e1fcc715a337a73bcb030ae2a0e20979c8636b1295446c714875857b0"
+    },
+    {
+      "name": "scripts/weapons_enemy/mortyr/mortyr_orange_small.scr",
+      "offset": 2279043,
+      "size": 449,
+      "flags": 0,
+      "sha256": "ee2a268fb1a9e64f816c2c8f20b1dd1092744267281a6f530d897351674264e3"
+    },
+    {
+      "name": "scripts/weapons_enemy/fball_big/fball.scr",
+      "offset": 2279492,
+      "size": 375,
+      "flags": 0,
+      "sha256": "703904f80ad72c189a4e1af9288f5451b6b43ca0d47d6381ae1801421a8bf8ea"
+    },
+    {
+      "name": "scripts/weapons_enemy/fball_big/fball2.scr",
+      "offset": 2279867,
+      "size": 131,
+      "flags": 0,
+      "sha256": "b64617f1a527ec1efda524a1695db260d6486b38198de00fcf909ffe32893d24"
+    },
+    {
+      "name": "scripts/weapons_enemy/fball_big/fball_big2.scr",
+      "offset": 2279998,
+      "size": 375,
+      "flags": 0,
+      "sha256": "8c81f399e8e81681b8ee6b32eabec974322816cc432c600796b2627024119681"
+    },
+    {
+      "name": "scripts/weapons_enemy/fball_big/fball_big3.scr",
+      "offset": 2280373,
+      "size": 375,
+      "flags": 0,
+      "sha256": "6216e53b0820c7dfac5ffe1f8ae0eb2095c735cb66786201137bcd257c6fd8db"
+    },
+    {
+      "name": "scripts/btrs/btr_medium/btr.scr",
+      "offset": 2280748,
+      "size": 1367,
+      "flags": 0,
+      "sha256": "5efb3efeea7e76275e973de0ce328535c966b8bddcccf28aa5c987fba05ed9f7"
+    },
+    {
+      "name": "scripts/btrs/btr_medium/btr_cannon.scr",
+      "offset": 2282115,
+      "size": 310,
+      "flags": 0,
+      "sha256": "6f7a6771fb4d8d65286be26994986c73c2f548929022e06e0ba9ff8d372df0f8"
+    },
+    {
+      "name": "scripts/btrs/btr_medium/btr_guns.scr",
+      "offset": 2282425,
+      "size": 1288,
+      "flags": 0,
+      "sha256": "4473c3eeaca875d610c665b3834b3695a6ef37f5e2a8e537b5ed6ed8f35395e5"
+    },
+    {
+      "name": "scripts/btrs/btr/btr.scr",
+      "offset": 2283713,
+      "size": 1367,
+      "flags": 0,
+      "sha256": "642637494151678456d652ab1712c1037b022d4c64375bc5bc606f9aad0b74c4"
+    },
+    {
+      "name": "scripts/btrs/btr/btr_guns.scr",
+      "offset": 2285080,
+      "size": 1287,
+      "flags": 0,
+      "sha256": "c7b5d791dce0c0310ad26ea8c66fb9aff0807c3c7c87d02e4544570f7b611669"
+    },
+    {
+      "name": "scripts/btrs/btr/btr_cannon.scr",
+      "offset": 2286367,
+      "size": 310,
+      "flags": 0,
+      "sha256": "6f7a6771fb4d8d65286be26994986c73c2f548929022e06e0ba9ff8d372df0f8"
+    },
+    {
+      "name": "scripts/btrs/btr_tank/btr_tank.scr",
+      "offset": 2286677,
+      "size": 1367,
+      "flags": 0,
+      "sha256": "5efb3efeea7e76275e973de0ce328535c966b8bddcccf28aa5c987fba05ed9f7"
+    },
+    {
+      "name": "scripts/btrs/btr_tank/btr_tank_turret.scr",
+      "offset": 2288044,
+      "size": 310,
+      "flags": 0,
+      "sha256": "6f7a6771fb4d8d65286be26994986c73c2f548929022e06e0ba9ff8d372df0f8"
+    },
+    {
+      "name": "scripts/btrs/btr_tank/btr_tank_guns.scr",
+      "offset": 2288354,
+      "size": 1288,
+      "flags": 0,
+      "sha256": "4473c3eeaca875d610c665b3834b3695a6ef37f5e2a8e537b5ed6ed8f35395e5"
+    },
+    {
+      "name": "scripts/btrs/btr_tank/btr_tank_wheel.scr",
+      "offset": 2289642,
+      "size": 482,
+      "flags": 0,
+      "sha256": "d7f02b2c7941b771200492c92eae382bae4bcc3e5c1020655b46e06d0d0b8edc"
+    },
+    {
+      "name": "scripts/btrs/btr_small_1/btr_small_1.scr",
+      "offset": 2290124,
+      "size": 1367,
+      "flags": 0,
+      "sha256": "5efb3efeea7e76275e973de0ce328535c966b8bddcccf28aa5c987fba05ed9f7"
+    },
+    {
+      "name": "scripts/btrs/btr_small_1/btr_small_1_turret.scr",
+      "offset": 2291491,
+      "size": 310,
+      "flags": 0,
+      "sha256": "6f7a6771fb4d8d65286be26994986c73c2f548929022e06e0ba9ff8d372df0f8"
+    },
+    {
+      "name": "scripts/btrs/btr_small_1/btr_small_1_guns.scr",
+      "offset": 2291801,
+      "size": 1212,
+      "flags": 0,
+      "sha256": "8f608e50f52bea81affb3260a476d213a693bc613a0f1338b861b262e7211ba7"
+    },
+    {
+      "name": "scripts/btrs/btr_small_1/btr_small_1_wheel.scr",
+      "offset": 2293013,
+      "size": 482,
+      "flags": 0,
+      "sha256": "d7f02b2c7941b771200492c92eae382bae4bcc3e5c1020655b46e06d0d0b8edc"
+    },
+    {
+      "name": "scripts/btrs/btr_small_brdm/btr_small_brdm.scr",
+      "offset": 2293495,
+      "size": 1367,
+      "flags": 0,
+      "sha256": "5efb3efeea7e76275e973de0ce328535c966b8bddcccf28aa5c987fba05ed9f7"
+    },
+    {
+      "name": "scripts/btrs/btr_small_brdm/btr_small_brdm_turret.scr",
+      "offset": 2294862,
+      "size": 310,
+      "flags": 0,
+      "sha256": "6f7a6771fb4d8d65286be26994986c73c2f548929022e06e0ba9ff8d372df0f8"
+    },
+    {
+      "name": "scripts/btrs/btr_small_brdm/btr_small_brdm_guns.scr",
+      "offset": 2295172,
+      "size": 1135,
+      "flags": 0,
+      "sha256": "6ea655b4fb7ed72da0fab596d15a9821eb1a7cb486be587bfa092483c6220909"
+    },
+    {
+      "name": "scripts/btrs/btr_small_brdm/btr_small_brdm_wheel.scr",
+      "offset": 2296307,
+      "size": 482,
+      "flags": 0,
+      "sha256": "d7f02b2c7941b771200492c92eae382bae4bcc3e5c1020655b46e06d0d0b8edc"
+    },
+    {
+      "name": "scripts/btrs/btr_rocket/btr_rocket.scr",
+      "offset": 2296789,
+      "size": 1367,
+      "flags": 0,
+      "sha256": "5efb3efeea7e76275e973de0ce328535c966b8bddcccf28aa5c987fba05ed9f7"
+    },
+    {
+      "name": "scripts/btrs/btr_rocket/btr_rocket_cannon.scr",
+      "offset": 2298156,
+      "size": 310,
+      "flags": 0,
+      "sha256": "6f7a6771fb4d8d65286be26994986c73c2f548929022e06e0ba9ff8d372df0f8"
+    },
+    {
+      "name": "scripts/btrs/btr_rocket/btr_rocket_guns.scr",
+      "offset": 2298466,
+      "size": 1512,
+      "flags": 0,
+      "sha256": "38848c6b3ae81127c03e2fea2907cfba838523bab6b365141f14fb4db2cce2a0"
+    },
+    {
+      "name": "scripts/btrs/btr_rocket/btr_rocket_wheel.scr",
+      "offset": 2299978,
+      "size": 482,
+      "flags": 0,
+      "sha256": "d7f02b2c7941b771200492c92eae382bae4bcc3e5c1020655b46e06d0d0b8edc"
+    },
+    {
+      "name": "scripts/transport/gruzovik.scr",
+      "offset": 2300460,
+      "size": 969,
+      "flags": 0,
+      "sha256": "cac3f57e04f1577d26f3f0dfca1268e6a979baddde2eb0af1fc951bcdbe0a0da"
+    },
+    {
+      "name": "scripts/transport/gruzovik_oil.scr",
+      "offset": 2301429,
+      "size": 975,
+      "flags": 0,
+      "sha256": "0737aac2bc29005e6bf29dc8f3b0d852ed7b6770cca3416dcc92fe4691e293cc"
+    },
+    {
+      "name": "scripts/transport/civil_jeep.scr",
+      "offset": 2302404,
+      "size": 1127,
+      "flags": 0,
+      "sha256": "0e15157808addf93598fec6fbbb3bc47d0e958625aa0d1f31a96db88ef2c857a"
+    },
+    {
+      "name": "scripts/transport/traktor.scr",
+      "offset": 2303531,
+      "size": 1371,
+      "flags": 0,
+      "sha256": "62f5f9072582eac3f8732658a62fb1725d9361913b68a77f02b6b557519d48db"
+    },
+    {
+      "name": "scripts/transport/truck_medium_oil/truck_medium_oil.scr",
+      "offset": 2304902,
+      "size": 985,
+      "flags": 0,
+      "sha256": "f54ea71c3d334b370435c1488563d72619efc0753f9bc22a9ef91658cb168294"
+    },
+    {
+      "name": "scripts/transport/truck_medium_oil/truck_medium_oil_wheel.scr",
+      "offset": 2305887,
+      "size": 482,
+      "flags": 0,
+      "sha256": "d7f02b2c7941b771200492c92eae382bae4bcc3e5c1020655b46e06d0d0b8edc"
+    },
+    {
+      "name": "scripts/transport/truck_medium_kuzov/truck_medium_kuzov.scr",
+      "offset": 2306369,
+      "size": 969,
+      "flags": 0,
+      "sha256": "cac3f57e04f1577d26f3f0dfca1268e6a979baddde2eb0af1fc951bcdbe0a0da"
+    },
+    {
+      "name": "scripts/transport/truck_medium_kuzov/truck_medium_kuzov_wh.scr",
+      "offset": 2307338,
+      "size": 482,
+      "flags": 0,
+      "sha256": "d7f02b2c7941b771200492c92eae382bae4bcc3e5c1020655b46e06d0d0b8edc"
+    },
+    {
+      "name": "scripts/transport/truck_medium_kuzov/truck_medium_kuzov_wheel.sc",
+      "offset": 2307820,
+      "size": 482,
+      "flags": 0,
+      "sha256": "d7f02b2c7941b771200492c92eae382bae4bcc3e5c1020655b46e06d0d0b8edc"
+    },
+    {
+      "name": "scripts/transport/tyagach/tyagach.scr",
+      "offset": 2308302,
+      "size": 2629,
+      "flags": 0,
+      "sha256": "ece172b7825764a1903da54379fcfc68dc66f0b69901596da1d30ce9b867e596"
+    },
+    {
+      "name": "scripts/transport/tyagach/tyagach_wheel.scr",
+      "offset": 2310931,
+      "size": 482,
+      "flags": 0,
+      "sha256": "d7f02b2c7941b771200492c92eae382bae4bcc3e5c1020655b46e06d0d0b8edc"
+    },
+    {
+      "name": "scripts/transport/tyagach/pricep.scr",
+      "offset": 2311413,
+      "size": 1499,
+      "flags": 0,
+      "sha256": "b279a1aac6c7de5c50551e946af56b388cfb4893a025c1023b3a23bbad2ee166"
+    },
+    {
+      "name": "scripts/transport/tyagach/tank.scr",
+      "offset": 2312912,
+      "size": 1549,
+      "flags": 0,
+      "sha256": "e872c25910dbc23e6dd771f520f491ccc8547779897ac08d3ea8b8befcaaff98"
+    },
+    {
+      "name": "scripts/transport/civil_car/civil_car.scr",
+      "offset": 2314461,
+      "size": 1371,
+      "flags": 0,
+      "sha256": "600a328b82e0468cd92648df912db902dd450c96b6d648f67b691567cde046b0"
+    },
+    {
+      "name": "scripts/transport/civil_car/civil_car_wheel.scr",
+      "offset": 2315832,
+      "size": 482,
+      "flags": 0,
+      "sha256": "d7f02b2c7941b771200492c92eae382bae4bcc3e5c1020655b46e06d0d0b8edc"
+    },
+    {
+      "name": "scripts/transport/civil_car2/civil_car2.scr",
+      "offset": 2316314,
+      "size": 1371,
+      "flags": 0,
+      "sha256": "600a328b82e0468cd92648df912db902dd450c96b6d648f67b691567cde046b0"
+    },
+    {
+      "name": "scripts/transport/katusha/katusha.scr",
+      "offset": 2317685,
+      "size": 967,
+      "flags": 0,
+      "sha256": "8bf25b23ac7a38fbef600e86da36cbdaf784a9b9655b0fa1aedfbfe0d3530cb8"
+    },
+    {
+      "name": "scripts/transport/katusha/katusha_wheel.scr",
+      "offset": 2318652,
+      "size": 482,
+      "flags": 0,
+      "sha256": "d7f02b2c7941b771200492c92eae382bae4bcc3e5c1020655b46e06d0d0b8edc"
+    },
+    {
+      "name": "scripts/transport/fire_truck/fire_truck.scr",
+      "offset": 2319134,
+      "size": 969,
+      "flags": 0,
+      "sha256": "cac3f57e04f1577d26f3f0dfca1268e6a979baddde2eb0af1fc951bcdbe0a0da"
+    },
+    {
+      "name": "scripts/transport/fire_truck/fire_truck_turret.scr",
+      "offset": 2320103,
+      "size": 310,
+      "flags": 0,
+      "sha256": "6f7a6771fb4d8d65286be26994986c73c2f548929022e06e0ba9ff8d372df0f8"
+    },
+    {
+      "name": "scripts/transport/fire_truck/fire_truck_wheel.scr",
+      "offset": 2320413,
+      "size": 482,
+      "flags": 0,
+      "sha256": "d7f02b2c7941b771200492c92eae382bae4bcc3e5c1020655b46e06d0d0b8edc"
+    },
+    {
+      "name": "scripts/transport/truck/truck_wheel.scr",
+      "offset": 2320895,
+      "size": 482,
+      "flags": 0,
+      "sha256": "d7f02b2c7941b771200492c92eae382bae4bcc3e5c1020655b46e06d0d0b8edc"
+    },
+    {
+      "name": "scripts/transport/truck/truck.scr",
+      "offset": 2321377,
+      "size": 963,
+      "flags": 0,
+      "sha256": "d8472e502defb9e83f17ce6baa95df5ed224a8dbfe5ce4ac5828ebe28979e45f"
+    },
+    {
+      "name": "scripts/transport/truck/expl_truck.scr",
+      "offset": 2322340,
+      "size": 683,
+      "flags": 0,
+      "sha256": "a6a304f6241931b129b3e07293047fe25ab171eb4b3e415bf01b25a06337850a"
+    },
+    {
+      "name": "scripts/_new/meteorite_falling.scr",
+      "offset": 2323023,
+      "size": 2349,
+      "flags": 0,
+      "sha256": "8fd3e8da696fd0cccf43ee7851cdce974b255a80676f0b1add48b739196b8153"
+    },
+    {
+      "name": "scripts/_new/meteorite_gib_falling.scr",
+      "offset": 2325372,
+      "size": 1550,
+      "flags": 0,
+      "sha256": "0422e568cea87641f72c992db4d60641bfbbbe05fe1ca45a49bb63107f4fa00c"
+    },
+    {
+      "name": "scripts/_new/meteorite_medium_falling.scr",
+      "offset": 2326922,
+      "size": 2377,
+      "flags": 0,
+      "sha256": "22dfab3e9d6f2ae9881d51668951ba81dbc714f5719826c55ae63ca413c37419"
+    },
+    {
+      "name": "scripts/_new/ldina.scr",
+      "offset": 2329299,
+      "size": 281,
+      "flags": 0,
+      "sha256": "9da2f730e93080d35aab689b10ff603f63c3d7b9325f76786397d8c435a1e4a9"
+    },
+    {
+      "name": "scripts/rocket_launcher_big/expl.scr",
+      "offset": 2329580,
+      "size": 826,
+      "flags": 0,
+      "sha256": "4484a34f1a0e6c0babf358b8013fae898fe25957c4dcc84afc27a5dedd0538cb"
+    },
+    {
+      "name": "scripts/rocket_launcher_big/j_wheel.scr",
+      "offset": 2330406,
+      "size": 482,
+      "flags": 0,
+      "sha256": "d7f02b2c7941b771200492c92eae382bae4bcc3e5c1020655b46e06d0d0b8edc"
+    },
+    {
+      "name": "scripts/rocket_launcher_big/rl.scr",
+      "offset": 2330888,
+      "size": 1422,
+      "flags": 0,
+      "sha256": "28e3ab0b0fb0b47ea9a6dc11f0e6fa09859b8f596b79a6a1092034ca2fce1e0c"
+    },
+    {
+      "name": "scripts/rocket_launcher_big/rocket.scr",
+      "offset": 2332310,
+      "size": 843,
+      "flags": 0,
+      "sha256": "d9db3098d66916cd32484fafa7851b53a52db7e32c90d2fe49a9488712a7e85f"
+    },
+    {
+      "name": "scripts/rocket_launcher_big/rocket_falling.scr",
+      "offset": 2333153,
+      "size": 1037,
+      "flags": 0,
+      "sha256": "fd23f00c7ffe0abd22fa86479ad3c477222259ae866b1778b657946e9c552e3f"
+    },
+    {
+      "name": "scripts/rocket_launcher_big/smoke.scr",
+      "offset": 2334190,
+      "size": 179,
+      "flags": 0,
+      "sha256": "9bc2fa2a7701f4a2e49df6fa1502592ede78ba77e2079ec347b5b94bce09cb37"
+    },
+    {
+      "name": "scripts/rocket_launcher_big/wave.scr",
+      "offset": 2334369,
+      "size": 735,
+      "flags": 0,
+      "sha256": "5c43e6fe7b7d49f72b362435489d741466a56d91a47ea3387ab286977da4d864"
+    },
+    {
+      "name": "scripts/bosses/boss_2/boss_2.scr",
+      "offset": 2335104,
+      "size": 6970,
+      "flags": 0,
+      "sha256": "30675bed1d152358bccf873a52313c624ac186f3f36326e391b2f061dfc9a063"
+    },
+    {
+      "name": "scripts/bosses/boss_2/boss_2_base_guns.scr",
+      "offset": 2342074,
+      "size": 1192,
+      "flags": 0,
+      "sha256": "2d1a8731958377bbdb52733836eb63758d134e361829c7f2d10b36335d699b68"
+    },
+    {
+      "name": "scripts/bosses/boss_2/boss_2_base_rocket.scr",
+      "offset": 2343266,
+      "size": 537,
+      "flags": 0,
+      "sha256": "0bc7cd3ad781ed547a4df44b08ca334a14fd4e8fa8245e8cc037fd95da0de1a7"
+    },
+    {
+      "name": "scripts/bosses/boss_2/boss_2_base_turret.scr",
+      "offset": 2343803,
+      "size": 310,
+      "flags": 0,
+      "sha256": "0f2778e6128cc6ea3911bbf15e45242bef88783eec7cdf6d083043985544e58d"
+    },
+    {
+      "name": "scripts/bosses/boss_2/boss_2_kabina_gun.scr",
+      "offset": 2344113,
+      "size": 1205,
+      "flags": 0,
+      "sha256": "03982f56b6e5e94bafbb856f8a2710f22f716b85e189871365a2c98488449e40"
+    },
+    {
+      "name": "scripts/bosses/boss_2/boss_2_turbina.scr",
+      "offset": 2345318,
+      "size": 567,
+      "flags": 0,
+      "sha256": "8f52419032f192e2a0c1ae28eeb25bcd0a622ec5b73c2e679b2d8460988981b5"
+    },
+    {
+      "name": "scripts/bosses/boss_2/boss_2_turbina_l.scr",
+      "offset": 2345885,
+      "size": 1313,
+      "flags": 0,
+      "sha256": "e3d2413cead3ecc8207d1ff798ba54bcaf303d1d1ad7b435c48e9d916a97c049"
+    },
+    {
+      "name": "scripts/bosses/boss_2/boss_2_turbina_r.scr",
+      "offset": 2347198,
+      "size": 1313,
+      "flags": 0,
+      "sha256": "d7f7f7b3f93a5d5250cbba6380654661866fcc9f6a1b312ad601881f2c8249be"
+    },
+    {
+      "name": "scripts/bosses/boss_2/boss_2_kabina.scr",
+      "offset": 2348511,
+      "size": 3609,
+      "flags": 0,
+      "sha256": "f32c230d14dddc11e7147bac1bb478977b03b849450ad67fd1f977ad65e1c6c4"
+    },
+    {
+      "name": "scripts/bosses/boss_2/boss_2_base_guns_r.scr",
+      "offset": 2352120,
+      "size": 1192,
+      "flags": 0,
+      "sha256": "656357c33645143828f023c9d701506d1a027d6226f3635754edccff330eaf4e"
+    },
+    {
+      "name": "scripts/bosses/boss_1/boss_1_base.scr",
+      "offset": 2353312,
+      "size": 755,
+      "flags": 0,
+      "sha256": "00743bb198827b680687c7f3ecb45b3ebb7b73fa527e064d2d2855bf58737306"
+    },
+    {
+      "name": "scripts/bosses/boss_1/boss_1_bashnya.scr",
+      "offset": 2354067,
+      "size": 2565,
+      "flags": 0,
+      "sha256": "e3ee9d0f86421af18a676746b5f0207452fa4b4d414b62ee365216efb48de425"
+    },
+    {
+      "name": "scripts/bosses/boss_1/boss_1_bashnya_guns.scr",
+      "offset": 2356632,
+      "size": 1236,
+      "flags": 0,
+      "sha256": "5be49afcfbaa6ae5b18a620226f34a83cb5641dc4dcc3e2a53b214174433e478"
+    },
+    {
+      "name": "scripts/bosses/boss_1/boss_1_bashnya_rockets.scr",
+      "offset": 2357868,
+      "size": 1326,
+      "flags": 0,
+      "sha256": "1f944560b957b24cefe4360da3b7bd81d85b7db50ad91f1b0cdb949f3fcb6fcf"
+    },
+    {
+      "name": "scripts/bosses/boss_1/boss_1_bashnya_turret.scr",
+      "offset": 2359194,
+      "size": 211,
+      "flags": 0,
+      "sha256": "4cfef946a322f7a3814f663506a8a4885488b20b2e686448a16b4931313b1800"
+    },
+    {
+      "name": "scripts/bosses/boss_1/boss_1_chrome.scr",
+      "offset": 2359405,
+      "size": 460,
+      "flags": 0,
+      "sha256": "3bff5fcf604bbc752d151874b6768ac7ef6b0b97bcd287a3f52cfffed24d4546"
+    },
+    {
+      "name": "scripts/bosses/boss_1/boss_1_expl.scr",
+      "offset": 2359865,
+      "size": 623,
+      "flags": 0,
+      "sha256": "85502ab4e8af0bba4204398849c5d780f443d283c876e9f532a46a7df1eeee8d"
+    },
+    {
+      "name": "scripts/bosses/boss_1/boss_1_expl_big.scr",
+      "offset": 2360488,
+      "size": 1125,
+      "flags": 0,
+      "sha256": "d04f3e820d2a8bb056ea619837ac75c4b4619ded3e496ffdfe592114bd24666b"
+    },
+    {
+      "name": "scripts/bosses/boss_1/boss_1_helic.scr",
+      "offset": 2361613,
+      "size": 5213,
+      "flags": 0,
+      "sha256": "c5a4c38be4ab26858cf77f1009735988e9dab8f94e389badbef7466859c0f3f0"
+    },
+    {
+      "name": "scripts/bosses/boss_1/boss_1_kabina.scr",
+      "offset": 2366826,
+      "size": 194,
+      "flags": 0,
+      "sha256": "7e44d3633b12540053249e4d6410d19b85819f135db95811cfd88a3f303545a0"
+    },
+    {
+      "name": "scripts/bosses/boss_1/boss_1_lukl.scr",
+      "offset": 2367020,
+      "size": 622,
+      "flags": 0,
+      "sha256": "c94517871192c769c1c33ae71a5d3383e09c9f8bbd88e91aaca342fd06075f26"
+    },
+    {
+      "name": "scripts/bosses/boss_1/boss_1_lukr.scr",
+      "offset": 2367642,
+      "size": 561,
+      "flags": 0,
+      "sha256": "6646b9b87892752c8205ed48f074106a2e4b0bcf5338f85bfdb11c424687e1d7"
+    },
+    {
+      "name": "scripts/bosses/boss_1/boss_1_turret_small.scr",
+      "offset": 2368203,
+      "size": 889,
+      "flags": 0,
+      "sha256": "6aaa2caffd60ae019dc79131423843a2f31171c68b196fa22a8912aa08588e7b"
+    },
+    {
+      "name": "scripts/bosses/boss_1/boss_1_wheel.scr",
+      "offset": 2369092,
+      "size": 482,
+      "flags": 0,
+      "sha256": "d7f02b2c7941b771200492c92eae382bae4bcc3e5c1020655b46e06d0d0b8edc"
+    },
+    {
+      "name": "scripts/bosses/boss_3_base/boss3_base.scr",
+      "offset": 2369574,
+      "size": 3494,
+      "flags": 0,
+      "sha256": "668cc8b22da184c7048fb6634f07eb3db52128687acf06ac2712b9babd1e5c0a"
+    },
+    {
+      "name": "scripts/bosses/boss_3_base/boss3_sphere.scr",
+      "offset": 2373068,
+      "size": 391,
+      "flags": 0,
+      "sha256": "1081e938a4d669ac84e17d437728b4204bd4e8faaee4218c026cfbed31bdabec"
+    },
+    {
+      "name": "scripts/bosses/boss_3_base/boss3_rocketnica.scr",
+      "offset": 2373459,
+      "size": 664,
+      "flags": 0,
+      "sha256": "7830a5bec5012f11d068438baa7f603269f873ac823919a92839919fc576cf0f"
+    },
+    {
+      "name": "scripts/bosses/boss_3_base/boss3_luk.scr",
+      "offset": 2374123,
+      "size": 408,
+      "flags": 0,
+      "sha256": "ec648c7344bfc8d07da3ce9ce68baa1e1fcdd9744419b69279a0b70712c36aa2"
+    },
+    {
+      "name": "scripts/bosses/boss_3_base/boss3_luk_cover.scr",
+      "offset": 2374531,
+      "size": 502,
+      "flags": 0,
+      "sha256": "e5a3e8a8e2855de64be21e51268b4cdf2d30cc1a443608095a1e05aba444d3a2"
+    },
+    {
+      "name": "scripts/bosses/boss_3_base/boss3_gun_1.scr",
+      "offset": 2375033,
+      "size": 931,
+      "flags": 0,
+      "sha256": "218fe0645a5f55c01b0d8a3940a73c9fa8ea3b25a4d3568ffeb2fd6e59bb2fff"
+    },
+    {
+      "name": "scripts/bosses/boss_3_base/boss3_gun_2.scr",
+      "offset": 2375964,
+      "size": 993,
+      "flags": 0,
+      "sha256": "a798dccaeee5ec9f76446b5975abb9466a7ca4e850c84509e6f4702b5078836b"
+    },
+    {
+      "name": "scripts/bosses/boss_3_base/boss3_turret_1.scr",
+      "offset": 2376957,
+      "size": 427,
+      "flags": 0,
+      "sha256": "b662b0942dbafa33d3800c275109fd278321e4db2c1616c970294c451e34bf7b"
+    },
+    {
+      "name": "scripts/bosses/boss_3_base/boss3_turret_2.scr",
+      "offset": 2377384,
+      "size": 427,
+      "flags": 0,
+      "sha256": "b662b0942dbafa33d3800c275109fd278321e4db2c1616c970294c451e34bf7b"
+    },
+    {
+      "name": "scripts/bosses/boss_3_helic/boss_3_helic.scr",
+      "offset": 2377811,
+      "size": 4362,
+      "flags": 0,
+      "sha256": "6456baa4424637c66c5a048e84a8702127acb7c83a43794a0f84a6e9753803c8"
+    },
+    {
+      "name": "scripts/bosses/boss_3_helic/vint.scr",
+      "offset": 2382173,
+      "size": 167,
+      "flags": 0,
+      "sha256": "491fab709184c704b3974626c4f36675f8285613d30a7c2cb1ff90316b10b4a5"
+    },
+    {
+      "name": "scripts/bosses/boss_3_train/train_porshen.scr",
+      "offset": 2382340,
+      "size": 351,
+      "flags": 0,
+      "sha256": "7283dd10b2220a56b62499d01706735f225408deae1921cf7cd93e1544c8d368"
+    },
+    {
+      "name": "scripts/bosses/boss_3_train/train_porshen1.scr",
+      "offset": 2382691,
+      "size": 365,
+      "flags": 0,
+      "sha256": "0fd82822baa81aea56e477eaf41a1bbe75d1c9ca13e2285443fd2f708278b1da"
+    },
+    {
+      "name": "scripts/bosses/boss_3_train/train_gun.scr",
+      "offset": 2383056,
+      "size": 1128,
+      "flags": 0,
+      "sha256": "e1c4c48e76796cf86e3dd7bfaee4d3ff44d617243ec5243d34023555c687e21b"
+    },
+    {
+      "name": "scripts/bosses/boss_3_train/train_turret.scr",
+      "offset": 2384184,
+      "size": 310,
+      "flags": 0,
+      "sha256": "6f7a6771fb4d8d65286be26994986c73c2f548929022e06e0ba9ff8d372df0f8"
+    },
+    {
+      "name": "scripts/bosses/boss_3_train/train_wheel.scr",
+      "offset": 2384494,
+      "size": 482,
+      "flags": 0,
+      "sha256": "d7f02b2c7941b771200492c92eae382bae4bcc3e5c1020655b46e06d0d0b8edc"
+    },
+    {
+      "name": "scripts/bosses/boss_3_train/vagon03_gun01.scr",
+      "offset": 2384976,
+      "size": 1052,
+      "flags": 0,
+      "sha256": "ff6af099241806b9785a01f92b4b2a0185103d507ee29a7711bfe5174317e6eb"
+    },
+    {
+      "name": "scripts/bosses/boss_3_train/vagon03_gun02.scr",
+      "offset": 2386028,
+      "size": 1219,
+      "flags": 0,
+      "sha256": "394ea96c08bd70c28701fe7fe9464fbb1fdf4d42d08e5427add781bee4cc67d1"
+    },
+    {
+      "name": "scripts/bosses/boss_3_train/train.scr",
+      "offset": 2387247,
+      "size": 2504,
+      "flags": 0,
+      "sha256": "b294dd8ae58b4a9a7b848d8fcb9180741c24f01ca2767e442dffaf66c23c92a1"
+    },
+    {
+      "name": "scripts/bosses/boss_3_train/vagon4.scr",
+      "offset": 2389751,
+      "size": 1832,
+      "flags": 0,
+      "sha256": "ab28ba0b3e97019c1326b192ea243dde507866e44274e41424066e2fbc8a9d8b"
+    },
+    {
+      "name": "scripts/bosses/boss_3_train/vagon3.scr",
+      "offset": 2391583,
+      "size": 1241,
+      "flags": 0,
+      "sha256": "8c682ff2c84d5475e7e1428b74c9208973b40b0dcab8ce1a496bb7245d9bf8bf"
+    },
+    {
+      "name": "scripts/bosses/boss_3_train/helic.scr",
+      "offset": 2392824,
+      "size": 5499,
+      "flags": 0,
+      "sha256": "3b90af6ecdeedd35598ebba7e67ef8b7c88b8f348c10d22255bf7bdd34dbf9d9"
+    },
+    {
+      "name": "scripts/buggys/buggy01/buggy01.scr",
+      "offset": 2398323,
+      "size": 1371,
+      "flags": 0,
+      "sha256": "600a328b82e0468cd92648df912db902dd450c96b6d648f67b691567cde046b0"
+    },
+    {
+      "name": "scripts/buggys/buggy01/buggy01_wheel.scr",
+      "offset": 2399694,
+      "size": 482,
+      "flags": 0,
+      "sha256": "d7f02b2c7941b771200492c92eae382bae4bcc3e5c1020655b46e06d0d0b8edc"
+    },
+    {
+      "name": "scripts/buggys/buggy01/buggy01_turret.scr",
+      "offset": 2400176,
+      "size": 310,
+      "flags": 0,
+      "sha256": "6f7a6771fb4d8d65286be26994986c73c2f548929022e06e0ba9ff8d372df0f8"
+    },
+    {
+      "name": "scripts/buggys/buggy01/buggy01_gun.scr",
+      "offset": 2400486,
+      "size": 1287,
+      "flags": 0,
+      "sha256": "c7b5d791dce0c0310ad26ea8c66fb9aff0807c3c7c87d02e4544570f7b611669"
+    },
+    {
+      "name": "scripts/buggys/buggy02/buggy02.scr",
+      "offset": 2401773,
+      "size": 1371,
+      "flags": 0,
+      "sha256": "600a328b82e0468cd92648df912db902dd450c96b6d648f67b691567cde046b0"
+    },
+    {
+      "name": "scripts/buggys/buggy02/buggy02_wheel.scr",
+      "offset": 2403144,
+      "size": 482,
+      "flags": 0,
+      "sha256": "d7f02b2c7941b771200492c92eae382bae4bcc3e5c1020655b46e06d0d0b8edc"
+    },
+    {
+      "name": "scripts/buggys/buggy02/buggy02_turret.scr",
+      "offset": 2403626,
+      "size": 310,
+      "flags": 0,
+      "sha256": "6f7a6771fb4d8d65286be26994986c73c2f548929022e06e0ba9ff8d372df0f8"
+    },
+    {
+      "name": "scripts/experemental/terra_blast.scr",
+      "offset": 2403936,
+      "size": 2379,
+      "flags": 0,
+      "sha256": "b35aad75773b1faf351722f5de6eda54547ae32df1d77ce7df11254a3bb6d3d6"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+entry=3 slots=17 functions=['AttachDeactivate', 'sleep', 'AttachActivate', 'create']
+0000 MOVE               a=0 b=0 c=0 flags=0x10 b_float=0
+0001 CALL               a=-1 b=0 c=0 flags=0x00 external=AttachDeactivate
+0002 YIELD              a=0 b=0 c=0 flags=0x00
+0003 SET_WAIT           a=1036831949 b=0 c=0 flags=0x01 a_float=0.1
+0004 CALL_WAIT          a=-2 b=0 c=0 flags=0x00 external=sleep
+0005 NOT_INT            a=16 b=0 c=0 flags=0x00
+0006 JUMP_IF_NONZERO    a=0 b=9 c=0 flags=0x00
+0007 MOVE               a=0 b=6 c=0 flags=0x10 b_float=8.40779e-45
+0008 CALL               a=-3 b=0 c=0 flags=0x00 external=AttachActivate
+0009 MOVE               a=16 b=1065353216 c=0 flags=0x10 b_float=1
+0010 SET_WAIT           a=1065353216 b=0 c=0 flags=0x01 a_float=1
+0011 CALL_WAIT          a=-2 b=0 c=0 flags=0x00 external=sleep
+0012 MOVE               a=0 b=12 c=0 flags=0x10 b_float=1.68156e-44
+0013 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0014 CALL               a=-4 b=0 c=0 flags=0x00 external=create
+0015 YIELD              a=0 b=0 c=0 flags=0x00

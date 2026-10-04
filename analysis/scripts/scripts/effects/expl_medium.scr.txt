@@ -1,0 +1,48 @@
+entry=0 slots=55 functions=['StartSound', 'TerraMorph', 'create', 'vec_copy', 'CameraQuake', 'remove']
+0000 MOVE               a=0 b=0 c=0 flags=0x10 b_float=0
+0001 CALL               a=-1 b=0 c=0 flags=0x00 external=StartSound
+0002 INDEX_ADDRESS      a=-1 b=5 c=0 flags=0x00
+0003 MOVE               a=1 b=17 c=0 flags=0x10 b_float=2.38221e-44
+0004 CALL               a=-2 b=0 c=0 flags=0x00 external=TerraMorph
+0005 MOVE               a=0 b=42 c=0 flags=0x10 b_float=5.88545e-44
+0006 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0007 CALL               a=-3 b=0 c=0 flags=0x00 external=create
+0008 MOVE               a=0 b=47 c=0 flags=0x10 b_float=6.5861e-44
+0009 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0010 CALL               a=-3 b=0 c=0 flags=0x00 external=create
+0011 MOVE               a=0 b=60 c=0 flags=0x10 b_float=8.40779e-44
+0012 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0013 CALL               a=-3 b=0 c=0 flags=0x00 external=create
+0014 MOVE               a=0 b=73 c=0 flags=0x10 b_float=1.02295e-43
+0015 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0016 CALL               a=-3 b=0 c=0 flags=0x00 external=create
+0017 MOVE               a=0 b=86 c=0 flags=0x10 b_float=1.20512e-43
+0018 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0019 CALL               a=-3 b=0 c=0 flags=0x00 external=create
+0020 MOVE               a=0 b=97 c=0 flags=0x10 b_float=1.35926e-43
+0021 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0022 CALL               a=-3 b=0 c=0 flags=0x00 external=create
+0023 MOVE               a=0 b=110 c=0 flags=0x10 b_float=1.54143e-43
+0024 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0025 CALL               a=-3 b=0 c=0 flags=0x00 external=create
+0026 MOVE               a=0 b=123 c=0 flags=0x10 b_float=1.7236e-43
+0027 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0028 CALL               a=-3 b=0 c=0 flags=0x00 external=create
+0029 MOVE               a=0 b=133 c=0 flags=0x10 b_float=1.86373e-43
+0030 INDEX_ADDRESS      a=-1 b=5 c=1 flags=0x00
+0031 CALL               a=-3 b=0 c=0 flags=0x00 external=create
+0032 PUSH               a=0 b=0 c=0 flags=0x00
+0033 MOVE               a=0 b=145 c=0 flags=0x10 b_float=2.03188e-43
+0034 INDEX_ADDRESS      a=-1 b=5 c=2 flags=0x00
+0035 MOVE               a=1 b=2 c=0 flags=0x00
+0036 CALL               a=-3 b=1 c=0 flags=0x00 external=create
+0037 POP                a=0 b=0 c=0 flags=0x00
+0038 MOVE               a=16 b=1 c=0 flags=0x00
+0039 INDEX_ADDRESS      a=-1 b=14 c=0 flags=0x00
+0040 INDEX_ADDRESS      a=16 b=14 c=1 flags=0x00
+0041 CALL               a=-4 b=0 c=0 flags=0x00 external=vec_copy
+0042 MOVE               a=0 b=1058642330 c=0 flags=0x10 b_float=0.6
+0043 CALL               a=-5 b=0 c=0 flags=0x00 external=CameraQuake
+0044 MOVE               a=0 b=-1 c=0 flags=0x00
+0045 CALL               a=-6 b=0 c=0 flags=0x00 external=remove
+0046 YIELD              a=0 b=0 c=0 flags=0x00
